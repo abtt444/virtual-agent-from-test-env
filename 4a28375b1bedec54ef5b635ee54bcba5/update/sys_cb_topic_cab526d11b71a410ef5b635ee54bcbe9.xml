@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category>8df026591b31a410ef5b635ee54bcba7</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "f8ba6415ed6549daad34b7aaa1a5abd7": {
+          "id": "f8ba6415ed6549daad34b7aaa1a5abd7",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "104e1ab844ac480ba064b78dfb4374f6": {
+          "id": "104e1ab844ac480ba064b78dfb4374f6",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "5a0e19fa14b24299a49ef8ab419e9b5e": {
+          "id": "5a0e19fa14b24299a49ef8ab419e9b5e",
+          "stepType": "TextOutput",
+          "name": "Leave Cancellation",
+          "value": {
+            "value": "Leave Cancellation Response",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "aebeaaf0aab14c7dba5add4946f68b1a",
+          "edgeType": "Edge",
+          "source": "f8ba6415ed6549daad34b7aaa1a5abd7",
+          "target": "5a0e19fa14b24299a49ef8ab419e9b5e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "89fd716cdea9404a927df8753a3ee052",
+          "edgeType": "Edge",
+          "source": "5a0e19fa14b24299a49ef8ab419e9b5e",
+          "target": "104e1ab844ac480ba064b78dfb4374f6",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Leave Cancellation</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Leave Cancellation</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:27:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cab526d11b71a410ef5b635ee54bcbe9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Leave Cancellation</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_cab526d11b71a410ef5b635ee54bcbe9</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-18 12:27:15</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=cab526d11b71a410ef5b635ee54bcbe9"/>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_intent">
+    <sys_nlu_intent action="INSERT_OR_UPDATE">
+        <confidence_threshold/>
+        <description>Intent for users to find out where to get their payslips</description>
+        <enable>true</enable>
+        <model display_value="Absa HR Chatbot NLU Model - Entities">07c696471b8620d0ef5b635ee54bcbfd</model>
+        <name>Retrive Payslip </name>
+        <origin/>
+        <override_confidence_threshold>false</override_confidence_threshold>
+        <primary_intent/>
+        <status>draft</status>
+        <sys_class_name>sys_nlu_intent</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:43</sys_created_on>
+        <sys_id>1af65a871b8620d0ef5b635ee54bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Retrive Payslip </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_intent_1af65a871b8620d0ef5b635ee54bcb79</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:43</sys_updated_on>
+    </sys_nlu_intent>
+</record_update>

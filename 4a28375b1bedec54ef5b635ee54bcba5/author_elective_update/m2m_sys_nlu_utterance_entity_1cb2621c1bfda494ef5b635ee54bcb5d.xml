@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[7,8],"annotatedString":"Can you please help me perform a {{phrase=\"pension withdrawal?\"}}"}]</annotation>
+        <entity display_value="Payout">2426461c1bb9a494ef5b635ee54bcb2f</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 09:39:57</sys_created_on>
+        <sys_id>1cb2621c1bfda494ef5b635ee54bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payout.Can you please help me perform a pension withdrawal?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_1cb2621c1bfda494ef5b635ee54bcb5d</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 09:39:57</sys_updated_on>
+        <utterance display_value="Can you please help me perform a pension withdrawal?">6f2902d01bf9a494ef5b635ee54bcb7d</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_1cb2621c1bfda494ef5b635ee54bcb5d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[7,8],"annotatedString":"Can you please help me perform a {{phrase=\"pension withdrawal?\"}}"}]</annotation><entity display_value="Payout">2426461c1bb9a494ef5b635ee54bcb2f</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-01-15 09:39:57</sys_created_on><sys_id>1cb2621c1bfda494ef5b635ee54bcb5d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Payout.Can you please help me perform a pension withdrawal?</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_1cb2621c1bfda494ef5b635ee54bcb5d</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-01-15 09:39:57</sys_updated_on><utterance display_value="Can you please help me perform a pension withdrawal?">6f2902d01bf9a494ef5b635ee54bcb7d</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>189184469</payload_hash>
+        <record_name>Payout.Can you please help me perform a pension withdrawal?</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 09:39:57</sys_created_on>
+        <sys_id>98b2621c1bfda494ef5b635ee54bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177056a6deb0000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 09:39:57</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>90b2621cf4fda4947c40984569f24c5f</update_guid>
+        <update_guid_history>90b2621cf4fda4947c40984569f24c5f:189184469</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-01-15 11:41:17">c803665c1bfda494ef5b635ee54bcb2d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 09:41:17</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>3d5fd1482e934d8290bce0d096c20d24</sys_id>
+        <sys_metadata>1cb2621c1bfda494ef5b635ee54bcb5d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payout.Can you please help me perform a pension withdrawal?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_1cb2621c1bfda494ef5b635ee54bcb5d</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_1cb2621c1bfda494ef5b635ee54bcb5d">98b2621c1bfda494ef5b635ee54bcb5f</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 09:41:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

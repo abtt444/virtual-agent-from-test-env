@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[2],"annotatedString":"what does {{phrase=\"leave\"}} encashment entail"}]</annotation>
+        <entity display_value="Leave">7a526a8f1bc620d0ef5b635ee54bcba8</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 10:02:55</sys_created_on>
+        <sys_id>b5517e4f1b02a4d0122465fce54bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave.what does leave encashment entail</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_b5517e4f1b02a4d0122465fce54bcbec</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:02:55</sys_updated_on>
+        <utterance display_value="what does leave encashment entail">11f696871b8620d0ef5b635ee54bcbde</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_b5517e4f1b02a4d0122465fce54bcbec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[2],"annotatedString":"what does {{phrase=\"leave\"}} encashment entail"}]</annotation><entity display_value="Leave">7a526a8f1bc620d0ef5b635ee54bcba8</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-02-05 10:02:55</sys_created_on><sys_id>b5517e4f1b02a4d0122465fce54bcbec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Leave.what does leave encashment entail</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_b5517e4f1b02a4d0122465fce54bcbec</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-02-05 10:02:55</sys_updated_on><utterance display_value="what does leave encashment entail">11f696871b8620d0ef5b635ee54bcbde</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-1857374332</payload_hash>
+        <record_name>Leave.what does leave encashment entail</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 10:02:55</sys_created_on>
+        <sys_id>75517e4f1b02a4d0122465fce54bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17771a502af0000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:02:55</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>7d517e4f1202a4d029f71cac3aa46def</update_guid>
+        <update_guid_history>7d517e4f1202a4d029f71cac3aa46def:-1857374332</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-05 12:31:44">bfe7fa0f1b42a4d0122465fce54bcb29</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 10:31:44</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>0e5122f771274b83a16fc159fae38a49</sys_id>
+        <sys_metadata>b5517e4f1b02a4d0122465fce54bcbec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave.what does leave encashment entail</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_b5517e4f1b02a4d0122465fce54bcbec</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_b5517e4f1b02a4d0122465fce54bcbec">75517e4f1b02a4d0122465fce54bcbf0</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:31:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

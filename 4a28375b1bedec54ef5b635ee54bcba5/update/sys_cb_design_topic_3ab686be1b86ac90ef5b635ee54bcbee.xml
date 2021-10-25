@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="MyContribution">b2b686be1b86ac90ef5b635ee54bcbde</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"bc3beb3c67e34f38bce9450db0a06161","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"bc3beb3c67e34f38bce9450db0a06161"}],"goals":[{"name":"primary","trigger_id":"bc3beb3c67e34f38bce9450db0a06161","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"3de8079590c446fa97e8fcfdd1d939bb","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"dda2a366c0af4389a117c9f561f5951d","name":"End"},{"type":"LinkOutputPrompt","header":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Thank you for your interest. Let me tell you about the art and heart of MyContribution conversations.\r\", vaContext.getRequesterLang())"},"label":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Click here for the Absa MyContribution Toolkit\", vaContext.getRequesterLang())"},"url":{"type":"String","mode":"string","value":"https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011844"},"link_type":"single","multi_link_script":"","id":"cd17ec6ca234483ba014ac3d04c0cd88","name":"MyContribution PDF","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}},{"type":"LinkOutputPrompt","header":{"type":"String","mode":"string","value":"gs.getMessageLang(\"You've got questions? We've got answers!\", vaContext.getRequesterLang())"},"label":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Click Here for MyContribution FAQ\", vaContext.getRequesterLang())"},"url":{"type":"String","mode":"string","value":"https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011812"},"link_type":"single","multi_link_script":"","id":"341253eace1c4e04be7e903beb8cdd56","name":"FAQ Link","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"3de8079590c446fa97e8fcfdd1d939bb","target_node_id":"cd17ec6ca234483ba014ac3d04c0cd88","id":"063dbe2b0e1b4f4fb7c4c59ea1bf7609"},{"type":"Edge","source_node_id":"cd17ec6ca234483ba014ac3d04c0cd88","target_node_id":"341253eace1c4e04be7e903beb8cdd56","id":"0620c8d3663d4996858b6502494a5e55"},{"type":"Edge","source_node_id":"341253eace1c4e04be7e903beb8cdd56","target_node_id":"dda2a366c0af4389a117c9f561f5951d","id":"196f422d951441acbcd19968391dbc86"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"bbf5ce3e1b86ac90ef5b635ee54bcb94","name":"MyContribution","key_phrases":["MyContribution"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":true,"design_category":"8661ae591b31a410ef5b635ee54bcbf5","library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>bbf5ce3e1b86ac90ef5b635ee54bcb94</design_topic_id>
+        <name>MyContribution</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-04 12:18:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3ab686be1b86ac90ef5b635ee54bcbee</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_3ab686be1b86ac90ef5b635ee54bcbee</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:06:33</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

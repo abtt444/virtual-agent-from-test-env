@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Withdrawal from Pension">c4edb2d81b75e494ef5b635ee54bcb86</cb_topic_id>
+        <channels/>
+        <definition>{"id":"c4edb2d81b75e494ef5b635ee54bcb86","name":"Withdrawal from Pension","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Withdrawal from Pension","applicability":"true","category":"","key_phrases":["Withdrawal from Pension"],"variables":[{"name":"__segment_trigger_cbfb95787a24444f96557f9fd3f5f3a9_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_6f94d700ff56a4104c01ebcb9bd3e605","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_abbbf1eb1a914a7db83c7d34a7e6b0ec","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_eb94d7005f56a410c4917f22b3715d05","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_2f94d7002b56a41066de92f614bf5805","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_OutputPrompt_c089066b769043f889f28037865ede00","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_56f2fcdcb99c4b67bb70b3eaf48edfc4","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_cbfb95787a24444f96557f9fd3f5f3a9_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_6f94d700ff56a4104c01ebcb9bd3e605\");vaInputs.initialize(\"__silent_TerminateGoal_56f2fcdcb99c4b67bb70b3eaf48edfc4\");vaInputs.initialize(\"__silent_StartGoal_abbbf1eb1a914a7db83c7d34a7e6b0ec\");vaInputs.initialize(\"__silent_OutputPrompt_c089066b769043f889f28037865ede00\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_2f94d7002b56a41066de92f614bf5805\");vaInputs.initialize(\"__silent_Decision_RootDecision_eb94d7005f56a410c4917f22b3715d05\");null;","fields":[{"name":"__silent_Decision_RootDecision_eb94d7005f56a410c4917f22b3715d05","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_eb94d7005f56a410c4917f22b3715d05\";vaInputs.__silent_Decision_RootDecision_eb94d7005f56a410c4917f22b3715d05=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_eb94d7005f56a410c4917f22b3715d05\";vaInputs.RootDecisionBranch_6f94d700ff56a4104c01ebcb9bd3e605=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_2f94d7002b56a41066de92f614bf5805","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_eb94d7005f56a410c4917f22b3715d05\" &amp;&amp; ((vaInputs.RootDecisionBranch_6f94d700ff56a4104c01ebcb9bd3e605.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_2f94d7002b56a41066de92f614bf5805___RootDecisionBranch_2f94d7002b56a41066de92f614bf5805\";vaInputs.__silent_Branch_RootDecisionBranch_2f94d7002b56a41066de92f614bf5805=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_2f94d7002b56a41066de92f614bf5805___RootDecisionBranch_2f94d7002b56a41066de92f614bf5805\";null;"},{"name":"__silent_StartGoal_abbbf1eb1a914a7db83c7d34a7e6b0ec","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_2f94d7002b56a41066de92f614bf5805___RootDecisionBranch_2f94d7002b56a41066de92f614bf5805\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___abbbf1eb1a914a7db83c7d34a7e6b0ec\";vaInputs.__silent_StartGoal_abbbf1eb1a914a7db83c7d34a7e6b0ec=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___abbbf1eb1a914a7db83c7d34a7e6b0ec\";null;"},{"name":"__silent_OutputPrompt_c089066b769043f889f28037865ede00","applicable":"vaVars.previous_graph_node==\"Start___abbbf1eb1a914a7db83c7d34a7e6b0ec\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Pension Payout___c089066b769043f889f28037865ede00\";vaInputs.__silent_OutputPrompt_c089066b769043f889f28037865ede00=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Pension Payout___c089066b769043f889f28037865ede00\";(function execute() {return gs.getMessageLang(\"Response for Pension Withdrawal\", vaContext.getRequesterLang());})();"},{"name":"__silent_TerminateGoal_56f2fcdcb99c4b67bb70b3eaf48edfc4","applicable":"vaVars.previous_graph_node==\"Pension Payout___c089066b769043f889f28037865ede00\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___56f2fcdcb99c4b67bb70b3eaf48edfc4\";vaInputs.__silent_TerminateGoal_56f2fcdcb99c4b67bb70b3eaf48edfc4=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___56f2fcdcb99c4b67bb70b3eaf48edfc4\";vaVars.__segment_trigger_cbfb95787a24444f96557f9fd3f5f3a9_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":false,"design_category":"f701e6591b31a410ef5b635ee54bcbd3","nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"score":0.0,"visible":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Withdrawal from Pension","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category>f701e6591b31a410ef5b635ee54bcbd3</design_category>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Withdrawal from Pension</key_phrases>
+        <last_published_on>2021-02-08 15:10:58</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>FRM A0TR PNSN</metaphone>
+        <name>Withdrawal from Pension</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 11:39:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6a1e7a1c1b75e494ef5b635ee54bcbb4</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Withdrawal from Pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_6a1e7a1c1b75e494ef5b635ee54bcbb4</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:10:58</sys_updated_on>
+        <title>Withdrawal from Pension</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=6a1e7a1c1b75e494ef5b635ee54bcbb4"/>
+</record_update>

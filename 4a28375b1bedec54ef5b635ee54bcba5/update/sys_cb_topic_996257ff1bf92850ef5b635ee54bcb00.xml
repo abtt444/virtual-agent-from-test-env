@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Enables users to request a live agent.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{"graph_api_version":"1.0.21.pp4","variables":{"16f311c991ae4b73be7dda46890b0635":{"id":"16f311c991ae4b73be7dda46890b0635","name":"user_chooses_an_option","label":"User Chooses An Option","varType":"boolean","category":"vaInputs"},"be3e3d8399b8483d930ead5089e86bf4":{"category":"vaInputs","id":"be3e3d8399b8483d930ead5089e86bf4","label":"User","name":"user","table":"sys_user","varType":"reference"}},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"a703b08bc12c4749be2b4c7d83449a40":{"id":"a703b08bc12c4749be2b4c7d83449a40","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"fb8e8ed7ddf2482d8b4c4feddc040cef":{"id":"fb8e8ed7ddf2482d8b4c4feddc040cef","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}},"9dc3992116e34eafa2a85957d8a52d81":{"id":"9dc3992116e34eafa2a85957d8a52d81","name":"Connect To Agent","script":"(function execute() {\n    vaSystem.connectToAgent();\n})()\n","stepType":"ScriptAction","applicability":{"value":"","mode":"query"}},"46535291645e4c2a9346afdad2c1a7e2":{"id":"46535291645e4c2a9346afdad2c1a7e2","stepType":"Decision","name":"Decision"},"57499b5c620346628ee279d0e8d1edff":{"id":"57499b5c620346628ee279d0e8d1edff","stepType":"Prompt","name":"User chooses an option","prompt":{"value":"Let's see if I got this right. Do you want me to connect you to an agent?","mode":"simple"},"confirmMessage":{"value":"","mode":"simple"},"acknowledgeMsg":{"value":"","mode":"simple"},"applicability":{"value":"","mode":"query"},"optional":false,"defaultValue":{"value":"","mode":"simple"},"withNluUserInput":false,"skipIfFulfilled":false,"entity":{"id":""},"variableId":"16f311c991ae4b73be7dda46890b0635","skippable":{"value":"","mode":"query"}}},"edges":[{"id":"2ae7a6b8286e45a1bd1775090af66242","edgeType":"Edge","source":"a703b08bc12c4749be2b4c7d83449a40","target":"57499b5c620346628ee279d0e8d1edff","sourcePort":"","targetPort":""},{"id":"7eac26521bbd41e3ab9cedf87b12312e","edgeType":"Branch","source":"46535291645e4c2a9346afdad2c1a7e2","target":"9dc3992116e34eafa2a85957d8a52d81","sourcePort":"","targetPort":"","expression":{"value":"user_chooses_an_option=true","mode":"query"},"label":"Yes"},{"id":"f56d1eea7d42451da3eba4ee55e166c4","edgeType":"Edge","source":"9dc3992116e34eafa2a85957d8a52d81","target":"fb8e8ed7ddf2482d8b4c4feddc040cef","sourcePort":"","targetPort":""},{"id":"66b4b6b46a2448e6be61779e1b22df8d","edgeType":"Branch","source":"46535291645e4c2a9346afdad2c1a7e2","target":"fb8e8ed7ddf2482d8b4c4feddc040cef","sourcePort":"","targetPort":"","expression":{"value":"user_chooses_an_option=","mode":"query"},"label":"No"},{"id":"1c5a04b5c53b41e7902724283fb0de50","edgeType":"Edge","source":"57499b5c620346628ee279d0e8d1edff","target":"46535291645e4c2a9346afdad2c1a7e2","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases/>
+        <library>true</library>
+        <live_agent>false</live_agent>
+        <name>Transfer to Agent</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id>2ad78361b3633300dbbf6030c6a8dc14</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-26 10:07:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>996257ff1bf92850ef5b635ee54bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transfer to Agent</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_996257ff1bf92850ef5b635ee54bcb00</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-26 10:07:05</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>TOPIC_BLOCK</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=996257ff1bf92850ef5b635ee54bcb00"/>
+</record_update>

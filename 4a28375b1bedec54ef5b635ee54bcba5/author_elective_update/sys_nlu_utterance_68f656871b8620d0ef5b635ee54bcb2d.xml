@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Accumulated Leave">24f656871b8620d0ef5b635ee54bcb26</intent>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:35</sys_created_on>
+        <sys_id>68f656871b8620d0ef5b635ee54bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Am I allowed to take accumulated leave?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_68f656871b8620d0ef5b635ee54bcb2d</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:35</sys_updated_on>
+        <utterance>Am I allowed to take accumulated leave?</utterance>
+    </sys_nlu_utterance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>sys_nlu_utterance_68f656871b8620d0ef5b635ee54bcb2d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance"><sys_nlu_utterance action="INSERT_OR_UPDATE"><intent display_value="Accumulated Leave">24f656871b8620d0ef5b635ee54bcb26</intent><sys_class_name>sys_nlu_utterance</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-02-05 08:07:35</sys_created_on><sys_id>68f656871b8620d0ef5b635ee54bcb2d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Am I allowed to take accumulated leave?</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_nlu_utterance_68f656871b8620d0ef5b635ee54bcb2d</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-02-05 08:07:35</sys_updated_on><utterance>Am I allowed to take accumulated leave?</utterance></sys_nlu_utterance></record_update>]]></payload>
+        <payload_hash>-1213916277</payload_hash>
+        <record_name>Am I allowed to take accumulated leave?</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:35</sys_created_on>
+        <sys_id>a0f656871b8620d0ef5b635ee54bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177713b6ce80000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:35</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>a8f656870f8620d0d2f76a75b7e34d2e</update_guid>
+        <update_guid_history>a8f656870f8620d0d2f76a75b7e34d2e:-1213916277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 10:54:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>1ca31f66c2b9452588de78a13e664a41</sys_id>
+        <sys_metadata>68f656871b8620d0ef5b635ee54bcb2d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Am I allowed to take accumulated leave?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_68f656871b8620d0ef5b635ee54bcb2d</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_68f656871b8620d0ef5b635ee54bcb2d">a0f656871b8620d0ef5b635ee54bcb2f</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:54:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

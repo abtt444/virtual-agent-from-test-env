@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Leave Cancellation">d4f616871b8620d0ef5b635ee54bcbad</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 10:01:05</sys_created_on>
+        <sys_id>1727feaf1bd2e090122465fce54bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>i do not need leave anymore so can i please reverse it</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_1727feaf1bd2e090122465fce54bcb5a</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 10:01:05</sys_updated_on>
+        <utterance>i do not need leave anymore so can i please reverse it</utterance>
+    </sys_nlu_utterance>
+</record_update>

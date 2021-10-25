@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[7],"annotatedString":"when am i allowed to use my {{phrase=\"accumulated\"}} leave"}]</annotation>
+        <entity display_value="Accumulation">35f3d2c41b5e6410ef5b635ee54bcbdf</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-08 10:40:50</sys_created_on>
+        <sys_id>62c6de0c1b5e6410ef5b635ee54bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accumulation.when am i allowed to use my accumulated leave </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_62c6de0c1b5e6410ef5b635ee54bcb6c</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:40:50</sys_updated_on>
+        <utterance display_value="when am i allowed to use my accumulated leave ">fa32a3431b0260d0ef5b635ee54bcbde</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_62c6de0c1b5e6410ef5b635ee54bcb6c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[7],"annotatedString":"when am i allowed to use my {{phrase=\"accumulated\"}} leave"}]</annotation><entity display_value="Accumulation">35f3d2c41b5e6410ef5b635ee54bcbdf</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-02-08 10:40:50</sys_created_on><sys_id>62c6de0c1b5e6410ef5b635ee54bcb6c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Accumulation.when am i allowed to use my accumulated leave </sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_62c6de0c1b5e6410ef5b635ee54bcb6c</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-02-08 10:40:50</sys_updated_on><utterance display_value="when am i allowed to use my accumulated leave ">fa32a3431b0260d0ef5b635ee54bcbde</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-459644356</payload_hash>
+        <record_name>Accumulation.when am i allowed to use my accumulated leave </record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-08 10:40:50</sys_created_on>
+        <sys_id>22c6de0c1b5e6410ef5b635ee54bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177813aceff0000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:40:50</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>2ac6de0c995e64108f9218d7918de86d</update_guid>
+        <update_guid_history>2ac6de0c995e64108f9218d7918de86d:-459644356</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-08 12:46:13">0508520c1b1aa410122465fce54bcb44</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-08 10:46:13</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>340d15d9d947416cabc48aec6f57c4a9</sys_id>
+        <sys_metadata>62c6de0c1b5e6410ef5b635ee54bcb6c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accumulation.when am i allowed to use my accumulated leave </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_62c6de0c1b5e6410ef5b635ee54bcb6c</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_62c6de0c1b5e6410ef5b635ee54bcb6c">22c6de0c1b5e6410ef5b635ee54bcb6e</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:46:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

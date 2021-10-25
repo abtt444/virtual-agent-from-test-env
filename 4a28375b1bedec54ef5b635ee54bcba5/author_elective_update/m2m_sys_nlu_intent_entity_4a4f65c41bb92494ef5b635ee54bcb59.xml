@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
+    <m2m_sys_nlu_intent_entity action="DELETE">
+        <entity display_value="Annual Leave">4e4fedc41bb92494ef5b635ee54bcbc6</entity>
+        <intent display_value="Annual Leave">0e0e2d801bb92494ef5b635ee54bcbd1</intent>
+        <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 11:16:51</sys_created_on>
+        <sys_id>4a4f65c41bb92494ef5b635ee54bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Annual Leave.Annual Leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_intent_entity_4a4f65c41bb92494ef5b635ee54bcb59</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 11:16:51</sys_updated_on>
+    </m2m_sys_nlu_intent_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_intent_entity_4a4f65c41bb92494ef5b635ee54bcb59</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity"><m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE"><entity display_value="Annual Leave">4e4fedc41bb92494ef5b635ee54bcbc6</entity><intent display_value="Annual Leave">0e0e2d801bb92494ef5b635ee54bcbd1</intent><sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-14 11:16:51</sys_created_on><sys_id>4a4f65c41bb92494ef5b635ee54bcb59</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Annual Leave.Annual Leave</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_intent_entity_4a4f65c41bb92494ef5b635ee54bcb59</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-14 11:16:51</sys_updated_on></m2m_sys_nlu_intent_entity></record_update>]]></payload>
+        <payload_hash>1129184837</payload_hash>
+        <record_name>Annual Leave.Annual Leave</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 11:16:51</sys_created_on>
+        <sys_id>ca4f65c41bb92494ef5b635ee54bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177009cca030000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 11:16:51</sys_updated_on>
+        <type>NLU Intent Entity</type>
+        <update_guid>c24f65c495b92494a855f0e68bfeba5b</update_guid>
+        <update_guid_history>c24f65c495b92494a855f0e68bfeba5b:1129184837</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-01-15 15:31:40">fab75f501b79e494ef5b635ee54bcb22</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 13:31:40</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_intent_entity">m2m_sys_nlu_intent_entity</sys_db_object>
+        <sys_id>74532e6ae86645d4a1a55aa3f1081164</sys_id>
+        <sys_metadata>4a4f65c41bb92494ef5b635ee54bcb59</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Annual Leave.Annual Leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_intent_entity_4a4f65c41bb92494ef5b635ee54bcb59</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_intent_entity_4a4f65c41bb92494ef5b635ee54bcb59">ca4f65c41bb92494ef5b635ee54bcb5b</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:31:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

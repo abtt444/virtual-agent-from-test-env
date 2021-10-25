@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="User Feedback">a614dbb31b3d2850ef5b635ee54bcbe1</cb_topic_id>
+        <channels/>
+        <definition>{"id":"a614dbb31b3d2850ef5b635ee54bcbe1","name":"User Feedback","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"User Feedback","applicability":"true","category":"","key_phrases":["User Feedback","Survey"," Provide Virtual Agent Feedback"],"variables":[{"name":"_topic_postchat_user_id","type":"java.lang.Object"},{"name":"__segment_trigger_3933219037764fedabe2e48a12d9480d_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_19ebd018df86ac502ddbcea4c338dc4f","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_LibraryCall_6aab2eda66944ae5abd2f09d3bf50bf7","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_d53696d3a26548a8a26e87d12201d9c5","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_a38553e5882d478d9e2114f2c2fb7a85","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_95ebd018fb86ac50c51f0027477d2b4f","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_d5ebd018d786ac50118c307b974ff34f","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_3933219037764fedabe2e48a12d9480d_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_19ebd018df86ac502ddbcea4c338dc4f\");vaInputs.initialize(\"__silent_LibraryCall_6aab2eda66944ae5abd2f09d3bf50bf7\");vaInputs.initialize(\"__silent_Decision_RootDecision_95ebd018fb86ac50c51f0027477d2b4f\");vaInputs.initialize(\"__silent_TerminateGoal_a38553e5882d478d9e2114f2c2fb7a85\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_d5ebd018d786ac50118c307b974ff34f\");vaInputs.initialize(\"__silent_StartGoal_d53696d3a26548a8a26e87d12201d9c5\");null;","fields":[{"name":"__silent_Decision_RootDecision_95ebd018fb86ac50c51f0027477d2b4f","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_95ebd018fb86ac50c51f0027477d2b4f\";vaInputs.__silent_Decision_RootDecision_95ebd018fb86ac50c51f0027477d2b4f=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_95ebd018fb86ac50c51f0027477d2b4f\";vaInputs.RootDecisionBranch_19ebd018df86ac502ddbcea4c338dc4f=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_d5ebd018d786ac50118c307b974ff34f","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_95ebd018fb86ac50c51f0027477d2b4f\" &amp;&amp; ((vaInputs.RootDecisionBranch_19ebd018df86ac502ddbcea4c338dc4f.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_d5ebd018d786ac50118c307b974ff34f___RootDecisionBranch_d5ebd018d786ac50118c307b974ff34f\";vaInputs.__silent_Branch_RootDecisionBranch_d5ebd018d786ac50118c307b974ff34f=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_d5ebd018d786ac50118c307b974ff34f___RootDecisionBranch_d5ebd018d786ac50118c307b974ff34f\";null;"},{"name":"__silent_StartGoal_d53696d3a26548a8a26e87d12201d9c5","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_d5ebd018d786ac50118c307b974ff34f___RootDecisionBranch_d5ebd018d786ac50118c307b974ff34f\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___d53696d3a26548a8a26e87d12201d9c5\";vaInputs.__silent_StartGoal_d53696d3a26548a8a26e87d12201d9c5=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___d53696d3a26548a8a26e87d12201d9c5\";null;"},{"name":"__silent_LibraryCall_6aab2eda66944ae5abd2f09d3bf50bf7","applicable":"vaVars.previous_graph_node==\"Start___d53696d3a26548a8a26e87d12201d9c5\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Survey topic block___6aab2eda66944ae5abd2f09d3bf50bf7\";(function execute() {(function execute() {vaSystem.invokeSubTopic('Survey ABSA', JSON.stringify({\"type\":\"LibraryCall\",\"type\":\"LibraryCall\",\"library_topic_name\":\"Survey ABSA\",\"library_topic_id\":\"f905bb481b42ac50122465fce54bcb9b\",\"parameter-mappings\":[{\"parameter-name\":\"surveyid\",\"value\":{\"type\":\"String\",\"type\":\"String\",\"mode\":\"string\",\"value\":\"2e2644d81bc2ac50122465fce54bcb38\"}},{\"parameter-name\":\"confirmationneeded\",\"value\":{\"type\":\"String\",\"type\":\"String\",\"mode\":\"string\",\"value\":\"false\"}},{\"parameter-name\":\"savequestionstocontext\",\"value\":{\"type\":\"String\",\"type\":\"String\",\"mode\":\"string\",\"value\":\"false\"}}],\"return-value-mappings\":[],\"id\":\"6aab2eda66944ae5abd2f09d3bf50bf7\",\"name\":\"Survey topic block\",\"goal_id\":\"primary\",\"applicability\":{\"type\":\"Applicability\",\"type\":\"Applicability\",\"mode\":\"script\",\"value\":\"true\"}}));})();})();vaInputs.__silent_LibraryCall_6aab2eda66944ae5abd2f09d3bf50bf7=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Survey topic block___6aab2eda66944ae5abd2f09d3bf50bf7\";null;"},{"name":"__silent_TerminateGoal_a38553e5882d478d9e2114f2c2fb7a85","applicable":"vaVars.previous_graph_node==\"Survey topic block___6aab2eda66944ae5abd2f09d3bf50bf7\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___a38553e5882d478d9e2114f2c2fb7a85\";vaInputs.__silent_TerminateGoal_a38553e5882d478d9e2114f2c2fb7a85=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___a38553e5882d478d9e2114f2c2fb7a85\";vaVars.__segment_trigger_3933219037764fedabe2e48a12d9480d_done=true;null;"}],"variables_update":[]}],"roles":["public"],"active":true,"published":true,"library":false,"flexible_conversation_switching":false,"design_category":"","nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"score":0,"visible":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"User Feedback","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category/>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>User Feedback Survey  Provide Virtual Agent Feedback</key_phrases>
+        <last_published_on>2021-10-19 19:03:21</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>ASR AJNT PRFT FRTL SRF FTPK</metaphone>
+        <name>User Feedback</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles>public</roles>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-27 07:05:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5f72bfc01b42ac50122465fce54bcb71</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>User Feedback</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_5f72bfc01b42ac50122465fce54bcb71</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-19 19:02:21</sys_updated_on>
+        <title>User Feedback</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=5f72bfc01b42ac50122465fce54bcb71"/>
+</record_update>

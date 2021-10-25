@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Enables users to provide feedback on their conversational experience, before the conversation ends.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "ab5b7342b94343a9955aaaacb1385055": {
+          "id": "ab5b7342b94343a9955aaaacb1385055",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e1eadc74ea4c41f486b3b847f7d3a7ed": {
+          "id": "e1eadc74ea4c41f486b3b847f7d3a7ed",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "8814b7239ac64e648f92ab69cdc57ef7": {
+          "id": "8814b7239ac64e648f92ab69cdc57ef7",
+          "stepType": "ReusableTopic",
+          "name": "Survey topic block",
+          "fields": [],
+          "reusableTopicChoice": "Survey",
+          "reusableTopicId": "26baac293b77330074bc456993efc4dd",
+          "inputs": {
+            "surveyid": {
+              "value": "8a3a25a01b426090122465fce54bcbd1",
+              "mode": "simple"
+            },
+            "confirmationneeded": {
+              "value": "false",
+              "mode": "simple"
+            },
+            "savequestionstocontext": {
+              "value": "false",
+              "mode": "simple"
+            }
+          },
+          "variableIds": [],
+          "outputs": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "outdatedNote": false
+        }
+      },
+      "edges": [
+        {
+          "id": "f3db4129c6a34062be3c860f66a18ab2",
+          "edgeType": "Edge",
+          "source": "ab5b7342b94343a9955aaaacb1385055",
+          "target": "8814b7239ac64e648f92ab69cdc57ef7",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "73dddc693eb9480b9239f8dffe6e3098",
+          "edgeType": "Edge",
+          "source": "8814b7239ac64e648f92ab69cdc57ef7",
+          "target": "e1eadc74ea4c41f486b3b847f7d3a7ed",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "6eb8fc30344f4ffaa355ef702be4296e": {
+      "id": "6eb8fc30344f4ffaa355ef702be4296e",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_topic_postchat_user_id",
+      "label": "_topic_postchat_user_id",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "2bf9cf77fc01497db0ab262303bac02d": {
+      "category": "vaInputs",
+      "id": "2bf9cf77fc01497db0ab262303bac02d",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>VA Feedback 2.0,Survey, Provide Virtual Agent Feedback</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>VA Feedback 2.0</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>public</roles>
+        <source_topic_id>c98db45853130010cf8cddeeff7b12e1</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-27 10:19:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e6bed0181b86ac50122465fce54bcba8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>VA Feedback 2.0</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_e6bed0181b86ac50122465fce54bcba8</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-19 19:02:21</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=e6bed0181b86ac50122465fce54bcba8"/>
+</record_update>

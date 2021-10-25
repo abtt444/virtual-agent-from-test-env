@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <category display_value="">8661ae591b31a410ef5b635ee54bcbf5</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "4085b8c3b2344361a24a02b48459f0d7": {
+          "id": "4085b8c3b2344361a24a02b48459f0d7",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "8ed54f14ad364595aff21e1e394cd681": {
+          "id": "8ed54f14ad364595aff21e1e394cd681",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "aaf6261ac5e24ef2a2ea33619be3ba05": {
+          "stepType": "ChoicePrompt",
+          "name": "MyContribution Options",
+          "prompt": {
+            "value": "Here are some topics you can read up on:",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "5b3c2f49e9b940798a75d4ced2c61032",
+          "id": "aaf6261ac5e24ef2a2ea33619be3ba05",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "b2a321d1876842288b706638b1e95ae4": {
+          "id": "b2a321d1876842288b706638b1e95ae4",
+          "stepType": "TextOutput",
+          "name": "MyContribution Initialisation",
+          "value": {
+            "value": "Thank you {{vaInputs.user.first_name}} for asking about MyContribution - The art and heart of MyContribution conversations.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "6cc83d1f43b349d8b992bbfbbda2c4d4": {
+          "id": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "dad61ed3364d4ef586597581a0bc3d3a": {
+          "id": "dad61ed3364d4ef586597581a0bc3d3a",
+          "stepType": "LinkOutput",
+          "name": "FAQ Link",
+          "url": {
+            "value": "",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "b52161e679ff471ebaf38ee0ff641133": {
+          "id": "b52161e679ff471ebaf38ee0ff641133",
+          "stepType": "LinkOutput",
+          "name": "Tools Link",
+          "url": {
+            "value": "",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "f3e55252ab47492a8caa8340c43b0bd8": {
+          "id": "f3e55252ab47492a8caa8340c43b0bd8",
+          "stepType": "LinkOutput",
+          "name": "Timelines Link",
+          "url": {
+            "value": "",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "69f126c72ab943748a189c94b34c57e9": {
+          "id": "69f126c72ab943748a189c94b34c57e9",
+          "stepType": "LinkOutput",
+          "name": "Growth Mindset Link",
+          "url": {
+            "value": "",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "e346f9318c8245ad9b5c1505ab28674d": {
+          "id": "e346f9318c8245ad9b5c1505ab28674d",
+          "stepType": "LinkOutput",
+          "name": "MyContribution Conversations Link",
+          "url": {
+            "value": "",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "52d9c9dab02f44cd9109f775ca4ef810": {
+          "id": "52d9c9dab02f44cd9109f775ca4ef810",
+          "stepType": "LinkOutput",
+          "name": "Our People Link",
+          "url": {
+            "value": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011844",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "63ea28e684ea46298d2e107a277aa065": {
+          "id": "63ea28e684ea46298d2e107a277aa065",
+          "stepType": "LinkOutput",
+          "name": "Our Attitudes Link",
+          "url": {
+            "value": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011844",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "Click Here to read more",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "As you enter this conversation, we invite you to live into our attitudes of Brave, Passionate and Ready. We know you've got this were you are.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "3095504155594e889bff1435cba87ad4": {
+          "id": "3095504155594e889bff1435cba87ad4",
+          "stepType": "ImageOutput",
+          "name": "",
+          "url": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "a0ac133cc49848d8a8cd54331c2900af",
+          "edgeType": "Edge",
+          "source": "4085b8c3b2344361a24a02b48459f0d7",
+          "target": "b2a321d1876842288b706638b1e95ae4",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "febc742db4da447da5506743b949ba1b",
+          "edgeType": "Edge",
+          "source": "b2a321d1876842288b706638b1e95ae4",
+          "target": "aaf6261ac5e24ef2a2ea33619be3ba05",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "610694ecae1941f8a05ea2347c83d4b6",
+          "edgeType": "Edge",
+          "source": "aaf6261ac5e24ef2a2ea33619be3ba05",
+          "target": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "05acf9ade4fd4d48b9282b859f5dac26",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "dad61ed3364d4ef586597581a0bc3d3a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=FAQ",
+            "mode": "query"
+          },
+          "label": "FAQ"
+        },
+        {
+          "id": "6ab8b72e342c4dbea1c29fad0a7eafba",
+          "edgeType": "Edge",
+          "source": "dad61ed3364d4ef586597581a0bc3d3a",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "652ceccd1e504c76a1f2c8a6ac47daf8",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "b52161e679ff471ebaf38ee0ff641133",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=Tools",
+            "mode": "query"
+          },
+          "label": "Tools"
+        },
+        {
+          "id": "f551c4d37a344e55b874483d10641322",
+          "edgeType": "Edge",
+          "source": "b52161e679ff471ebaf38ee0ff641133",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "aa92c27190d24210bd9d3428ea320c3f",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "f3e55252ab47492a8caa8340c43b0bd8",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=Timelines",
+            "mode": "query"
+          },
+          "label": "Timelines"
+        },
+        {
+          "id": "0c15c3d1f429449f8541658bb8e10f5f",
+          "edgeType": "Edge",
+          "source": "f3e55252ab47492a8caa8340c43b0bd8",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0b4ab2944bc448a18a732bd0f93ac4a3",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "69f126c72ab943748a189c94b34c57e9",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=Growth Mindset",
+            "mode": "query"
+          },
+          "label": "Growth Mindset"
+        },
+        {
+          "id": "d4348e00e0894c0e8acffcecfff73e8a",
+          "edgeType": "Edge",
+          "source": "69f126c72ab943748a189c94b34c57e9",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a30e5e2d708343c18f567ab566baeccd",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "e346f9318c8245ad9b5c1505ab28674d",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=MyContribution Conversations",
+            "mode": "query"
+          },
+          "label": "MyContribution Conversations"
+        },
+        {
+          "id": "ad0cca0617484c35861dd80e4ecb15f0",
+          "edgeType": "Edge",
+          "source": "e346f9318c8245ad9b5c1505ab28674d",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "04c6845b6afa406ea88cbafe32506c36",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "52d9c9dab02f44cd9109f775ca4ef810",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=Our People",
+            "mode": "query"
+          },
+          "label": "Our People"
+        },
+        {
+          "id": "d99f5b5cd3b846d1bf637d4e9154b86a",
+          "edgeType": "Edge",
+          "source": "52d9c9dab02f44cd9109f775ca4ef810",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "17845e5e581e418a8c24c0e203abac93",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "63ea28e684ea46298d2e107a277aa065",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=Our Attitudes",
+            "mode": "query"
+          },
+          "label": "Our Attitudes"
+        },
+        {
+          "id": "e0b3d83242fd4cf5ac888d740daf6525",
+          "edgeType": "Edge",
+          "source": "63ea28e684ea46298d2e107a277aa065",
+          "target": "3095504155594e889bff1435cba87ad4",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8b444c0b03be46beb38851bca8c1a903",
+          "edgeType": "Edge",
+          "source": "3095504155594e889bff1435cba87ad4",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "5b3c2f49e9b940798a75d4ced2c61032": {
+      "id": "5b3c2f49e9b940798a75d4ced2c61032",
+      "name": "mycontribution_options",
+      "label": "MyContribution Options",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Our Attitudes",
+          "value": "Our Attitudes"
+        },
+        {
+          "label": "Our People",
+          "value": "Our People",
+          "checked": true
+        },
+        {
+          "label": "MyContribution Conversations",
+          "value": "MyContribution Conversations",
+          "checked": true
+        },
+        {
+          "label": "Growth Mindset",
+          "value": "Growth Mindset",
+          "checked": true
+        },
+        {
+          "label": "Timelines",
+          "value": "Timelines",
+          "checked": true
+        },
+        {
+          "label": "Tools",
+          "value": "Tools",
+          "checked": true
+        },
+        {
+          "label": "Frequently Asked Questions (FAQ)",
+          "value": "FAQ",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>MyContribution</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>MyContribution</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:19:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3ce36e9d1b31a410ef5b635ee54bcbd9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>MyContribution</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_3ce36e9d1b31a410ef5b635ee54bcbd9</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-04 12:05:51</sys_updated_on>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=3ce36e9d1b31a410ef5b635ee54bcbd9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>sys_cb_topic_3ce36e9d1b31a410ef5b635ee54bcbd9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><category display_value="">8661ae591b31a410ef5b635ee54bcbf5</category><channels/><connect_queue/><description/><flexible_conversation_switching>true</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "4085b8c3b2344361a24a02b48459f0d7": {
+          "id": "4085b8c3b2344361a24a02b48459f0d7",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "8ed54f14ad364595aff21e1e394cd681": {
+          "id": "8ed54f14ad364595aff21e1e394cd681",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "aaf6261ac5e24ef2a2ea33619be3ba05": {
+          "stepType": "ChoicePrompt",
+          "name": "MyContribution Options",
+          "prompt": {
+            "value": "Here are some topics you can read up on:",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "5b3c2f49e9b940798a75d4ced2c61032",
+          "id": "aaf6261ac5e24ef2a2ea33619be3ba05",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "b2a321d1876842288b706638b1e95ae4": {
+          "id": "b2a321d1876842288b706638b1e95ae4",
+          "stepType": "TextOutput",
+          "name": "MyContribution Initialisation",
+          "value": {
+            "value": "Thank you {{vaInputs.user.first_name}} for asking about MyContribution - The art and heart of MyContribution conversations.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "6cc83d1f43b349d8b992bbfbbda2c4d4": {
+          "id": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "dad61ed3364d4ef586597581a0bc3d3a": {
+          "id": "dad61ed3364d4ef586597581a0bc3d3a",
+          "stepType": "LinkOutput",
+          "name": "FAQ Link",
+          "url": {
+            "value": "",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "b52161e679ff471ebaf38ee0ff641133": {
+          "id": "b52161e679ff471ebaf38ee0ff641133",
+          "stepType": "LinkOutput",
+          "name": "Tools Link",
+          "url": {
+            "value": "",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "f3e55252ab47492a8caa8340c43b0bd8": {
+          "id": "f3e55252ab47492a8caa8340c43b0bd8",
+          "stepType": "LinkOutput",
+          "name": "Timelines Link",
+          "url": {
+            "value": "",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "69f126c72ab943748a189c94b34c57e9": {
+          "id": "69f126c72ab943748a189c94b34c57e9",
+          "stepType": "LinkOutput",
+          "name": "Growth Mindset Link",
+          "url": {
+            "value": "",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "e346f9318c8245ad9b5c1505ab28674d": {
+          "id": "e346f9318c8245ad9b5c1505ab28674d",
+          "stepType": "LinkOutput",
+          "name": "MyContribution Conversations Link",
+          "url": {
+            "value": "",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "52d9c9dab02f44cd9109f775ca4ef810": {
+          "id": "52d9c9dab02f44cd9109f775ca4ef810",
+          "stepType": "LinkOutput",
+          "name": "Our People Link",
+          "url": {
+            "value": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011844",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "63ea28e684ea46298d2e107a277aa065": {
+          "id": "63ea28e684ea46298d2e107a277aa065",
+          "stepType": "LinkOutput",
+          "name": "Our Attitudes Link",
+          "url": {
+            "value": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011844",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "Click Here to read more",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "As you enter this conversation, we invite you to live into our attitudes of Brave, Passionate and Ready. We know you've got this were you are.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "3095504155594e889bff1435cba87ad4": {
+          "id": "3095504155594e889bff1435cba87ad4",
+          "stepType": "ImageOutput",
+          "name": "",
+          "url": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "a0ac133cc49848d8a8cd54331c2900af",
+          "edgeType": "Edge",
+          "source": "4085b8c3b2344361a24a02b48459f0d7",
+          "target": "b2a321d1876842288b706638b1e95ae4",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "febc742db4da447da5506743b949ba1b",
+          "edgeType": "Edge",
+          "source": "b2a321d1876842288b706638b1e95ae4",
+          "target": "aaf6261ac5e24ef2a2ea33619be3ba05",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "610694ecae1941f8a05ea2347c83d4b6",
+          "edgeType": "Edge",
+          "source": "aaf6261ac5e24ef2a2ea33619be3ba05",
+          "target": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "05acf9ade4fd4d48b9282b859f5dac26",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "dad61ed3364d4ef586597581a0bc3d3a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=FAQ",
+            "mode": "query"
+          },
+          "label": "FAQ"
+        },
+        {
+          "id": "6ab8b72e342c4dbea1c29fad0a7eafba",
+          "edgeType": "Edge",
+          "source": "dad61ed3364d4ef586597581a0bc3d3a",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "652ceccd1e504c76a1f2c8a6ac47daf8",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "b52161e679ff471ebaf38ee0ff641133",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=Tools",
+            "mode": "query"
+          },
+          "label": "Tools"
+        },
+        {
+          "id": "f551c4d37a344e55b874483d10641322",
+          "edgeType": "Edge",
+          "source": "b52161e679ff471ebaf38ee0ff641133",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "aa92c27190d24210bd9d3428ea320c3f",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "f3e55252ab47492a8caa8340c43b0bd8",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=Timelines",
+            "mode": "query"
+          },
+          "label": "Timelines"
+        },
+        {
+          "id": "0c15c3d1f429449f8541658bb8e10f5f",
+          "edgeType": "Edge",
+          "source": "f3e55252ab47492a8caa8340c43b0bd8",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0b4ab2944bc448a18a732bd0f93ac4a3",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "69f126c72ab943748a189c94b34c57e9",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=Growth Mindset",
+            "mode": "query"
+          },
+          "label": "Growth Mindset"
+        },
+        {
+          "id": "d4348e00e0894c0e8acffcecfff73e8a",
+          "edgeType": "Edge",
+          "source": "69f126c72ab943748a189c94b34c57e9",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a30e5e2d708343c18f567ab566baeccd",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "e346f9318c8245ad9b5c1505ab28674d",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=MyContribution Conversations",
+            "mode": "query"
+          },
+          "label": "MyContribution Conversations"
+        },
+        {
+          "id": "ad0cca0617484c35861dd80e4ecb15f0",
+          "edgeType": "Edge",
+          "source": "e346f9318c8245ad9b5c1505ab28674d",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "04c6845b6afa406ea88cbafe32506c36",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "52d9c9dab02f44cd9109f775ca4ef810",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=Our People",
+            "mode": "query"
+          },
+          "label": "Our People"
+        },
+        {
+          "id": "d99f5b5cd3b846d1bf637d4e9154b86a",
+          "edgeType": "Edge",
+          "source": "52d9c9dab02f44cd9109f775ca4ef810",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "17845e5e581e418a8c24c0e203abac93",
+          "edgeType": "Branch",
+          "source": "6cc83d1f43b349d8b992bbfbbda2c4d4",
+          "target": "63ea28e684ea46298d2e107a277aa065",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_options=Our Attitudes",
+            "mode": "query"
+          },
+          "label": "Our Attitudes"
+        },
+        {
+          "id": "e0b3d83242fd4cf5ac888d740daf6525",
+          "edgeType": "Edge",
+          "source": "63ea28e684ea46298d2e107a277aa065",
+          "target": "3095504155594e889bff1435cba87ad4",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8b444c0b03be46beb38851bca8c1a903",
+          "edgeType": "Edge",
+          "source": "3095504155594e889bff1435cba87ad4",
+          "target": "8ed54f14ad364595aff21e1e394cd681",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "5b3c2f49e9b940798a75d4ced2c61032": {
+      "id": "5b3c2f49e9b940798a75d4ced2c61032",
+      "name": "mycontribution_options",
+      "label": "MyContribution Options",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Our Attitudes",
+          "value": "Our Attitudes"
+        },
+        {
+          "label": "Our People",
+          "value": "Our People",
+          "checked": true
+        },
+        {
+          "label": "MyContribution Conversations",
+          "value": "MyContribution Conversations",
+          "checked": true
+        },
+        {
+          "label": "Growth Mindset",
+          "value": "Growth Mindset",
+          "checked": true
+        },
+        {
+          "label": "Timelines",
+          "value": "Timelines",
+          "checked": true
+        },
+        {
+          "label": "Tools",
+          "value": "Tools",
+          "checked": true
+        },
+        {
+          "label": "Frequently Asked Questions (FAQ)",
+          "value": "FAQ",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph><key_phrases>MyContribution</key_phrases><library>false</library><live_agent>false</live_agent><name>MyContribution</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><roles/><source_topic_id/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-18 12:19:04</sys_created_on><sys_domain>global</sys_domain><sys_id>3ce36e9d1b31a410ef5b635ee54bcbd9</sys_id><sys_mod_count>10</sys_mod_count><sys_name>MyContribution</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_cb_topic_3ce36e9d1b31a410ef5b635ee54bcbd9</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-02-04 12:05:51</sys_updated_on><type>STANDARD</type><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=3ce36e9d1b31a410ef5b635ee54bcbd9"/></record_update>]]></payload>
+        <payload_hash>1422309647</payload_hash>
+        <record_name>MyContribution</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-04 12:05:51</sys_created_on>
+        <sys_id>78e3c2b21b86ac90ef5b635ee54bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776cef31b50000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-04 12:05:51</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>30e3c2b25b86ac909517bb8c17532b44</update_guid>
+        <update_guid_history>30e3c2b25b86ac909517bb8c17532b44:1422309647,474142365c86ac9045f65b2bfa53f838:1912580945,806ff5323586ac9089f1b1bb7994b3fc:-1576716409,87bef97eab46ac90a50ae4c425397fa7:1333933745,d73e3dfa4946ac9033b47b2fb7df2439:-204644041,b9cd3dfa7746ac90056b5e7057cc12b4:914086671,6f685cc44c06685039210a880dd4fc6a:-1196461742,3508d8c4b1066850996620520c82d2e2:675332359,f5071cc09c066850c3d0bd8e42f7e35b:1672895782,32f32add3f31a41038d9b0422a807c6a:996277115,fce32add1a31a410d6c6e69efb49fb63:1206192510</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-04 12:14:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>0d0e2ad973b1404b8464a61e5dc9f399</sys_id>
+        <sys_metadata>3ce36e9d1b31a410ef5b635ee54bcbd9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyContribution</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_3ce36e9d1b31a410ef5b635ee54bcbd9</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_3ce36e9d1b31a410ef5b635ee54bcbd9">78e3c2b21b86ac90ef5b635ee54bcb44</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-04 12:14:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

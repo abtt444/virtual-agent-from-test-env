@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Leave Cancellation">cab526d11b71a410ef5b635ee54bcbe9</cb_topic_id>
+        <channels/>
+        <definition>{"id":"cab526d11b71a410ef5b635ee54bcbe9","name":"Leave Cancellation","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Leave Cancellation","applicability":"true","category":"","key_phrases":["Leave Cancellation"],"variables":[{"name":"__segment_trigger_4661bbbe1d124a3bb88d3431ba354554_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_46f197c8c716a41031576635354f900a","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_OutputPrompt_5a0e19fa14b24299a49ef8ab419e9b5e","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_f8ba6415ed6549daad34b7aaa1a5abd7","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_104e1ab844ac480ba064b78dfb4374f6","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_06f197c81516a41060563e53cfcd860a","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_c2f197c8f016a410fd2854ce9cfa930a","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_4661bbbe1d124a3bb88d3431ba354554_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_46f197c8c716a41031576635354f900a\");vaInputs.initialize(\"__silent_StartGoal_f8ba6415ed6549daad34b7aaa1a5abd7\");vaInputs.initialize(\"__silent_Decision_RootDecision_c2f197c8f016a410fd2854ce9cfa930a\");vaInputs.initialize(\"__silent_OutputPrompt_5a0e19fa14b24299a49ef8ab419e9b5e\");vaInputs.initialize(\"__silent_TerminateGoal_104e1ab844ac480ba064b78dfb4374f6\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_06f197c81516a41060563e53cfcd860a\");null;","fields":[{"name":"__silent_Decision_RootDecision_c2f197c8f016a410fd2854ce9cfa930a","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_c2f197c8f016a410fd2854ce9cfa930a\";vaInputs.__silent_Decision_RootDecision_c2f197c8f016a410fd2854ce9cfa930a=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_c2f197c8f016a410fd2854ce9cfa930a\";vaInputs.RootDecisionBranch_46f197c8c716a41031576635354f900a=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_06f197c81516a41060563e53cfcd860a","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_c2f197c8f016a410fd2854ce9cfa930a\" &amp;&amp; ((vaInputs.RootDecisionBranch_46f197c8c716a41031576635354f900a.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_06f197c81516a41060563e53cfcd860a___RootDecisionBranch_06f197c81516a41060563e53cfcd860a\";vaInputs.__silent_Branch_RootDecisionBranch_06f197c81516a41060563e53cfcd860a=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_06f197c81516a41060563e53cfcd860a___RootDecisionBranch_06f197c81516a41060563e53cfcd860a\";null;"},{"name":"__silent_StartGoal_f8ba6415ed6549daad34b7aaa1a5abd7","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_06f197c81516a41060563e53cfcd860a___RootDecisionBranch_06f197c81516a41060563e53cfcd860a\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___f8ba6415ed6549daad34b7aaa1a5abd7\";vaInputs.__silent_StartGoal_f8ba6415ed6549daad34b7aaa1a5abd7=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___f8ba6415ed6549daad34b7aaa1a5abd7\";null;"},{"name":"__silent_OutputPrompt_5a0e19fa14b24299a49ef8ab419e9b5e","applicable":"vaVars.previous_graph_node==\"Start___f8ba6415ed6549daad34b7aaa1a5abd7\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Leave Cancellation___5a0e19fa14b24299a49ef8ab419e9b5e\";vaInputs.__silent_OutputPrompt_5a0e19fa14b24299a49ef8ab419e9b5e=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Leave Cancellation___5a0e19fa14b24299a49ef8ab419e9b5e\";(function execute() {return gs.getMessageLang(\"Leave Cancellation Response\", vaContext.getRequesterLang());})();"},{"name":"__silent_TerminateGoal_104e1ab844ac480ba064b78dfb4374f6","applicable":"vaVars.previous_graph_node==\"Leave Cancellation___5a0e19fa14b24299a49ef8ab419e9b5e\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___104e1ab844ac480ba064b78dfb4374f6\";vaInputs.__silent_TerminateGoal_104e1ab844ac480ba064b78dfb4374f6=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___104e1ab844ac480ba064b78dfb4374f6\";vaVars.__segment_trigger_4661bbbe1d124a3bb88d3431ba354554_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":true,"design_category":"8df026591b31a410ef5b635ee54bcba7","nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"score":0.0,"visible":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Leave Cancellation","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category>8df026591b31a410ef5b635ee54bcba7</design_category>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Leave Cancellation</key_phrases>
+        <last_published_on>2021-02-08 14:59:24</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>LF KNSL</metaphone>
+        <name>Leave Cancellation</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:27:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>61c5a6d11b71a410ef5b635ee54bcb7b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Leave Cancellation</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_61c5a6d11b71a410ef5b635ee54bcb7b</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 14:59:24</sys_updated_on>
+        <title>Leave Cancellation</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=61c5a6d11b71a410ef5b635ee54bcb7b"/>
+</record_update>

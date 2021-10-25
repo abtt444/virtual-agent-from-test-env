@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[5],"annotatedString":"please help me with my {{phrase=\"travel\"}} claims"}]</annotation>
+        <entity display_value="Travel">5b6392941b3da494ef5b635ee54bcb23</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 08:40:15</sys_created_on>
+        <sys_id>b905da581b3da494ef5b635ee54bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Travel.please help me with my travel claims</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_b905da581b3da494ef5b635ee54bcbd6</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 08:40:15</sys_updated_on>
+        <utterance display_value="please help me with my travel claims">2405d6581b3da494ef5b635ee54bcb57</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_b905da581b3da494ef5b635ee54bcbd6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[5],"annotatedString":"please help me with my {{phrase=\"travel\"}} claims"}]</annotation><entity display_value="Travel">5b6392941b3da494ef5b635ee54bcb23</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-15 08:40:15</sys_created_on><sys_id>b905da581b3da494ef5b635ee54bcbd6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Travel.please help me with my travel claims</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_b905da581b3da494ef5b635ee54bcbd6</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-15 08:40:15</sys_updated_on><utterance display_value="please help me with my travel claims">2405d6581b3da494ef5b635ee54bcb57</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-2142175018</payload_hash>
+        <record_name>Travel.please help me with my travel claims</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 08:40:15</sys_created_on>
+        <sys_id>7905da581b3da494ef5b635ee54bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1770533c6610000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 08:40:15</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>7105da588f3da494b94b6e88e323ddd8</update_guid>
+        <update_guid_history>7105da588f3da494b94b6e88e323ddd8:-2142175018</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-01-15 14:57:32">7eef475c1bf5e494ef5b635ee54bcb60</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 12:57:32</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>9ac931e54f584f28be1773ffa87a7391</sys_id>
+        <sys_metadata>b905da581b3da494ef5b635ee54bcbd6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Travel.please help me with my travel claims</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_b905da581b3da494ef5b635ee54bcbd6</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_b905da581b3da494ef5b635ee54bcbd6">7905da581b3da494ef5b635ee54bcbd8</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 12:57:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

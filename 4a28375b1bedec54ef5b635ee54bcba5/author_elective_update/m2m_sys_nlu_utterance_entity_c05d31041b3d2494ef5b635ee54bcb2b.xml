@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[3,4],"annotatedString":"Do I have {{phrase=\"relocation leave\"}} due to me?"}]</annotation>
+        <entity display_value="Relocation Leave">6b74fd801bf92494ef5b635ee54bcb61</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-14 12:18:09</sys_created_on>
+        <sys_id>c05d31041b3d2494ef5b635ee54bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation Leave.Do I have relocation leave due to me? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_c05d31041b3d2494ef5b635ee54bcb2b</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-14 12:18:09</sys_updated_on>
+        <utterance display_value="Do I have relocation leave due to me? ">764df5041b3d2494ef5b635ee54bcb74</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_c05d31041b3d2494ef5b635ee54bcb2b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[3,4],"annotatedString":"Do I have {{phrase=\"relocation leave\"}} due to me?"}]</annotation><entity display_value="Relocation Leave">6b74fd801bf92494ef5b635ee54bcb61</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-01-14 12:18:09</sys_created_on><sys_id>c05d31041b3d2494ef5b635ee54bcb2b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Relocation Leave.Do I have relocation leave due to me? </sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_c05d31041b3d2494ef5b635ee54bcb2b</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-01-14 12:18:09</sys_updated_on><utterance display_value="Do I have relocation leave due to me? ">764df5041b3d2494ef5b635ee54bcb74</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>1687515583</payload_hash>
+        <record_name>Relocation Leave.Do I have relocation leave due to me? </record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-14 12:18:09</sys_created_on>
+        <sys_id>405d31041b3d2494ef5b635ee54bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17700d4e8670000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-14 12:18:09</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>485d3104793d2494736dbaf84d9f0f2c</update_guid>
+        <update_guid_history>485d3104793d2494736dbaf84d9f0f2c:1687515583</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-01-15 15:13:49">8da397d41b39e494ef5b635ee54bcb7e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 13:13:49</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>48762ddf088b4a2384b8e385b0b68d31</sys_id>
+        <sys_metadata>c05d31041b3d2494ef5b635ee54bcb2b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation Leave.Do I have relocation leave due to me? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_c05d31041b3d2494ef5b635ee54bcb2b</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_c05d31041b3d2494ef5b635ee54bcb2b">405d31041b3d2494ef5b635ee54bcb2d</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:13:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

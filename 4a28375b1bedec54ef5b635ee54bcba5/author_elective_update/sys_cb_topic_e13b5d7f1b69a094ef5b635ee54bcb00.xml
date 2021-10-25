@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <category display_value="Greeting, Help etc">1b72c93f1ba5a094ef5b635ee54bcb91</category>
+        <channels/>
+        <connect_queue/>
+        <description>Sick Leave related querioes</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "febd967d15b749159bcd116944a6dbf6": {
+          "id": "febd967d15b749159bcd116944a6dbf6",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "b9222bf33041432099757b5e94e63002": {
+          "id": "b9222bf33041432099757b5e94e63002",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e8cd705166c84d04be59b44358c90925": {
+          "stepType": "ChoicePrompt",
+          "name": "Sick Leave options",
+          "prompt": {
+            "value": "Please select one of the following options",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "dfbeeea2954546478defad796b69275b",
+          "id": "e8cd705166c84d04be59b44358c90925",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        }
+      },
+      "edges": [
+        {
+          "id": "be749e4faf3d41ffbbd2a12a9e9cb3c5",
+          "edgeType": "Edge",
+          "source": "febd967d15b749159bcd116944a6dbf6",
+          "target": "e8cd705166c84d04be59b44358c90925",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d4c01fc2d25c4f35a48e554ad78a5e1f",
+          "edgeType": "Edge",
+          "source": "e8cd705166c84d04be59b44358c90925",
+          "target": "b9222bf33041432099757b5e94e63002",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "dfbeeea2954546478defad796b69275b": {
+      "id": "dfbeeea2954546478defad796b69275b",
+      "name": "sick_leave_options",
+      "label": "Sick Leave Options",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Apply for Sick Leave",
+          "value": "ApplySickLeave"
+        },
+        {
+          "label": "Doctors Note for Sick Leave",
+          "value": "SickLeaveDoctorsNote",
+          "checked": true
+        },
+        {
+          "label": "Number of Sick Leave Days",
+          "value": "Number of Sick Leave Days",
+          "checked": true
+        },
+        {
+          "label": "Sick Leave Not Paid",
+          "value": "SickLeaveNotPaidOut",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Sick Leave</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Sick Leave</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-13 15:10:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e13b5d7f1b69a094ef5b635ee54bcb00</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Sick Leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_e13b5d7f1b69a094ef5b635ee54bcb00</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 11:00:49</sys_updated_on>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=e13b5d7f1b69a094ef5b635ee54bcb00"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>sys_cb_topic_e13b5d7f1b69a094ef5b635ee54bcb00</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><category display_value="Greeting, Help etc">1b72c93f1ba5a094ef5b635ee54bcb91</category><channels/><connect_queue/><description>Sick Leave related querioes</description><flexible_conversation_switching>false</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.21",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "febd967d15b749159bcd116944a6dbf6": {
+          "id": "febd967d15b749159bcd116944a6dbf6",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "b9222bf33041432099757b5e94e63002": {
+          "id": "b9222bf33041432099757b5e94e63002",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e8cd705166c84d04be59b44358c90925": {
+          "stepType": "ChoicePrompt",
+          "name": "Sick Leave options",
+          "prompt": {
+            "value": "Please select one of the following options",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "dfbeeea2954546478defad796b69275b",
+          "id": "e8cd705166c84d04be59b44358c90925",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        }
+      },
+      "edges": [
+        {
+          "id": "be749e4faf3d41ffbbd2a12a9e9cb3c5",
+          "edgeType": "Edge",
+          "source": "febd967d15b749159bcd116944a6dbf6",
+          "target": "e8cd705166c84d04be59b44358c90925",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d4c01fc2d25c4f35a48e554ad78a5e1f",
+          "edgeType": "Edge",
+          "source": "e8cd705166c84d04be59b44358c90925",
+          "target": "b9222bf33041432099757b5e94e63002",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "dfbeeea2954546478defad796b69275b": {
+      "id": "dfbeeea2954546478defad796b69275b",
+      "name": "sick_leave_options",
+      "label": "Sick Leave Options",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Apply for Sick Leave",
+          "value": "ApplySickLeave"
+        },
+        {
+          "label": "Doctors Note for Sick Leave",
+          "value": "SickLeaveDoctorsNote",
+          "checked": true
+        },
+        {
+          "label": "Number of Sick Leave Days",
+          "value": "Number of Sick Leave Days",
+          "checked": true
+        },
+        {
+          "label": "Sick Leave Not Paid",
+          "value": "SickLeaveNotPaidOut",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph><key_phrases>Sick Leave</key_phrases><library>false</library><live_agent>false</live_agent><name>Sick Leave</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><roles/><source_topic_id/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-13 15:10:41</sys_created_on><sys_domain>global</sys_domain><sys_id>e13b5d7f1b69a094ef5b635ee54bcb00</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Sick Leave</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_cb_topic_e13b5d7f1b69a094ef5b635ee54bcb00</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-14 11:00:49</sys_updated_on><type>STANDARD</type><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=e13b5d7f1b69a094ef5b635ee54bcb00"/></record_update>]]></payload>
+        <payload_hash>-434480744</payload_hash>
+        <record_name>Sick Leave</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 11:00:50</sys_created_on>
+        <sys_id>539ba1001bb92494ef5b635ee54bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177008e1ee10000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 11:00:50</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>1b9ba100f9b92494564b762962db8f1b</update_guid>
+        <update_guid_history>1b9ba100f9b92494564b762962db8f1b:-434480744,525dd1b3bda9a094c674ceb1b365a8c6:-68901628,57fc9573dca9a0946afcf4e46db4a0d1:-443711584,6fecd17386a9a094100cbfaf35467175:619623758,213b11bfa669a094386986c624650742:-888368536</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 11:59:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>0cfbb62b5f134d39ad411040727a32b9</sys_id>
+        <sys_metadata>e13b5d7f1b69a094ef5b635ee54bcb00</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sick Leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_e13b5d7f1b69a094ef5b635ee54bcb00</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_e13b5d7f1b69a094ef5b635ee54bcb00">539ba1001bb92494ef5b635ee54bcb1c</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-18 11:59:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

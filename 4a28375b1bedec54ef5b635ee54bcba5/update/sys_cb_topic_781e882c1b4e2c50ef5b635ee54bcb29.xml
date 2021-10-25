@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category>7a6dc0201b8e2c50ef5b635ee54bcb98</category>
+        <channels/>
+        <connect_queue/>
+        <description>Enables users to request a live agent.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "eee36bc8e1974b26bf437dab350584cd": {
+          "id": "eee36bc8e1974b26bf437dab350584cd",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "c4bbe6dd86094052b244db4c0739c2e8": {
+          "id": "c4bbe6dd86094052b244db4c0739c2e8",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "cce4687a7a3948e89f8a1116e8c0cd29": {
+          "id": "cce4687a7a3948e89f8a1116e8c0cd29",
+          "name": "Connect To Agent",
+          "script": "(function execute() {\n    vaSystem.connectToAgent();\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "2a94670c8a274ca4a0cc85b78134e726": {
+          "id": "2a94670c8a274ca4a0cc85b78134e726",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "fe8fc4bd51db418fb92c1fc63e981483": {
+          "id": "fe8fc4bd51db418fb92c1fc63e981483",
+          "stepType": "Prompt",
+          "name": "User chooses an option",
+          "prompt": {
+            "value": "It looks like you need support on a sensitive topic - would you like to be transferred to a Human Chat Agent?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": true,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "cf3e18de56ec4b59969d35aea52d39bd",
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "6c59332ac20f4f3a90a8900914235670",
+          "edgeType": "Edge",
+          "source": "eee36bc8e1974b26bf437dab350584cd",
+          "target": "fe8fc4bd51db418fb92c1fc63e981483",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a4ef76292c944d2e8db1932c829dd0f7",
+          "edgeType": "Branch",
+          "source": "2a94670c8a274ca4a0cc85b78134e726",
+          "target": "cce4687a7a3948e89f8a1116e8c0cd29",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "user_chooses_an_option=true",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "f27d6c286c9f4729a14b031acc8844e2",
+          "edgeType": "Edge",
+          "source": "cce4687a7a3948e89f8a1116e8c0cd29",
+          "target": "c4bbe6dd86094052b244db4c0739c2e8",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e3e8b2df1b1046858a999b66f71c83cf",
+          "edgeType": "Branch",
+          "source": "2a94670c8a274ca4a0cc85b78134e726",
+          "target": "c4bbe6dd86094052b244db4c0739c2e8",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "user_chooses_an_option=",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "f16279c1ec424ff38dacaf72de83f2d9",
+          "edgeType": "Edge",
+          "source": "fe8fc4bd51db418fb92c1fc63e981483",
+          "target": "2a94670c8a274ca4a0cc85b78134e726",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "cf3e18de56ec4b59969d35aea52d39bd": {
+      "id": "cf3e18de56ec4b59969d35aea52d39bd",
+      "name": "user_chooses_an_option",
+      "label": "User Chooses An Option",
+      "varType": "boolean",
+      "category": "vaInputs"
+    },
+    "20217d1003d74f76b0ce51ec9ed3bb27": {
+      "category": "vaInputs",
+      "id": "20217d1003d74f76b0ce51ec9ed3bb27",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases/>
+        <library>true</library>
+        <live_agent>false</live_agent>
+        <name>Human</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id>996257ff1bf92850ef5b635ee54bcb00</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>ABRJ203</sys_created_by>
+        <sys_created_on>2021-01-28 03:44:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>781e882c1b4e2c50ef5b635ee54bcb29</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Human</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_781e882c1b4e2c50ef5b635ee54bcb29</sys_update_name>
+        <sys_updated_by>ABRJ203</sys_updated_by>
+        <sys_updated_on>2021-01-28 03:57:18</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>TOPIC_BLOCK</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=781e882c1b4e2c50ef5b635ee54bcb29"/>
+</record_update>

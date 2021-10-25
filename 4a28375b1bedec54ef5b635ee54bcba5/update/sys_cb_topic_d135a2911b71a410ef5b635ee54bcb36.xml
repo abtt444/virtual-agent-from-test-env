@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category>3de066591b31a410ef5b635ee54bcbe3</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "ff0b3554bf37424796403afb771d61d0": {
+          "id": "ff0b3554bf37424796403afb771d61d0",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "54ecf9da3e19439796b3cc6fb0e3d0d0": {
+          "id": "54ecf9da3e19439796b3cc6fb0e3d0d0",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e84552f6900f4c96a898795c32c59c50": {
+          "id": "e84552f6900f4c96a898795c32c59c50",
+          "stepType": "TextOutput",
+          "name": "Book Relocation Leave",
+          "value": {
+            "value": "Book Relocation Leave Response",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "b1aed7e431df4ec192827885e83a8d83",
+          "edgeType": "Edge",
+          "source": "ff0b3554bf37424796403afb771d61d0",
+          "target": "e84552f6900f4c96a898795c32c59c50",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ffebd12675e84daa842cdb1072cb3980",
+          "edgeType": "Edge",
+          "source": "e84552f6900f4c96a898795c32c59c50",
+          "target": "54ecf9da3e19439796b3cc6fb0e3d0d0",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Book Relocation Leave</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Book Relocation Leave</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:24:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d135a2911b71a410ef5b635ee54bcb36</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Book Relocation Leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_d135a2911b71a410ef5b635ee54bcb36</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-18 12:25:00</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=d135a2911b71a410ef5b635ee54bcb36"/>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_cs_topic_language">
+    <sys_cs_topic_language action="DELETE">
+        <cs_topic_id display_value="VA Feedback 2.0">5fa4ff711b4e7c50ef5b635ee54bcbc4</cs_topic_id>
+        <language_code>fr</language_code>
+        <nlu_entities>[]</nlu_entities>
+        <nlu_intent>Feedback</nlu_intent>
+        <nlu_intent_label>Feedback</nlu_intent_label>
+        <nlu_model>global_global_15b1869a5b001010d033d82d9681c768</nlu_model>
+        <nlu_model_label>[Read Only] Setup Topics Model FR</nlu_model_label>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cs_topic_language</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-08-19 13:55:52</sys_created_on>
+        <sys_id>17a4b7b11b4e7c50ef5b635ee54bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_language_17a4b7b11b4e7c50ef5b635ee54bcbe4</sys_update_name>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-08-19 13:55:52</sys_updated_on>
+    </sys_cs_topic_language>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>sys_cs_topic_language_17a4b7b11b4e7c50ef5b635ee54bcbe4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_cs_topic_language"><sys_cs_topic_language action="INSERT_OR_UPDATE"><cs_topic_id display_value="VA Feedback 2.0">5fa4ff711b4e7c50ef5b635ee54bcbc4</cs_topic_id><language_code>fr</language_code><nlu_entities>[]</nlu_entities><nlu_intent>Feedback</nlu_intent><nlu_intent_label>Feedback</nlu_intent_label><nlu_model>global_global_15b1869a5b001010d033d82d9681c768</nlu_model><nlu_model_label>[Read Only] Setup Topics Model FR</nlu_model_label><nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider><sys_class_name>sys_cs_topic_language</sys_class_name><sys_created_by>tshwarelo.tshabalala</sys_created_by><sys_created_on>2021-08-19 13:55:52</sys_created_on><sys_id>17a4b7b11b4e7c50ef5b635ee54bcbe4</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_cs_topic_language_17a4b7b11b4e7c50ef5b635ee54bcbe4</sys_update_name><sys_updated_by>tshwarelo.tshabalala</sys_updated_by><sys_updated_on>2021-08-19 13:55:52</sys_updated_on></sys_cs_topic_language></record_update>]]></payload>
+        <payload_hash>-744888392</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>27bcdbf11ba6a410122465fce54bcb96</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-08-19 13:55:52</sys_created_on>
+        <sys_id>d7a4b7b11b4e7c50ef5b635ee54bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b5eb25b3b0000001</sys_recorded_at>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-08-19 13:55:52</sys_updated_on>
+        <type>CS Topic Language</type>
+        <update_guid>dfa4b7b1514e7c50f44cf944d1e25be4</update_guid>
+        <update_guid_history>dfa4b7b1514e7c50f44cf944d1e25be4:-744888392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-08-20 02:54:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_topic_language">sys_cs_topic_language</sys_db_object>
+        <sys_id>281990a79ff9442691aeadef322269e4</sys_id>
+        <sys_metadata>17a4b7b11b4e7c50ef5b635ee54bcbe4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cs_topic_language_17a4b7b11b4e7c50ef5b635ee54bcbe4</sys_update_name>
+        <sys_update_version display_value="sys_cs_topic_language_17a4b7b11b4e7c50ef5b635ee54bcbe4">d7a4b7b11b4e7c50ef5b635ee54bcbe5</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-08-20 02:54:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

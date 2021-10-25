@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"Do I have relocation {{phrase=\"leave\"}} due to me?","start":21,"end":25}]</annotation>
+        <entity display_value="Leave">1fe1a3031b0260d0ef5b635ee54bcb86</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-08 10:30:56</sys_created_on>
+        <sys_id>1d8492c01b1aa410122465fce54bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave.Do I have relocation leave due to me?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_1d8492c01b1aa410122465fce54bcb2c</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:30:56</sys_updated_on>
+        <utterance display_value="Do I have relocation leave due to me?">8f1a67831b4260d0ef5b635ee54bcbe8</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

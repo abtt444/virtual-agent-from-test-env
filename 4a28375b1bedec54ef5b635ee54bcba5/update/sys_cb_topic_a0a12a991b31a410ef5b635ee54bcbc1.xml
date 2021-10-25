@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category>d801a2591b31a410ef5b635ee54bcb52</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "a9a5358c5de34218ae04ff9bedede217": {
+          "id": "a9a5358c5de34218ae04ff9bedede217",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "b2224fc0c7ad4e16a7adb6e5a351b3f9": {
+          "id": "b2224fc0c7ad4e16a7adb6e5a351b3f9",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "bb3e790f2a884e649a8454d9c32f50c0": {
+          "id": "bb3e790f2a884e649a8454d9c32f50c0",
+          "stepType": "TextOutput",
+          "name": "Changing pension contribution",
+          "value": {
+            "value": "Response for changing pension contribution",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "f1fbd87e66e645ae911f13ca88d3559e",
+          "edgeType": "Edge",
+          "source": "a9a5358c5de34218ae04ff9bedede217",
+          "target": "bb3e790f2a884e649a8454d9c32f50c0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6ceab1f58d6b4df89e2400f5195fb261",
+          "edgeType": "Edge",
+          "source": "bb3e790f2a884e649a8454d9c32f50c0",
+          "target": "b2224fc0c7ad4e16a7adb6e5a351b3f9",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Changing Pension Contribution</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Changing Pension Contribution</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-18 12:09:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a0a12a991b31a410ef5b635ee54bcbc1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Changing Pension Contribution</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_a0a12a991b31a410ef5b635ee54bcbc1</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:07:41</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=a0a12a991b31a410ef5b635ee54bcbc1"/>
+</record_update>

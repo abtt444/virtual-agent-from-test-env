@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_entity">
+    <sys_nlu_entity action="DELETE">
+        <base_entity/>
+        <field_name/>
+        <model/>
+        <name>Withdraw</name>
+        <sys_class_name>sys_nlu_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-26 09:37:10</sys_created_on>
+        <sys_id>1b8b03b71bf92850ef5b635ee54bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Withdraw</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_entity_1b8b03b71bf92850ef5b635ee54bcb2d</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-26 09:37:10</sys_updated_on>
+        <table/>
+        <type>simple</type>
+        <values_list/>
+    </sys_nlu_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>sys_nlu_entity_1b8b03b71bf92850ef5b635ee54bcb2d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_entity"><sys_nlu_entity action="INSERT_OR_UPDATE"><base_entity/><field_name/><model/><name>Withdraw</name><sys_class_name>sys_nlu_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-26 09:37:10</sys_created_on><sys_id>1b8b03b71bf92850ef5b635ee54bcb2d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Withdraw</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_nlu_entity_1b8b03b71bf92850ef5b635ee54bcb2d</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-26 09:37:10</sys_updated_on><table/><type>simple</type><values_list/></sys_nlu_entity></record_update>]]></payload>
+        <payload_hash>-243138936</payload_hash>
+        <record_name>Withdraw</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-26 09:37:10</sys_created_on>
+        <sys_id>538b07b71bf92850ef5b635ee54bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1773e0dd8a90000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-26 09:37:10</sys_updated_on>
+        <type>NLU Entity</type>
+        <update_guid>5b8b07b794f928507e1c98c353e5f711</update_guid>
+        <update_guid_history>5b8b07b794f928507e1c98c353e5f711:-243138936</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-26 10:30:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_entity">sys_nlu_entity</sys_db_object>
+        <sys_id>07004a9202eb4340813f370907d17b89</sys_id>
+        <sys_metadata>1b8b03b71bf92850ef5b635ee54bcb2d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Withdraw</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_entity_1b8b03b71bf92850ef5b635ee54bcb2d</sys_update_name>
+        <sys_update_version display_value="sys_nlu_entity_1b8b03b71bf92850ef5b635ee54bcb2d">538b07b71bf92850ef5b635ee54bcb12</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-26 10:30:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category>1c51ae591b31a410ef5b635ee54bcbde</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "dda8cddd36384dbab0feec2b4553f186": {
+          "id": "dda8cddd36384dbab0feec2b4553f186",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "8304b27a6174451ea574d56ef7ca728d": {
+          "id": "8304b27a6174451ea574d56ef7ca728d",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e1567e6f511045dfaea1cd393cc0ab8a": {
+          "id": "e1567e6f511045dfaea1cd393cc0ab8a",
+          "stepType": "TextOutput",
+          "name": "Working from Home",
+          "value": {
+            "value": "Working from Home Response",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "4402610dc6644aadb7e386378a2261ae",
+          "edgeType": "Edge",
+          "source": "dda8cddd36384dbab0feec2b4553f186",
+          "target": "e1567e6f511045dfaea1cd393cc0ab8a",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "30f749fe74f34096b051df154e10a2f8",
+          "edgeType": "Edge",
+          "source": "e1567e6f511045dfaea1cd393cc0ab8a",
+          "target": "8304b27a6174451ea574d56ef7ca728d",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Working from Home</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Working from Home</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:16:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8543ee5d1b31a410ef5b635ee54bcb1e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Working from Home</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_8543ee5d1b31a410ef5b635ee54bcb1e</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-18 12:16:51</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=8543ee5d1b31a410ef5b635ee54bcb1e"/>
+</record_update>

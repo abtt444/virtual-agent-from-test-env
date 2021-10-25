@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category>8661ae591b31a410ef5b635ee54bcbf5</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "3de8079590c446fa97e8fcfdd1d939bb": {
+          "id": "3de8079590c446fa97e8fcfdd1d939bb",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "dda2a366c0af4389a117c9f561f5951d": {
+          "id": "dda2a366c0af4389a117c9f561f5951d",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "cd17ec6ca234483ba014ac3d04c0cd88": {
+          "id": "cd17ec6ca234483ba014ac3d04c0cd88",
+          "stepType": "LinkOutput",
+          "name": "MyContribution PDF",
+          "url": {
+            "value": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011844",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "Click here for the Absa MyContribution Toolkit",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "Thank you for your interest. Let me tell you about the art and heart of MyContribution conversations.\r",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "341253eace1c4e04be7e903beb8cdd56": {
+          "id": "341253eace1c4e04be7e903beb8cdd56",
+          "stepType": "LinkOutput",
+          "name": "FAQ Link",
+          "url": {
+            "value": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011812",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "Click Here for MyContribution FAQ",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "You've got questions? We've got answers!",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        }
+      },
+      "edges": [
+        {
+          "id": "063dbe2b0e1b4f4fb7c4c59ea1bf7609",
+          "edgeType": "Edge",
+          "source": "3de8079590c446fa97e8fcfdd1d939bb",
+          "target": "cd17ec6ca234483ba014ac3d04c0cd88",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0620c8d3663d4996858b6502494a5e55",
+          "edgeType": "Edge",
+          "source": "cd17ec6ca234483ba014ac3d04c0cd88",
+          "target": "341253eace1c4e04be7e903beb8cdd56",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "196f422d951441acbcd19968391dbc86",
+          "edgeType": "Edge",
+          "source": "341253eace1c4e04be7e903beb8cdd56",
+          "target": "dda2a366c0af4389a117c9f561f5951d",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>MyContribution</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>MyContribution</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-04 12:15:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bbf5ce3e1b86ac90ef5b635ee54bcb94</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MyContribution</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_bbf5ce3e1b86ac90ef5b635ee54bcb94</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-04 12:22:02</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=bbf5ce3e1b86ac90ef5b635ee54bcb94"/>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[3],"annotatedString":"How do i {{phrase=\"withdraw\"}} my pension"}]</annotation>
+        <entity display_value="Payout">2426461c1bb9a494ef5b635ee54bcb2f</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 07:53:16</sys_created_on>
+        <sys_id>e54ac2541bf9a494ef5b635ee54bcbe5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Payout.How do i withdraw my pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_e54ac2541bf9a494ef5b635ee54bcbe5</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 08:58:56</sys_updated_on>
+        <utterance display_value="How do i withdraw my pension">e44ac2541bf9a494ef5b635ee54bcbe2</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_e54ac2541bf9a494ef5b635ee54bcbe5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[3],"annotatedString":"How do i {{phrase=\"withdraw\"}} my pension"}]</annotation><entity display_value="Payout">2426461c1bb9a494ef5b635ee54bcb2f</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-01-15 07:53:16</sys_created_on><sys_id>e54ac2541bf9a494ef5b635ee54bcbe5</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Payout.How do i withdraw my pension</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_e54ac2541bf9a494ef5b635ee54bcbe5</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-01-15 08:58:56</sys_updated_on><utterance display_value="How do i withdraw my pension">e44ac2541bf9a494ef5b635ee54bcbe2</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-1415520524</payload_hash>
+        <record_name>Payout.How do i withdraw my pension</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 08:58:56</sys_created_on>
+        <sys_id>af495e501b7da494ef5b635ee54bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1770544e3240000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 08:58:56</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>67495e50a37da494940fd5bc70d4f1d8</update_guid>
+        <update_guid_history>67495e50a37da494940fd5bc70d4f1d8:-1415520524,1e4a4a1472f9a494600e9573ca6c415f:-756814834,6d4ac25408f9a494296279e43295e1e6:-258188712</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-01-15 15:10:56">0ff257541b39e494ef5b635ee54bcbf6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 13:10:56</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>05b7817ee5e3445780f6d28dbeda3949</sys_id>
+        <sys_metadata>e54ac2541bf9a494ef5b635ee54bcbe5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payout.How do i withdraw my pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_e54ac2541bf9a494ef5b635ee54bcbe5</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_e54ac2541bf9a494ef5b635ee54bcbe5">af495e501b7da494ef5b635ee54bcbd8</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:10:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

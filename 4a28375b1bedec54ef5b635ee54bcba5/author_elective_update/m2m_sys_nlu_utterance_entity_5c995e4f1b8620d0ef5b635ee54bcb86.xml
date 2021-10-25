@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[2],"annotatedString":"what does {{phrase=\"covid\"}} do?"}]</annotation>
+        <entity display_value="Covid-19">2ec7da4b1b8620d0ef5b635ee54bcbfe</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:19:03</sys_created_on>
+        <sys_id>5c995e4f1b8620d0ef5b635ee54bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Covid-19.what does covid do?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_5c995e4f1b8620d0ef5b635ee54bcb86</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:19:03</sys_updated_on>
+        <utterance display_value="what does covid do?">b8f656871b8620d0ef5b635ee54bcbf9</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_5c995e4f1b8620d0ef5b635ee54bcb86</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[2],"annotatedString":"what does {{phrase=\"covid\"}} do?"}]</annotation><entity display_value="Covid-19">2ec7da4b1b8620d0ef5b635ee54bcbfe</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-02-05 08:19:03</sys_created_on><sys_id>5c995e4f1b8620d0ef5b635ee54bcb86</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Covid-19.what does covid do?</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_5c995e4f1b8620d0ef5b635ee54bcb86</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-02-05 08:19:03</sys_updated_on><utterance display_value="what does covid do?">b8f656871b8620d0ef5b635ee54bcbf9</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>1605553300</payload_hash>
+        <record_name>Covid-19.what does covid do?</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:19:03</sys_created_on>
+        <sys_id>1c995e4f1b8620d0ef5b635ee54bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1777145e9c80000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:19:03</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>14995e4fc78620d02c1e9b5970c81188</update_guid>
+        <update_guid_history>14995e4fc78620d02c1e9b5970c81188:1605553300</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-08 14:26:55">d41f2ecc1bdaa410122465fce54bcb9c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-08 12:26:55</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>1f7704a262de434c9881609cb61f8bb1</sys_id>
+        <sys_metadata>5c995e4f1b8620d0ef5b635ee54bcb86</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Covid-19.what does covid do?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_5c995e4f1b8620d0ef5b635ee54bcb86</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_5c995e4f1b8620d0ef5b635ee54bcb86">1c995e4f1b8620d0ef5b635ee54bcb88</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-08 12:26:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

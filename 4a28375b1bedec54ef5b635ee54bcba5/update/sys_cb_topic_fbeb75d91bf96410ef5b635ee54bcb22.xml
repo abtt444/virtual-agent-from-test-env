@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category>1c51ae591b31a410ef5b635ee54bcbde</category>
+        <channels/>
+        <connect_queue/>
+        <description>Direct the user to the offical NICD FAQ page for Covid-19</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "531e39dc2c9246dbbf9646fef2c1dd2c": {
+          "id": "531e39dc2c9246dbbf9646fef2c1dd2c",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "a18a3785b340409798abc0a4192fba07": {
+          "id": "a18a3785b340409798abc0a4192fba07",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "3f0973cac51443b7b9833dcf71343f8c": {
+          "id": "3f0973cac51443b7b9833dcf71343f8c",
+          "stepType": "LinkOutput",
+          "name": "NICD Covid-19 FAQ",
+          "url": {
+            "value": "https://www.nicd.ac.za/diseases-a-z-index/covid-19/frequently-asked-questions/",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "Covid-19 FAQs",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "Please see the official Covid-19 FAQ documentation from the National Institute for Communicable Diseases (NICD)",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        }
+      },
+      "edges": [
+        {
+          "id": "517d4370542f49418b685f74076be3d2",
+          "edgeType": "Edge",
+          "source": "531e39dc2c9246dbbf9646fef2c1dd2c",
+          "target": "3f0973cac51443b7b9833dcf71343f8c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7bc8f40b860a4d7a8b1275cf91edce5e",
+          "edgeType": "Edge",
+          "source": "3f0973cac51443b7b9833dcf71343f8c",
+          "target": "a18a3785b340409798abc0a4192fba07",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Covid-19 General Information</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Covid-19 General Information</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 09:24:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fbeb75d91bf96410ef5b635ee54bcb22</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Covid-19 General Information</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_fbeb75d91bf96410ef5b635ee54bcb22</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-18 12:10:42</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=fbeb75d91bf96410ef5b635ee54bcb22"/>
+</record_update>

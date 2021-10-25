@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display/>
+        <metric display_value="New Image Scale">3872ede01b026090122465fce54bcbba</metric>
+        <normalization_input>0</normalization_input>
+        <order>0</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-28 09:53:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f872ede01b026090122465fce54bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>asmt_metric_definition_f872ede01b026090122465fce54bcbbf</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-28 09:53:26</sys_updated_on>
+        <unselected_image/>
+        <value>1</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=f872ede01b026090122465fce54bcbbf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>asmt_metric_definition_f872ede01b026090122465fce54bcbbf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display/><metric display_value="New Image Scale">3872ede01b026090122465fce54bcbba</metric><normalization_input>0</normalization_input><order>0</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-01-28 09:53:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f872ede01b026090122465fce54bcbbf</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>asmt_metric_definition_f872ede01b026090122465fce54bcbbf</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-01-28 09:53:26</sys_updated_on><unselected_image/><value>1</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=f872ede01b026090122465fce54bcbbf"/></record_update>]]></payload>
+        <payload_hash>1240425101</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-28 09:53:26</sys_created_on>
+        <sys_id>b472ede01b026090122465fce54bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177486973c70000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-28 09:53:26</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>bc72ede0b4026090c7732dbb93cfa2c3</update_guid>
+        <update_guid_history>bc72ede0b4026090c7732dbb93cfa2c3:1240425101</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-01-28 12:00:11">ebf3eda41b026090122465fce54bcb73</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-28 10:00:11</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>3ce3d64fee5b4494be978c472e591010</sys_id>
+        <sys_metadata>f872ede01b026090122465fce54bcbbf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_f872ede01b026090122465fce54bcbbf</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_f872ede01b026090122465fce54bcbbf">b472ede01b026090122465fce54bcbc4</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-28 10:00:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

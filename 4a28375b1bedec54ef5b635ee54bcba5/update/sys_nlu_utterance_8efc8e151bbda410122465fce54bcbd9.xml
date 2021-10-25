@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="MyContribution">68cc0ed11bbda410122465fce54bcb48</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>ABDT007</sys_created_by>
+        <sys_created_on>2021-01-18 10:38:57</sys_created_on>
+        <sys_id>8efc8e151bbda410122465fce54bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>What is MyContribution used for</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_8efc8e151bbda410122465fce54bcbd9</sys_update_name>
+        <sys_updated_by>ABDT007</sys_updated_by>
+        <sys_updated_on>2021-01-18 10:38:57</sys_updated_on>
+        <utterance>What is MyContribution used for</utterance>
+    </sys_nlu_utterance>
+</record_update>

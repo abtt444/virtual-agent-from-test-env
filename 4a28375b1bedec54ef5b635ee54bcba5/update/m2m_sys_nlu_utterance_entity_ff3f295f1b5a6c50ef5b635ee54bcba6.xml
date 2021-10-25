@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"how many days of {{phrase=\"accumalted\"}} leave do i have left","start":17,"end":26}]</annotation>
+        <entity display_value="Accumulation">35f3d2c41b5e6410ef5b635ee54bcbdf</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-18 10:08:20</sys_created_on>
+        <sys_id>ff3f295f1b5a6c50ef5b635ee54bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accumulation.how many days of accumalted leave do i have left</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_ff3f295f1b5a6c50ef5b635ee54bcba6</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-18 10:08:20</sys_updated_on>
+        <utterance display_value="how many days of accumalted leave do i have left">93ee2d1f1b5a6c50ef5b635ee54bcbee</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

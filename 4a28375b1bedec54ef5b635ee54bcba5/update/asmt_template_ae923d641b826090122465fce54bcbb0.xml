@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_template">
+    <asmt_template action="INSERT_OR_UPDATE">
+        <allow_image>true</allow_image>
+        <name>ABSA Survey</name>
+        <number>ATP0010004</number>
+        <sys_class_name>asmt_template</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-28 11:04:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae923d641b826090122465fce54bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ABSA Survey</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>asmt_template_ae923d641b826090122465fce54bcbb0</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-28 11:04:26</sys_updated_on>
+    </asmt_template>
+</record_update>

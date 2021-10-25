@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ml_capability_definition_base">
+    <ml_capability_definition_base action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <capability display_value="NLU">b4ddf73453c73300d1dcddeeff7b1288</capability>
+        <current_solution_version>1</current_solution_version>
+        <dataset_language>en</dataset_language>
+        <fields/>
+        <filter/>
+        <request_source>ui</request_source>
+        <solution_label>global_da8d9a8a1b8a6c90122465fce54bcb5d_9dde524e1b8a6c90122465fce54bcb53</solution_label>
+        <solution_name>ml_global_da8d9a8a1b8a6c90122465fce54bcb5d_9dde524e1b8a6c90122465fce54bcb53</solution_name>
+        <solution_parameters/>
+        <solution_properties/>
+        <stopwords>a6282a25533333008c5bddeeff7b12c3</stopwords>
+        <sys_class_name>ml_capability_definition_base</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-02 06:44:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>44376e421b0e6c90122465fce54bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_da8d9a8a1b8a6c90122465fce54bcb5d_9dde524e1b8a6c90122465fce54bcb53</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>ml_capability_definition_base_44376e421b0e6c90122465fce54bcb5e</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-02 06:44:38</sys_updated_on>
+        <table/>
+        <training_frequency>every_30_days</training_frequency>
+        <word_vector_corpus/>
+    </ml_capability_definition_base>
+</record_update>

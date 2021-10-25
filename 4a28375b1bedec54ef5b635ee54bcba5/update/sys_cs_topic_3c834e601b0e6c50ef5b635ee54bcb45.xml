@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Absa Live Agent Transfer">91030aec1b8a6c50ef5b635ee54bcb96</cb_topic_id>
+        <channels/>
+        <definition>{"id":"91030aec1b8a6c50ef5b635ee54bcb96","name":"Absa Live Agent Transfer","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Absa Live Agent Transfer","applicability":"true","category":"","key_phrases":["Absa Live Agent Transfer","Absa Live Agent Transfer","agent","live agent","Live Agent Support"],"variables":[{"name":"__segment_trigger_a581a9587f844d61b3585e751e8ed6b0_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_aa36db80de56a41087377ad757d622b6","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_1f9b6650bdcd488dae0c43d1faa8b06d","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_2a36db80d656a4102273af075dc116b6","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_ScriptedAction_d7d25cfbb57240a389d8b0aa6ab4f3c3","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_53724428a071443a99cba69d9e008b3a","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_6a36db80ce56a41086c73100045785b6","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_a581a9587f844d61b3585e751e8ed6b0_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_aa36db80de56a41087377ad757d622b6\");vaInputs.initialize(\"__silent_Decision_RootDecision_2a36db80d656a4102273af075dc116b6\");vaInputs.initialize(\"__silent_TerminateGoal_1f9b6650bdcd488dae0c43d1faa8b06d\");vaInputs.initialize(\"__silent_StartGoal_53724428a071443a99cba69d9e008b3a\");vaInputs.initialize(\"__silent_ScriptedAction_d7d25cfbb57240a389d8b0aa6ab4f3c3\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_6a36db80ce56a41086c73100045785b6\");null;","fields":[{"name":"__silent_Decision_RootDecision_2a36db80d656a4102273af075dc116b6","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_2a36db80d656a4102273af075dc116b6\";vaInputs.__silent_Decision_RootDecision_2a36db80d656a4102273af075dc116b6=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_2a36db80d656a4102273af075dc116b6\";vaInputs.RootDecisionBranch_aa36db80de56a41087377ad757d622b6=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_6a36db80ce56a41086c73100045785b6","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_2a36db80d656a4102273af075dc116b6\" &amp;&amp; ((vaInputs.RootDecisionBranch_aa36db80de56a41087377ad757d622b6.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_6a36db80ce56a41086c73100045785b6___RootDecisionBranch_6a36db80ce56a41086c73100045785b6\";vaInputs.__silent_Branch_RootDecisionBranch_6a36db80ce56a41086c73100045785b6=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_6a36db80ce56a41086c73100045785b6___RootDecisionBranch_6a36db80ce56a41086c73100045785b6\";null;"},{"name":"__silent_StartGoal_53724428a071443a99cba69d9e008b3a","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_6a36db80ce56a41086c73100045785b6___RootDecisionBranch_6a36db80ce56a41086c73100045785b6\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___53724428a071443a99cba69d9e008b3a\";vaInputs.__silent_StartGoal_53724428a071443a99cba69d9e008b3a=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___53724428a071443a99cba69d9e008b3a\";null;"},{"name":"__silent_ScriptedAction_d7d25cfbb57240a389d8b0aa6ab4f3c3","applicable":"vaVars.previous_graph_node==\"Start___53724428a071443a99cba69d9e008b3a\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Connect To Agent___d7d25cfbb57240a389d8b0aa6ab4f3c3\";(function execute() {(function execute() {\n    vaSystem.connectToAgent();\n})()\n;})();vaInputs.__silent_ScriptedAction_d7d25cfbb57240a389d8b0aa6ab4f3c3=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Connect To Agent___d7d25cfbb57240a389d8b0aa6ab4f3c3\";null;"},{"name":"__silent_TerminateGoal_1f9b6650bdcd488dae0c43d1faa8b06d","applicable":"vaVars.previous_graph_node==\"Connect To Agent___d7d25cfbb57240a389d8b0aa6ab4f3c3\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___1f9b6650bdcd488dae0c43d1faa8b06d\";vaInputs.__silent_TerminateGoal_1f9b6650bdcd488dae0c43d1faa8b06d=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___1f9b6650bdcd488dae0c43d1faa8b06d\";vaVars.__segment_trigger_a581a9587f844d61b3585e751e8ed6b0_done=true;null;"}],"variables_update":[]}],"roles":["public"],"active":true,"published":true,"library":false,"flexible_conversation_switching":false,"design_category":"b9f926e81b02ac50ef5b635ee54bcbf3","nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"score":0.0,"visible":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Absa Live Agent Transfer","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category>b9f926e81b02ac50ef5b635ee54bcbf3</design_category>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Absa Live Agent Transfer Absa Live Agent Transfer agent live agent Live Agent Support</key_phrases>
+        <last_published_on>2021-02-08 15:18:01</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>AJNT APS TRNS SPRT LF</metaphone>
+        <name>Absa Live Agent Transfer</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles>public</roles>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-01-28 12:17:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3c834e601b0e6c50ef5b635ee54bcb45</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Absa Live Agent Transfer</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_3c834e601b0e6c50ef5b635ee54bcb45</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:18:01</sys_updated_on>
+        <title>Absa Live Agent Transfer</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=3c834e601b0e6c50ef5b635ee54bcb45"/>
+</record_update>

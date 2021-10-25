@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"I want to withdraw my {{phrase=\"pension\"}}","start":22,"end":28}]</annotation>
+        <entity display_value="Pension">c50856431b4e64d0122465fce54bcb32</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 08:41:33</sys_created_on>
+        <sys_id>82be16431b8e64d0122465fce54bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.I want to withdraw my pension </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_82be16431b8e64d0122465fce54bcb0d</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:41:33</sys_updated_on>
+        <utterance display_value="I want to withdraw my pension ">16f65a871b8620d0ef5b635ee54bcb72</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

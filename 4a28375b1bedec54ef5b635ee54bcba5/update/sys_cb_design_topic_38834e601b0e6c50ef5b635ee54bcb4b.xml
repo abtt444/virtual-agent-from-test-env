@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Absa Live Agent Transfer">3c834e601b0e6c50ef5b635ee54bcb45</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"a581a9587f844d61b3585e751e8ed6b0","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"a581a9587f844d61b3585e751e8ed6b0"}],"goals":[{"name":"primary","trigger_id":"a581a9587f844d61b3585e751e8ed6b0","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"53724428a071443a99cba69d9e008b3a","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"1f9b6650bdcd488dae0c43d1faa8b06d","name":"End"},{"type":"ScriptedAction","script":"(function execute() {\n    vaSystem.connectToAgent();\n})()\n","id":"d7d25cfbb57240a389d8b0aa6ab4f3c3","name":"Connect To Agent","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"53724428a071443a99cba69d9e008b3a","target_node_id":"d7d25cfbb57240a389d8b0aa6ab4f3c3","id":"ab72755b8eca461a94041469a29325dd"},{"type":"Edge","source_node_id":"d7d25cfbb57240a389d8b0aa6ab4f3c3","target_node_id":"1f9b6650bdcd488dae0c43d1faa8b06d","id":"5c1eeb77fb33428dac118c323cadf335"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"f4eb21fe2e7b4beaba74fd7bf801475b","name":"user","formatType":"text"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":["public"],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"91030aec1b8a6c50ef5b635ee54bcb96","name":"Absa Live Agent Transfer","key_phrases":["Absa Live Agent Transfer","Absa Live Agent Transfer","agent","live agent","Live Agent Support"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"design_category":"b9f926e81b02ac50ef5b635ee54bcbf3","library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>91030aec1b8a6c50ef5b635ee54bcb96</design_topic_id>
+        <name>Absa Live Agent Transfer</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-01-28 12:17:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>38834e601b0e6c50ef5b635ee54bcb4b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_38834e601b0e6c50ef5b635ee54bcb4b</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:18:01</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
