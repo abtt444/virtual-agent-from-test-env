@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Leave Encashment Information">5adda5441bb92494ef5b635ee54bcb2f</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>ABDT007</sys_created_by>
+        <sys_created_on>2021-01-14 11:32:09</sys_created_on>
+        <sys_id>dac2354c1bf1ac94122465fce54bcba4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name> what does leave encashment mean</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_dac2354c1bf1ac94122465fce54bcba4</sys_update_name>
+        <sys_updated_by>ABDT007</sys_updated_by>
+        <sys_updated_on>2021-01-14 11:32:37</sys_updated_on>
+        <utterance> what does leave encashment mean</utterance>
+    </sys_nlu_utterance>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2021-10-25 06:47:27">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 09:26:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bcf51d401bf52494ef5b635ee54bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Absa NLU Performance - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_portal_page_bcf51d401bf52494ef5b635ee54bcb6c</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 09:26:10</sys_updated_on>
+        <title>PA Absa NLU Performance - New Tab</title>
+        <user/>
+        <view>pa_absa_nlu_performance_-_new_tab</view>
+    </sys_portal_page>
+</record_update>

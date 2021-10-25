@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Conversation">b2d51b7f1b3de850122465fce54bcb10</canvas_page>
+        <name>Conversation</name>
+        <page display_value="PA Conversation">1ed5d77f1b3de850122465fce54bcbb8</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-26 10:22:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2d51b7f1b3de850122465fce54bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conversation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>pa_tabs_b2d51b7f1b3de850122465fce54bcb1f</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-26 10:22:12</sys_updated_on>
+    </pa_tabs>
+</record_update>

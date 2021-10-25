@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Topic">0ad5d77f1b3de850122465fce54bcb2d</legacy_page>
+        <name>PA Topic</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+        <sys_id>c2d5d77f1b3de850122465fce54bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Topic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_grid_canvas_c2d5d77f1b3de850122465fce54bcb4a</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

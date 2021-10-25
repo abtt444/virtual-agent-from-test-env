@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Presents an ending message to the user when the conversation is done.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "9bb5ba62992f4bc1a1ae05bbe1be985e": {
+          "id": "9bb5ba62992f4bc1a1ae05bbe1be985e",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "215d0783f85d458e8f7baccdae4823ee": {
+          "id": "215d0783f85d458e8f7baccdae4823ee",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "cadad31f6bd44860a5db592df6e750e5": {
+          "id": "cadad31f6bd44860a5db592df6e750e5",
+          "stepType": "TextOutput",
+          "name": "Closing Message",
+          "value": {
+            "value": "(function execute() {\n    return vaSystem.getClosingMessage();\n})()\n",
+            "mode": "script"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "48fba15014254fa0b4e83c663b240062": {
+          "id": "48fba15014254fa0b4e83c663b240062",
+          "name": "Close Conversation",
+          "script": "(function execute() {\n    vaSystem.endConversation();\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "mode": "script",
+            "value": "(function execute() {\n     if (vaVars.didConnectToLiveAgent) {\n         return false;\n     }\n})()\n"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "a0428b28adfe40d48697e2e631e32468",
+          "edgeType": "Edge",
+          "source": "cadad31f6bd44860a5db592df6e750e5",
+          "target": "48fba15014254fa0b4e83c663b240062",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e1fe6f51646f4decb33fe94040550f09",
+          "edgeType": "Edge",
+          "source": "48fba15014254fa0b4e83c663b240062",
+          "target": "215d0783f85d458e8f7baccdae4823ee",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a3de35b3d38f46f28ba3d0fa289231f1",
+          "edgeType": "Edge",
+          "source": "9bb5ba62992f4bc1a1ae05bbe1be985e",
+          "target": "cadad31f6bd44860a5db592df6e750e5",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "fd164f1c73e745fa9be49e6f4d303d82": {
+      "category": "vaInputs",
+      "id": "fd164f1c73e745fa9be49e6f4d303d82",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>End Conversation,Closing Conversation</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>End Conversation</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>public</roles>
+        <source_topic_id>1acd645053130010cf8cddeeff7b12cd</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-12 14:09:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>078388631b612094ef5b635ee54bcb8f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>End Conversation</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_078388631b612094ef5b635ee54bcb8f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-19 19:02:21</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=078388631b612094ef5b635ee54bcb8f"/>
+</record_update>

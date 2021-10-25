@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Withdrawal from Pension">a02c3d581b79a494ef5b635ee54bcbd9</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 07:53:11</sys_created_on>
+        <sys_id>e44ac2541bf9a494ef5b635ee54bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How do i withdraw my pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_e44ac2541bf9a494ef5b635ee54bcbe2</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 07:53:11</sys_updated_on>
+        <utterance>How do i withdraw my pension</utterance>
+    </sys_nlu_utterance>
+</record_update>

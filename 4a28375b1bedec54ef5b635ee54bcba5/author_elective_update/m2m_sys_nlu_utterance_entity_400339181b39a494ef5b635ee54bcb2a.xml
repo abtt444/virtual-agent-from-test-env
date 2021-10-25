@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[8],"annotatedString":"How can i add a beneficiary to my {{phrase=\"pension\"}} fund"}]</annotation>
+        <entity display_value="Pension">618b66c81b716494ef5b635ee54bcbfb</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 06:11:35</sys_created_on>
+        <sys_id>400339181b39a494ef5b635ee54bcb2a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Pension.How can i add a beneficiary to my pension fund</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_400339181b39a494ef5b635ee54bcb2a</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:21:19</sys_updated_on>
+        <utterance display_value="How can i add a beneficiary to my pension fund">53f239181b39a494ef5b635ee54bcb27</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_400339181b39a494ef5b635ee54bcb2a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[8],"annotatedString":"How can i add a beneficiary to my {{phrase=\"pension\"}} fund"}]</annotation><entity display_value="Pension">618b66c81b716494ef5b635ee54bcbfb</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-01-15 06:11:35</sys_created_on><sys_id>400339181b39a494ef5b635ee54bcb2a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Pension.How can i add a beneficiary to my pension fund</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_400339181b39a494ef5b635ee54bcb2a</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-01-15 13:21:19</sys_updated_on><utterance display_value="How can i add a beneficiary to my pension fund">53f239181b39a494ef5b635ee54bcb27</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-1347618567</payload_hash>
+        <record_name>Pension.How can i add a beneficiary to my pension fund</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 13:21:19</sys_created_on>
+        <sys_id>4f55931c1b39e494ef5b635ee54bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17706351b720000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:21:19</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>0755931c1a39e49470fee1083f120344</update_guid>
+        <update_guid_history>0755931c1a39e49470fee1083f120344:-1347618567,340335187939a49431f6bbbb626e01ec:-100831549,c40339180639a494b408955cfda3072b:1269327912</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-01-15 15:21:27">0565d31c1b39e494ef5b635ee54bcbba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 13:21:27</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>0c5a0ea9f2a6449a827a033e907ef361</sys_id>
+        <sys_metadata>400339181b39a494ef5b635ee54bcb2a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.How can i add a beneficiary to my pension fund</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_400339181b39a494ef5b635ee54bcb2a</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_400339181b39a494ef5b635ee54bcb2a">4f55931c1b39e494ef5b635ee54bcb44</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:21:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

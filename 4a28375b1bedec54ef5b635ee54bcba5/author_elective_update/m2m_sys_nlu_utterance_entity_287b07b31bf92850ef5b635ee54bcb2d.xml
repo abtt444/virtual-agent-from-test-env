@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[5],"annotatedString":"how can i get my {{phrase=\"pension\"}} to be withdrawn"}]</annotation>
+        <entity display_value="Pension">1f6b47731bf92850ef5b635ee54bcb31</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-26 09:36:43</sys_created_on>
+        <sys_id>287b07b31bf92850ef5b635ee54bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.how can i get my pension to be withdrawn </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_287b07b31bf92850ef5b635ee54bcb2d</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-26 09:36:43</sys_updated_on>
+        <utterance display_value="how can i get my pension to be withdrawn ">d176c25c1bb9a494ef5b635ee54bcb7a</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_287b07b31bf92850ef5b635ee54bcb2d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[5],"annotatedString":"how can i get my {{phrase=\"pension\"}} to be withdrawn"}]</annotation><entity display_value="Pension">1f6b47731bf92850ef5b635ee54bcb31</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-26 09:36:43</sys_created_on><sys_id>287b07b31bf92850ef5b635ee54bcb2d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pension.how can i get my pension to be withdrawn </sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_287b07b31bf92850ef5b635ee54bcb2d</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-26 09:36:43</sys_updated_on><utterance display_value="how can i get my pension to be withdrawn ">d176c25c1bb9a494ef5b635ee54bcb7a</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>1485858726</payload_hash>
+        <record_name>Pension.how can i get my pension to be withdrawn </record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-26 09:36:43</sys_created_on>
+        <sys_id>e47b03b71bf92850ef5b635ee54bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1773e0d6f820000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-26 09:36:43</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>ec7b03b782f92850906e9f67ff58ee09</update_guid>
+        <update_guid_history>ec7b03b782f92850906e9f67ff58ee09:1485858726</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-01-26 12:29:55">7797577f1b3d2850ef5b635ee54bcb49</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-26 10:29:55</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>08a3414d7b66498087d04b348f1e1d89</sys_id>
+        <sys_metadata>287b07b31bf92850ef5b635ee54bcb2d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.how can i get my pension to be withdrawn </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_287b07b31bf92850ef5b635ee54bcb2d</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_287b07b31bf92850ef5b635ee54bcb2d">e47b03b71bf92850ef5b635ee54bcb0a</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-26 10:29:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

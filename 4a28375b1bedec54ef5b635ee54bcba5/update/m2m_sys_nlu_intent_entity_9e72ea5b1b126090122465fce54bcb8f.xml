@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
+    <m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE">
+        <entity display_value="Day">9b39aa4f1b0a20d0ef5b635ee54bcb3d</entity>
+        <intent display_value="Accumulated Leave">b632af031b0260d0ef5b635ee54bcb31</intent>
+        <relationship>regular</relationship>
+        <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 13:52:09</sys_created_on>
+        <sys_id>9e72ea5b1b126090122465fce54bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Day.Accumulated Leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_intent_entity_9e72ea5b1b126090122465fce54bcb8f</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 13:52:09</sys_updated_on>
+    </m2m_sys_nlu_intent_entity>
+</record_update>

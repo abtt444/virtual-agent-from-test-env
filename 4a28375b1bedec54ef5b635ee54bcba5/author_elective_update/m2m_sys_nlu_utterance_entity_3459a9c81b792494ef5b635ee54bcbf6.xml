@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[7,8,9],"annotatedString":"Please assist i cant find how many {{phrase=\"sick leave days\"}} i have"}]</annotation>
+        <entity display_value="Sick Leave Days">bff8a1881b792494ef5b635ee54bcba8</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 10:50:49</sys_created_on>
+        <sys_id>3459a9c81b792494ef5b635ee54bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sick Leave Days.Please assist i cant find how many sick leave days i have </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_3459a9c81b792494ef5b635ee54bcbf6</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 10:50:49</sys_updated_on>
+        <utterance display_value="Please assist i cant find how many sick leave days i have ">b349a5c81b792494ef5b635ee54bcbb2</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_3459a9c81b792494ef5b635ee54bcbf6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[7,8,9],"annotatedString":"Please assist i cant find how many {{phrase=\"sick leave days\"}} i have"}]</annotation><entity display_value="Sick Leave Days">bff8a1881b792494ef5b635ee54bcba8</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-14 10:50:49</sys_created_on><sys_id>3459a9c81b792494ef5b635ee54bcbf6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sick Leave Days.Please assist i cant find how many sick leave days i have </sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_3459a9c81b792494ef5b635ee54bcbf6</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-14 10:50:49</sys_updated_on><utterance display_value="Please assist i cant find how many sick leave days i have ">b349a5c81b792494ef5b635ee54bcbb2</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>1297863045</payload_hash>
+        <record_name>Sick Leave Days.Please assist i cant find how many sick leave days i have </record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 10:50:49</sys_created_on>
+        <sys_id>b059a9c81b792494ef5b635ee54bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1770084f6000000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 10:50:49</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>b859a9c882792494e09afece98049af7</update_guid>
+        <update_guid_history>b859a9c882792494e09afece98049af7:1297863045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-01-15 11:21:39">e48eda5c1bbda494ef5b635ee54bcb64</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 09:21:39</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>26fc56e1b529414db15b31e8f69c15b1</sys_id>
+        <sys_metadata>3459a9c81b792494ef5b635ee54bcbf6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sick Leave Days.Please assist i cant find how many sick leave days i have </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_3459a9c81b792494ef5b635ee54bcbf6</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_3459a9c81b792494ef5b635ee54bcbf6">b059a9c81b792494ef5b635ee54bcbf8</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 09:21:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

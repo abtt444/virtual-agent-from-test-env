@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[4],"annotatedString":"Transferring funds to my {{phrase=\"retirement\"}} fund"}]</annotation>
+        <entity display_value="Pension">618b66c81b716494ef5b635ee54bcbfb</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 11:33:08</sys_created_on>
+        <sys_id>5a9c7e9c1b35e494ef5b635ee54bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.Transferring funds to my retirement fund </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_5a9c7e9c1b35e494ef5b635ee54bcb96</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 11:33:08</sys_updated_on>
+        <utterance display_value="Transferring funds to my retirement fund ">3733f65c1bf1e494ef5b635ee54bcb70</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_5a9c7e9c1b35e494ef5b635ee54bcb96</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[4],"annotatedString":"Transferring funds to my {{phrase=\"retirement\"}} fund"}]</annotation><entity display_value="Pension">618b66c81b716494ef5b635ee54bcbfb</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-01-15 11:33:08</sys_created_on><sys_id>5a9c7e9c1b35e494ef5b635ee54bcb96</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pension.Transferring funds to my retirement fund </sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_5a9c7e9c1b35e494ef5b635ee54bcb96</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-01-15 11:33:08</sys_updated_on><utterance display_value="Transferring funds to my retirement fund ">3733f65c1bf1e494ef5b635ee54bcb70</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-15053825</payload_hash>
+        <record_name>Pension.Transferring funds to my retirement fund </record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 11:33:08</sys_created_on>
+        <sys_id>e69c7e9c1b35e494ef5b635ee54bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17705d20f990000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 11:33:08</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>ee9c7e9ca635e494333aa9c6902cab97</update_guid>
+        <update_guid_history>ee9c7e9ca635e494333aa9c6902cab97:-15053825</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-01-15 15:16:53">165493581b39e494ef5b635ee54bcbe8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 13:16:53</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>04e6c898c92b46f09d122e7b03064084</sys_id>
+        <sys_metadata>5a9c7e9c1b35e494ef5b635ee54bcb96</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.Transferring funds to my retirement fund </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_5a9c7e9c1b35e494ef5b635ee54bcb96</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_5a9c7e9c1b35e494ef5b635ee54bcb96">e69c7e9c1b35e494ef5b635ee54bcb98</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:16:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"I need 1 week of {{phrase=\"relocation\"}} leave","start":17,"end":26}]</annotation>
+        <entity display_value="Relocation">a4d9fe8f1b42a4d0122465fce54bcb60</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-08 10:25:04</sys_created_on>
+        <sys_id>6b2312441b5e6410ef5b635ee54bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation.I need 1 week of relocation leave </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_6b2312441b5e6410ef5b635ee54bcbca</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:25:04</sys_updated_on>
+        <utterance display_value="I need 1 week of relocation leave ">91329a801b5e6410ef5b635ee54bcbb4</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

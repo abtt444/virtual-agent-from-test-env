@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Relocation Leave">71ed29c01bb92494ef5b635ee54bcb25</intent>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-14 11:51:38</sys_created_on>
+        <sys_id>3b3735481bf92494ef5b635ee54bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I am moving to another house and need leave </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_3b3735481bf92494ef5b635ee54bcbc0</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-14 11:51:38</sys_updated_on>
+        <utterance>I am moving to another house and need leave </utterance>
+    </sys_nlu_utterance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>sys_nlu_utterance_3b3735481bf92494ef5b635ee54bcbc0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance"><sys_nlu_utterance action="INSERT_OR_UPDATE"><intent display_value="Relocation Leave">71ed29c01bb92494ef5b635ee54bcb25</intent><sys_class_name>sys_nlu_utterance</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-01-14 11:51:38</sys_created_on><sys_id>3b3735481bf92494ef5b635ee54bcbc0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>I am moving to another house and need leave </sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_nlu_utterance_3b3735481bf92494ef5b635ee54bcbc0</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-01-14 11:51:38</sys_updated_on><utterance>I am moving to another house and need leave </utterance></sys_nlu_utterance></record_update>]]></payload>
+        <payload_hash>754105495</payload_hash>
+        <record_name>I am moving to another house and need leave </record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-14 11:51:38</sys_created_on>
+        <sys_id>b33735481bf92494ef5b635ee54bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17700bca40b0000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-14 11:51:38</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>bb37354851f924941fae605c53278cc1</update_guid>
+        <update_guid_history>bb37354851f924941fae605c53278cc1:754105495</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-14 15:21:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>4cf9c96218d84508b4efa25df4b705c4</sys_id>
+        <sys_metadata>3b3735481bf92494ef5b635ee54bcbc0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I am moving to another house and need leave </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_3b3735481bf92494ef5b635ee54bcbc0</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_3b3735481bf92494ef5b635ee54bcbc0">b33735481bf92494ef5b635ee54bcbc2</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-14 15:21:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

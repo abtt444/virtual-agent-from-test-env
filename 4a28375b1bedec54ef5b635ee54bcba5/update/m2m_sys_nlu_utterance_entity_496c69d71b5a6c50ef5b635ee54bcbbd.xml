@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"where do i check my {{phrase=\"sick\"}} leave balance","start":20,"end":23}]</annotation>
+        <entity display_value="Sick">9f626a8f1bc620d0ef5b635ee54bcb9c</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-18 09:55:51</sys_created_on>
+        <sys_id>496c69d71b5a6c50ef5b635ee54bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sick.where do i check my sick leave balance</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_496c69d71b5a6c50ef5b635ee54bcbbd</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-18 09:55:51</sys_updated_on>
+        <utterance display_value="where do i check my sick leave balance">725ce5d71b5a6c50ef5b635ee54bcb68</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

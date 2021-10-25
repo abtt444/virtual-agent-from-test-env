@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Continue conversation flow</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "accb56264bd840f4bcd930e87817790e": {
+          "id": "accb56264bd840f4bcd930e87817790e",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "7936049af4804188af4fac4f5b1748e4": {
+          "id": "7936049af4804188af4fac4f5b1748e4",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "029f7f289206458a9a0abe84123e3f3c": {
+          "id": "029f7f289206458a9a0abe84123e3f3c",
+          "stepType": "Prompt",
+          "name": "Anything Else",
+          "prompt": {
+            "value": "Is there anything else that I can assist you with?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "e2545568b4214ca583b5b25cba50a796"
+        },
+        "b4bd3bbca52a416bb805d8d4b21f961f": {
+          "id": "b4bd3bbca52a416bb805d8d4b21f961f",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "7173b4c4556b4b1eb7f2e547780eacc7": {
+          "id": "7173b4c4556b4b1eb7f2e547780eacc7",
+          "name": "Show Topic List",
+          "script": "(function execute() {\n    vaSystem.switchTopic(vaInputs.topic_list)\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "d01bccc0b5df4fea9070f27d970ebe71",
+          "edgeType": "Edge",
+          "source": "accb56264bd840f4bcd930e87817790e",
+          "target": "029f7f289206458a9a0abe84123e3f3c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "69887ca84b334c7cb62e5292a939545d",
+          "edgeType": "Edge",
+          "source": "029f7f289206458a9a0abe84123e3f3c",
+          "target": "b4bd3bbca52a416bb805d8d4b21f961f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "69a255db1f8043d29bc1e8959279900d",
+          "edgeType": "Branch",
+          "source": "b4bd3bbca52a416bb805d8d4b21f961f",
+          "target": "7936049af4804188af4fac4f5b1748e4",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "8f0aab11686c474281cce13618d42908",
+          "edgeType": "Branch",
+          "source": "b4bd3bbca52a416bb805d8d4b21f961f",
+          "target": "7173b4c4556b4b1eb7f2e547780eacc7",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "query",
+            "value": ""
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "56dc66af97db4f36baabd7887f40c7f2",
+          "edgeType": "Edge",
+          "source": "7173b4c4556b4b1eb7f2e547780eacc7",
+          "target": "029f7f289206458a9a0abe84123e3f3c",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "e2545568b4214ca583b5b25cba50a796": {
+      "id": "e2545568b4214ca583b5b25cba50a796",
+      "name": "anything_else",
+      "label": "Anything Else",
+      "varType": "boolean",
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Anything Else VA</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Anything Else VA</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-25 08:51:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>918771eb1bf1a450ef5b635ee54bcb5d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Anything Else VA</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_918771eb1bf1a450ef5b635ee54bcb5d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-19 19:02:21</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=918771eb1bf1a450ef5b635ee54bcb5d"/>
+</record_update>

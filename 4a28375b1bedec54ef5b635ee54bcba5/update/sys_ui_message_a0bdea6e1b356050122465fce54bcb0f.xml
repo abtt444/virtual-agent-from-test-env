@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>South Africa</key>
+        <language>en</language>
+        <message>South Africa</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>ABDT007</sys_created_by>
+        <sys_created_on>2021-01-22 10:14:21</sys_created_on>
+        <sys_id>a0bdea6e1b356050122465fce54bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>South Africa</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_a0bdea6e1b356050122465fce54bcb0f</sys_update_name>
+        <sys_updated_by>ABDT007</sys_updated_by>
+        <sys_updated_on>2021-01-22 10:14:21</sys_updated_on>
+    </sys_ui_message>
+</record_update>

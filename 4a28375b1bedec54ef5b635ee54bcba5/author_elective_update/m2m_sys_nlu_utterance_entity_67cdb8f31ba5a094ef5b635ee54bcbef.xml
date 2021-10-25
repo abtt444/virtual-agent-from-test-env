@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[0],"annotatedString":"{{phrase=\"Covid-19\"}} Absa's policies"}]</annotation>
+        <entity display_value="covid-19">8a593f1f1bedec54ef5b635ee54bcb74</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-13 13:02:12</sys_created_on>
+        <sys_id>67cdb8f31ba5a094ef5b635ee54bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>covid-19.Covid-19 Absa's policies</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_67cdb8f31ba5a094ef5b635ee54bcbef</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-13 13:02:12</sys_updated_on>
+        <utterance display_value="Covid-19 Absa's policies">21cdf4b31ba5a094ef5b635ee54bcbc4</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_67cdb8f31ba5a094ef5b635ee54bcbef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[0],"annotatedString":"{{phrase=\"Covid-19\"}} Absa's policies"}]</annotation><entity display_value="covid-19">8a593f1f1bedec54ef5b635ee54bcb74</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-13 13:02:12</sys_created_on><sys_id>67cdb8f31ba5a094ef5b635ee54bcbef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>covid-19.Covid-19 Absa's policies</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_67cdb8f31ba5a094ef5b635ee54bcbef</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-13 13:02:12</sys_updated_on><utterance display_value="Covid-19 Absa's policies">21cdf4b31ba5a094ef5b635ee54bcbc4</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>1413340661</payload_hash>
+        <record_name>covid-19.Covid-19 Absa's policies</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-13 13:02:12</sys_created_on>
+        <sys_id>2fcdbcf31ba5a094ef5b635ee54bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176fbd6e27e0000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-13 13:02:12</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>27cdbcf3bca5a094ea65232795289800</update_guid>
+        <update_guid_history>27cdbcf3bca5a094ea65232795289800:1413340661</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-01-15 15:23:07">d1c5d35c1b39e494ef5b635ee54bcb5b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 13:23:07</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>01920dc3d4454500834c8ee4a0d81000</sys_id>
+        <sys_metadata>67cdb8f31ba5a094ef5b635ee54bcbef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>covid-19.Covid-19 Absa's policies</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_67cdb8f31ba5a094ef5b635ee54bcbef</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_67cdb8f31ba5a094ef5b635ee54bcbef">2fcdbcf31ba5a094ef5b635ee54bcb00</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:23:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

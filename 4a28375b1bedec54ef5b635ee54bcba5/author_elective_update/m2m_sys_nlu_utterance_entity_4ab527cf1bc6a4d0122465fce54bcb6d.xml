@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[3],"annotatedString":"i need to {{phrase=\"book\"}} time to relocate"}]</annotation>
+        <entity display_value="Book">9ea523cf1bc6a4d0122465fce54bcbcd</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 13:51:46</sys_created_on>
+        <sys_id>4ab527cf1bc6a4d0122465fce54bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Book.i need to book time to relocate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_4ab527cf1bc6a4d0122465fce54bcb6d</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 13:51:46</sys_updated_on>
+        <utterance display_value="i need to book time to relocate">75f61a871b8620d0ef5b635ee54bcba1</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_4ab527cf1bc6a4d0122465fce54bcb6d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[3],"annotatedString":"i need to {{phrase=\"book\"}} time to relocate"}]</annotation><entity display_value="Book">9ea523cf1bc6a4d0122465fce54bcbcd</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-02-05 13:51:46</sys_created_on><sys_id>4ab527cf1bc6a4d0122465fce54bcb6d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Book.i need to book time to relocate</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_4ab527cf1bc6a4d0122465fce54bcb6d</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-02-05 13:51:46</sys_updated_on><utterance display_value="i need to book time to relocate">75f61a871b8620d0ef5b635ee54bcba1</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>1467457829</payload_hash>
+        <record_name>Book.i need to book time to relocate</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 13:51:46</sys_created_on>
+        <sys_id>0ab527cf1bc6a4d0122465fce54bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177727688fd0000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 13:51:46</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>02b527cf74c6a4d0aad3f558e88c5e6f</update_guid>
+        <update_guid_history>02b527cf74c6a4d0aad3f558e88c5e6f:1467457829</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-08 12:08:40">db6f468c1b1e6410ef5b635ee54bcb29</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-08 10:08:40</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>128c2387ceaf4ef085435f6a100aa640</sys_id>
+        <sys_metadata>4ab527cf1bc6a4d0122465fce54bcb6d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Book.i need to book time to relocate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_4ab527cf1bc6a4d0122465fce54bcb6d</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_4ab527cf1bc6a4d0122465fce54bcb6d">0ab527cf1bc6a4d0122465fce54bcb6f</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:08:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

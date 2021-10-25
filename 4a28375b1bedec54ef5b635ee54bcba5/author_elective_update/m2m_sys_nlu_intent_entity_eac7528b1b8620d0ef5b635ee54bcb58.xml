@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
+    <m2m_sys_nlu_intent_entity action="DELETE">
+        <entity display_value="Covid-19">2ec7da4b1b8620d0ef5b635ee54bcbfe</entity>
+        <intent display_value="Absa Covid-19">02f61a871b8620d0ef5b635ee54bcbc9</intent>
+        <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:11:17</sys_created_on>
+        <sys_id>eac7528b1b8620d0ef5b635ee54bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Covid-19.Absa Covid-19</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_intent_entity_eac7528b1b8620d0ef5b635ee54bcb58</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:11:17</sys_updated_on>
+    </m2m_sys_nlu_intent_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_intent_entity_eac7528b1b8620d0ef5b635ee54bcb58</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity"><m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE"><entity display_value="Covid-19">2ec7da4b1b8620d0ef5b635ee54bcbfe</entity><intent display_value="Absa Covid-19">02f61a871b8620d0ef5b635ee54bcbc9</intent><sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-02-05 08:11:17</sys_created_on><sys_id>eac7528b1b8620d0ef5b635ee54bcb58</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Covid-19.Absa Covid-19</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_intent_entity_eac7528b1b8620d0ef5b635ee54bcb58</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-02-05 08:11:17</sys_updated_on></m2m_sys_nlu_intent_entity></record_update>]]></payload>
+        <payload_hash>1480231686</payload_hash>
+        <record_name>Covid-19.Absa Covid-19</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:11:17</sys_created_on>
+        <sys_id>6ac7528b1b8620d0ef5b635ee54bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177713ed00e0000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:11:17</sys_updated_on>
+        <type>NLU Intent Entity</type>
+        <update_guid>62c7528b608620d0591c418089d1ac5a</update_guid>
+        <update_guid_history>62c7528b608620d0591c418089d1ac5a:1480231686</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-12 11:01:59">a9862e911bd2ec10ef5b635ee54bcb52</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-12 09:01:59</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_intent_entity">m2m_sys_nlu_intent_entity</sys_db_object>
+        <sys_id>863a77b67ff34f2986af959e9fc35131</sys_id>
+        <sys_metadata>eac7528b1b8620d0ef5b635ee54bcb58</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Covid-19.Absa Covid-19</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_intent_entity_eac7528b1b8620d0ef5b635ee54bcb58</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_intent_entity_eac7528b1b8620d0ef5b635ee54bcb58">6ac7528b1b8620d0ef5b635ee54bcb5a</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-12 09:01:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

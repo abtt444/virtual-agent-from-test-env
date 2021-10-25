@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"when will I receive my leave encashment {{phrase=\"payout?\"}}","start":40,"end":46}]</annotation>
+        <entity display_value="Withdraw">34ce1e431b8e64d0122465fce54bcbba</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 09:37:59</sys_created_on>
+        <sys_id>24ab22431b02a4d0122465fce54bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Withdraw.when will I receive my leave encashment payout?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_24ab22431b02a4d0122465fce54bcbdb</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 09:37:59</sys_updated_on>
+        <utterance display_value="when will I receive my leave encashment payout?">76f69a871b8620d0ef5b635ee54bcbe0</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

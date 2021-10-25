@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability>(function execute() {
+      return false;
+      })()
+    </applicability>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Displays a message to the user when the bot cannot find a topic (intent) that matches a user request or when it does not understand a user entry.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "b720eb02e228480587588fd35b09bcf8": {
+          "id": "b720eb02e228480587588fd35b09bcf8",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "89b200e2219c42a5bcd9676e0b2f2cfa": {
+          "id": "89b200e2219c42a5bcd9676e0b2f2cfa",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "42fad500d1f042c0b6917ab2d9067ac9": {
+          "id": "42fad500d1f042c0b6917ab2d9067ac9",
+          "stepType": "TextOutput",
+          "name": "Show Wrong Topic Message",
+          "value": {
+            "value": "(function execute() {\n    return vaVars._topic_wrong_msg;\n})()\n",
+            "mode": "script"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "e9bec5dcdcc0460c8d7a12a2f2338bce": {
+          "id": "e9bec5dcdcc0460c8d7a12a2f2338bce",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "4d1b99f745474761aa66fa456c0cd537": {
+          "id": "4d1b99f745474761aa66fa456c0cd537",
+          "stepType": "TextOutput",
+          "name": "Show Sorry Message",
+          "value": {
+            "value": "(function execute() {\n    return vaVars._topic_sorry_msg;\n})()\n",
+            "mode": "script"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "e38f5c6218d6416198e6ece0639c637d": {
+          "id": "e38f5c6218d6416198e6ece0639c637d",
+          "stepType": "TextOutput",
+          "name": "Show Topic Not Found Message",
+          "value": {
+            "value": "(function execute() {\n    return vaVars._topic_not_found_msg;\n})()\n",
+            "mode": "script"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "5c9d4108c55c4c41b3ddf803e5a4fdce": {
+          "id": "5c9d4108c55c4c41b3ddf803e5a4fdce",
+          "name": "Show Topics",
+          "script": "(function execute() {\n    //vaSystem.switchTopic(vaVars._setup_explore_help_topic);\n    var greetingMessage = vaSystem.getTopicSelectionMessage();\n    vaSystem.sendTopicPickerControl(greetingMessage);\n    vaSystem.topicDiscovery();\n})()",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "mode": "script",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "7082d2d60b9b438892b553fd0d41b523",
+          "edgeType": "Edge",
+          "source": "e38f5c6218d6416198e6ece0639c637d",
+          "target": "5c9d4108c55c4c41b3ddf803e5a4fdce",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "57d4289c65fe45f6a32db271ca39fe7d",
+          "edgeType": "Edge",
+          "source": "b720eb02e228480587588fd35b09bcf8",
+          "target": "e9bec5dcdcc0460c8d7a12a2f2338bce",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "fd5bb137df9f429aa117fb0aaf145988",
+          "edgeType": "Branch",
+          "source": "e9bec5dcdcc0460c8d7a12a2f2338bce",
+          "target": "42fad500d1f042c0b6917ab2d9067ac9",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaVars._topic_strategy != 'unknown';\n})()\n"
+          },
+          "label": "Wrong Topic"
+        },
+        {
+          "id": "be03e25fd3434da79b6062093a3128af",
+          "edgeType": "Branch",
+          "source": "e9bec5dcdcc0460c8d7a12a2f2338bce",
+          "target": "4d1b99f745474761aa66fa456c0cd537",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaVars._topic_strategy == 'unknown';\n})()\n"
+          },
+          "label": "Topic Not Found"
+        },
+        {
+          "id": "dc9d3ffc2c7c4b60bb15c1fb72701849",
+          "edgeType": "Edge",
+          "source": "4d1b99f745474761aa66fa456c0cd537",
+          "target": "e38f5c6218d6416198e6ece0639c637d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c1b1d987b4f248d9a124088ea79723cb",
+          "edgeType": "Edge",
+          "source": "42fad500d1f042c0b6917ab2d9067ac9",
+          "target": "5c9d4108c55c4c41b3ddf803e5a4fdce",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "df564a75363d4d96acb65685e93ed6e7",
+          "edgeType": "Edge",
+          "source": "5c9d4108c55c4c41b3ddf803e5a4fdce",
+          "target": "89b200e2219c42a5bcd9676e0b2f2cfa",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "711f5e8569fc4eb78ae4417ac0ad39e1": {
+      "id": "711f5e8569fc4eb78ae4417ac0ad39e1",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_topic_strategy",
+      "label": "_topic_strategy",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "619328624d5f49719806d5d436ca9e16": {
+      "id": "619328624d5f49719806d5d436ca9e16",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_topic_wrong_msg",
+      "label": "_topic_wrong_msg",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "49c8f81480544570aee5f28622d544b3": {
+      "id": "49c8f81480544570aee5f28622d544b3",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_topic_sorry_msg",
+      "label": "_topic_sorry_msg",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "92761898f0d24909bbd540801f13b081": {
+      "id": "92761898f0d24909bbd540801f13b081",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_topic_not_found_msg",
+      "label": "_topic_not_found_msg",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "8355fe98acc64fb4bb2a8e6d3c578bf3": {
+      "id": "8355fe98acc64fb4bb2a8e6d3c578bf3",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_setup_explore_help_topic",
+      "label": "_setup_explore_help_topic",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "a2734f7b35fc420bbb46d724c3cb87e1": {
+      "category": "vaInputs",
+      "id": "a2734f7b35fc420bbb46d724c3cb87e1",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Fallback,Fallback Topic</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Fallback</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>public</roles>
+        <source_topic_id>0efd285053130010cf8cddeeff7b12a5</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 09:35:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8f5eb1511b3d6410ef5b635ee54bcb8b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Fallback</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_8f5eb1511b3d6410ef5b635ee54bcb8b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-19 19:02:21</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=8f5eb1511b3d6410ef5b635ee54bcb8b"/>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Error Handling">650ebd111b3d6410ef5b635ee54bcb97</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"301cc43c237b4fc3997419619927627e","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"301cc43c237b4fc3997419619927627e"}],"goals":[{"name":"primary","trigger_id":"301cc43c237b4fc3997419619927627e","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"18ba9dc8d9f543858f5cdb3ab453906a","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"79da6e76a2da435c9f2fa925ba018b4e","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"script","value":"(function execute() {\n    return vaVars.global_error_message;\n})()\n"},"id":"2cd2828aeacd45e49a7a28178dd9ca80","name":"Display Error Message","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"2cd2828aeacd45e49a7a28178dd9ca80","target_node_id":"79da6e76a2da435c9f2fa925ba018b4e","id":"951b43e5b15a4493b577ae0357a091e1"},{"type":"Edge","source_node_id":"18ba9dc8d9f543858f5cdb3ab453906a","target_node_id":"2cd2828aeacd45e49a7a28178dd9ca80","id":"40849935eeab482f88febfa3083946c0"}],"id":"primary"}],"script_variables":[{"type":"String","name":"global_error_message","value":{"type":"String","mode":"string"},"id":"4e2dde1fc14645388cc067ef723f8cd4","formatType":"text"}],"glide_variables":[{"type":"Reference","table":"sys_user","id":"e178e315c96543c98b2383e1dc4f68b0","name":"user","formatType":"text"}],"applicability":{"type":"Applicability","mode":"script","value":"(function execute() {\n            return false;\n            })()\n        "},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"069d799d1bf96410ef5b635ee54bcb32","name":"Error Handling","key_phrases":["Error Handling","Error Handling Topic"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"design_category":"5628e7f27373230025d032e954f6a7de","library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>069d799d1bf96410ef5b635ee54bcb32</design_topic_id>
+        <name>Error Handling</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 09:33:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>250ebd111b3d6410ef5b635ee54bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_250ebd111b3d6410ef5b635ee54bcb9b</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-18 09:33:39</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

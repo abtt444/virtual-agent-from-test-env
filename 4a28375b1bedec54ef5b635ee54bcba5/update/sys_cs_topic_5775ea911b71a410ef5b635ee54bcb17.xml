@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Capture Annual Leave">db652a911b71a410ef5b635ee54bcb3c</cb_topic_id>
+        <channels/>
+        <definition>{"id":"db652a911b71a410ef5b635ee54bcb3c","name":"Capture Annual Leave","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Capture Annual Leave","applicability":"true","category":"","key_phrases":["Capture Annual Leave"],"variables":[{"name":"__segment_trigger_92304d39e355451db4188a87ddd5127b_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_79d11b880516a4106b7031f59178d8ad","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_557216f664e541ef904932754d115a35","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_c625ed4265b049ba8f6bf24252ae4bf6","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_OutputPrompt_6c9195dc3c174a9891950ab55b6b4144","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_f5d11b886a16a410d6a37f9ddaf9b1ad","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_39d11b88fa16a4107cdf4bec667f8ead","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_92304d39e355451db4188a87ddd5127b_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_79d11b880516a4106b7031f59178d8ad\");vaInputs.initialize(\"__silent_OutputPrompt_6c9195dc3c174a9891950ab55b6b4144\");vaInputs.initialize(\"__silent_TerminateGoal_557216f664e541ef904932754d115a35\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_39d11b88fa16a4107cdf4bec667f8ead\");vaInputs.initialize(\"__silent_Decision_RootDecision_f5d11b886a16a410d6a37f9ddaf9b1ad\");vaInputs.initialize(\"__silent_StartGoal_c625ed4265b049ba8f6bf24252ae4bf6\");null;","fields":[{"name":"__silent_Decision_RootDecision_f5d11b886a16a410d6a37f9ddaf9b1ad","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_f5d11b886a16a410d6a37f9ddaf9b1ad\";vaInputs.__silent_Decision_RootDecision_f5d11b886a16a410d6a37f9ddaf9b1ad=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_f5d11b886a16a410d6a37f9ddaf9b1ad\";vaInputs.RootDecisionBranch_79d11b880516a4106b7031f59178d8ad=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_39d11b88fa16a4107cdf4bec667f8ead","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_f5d11b886a16a410d6a37f9ddaf9b1ad\" &amp;&amp; ((vaInputs.RootDecisionBranch_79d11b880516a4106b7031f59178d8ad.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_39d11b88fa16a4107cdf4bec667f8ead___RootDecisionBranch_39d11b88fa16a4107cdf4bec667f8ead\";vaInputs.__silent_Branch_RootDecisionBranch_39d11b88fa16a4107cdf4bec667f8ead=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_39d11b88fa16a4107cdf4bec667f8ead___RootDecisionBranch_39d11b88fa16a4107cdf4bec667f8ead\";null;"},{"name":"__silent_StartGoal_c625ed4265b049ba8f6bf24252ae4bf6","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_39d11b88fa16a4107cdf4bec667f8ead___RootDecisionBranch_39d11b88fa16a4107cdf4bec667f8ead\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___c625ed4265b049ba8f6bf24252ae4bf6\";vaInputs.__silent_StartGoal_c625ed4265b049ba8f6bf24252ae4bf6=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___c625ed4265b049ba8f6bf24252ae4bf6\";null;"},{"name":"__silent_OutputPrompt_6c9195dc3c174a9891950ab55b6b4144","applicable":"vaVars.previous_graph_node==\"Start___c625ed4265b049ba8f6bf24252ae4bf6\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Capture Annual Leave___6c9195dc3c174a9891950ab55b6b4144\";vaInputs.__silent_OutputPrompt_6c9195dc3c174a9891950ab55b6b4144=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Capture Annual Leave___6c9195dc3c174a9891950ab55b6b4144\";(function execute() {return gs.getMessageLang(\"Capture Annual Leave Response\", vaContext.getRequesterLang());})();"},{"name":"__silent_TerminateGoal_557216f664e541ef904932754d115a35","applicable":"vaVars.previous_graph_node==\"Capture Annual Leave___6c9195dc3c174a9891950ab55b6b4144\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___557216f664e541ef904932754d115a35\";vaInputs.__silent_TerminateGoal_557216f664e541ef904932754d115a35=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___557216f664e541ef904932754d115a35\";vaVars.__segment_trigger_92304d39e355451db4188a87ddd5127b_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":true,"design_category":"8df026591b31a410ef5b635ee54bcba7","nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"score":0.0,"visible":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Capture Annual Leave","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category>8df026591b31a410ef5b635ee54bcba7</design_category>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Capture Annual Leave</key_phrases>
+        <last_published_on>2021-02-08 14:58:50</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>KPTR LF ANL</metaphone>
+        <name>Capture Annual Leave</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:26:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5775ea911b71a410ef5b635ee54bcb17</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Capture Annual Leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_5775ea911b71a410ef5b635ee54bcb17</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 14:58:50</sys_updated_on>
+        <title>Capture Annual Leave</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=5775ea911b71a410ef5b635ee54bcb17"/>
+</record_update>

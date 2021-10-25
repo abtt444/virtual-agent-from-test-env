@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"when can i {{phrase=\"go\"}} to the office","start":11,"end":12}]</annotation>
+        <entity display_value="Return">032fd60b1bc620d0ef5b635ee54bcb19</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-18 10:15:39</sys_created_on>
+        <sys_id>0be079131b9a6c50ef5b635ee54bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Return.when can i go to the office</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_0be079131b9a6c50ef5b635ee54bcb73</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-18 10:15:39</sys_updated_on>
+        <utterance display_value="when can i go to the office">24b031df1b5a6c50ef5b635ee54bcbac</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

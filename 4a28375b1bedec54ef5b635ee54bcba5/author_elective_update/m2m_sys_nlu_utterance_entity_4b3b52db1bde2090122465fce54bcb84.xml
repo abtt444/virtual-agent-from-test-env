@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[8],"annotatedString":"can i change my working hours when i {{phrase=\"work\"}} remotely"}]</annotation>
+        <entity display_value="Hand Sanitiser">4abc39d71bda6c50ef5b635ee54bcba7</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 13:20:31</sys_created_on>
+        <sys_id>4b3b52db1bde2090122465fce54bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hand Sanitiser.can i change my working hours when i work remotely</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_4b3b52db1bde2090122465fce54bcb84</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 13:20:31</sys_updated_on>
+        <utterance display_value="can i change my working hours when i work remotely">1e3bd69b1bde2090122465fce54bcb7c</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_4b3b52db1bde2090122465fce54bcb84</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[8],"annotatedString":"can i change my working hours when i {{phrase=\"work\"}} remotely"}]</annotation><entity display_value="Hand Sanitiser">4abc39d71bda6c50ef5b635ee54bcba7</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-02-18 13:20:31</sys_created_on><sys_id>4b3b52db1bde2090122465fce54bcb84</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hand Sanitiser.can i change my working hours when i work remotely</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_4b3b52db1bde2090122465fce54bcb84</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-02-18 13:20:31</sys_updated_on><utterance display_value="can i change my working hours when i work remotely">1e3bd69b1bde2090122465fce54bcb7c</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>1612248296</payload_hash>
+        <record_name>Hand Sanitiser.can i change my working hours when i work remotely</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 13:20:31</sys_created_on>
+        <sys_id>033b52db1bde2090122465fce54bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177b54c98ea0000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 13:20:31</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>0b3b52dbe4de20901867b12efbf54387</update_guid>
+        <update_guid_history>0b3b52dbe4de20901867b12efbf54387:1612248296</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-18 15:20:36">8c4b52db1bde2090122465fce54bcb8a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 13:20:36</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>415ccbaa6db44709a977903c3dc08411</sys_id>
+        <sys_metadata>4b3b52db1bde2090122465fce54bcb84</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hand Sanitiser.can i change my working hours when i work remotely</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_4b3b52db1bde2090122465fce54bcb84</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_4b3b52db1bde2090122465fce54bcb84">033b52db1bde2090122465fce54bcb88</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 13:20:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

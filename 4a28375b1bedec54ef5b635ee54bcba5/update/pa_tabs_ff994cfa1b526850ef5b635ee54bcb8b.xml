@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Copy (1) Virtual Age - New Tab">f39988321b526850ef5b635ee54bcb36</canvas_page>
+        <name>Copy (1) Virtual Age - New Tab</name>
+        <page display_value="PA Copy (1) Virtual Age - New Tab">3f9988321b526850ef5b635ee54bcb34</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff994cfa1b526850ef5b635ee54bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy (1) Virtual Age - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>pa_tabs_ff994cfa1b526850ef5b635ee54bcb8b</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+    </pa_tabs>
+</record_update>

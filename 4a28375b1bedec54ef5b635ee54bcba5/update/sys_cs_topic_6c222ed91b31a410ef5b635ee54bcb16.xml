@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Changing Pension Contribution">a0a12a991b31a410ef5b635ee54bcbc1</cb_topic_id>
+        <channels/>
+        <definition>{"id":"a0a12a991b31a410ef5b635ee54bcbc1","name":"Changing Pension Contribution","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Changing Pension Contribution","applicability":"true","category":"","key_phrases":["Changing Pension Contribution"],"variables":[{"name":"__segment_trigger_072a1686152f45d1804229884acafcbb_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_3ce3178c9616a4107ed5fcf40af67ce2","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_b2224fc0c7ad4e16a7adb6e5a351b3f9","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_a9a5358c5de34218ae04ff9bedede217","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_OutputPrompt_bb3e790f2a884e649a8454d9c32f50c0","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_b8e3178c0e16a410500db5a0e86e1ce2","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_f8e3178c1616a4100bd2d4443624ece2","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_072a1686152f45d1804229884acafcbb_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_3ce3178c9616a4107ed5fcf40af67ce2\");vaInputs.initialize(\"__silent_TerminateGoal_b2224fc0c7ad4e16a7adb6e5a351b3f9\");vaInputs.initialize(\"__silent_Decision_RootDecision_b8e3178c0e16a410500db5a0e86e1ce2\");vaInputs.initialize(\"__silent_StartGoal_a9a5358c5de34218ae04ff9bedede217\");vaInputs.initialize(\"__silent_OutputPrompt_bb3e790f2a884e649a8454d9c32f50c0\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_f8e3178c1616a4100bd2d4443624ece2\");null;","fields":[{"name":"__silent_Decision_RootDecision_b8e3178c0e16a410500db5a0e86e1ce2","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_b8e3178c0e16a410500db5a0e86e1ce2\";vaInputs.__silent_Decision_RootDecision_b8e3178c0e16a410500db5a0e86e1ce2=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_b8e3178c0e16a410500db5a0e86e1ce2\";vaInputs.RootDecisionBranch_3ce3178c9616a4107ed5fcf40af67ce2=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_f8e3178c1616a4100bd2d4443624ece2","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_b8e3178c0e16a410500db5a0e86e1ce2\" &amp;&amp; ((vaInputs.RootDecisionBranch_3ce3178c9616a4107ed5fcf40af67ce2.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_f8e3178c1616a4100bd2d4443624ece2___RootDecisionBranch_f8e3178c1616a4100bd2d4443624ece2\";vaInputs.__silent_Branch_RootDecisionBranch_f8e3178c1616a4100bd2d4443624ece2=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_f8e3178c1616a4100bd2d4443624ece2___RootDecisionBranch_f8e3178c1616a4100bd2d4443624ece2\";null;"},{"name":"__silent_StartGoal_a9a5358c5de34218ae04ff9bedede217","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_f8e3178c1616a4100bd2d4443624ece2___RootDecisionBranch_f8e3178c1616a4100bd2d4443624ece2\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___a9a5358c5de34218ae04ff9bedede217\";vaInputs.__silent_StartGoal_a9a5358c5de34218ae04ff9bedede217=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___a9a5358c5de34218ae04ff9bedede217\";null;"},{"name":"__silent_OutputPrompt_bb3e790f2a884e649a8454d9c32f50c0","applicable":"vaVars.previous_graph_node==\"Start___a9a5358c5de34218ae04ff9bedede217\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Changing pension contribution___bb3e790f2a884e649a8454d9c32f50c0\";vaInputs.__silent_OutputPrompt_bb3e790f2a884e649a8454d9c32f50c0=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Changing pension contribution___bb3e790f2a884e649a8454d9c32f50c0\";(function execute() {return gs.getMessageLang(\"Response for changing pension contribution\", vaContext.getRequesterLang());})();"},{"name":"__silent_TerminateGoal_b2224fc0c7ad4e16a7adb6e5a351b3f9","applicable":"vaVars.previous_graph_node==\"Changing pension contribution___bb3e790f2a884e649a8454d9c32f50c0\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___b2224fc0c7ad4e16a7adb6e5a351b3f9\";vaInputs.__silent_TerminateGoal_b2224fc0c7ad4e16a7adb6e5a351b3f9=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___b2224fc0c7ad4e16a7adb6e5a351b3f9\";vaVars.__segment_trigger_072a1686152f45d1804229884acafcbb_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":false,"design_category":"d801a2591b31a410ef5b635ee54bcb52","nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"score":0.0,"visible":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Changing Pension Contribution","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category>d801a2591b31a410ef5b635ee54bcb52</design_category>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Changing Pension Contribution</key_phrases>
+        <last_published_on>2021-02-08 15:07:47</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>KNTR XNK PNSN</metaphone>
+        <name>Changing Pension Contribution</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-18 12:11:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6c222ed91b31a410ef5b635ee54bcb16</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Changing Pension Contribution</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_6c222ed91b31a410ef5b635ee54bcb16</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:07:47</sys_updated_on>
+        <title>Changing Pension Contribution</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=6c222ed91b31a410ef5b635ee54bcb16"/>
+</record_update>
