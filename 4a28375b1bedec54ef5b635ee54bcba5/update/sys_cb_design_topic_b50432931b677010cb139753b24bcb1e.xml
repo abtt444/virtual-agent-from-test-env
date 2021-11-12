@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="My Contribution - Manager Evaluation">f50432931b677010cb139753b24bcb1a</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"24f1289f27ec486bab3779572ed12648","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"24f1289f27ec486bab3779572ed12648"}],"goals":[{"name":"primary","trigger_id":"24f1289f27ec486bab3779572ed12648","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"e4b0c039d12640d7b52d9ab9b2ae5689","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"270c73e64b02424e9098397c1c299c8b","name":"End"},{"type":"LinkOutputPrompt","header":{"type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:1343fe9f1b277010cb139753b24bcb33:node:0cb8aafe90344558a15b6a9faff7d537:field:Header\", vaContext.getRequesterLang())"},"label":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Click here for detailed steps on how to complete the Manager Evaluation step that is part of the year-end review on Workday.\", vaContext.getRequesterLang())"},"url":{"type":"String","mode":"string","value":"https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011251"},"link_type":"single","multi_link_script":"","id":"0cb8aafe90344558a15b6a9faff7d537","name":"My Contribution - Manager Evaluation","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"e4b0c039d12640d7b52d9ab9b2ae5689","target_node_id":"0cb8aafe90344558a15b6a9faff7d537","id":"dc8c871dc6594bbbab14e4130bf50f9c"},{"type":"Edge","source_node_id":"0cb8aafe90344558a15b6a9faff7d537","target_node_id":"270c73e64b02424e9098397c1c299c8b","id":"c10128e8e8fa494ba49002c86a003257"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"1343fe9f1b277010cb139753b24bcb33","name":"My Contribution - Manager Evaluation","key_phrases":["My Contribution - Manager Evaluation"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":true,"autopilot_topic":false,"design_categories":[{"name":null,"visible":false,"sysId":"8661ae591b31a410ef5b635ee54bcbf5"}],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>1343fe9f1b277010cb139753b24bcb33</design_topic_id>
+        <name>My Contribution - Manager Evaluation</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-11-06 14:38:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b50432931b677010cb139753b24bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_b50432931b677010cb139753b24bcb1e</sys_update_name>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-11-06 14:38:29</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

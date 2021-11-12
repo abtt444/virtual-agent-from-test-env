@@ -42,7 +42,7 @@
         <update_guid_history>dad75d37cb69a094884b9fdf665939eb:1460152107</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2021-01-15 15:22:41">43a55f1c1b39e494ef5b635ee54bcb46</sys_audit_delete>
+        <sys_audit_delete display_value="">43a55f1c1b39e494ef5b635ee54bcb46</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>gabriel.eisenberg</sys_created_by>
         <sys_created_on>2021-01-15 13:22:41</sys_created_on>

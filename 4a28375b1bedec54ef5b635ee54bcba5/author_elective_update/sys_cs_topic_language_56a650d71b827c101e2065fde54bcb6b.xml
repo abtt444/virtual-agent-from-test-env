@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language">
+    <sys_cs_topic_language action="DELETE">
+        <cs_topic_id display_value="Capture Annual Leave">92a650d71b827c101e2065fde54bcb62</cs_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[]</nlu_entities>
+        <nlu_intent>Capture Annual Leave</nlu_intent>
+        <nlu_intent_label>Capture Annual Leave</nlu_intent_label>
+        <nlu_model>global_4a28375b1bedec54ef5b635ee54bcba5_07c696471b8620d0ef5b635ee54bcbfd</nlu_model>
+        <nlu_model_label>Absa HR Chatbot NLU Model - Entities</nlu_model_label>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cs_topic_language</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-08-23 13:36:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>56a650d71b827c101e2065fde54bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_language_56a650d71b827c101e2065fde54bcb6b</sys_update_name>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-08-23 13:36:45</sys_updated_on>
+    </sys_cs_topic_language>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>59161e0edb4c6380439ef70fbf9619c4</instance_id>
+        <instance_name>absahruat</instance_name>
+        <name>sys_cs_topic_language_56a650d71b827c101e2065fde54bcb6b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language"><sys_cs_topic_language action="INSERT_OR_UPDATE"><cs_topic_id display_value="Capture Annual Leave">92a650d71b827c101e2065fde54bcb62</cs_topic_id><language_code>en</language_code><nlu_entities>[]</nlu_entities><nlu_intent>Capture Annual Leave</nlu_intent><nlu_intent_label>Capture Annual Leave</nlu_intent_label><nlu_model>global_4a28375b1bedec54ef5b635ee54bcba5_07c696471b8620d0ef5b635ee54bcbfd</nlu_model><nlu_model_label>Absa HR Chatbot NLU Model - Entities</nlu_model_label><nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider><sys_class_name>sys_cs_topic_language</sys_class_name><sys_created_by>tshwarelo.tshabalala</sys_created_by><sys_created_on>2021-08-23 13:36:45</sys_created_on><sys_domain>global</sys_domain><sys_id>56a650d71b827c101e2065fde54bcb6b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_cs_topic_language_56a650d71b827c101e2065fde54bcb6b</sys_update_name><sys_updated_by>tshwarelo.tshabalala</sys_updated_by><sys_updated_on>2021-08-23 13:36:45</sys_updated_on></sys_cs_topic_language></record_update>]]></payload>
+        <payload_hash>1734091804</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>bc084c5e1b8af4101e2065fde54bcb3b</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-08-23 13:36:45</sys_created_on>
+        <sys_id>5ea618d71b827c101e2065fde54bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b733a4b660000001</sys_recorded_at>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-08-23 13:36:45</sys_updated_on>
+        <type>CS Topic Language</type>
+        <update_guid>56a618d7ef827c10a65d6850ec3f323a</update_guid>
+        <update_guid_history>56a618d7ef827c10a65d6850ec3f323a:1734091804</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-08-24 01:40:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_topic_language">sys_cs_topic_language</sys_db_object>
+        <sys_id>6aec73b8249740d093d7a47d29029ee4</sys_id>
+        <sys_metadata>56a650d71b827c101e2065fde54bcb6b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_cs_topic_language_56a650d71b827c101e2065fde54bcb6b</sys_update_name>
+        <sys_update_version display_value="sys_cs_topic_language_56a650d71b827c101e2065fde54bcb6b">5ea618d71b827c101e2065fde54bcb3a</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-08-24 01:40:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

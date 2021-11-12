@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>8661ae591b31a410ef5b635ee54bcbf5</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "2295928789624072ae9eb935dfb846c2": {
+          "id": "2295928789624072ae9eb935dfb846c2",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "9d9efe58332742d6a0b5d5c2c2ae1e52": {
+          "id": "9d9efe58332742d6a0b5d5c2c2ae1e52",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "87857fab2663411b807265635f436836": {
+          "id": "87857fab2663411b807265635f436836",
+          "stepType": "ImageOutput",
+          "name": "My Contribution - Performance Rating",
+          "url": {
+            "value": "Capture_1636211725838.PNG",
+            "mode": "db_image"
+          },
+          "altText": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "b2cb070aa541495d912cf8104a7190fc",
+          "edgeType": "Edge",
+          "source": "2295928789624072ae9eb935dfb846c2",
+          "target": "87857fab2663411b807265635f436836",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "5486a5a5bc3a4869ac93950432a1387f",
+          "edgeType": "Edge",
+          "source": "87857fab2663411b807265635f436836",
+          "target": "9d9efe58332742d6a0b5d5c2c2ae1e52",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>My Contribution - Performance Rating</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>My Contribution - Performance Rating</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-11-06 15:05:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>134a3a1f1b677010cb139753b24bcbab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Contribution - Performance Rating</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_134a3a1f1b677010cb139753b24bcbab</sys_update_name>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-11-06 15:15:41</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=134a3a1f1b677010cb139753b24bcbab"/>
+</record_update>

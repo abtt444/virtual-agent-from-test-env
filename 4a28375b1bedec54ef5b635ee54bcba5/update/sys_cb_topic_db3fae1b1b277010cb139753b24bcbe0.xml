@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>d46eaa1b1b277010cb139753b24bcbf6</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "a82ec466505e422ea8e92a693acff4b5": {
+          "id": "a82ec466505e422ea8e92a693acff4b5",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "42c0f8e5dbc145e8927936e6222882cf": {
+          "id": "42c0f8e5dbc145e8927936e6222882cf",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "a361816707d84a7893cea93f7f01830a": {
+          "id": "a361816707d84a7893cea93f7f01830a",
+          "stepType": "LinkOutput",
+          "name": "MyContribution Self-Evaluation",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011228"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click here for detailed steps you will be required to follow for completing a Self Evaluation in Workday."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Each colleague is encouraged to complete the self evaluation, as it provides you with the opportunity to reflect on your own contribution during the performance year. This is captured by updating the status of each objective, adding comments per objective, summary comments and uploading attachments."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        }
+      },
+      "edges": [
+        {
+          "id": "34a77736ed944d2ab479267c31aa20e2",
+          "edgeType": "Edge",
+          "source": "a82ec466505e422ea8e92a693acff4b5",
+          "target": "a361816707d84a7893cea93f7f01830a",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "25affd612ee1444cb54091386d098792",
+          "edgeType": "Edge",
+          "source": "a361816707d84a7893cea93f7f01830a",
+          "target": "42c0f8e5dbc145e8927936e6222882cf",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>My Contribution - Self Evaluation</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>My Contribution - Self Evaluation</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-11-06 14:17:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>db3fae1b1b277010cb139753b24bcbe0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My Contribution - Self Evaluation</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_db3fae1b1b277010cb139753b24bcbe0</sys_update_name>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-11-06 14:23:56</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=db3fae1b1b277010cb139753b24bcbe0"/>
+</record_update>

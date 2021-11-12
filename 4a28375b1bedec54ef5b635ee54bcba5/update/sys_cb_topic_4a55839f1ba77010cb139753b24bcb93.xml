@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>8661ae591b31a410ef5b635ee54bcbf5</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "60634e1ff402415f889624d08be3fb8c": {
+          "id": "60634e1ff402415f889624d08be3fb8c",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "b97f4577cd7a42fa9a45b33802e97aa6": {
+          "id": "b97f4577cd7a42fa9a45b33802e97aa6",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "8f893b16d7124bc392ca93df45ead4f0": {
+          "id": "8f893b16d7124bc392ca93df45ead4f0",
+          "stepType": "Prompt",
+          "name": "My Contribution reports",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Access workday"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Under application select the MyContribution Reporting Dashboard worklet"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "This dashboard should be used to view the year end performance review process for your organization. You will only be able to use these reports to view employees you support"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": true,
+          "skipIfFulfilled": false,
+          "variableId": "9a117e62bd0f42c48a02e55abdf3b4f9",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "cb246fca073945d6806e7bf5964729bd",
+          "edgeType": "Edge",
+          "source": "60634e1ff402415f889624d08be3fb8c",
+          "target": "8f893b16d7124bc392ca93df45ead4f0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a7b0758d0d9041869d1c1826465986ba",
+          "edgeType": "Edge",
+          "source": "8f893b16d7124bc392ca93df45ead4f0",
+          "target": "b97f4577cd7a42fa9a45b33802e97aa6",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "9a117e62bd0f42c48a02e55abdf3b4f9": {
+      "id": "9a117e62bd0f42c48a02e55abdf3b4f9",
+      "name": "my_contribution_reports",
+      "label": "My Contribution Reports",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTYzNjIxNDA1OTk2NCBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      }
+    }
+  }
+}</graph>
+        <key_phrases>My Contribution reports</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>My Contribution reports</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-11-06 15:54:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4a55839f1ba77010cb139753b24bcb93</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Contribution reports</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_4a55839f1ba77010cb139753b24bcb93</sys_update_name>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-11-06 15:57:15</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=4a55839f1ba77010cb139753b24bcb93"/>
+</record_update>

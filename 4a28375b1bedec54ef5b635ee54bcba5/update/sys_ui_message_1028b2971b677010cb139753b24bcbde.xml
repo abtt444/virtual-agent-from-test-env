@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:87b7721b1b677010cb139753b24bcb10:node:5a2f261be7fd4c0c804f472affa8719f:field:header</key>
+        <language>en</language>
+        <message>The performance objectives you create should align to the priorities of your business, function and/or team. Engage with your People Manager to discuss and agree on your objectives. Workday allows you to add, edit, archive and restore objectives at any time during the year. This is a valuable feature as it allows objectives to be modified to ensure alignment with changing business area priorities</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-11-06 14:56:23</sys_created_on>
+        <sys_id>1028b2971b677010cb139753b24bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:87b7721b1b677010cb139753b24bcb10:node:5a2f261be7fd4c0c804f472affa8719f:field:header</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_1028b2971b677010cb139753b24bcbde</sys_update_name>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-11-06 14:56:23</sys_updated_on>
+    </sys_ui_message>
+</record_update>

@@ -42,7 +42,7 @@
         <update_guid_history>3ff3b6c33f42a4d0b85d24e283cfd75d:1118946027</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2021-02-05 16:16:03">214b230f1b0aa4d0122465fce54bcbe9</sys_audit_delete>
+        <sys_audit_delete display_value="">214b230f1b0aa4d0122465fce54bcbe9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>
         <sys_created_on>2021-02-05 14:16:03</sys_created_on>
