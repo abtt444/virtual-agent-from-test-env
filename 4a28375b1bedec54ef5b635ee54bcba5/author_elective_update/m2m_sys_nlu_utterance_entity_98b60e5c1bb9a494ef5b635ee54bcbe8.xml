@@ -42,7 +42,7 @@
         <update_guid_history>e3d3dfd4c639e494d6603199008a8922:1284527483,f4692a58c071e49433d3192f93eff93d:597788986,5ab6865c3fb9a4944de5e6c21d29cddc:-622264979,81b64e5c8fb9a49441a32e76ec074f33:-284042082,10b60e5cf1b9a494c142c145b40832ea:-861337243</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2021-01-15 15:32:00">6fc7df501b79e494ef5b635ee54bcbc9</sys_audit_delete>
+        <sys_audit_delete display_value="">6fc7df501b79e494ef5b635ee54bcbc9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>gabriel.eisenberg</sys_created_by>
         <sys_created_on>2021-01-15 13:32:00</sys_created_on>

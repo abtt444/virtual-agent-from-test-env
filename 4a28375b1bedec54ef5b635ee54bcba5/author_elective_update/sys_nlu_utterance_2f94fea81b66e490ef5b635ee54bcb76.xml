@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="MyContribution">ddf6d6871b8620d0ef5b635ee54bcb15</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-22 12:23:50</sys_created_on>
+        <sys_id>2f94fea81b66e490ef5b635ee54bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How do I draw a report to see the ratings for my team</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_2f94fea81b66e490ef5b635ee54bcb76</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-22 12:23:50</sys_updated_on>
+        <utterance>How do I draw a report to see the ratings for my team</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_2f94fea81b66e490ef5b635ee54bcb76</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="MyContribution">ddf6d6871b8620d0ef5b635ee54bcb15</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-22 12:23:50</sys_created_on>
+        <sys_id>2f94fea81b66e490ef5b635ee54bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How do I draw a report to see the ratings for my team</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_2f94fea81b66e490ef5b635ee54bcb76</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-22 12:23:50</sys_updated_on>
+        <utterance>How do I draw a report to see the ratings for my team</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-1382551720</payload_hash>
+        <record_name>How do I draw a report to see the ratings for my team</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:30</sys_created_on>
+        <sys_id>f73cdf53871f3050c386fd99cebb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650a2a10000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:30</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>373cdf534e1f3050e75d5fc7df8767cb</update_guid>
+        <update_guid_history>373cdf534e1f3050e75d5fc7df8767cb:0,78f8d3df911f7450572fae84284d8af6:-2144569938,edf1f054399f30109f8f3960bd13278b:0,2c3001e7d44b7810616692f9e3788e59:1655298049,397dfc43cc07b410b8fd59c20164014a:0,ce57e48ba143b4103b9b93b56cd59e2c:1470833424,10cb4487c18f7410f17c897c84f8ac55:0,e488480beb4f7410cf086c293c70d084:928888912,ef94fea88066e4907c1d2553c311ed77:-76395805</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-11-06 14:27:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>ab7c08f74a36408cbb22e962817c1624</sys_id>
+        <sys_metadata>2f94fea81b66e490ef5b635ee54bcb76</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How do I draw a report to see the ratings for my team</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_2f94fea81b66e490ef5b635ee54bcb76</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_2f94fea81b66e490ef5b635ee54bcb76">f73cdf53871f3050c386fd99cebb35cb</sys_update_version>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-11-06 14:27:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

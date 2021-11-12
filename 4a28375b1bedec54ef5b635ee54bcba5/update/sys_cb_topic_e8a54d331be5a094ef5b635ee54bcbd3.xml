@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
     <sys_cb_topic action="INSERT_OR_UPDATE">
         <applicability/>
-        <applicability_mode/>
+        <applicability_mode>query</applicability_mode>
         <autopilot_topic>false</autopilot_topic>
         <category/>
         <channels/>
@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>false</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.21.pp4",
+  "graph_api_version": "1.0.36",
   "goals": {
     "primary": {
       "id": "primary",
@@ -44,13 +44,38 @@
           "stepType": "TextOutput",
           "name": "Show Greeting Message",
           "value": {
-            "value": "Hi {{vaInputs.user.first_name}}, I am Watu!  I can assist you with queries related to Leave, Pension, Claims, Document Retrieval, Employee Contribution and general Covid-19 guidelines. I hope you're having a knockout of a day! ",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hi "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.first_name}}",
+                      "displayValue": "vaInputs➛user➛first_name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", I am Virtual Agent!  I can assist you with queries related to Leave, Pension, Claims, Document Retrieval, Employee Contribution and general Covid-19 guidelines. I hope you're having a knockout of a day! "
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
             "mode": "script",
             "value": ""
-          }
+          },
+          "secure": false
         },
         "dd59cae3d42f4eb7b863533ae38d81c2": {
           "id": "dd59cae3d42f4eb7b863533ae38d81c2",
@@ -210,14 +235,14 @@
         <sys_created_on>2021-01-13 13:36:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>e8a54d331be5a094ef5b635ee54bcbd3</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Absa Greeting</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_e8a54d331be5a094ef5b635ee54bcbd3</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-10-19 19:02:21</sys_updated_on>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-11-12 07:42:00</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>SETUP_TOPIC</type>
         <variables/>

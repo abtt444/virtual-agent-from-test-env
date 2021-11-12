@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="My Contribution - Self Evaluation">c3503edb1b277010cb139753b24bcbb9</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"9544dcb04251470cb12d001f4ed1adc7","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"9544dcb04251470cb12d001f4ed1adc7"}],"goals":[{"name":"primary","trigger_id":"9544dcb04251470cb12d001f4ed1adc7","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"a82ec466505e422ea8e92a693acff4b5","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"42c0f8e5dbc145e8927936e6222882cf","name":"End"},{"type":"LinkOutputPrompt","header":{"type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:db3fae1b1b277010cb139753b24bcbe0:node:a361816707d84a7893cea93f7f01830a:field:Header\", vaContext.getRequesterLang())"},"label":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Click here for detailed steps you will be required to follow for completing a Self Evaluation in Workday.\", vaContext.getRequesterLang())"},"url":{"type":"String","mode":"string","value":"https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011228"},"link_type":"single","multi_link_script":"","id":"a361816707d84a7893cea93f7f01830a","name":"MyContribution Self-Evaluation","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"a82ec466505e422ea8e92a693acff4b5","target_node_id":"a361816707d84a7893cea93f7f01830a","id":"34a77736ed944d2ab479267c31aa20e2"},{"type":"Edge","source_node_id":"a361816707d84a7893cea93f7f01830a","target_node_id":"42c0f8e5dbc145e8927936e6222882cf","id":"25affd612ee1444cb54091386d098792"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"db3fae1b1b277010cb139753b24bcbe0","name":"My Contribution - Self Evaluation","key_phrases":["My Contribution - Self Evaluation"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":true,"autopilot_topic":false,"design_categories":[{"name":null,"visible":false,"sysId":"d46eaa1b1b277010cb139753b24bcbf6"}],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>db3fae1b1b277010cb139753b24bcbe0</design_topic_id>
+        <name>My Contribution - Self Evaluation</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-11-06 14:22:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4f503edb1b277010cb139753b24bcbbc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_4f503edb1b277010cb139753b24bcbbc</sys_update_name>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-11-06 14:24:01</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

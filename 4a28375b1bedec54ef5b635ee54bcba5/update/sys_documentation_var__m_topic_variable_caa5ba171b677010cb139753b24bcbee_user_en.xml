@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="user" label="User" language="en" table="var__m_topic_variable_caa5ba171b677010cb139753b24bcbee">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>user</element>
+            <help/>
+            <hint/>
+            <label>User</label>
+            <language>en</language>
+            <name>var__m_topic_variable_caa5ba171b677010cb139753b24bcbee</name>
+            <plural>User</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+            <sys_created_on>2021-11-06 14:45:35</sys_created_on>
+            <sys_id>8ea5ba171b677010cb139753b24bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>User</sys_name>
+            <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+            <sys_update_name>sys_documentation_var__m_topic_variable_caa5ba171b677010cb139753b24bcbee_user_en</sys_update_name>
+            <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+            <sys_updated_on>2021-11-06 14:45:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
