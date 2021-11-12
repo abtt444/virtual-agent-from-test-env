@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[4,5],"annotatedString":"How do i log {{phrase=\"sick leave\"}} in workday"}]</annotation>
+        <entity display_value="Sick leave">d38105bb1ba5a094ef5b635ee54bcbac</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 10:35:51</sys_created_on>
+        <sys_id>a9e561041b792494ef5b635ee54bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sick leave.How do i log sick leave in workday</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_a9e561041b792494ef5b635ee54bcb8e</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 10:35:51</sys_updated_on>
+        <utterance display_value="How do i log sick leave in workday">00e5a5841b392494ef5b635ee54bcb55</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_a9e561041b792494ef5b635ee54bcb8e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[4,5],"annotatedString":"How do i log {{phrase=\"sick leave\"}} in workday"}]</annotation><entity display_value="Sick leave">d38105bb1ba5a094ef5b635ee54bcbac</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-14 10:35:51</sys_created_on><sys_id>a9e561041b792494ef5b635ee54bcb8e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sick leave.How do i log sick leave in workday</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_a9e561041b792494ef5b635ee54bcb8e</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-14 10:35:51</sys_updated_on><utterance display_value="How do i log sick leave in workday">00e5a5841b392494ef5b635ee54bcb55</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-1626355630</payload_hash>
+        <record_name>Sick leave.How do i log sick leave in workday</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 10:35:51</sys_created_on>
+        <sys_id>e1e561041b792494ef5b635ee54bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17700773ff40000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 10:35:51</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>e9e56104af79249487e8756da2ee7990</update_guid>
+        <update_guid_history>e9e56104af79249487e8756da2ee7990:-1626355630</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">430126dc1bbda494ef5b635ee54bcbe6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 09:32:45</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>0b5f3743712b4d46808b8c5b498adb41</sys_id>
+        <sys_metadata>a9e561041b792494ef5b635ee54bcb8e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sick leave.How do i log sick leave in workday</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_a9e561041b792494ef5b635ee54bcb8e</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_a9e561041b792494ef5b635ee54bcb8e">e1e561041b792494ef5b635ee54bcb91</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 09:32:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

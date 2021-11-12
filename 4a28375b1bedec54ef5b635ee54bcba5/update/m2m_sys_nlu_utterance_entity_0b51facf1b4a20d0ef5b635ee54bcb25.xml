@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"How do I go about retrieving my {{phrase=\"payslip?\"}}","start":32,"end":39}]</annotation>
+        <entity display_value="Payslip">dff03a8f1b4a20d0ef5b635ee54bcb75</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 10:03:00</sys_created_on>
+        <sys_id>0b51facf1b4a20d0ef5b635ee54bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payslip.How do I go about retrieving my payslip? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_0b51facf1b4a20d0ef5b635ee54bcb25</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:03:00</sys_updated_on>
+        <utterance display_value="How do I go about retrieving my payslip? ">def65a871b8620d0ef5b635ee54bcb99</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

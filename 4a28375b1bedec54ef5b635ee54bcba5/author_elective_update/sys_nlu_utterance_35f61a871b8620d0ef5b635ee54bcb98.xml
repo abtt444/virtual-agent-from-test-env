@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Book Relocation Leave">b1f61a871b8620d0ef5b635ee54bcb8f</intent>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:41</sys_created_on>
+        <sys_id>35f61a871b8620d0ef5b635ee54bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>what's needed to book for my relocation?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_35f61a871b8620d0ef5b635ee54bcb98</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:41</sys_updated_on>
+        <utterance>what's needed to book for my relocation?</utterance>
+    </sys_nlu_utterance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>sys_nlu_utterance_35f61a871b8620d0ef5b635ee54bcb98</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance"><sys_nlu_utterance action="INSERT_OR_UPDATE"><intent display_value="Book Relocation Leave">b1f61a871b8620d0ef5b635ee54bcb8f</intent><sys_class_name>sys_nlu_utterance</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-02-05 08:07:41</sys_created_on><sys_id>35f61a871b8620d0ef5b635ee54bcb98</sys_id><sys_mod_count>0</sys_mod_count><sys_name>what's needed to book for my relocation?</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_nlu_utterance_35f61a871b8620d0ef5b635ee54bcb98</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-02-05 08:07:41</sys_updated_on><utterance>what's needed to book for my relocation?</utterance></sys_nlu_utterance></record_update>]]></payload>
+        <payload_hash>981036902</payload_hash>
+        <record_name>what's needed to book for my relocation?</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:41</sys_created_on>
+        <sys_id>7df61a871b8620d0ef5b635ee54bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177713b83520000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:41</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>75f61a87e08620d08a79af227cc4ff99</update_guid>
+        <update_guid_history>75f61a87e08620d08a79af227cc4ff99:981036902</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-08 10:08:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>0dbd1faeb0d5467c80d2e3144d38ba04</sys_id>
+        <sys_metadata>35f61a871b8620d0ef5b635ee54bcb98</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>what's needed to book for my relocation?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_35f61a871b8620d0ef5b635ee54bcb98</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_35f61a871b8620d0ef5b635ee54bcb98">7df61a871b8620d0ef5b635ee54bcb99</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:08:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

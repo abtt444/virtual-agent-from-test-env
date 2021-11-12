@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>Thank you. You can apply for sick leave for Seychelles employees</key>
+        <language>en</language>
+        <message>Thank you. You can apply for sick leave for Seychelles employees</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-26 14:55:56</sys_created_on>
+        <sys_id>2484dc401b066850ef5b635ee54bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Thank you. You can apply for sick leave for Seychelles employees</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_2484dc401b066850ef5b635ee54bcb25</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-26 14:55:56</sys_updated_on>
+    </sys_ui_message>
+</record_update>

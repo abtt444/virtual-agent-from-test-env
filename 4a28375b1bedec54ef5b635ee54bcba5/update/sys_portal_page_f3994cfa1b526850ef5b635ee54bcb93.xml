@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2021-11-12 08:16:51">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f3994cfa1b526850ef5b635ee54bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Topic</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_portal_page_f3994cfa1b526850ef5b635ee54bcb93</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+        <title>PA Topic</title>
+        <user/>
+        <view>pa_virtual_agent_overvi_-_new_tab_2_2</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Topic">f3994cfa1b526850ef5b635ee54bcb93</page>
+                <summary>Embed Count of Custom Topics</summary>
+                <sys_created_by>gabriel.eisenberg</sys_created_by>
+                <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                <sys_id>3f994cfa1b526850ef5b635ee54bcbb0</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">3f994cfa1b526850ef5b635ee54bcbb0</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>33994cfa1b526850ef5b635ee54bcbb2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>825351e5734b40108564b17afef6a70e</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">3f994cfa1b526850ef5b635ee54bcbb0</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>37994cfa1b526850ef5b635ee54bcbb1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">3f994cfa1b526850ef5b635ee54bcbb0</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>37994cfa1b526850ef5b635ee54bcbb3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">3f994cfa1b526850ef5b635ee54bcbb0</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>3b994cfa1b526850ef5b635ee54bcbb2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">3f994cfa1b526850ef5b635ee54bcbb0</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>73994cfa1b526850ef5b635ee54bcbb1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">3f994cfa1b526850ef5b635ee54bcbb0</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>73994cfa1b526850ef5b635ee54bcbb3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">3f994cfa1b526850ef5b635ee54bcbb0</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>77994cfa1b526850ef5b635ee54bcbb2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">3f994cfa1b526850ef5b635ee54bcbb0</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>7f994cfa1b526850ef5b635ee54bcbb1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">3f994cfa1b526850ef5b635ee54bcbb0</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>bb994cfa1b526850ef5b635ee54bcbb1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">3f994cfa1b526850ef5b635ee54bcbb0</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>bf994cfa1b526850ef5b635ee54bcbb2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">3f994cfa1b526850ef5b635ee54bcbb0</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>f7994cfa1b526850ef5b635ee54bcbb1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">3f994cfa1b526850ef5b635ee54bcbb0</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>f7994cfa1b526850ef5b635ee54bcbb3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>Embed Count of Custom Topics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">3f994cfa1b526850ef5b635ee54bcbb0</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>fb994cfa1b526850ef5b635ee54bcbb2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Topic">f3994cfa1b526850ef5b635ee54bcb93</page>
+                <summary>Monthly Topic Rank</summary>
+                <sys_created_by>gabriel.eisenberg</sys_created_by>
+                <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                <sys_id>77994cfa1b526850ef5b635ee54bcba4</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">77994cfa1b526850ef5b635ee54bcba4</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>33994cfa1b526850ef5b635ee54bcba5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">77994cfa1b526850ef5b635ee54bcba4</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>3b994cfa1b526850ef5b635ee54bcba6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>breakdown</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">77994cfa1b526850ef5b635ee54bcba4</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>3f994cfa1b526850ef5b635ee54bcba5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">77994cfa1b526850ef5b635ee54bcba4</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>77994cfa1b526850ef5b635ee54bcba6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">77994cfa1b526850ef5b635ee54bcba4</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>7b994cfa1b526850ef5b635ee54bcba5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">77994cfa1b526850ef5b635ee54bcba4</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>7b994cfa1b526850ef5b635ee54bcbb0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">77994cfa1b526850ef5b635ee54bcba4</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>7f994cfa1b526850ef5b635ee54bcba4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">77994cfa1b526850ef5b635ee54bcba4</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>b3994cfa1b526850ef5b635ee54bcba6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">77994cfa1b526850ef5b635ee54bcba4</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>b7994cfa1b526850ef5b635ee54bcba5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">77994cfa1b526850ef5b635ee54bcba4</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>bb994cfa1b526850ef5b635ee54bcba4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>Monthly Topic Rank</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">77994cfa1b526850ef5b635ee54bcba4</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>f3994cfa1b526850ef5b635ee54bcba5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">77994cfa1b526850ef5b635ee54bcba4</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>fb994cfa1b526850ef5b635ee54bcba6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>339881a7b7a02300eaae1922ee11a921</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">77994cfa1b526850ef5b635ee54bcba4</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>ff994cfa1b526850ef5b635ee54bcba5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Topic">f3994cfa1b526850ef5b635ee54bcb93</page>
+                <summary>Embed Count of Topic Blocks</summary>
+                <sys_created_by>gabriel.eisenberg</sys_created_by>
+                <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                <sys_id>bb994cfa1b526850ef5b635ee54bcbb3</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>33994cfa1b526850ef5b635ee54bcbb5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>37994cfa1b526850ef5b635ee54bcbb4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>3b994cfa1b526850ef5b635ee54bcbb6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>3f994cfa1b526850ef5b635ee54bcbb5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>77994cfa1b526850ef5b635ee54bcbb6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>heatmap</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>7b994cfa1b526850ef5b635ee54bcbb5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>7f994cfa1b526850ef5b635ee54bcbb4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>b3994cfa1b526850ef5b635ee54bcbb6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>b7994cfa1b526850ef5b635ee54bcbb5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>bb994cfa1b526850ef5b635ee54bcbb4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>f3994cfa1b526850ef5b635ee54bcbb5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>f7994cfa1b526850ef5b635ee54bcbb4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>Embed Count of Topic Blocks</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>ff994cfa1b526850ef5b635ee54bcbb3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>6894a1c8733333008564b17afef6a732</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">bb994cfa1b526850ef5b635ee54bcbb3</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>ff994cfa1b526850ef5b635ee54bcbb5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Topic">f3994cfa1b526850ef5b635ee54bcb93</page>
+                <summary>Execution Count of Custom Topics</summary>
+                <sys_created_by>gabriel.eisenberg</sys_created_by>
+                <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                <sys_id>fb994cfa1b526850ef5b635ee54bcbb6</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">fb994cfa1b526850ef5b635ee54bcbb6</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>33994cfa1b526850ef5b635ee54bcbb7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>b7fc0961734b40108564b17afef6a7e0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">fb994cfa1b526850ef5b635ee54bcbb6</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>33994cfa1b526850ef5b635ee54bcbb9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">fb994cfa1b526850ef5b635ee54bcbb6</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>37994cfa1b526850ef5b635ee54bcbb8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">fb994cfa1b526850ef5b635ee54bcbb6</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>3b994cfa1b526850ef5b635ee54bcbb7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">fb994cfa1b526850ef5b635ee54bcbb6</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>73994cfa1b526850ef5b635ee54bcbb8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">fb994cfa1b526850ef5b635ee54bcbb6</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>77994cfa1b526850ef5b635ee54bcbb7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">fb994cfa1b526850ef5b635ee54bcbb6</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>7f994cfa1b526850ef5b635ee54bcbb8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">fb994cfa1b526850ef5b635ee54bcbb6</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>b7994cfa1b526850ef5b635ee54bcbb9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>Execution Count of Custom Topics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">fb994cfa1b526850ef5b635ee54bcbb6</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>bb994cfa1b526850ef5b635ee54bcbb8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">fb994cfa1b526850ef5b635ee54bcbb6</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>bf994cfa1b526850ef5b635ee54bcbb7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">fb994cfa1b526850ef5b635ee54bcbb6</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>f3994cfa1b526850ef5b635ee54bcbb9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">fb994cfa1b526850ef5b635ee54bcbb6</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>f7994cfa1b526850ef5b635ee54bcbb8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">fb994cfa1b526850ef5b635ee54bcbb6</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>fb994cfa1b526850ef5b635ee54bcbb7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Topic">f3994cfa1b526850ef5b635ee54bcb93</page>
+                <summary>Execution Count of Topic Blocks</summary>
+                <sys_created_by>gabriel.eisenberg</sys_created_by>
+                <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                <sys_id>ff994cfa1b526850ef5b635ee54bcb93</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>33994cfa1b526850ef5b635ee54bcb96</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>Execution Count of Topic Blocks</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>3b994cfa1b526850ef5b635ee54bcb95</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>0fa5e9c8733333008564b17afef6a7e4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>3f994cfa1b526850ef5b635ee54bcb94</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>heatmap</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>3f994cfa1b526850ef5b635ee54bcb96</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>3f994cfa1b526850ef5b635ee54bcba3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>77994cfa1b526850ef5b635ee54bcb95</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>7b994cfa1b526850ef5b635ee54bcb96</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>7b994cfa1b526850ef5b635ee54bcba3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>7f994cfa1b526850ef5b635ee54bcb95</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>b3994cfa1b526850ef5b635ee54bcba4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>b7994cfa1b526850ef5b635ee54bcb96</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>f3994cfa1b526850ef5b635ee54bcb96</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>ff994cfa1b526850ef5b635ee54bcb96</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-16 15:27:22">ff994cfa1b526850ef5b635ee54bcb93</portal_section>
+                        <sys_created_by>gabriel.eisenberg</sys_created_by>
+                        <sys_created_on>2021-02-16 13:27:22</sys_created_on>
+                        <sys_id>ff994cfa1b526850ef5b635ee54bcba3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+                        <sys_updated_on>2021-02-16 13:27:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

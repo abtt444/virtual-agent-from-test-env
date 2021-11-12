@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability>(function execute() {
+      return false;
+      })()
+    </applicability>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Asks users if they want to continue with another request or task.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "9b3b3cbf27f34805a416cd88b1af68eb": {
+          "id": "9b3b3cbf27f34805a416cd88b1af68eb",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "310c3067f9c14f7ab1944e782e470744": {
+          "id": "310c3067f9c14f7ab1944e782e470744",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": "",
+            "mode": "simple"
+          }
+        },
+        "c17d92f92ac3462991cb668cf8003762": {
+          "id": "c17d92f92ac3462991cb668cf8003762",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "70e44722200d481da317b65a71e9dfe5": {
+          "id": "70e44722200d481da317b65a71e9dfe5",
+          "stepType": "Prompt",
+          "name": "Anything Else",
+          "prompt": {
+            "value": "Is there anything else I can assist you with?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "c6d8f8d96cee451fbdc0932307032cdd",
+          "withNluUserInput": true,
+          "skipIfFulfilled": false,
+          "entity": {
+            "id": ""
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "1d64a882f04545eaa922247eba5ec209": {
+          "id": "1d64a882f04545eaa922247eba5ec209",
+          "name": "show topics",
+          "script": "(function execute() {\n     //vaSystem.getTopicSelectionMessage();\n     //vaSystem.sendTopicPickerControl(greetingMessage);\n    var greetingMessage = vaSystem.getTopicSelectionMessage();\n    vaSystem.sendTopicPickerControl(greetingMessage);\n    vaSystem.topicDiscovery();\n   // vaSystem.switchTopic(vaVars._setup_explore_help_topic);\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "d4ecb162ac15472dace9004ca41be128",
+          "edgeType": "Branch",
+          "source": "c17d92f92ac3462991cb668cf8003762",
+          "target": "310c3067f9c14f7ab1944e782e470744",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "anything_else!=true",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "11bd1e04c64d413fb887f4f916edde55",
+          "edgeType": "Edge",
+          "source": "9b3b3cbf27f34805a416cd88b1af68eb",
+          "target": "70e44722200d481da317b65a71e9dfe5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b6a8c02568e54b2e8adc9d8f85a41fc7",
+          "edgeType": "Edge",
+          "source": "70e44722200d481da317b65a71e9dfe5",
+          "target": "c17d92f92ac3462991cb668cf8003762",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8d9743dee5424fb6a8d357f11a6abd98",
+          "edgeType": "Branch",
+          "source": "c17d92f92ac3462991cb668cf8003762",
+          "target": "1d64a882f04545eaa922247eba5ec209",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "anything_else=true",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "153c3eb565a64b9fa4a62650da2041a1",
+          "edgeType": "Edge",
+          "source": "1d64a882f04545eaa922247eba5ec209",
+          "target": "70e44722200d481da317b65a71e9dfe5",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "c6d8f8d96cee451fbdc0932307032cdd": {
+      "id": "c6d8f8d96cee451fbdc0932307032cdd",
+      "name": "anything_else",
+      "label": "Anything Else",
+      "varType": "boolean",
+      "category": "vaInputs"
+    },
+    "a3bd2880637e465683e9e1bd608de074": {
+      "id": "a3bd2880637e465683e9e1bd608de074",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_setup_explore_help_topic",
+      "label": "_setup_explore_help_topic",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "1b391487eedb4fb3bebf7bb79b102c36": {
+      "id": "1b391487eedb4fb3bebf7bb79b102c36",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_topic_current",
+      "label": "_topic_current",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "161406a73ff345d6b35ce9cfbe9eedb5": {
+      "category": "vaInputs",
+      "id": "161406a73ff345d6b35ce9cfbe9eedb5",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Anything Else?,Anything Else Topic</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Anything Else?</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>public</roles>
+        <source_topic_id>748d605053130010cf8cddeeff7b128e</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-25 12:37:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4b2bee6f1b79a450ef5b635ee54bcb5b</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Anything Else?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_4b2bee6f1b79a450ef5b635ee54bcb5b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-19 19:02:21</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=4b2bee6f1b79a450ef5b635ee54bcb5b"/>
+</record_update>

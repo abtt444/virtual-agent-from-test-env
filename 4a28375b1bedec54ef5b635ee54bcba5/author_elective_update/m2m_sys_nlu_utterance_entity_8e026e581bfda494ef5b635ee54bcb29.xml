@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[7,8],"annotatedString":"When do i have to submit my {{phrase=\"doctors note\"}}"}]</annotation>
+        <entity display_value="Doctors Note">b5c1e2581bfda494ef5b635ee54bcb18</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 09:37:04</sys_created_on>
+        <sys_id>8e026e581bfda494ef5b635ee54bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Doctors Note.When do i have to submit my doctors note</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_8e026e581bfda494ef5b635ee54bcb29</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 09:37:04</sys_updated_on>
+        <utterance display_value="When do i have to submit my doctors note">73c825881b792494ef5b635ee54bcb57</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_8e026e581bfda494ef5b635ee54bcb29</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[7,8],"annotatedString":"When do i have to submit my {{phrase=\"doctors note\"}}"}]</annotation><entity display_value="Doctors Note">b5c1e2581bfda494ef5b635ee54bcb18</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-15 09:37:04</sys_created_on><sys_id>8e026e581bfda494ef5b635ee54bcb29</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Doctors Note.When do i have to submit my doctors note</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_8e026e581bfda494ef5b635ee54bcb29</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-15 09:37:04</sys_updated_on><utterance display_value="When do i have to submit my doctors note">73c825881b792494ef5b635ee54bcb57</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-995076669</payload_hash>
+        <record_name>Doctors Note.When do i have to submit my doctors note</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 09:37:04</sys_created_on>
+        <sys_id>0e026e581bfda494ef5b635ee54bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1770567cb360000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 09:37:04</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>06026e5850fda4942250ded9114f2f2b</update_guid>
+        <update_guid_history>06026e5850fda4942250ded9114f2f2b:-995076669</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">85f1df901b39e494ef5b635ee54bcb8f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 13:06:26</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>08f6a9abed96498f819ef6beb40cb439</sys_id>
+        <sys_metadata>8e026e581bfda494ef5b635ee54bcb29</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Doctors Note.When do i have to submit my doctors note</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_8e026e581bfda494ef5b635ee54bcb29</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_8e026e581bfda494ef5b635ee54bcb29">0e026e581bfda494ef5b635ee54bcb2b</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:06:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

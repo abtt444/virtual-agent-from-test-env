@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category>7a6dc0201b8e2c50ef5b635ee54bcb98</category>
+        <channels/>
+        <connect_queue/>
+        <description>Transfer to Human Chat Agent for further Help</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "f9c3d89fe2494c97a0f47880fcf1fedc": {
+          "id": "f9c3d89fe2494c97a0f47880fcf1fedc",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "41130d47a3f6422a9b017b10d256ff83": {
+          "id": "41130d47a3f6422a9b017b10d256ff83",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "5e5aaa9616ae496984c79a2e8e660c5e": {
+          "id": "5e5aaa9616ae496984c79a2e8e660c5e",
+          "stepType": "TextOutput",
+          "name": "Help",
+          "value": {
+            "value": "Help",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "11b32123697748f3bcd91c53eabec3eb",
+          "edgeType": "Edge",
+          "source": "f9c3d89fe2494c97a0f47880fcf1fedc",
+          "target": "5e5aaa9616ae496984c79a2e8e660c5e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "18923238d88c428aa3cab43ca191b690",
+          "edgeType": "Edge",
+          "source": "5e5aaa9616ae496984c79a2e8e660c5e",
+          "target": "41130d47a3f6422a9b017b10d256ff83",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "1041b483ef8b462d840bcd87c5109eb3": {
+      "category": "vaInputs",
+      "id": "1041b483ef8b462d840bcd87c5109eb3",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Help,Accumulated Leave</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Help</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id>1095ea911b71a410ef5b635ee54bcbd7</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>ABRJ203</sys_created_by>
+        <sys_created_on>2021-01-28 03:59:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e75158641b8e2c50ef5b635ee54bcb99</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Help</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_e75158641b8e2c50ef5b635ee54bcb99</sys_update_name>
+        <sys_updated_by>ABRJ203</sys_updated_by>
+        <sys_updated_on>2021-01-28 04:14:14</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=e75158641b8e2c50ef5b635ee54bcb99"/>
+</record_update>

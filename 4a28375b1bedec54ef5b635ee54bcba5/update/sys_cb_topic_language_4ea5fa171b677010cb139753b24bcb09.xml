@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_language">
+    <sys_cb_topic_language action="INSERT_OR_UPDATE">
+        <cb_topic_id display_value="My Contribution - Back on track">caa5ba171b677010cb139753b24bcbee</cb_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[]</nlu_entities>
+        <nlu_intent>My Contribution - Back on track</nlu_intent>
+        <nlu_intent_label>My Contribution - Back on track</nlu_intent_label>
+        <nlu_model>global_4a28375b1bedec54ef5b635ee54bcba5_07c696471b8620d0ef5b635ee54bcbfd</nlu_model>
+        <nlu_model_label>Absa HR Chatbot NLU Model - Entities</nlu_model_label>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cb_topic_language</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-11-06 14:45:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4ea5fa171b677010cb139753b24bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_language_4ea5fa171b677010cb139753b24bcb09</sys_update_name>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-11-06 14:45:35</sys_updated_on>
+    </sys_cb_topic_language>
+</record_update>

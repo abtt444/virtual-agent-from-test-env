@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"What format does the doctor's {{phrase=\"note\"}} need to be in","start":30,"end":33}]</annotation>
+        <entity display_value="Note">e4e466071b0a20d0ef5b635ee54bcbc4</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 09:11:29</sys_created_on>
+        <sys_id>58956e471b0a20d0ef5b635ee54bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Note.What format does the doctor's note need to be in</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_58956e471b0a20d0ef5b635ee54bcb20</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 09:11:29</sys_updated_on>
+        <utterance display_value="What format does the doctor's note need to be in">c0f616871b8620d0ef5b635ee54bcb6e</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

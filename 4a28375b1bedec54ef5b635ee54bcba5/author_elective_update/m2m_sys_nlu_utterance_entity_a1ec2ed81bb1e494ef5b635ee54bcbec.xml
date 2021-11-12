@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[0],"annotatedString":"{{phrase=\"Payout\"}} from pension fund"}]</annotation>
+        <entity display_value="Payout">2426461c1bb9a494ef5b635ee54bcb2f</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 10:24:32</sys_created_on>
+        <sys_id>a1ec2ed81bb1e494ef5b635ee54bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payout.Payout from pension fund</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_a1ec2ed81bb1e494ef5b635ee54bcbec</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 10:24:32</sys_updated_on>
+        <utterance display_value="Payout from pension fund">f87ac6541bf9a494ef5b635ee54bcbfb</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_a1ec2ed81bb1e494ef5b635ee54bcbec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[0],"annotatedString":"{{phrase=\"Payout\"}} from pension fund"}]</annotation><entity display_value="Payout">2426461c1bb9a494ef5b635ee54bcb2f</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-01-15 10:24:32</sys_created_on><sys_id>a1ec2ed81bb1e494ef5b635ee54bcbec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Payout.Payout from pension fund</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_a1ec2ed81bb1e494ef5b635ee54bcbec</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-01-15 10:24:32</sys_updated_on><utterance display_value="Payout from pension fund">f87ac6541bf9a494ef5b635ee54bcbfb</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-1533953857</payload_hash>
+        <record_name>Payout.Payout from pension fund</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 10:24:32</sys_created_on>
+        <sys_id>21ec2ed81bb1e494ef5b635ee54bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177059341150000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 10:24:32</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>29ec2ed8dab1e4945cdd24777608fded</update_guid>
+        <update_guid_history>29ec2ed8dab1e4945cdd24777608fded:-1533953857</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">bae293541b39e494ef5b635ee54bcb13</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 13:10:39</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>1b995f53f6a545d9bf6c998e1930ff29</sys_id>
+        <sys_metadata>a1ec2ed81bb1e494ef5b635ee54bcbec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payout.Payout from pension fund</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_a1ec2ed81bb1e494ef5b635ee54bcbec</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_a1ec2ed81bb1e494ef5b635ee54bcbec">21ec2ed81bb1e494ef5b635ee54bcbee</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:10:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

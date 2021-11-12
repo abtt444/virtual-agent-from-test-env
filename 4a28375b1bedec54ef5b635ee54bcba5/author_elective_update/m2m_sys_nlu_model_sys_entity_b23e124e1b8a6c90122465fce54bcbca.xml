@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_model_sys_entity">
+    <m2m_sys_nlu_model_sys_entity action="DELETE">
+        <active>true</active>
+        <model display_value="ABSA HR test NLU">be3e124e1b8a6c90122465fce54bcbc6</model>
+        <sys_class_name>m2m_sys_nlu_model_sys_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-02 06:05:30</sys_created_on>
+        <sys_entity display_value="DATE">1cdfe1c8777723005d7b3882a91061a1</sys_entity>
+        <sys_id>b23e124e1b8a6c90122465fce54bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ABSA HR test NLU.DATE</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_model_sys_entity_b23e124e1b8a6c90122465fce54bcbca</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-02 06:05:30</sys_updated_on>
+    </m2m_sys_nlu_model_sys_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_model_sys_entity_b23e124e1b8a6c90122465fce54bcbca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_model_sys_entity"><m2m_sys_nlu_model_sys_entity action="INSERT_OR_UPDATE"><active>true</active><model display_value="ABSA HR test NLU">be3e124e1b8a6c90122465fce54bcbc6</model><sys_class_name>m2m_sys_nlu_model_sys_entity</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-02-02 06:05:30</sys_created_on><sys_entity display_value="DATE">1cdfe1c8777723005d7b3882a91061a1</sys_entity><sys_id>b23e124e1b8a6c90122465fce54bcbca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ABSA HR test NLU.DATE</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_model_sys_entity_b23e124e1b8a6c90122465fce54bcbca</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-02-02 06:05:30</sys_updated_on></m2m_sys_nlu_model_sys_entity></record_update>]]></payload>
+        <payload_hash>-1622140670</payload_hash>
+        <record_name>ABSA HR test NLU.DATE</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-02 06:05:30</sys_created_on>
+        <sys_id>3a3e124e1b8a6c90122465fce54bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776158938e0000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-02 06:05:30</sys_updated_on>
+        <type>NLU Model System Entity</type>
+        <update_guid>323e124e998a6c908860cc7514cf02cd</update_guid>
+        <update_guid_history>323e124e998a6c908860cc7514cf02cd:-1622140670</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">539e96ce1b8a6c90122465fce54bcb38</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-02 06:07:11</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_model_sys_entity">m2m_sys_nlu_model_sys_entity</sys_db_object>
+        <sys_id>9719278d7dfb4cca9276d25fefd09369</sys_id>
+        <sys_metadata>b23e124e1b8a6c90122465fce54bcbca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ABSA HR test NLU.DATE</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_model_sys_entity_b23e124e1b8a6c90122465fce54bcbca</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_model_sys_entity_b23e124e1b8a6c90122465fce54bcbca">3a3e124e1b8a6c90122465fce54bcbcd</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-02 06:07:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

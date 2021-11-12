@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[8],"annotatedString":"what is absa doing to protect employees from {{phrase=\"covid\"}}"}]</annotation>
+        <entity display_value="covid-19">8a593f1f1bedec54ef5b635ee54bcb74</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-12 13:40:43</sys_created_on>
+        <sys_id>c60dfb171b212094ef5b635ee54bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>covid-19.what is absa doing to protect employees from covid</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_c60dfb171b212094ef5b635ee54bcb2c</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-12 13:40:43</sys_updated_on>
+        <utterance display_value="what is absa doing to protect employees from covid">21bcb3171b212094ef5b635ee54bcba6</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_c60dfb171b212094ef5b635ee54bcb2c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[8],"annotatedString":"what is absa doing to protect employees from {{phrase=\"covid\"}}"}]</annotation><entity display_value="covid-19">8a593f1f1bedec54ef5b635ee54bcb74</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-12 13:40:43</sys_created_on><sys_id>c60dfb171b212094ef5b635ee54bcb2c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>covid-19.what is absa doing to protect employees from covid</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_c60dfb171b212094ef5b635ee54bcb2c</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-12 13:40:43</sys_updated_on><utterance display_value="what is absa doing to protect employees from covid">21bcb3171b212094ef5b635ee54bcba6</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-460195472</payload_hash>
+        <record_name>covid-19.what is absa doing to protect employees from covid</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-12 13:40:43</sys_created_on>
+        <sys_id>460dfb171b212094ef5b635ee54bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176f6d3c7f90000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-12 13:40:43</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>4e0dfb17a3212094833acb984cfbac2d</update_guid>
+        <update_guid_history>4e0dfb17a3212094833acb984cfbac2d:-460195472</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">fd469b9c1b39e494ef5b635ee54bcb8b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 13:25:19</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>ac2bfc81f92c42ce91e3e6fb49fc7104</sys_id>
+        <sys_metadata>c60dfb171b212094ef5b635ee54bcb2c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>covid-19.what is absa doing to protect employees from covid</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_c60dfb171b212094ef5b635ee54bcb2c</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_c60dfb171b212094ef5b635ee54bcb2c">460dfb171b212094ef5b635ee54bcb2e</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:25:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="My Contribution - Performance Rating">e09cbedf1b677010cb139753b24bcbff</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"3daa06d1585d43678c4e73e9cdb6cc98","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"3daa06d1585d43678c4e73e9cdb6cc98"}],"goals":[{"name":"primary","trigger_id":"3daa06d1585d43678c4e73e9cdb6cc98","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"2295928789624072ae9eb935dfb846c2","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"9d9efe58332742d6a0b5d5c2c2ae1e52","name":"End"},{"type":"ImageOutputPrompt","url":{"type":"String","mode":"script","value":"(function execute() { var url = gs.getProperty(\"glide.servlet.uri\"); return url + \"Capture_1636211725838.PNG\";})()"},"alt_text":{"type":"String","mode":"string","value":""},"id":"87857fab2663411b807265635f436836","name":"My Contribution - Performance Rating","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"2295928789624072ae9eb935dfb846c2","target_node_id":"87857fab2663411b807265635f436836","id":"b2cb070aa541495d912cf8104a7190fc"},{"type":"Edge","source_node_id":"87857fab2663411b807265635f436836","target_node_id":"9d9efe58332742d6a0b5d5c2c2ae1e52","id":"5486a5a5bc3a4869ac93950432a1387f"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"134a3a1f1b677010cb139753b24bcbab","name":"My Contribution - Performance Rating","key_phrases":["My Contribution - Performance Rating"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":true,"autopilot_topic":false,"design_categories":[{"name":null,"visible":false,"sysId":"8661ae591b31a410ef5b635ee54bcbf5"}],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>134a3a1f1b677010cb139753b24bcbab</design_topic_id>
+        <name>My Contribution - Performance Rating</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-11-06 15:15:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>609cfedf1b677010cb139753b24bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_609cfedf1b677010cb139753b24bcb03</sys_update_name>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-11-06 15:15:48</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[10,11],"annotatedString":"Hi I never get payed for the days I took {{phrase=\"sick leave\"}}"}]</annotation>
+        <entity display_value="Sick Leave Days">bff8a1881b792494ef5b635ee54bcba8</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 10:51:46</sys_created_on>
+        <sys_id>fa89a50c1b792494ef5b635ee54bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sick Leave Days.Hi I never get payed for the days I took sick leave </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_fa89a50c1b792494ef5b635ee54bcb85</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 10:51:46</sys_updated_on>
+        <utterance display_value="Hi I never get payed for the days I took sick leave ">9d89edc81b792494ef5b635ee54bcbc1</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_fa89a50c1b792494ef5b635ee54bcb85</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[10,11],"annotatedString":"Hi I never get payed for the days I took {{phrase=\"sick leave\"}}"}]</annotation><entity display_value="Sick Leave Days">bff8a1881b792494ef5b635ee54bcba8</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-14 10:51:46</sys_created_on><sys_id>fa89a50c1b792494ef5b635ee54bcb85</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sick Leave Days.Hi I never get payed for the days I took sick leave </sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_fa89a50c1b792494ef5b635ee54bcb85</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-14 10:51:46</sys_updated_on><utterance display_value="Hi I never get payed for the days I took sick leave ">9d89edc81b792494ef5b635ee54bcbc1</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>2124782553</payload_hash>
+        <record_name>Sick Leave Days.Hi I never get payed for the days I took sick leave </record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 10:51:46</sys_created_on>
+        <sys_id>7a89a50c1b792494ef5b635ee54bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1770085d5740000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 10:51:46</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>7289a50c75792494c9e46235787caf87</update_guid>
+        <update_guid_history>7289a50c75792494c9e46235787caf87:2124782553</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">f9b9a50c1b792494ef5b635ee54bcbda</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 10:52:32</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>a9478b8e1f224bd9861eae0ee4d977e1</sys_id>
+        <sys_metadata>fa89a50c1b792494ef5b635ee54bcb85</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sick Leave Days.Hi I never get payed for the days I took sick leave </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_fa89a50c1b792494ef5b635ee54bcb85</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_fa89a50c1b792494ef5b635ee54bcb85">7a89a50c1b792494ef5b635ee54bcb87</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 10:52:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

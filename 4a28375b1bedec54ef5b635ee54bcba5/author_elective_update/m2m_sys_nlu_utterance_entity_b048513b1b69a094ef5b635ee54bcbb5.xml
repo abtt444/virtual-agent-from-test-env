@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[0],"annotatedString":"{{phrase=\"sars-cov-2\"}} in the absa workplace"}]</annotation>
+        <entity display_value="covid-19">8a593f1f1bedec54ef5b635ee54bcb74</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-13 14:57:48</sys_created_on>
+        <sys_id>b048513b1b69a094ef5b635ee54bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>covid-19.sars-cov-2 in the absa workplace</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_b048513b1b69a094ef5b635ee54bcbb5</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-13 14:57:48</sys_updated_on>
+        <utterance display_value="sars-cov-2 in the absa workplace">9048513b1b69a094ef5b635ee54bcbb2</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_b048513b1b69a094ef5b635ee54bcbb5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[0],"annotatedString":"{{phrase=\"sars-cov-2\"}} in the absa workplace"}]</annotation><entity display_value="covid-19">8a593f1f1bedec54ef5b635ee54bcb74</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-13 14:57:48</sys_created_on><sys_id>b048513b1b69a094ef5b635ee54bcbb5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>covid-19.sars-cov-2 in the absa workplace</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_b048513b1b69a094ef5b635ee54bcbb5</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-13 14:57:48</sys_updated_on><utterance display_value="sars-cov-2 in the absa workplace">9048513b1b69a094ef5b635ee54bcbb2</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-1409187185</payload_hash>
+        <record_name>covid-19.sars-cov-2 in the absa workplace</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-13 14:57:48</sys_created_on>
+        <sys_id>3048513b1b69a094ef5b635ee54bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176fc40b7170000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-13 14:57:48</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>3848513bdf69a09436f38c5f88e673b6</update_guid>
+        <update_guid_history>3848513bdf69a09436f38c5f88e673b6:-1409187185</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">de45dfd81b39e494ef5b635ee54bcb06</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 13:20:59</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>084ec068d57c448d81ecb75a00936319</sys_id>
+        <sys_metadata>b048513b1b69a094ef5b635ee54bcbb5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>covid-19.sars-cov-2 in the absa workplace</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_b048513b1b69a094ef5b635ee54bcbb5</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_b048513b1b69a094ef5b635ee54bcbb5">3048513b1b69a094ef5b635ee54bcbb7</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:20:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

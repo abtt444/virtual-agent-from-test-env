@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <css_variables>$brand-primary: #81878e;&#13;
+$body-bg: #ffffff;&#13;
+$state-success-text: #71E279;&#13;
+$sp-homepage-bg: #fff;&#13;
+$sp-navbar-divider-color: #455464;&#13;
+$text-color: #000000;&#13;
+$sp-logo-margin-y: 2px;&#13;
+$navbar-inverse-link-hover-color: #f95050;&#13;
+$panel-bg: #fff;&#13;
+$brand-success: #71E279;&#13;
+$navbar-inverse-bg: #ffffff;&#13;
+$brand-warning: #FE8A30;&#13;
+$brand-danger: #9D0010;&#13;
+$sp-tagline-color: #ffffff;&#13;
+$navbar-inverse-link-color: #485563;&#13;
+$brand-info: #5bc0de;&#13;
+$sp-logo-margin-x: 15px;&#13;
+$btn-default-bg: #81878e;&#13;
+$text-muted: #979797;&#13;
+&#13;
+</css_variables>
+        <default>false</default>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="copy_of_copy_of_people_portal_landing_1">c73683ebdb614cd41694e16c0b96198f</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sqanda_knowledge_base display_value="MyContribution">f197987d1baa2410ef5b635ee54bcba6</sqanda_knowledge_base>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>ABRJ203</sys_created_by>
+        <sys_created_on>2021-02-25 22:14:07</sys_created_on>
+        <sys_id>296590791baa2410ef5b635ee54bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyContribution</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sp_portal_296590791baa2410ef5b635ee54bcbab</sys_update_name>
+        <sys_updated_by>ABRJ203</sys_updated_by>
+        <sys_updated_on>2021-02-25 22:14:07</sys_updated_on>
+        <theme/>
+        <title>MyContribution</title>
+        <ts_index_group/>
+        <url_suffix>mycontribution</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="DELETE" query="documentkey=296590791baa2410ef5b635ee54bcbab"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>sp_portal_296590791baa2410ef5b635ee54bcbab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables>$brand-primary: #81878e;&#13;
+$body-bg: #ffffff;&#13;
+$state-success-text: #71E279;&#13;
+$sp-homepage-bg: #fff;&#13;
+$sp-navbar-divider-color: #455464;&#13;
+$text-color: #000000;&#13;
+$sp-logo-margin-y: 2px;&#13;
+$navbar-inverse-link-hover-color: #f95050;&#13;
+$panel-bg: #fff;&#13;
+$brand-success: #71E279;&#13;
+$navbar-inverse-bg: #ffffff;&#13;
+$brand-warning: #FE8A30;&#13;
+$brand-danger: #9D0010;&#13;
+$sp-tagline-color: #ffffff;&#13;
+$navbar-inverse-link-color: #485563;&#13;
+$brand-info: #5bc0de;&#13;
+$sp-logo-margin-x: 15px;&#13;
+$btn-default-bg: #81878e;&#13;
+$text-muted: #979797;&#13;
+&#13;
+</css_variables><default>false</default><hide_portal_name>false</hide_portal_name><homepage display_value="copy_of_copy_of_people_portal_landing_1">c73683ebdb614cd41694e16c0b96198f</homepage><icon/><kb_knowledge_base/><kb_knowledge_page/><login_page/><logo/><notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page><quick_start_config/><sc_catalog/><sc_catalog_page/><sc_category_page/><sp_chat_queue/><sp_rectangle_menu/><sqanda_knowledge_base display_value="MyContribution">f197987d1baa2410ef5b635ee54bcba6</sqanda_knowledge_base><sys_class_name>sp_portal</sys_class_name><sys_created_by>ABRJ203</sys_created_by><sys_created_on>2021-02-25 22:14:07</sys_created_on><sys_id>296590791baa2410ef5b635ee54bcbab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MyContribution</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sp_portal_296590791baa2410ef5b635ee54bcbab</sys_update_name><sys_updated_by>ABRJ203</sys_updated_by><sys_updated_on>2021-02-25 22:14:07</sys_updated_on><theme/><title>MyContribution</title><ts_index_group/><url_suffix>mycontribution</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=296590791baa2410ef5b635ee54bcbab"/></record_update>]]></payload>
+        <payload_hash>710383186</payload_hash>
+        <record_name>MyContribution</record_name>
+        <reverted_from/>
+        <source>d3b88dbcdb742740f8b6ee805b9619ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ABRJ203</sys_created_by>
+        <sys_created_on>2021-02-25 22:14:07</sys_created_on>
+        <sys_id>6778d0fd1baa2410ef5b635ee54bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177db41a02a0000001</sys_recorded_at>
+        <sys_updated_by>ABRJ203</sys_updated_by>
+        <sys_updated_on>2021-02-25 22:14:07</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>6f78d0fd9daa24107e39a1d4521798c6</update_guid>
+        <update_guid_history>6f78d0fd9daa24107e39a1d4521798c6:710383186</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4e0994311bea2410ef5b635ee54bcb70</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ABRJ203</sys_created_by>
+        <sys_created_on>2021-02-25 22:16:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>48fe11e449ca4211ad9ad6b9e921fa29</sys_id>
+        <sys_metadata>296590791baa2410ef5b635ee54bcbab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyContribution</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sp_portal_296590791baa2410ef5b635ee54bcbab</sys_update_name>
+        <sys_update_version display_value="sp_portal_296590791baa2410ef5b635ee54bcbab">6778d0fd1baa2410ef5b635ee54bcbc7</sys_update_version>
+        <sys_updated_by>ABRJ203</sys_updated_by>
+        <sys_updated_on>2021-02-25 22:16:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

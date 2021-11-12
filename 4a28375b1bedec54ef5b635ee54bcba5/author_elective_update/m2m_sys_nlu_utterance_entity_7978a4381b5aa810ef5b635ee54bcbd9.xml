@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[2],"annotatedString":"how many {{phrase=\"days\"}} do I get for sick leave"}]</annotation>
+        <entity display_value="Day">9b39aa4f1b0a20d0ef5b635ee54bcb3d</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-10 10:34:17</sys_created_on>
+        <sys_id>7978a4381b5aa810ef5b635ee54bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Day.how many days do I get for sick leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_7978a4381b5aa810ef5b635ee54bcbd9</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:34:17</sys_updated_on>
+        <utterance display_value="how many days do I get for sick leave">c87828381b5aa810ef5b635ee54bcb47</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_7978a4381b5aa810ef5b635ee54bcbd9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[2],"annotatedString":"how many {{phrase=\"days\"}} do I get for sick leave"}]</annotation><entity display_value="Day">9b39aa4f1b0a20d0ef5b635ee54bcb3d</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-02-10 10:34:17</sys_created_on><sys_id>7978a4381b5aa810ef5b635ee54bcbd9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Day.how many days do I get for sick leave</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_7978a4381b5aa810ef5b635ee54bcbd9</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-02-10 10:34:17</sys_updated_on><utterance display_value="how many days do I get for sick leave">c87828381b5aa810ef5b635ee54bcb47</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>752506239</payload_hash>
+        <record_name>Day.how many days do I get for sick leave</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-10 10:34:17</sys_created_on>
+        <sys_id>3978a4381b5aa810ef5b635ee54bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1778b8185280000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:34:17</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>3178a438b65aa810d7612e5edb5872db</update_guid>
+        <update_guid_history>3178a438b65aa810d7612e5edb5872db:752506239</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9d39a0b81b5aa810ef5b635ee54bcbce</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-10 10:37:31</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>28b6356e3cb047e4b92f019c12cb38a4</sys_id>
+        <sys_metadata>7978a4381b5aa810ef5b635ee54bcbd9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Day.how many days do I get for sick leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_7978a4381b5aa810ef5b635ee54bcbd9</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_7978a4381b5aa810ef5b635ee54bcbd9">3978a4381b5aa810ef5b635ee54bcbdb</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:37:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

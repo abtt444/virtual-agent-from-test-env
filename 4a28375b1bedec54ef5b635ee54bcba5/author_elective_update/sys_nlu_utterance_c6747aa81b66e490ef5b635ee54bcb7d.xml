@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="MyContribution">ddf6d6871b8620d0ef5b635ee54bcb15</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-22 12:23:10</sys_created_on>
+        <sys_id>c6747aa81b66e490ef5b635ee54bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I am looking for my self-evaluation template but it's no longer in my inbox on Workday</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_c6747aa81b66e490ef5b635ee54bcb7d</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-22 12:23:10</sys_updated_on>
+        <utterance>I am looking for my self-evaluation template but it's no longer in my inbox on Workday</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_c6747aa81b66e490ef5b635ee54bcb7d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="MyContribution">ddf6d6871b8620d0ef5b635ee54bcb15</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-22 12:23:10</sys_created_on>
+        <sys_id>c6747aa81b66e490ef5b635ee54bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I am looking for my self-evaluation template but it's no longer in my inbox on Workday</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_c6747aa81b66e490ef5b635ee54bcb7d</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-22 12:23:10</sys_updated_on>
+        <utterance>I am looking for my self-evaluation template but it's no longer in my inbox on Workday</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>1172756920</payload_hash>
+        <record_name>I am looking for my self-evaluation template but it's no longer in my inbox on Workday</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:19:01</sys_created_on>
+        <sys_id>675c57d3871f3050c386fd99cebb358f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6511d8b0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:19:01</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>a35c57d3e21f30506f4ba74c48104e8f</update_guid>
+        <update_guid_history>a35c57d3e21f30506f4ba74c48104e8f:0,1df817dfc31f74508d5c8949540518bd:-1997476345,b412f094539f3010e3973ce69902949d:0,bc3041e7454b7810d0b6dfa739646d76:-1976210172,459d70c38207b41081abbdd8bd84ea66:0,d257e48b5743b410ddc663ad9e0d9dda:1957124328,eceb04c7d38f7410d137e5e765f22bd4:0,4588880b4c4f7410f97eeab3f384517c:-1244650006,8a747aa88066e490346a467a2303d07e:1260928317</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-11-06 14:27:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>5b568ee99d5e4fb08721663174b0f840</sys_id>
+        <sys_metadata>c6747aa81b66e490ef5b635ee54bcb7d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I am looking for my self-evaluation template but it's no longer in my inbox on Workday</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_c6747aa81b66e490ef5b635ee54bcb7d</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_c6747aa81b66e490ef5b635ee54bcb7d">675c57d3871f3050c386fd99cebb358f</sys_update_version>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-11-06 14:27:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

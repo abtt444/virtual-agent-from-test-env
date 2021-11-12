@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Travel Claims">bf14eedd1b31a410ef5b635ee54bcb72</cb_topic_id>
+        <channels/>
+        <definition>{"id":"bf14eedd1b31a410ef5b635ee54bcb72","name":"Travel Claims","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Travel Claims","applicability":"true","category":"","key_phrases":["Travel Claims"],"variables":[{"name":"__segment_trigger_256e971c9cdf45c88699e16d7408c8cb_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_25129bc82816a41007d35b8b6c57eb8f","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_11f47ab623bf488692c605950098d9e0","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_e1129bc8b516a410d7a9664c6607368f","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_a1129bc8d616a4105ef0869d17f5a28f","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_OutputPrompt_3fd7be4cab18496a881654e5bac97dae","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_3a08b577b9d9446e8ec5afc7353313d4","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_256e971c9cdf45c88699e16d7408c8cb_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_25129bc82816a41007d35b8b6c57eb8f\");vaInputs.initialize(\"__silent_Decision_RootDecision_a1129bc8d616a4105ef0869d17f5a28f\");vaInputs.initialize(\"__silent_StartGoal_11f47ab623bf488692c605950098d9e0\");vaInputs.initialize(\"__silent_OutputPrompt_3fd7be4cab18496a881654e5bac97dae\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_e1129bc8b516a410d7a9664c6607368f\");vaInputs.initialize(\"__silent_TerminateGoal_3a08b577b9d9446e8ec5afc7353313d4\");null;","fields":[{"name":"__silent_Decision_RootDecision_a1129bc8d616a4105ef0869d17f5a28f","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_a1129bc8d616a4105ef0869d17f5a28f\";vaInputs.__silent_Decision_RootDecision_a1129bc8d616a4105ef0869d17f5a28f=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_a1129bc8d616a4105ef0869d17f5a28f\";vaInputs.RootDecisionBranch_25129bc82816a41007d35b8b6c57eb8f=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_e1129bc8b516a410d7a9664c6607368f","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_a1129bc8d616a4105ef0869d17f5a28f\" &amp;&amp; ((vaInputs.RootDecisionBranch_25129bc82816a41007d35b8b6c57eb8f.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_e1129bc8b516a410d7a9664c6607368f___RootDecisionBranch_e1129bc8b516a410d7a9664c6607368f\";vaInputs.__silent_Branch_RootDecisionBranch_e1129bc8b516a410d7a9664c6607368f=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_e1129bc8b516a410d7a9664c6607368f___RootDecisionBranch_e1129bc8b516a410d7a9664c6607368f\";null;"},{"name":"__silent_StartGoal_11f47ab623bf488692c605950098d9e0","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_e1129bc8b516a410d7a9664c6607368f___RootDecisionBranch_e1129bc8b516a410d7a9664c6607368f\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___11f47ab623bf488692c605950098d9e0\";vaInputs.__silent_StartGoal_11f47ab623bf488692c605950098d9e0=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___11f47ab623bf488692c605950098d9e0\";null;"},{"name":"__silent_OutputPrompt_3fd7be4cab18496a881654e5bac97dae","applicable":"vaVars.previous_graph_node==\"Start___11f47ab623bf488692c605950098d9e0\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Travel Claims___3fd7be4cab18496a881654e5bac97dae\";vaInputs.__silent_OutputPrompt_3fd7be4cab18496a881654e5bac97dae=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Travel Claims___3fd7be4cab18496a881654e5bac97dae\";(function execute() {return gs.getMessageLang(\"Travel Claims Response\", vaContext.getRequesterLang());})();"},{"name":"__silent_TerminateGoal_3a08b577b9d9446e8ec5afc7353313d4","applicable":"vaVars.previous_graph_node==\"Travel Claims___3fd7be4cab18496a881654e5bac97dae\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___3a08b577b9d9446e8ec5afc7353313d4\";vaInputs.__silent_TerminateGoal_3a08b577b9d9446e8ec5afc7353313d4=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___3a08b577b9d9446e8ec5afc7353313d4\";vaVars.__segment_trigger_256e971c9cdf45c88699e16d7408c8cb_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":true,"design_category":"8121ae591b31a410ef5b635ee54bcbec","nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"score":0.0,"visible":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Travel Claims","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category>8121ae591b31a410ef5b635ee54bcbec</design_category>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Travel Claims</key_phrases>
+        <last_published_on>2021-02-08 14:59:55</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>TRFL KLM</metaphone>
+        <name>Travel Claims</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:20:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a13466111b71a410ef5b635ee54bcb6d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Travel Claims</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_a13466111b71a410ef5b635ee54bcb6d</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 14:59:55</sys_updated_on>
+        <title>Travel Claims</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=a13466111b71a410ef5b635ee54bcb6d"/>
+</record_update>

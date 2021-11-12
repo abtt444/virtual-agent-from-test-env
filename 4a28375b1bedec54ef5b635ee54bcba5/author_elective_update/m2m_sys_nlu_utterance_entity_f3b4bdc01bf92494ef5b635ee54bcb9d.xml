@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[1,2],"annotatedString":"What's {{phrase=\"relocation leave\"}}"}]</annotation>
+        <entity display_value="Relocation Leave">6b74fd801bf92494ef5b635ee54bcb61</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-14 11:40:43</sys_created_on>
+        <sys_id>f3b4bdc01bf92494ef5b635ee54bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation Leave.What's relocation leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_f3b4bdc01bf92494ef5b635ee54bcb9d</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-14 11:40:43</sys_updated_on>
+        <utterance display_value="What's relocation leave">06b4f5c01bf92494ef5b635ee54bcb5b</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_f3b4bdc01bf92494ef5b635ee54bcb9d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[1,2],"annotatedString":"What's {{phrase=\"relocation leave\"}}"}]</annotation><entity display_value="Relocation Leave">6b74fd801bf92494ef5b635ee54bcb61</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-01-14 11:40:43</sys_created_on><sys_id>f3b4bdc01bf92494ef5b635ee54bcb9d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Relocation Leave.What's relocation leave</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_f3b4bdc01bf92494ef5b635ee54bcb9d</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-01-14 11:40:43</sys_updated_on><utterance display_value="What's relocation leave">06b4f5c01bf92494ef5b635ee54bcb5b</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>1221604377</payload_hash>
+        <record_name>Relocation Leave.What's relocation leave</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-14 11:40:43</sys_created_on>
+        <sys_id>73b4bdc01bf92494ef5b635ee54bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17700b2a5920000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-14 11:40:43</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>7bb4bdc0cff92494bc7b6fd4b1139b9e</update_guid>
+        <update_guid_history>7bb4bdc0cff92494bc7b6fd4b1139b9e:1221604377</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">fb045b181b39e494ef5b635ee54bcb3d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 13:15:37</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>05123d65daf34f70ac3f381b7a985999</sys_id>
+        <sys_metadata>f3b4bdc01bf92494ef5b635ee54bcb9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation Leave.What's relocation leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_f3b4bdc01bf92494ef5b635ee54bcb9d</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_f3b4bdc01bf92494ef5b635ee54bcb9d">73b4bdc01bf92494ef5b635ee54bcb9f</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:15:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

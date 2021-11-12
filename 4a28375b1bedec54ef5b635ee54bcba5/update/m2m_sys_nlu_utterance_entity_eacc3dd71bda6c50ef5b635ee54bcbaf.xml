@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"{{phrase=\"Hand sanitiser\"}} stations?","start":0,"end":13}]</annotation>
+        <entity display_value="Hand Sanitiser">4abc39d71bda6c50ef5b635ee54bcba7</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-18 11:07:31</sys_created_on>
+        <sys_id>eacc3dd71bda6c50ef5b635ee54bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hand Sanitiser.Hand sanitiser stations?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_eacc3dd71bda6c50ef5b635ee54bcbaf</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-18 11:07:31</sys_updated_on>
+        <utterance display_value="Hand sanitiser stations?">a8cc3dd71bda6c50ef5b635ee54bcbac</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

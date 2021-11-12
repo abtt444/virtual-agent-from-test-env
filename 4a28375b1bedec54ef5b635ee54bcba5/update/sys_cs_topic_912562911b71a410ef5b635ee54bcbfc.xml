@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Transferring Pension">3b05a2511b71a410ef5b635ee54bcb97</cb_topic_id>
+        <channels/>
+        <definition>{"id":"3b05a2511b71a410ef5b635ee54bcb97","name":"Transferring Pension","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Transferring Pension","applicability":"true","category":"","key_phrases":["Transferring Pension"],"variables":[{"name":"__segment_trigger_947263ac3c3447aeba8c4109b6dc2b25_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_1124d7ccfe16a41066aa834f3ef37571","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_832fab4f3a194a96a747da83821c8d1e","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_467e4265884d45abbe7df52b489385c0","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_OutputPrompt_685962a47015454fb581d068e1006a03","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_9d24d7cc1916a4108aed659c6a493670","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_dd24d7cc8e16a410d6a229f46975b170","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_947263ac3c3447aeba8c4109b6dc2b25_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_1124d7ccfe16a41066aa834f3ef37571\");vaInputs.initialize(\"__silent_Decision_RootDecision_9d24d7cc1916a4108aed659c6a493670\");vaInputs.initialize(\"__silent_StartGoal_832fab4f3a194a96a747da83821c8d1e\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_dd24d7cc8e16a410d6a229f46975b170\");vaInputs.initialize(\"__silent_TerminateGoal_467e4265884d45abbe7df52b489385c0\");vaInputs.initialize(\"__silent_OutputPrompt_685962a47015454fb581d068e1006a03\");null;","fields":[{"name":"__silent_Decision_RootDecision_9d24d7cc1916a4108aed659c6a493670","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_9d24d7cc1916a4108aed659c6a493670\";vaInputs.__silent_Decision_RootDecision_9d24d7cc1916a4108aed659c6a493670=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_9d24d7cc1916a4108aed659c6a493670\";vaInputs.RootDecisionBranch_1124d7ccfe16a41066aa834f3ef37571=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_dd24d7cc8e16a410d6a229f46975b170","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_9d24d7cc1916a4108aed659c6a493670\" &amp;&amp; ((vaInputs.RootDecisionBranch_1124d7ccfe16a41066aa834f3ef37571.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_dd24d7cc8e16a410d6a229f46975b170___RootDecisionBranch_dd24d7cc8e16a410d6a229f46975b170\";vaInputs.__silent_Branch_RootDecisionBranch_dd24d7cc8e16a410d6a229f46975b170=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_dd24d7cc8e16a410d6a229f46975b170___RootDecisionBranch_dd24d7cc8e16a410d6a229f46975b170\";null;"},{"name":"__silent_StartGoal_832fab4f3a194a96a747da83821c8d1e","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_dd24d7cc8e16a410d6a229f46975b170___RootDecisionBranch_dd24d7cc8e16a410d6a229f46975b170\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___832fab4f3a194a96a747da83821c8d1e\";vaInputs.__silent_StartGoal_832fab4f3a194a96a747da83821c8d1e=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___832fab4f3a194a96a747da83821c8d1e\";null;"},{"name":"__silent_OutputPrompt_685962a47015454fb581d068e1006a03","applicable":"vaVars.previous_graph_node==\"Start___832fab4f3a194a96a747da83821c8d1e\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Transferring Pension ___685962a47015454fb581d068e1006a03\";vaInputs.__silent_OutputPrompt_685962a47015454fb581d068e1006a03=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Transferring Pension ___685962a47015454fb581d068e1006a03\";(function execute() {return gs.getMessageLang(\"Response for Transferring Pension\", vaContext.getRequesterLang());})();"},{"name":"__silent_TerminateGoal_467e4265884d45abbe7df52b489385c0","applicable":"vaVars.previous_graph_node==\"Transferring Pension ___685962a47015454fb581d068e1006a03\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___467e4265884d45abbe7df52b489385c0\";vaInputs.__silent_TerminateGoal_467e4265884d45abbe7df52b489385c0=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___467e4265884d45abbe7df52b489385c0\";vaVars.__segment_trigger_947263ac3c3447aeba8c4109b6dc2b25_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":false,"design_category":"d801a2591b31a410ef5b635ee54bcb52","nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"score":0.0,"visible":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Transferring Pension","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category>d801a2591b31a410ef5b635ee54bcb52</design_category>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Transferring Pension</key_phrases>
+        <last_published_on>2021-02-08 15:08:55</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>TRNS PNSN</metaphone>
+        <name>Transferring Pension</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-18 12:24:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>912562911b71a410ef5b635ee54bcbfc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Transferring Pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_912562911b71a410ef5b635ee54bcbfc</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:08:55</sys_updated_on>
+        <title>Transferring Pension</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=912562911b71a410ef5b635ee54bcbfc"/>
+</record_update>

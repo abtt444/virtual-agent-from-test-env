@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[3],"annotatedString":"where do i {{phrase=\"apply\"}} for leave"}]</annotation>
+        <entity display_value="Application">b8b2eacf1bc620d0ef5b635ee54bcbe5</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 10:23:35</sys_created_on>
+        <sys_id>e416fa4b1b8a20d0ef5b635ee54bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application.where do i apply for leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_e416fa4b1b8a20d0ef5b635ee54bcb60</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:23:35</sys_updated_on>
+        <utterance display_value="where do i apply for leave">e0f656871b8620d0ef5b635ee54bcb84</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_e416fa4b1b8a20d0ef5b635ee54bcb60</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[3],"annotatedString":"where do i {{phrase=\"apply\"}} for leave"}]</annotation><entity display_value="Application">b8b2eacf1bc620d0ef5b635ee54bcbe5</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-02-05 10:23:35</sys_created_on><sys_id>e416fa4b1b8a20d0ef5b635ee54bcb60</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Application.where do i apply for leave</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_e416fa4b1b8a20d0ef5b635ee54bcb60</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-02-05 10:23:35</sys_updated_on><utterance display_value="where do i apply for leave">e0f656871b8620d0ef5b635ee54bcb84</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>1683529851</payload_hash>
+        <record_name>Application.where do i apply for leave</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 10:23:35</sys_created_on>
+        <sys_id>a416fa4b1b8a20d0ef5b635ee54bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17771b7eed10000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:23:35</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>ac16fa4bb78a20d0769059e85931e561</update_guid>
+        <update_guid_history>ac16fa4bb78a20d0769059e85931e561:1683529851</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d8501a481bd6a410122465fce54bcb9f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-08 10:12:34</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>eb509dd09fe34476a6fa10e092705384</sys_id>
+        <sys_metadata>e416fa4b1b8a20d0ef5b635ee54bcb60</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application.where do i apply for leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_e416fa4b1b8a20d0ef5b635ee54bcb60</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_e416fa4b1b8a20d0ef5b635ee54bcb60">a416fa4b1b8a20d0ef5b635ee54bcb62</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:12:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

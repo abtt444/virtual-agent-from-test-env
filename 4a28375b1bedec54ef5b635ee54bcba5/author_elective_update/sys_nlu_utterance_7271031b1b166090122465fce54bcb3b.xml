@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Capture Annual Leave">64f656871b8620d0ef5b635ee54bcb67</intent>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 16:07:37</sys_created_on>
+        <sys_id>7271031b1b166090122465fce54bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How many Annual leave days do I qualify for</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_7271031b1b166090122465fce54bcb3b</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 16:07:37</sys_updated_on>
+        <utterance>How many Annual leave days do I qualify for</utterance>
+    </sys_nlu_utterance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>sys_nlu_utterance_7271031b1b166090122465fce54bcb3b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance"><sys_nlu_utterance action="INSERT_OR_UPDATE"><intent display_value="Capture Annual Leave">64f656871b8620d0ef5b635ee54bcb67</intent><sys_class_name>sys_nlu_utterance</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-02-18 16:07:37</sys_created_on><sys_id>7271031b1b166090122465fce54bcb3b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>How many Annual leave days do I qualify for</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_nlu_utterance_7271031b1b166090122465fce54bcb3b</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-02-18 16:07:37</sys_updated_on><utterance>How many Annual leave days do I qualify for</utterance></sys_nlu_utterance></record_update>]]></payload>
+        <payload_hash>109379261</payload_hash>
+        <record_name>How many Annual leave days do I qualify for</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 16:07:37</sys_created_on>
+        <sys_id>3a71031b1b166090122465fce54bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177b5e593fc0000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 16:07:37</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>3271031b951660906bd6d0e1994aa03c</update_guid>
+        <update_guid_history>3271031b951660906bd6d0e1994aa03c:109379261</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-19 12:38:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>19b4984f56f048608429b06fc8fa0400</sys_id>
+        <sys_metadata>7271031b1b166090122465fce54bcb3b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How many Annual leave days do I qualify for</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_7271031b1b166090122465fce54bcb3b</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_7271031b1b166090122465fce54bcb3b">3a71031b1b166090122465fce54bcb3c</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-19 12:38:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

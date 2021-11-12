@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:4a55839f1ba77010cb139753b24bcb93:node:8f893b16d7124bc392ca93df45ead4f0:field:message</key>
+        <language>en</language>
+        <message>Access workday
+Under application select the MyContribution Reporting Dashboard worklet
+This dashboard should be used to view the year end performance review process for your organization. You will only be able to use these reports to view employees you support</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-11-06 15:57:25</sys_created_on>
+        <sys_id>46168f9f1ba77010cb139753b24bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:4a55839f1ba77010cb139753b24bcb93:node:8f893b16d7124bc392ca93df45ead4f0:field:message</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_46168f9f1ba77010cb139753b24bcb4b</sys_update_name>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-11-06 15:57:25</sys_updated_on>
+    </sys_ui_message>
+</record_update>

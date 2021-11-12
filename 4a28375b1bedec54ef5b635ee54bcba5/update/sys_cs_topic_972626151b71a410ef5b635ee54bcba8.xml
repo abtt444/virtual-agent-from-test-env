@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="IRP5 Certificate">f916a6d11b71a410ef5b635ee54bcb18</cb_topic_id>
+        <channels/>
+        <definition>{"id":"f916a6d11b71a410ef5b635ee54bcb18","name":"IRP5 Certificate","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"IRP5 Certificate","applicability":"true","category":"","key_phrases":["IRP5 Certificate"],"variables":[{"name":"__segment_trigger_234f54511e6b4f14a91d54fc04722022_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_3ab2534c0a16a4100e37fddef4fcddb7","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_OutputPrompt_68939791d86c4e61a43e891f448e1432","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_b6b2534c3c16a4106162551888cf66b7","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_06b9800149ff422cadb34b9ad83542fa","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_661081b5ab484178bb18bcdaa938132f","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_f6b2534c5f16a41023706cdf6042c6b7","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_234f54511e6b4f14a91d54fc04722022_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_3ab2534c0a16a4100e37fddef4fcddb7\");vaInputs.initialize(\"__silent_OutputPrompt_68939791d86c4e61a43e891f448e1432\");vaInputs.initialize(\"__silent_StartGoal_661081b5ab484178bb18bcdaa938132f\");vaInputs.initialize(\"__silent_Decision_RootDecision_b6b2534c3c16a4106162551888cf66b7\");vaInputs.initialize(\"__silent_TerminateGoal_06b9800149ff422cadb34b9ad83542fa\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_f6b2534c5f16a41023706cdf6042c6b7\");null;","fields":[{"name":"__silent_Decision_RootDecision_b6b2534c3c16a4106162551888cf66b7","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_b6b2534c3c16a4106162551888cf66b7\";vaInputs.__silent_Decision_RootDecision_b6b2534c3c16a4106162551888cf66b7=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_b6b2534c3c16a4106162551888cf66b7\";vaInputs.RootDecisionBranch_3ab2534c0a16a4100e37fddef4fcddb7=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_f6b2534c5f16a41023706cdf6042c6b7","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_b6b2534c3c16a4106162551888cf66b7\" &amp;&amp; ((vaInputs.RootDecisionBranch_3ab2534c0a16a4100e37fddef4fcddb7.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_f6b2534c5f16a41023706cdf6042c6b7___RootDecisionBranch_f6b2534c5f16a41023706cdf6042c6b7\";vaInputs.__silent_Branch_RootDecisionBranch_f6b2534c5f16a41023706cdf6042c6b7=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_f6b2534c5f16a41023706cdf6042c6b7___RootDecisionBranch_f6b2534c5f16a41023706cdf6042c6b7\";null;"},{"name":"__silent_StartGoal_661081b5ab484178bb18bcdaa938132f","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_f6b2534c5f16a41023706cdf6042c6b7___RootDecisionBranch_f6b2534c5f16a41023706cdf6042c6b7\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___661081b5ab484178bb18bcdaa938132f\";vaInputs.__silent_StartGoal_661081b5ab484178bb18bcdaa938132f=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___661081b5ab484178bb18bcdaa938132f\";null;"},{"name":"__silent_OutputPrompt_68939791d86c4e61a43e891f448e1432","applicable":"vaVars.previous_graph_node==\"Start___661081b5ab484178bb18bcdaa938132f\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"IRP5 Certificate___68939791d86c4e61a43e891f448e1432\";vaInputs.__silent_OutputPrompt_68939791d86c4e61a43e891f448e1432=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"IRP5 Certificate___68939791d86c4e61a43e891f448e1432\";(function execute() {return gs.getMessageLang(\"IRP5 Certification Response\", vaContext.getRequesterLang());})();"},{"name":"__silent_TerminateGoal_06b9800149ff422cadb34b9ad83542fa","applicable":"vaVars.previous_graph_node==\"IRP5 Certificate___68939791d86c4e61a43e891f448e1432\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___06b9800149ff422cadb34b9ad83542fa\";vaInputs.__silent_TerminateGoal_06b9800149ff422cadb34b9ad83542fa=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___06b9800149ff422cadb34b9ad83542fa\";vaVars.__segment_trigger_234f54511e6b4f14a91d54fc04722022_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":true,"design_category":"b531aa591b31a410ef5b635ee54bcb6b","nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"score":0.0,"visible":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"IRP5 Certificate","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category>b531aa591b31a410ef5b635ee54bcb6b</design_category>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>IRP5 Certificate</key_phrases>
+        <last_published_on>2021-02-08 15:02:44</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>SRTF ARP</metaphone>
+        <name>IRP5 Certificate</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:29:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>972626151b71a410ef5b635ee54bcba8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>IRP5 Certificate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_972626151b71a410ef5b635ee54bcba8</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:02:44</sys_updated_on>
+        <title>IRP5 Certificate</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=972626151b71a410ef5b635ee54bcba8"/>
+</record_update>

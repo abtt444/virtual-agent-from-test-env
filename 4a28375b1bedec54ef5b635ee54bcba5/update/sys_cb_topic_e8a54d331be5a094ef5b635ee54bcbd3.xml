@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Presents a greeting to the user at the beginning of a conversation.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "43c6f2c241e84d678402eba92d4addb9": {
+          "id": "43c6f2c241e84d678402eba92d4addb9",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": "",
+            "mode": "simple"
+          }
+        },
+        "74aa27c6148b48788f27bce5101d77fd": {
+          "id": "74aa27c6148b48788f27bce5101d77fd",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "79ed390d47964f379e86eb2f8d23915e": {
+          "id": "79ed390d47964f379e86eb2f8d23915e",
+          "stepType": "TextOutput",
+          "name": "Show Greeting Message",
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hi "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.first_name}}",
+                      "displayValue": "vaInputs➛user➛first_name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", I am Virtual Agent!  I can assist you with queries related to Leave, Pension, Claims, Document Retrieval, Employee Contribution and general Covid-19 guidelines. I hope you're having a knockout of a day! "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "mode": "script",
+            "value": ""
+          },
+          "secure": false
+        },
+        "dd59cae3d42f4eb7b863533ae38d81c2": {
+          "id": "dd59cae3d42f4eb7b863533ae38d81c2",
+          "name": "Send Topic Picker",
+          "script": "(function execute() {\n    var greetingMessage = vaSystem.getTopicSelectionMessage();\n    vaSystem.sendTopicPickerControl(greetingMessage);\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          }
+        },
+        "bd2c9f14edf04ddf8582629a0d157e7f": {
+          "id": "bd2c9f14edf04ddf8582629a0d157e7f",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "bf44c0556a2349a0abe54cde7024a47a": {
+          "id": "bf44c0556a2349a0abe54cde7024a47a",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "489e80d7f0484959830ee6e2764a74a0": {
+          "id": "489e80d7f0484959830ee6e2764a74a0",
+          "name": "Topic Discovery",
+          "script": "(function execute() {\n    vaSystem.topicDiscovery();\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "f1ed8336ea70465a90f07b5ff06fb473",
+          "edgeType": "Edge",
+          "source": "79ed390d47964f379e86eb2f8d23915e",
+          "target": "dd59cae3d42f4eb7b863533ae38d81c2",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d93fbb6fa9a24ec9b637372e4009581a",
+          "edgeType": "Edge",
+          "source": "dd59cae3d42f4eb7b863533ae38d81c2",
+          "target": "74aa27c6148b48788f27bce5101d77fd",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "adfc3a28200d40daacb23707cb9403c8",
+          "edgeType": "Branch",
+          "source": "bf44c0556a2349a0abe54cde7024a47a",
+          "target": "79ed390d47964f379e86eb2f8d23915e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return !vaVars.global_preChatExecuted;\n})()\n"
+          },
+          "label": "Pre-chat not executed"
+        },
+        {
+          "id": "a679e0d7ef8a4927bda30c564aa6fe27",
+          "edgeType": "Edge",
+          "source": "43c6f2c241e84d678402eba92d4addb9",
+          "target": "bd2c9f14edf04ddf8582629a0d157e7f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a9db7bc09f0b473ab51342c6290ce181",
+          "edgeType": "Branch",
+          "source": "bd2c9f14edf04ddf8582629a0d157e7f",
+          "target": "bf44c0556a2349a0abe54cde7024a47a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return gs.nil(vaVars.global_search_text)\n})()\n"
+          },
+          "label": "Search Text Not Set"
+        },
+        {
+          "id": "2ac1335937744a15bec6b3a908d33f3c",
+          "edgeType": "Branch",
+          "source": "bf44c0556a2349a0abe54cde7024a47a",
+          "target": "dd59cae3d42f4eb7b863533ae38d81c2",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaVars.global_preChatExecuted;\n})()\n"
+          },
+          "label": "Pre-chat executed"
+        },
+        {
+          "id": "5f24d3f6a21e49a59c66fb19c40aabfd",
+          "edgeType": "Branch",
+          "source": "bd2c9f14edf04ddf8582629a0d157e7f",
+          "target": "489e80d7f0484959830ee6e2764a74a0",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return !gs.nil(vaVars.global_search_text)\n})()\n"
+          },
+          "label": "Search Text Set"
+        },
+        {
+          "id": "3b23cf83a8f246e4bddd3bf404f4f1c5",
+          "edgeType": "Edge",
+          "source": "489e80d7f0484959830ee6e2764a74a0",
+          "target": "74aa27c6148b48788f27bce5101d77fd",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "287075c687e743a198c2c7a89172308e": {
+      "id": "287075c687e743a198c2c7a89172308e",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "greeting_message",
+      "label": "greeting_message",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "30d8e220f6e142238a4e431072336de1": {
+      "category": "vaInputs",
+      "id": "30d8e220f6e142238a4e431072336de1",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Absa Greeting,Greetings</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Absa Greeting</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>public</roles>
+        <source_topic_id>120e685053130010cf8cddeeff7b12ab</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-13 13:36:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e8a54d331be5a094ef5b635ee54bcbd3</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Absa Greeting</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_e8a54d331be5a094ef5b635ee54bcbd3</sys_update_name>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-11-12 07:42:00</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=e8a54d331be5a094ef5b635ee54bcbd3"/>
+</record_update>

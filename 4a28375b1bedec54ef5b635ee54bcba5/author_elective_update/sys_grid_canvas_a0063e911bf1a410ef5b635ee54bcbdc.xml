@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="DELETE">
+        <legacy_page display_value="PA ABSAHR - New Tab">28063e911bf1a410ef5b635ee54bcbda</legacy_page>
+        <name>PA ABSAHR - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-18 13:38:14</sys_created_on>
+        <sys_id>a0063e911bf1a410ef5b635ee54bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA ABSAHR - New Tab</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_grid_canvas_a0063e911bf1a410ef5b635ee54bcbdc</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-18 13:38:14</sys_updated_on>
+    </sys_grid_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>sys_grid_canvas_a0063e911bf1a410ef5b635ee54bcbdc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas"><sys_grid_canvas action="INSERT_OR_UPDATE"><legacy_page display_value="PA ABSAHR - New Tab">28063e911bf1a410ef5b635ee54bcbda</legacy_page><name>PA ABSAHR - New Tab</name><sys_class_name>sys_grid_canvas</sys_class_name><sys_created_by>michaela.govender</sys_created_by><sys_created_on>2021-01-18 13:38:14</sys_created_on><sys_id>a0063e911bf1a410ef5b635ee54bcbdc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PA ABSAHR - New Tab</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_grid_canvas_a0063e911bf1a410ef5b635ee54bcbdc</sys_update_name><sys_updated_by>michaela.govender</sys_updated_by><sys_updated_on>2021-01-18 13:38:14</sys_updated_on></sys_grid_canvas></record_update>]]></payload>
+        <payload_hash>-1977787198</payload_hash>
+        <record_name>PA ABSAHR - New Tab</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-18 13:38:14</sys_created_on>
+        <sys_id>a4063e911bf1a410ef5b635ee54bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17715b7ac920000001</sys_recorded_at>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-18 13:38:14</sys_updated_on>
+        <type>Grid Canvas</type>
+        <update_guid>6c063e91e4f1a410e3e0482160f2b6dd</update_guid>
+        <update_guid_history>6c063e91e4f1a410e3e0482160f2b6dd:-1977787198</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-18 13:41:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas">sys_grid_canvas</sys_db_object>
+        <sys_id>14bc2f5d124e412c94757fc6328b0490</sys_id>
+        <sys_metadata>a0063e911bf1a410ef5b635ee54bcbdc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA ABSAHR - New Tab</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_a0063e911bf1a410ef5b635ee54bcbdc</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_a0063e911bf1a410ef5b635ee54bcbdc">a4063e911bf1a410ef5b635ee54bcbde</sys_update_version>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-18 13:41:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

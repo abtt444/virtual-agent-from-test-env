@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category>8121ae591b31a410ef5b635ee54bcbec</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "11f47ab623bf488692c605950098d9e0": {
+          "id": "11f47ab623bf488692c605950098d9e0",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "3a08b577b9d9446e8ec5afc7353313d4": {
+          "id": "3a08b577b9d9446e8ec5afc7353313d4",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "3fd7be4cab18496a881654e5bac97dae": {
+          "id": "3fd7be4cab18496a881654e5bac97dae",
+          "stepType": "TextOutput",
+          "name": "Travel Claims",
+          "value": {
+            "value": "Travel Claims Response",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "97763393224044969ef1641c4768b517",
+          "edgeType": "Edge",
+          "source": "11f47ab623bf488692c605950098d9e0",
+          "target": "3fd7be4cab18496a881654e5bac97dae",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "4d9223440648483e99b576acec747f2a",
+          "edgeType": "Edge",
+          "source": "3fd7be4cab18496a881654e5bac97dae",
+          "target": "3a08b577b9d9446e8ec5afc7353313d4",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Travel Claims</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Travel Claims</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:20:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bf14eedd1b31a410ef5b635ee54bcb72</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Travel Claims</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_bf14eedd1b31a410ef5b635ee54bcb72</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-18 12:20:25</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=bf14eedd1b31a410ef5b635ee54bcb72"/>
+</record_update>

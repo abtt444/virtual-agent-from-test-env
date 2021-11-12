@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability>(function execute() {
+            return false;
+            })()
+        </applicability>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Displays an error message to the user when the virtual agent encounters a problem that it cannot resolve.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "18ba9dc8d9f543858f5cdb3ab453906a": {
+          "id": "18ba9dc8d9f543858f5cdb3ab453906a",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "79da6e76a2da435c9f2fa925ba018b4e": {
+          "id": "79da6e76a2da435c9f2fa925ba018b4e",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "2cd2828aeacd45e49a7a28178dd9ca80": {
+          "id": "2cd2828aeacd45e49a7a28178dd9ca80",
+          "stepType": "TextOutput",
+          "name": "Display Error Message",
+          "value": {
+            "value": "(function execute() {\n    return vaVars.global_error_message;\n})()\n",
+            "mode": "script"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "951b43e5b15a4493b577ae0357a091e1",
+          "edgeType": "Edge",
+          "source": "2cd2828aeacd45e49a7a28178dd9ca80",
+          "target": "79da6e76a2da435c9f2fa925ba018b4e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "40849935eeab482f88febfa3083946c0",
+          "edgeType": "Edge",
+          "source": "18ba9dc8d9f543858f5cdb3ab453906a",
+          "target": "2cd2828aeacd45e49a7a28178dd9ca80",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "4e2dde1fc14645388cc067ef723f8cd4": {
+      "id": "4e2dde1fc14645388cc067ef723f8cd4",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "global_error_message",
+      "label": "global_error_message",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "e178e315c96543c98b2383e1dc4f68b0": {
+      "category": "vaInputs",
+      "id": "e178e315c96543c98b2383e1dc4f68b0",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Error Handling,Error Handling Topic</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Error Handling</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id>95ede45053130010cf8cddeeff7b1289</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 09:31:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>069d799d1bf96410ef5b635ee54bcb32</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Error Handling</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_069d799d1bf96410ef5b635ee54bcb32</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-19 19:02:21</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=069d799d1bf96410ef5b635ee54bcb32"/>
+</record_update>

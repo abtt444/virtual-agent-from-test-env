@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Help">e75158641b8e2c50ef5b635ee54bcb99</cb_topic_id>
+        <channels/>
+        <definition>{"id":"e75158641b8e2c50ef5b635ee54bcb99","name":"Help","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Help","applicability":"true","category":"","key_phrases":["Help","Accumulated Leave"],"variables":[{"name":"__segment_trigger_4e48d40c82d8485b86ac7a6836f442a2_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_7754182c218e2c50dbc251d732809d86","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_3754182c9b8e2c50d140d137fcad6486","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_OutputPrompt_5e5aaa9616ae496984c79a2e8e660c5e","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_f354182cb58e2c50f5c3f0cb1a370586","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_f9c3d89fe2494c97a0f47880fcf1fedc","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_41130d47a3f6422a9b017b10d256ff83","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_4e48d40c82d8485b86ac7a6836f442a2_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_7754182c218e2c50dbc251d732809d86\");vaInputs.initialize(\"__silent_OutputPrompt_5e5aaa9616ae496984c79a2e8e660c5e\");vaInputs.initialize(\"__silent_Decision_RootDecision_f354182cb58e2c50f5c3f0cb1a370586\");vaInputs.initialize(\"__silent_StartGoal_f9c3d89fe2494c97a0f47880fcf1fedc\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_3754182c9b8e2c50d140d137fcad6486\");vaInputs.initialize(\"__silent_TerminateGoal_41130d47a3f6422a9b017b10d256ff83\");null;","fields":[{"name":"__silent_Decision_RootDecision_f354182cb58e2c50f5c3f0cb1a370586","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_f354182cb58e2c50f5c3f0cb1a370586\";vaInputs.__silent_Decision_RootDecision_f354182cb58e2c50f5c3f0cb1a370586=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_f354182cb58e2c50f5c3f0cb1a370586\";vaInputs.RootDecisionBranch_7754182c218e2c50dbc251d732809d86=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_3754182c9b8e2c50d140d137fcad6486","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_f354182cb58e2c50f5c3f0cb1a370586\" &amp;&amp; ((vaInputs.RootDecisionBranch_7754182c218e2c50dbc251d732809d86.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_3754182c9b8e2c50d140d137fcad6486___RootDecisionBranch_3754182c9b8e2c50d140d137fcad6486\";vaInputs.__silent_Branch_RootDecisionBranch_3754182c9b8e2c50d140d137fcad6486=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_3754182c9b8e2c50d140d137fcad6486___RootDecisionBranch_3754182c9b8e2c50d140d137fcad6486\";null;"},{"name":"__silent_StartGoal_f9c3d89fe2494c97a0f47880fcf1fedc","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_3754182c9b8e2c50d140d137fcad6486___RootDecisionBranch_3754182c9b8e2c50d140d137fcad6486\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___f9c3d89fe2494c97a0f47880fcf1fedc\";vaInputs.__silent_StartGoal_f9c3d89fe2494c97a0f47880fcf1fedc=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___f9c3d89fe2494c97a0f47880fcf1fedc\";null;"},{"name":"__silent_OutputPrompt_5e5aaa9616ae496984c79a2e8e660c5e","applicable":"vaVars.previous_graph_node==\"Start___f9c3d89fe2494c97a0f47880fcf1fedc\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Help___5e5aaa9616ae496984c79a2e8e660c5e\";vaInputs.__silent_OutputPrompt_5e5aaa9616ae496984c79a2e8e660c5e=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Help___5e5aaa9616ae496984c79a2e8e660c5e\";(function execute() {return gs.getMessageLang(\"Help\", vaContext.getRequesterLang());})();"},{"name":"__silent_TerminateGoal_41130d47a3f6422a9b017b10d256ff83","applicable":"vaVars.previous_graph_node==\"Help___5e5aaa9616ae496984c79a2e8e660c5e\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___41130d47a3f6422a9b017b10d256ff83\";vaInputs.__silent_TerminateGoal_41130d47a3f6422a9b017b10d256ff83=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___41130d47a3f6422a9b017b10d256ff83\";vaVars.__segment_trigger_4e48d40c82d8485b86ac7a6836f442a2_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":true,"design_category":"7a6dc0201b8e2c50ef5b635ee54bcb98","nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"score":0.0,"visible":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Help","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category>7a6dc0201b8e2c50ef5b635ee54bcb98</design_category>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Help Accumulated Leave</key_phrases>
+        <last_published_on>2021-01-28 04:12:18</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>AKML LF HLP</metaphone>
+        <name>Help</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles>snc_internal</roles>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>ABRJ203</sys_created_by>
+        <sys_created_on>2021-01-28 04:12:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7354182c1b8e2c50ef5b635ee54bcb87</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Help</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_7354182c1b8e2c50ef5b635ee54bcb87</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:12:56</sys_updated_on>
+        <title>Help</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=7354182c1b8e2c50ef5b635ee54bcb87"/>
+</record_update>

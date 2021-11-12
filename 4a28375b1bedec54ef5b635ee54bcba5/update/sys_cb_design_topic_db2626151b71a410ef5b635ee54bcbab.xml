@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="IRP5 Certificate">972626151b71a410ef5b635ee54bcba8</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"234f54511e6b4f14a91d54fc04722022","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"234f54511e6b4f14a91d54fc04722022"}],"goals":[{"name":"primary","trigger_id":"234f54511e6b4f14a91d54fc04722022","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"661081b5ab484178bb18bcdaa938132f","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"06b9800149ff422cadb34b9ad83542fa","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"gs.getMessageLang(\"IRP5 Certification Response\", vaContext.getRequesterLang())"},"id":"68939791d86c4e61a43e891f448e1432","name":"IRP5 Certificate","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"661081b5ab484178bb18bcdaa938132f","target_node_id":"68939791d86c4e61a43e891f448e1432","id":"537a1533e0454ace9246b77e30f57013"},{"type":"Edge","source_node_id":"68939791d86c4e61a43e891f448e1432","target_node_id":"06b9800149ff422cadb34b9ad83542fa","id":"207dfc8d6cc44b2b95264e2acf79316d"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"f916a6d11b71a410ef5b635ee54bcb18","name":"IRP5 Certificate","key_phrases":["IRP5 Certificate"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":true,"design_category":"b531aa591b31a410ef5b635ee54bcb6b","library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>f916a6d11b71a410ef5b635ee54bcb18</design_topic_id>
+        <name>IRP5 Certificate</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:29:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>db2626151b71a410ef5b635ee54bcbab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_db2626151b71a410ef5b635ee54bcbab</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:02:44</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

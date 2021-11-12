@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2021-11-12 08:16:48">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ad5d77f1b3de850122465fce54bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA NLU</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_portal_page_5ad5d77f1b3de850122465fce54bcb67</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+        <title>PA NLU</title>
+        <user/>
+        <view>pa_virtual_agent_insigh_-_new_tab_4_1</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA NLU">5ad5d77f1b3de850122465fce54bcb67</page>
+                <summary>Correct Predictions - Last 30 days Moving Avg</summary>
+                <sys_created_by>michaela.govender</sys_created_by>
+                <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                <sys_id>12d5d77f1b3de850122465fce54bcb70</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michaela.govender</sys_updated_by>
+                <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>12d5d77f1b3de850122465fce54bcb72</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>16d5d77f1b3de850122465fce54bcb71</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_time</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>16d5d77f1b3de850122465fce54bcb77</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>1ad5d77f1b3de850122465fce54bcb70</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>52d5d77f1b3de850122465fce54bcb71</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>56d5d77f1b3de850122465fce54bcb70</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>5ad5d77f1b3de850122465fce54bcb72</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>455ce699733300108564b17afef6a704</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>5ed5d77f1b3de850122465fce54bcb71</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>96d5d77f1b3de850122465fce54bcb72</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>pa_widgets</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>9ad5d77f1b3de850122465fce54bcb71</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>9ed5d77f1b3de850122465fce54bcb70</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>d2d5d77f1b3de850122465fce54bcb72</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>d6d5d77f1b3de850122465fce54bcb71</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">12d5d77f1b3de850122465fce54bcb70</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>dad5d77f1b3de850122465fce54bcb70</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>Correct Predictions - Last 30 days Moving Avg</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA NLU">5ad5d77f1b3de850122465fce54bcb67</page>
+                <summary>Incorrect Predictions - Last 30 days Moving Avg</summary>
+                <sys_created_by>michaela.govender</sys_created_by>
+                <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                <sys_id>1ad5d77f1b3de850122465fce54bcb68</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michaela.govender</sys_updated_by>
+                <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_time</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>12d5d77f1b3de850122465fce54bcb6a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>16d5d77f1b3de850122465fce54bcb69</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>16d5d77f1b3de850122465fce54bcb6f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>52d5d77f1b3de850122465fce54bcb69</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>52d5d77f1b3de850122465fce54bcb6f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>5ed5d77f1b3de850122465fce54bcb69</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>Incorrect Predictions - Last 30 days Moving Avg</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>5ed5d77f1b3de850122465fce54bcb6f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>9ad5d77f1b3de850122465fce54bcb69</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>9ad5d77f1b3de850122465fce54bcb6f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>9ed5d77f1b3de850122465fce54bcb68</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>9ed5d77f1b3de850122465fce54bcb6e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>pa_widgets</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>d2d5d77f1b3de850122465fce54bcb6a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>882d22d9733300108564b17afef6a7b6</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>d6d5d77f1b3de850122465fce54bcb69</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">1ad5d77f1b3de850122465fce54bcb68</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>d6d5d77f1b3de850122465fce54bcb6f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA NLU">5ad5d77f1b3de850122465fce54bcb67</page>
+                <summary>Skipped Predictions - Last 30 days Moving Avg</summary>
+                <sys_created_by>michaela.govender</sys_created_by>
+                <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                <sys_id>d6d5d77f1b3de850122465fce54bcb77</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michaela.govender</sys_updated_by>
+                <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>12d5d77f1b3de850122465fce54bcb7a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>abdc6e99733300108564b17afef6a76c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_time</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>16d5d77f1b3de850122465fce54bcb79</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>1ad5d77f1b3de850122465fce54bcb78</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>1ed5d77f1b3de850122465fce54bcb77</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>52d5d77f1b3de850122465fce54bcb79</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>56d5d77f1b3de850122465fce54bcb78</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>5ed5d77f1b3de850122465fce54bcb79</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>pa_widgets</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>92d5d77f1b3de850122465fce54bcb78</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>9ad5d77f1b3de850122465fce54bcb79</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>9ad5d77f1b3de850122465fce54bcb7e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>Skipped Predictions - Last 30 days Moving Avg</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>9ed5d77f1b3de850122465fce54bcb78</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>d6d5d77f1b3de850122465fce54bcb79</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>dad5d77f1b3de850122465fce54bcb78</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-01-26 12:22:10">d6d5d77f1b3de850122465fce54bcb77</portal_section>
+                        <sys_created_by>michaela.govender</sys_created_by>
+                        <sys_created_on>2021-01-26 10:22:10</sys_created_on>
+                        <sys_id>ded5d77f1b3de850122465fce54bcb77</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michaela.govender</sys_updated_by>
+                        <sys_updated_on>2021-01-26 10:22:10</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[3],"annotatedString":"where do i {{phrase=\"cancel\"}} my leave in workday"}]</annotation>
+        <entity display_value="Cancel">9b90b1c81bb92494ef5b635ee54bcb68</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 11:25:00</sys_created_on>
+        <sys_id>6921350c1bb92494ef5b635ee54bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel.where do i cancel my leave in workday </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_6921350c1bb92494ef5b635ee54bcb8f</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 11:25:00</sys_updated_on>
+        <utterance display_value="where do i cancel my leave in workday ">7821350c1bb92494ef5b635ee54bcb8c</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_6921350c1bb92494ef5b635ee54bcb8f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[3],"annotatedString":"where do i {{phrase=\"cancel\"}} my leave in workday"}]</annotation><entity display_value="Cancel">9b90b1c81bb92494ef5b635ee54bcb68</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-14 11:25:00</sys_created_on><sys_id>6921350c1bb92494ef5b635ee54bcb8f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cancel.where do i cancel my leave in workday </sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_6921350c1bb92494ef5b635ee54bcb8f</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-14 11:25:00</sys_updated_on><utterance display_value="where do i cancel my leave in workday ">7821350c1bb92494ef5b635ee54bcb8c</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-1725486581</payload_hash>
+        <record_name>Cancel.where do i cancel my leave in workday </record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 11:25:00</sys_created_on>
+        <sys_id>6d21750c1bb92494ef5b635ee54bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17700a442670000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 11:25:00</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>ed21350c15b92494508ec373cf84e990</update_guid>
+        <update_guid_history>ed21350c15b92494508ec373cf84e990:-1725486581</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">cfe2d3541b39e494ef5b635ee54bcb11</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 13:10:39</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>400034f34047402c8b3a2d7b5a21c590</sys_id>
+        <sys_metadata>6921350c1bb92494ef5b635ee54bcb8f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel.where do i cancel my leave in workday </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_6921350c1bb92494ef5b635ee54bcb8f</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_6921350c1bb92494ef5b635ee54bcb8f">6d21750c1bb92494ef5b635ee54bcbd4</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:10:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

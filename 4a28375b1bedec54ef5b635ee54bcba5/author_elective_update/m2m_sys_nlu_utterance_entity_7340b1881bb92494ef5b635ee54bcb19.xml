@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[5,6],"annotatedString":"How do i take my {{phrase=\"accumulated leave\"}}"}]</annotation>
+        <entity display_value="Accumulated Leave">281039481bb92494ef5b635ee54bcbc8</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 11:21:20</sys_created_on>
+        <sys_id>7340b1881bb92494ef5b635ee54bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accumulated Leave.How do i take my accumulated leave </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_7340b1881bb92494ef5b635ee54bcb19</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 11:21:20</sys_updated_on>
+        <utterance display_value="How do i take my accumulated leave ">4b4075881bb92494ef5b635ee54bcb19</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_7340b1881bb92494ef5b635ee54bcb19</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[5,6],"annotatedString":"How do i take my {{phrase=\"accumulated leave\"}}"}]</annotation><entity display_value="Accumulated Leave">281039481bb92494ef5b635ee54bcbc8</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-14 11:21:20</sys_created_on><sys_id>7340b1881bb92494ef5b635ee54bcb19</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Accumulated Leave.How do i take my accumulated leave </sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_7340b1881bb92494ef5b635ee54bcb19</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-14 11:21:20</sys_updated_on><utterance display_value="How do i take my accumulated leave ">4b4075881bb92494ef5b635ee54bcb19</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-601024665</payload_hash>
+        <record_name>Accumulated Leave.How do i take my accumulated leave </record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-14 11:21:20</sys_created_on>
+        <sys_id>ff40b1881bb92494ef5b635ee54bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17700a0e4530000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-14 11:21:20</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>f740b1883ab92494d8c778840a563e1a</update_guid>
+        <update_guid_history>f740b1883ab92494d8c778840a563e1a:-601024665</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3533d3941b39e494ef5b635ee54bcb38</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 13:11:57</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>a0b72ac3d1714ae0bacf421c0f8b6664</sys_id>
+        <sys_metadata>7340b1881bb92494ef5b635ee54bcb19</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accumulated Leave.How do i take my accumulated leave </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_7340b1881bb92494ef5b635ee54bcb19</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_7340b1881bb92494ef5b635ee54bcb19">ff40b1881bb92494ef5b635ee54bcb1a</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:11:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

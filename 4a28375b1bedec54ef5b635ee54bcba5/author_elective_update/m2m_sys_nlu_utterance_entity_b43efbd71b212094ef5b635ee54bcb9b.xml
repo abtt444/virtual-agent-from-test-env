@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[6],"annotatedString":"what covid protocols and procedures is {{phrase=\"absa\"}} following?"}]</annotation>
+        <entity display_value="General Absa Related Terms">3d9cbfd31b212094ef5b635ee54bcb1b</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-12 13:45:49</sys_created_on>
+        <sys_id>b43efbd71b212094ef5b635ee54bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>General Absa Related Terms.what covid protocols and procedures is absa following?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_b43efbd71b212094ef5b635ee54bcb9b</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-12 13:45:49</sys_updated_on>
+        <utterance display_value="what covid protocols and procedures is absa following?">3c2ef7d71b212094ef5b635ee54bcb3b</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>820652cedb0c2f4089535d00cf961916</instance_id>
+        <instance_name>absahrtest</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_b43efbd71b212094ef5b635ee54bcb9b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[6],"annotatedString":"what covid protocols and procedures is {{phrase=\"absa\"}} following?"}]</annotation><entity display_value="General Absa Related Terms">3d9cbfd31b212094ef5b635ee54bcb1b</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-12 13:45:49</sys_created_on><sys_id>b43efbd71b212094ef5b635ee54bcb9b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>General Absa Related Terms.what covid protocols and procedures is absa following?</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_b43efbd71b212094ef5b635ee54bcb9b</sys_update_name><sys_updated_by>gabriel.eisenberg</sys_updated_by><sys_updated_on>2021-01-12 13:45:49</sys_updated_on><utterance display_value="what covid protocols and procedures is absa following?">3c2ef7d71b212094ef5b635ee54bcb3b</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-425096585</payload_hash>
+        <record_name>General Absa Related Terms.what covid protocols and procedures is absa following?</record_name>
+        <reverted_from/>
+        <source>c228375b1bedec54ef5b635ee54bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-12 13:45:49</sys_created_on>
+        <sys_id>343efbd71b212094ef5b635ee54bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176f6d8766a0000001</sys_recorded_at>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-12 13:45:49</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>3c3efbd7352120945fab653a62175f9c</update_guid>
+        <update_guid_history>3c3efbd7352120945fab653a62175f9c:-425096585</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">90e55b5c1b39e494ef5b635ee54bcb11</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-15 13:23:35</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>236581c867ae47289d7cdb0ad516ed90</sys_id>
+        <sys_metadata>b43efbd71b212094ef5b635ee54bcb9b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>General Absa Related Terms.what covid protocols and procedures is absa following?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_b43efbd71b212094ef5b635ee54bcb9b</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_b43efbd71b212094ef5b635ee54bcb9b">343efbd71b212094ef5b635ee54bcb9d</sys_update_version>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-15 13:23:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

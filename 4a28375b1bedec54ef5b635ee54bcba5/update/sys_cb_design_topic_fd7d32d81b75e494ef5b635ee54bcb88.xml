@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="View Pension">bd7d32d81b75e494ef5b635ee54bcb76</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"d40c747932ce4e22913426d7efff9f0c","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"d40c747932ce4e22913426d7efff9f0c"}],"goals":[{"name":"primary","trigger_id":"d40c747932ce4e22913426d7efff9f0c","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"161e6e7bee1d4dd2aebf4f5161e6573e","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"34cb230d23bd4aadac96f1d08df07297","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Response for View Pension\", vaContext.getRequesterLang())"},"id":"d741abb0d0e34709857d46b45ae89787","name":"View Pension","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"161e6e7bee1d4dd2aebf4f5161e6573e","target_node_id":"d741abb0d0e34709857d46b45ae89787","id":"86890a6e630c4fb6a96061d83a1e30db"},{"type":"Edge","source_node_id":"d741abb0d0e34709857d46b45ae89787","target_node_id":"34cb230d23bd4aadac96f1d08df07297","id":"d1fe72b563ec42d980ac8133bbcb8de0"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"24141ed41b3da494ef5b635ee54bcb0f","name":"View Pension","key_phrases":["View Pension"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"design_category":"d801a2591b31a410ef5b635ee54bcb52","library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>24141ed41b3da494ef5b635ee54bcb0f</design_topic_id>
+        <name>View Pension</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-15 11:36:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fd7d32d81b75e494ef5b635ee54bcb88</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>View Pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_fd7d32d81b75e494ef5b635ee54bcb88</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:10:07</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
