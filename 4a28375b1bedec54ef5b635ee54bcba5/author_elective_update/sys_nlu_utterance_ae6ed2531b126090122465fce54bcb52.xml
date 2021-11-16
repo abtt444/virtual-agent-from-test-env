@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 13:34:25</sys_created_on>
+        <sys_id>ae6ed2531b126090122465fce54bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>i need a COVID testing station as i have symptoms </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_ae6ed2531b126090122465fce54bcb52</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 13:34:25</sys_updated_on>
+        <utterance>i need a COVID testing station as i have symptoms </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_ae6ed2531b126090122465fce54bcb52</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 13:34:25</sys_created_on>
+        <sys_id>ae6ed2531b126090122465fce54bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>i need a COVID testing station as i have symptoms </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_ae6ed2531b126090122465fce54bcb52</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 13:34:25</sys_updated_on>
+        <utterance>i need a COVID testing station as i have symptoms </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-986091288</payload_hash>
+        <record_name>i need a COVID testing station as i have symptoms </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:56</sys_created_on>
+        <sys_id>d25c93d3871f3050c386fd99cebb3524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65108fe0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:56</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>125c93d34a1f30504c5881d88ee23024</update_guid>
+        <update_guid_history>125c93d34a1f30504c5881d88ee23024:0,93a8df1f101f74501337c8e8c006e839:1917252872,27027094479f30104bb85bedd84c9e38:0,8cfffc27d74b7810135fb92c1f803cca:1399807631,0c9d3c835807b410dacb2c9108a34d9f:0,6617a40bce43b4105d4c6098a192d685:-1067037823,0fdb80c7478f7410e86c2247b049e427:0,d8484487494f74103d12486702c0aced:-336076438,7e6ed2532d126090feb6001599030453:1448928087</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 09:53:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>980e16c66d174fccae1e833bbc350744</sys_id>
+        <sys_metadata>ae6ed2531b126090122465fce54bcb52</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>i need a COVID testing station as i have symptoms </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_ae6ed2531b126090122465fce54bcb52</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_ae6ed2531b126090122465fce54bcb52">d25c93d3871f3050c386fd99cebb3524</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 09:53:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

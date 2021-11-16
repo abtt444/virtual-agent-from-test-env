@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-22 08:31:47</sys_created_on>
+        <sys_id>a48fb1a81beea490ef5b635ee54bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>help me avoid carona virus please</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_a48fb1a81beea490ef5b635ee54bcb16</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-22 08:31:47</sys_updated_on>
+        <utterance>help me avoid carona virus please</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_a48fb1a81beea490ef5b635ee54bcb16</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-22 08:31:47</sys_created_on>
+        <sys_id>a48fb1a81beea490ef5b635ee54bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>help me avoid carona virus please</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_a48fb1a81beea490ef5b635ee54bcb16</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-22 08:31:47</sys_updated_on>
+        <utterance>help me avoid carona virus please</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-1574245838</payload_hash>
+        <record_name>help me avoid carona virus please</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:54</sys_created_on>
+        <sys_id>f95c53d3871f3050c386fd99cebb3543</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65101bc0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:54</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>395c53d3231f30505f24e255e8e80a43</update_guid>
+        <update_guid_history>395c53d3231f30505f24e255e8e80a43:0,1fa8df1fdd1f7450c3baa6606202f834:25291717,0b023094639f3010387f0394d3868365:0,8cfffc27814b7810b75657635c4a00c6:-275208462,2f8df8832007b410bd2ed02ceb04f337:0,6617a40ba843b410c369c7e226e97481:-1153727588,62db40c7f48f7410eb66f3b3e2904254:0,14484487434f741066a77ff21e3547dd:248383431,688fb1a8d9eea4907fb3bda66297eb17:894730043</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 09:53:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>3d2e3e0a7a5640389a8ee5c138d471c1</sys_id>
+        <sys_metadata>a48fb1a81beea490ef5b635ee54bcb16</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>help me avoid carona virus please</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_a48fb1a81beea490ef5b635ee54bcb16</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_a48fb1a81beea490ef5b635ee54bcb16">f95c53d3871f3050c386fd99cebb3543</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 09:53:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

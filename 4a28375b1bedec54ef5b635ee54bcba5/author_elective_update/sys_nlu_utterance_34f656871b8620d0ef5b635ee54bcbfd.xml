@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:37</sys_created_on>
+        <sys_id>34f656871b8620d0ef5b635ee54bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I was infected with covid, what should I do?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_34f656871b8620d0ef5b635ee54bcbfd</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:37</sys_updated_on>
+        <utterance>I was infected with covid, what should I do?</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_34f656871b8620d0ef5b635ee54bcbfd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:37</sys_created_on>
+        <sys_id>34f656871b8620d0ef5b635ee54bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I was infected with covid, what should I do?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_34f656871b8620d0ef5b635ee54bcbfd</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:37</sys_updated_on>
+        <utterance>I was infected with covid, what should I do?</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>1053254290</payload_hash>
+        <record_name>I was infected with covid, what should I do?</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:31</sys_created_on>
+        <sys_id>c44c5393871f3050c386fd99cebb3527</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650a8770000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:31</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>4c4c5393581f305062d386b90b49de1a</update_guid>
+        <update_guid_history>4c4c5393581f305062d386b90b49de1a:0,5fa89f1fe81f745018268d0befe682ac:-1341813967,f1f13454919f3010b9280893fbebb57a:0,4cfffc27904b7810c8b009dccb3ada8e:469019815,127d30831807b410189669121a772907:0,5e17a40b5f43b410d82d67b2e330743c:-685750038,38cb8487118f741023ccb2cf251a2811:0,08484487ff4f741041f392551cb91673:-603207976,74f656876f8620d0b656ede6dfd5dcfe:-943075017</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 09:53:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>580e5dd26a884856a549ed5b6939b924</sys_id>
+        <sys_metadata>34f656871b8620d0ef5b635ee54bcbfd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I was infected with covid, what should I do?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_34f656871b8620d0ef5b635ee54bcbfd</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_34f656871b8620d0ef5b635ee54bcbfd">c44c5393871f3050c386fd99cebb3527</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 09:53:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
