@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"Who allocates relocation {{phrase=\"leave\"}} and how do I use it","start":25,"end":29}]</annotation>
+        <entity display_value="Leave">1fe1a3031b0260d0ef5b635ee54bcb86</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-08 10:40:07</sys_created_on>
+        <sys_id>44a69e081b1aa410122465fce54bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave.Who allocates relocation leave and how do I use it </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_44a69e081b1aa410122465fce54bcb19</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:40:07</sys_updated_on>
+        <utterance display_value="Who allocates relocation leave and how do I use it ">0f1a67831b4260d0ef5b635ee54bcbf3</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_44a69e081b1aa410122465fce54bcb19</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"Who allocates relocation {{phrase=\"leave\"}} and how do I use it","start":25,"end":29}]</annotation>
+        <entity display_value="Leave">1fe1a3031b0260d0ef5b635ee54bcb86</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-08 10:40:07</sys_created_on>
+        <sys_id>44a69e081b1aa410122465fce54bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave.Who allocates relocation leave and how do I use it </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_44a69e081b1aa410122465fce54bcb19</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:40:07</sys_updated_on>
+        <utterance display_value="Who allocates relocation leave and how do I use it ">0f1a67831b4260d0ef5b635ee54bcbf3</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>738438100</payload_hash>
+        <record_name>Leave.Who allocates relocation leave and how do I use it </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:23</sys_created_on>
+        <sys_id>a3fb5bdf87db3050c386fd99cebb35ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64f9f0a0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:23</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>effb5bdff6db30503401c98b903ae5ee</update_guid>
+        <update_guid_history>effb5bdff6db30503401c98b903ae5ee:0,1e98171f461f7450e1d062060aead16e:108129180,26b1f0d0d19f30104224f4d9f39b89bb:0,13dfb427264b7810d465e1a3c83d6713:-286024030,f23dbccf75c3b410038c5dffcba81d37:0,0e076cc7c543b410823f8348583a257b:-2049403261,2c8bccc38c8f7410193dadf674ed9fe1:0,6b288847844f74106f761b35cc3a344d:-1376780826,0ca69e08ba1aa4106ffbdc3bd332cd1a:1622746102</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 10:23:24">551ef82687fb3810c386fd99cebb35f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 08:23:24</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>09bd753a158d4e588251d53c247bc640</sys_id>
+        <sys_metadata>44a69e081b1aa410122465fce54bcb19</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave.Who allocates relocation leave and how do I use it </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_44a69e081b1aa410122465fce54bcb19</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_44a69e081b1aa410122465fce54bcb19">a3fb5bdf87db3050c386fd99cebb35ef</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:23:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 14:10:57</sys_created_on>
+        <sys_id>cb1a67831b4260d0ef5b635ee54bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How many days of relocation leave do I have left? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_cb1a67831b4260d0ef5b635ee54bcbea</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 14:10:57</sys_updated_on>
+        <utterance>How many days of relocation leave do I have left? </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_cb1a67831b4260d0ef5b635ee54bcbea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 14:10:57</sys_created_on>
+        <sys_id>cb1a67831b4260d0ef5b635ee54bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How many days of relocation leave do I have left? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_cb1a67831b4260d0ef5b635ee54bcbea</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 14:10:57</sys_updated_on>
+        <utterance>How many days of relocation leave do I have left? </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-980438892</payload_hash>
+        <record_name>How many days of relocation leave do I have left? </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:19:02</sys_created_on>
+        <sys_id>775c97d3871f3050c386fd99cebb352d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65120c70000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:19:02</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>b35c97d39f1f305039ebe8356598d62d</update_guid>
+        <update_guid_history>b35c97d39f1f305039ebe8356598d62d:0,0398971fce1f7450e6c91eac65909f22:471910762,01123494789f3010cf840564762c9a04:0,48ef38272d4b78107b568604c121fe5b:-474450343,599db0c3ae07b4102afd922e41241017:0,ba07ecc77843b410a7bbc9d303023b22:-2060761462,a0eb44c7b48f741036446146f1051689:0,5838c8478e4f7410f4173bb2be29f6db:-1318681202,0f1a6783834260d02f44e7902fbde0eb:-1616780689</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 08:32:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>2fd5102c7f1a4e659cc099902437b579</sys_id>
+        <sys_metadata>cb1a67831b4260d0ef5b635ee54bcbea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How many days of relocation leave do I have left? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_cb1a67831b4260d0ef5b635ee54bcbea</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_cb1a67831b4260d0ef5b635ee54bcbea">775c97d3871f3050c386fd99cebb352d</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:32:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

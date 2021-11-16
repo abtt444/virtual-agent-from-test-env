@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"When can I use {{phrase=\"relocation\"}} leave","start":15,"end":24}]</annotation>
+        <entity display_value="Relocation">a4d9fe8f1b42a4d0122465fce54bcb60</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-08 10:39:45</sys_created_on>
+        <sys_id>e28696081b1aa410122465fce54bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation.When can I use relocation leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_e28696081b1aa410122465fce54bcbcf</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:39:45</sys_updated_on>
+        <utterance display_value="When can I use relocation leave">8b1a67831b4260d0ef5b635ee54bcbfe</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_e28696081b1aa410122465fce54bcbcf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"When can I use {{phrase=\"relocation\"}} leave","start":15,"end":24}]</annotation>
+        <entity display_value="Relocation">a4d9fe8f1b42a4d0122465fce54bcb60</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-08 10:39:45</sys_created_on>
+        <sys_id>e28696081b1aa410122465fce54bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation.When can I use relocation leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_e28696081b1aa410122465fce54bcbcf</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:39:45</sys_updated_on>
+        <utterance display_value="When can I use relocation leave">8b1a67831b4260d0ef5b635ee54bcbfe</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>899226211</payload_hash>
+        <record_name>Relocation.When can I use relocation leave</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:56</sys_created_on>
+        <sys_id>6b1c9f13871f3050c386fd99cebb35a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6501e440000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:56</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>a71c9f13621f30506c9eda036b0628a5</update_guid>
+        <update_guid_history>a71c9f13621f30506c9eda036b0628a5:0,7698571fb91f7450b6bbce8058dc9d8a:1588530933,0ad1f014b39f30106c133c4aff490d5a:0,80eff4278a4b78103c8d7c28481a63a6:-1461583320,565dbc03e107b410d20bd25d9e4dccb6:0,2e07acc79943b410a819cda3abe156b7:-499203873,5cab0447498f7410980e24f9ff7b73b3:0,8038c847284f7410a006d59e20b1a67d:1947489127,aa869608a61aa41019172079d43823d0:1048786140</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 10:30:56">e7cff46a87fb3810c386fd99cebb3563</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 08:30:56</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>8762c3a410654740897a078f475e0900</sys_id>
+        <sys_metadata>e28696081b1aa410122465fce54bcbcf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation.When can I use relocation leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_e28696081b1aa410122465fce54bcbcf</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_e28696081b1aa410122465fce54bcbcf">6b1c9f13871f3050c386fd99cebb35a5</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:30:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

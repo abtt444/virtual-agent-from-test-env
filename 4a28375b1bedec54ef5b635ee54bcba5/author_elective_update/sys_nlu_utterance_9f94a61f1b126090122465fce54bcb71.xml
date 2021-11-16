@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 14:01:30</sys_created_on>
+        <sys_id>9f94a61f1b126090122465fce54bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>are there any benefits with relocation leave </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_9f94a61f1b126090122465fce54bcb71</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 14:01:30</sys_updated_on>
+        <utterance>are there any benefits with relocation leave </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_9f94a61f1b126090122465fce54bcb71</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 14:01:30</sys_created_on>
+        <sys_id>9f94a61f1b126090122465fce54bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>are there any benefits with relocation leave </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_9f94a61f1b126090122465fce54bcb71</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 14:01:30</sys_updated_on>
+        <utterance>are there any benefits with relocation leave </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>822039050</payload_hash>
+        <record_name>are there any benefits with relocation leave </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:53</sys_created_on>
+        <sys_id>a55c13d3871f3050c386fd99cebb358e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650fe1a0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:53</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>e15c13d3da1f305000f6935017e6fb8e</update_guid>
+        <update_guid_history>e15c13d3da1f305000f6935017e6fb8e:0,cb98571f221f7450811757373e243fb0:969619527,3e02fc54dd9f301067bb19a864e42af4:0,80eff427a74b7810a9c44d2428a036e3:-694299254,d78db8834307b410598f4d64229bbfd3:0,6607acc70143b410c976c8739522d0e8:1132672529,d2db00c74a8f7410bcbe9280d0b0a4fc:0,4c38c847c54f741005065a23ebf2bf94:-1355698941,5f94e29f7f1260901a411d9a394f8735:2143320347</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 08:11:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>17108d7124b245a5a680281dd4fa0129</sys_id>
+        <sys_metadata>9f94a61f1b126090122465fce54bcb71</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>are there any benefits with relocation leave </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_9f94a61f1b126090122465fce54bcb71</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_9f94a61f1b126090122465fce54bcb71">a55c13d3871f3050c386fd99cebb358e</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:11:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

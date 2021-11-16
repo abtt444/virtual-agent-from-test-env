@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 14:10:57</sys_created_on>
+        <sys_id>031a67831b4260d0ef5b635ee54bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can I use relocation leave when I am immigrating? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_031a67831b4260d0ef5b635ee54bcbfb</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 14:10:57</sys_updated_on>
+        <utterance>Can I use relocation leave when I am immigrating? </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_031a67831b4260d0ef5b635ee54bcbfb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 14:10:57</sys_created_on>
+        <sys_id>031a67831b4260d0ef5b635ee54bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can I use relocation leave when I am immigrating? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_031a67831b4260d0ef5b635ee54bcbfb</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 14:10:57</sys_updated_on>
+        <utterance>Can I use relocation leave when I am immigrating? </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>708338790</payload_hash>
+        <record_name>Can I use relocation leave when I am immigrating? </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:21</sys_created_on>
+        <sys_id>a13c9b53871f3050c386fd99cebb35f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6507f4c0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:21</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>ed3c9b53891f30502e24f66bb3c4e4f2</update_guid>
+        <update_guid_history>ed3c9b53891f30502e24f66bb3c4e4f2:0,20889bdbe31f74509a3f8faa3439abbf:-1728697462,2be1fc14f29f30103e30dd95e93ee20b:0,1fcfbce33f4b7810de0b98f1e27f0958:-378323022,b36df843df07b410703a3266a8c24721:0,5af624c75a43b4102b36053daf2cd4fb:-1599889778,5abb0087948f74108ecfc91b1ec1ead4:0,76180047d14f7410368e4fdecd9053c1:1777211116,431a6783fb4260d00a59dcbc91dc79fc:1461228367</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 08:21:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>5f3b01f6f8e54421a1ddfddba4354f91</sys_id>
+        <sys_metadata>031a67831b4260d0ef5b635ee54bcbfb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can I use relocation leave when I am immigrating? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_031a67831b4260d0ef5b635ee54bcbfb</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_031a67831b4260d0ef5b635ee54bcbfb">a13c9b53871f3050c386fd99cebb35f3</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:21:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

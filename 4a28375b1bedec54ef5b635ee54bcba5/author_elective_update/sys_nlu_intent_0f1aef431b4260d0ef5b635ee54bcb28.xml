@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_intent">
+    <sys_nlu_intent action="DELETE">
+        <confidence_threshold/>
+        <description>Relocation Leave</description>
+        <enable>true</enable>
+        <model display_value="Absa HR Chatbot NLU Model - Entities">07c696471b8620d0ef5b635ee54bcbfd</model>
+        <name>Relocation Leave Information</name>
+        <origin/>
+        <override_confidence_threshold>false</override_confidence_threshold>
+        <primary_intent/>
+        <status>draft</status>
+        <sys_class_name>sys_nlu_intent</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 14:10:56</sys_created_on>
+        <sys_id>0f1aef431b4260d0ef5b635ee54bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation Leave Information</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_intent_0f1aef431b4260d0ef5b635ee54bcb28</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 14:10:56</sys_updated_on>
+    </sys_nlu_intent>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_intent_0f1aef431b4260d0ef5b635ee54bcb28</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_intent">
+    <sys_nlu_intent action="INSERT_OR_UPDATE">
+        <confidence_threshold/>
+        <description>Relocation Leave</description>
+        <enable>true</enable>
+        <model display_value="Absa HR Chatbot NLU Model - Entities">07c696471b8620d0ef5b635ee54bcbfd</model>
+        <name>Relocation Leave Information</name>
+        <origin/>
+        <override_confidence_threshold>false</override_confidence_threshold>
+        <primary_intent/>
+        <status>draft</status>
+        <sys_class_name>sys_nlu_intent</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 14:10:56</sys_created_on>
+        <sys_id>0f1aef431b4260d0ef5b635ee54bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation Leave Information</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_intent_0f1aef431b4260d0ef5b635ee54bcb28</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 14:10:56</sys_updated_on>
+    </sys_nlu_intent>
+</record_update>]]></payload>
+        <payload_hash>-1435177083</payload_hash>
+        <record_name>Relocation Leave Information</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:18</sys_created_on>
+        <sys_id>bc3c5b53871f3050c386fd99cebb3564</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650748d0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:18</sys_updated_on>
+        <type>NLU Intent</type>
+        <update_guid>f83c5b53781f305099e7a32f99a28864</update_guid>
+        <update_guid_history>f83c5b53781f305099e7a32f99a28864:0,df98971f621f74500213e48fcd09f252:-1466037501,3ee17c14b19f30109d2e68d344ea8551:0,90ef3827f04b78105b9b5f17870e2fba:-1605308752,176d7843a007b4100a293d3a13ec6f80:0,4f07ecc7ea43b4100575d41b2cf94f5b:2108467275,61bbcc479b8f7410c55c8bb52dfbad1b:0,d0380c47544f74105abfe50a3754c321:1096590964,871aef435c4260d00cf9295f97f4ca2a:1337549030</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 08:45:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_intent">sys_nlu_intent</sys_db_object>
+        <sys_id>60851c9e10f24ea083007d4186a32900</sys_id>
+        <sys_metadata>0f1aef431b4260d0ef5b635ee54bcb28</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation Leave Information</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_intent_0f1aef431b4260d0ef5b635ee54bcb28</sys_update_name>
+        <sys_update_version display_value="sys_nlu_intent_0f1aef431b4260d0ef5b635ee54bcb28">bc3c5b53871f3050c386fd99cebb3564</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:45:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
