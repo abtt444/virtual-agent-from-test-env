@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"request for pension {{phrase=\"payout\"}}","start":20,"end":25}]</annotation>
+        <entity display_value="Withdraw">34ce1e431b8e64d0122465fce54bcbba</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 08:41:50</sys_created_on>
+        <sys_id>0ece1e431b8e64d0122465fce54bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Withdraw.request for pension payout</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_0ece1e431b8e64d0122465fce54bcba8</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:41:50</sys_updated_on>
+        <utterance display_value="request for pension payout">1ef65a871b8620d0ef5b635ee54bcb5c</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_0ece1e431b8e64d0122465fce54bcba8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"request for pension {{phrase=\"payout\"}}","start":20,"end":25}]</annotation>
+        <entity display_value="Withdraw">34ce1e431b8e64d0122465fce54bcbba</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 08:41:50</sys_created_on>
+        <sys_id>0ece1e431b8e64d0122465fce54bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Withdraw.request for pension payout</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_0ece1e431b8e64d0122465fce54bcba8</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:41:50</sys_updated_on>
+        <utterance display_value="request for pension payout">1ef65a871b8620d0ef5b635ee54bcb5c</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>-661643281</payload_hash>
+        <record_name>Withdraw.request for pension payout</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:11</sys_created_on>
+        <sys_id>a4fbd3df87db3050c386fd99cebb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64f6f740000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:11</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>e0fbd3df7adb3050a33e4f73cc291495</update_guid>
+        <update_guid_history>e0fbd3df7adb3050a33e4f73cc291495:0,cae89f9fed1f74500b86c74479c967b4:1967234340,7fa17c90c39f30104b0fa594141ec575:0,0a200da79c4b781025260380d298434e:174138648,b32d38cfd8c3b4109e2f38f3f09c846e:0,7f47a08bf643b4104bd3bad24e238bb1:-1770166539,597b88c3998f741036a1a138cfcd1c31:0,4278c00bac4f741070f611fec8371a06:566461285,c2ce1e432b8e64d03e6a77eb215125aa:464470516</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 13:13:11">44f4216687337810c386fd99cebb3590</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 11:13:11</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>a31d21d126814b8096dbcb8856b00400</sys_id>
+        <sys_metadata>0ece1e431b8e64d0122465fce54bcba8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Withdraw.request for pension payout</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_0ece1e431b8e64d0122465fce54bcba8</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_0ece1e431b8e64d0122465fce54bcba8">a4fbd3df87db3050c386fd99cebb3595</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:13:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

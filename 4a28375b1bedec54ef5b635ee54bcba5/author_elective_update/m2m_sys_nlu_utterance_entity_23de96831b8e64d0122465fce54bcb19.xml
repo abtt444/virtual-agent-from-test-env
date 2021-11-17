@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"When can i payout from my {{phrase=\"provident\"}} fund?","start":26,"end":34}]</annotation>
+        <entity display_value="Pension">c50856431b4e64d0122465fce54bcb32</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 08:42:13</sys_created_on>
+        <sys_id>23de96831b8e64d0122465fce54bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.When can i payout from my provident fund?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_23de96831b8e64d0122465fce54bcb19</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:42:13</sys_updated_on>
+        <utterance display_value="When can i payout from my provident fund?">5af65a871b8620d0ef5b635ee54bcb5e</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_23de96831b8e64d0122465fce54bcb19</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"When can i payout from my {{phrase=\"provident\"}} fund?","start":26,"end":34}]</annotation>
+        <entity display_value="Pension">c50856431b4e64d0122465fce54bcb32</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 08:42:13</sys_created_on>
+        <sys_id>23de96831b8e64d0122465fce54bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.When can i payout from my provident fund?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_23de96831b8e64d0122465fce54bcb19</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:42:13</sys_updated_on>
+        <utterance display_value="When can i payout from my provident fund?">5af65a871b8620d0ef5b635ee54bcb5e</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>1984192657</payload_hash>
+        <record_name>Pension.When can i payout from my provident fund?</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:16</sys_created_on>
+        <sys_id>7dfb97df87db3050c386fd99cebb3522</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64f82be0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:16</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>b9fb97dff2db305068f77a8ea0e27222</update_guid>
+        <update_guid_history>b9fb97dff2db305068f77a8ea0e27222:0,1ee8df9fc71f7450ca751ab4d4d75c79:-925089250,f8b1fc90959f301077f0de823246a8ee:0,ea200da79d4b78105081586f97a1bbd7:-364806700,493db8cfc1c3b4100b1329347bd8cbda:0,4457e08b2043b410585a46c808b2bf60:1256520581,fe7b0cc3ed8f741052edce101a36a046:0,ea78040bd14f74102fe27e9ee98ed80b:157438010,e7de9683ef8e64d0f36164ad8bad4e1a:-907872081</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 13:13:13">68f4616687337810c386fd99cebb3545</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 11:13:13</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>026dd45a78d84b8484ad6a66918e6a44</sys_id>
+        <sys_metadata>23de96831b8e64d0122465fce54bcb19</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.When can i payout from my provident fund?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_23de96831b8e64d0122465fce54bcb19</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_23de96831b8e64d0122465fce54bcb19">7dfb97df87db3050c386fd99cebb3522</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:13:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

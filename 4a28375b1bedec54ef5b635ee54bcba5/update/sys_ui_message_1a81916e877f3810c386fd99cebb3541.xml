@@ -7,18 +7,18 @@
         <language>en</language>
         <message>Sick leave may not be taken as holiday leave. Sick leave is unplanned leave  taken by an employee due to illness. A Medical Doctor or a Medical Pratictioner registered with South Health Council deems an employee unfit to work due to illness for a set time period as set out in the medical certificate provided to an employee. The employee will be required to submit the certificate when capturing sick leave benefit on Workday.
 
-For more information about sick leave in South Africa, take a look at this [article](https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010232).</message>
+For more information about sick leave process in South Africa, take a look at this [article](https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010232).</message>
         <sys_class_name>sys_ui_message</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-11-16 09:48:24</sys_created_on>
         <sys_id>1a81916e877f3810c386fd99cebb3541</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>va:topic:0eef9ad51b31a410ef5b635ee54bcb59:node:9736d5cc7cec4c2d908c9b98f2af5325:field:value</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_ui_message_1a81916e877f3810c386fd99cebb3541</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-16 09:48:24</sys_updated_on>
+        <sys_updated_on>2021-11-16 11:46:32</sys_updated_on>
     </sys_ui_message>
 </record_update>

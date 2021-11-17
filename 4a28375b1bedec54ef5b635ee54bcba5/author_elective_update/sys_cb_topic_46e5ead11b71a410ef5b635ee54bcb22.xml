@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category>b531aa591b31a410ef5b635ee54bcb6b</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "4515d04a1592431f9c6bcf701eeeb59d": {
+          "id": "4515d04a1592431f9c6bcf701eeeb59d",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "dc4a1b62dfee4a87ac24e5fa0171b20e": {
+          "id": "dc4a1b62dfee4a87ac24e5fa0171b20e",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "099871555e3246a9be121e8b3218812d": {
+          "id": "099871555e3246a9be121e8b3218812d",
+          "stepType": "TextOutput",
+          "name": "Retrieve Payslip",
+          "value": {
+            "value": "Retrieve Payslip Response",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "ea4e29a4d8af47e39fbcdda024b85e49",
+          "edgeType": "Edge",
+          "source": "4515d04a1592431f9c6bcf701eeeb59d",
+          "target": "099871555e3246a9be121e8b3218812d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c23699ef56e84706907b5b39bce8d9e1",
+          "edgeType": "Edge",
+          "source": "099871555e3246a9be121e8b3218812d",
+          "target": "dc4a1b62dfee4a87ac24e5fa0171b20e",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Retrieve Payslip</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Retrieve Payslip</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:27:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>46e5ead11b71a410ef5b635ee54bcb22</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Retrieve Payslip</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_46e5ead11b71a410ef5b635ee54bcb22</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-18 12:28:08</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=46e5ead11b71a410ef5b635ee54bcb22"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_cb_topic_46e5ead11b71a410ef5b635ee54bcb22</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category>b531aa591b31a410ef5b635ee54bcb6b</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "4515d04a1592431f9c6bcf701eeeb59d": {
+          "id": "4515d04a1592431f9c6bcf701eeeb59d",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "dc4a1b62dfee4a87ac24e5fa0171b20e": {
+          "id": "dc4a1b62dfee4a87ac24e5fa0171b20e",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "099871555e3246a9be121e8b3218812d": {
+          "id": "099871555e3246a9be121e8b3218812d",
+          "stepType": "TextOutput",
+          "name": "Retrieve Payslip",
+          "value": {
+            "value": "Retrieve Payslip Response",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "ea4e29a4d8af47e39fbcdda024b85e49",
+          "edgeType": "Edge",
+          "source": "4515d04a1592431f9c6bcf701eeeb59d",
+          "target": "099871555e3246a9be121e8b3218812d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c23699ef56e84706907b5b39bce8d9e1",
+          "edgeType": "Edge",
+          "source": "099871555e3246a9be121e8b3218812d",
+          "target": "dc4a1b62dfee4a87ac24e5fa0171b20e",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Retrieve Payslip</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Retrieve Payslip</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:27:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>46e5ead11b71a410ef5b635ee54bcb22</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Retrieve Payslip</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_46e5ead11b71a410ef5b635ee54bcb22</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-01-18 12:28:08</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=46e5ead11b71a410ef5b635ee54bcb22"/>
+</record_update>]]></payload>
+        <payload_hash>-1015697547</payload_hash>
+        <record_name>Retrieve Payslip</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:06</sys_created_on>
+        <sys_id>ce2cd353871f3050c386fd99cebb3579</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650468b0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:06</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>0e2cd353681f3050a3467167fe95fe79</update_guid>
+        <update_guid_history>0e2cd353681f3050a3467167fe95fe79:0,b5295f13825f74501f31df80c9b98836:1547218758,94e1f4142e9f3010d1509b5623f350f1:0,0060892bbc4b7810e782287ab689ef2d:-2028486843,e86df0431d07b4105aa54d2d57be83d5:0,ed87accb2343b4106396be5ded6c7ce8:769509156,f6ab48471d8f741003cedd64a87c3e30:0,df090c0f584f7410d378a1346eabd235:751092462,c59c9af722063010ab4186248c8f003f:560216437,c64c1eb77c063010c2d85d1c253ffe9b:-1745110996,97fb9eb7ec0630109890c77a29d11a25:1689956917,a9f5a6d1be71a410061c401dabe520c6:-561260881,0ee5ead1cb71a410e889f0b040f4a739:-876337940</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:13:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>838c2474e1534fa092ce9ede10042900</sys_id>
+        <sys_metadata>46e5ead11b71a410ef5b635ee54bcb22</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Retrieve Payslip</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_46e5ead11b71a410ef5b635ee54bcb22</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_46e5ead11b71a410ef5b635ee54bcb22">ce2cd353871f3050c386fd99cebb3579</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:13:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
     <sys_cb_topic action="INSERT_OR_UPDATE">
         <applicability/>
-        <applicability_mode/>
+        <applicability_mode>query</applicability_mode>
         <autopilot_topic>false</autopilot_topic>
         <category>b531aa591b31a410ef5b635ee54bcb6b</category>
         <channels/>
@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>true</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.21.pp4",
+  "graph_api_version": "1.0.36",
   "goals": {
     "primary": {
       "id": "primary",
@@ -42,15 +42,82 @@
         "68939791d86c4e61a43e891f448e1432": {
           "id": "68939791d86c4e61a43e891f448e1432",
           "stepType": "TextOutput",
-          "name": "IRP5 Certificate",
+          "name": "Retrieve Payslip/Tax Certificate",
           "value": {
-            "value": "IRP5 Certification Response",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You can find your payslips, IRP5 certificates and other documents on "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://wd3.myworkday.com/absa/d/home.htmld",
+                    "children": [
+                      {
+                        "text": "Workday"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". For more information, have a look at the following guides: "
+                  }
+                ]
+              },
+              {
+                "type": "bulleted-list",
+                "children": [
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://absahr.service-now.com/myhrportal?sys_kb_id=25dee5e41b422c507cb065bfe54bcb0f&amp;id=kb_article_view&amp;sysparm_rank=3&amp;sysparm_tsqueryId=76365a6e1bf7f810b637a97ce54bcb7d",
+                        "children": [
+                          {
+                            "text": "Payslips"
+                          }
+                        ]
+                      },
+                      {
+                        "text": " "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://absahr.service-now.com/myhrportal?sys_kb_id=cd040c0e1b43e4103231ea0ee54bcb5f&amp;id=kb_article_view&amp;sysparm_rank=1&amp;sysparm_tsqueryId=8af41eaa1bf7f810b637a97ce54bcb48",
+                        "children": [
+                          {
+                            "text": "Tax Certificates"
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
             "value": "",
             "mode": "query"
-          }
+          },
+          "secure": false
         }
       },
       "edges": [
@@ -84,10 +151,10 @@
     }
   }
 }</graph>
-        <key_phrases>IRP5 Certificate</key_phrases>
+        <key_phrases>TF - PayslipIRP5 Certificate</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>IRP5 Certificate</name>
+        <name>TF - PayslipIRP5 Certificate</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -101,14 +168,14 @@
         <sys_created_on>2021-01-18 12:28:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>f916a6d11b71a410ef5b635ee54bcb18</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>IRP5 Certificate</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>TF - PayslipIRP5 Certificate</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_f916a6d11b71a410ef5b635ee54bcb18</sys_update_name>
-        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
-        <sys_updated_on>2021-01-28 14:40:52</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 15:07:57</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

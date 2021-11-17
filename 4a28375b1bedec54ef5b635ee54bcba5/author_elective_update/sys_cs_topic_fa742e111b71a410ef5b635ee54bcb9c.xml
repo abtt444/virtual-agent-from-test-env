@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="DELETE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Increasing Monthly Contribution">0b73e29d1b31a410ef5b635ee54bcb0f</cb_topic_id>
+        <channels/>
+        <definition>{"id":"0b73e29d1b31a410ef5b635ee54bcb0f","name":"Increasing Monthly Contribution","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Increasing Monthly Contribution","applicability":"true","category":"","key_phrases":["Increasing Monthly Contribution"],"variables":[{"name":"__segment_trigger_cf963fc29c08465eb2612abf3b1b2e20_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_25045b8c0e16a410598393a7e09cc1b0","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_4a92f08da1fd4aed8fa8295fa096f389","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_f43e11bdd9ab45d4825b4710686bc1fa","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_a1045b8c2b16a410044bc67da3db54b0","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_OutputPrompt_d7f1110a3325423e92e75e1a24f74c21","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_cf963fc29c08465eb2612abf3b1b2e20_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_25045b8c0e16a410598393a7e09cc1b0\");vaInputs.initialize(\"__silent_StartGoal_4a92f08da1fd4aed8fa8295fa096f389\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0\");vaInputs.initialize(\"__silent_Decision_RootDecision_a1045b8c2b16a410044bc67da3db54b0\");vaInputs.initialize(\"__silent_TerminateGoal_f43e11bdd9ab45d4825b4710686bc1fa\");vaInputs.initialize(\"__silent_OutputPrompt_d7f1110a3325423e92e75e1a24f74c21\");null;","fields":[{"name":"__silent_Decision_RootDecision_a1045b8c2b16a410044bc67da3db54b0","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_a1045b8c2b16a410044bc67da3db54b0\";vaInputs.__silent_Decision_RootDecision_a1045b8c2b16a410044bc67da3db54b0=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_a1045b8c2b16a410044bc67da3db54b0\";vaInputs.RootDecisionBranch_25045b8c0e16a410598393a7e09cc1b0=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_a1045b8c2b16a410044bc67da3db54b0\" &amp;&amp; ((vaInputs.RootDecisionBranch_25045b8c0e16a410598393a7e09cc1b0.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0___RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0\";vaInputs.__silent_Branch_RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0___RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0\";null;"},{"name":"__silent_StartGoal_4a92f08da1fd4aed8fa8295fa096f389","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0___RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___4a92f08da1fd4aed8fa8295fa096f389\";vaInputs.__silent_StartGoal_4a92f08da1fd4aed8fa8295fa096f389=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___4a92f08da1fd4aed8fa8295fa096f389\";null;"},{"name":"__silent_OutputPrompt_d7f1110a3325423e92e75e1a24f74c21","applicable":"vaVars.previous_graph_node==\"Start___4a92f08da1fd4aed8fa8295fa096f389\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Increasing monthly contribution ___d7f1110a3325423e92e75e1a24f74c21\";vaInputs.__silent_OutputPrompt_d7f1110a3325423e92e75e1a24f74c21=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Increasing monthly contribution ___d7f1110a3325423e92e75e1a24f74c21\";(function execute() {return gs.getMessageLang(\"Response for Increasing Monthly Pension Contribution \", vaContext.getRequesterLang());})();"},{"name":"__silent_TerminateGoal_f43e11bdd9ab45d4825b4710686bc1fa","applicable":"vaVars.previous_graph_node==\"Increasing monthly contribution ___d7f1110a3325423e92e75e1a24f74c21\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___f43e11bdd9ab45d4825b4710686bc1fa\";vaInputs.__silent_TerminateGoal_f43e11bdd9ab45d4825b4710686bc1fa=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___f43e11bdd9ab45d4825b4710686bc1fa\";vaVars.__segment_trigger_cf963fc29c08465eb2612abf3b1b2e20_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":false,"design_category":"d801a2591b31a410ef5b635ee54bcb52","nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"score":0.0,"visible":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Increasing Monthly Contribution","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category>d801a2591b31a410ef5b635ee54bcb52</design_category>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Increasing Monthly Contribution</key_phrases>
+        <last_published_on>2021-02-08 15:08:23</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>KNTR MN0L ANKR</metaphone>
+        <name>Increasing Monthly Contribution</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-18 12:21:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fa742e111b71a410ef5b635ee54bcb9c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Increasing Monthly Contribution</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_fa742e111b71a410ef5b635ee54bcb9c</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:08:23</sys_updated_on>
+        <title>Increasing Monthly Contribution</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="DELETE" query="document_key=fa742e111b71a410ef5b635ee54bcb9c"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_cs_topic_fa742e111b71a410ef5b635ee54bcb9c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Increasing Monthly Contribution">0b73e29d1b31a410ef5b635ee54bcb0f</cb_topic_id>
+        <channels/>
+        <definition>{"id":"0b73e29d1b31a410ef5b635ee54bcb0f","name":"Increasing Monthly Contribution","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Increasing Monthly Contribution","applicability":"true","category":"","key_phrases":["Increasing Monthly Contribution"],"variables":[{"name":"__segment_trigger_cf963fc29c08465eb2612abf3b1b2e20_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_25045b8c0e16a410598393a7e09cc1b0","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_4a92f08da1fd4aed8fa8295fa096f389","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_f43e11bdd9ab45d4825b4710686bc1fa","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_a1045b8c2b16a410044bc67da3db54b0","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_OutputPrompt_d7f1110a3325423e92e75e1a24f74c21","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_cf963fc29c08465eb2612abf3b1b2e20_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_25045b8c0e16a410598393a7e09cc1b0\");vaInputs.initialize(\"__silent_StartGoal_4a92f08da1fd4aed8fa8295fa096f389\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0\");vaInputs.initialize(\"__silent_Decision_RootDecision_a1045b8c2b16a410044bc67da3db54b0\");vaInputs.initialize(\"__silent_TerminateGoal_f43e11bdd9ab45d4825b4710686bc1fa\");vaInputs.initialize(\"__silent_OutputPrompt_d7f1110a3325423e92e75e1a24f74c21\");null;","fields":[{"name":"__silent_Decision_RootDecision_a1045b8c2b16a410044bc67da3db54b0","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_a1045b8c2b16a410044bc67da3db54b0\";vaInputs.__silent_Decision_RootDecision_a1045b8c2b16a410044bc67da3db54b0=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_a1045b8c2b16a410044bc67da3db54b0\";vaInputs.RootDecisionBranch_25045b8c0e16a410598393a7e09cc1b0=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_a1045b8c2b16a410044bc67da3db54b0\" &amp;&amp; ((vaInputs.RootDecisionBranch_25045b8c0e16a410598393a7e09cc1b0.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0___RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0\";vaInputs.__silent_Branch_RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0___RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0\";null;"},{"name":"__silent_StartGoal_4a92f08da1fd4aed8fa8295fa096f389","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0___RootDecisionBranch_e1045b8c3816a41092e2f8b4774cdfb0\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___4a92f08da1fd4aed8fa8295fa096f389\";vaInputs.__silent_StartGoal_4a92f08da1fd4aed8fa8295fa096f389=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___4a92f08da1fd4aed8fa8295fa096f389\";null;"},{"name":"__silent_OutputPrompt_d7f1110a3325423e92e75e1a24f74c21","applicable":"vaVars.previous_graph_node==\"Start___4a92f08da1fd4aed8fa8295fa096f389\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Increasing monthly contribution ___d7f1110a3325423e92e75e1a24f74c21\";vaInputs.__silent_OutputPrompt_d7f1110a3325423e92e75e1a24f74c21=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Increasing monthly contribution ___d7f1110a3325423e92e75e1a24f74c21\";(function execute() {return gs.getMessageLang(\"Response for Increasing Monthly Pension Contribution \", vaContext.getRequesterLang());})();"},{"name":"__silent_TerminateGoal_f43e11bdd9ab45d4825b4710686bc1fa","applicable":"vaVars.previous_graph_node==\"Increasing monthly contribution ___d7f1110a3325423e92e75e1a24f74c21\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___f43e11bdd9ab45d4825b4710686bc1fa\";vaInputs.__silent_TerminateGoal_f43e11bdd9ab45d4825b4710686bc1fa=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___f43e11bdd9ab45d4825b4710686bc1fa\";vaVars.__segment_trigger_cf963fc29c08465eb2612abf3b1b2e20_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":false,"design_category":"d801a2591b31a410ef5b635ee54bcb52","nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"score":0.0,"visible":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Increasing Monthly Contribution","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category>d801a2591b31a410ef5b635ee54bcb52</design_category>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Increasing Monthly Contribution</key_phrases>
+        <last_published_on>2021-02-08 15:08:23</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>KNTR MN0L ANKR</metaphone>
+        <name>Increasing Monthly Contribution</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-18 12:21:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fa742e111b71a410ef5b635ee54bcb9c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Increasing Monthly Contribution</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_fa742e111b71a410ef5b635ee54bcb9c</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:08:23</sys_updated_on>
+        <title>Increasing Monthly Contribution</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=fa742e111b71a410ef5b635ee54bcb9c"/>
+</record_update>]]></payload>
+        <payload_hash>-1762236117</payload_hash>
+        <record_name>Increasing Monthly Contribution</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:12</sys_created_on>
+        <sys_id>2f2c9753871f3050c386fd99cebb354b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6505ec80000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:12</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>6b2c9753d01f3050ec80e4a0239cea4b</update_guid>
+        <update_guid_history>6b2c9753d01f3050ec80e4a0239cea4b:0,1b599793345f745012c6f6e78c0278bd:-1663773033,86099fdf091f7450d55ecc0e95eeba65:0,f5e1b8147d9f3010db8a09c3b242bdf4:0,8c908d6bb14b78105b1ca2be88a342b5:-756205450,c5400de7294b7810ce6c6cf4ab7c2d27:0,4e6db4438807b410138423e3e56d6ee4:0,61b7e44f0643b410629e261beb31fd45:-2055782765,cb6760cb5343b41077de608b2ab4ddd9:0,58bbc847388f7410b9895d79ab6704f7:0,6189c003fd8f7410a2d865832bbfafb5:623821265,0a98044bf64f7410390817424b13ff18:0,49f2eefb334a38100a2f3d9964293f85:-1947744033,1fe2aefb3b4a38105bbe4c2e205c1fe6:1925143325,6d045b8c1b16a4106abbba0ae62cc3b3:-1430510864,45e4ea51d571a41047fbdb5eb1414f06:333436153,4b742e11fc71a4100e59bd290abb409e:942714047</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 14:16:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_topic">sys_cs_topic</sys_db_object>
+        <sys_id>04fc51b3e92848bc8170a6fec449ce10</sys_id>
+        <sys_metadata>fa742e111b71a410ef5b635ee54bcb9c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Increasing Monthly Contribution</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cs_topic_fa742e111b71a410ef5b635ee54bcb9c</sys_update_name>
+        <sys_update_version display_value="sys_cs_topic_fa742e111b71a410ef5b635ee54bcb9c">2f2c9753871f3050c386fd99cebb354b</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 14:16:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

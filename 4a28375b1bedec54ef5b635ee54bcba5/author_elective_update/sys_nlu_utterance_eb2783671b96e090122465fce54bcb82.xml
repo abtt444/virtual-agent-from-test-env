@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Retrive Payslip ">1af65a871b8620d0ef5b635ee54bcb79</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 11:11:00</sys_created_on>
+        <sys_id>eb2783671b96e090122465fce54bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>salary advice </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_eb2783671b96e090122465fce54bcb82</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:11:00</sys_updated_on>
+        <utterance>salary advice </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_eb2783671b96e090122465fce54bcb82</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Retrive Payslip ">1af65a871b8620d0ef5b635ee54bcb79</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 11:11:00</sys_created_on>
+        <sys_id>eb2783671b96e090122465fce54bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>salary advice </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_eb2783671b96e090122465fce54bcb82</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:11:00</sys_updated_on>
+        <utterance>salary advice </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-1480019045</payload_hash>
+        <record_name>salary advice </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:19:09</sys_created_on>
+        <sys_id>1d6c1fd3871f3050c386fd99cebb3507</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6513ba30000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:19:09</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>596c1fd3951f305074900f9ed934ce07</update_guid>
+        <update_guid_history>596c1fd3951f305074900f9ed934ce07:0,05a89b1fb21f74504bcdbe6826f62f1f:-478133762,2a12f494549f301026aedd00ede8d37d:0,c6eff8270b4b7810671f70d96215ead7:-1090481524,0f9db4c33007b410ca503ddb24fea732:0,2817a00bc643b410dfe2418dcf51ca85:-587516776,6aebc8c7d68f74106b1133a04c729621:0,ca38cc47b44f741085fa5579f0795db3:-1838491027,af2783679496e09006b453c0adb49f83:1548303642</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:33:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>0243f59d477342b8968d0e5a870b1264</sys_id>
+        <sys_metadata>eb2783671b96e090122465fce54bcb82</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>salary advice </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_eb2783671b96e090122465fce54bcb82</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_eb2783671b96e090122465fce54bcb82">1d6c1fd3871f3050c386fd99cebb3507</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:33:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

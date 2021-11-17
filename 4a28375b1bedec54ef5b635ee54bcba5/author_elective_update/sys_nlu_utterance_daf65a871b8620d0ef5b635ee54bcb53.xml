@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Withdrawal from Pension">caf65a871b8620d0ef5b635ee54bcb1b</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:42</sys_created_on>
+        <sys_id>daf65a871b8620d0ef5b635ee54bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>When can I payout from my retirement fund?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_daf65a871b8620d0ef5b635ee54bcb53</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:42</sys_updated_on>
+        <utterance>When can I payout from my retirement fund?</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_daf65a871b8620d0ef5b635ee54bcb53</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Withdrawal from Pension">caf65a871b8620d0ef5b635ee54bcb1b</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:42</sys_created_on>
+        <sys_id>daf65a871b8620d0ef5b635ee54bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>When can I payout from my retirement fund?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_daf65a871b8620d0ef5b635ee54bcb53</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:42</sys_updated_on>
+        <utterance>When can I payout from my retirement fund?</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>1773116022</payload_hash>
+        <record_name>When can I payout from my retirement fund?</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:19:05</sys_created_on>
+        <sys_id>e46c5bd3871f3050c386fd99cebb3554</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6512dfa0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:19:05</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>246c5bd3e31f30509e4d53f974f88554</update_guid>
+        <update_guid_history>246c5bd3e31f30509e4d53f974f88554:0,cfe813df891f745028eb587474dbd5cb:853703998,31127494549f3010b2c7f6ab280085b6:0,5b208da76e4b78104bc8b20014689406:978259220,5e9d34c3e607b41098bcb9fe60cbbe5e:0,7057248b3343b410a57d6780139650a8:1899649847,a9eb08c7b38f7410571287d42049b95d:0,8f78840b164f74103732029fdbab067d:860289115,1ef65a87a08620d0f0cda13e82d88d54:-291676383</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 11:13:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>b31458381d2a400081ccb34a07c5c900</sys_id>
+        <sys_metadata>daf65a871b8620d0ef5b635ee54bcb53</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>When can I payout from my retirement fund?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_daf65a871b8620d0ef5b635ee54bcb53</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_daf65a871b8620d0ef5b635ee54bcb53">e46c5bd3871f3050c386fd99cebb3554</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:13:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

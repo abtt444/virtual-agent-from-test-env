@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="IRP5 Certificate">2af69a871b8620d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 12:25:13</sys_created_on>
+        <sys_id>8d9e8e531b9e2090122465fce54bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>where can i fill out my IRP5 tax certificate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_8d9e8e531b9e2090122465fce54bcbbe</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 12:25:13</sys_updated_on>
+        <utterance>where can i fill out my IRP5 tax certificate</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_8d9e8e531b9e2090122465fce54bcbbe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="IRP5 Certificate">2af69a871b8620d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 12:25:13</sys_created_on>
+        <sys_id>8d9e8e531b9e2090122465fce54bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>where can i fill out my IRP5 tax certificate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_8d9e8e531b9e2090122465fce54bcbbe</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 12:25:13</sys_updated_on>
+        <utterance>where can i fill out my IRP5 tax certificate</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>1636839572</payload_hash>
+        <record_name>where can i fill out my IRP5 tax certificate</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:49</sys_created_on>
+        <sys_id>205c9f93871f3050c386fd99cebb3534</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650eddc0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:49</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>6c5c9f939e1f3050f22307eea7ec2a33</update_guid>
+        <update_guid_history>6c5c9f939e1f3050f22307eea7ec2a33:0,a2a85f1fd61f7450136d0e437fba0627:893274509,c6027c54d49f3010bfddb199efefe4ab:0,57efbc275d4b7810ad65f32e85a84e76:-1589110139,da8d38836d07b410049c3afe4ea5c37d:0,b117240be243b410ee97ebf790a5f6ff:2117491280,55db8c87808f7410d8a6b1891ed68ba0:0,5738c087a04f74107a9eac0941482d2b:561341228,419e8e53c29e20903d0ca6ae666f63c0:-147079763</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:35:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>55b8d70f4fb540379feb57991b866b89</sys_id>
+        <sys_metadata>8d9e8e531b9e2090122465fce54bcbbe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>where can i fill out my IRP5 tax certificate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_8d9e8e531b9e2090122465fce54bcbbe</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_8d9e8e531b9e2090122465fce54bcbbe">205c9f93871f3050c386fd99cebb3534</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:35:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

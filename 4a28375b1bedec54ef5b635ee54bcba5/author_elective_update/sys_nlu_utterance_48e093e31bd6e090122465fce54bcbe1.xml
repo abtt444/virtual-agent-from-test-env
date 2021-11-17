@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="IRP5 Certificate">2af69a871b8620d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 11:53:21</sys_created_on>
+        <sys_id>48e093e31bd6e090122465fce54bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>availability of tax certificates </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_48e093e31bd6e090122465fce54bcbe1</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:53:21</sys_updated_on>
+        <utterance>availability of tax certificates </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_48e093e31bd6e090122465fce54bcbe1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="IRP5 Certificate">2af69a871b8620d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 11:53:21</sys_created_on>
+        <sys_id>48e093e31bd6e090122465fce54bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>availability of tax certificates </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_48e093e31bd6e090122465fce54bcbe1</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:53:21</sys_updated_on>
+        <utterance>availability of tax certificates </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>1594014952</payload_hash>
+        <record_name>availability of tax certificates </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:35</sys_created_on>
+        <sys_id>cd4c1793871f3050c386fd99cebb357f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650b85c0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:35</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>0d4c1793cf1f3050c6e39fcfa9237e7f</update_guid>
+        <update_guid_history>0d4c1793cf1f3050c6e39fcfa9237e7f:0,12a81f1f3e1f7450a8001f6b286b907f:-836075501,f6f1b454279f301004cb23cba6f68e59:0,4befbc273a4b7810d0dd7e63bff30a1f:1815063459,837d7083e607b410bbd57c6bac072cff:0,6d17240bcc43b41020c6f1280de240b4:1035975587,75cbc487c98f74103b4ea477387231e4:0,43388087444f7410969ce29129f3dd71:923924899,08e093e3c1d6e09075ae432b8d9be7e2:240775409</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:35:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>4f59ba176cea4541b298bcf552121bf9</sys_id>
+        <sys_metadata>48e093e31bd6e090122465fce54bcbe1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>availability of tax certificates </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_48e093e31bd6e090122465fce54bcbe1</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_48e093e31bd6e090122465fce54bcbe1">cd4c1793871f3050c386fd99cebb357f</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:35:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

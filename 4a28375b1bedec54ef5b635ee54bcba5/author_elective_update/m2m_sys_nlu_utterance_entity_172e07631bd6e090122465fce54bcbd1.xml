@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"when will the {{phrase=\"tax\"}} certificates become available","start":14,"end":16}]</annotation>
+        <entity display_value="Tax">9a0e8a131b9e2090122465fce54bcb67</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 11:41:34</sys_created_on>
+        <sys_id>172e07631bd6e090122465fce54bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tax.when will the tax certificates become available</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_172e07631bd6e090122465fce54bcbd1</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:41:34</sys_updated_on>
+        <utterance display_value="when will the tax certificates become available">1e2e07631bd6e090122465fce54bcbda</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_172e07631bd6e090122465fce54bcbd1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"when will the {{phrase=\"tax\"}} certificates become available","start":14,"end":16}]</annotation>
+        <entity display_value="Tax">9a0e8a131b9e2090122465fce54bcb67</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 11:41:34</sys_created_on>
+        <sys_id>172e07631bd6e090122465fce54bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tax.when will the tax certificates become available</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_172e07631bd6e090122465fce54bcbd1</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:41:34</sys_updated_on>
+        <utterance display_value="when will the tax certificates become available">1e2e07631bd6e090122465fce54bcbda</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>1841172125</payload_hash>
+        <record_name>Tax.when will the tax certificates become available</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:13</sys_created_on>
+        <sys_id>4dfb17df87db3050c386fd99cebb3577</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64f778b0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:13</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>89fb17dfebdb3050eb29f3e4f73b7777</update_guid>
+        <update_guid_history>89fb17dfebdb3050eb29f3e4f73b7777:0,4ea8db1f8d1f7450d43a3670d54cc3e9:-513221092,dcb1bc90679f3010d2b195330ebf1da0:0,3eef7c27b94b7810c1655c7712191b93:-963807863,183d78cf1ac3b410a7e427f77138f167:0,9d17240b7a43b41025821cf1fd116f41:-550959618,ce7bc8c3528f74102334ea618c58e92a:0,7e3840878a4f74101f8e6d49e849f568:1842177938,d72e076373d6e090d011df4275e820d2:-1298526933</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 14:35:11">5db731661bb3b010cb139753b24bcb71</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:35:11</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>47d5f459610d41d49febc4afa086c2c9</sys_id>
+        <sys_metadata>172e07631bd6e090122465fce54bcbd1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tax.when will the tax certificates become available</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_172e07631bd6e090122465fce54bcbd1</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_172e07631bd6e090122465fce54bcbd1">4dfb17df87db3050c386fd99cebb3577</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:35:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

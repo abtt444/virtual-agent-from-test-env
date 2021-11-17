@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:1095ea911b71a410ef5b635ee54bcbd7:node:23e0faa999d94b7da07ce8a6c2e9bf1e:field:value</key>
+        <language>en</language>
+        <message>Your leave balance can be found as follows: 
+1. Access Workday
+2. Click on the cloud icon or on your picture if uploaded and click on view profile from dropdown 
+3. Underneath you name and surname on the far left, click on **Time off**
+4. On the next page click on **Time off balance**
+5. Click on **View Time Off balance**
+6. All types of leave will appear. **Ending Period balance** is your leave balance.
+
+Your accumulated leave may be encashed or used as holiday leave instead of annual leave. Please note that we can encash up to 12 days of accumulated leave per year.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 13:42:46</sys_created_on>
+        <sys_id>87274aae1bf3b010cb139753b24bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:1095ea911b71a410ef5b635ee54bcbd7:node:23e0faa999d94b7da07ce8a6c2e9bf1e:field:value</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_87274aae1bf3b010cb139753b24bcbc4</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 13:42:46</sys_updated_on>
+    </sys_ui_message>
+</record_update>

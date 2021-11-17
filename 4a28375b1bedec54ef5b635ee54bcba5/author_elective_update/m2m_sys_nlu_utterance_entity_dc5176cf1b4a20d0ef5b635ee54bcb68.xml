@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"Does my {{phrase=\"payslip\"}} get saved in workday?","start":8,"end":14}]</annotation>
+        <entity display_value="Payslip">dff03a8f1b4a20d0ef5b635ee54bcb75</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 10:02:49</sys_created_on>
+        <sys_id>dc5176cf1b4a20d0ef5b635ee54bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payslip.Does my payslip get saved in workday? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_dc5176cf1b4a20d0ef5b635ee54bcb68</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:02:49</sys_updated_on>
+        <utterance display_value="Does my payslip get saved in workday? ">d6f65a871b8620d0ef5b635ee54bcbaf</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_dc5176cf1b4a20d0ef5b635ee54bcb68</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"Does my {{phrase=\"payslip\"}} get saved in workday?","start":8,"end":14}]</annotation>
+        <entity display_value="Payslip">dff03a8f1b4a20d0ef5b635ee54bcb75</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 10:02:49</sys_created_on>
+        <sys_id>dc5176cf1b4a20d0ef5b635ee54bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payslip.Does my payslip get saved in workday? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_dc5176cf1b4a20d0ef5b635ee54bcb68</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:02:49</sys_updated_on>
+        <utterance display_value="Does my payslip get saved in workday? ">d6f65a871b8620d0ef5b635ee54bcbaf</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>-1921935748</payload_hash>
+        <record_name>Payslip.Does my payslip get saved in workday? </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:55</sys_created_on>
+        <sys_id>9b1c9f13871f3050c386fd99cebb3524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65019f00000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:55</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>d71c9f136e1f305054e64fdf45fcee24</update_guid>
+        <update_guid_history>d71c9f136e1f305054e64fdf45fcee24:0,30a85b1f5f1f74501c17b4592fc441bb:1480797242,f5d1b014599f30106c2863381f0994c8:0,31eff827b84b781082e32e7b75b7cf86:-843769002,ca5dbc032707b41063745022109c4330:0,9017a00b9043b41047902c4a4fffe434:83409329,0cab0447898f7410bf848096bdda7521:0,fd38cc47014f7410467c7ba9fd23573c:364654062,1c513acfd74a20d075560462c4baac3b:-1998267000</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 14:33:40">b25735261bb3b010cb139753b24bcb4d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:33:40</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>1d491051dc8d4ba8b5ef4fe9b19e0189</sys_id>
+        <sys_metadata>dc5176cf1b4a20d0ef5b635ee54bcb68</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payslip.Does my payslip get saved in workday? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_dc5176cf1b4a20d0ef5b635ee54bcb68</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_dc5176cf1b4a20d0ef5b635ee54bcb68">9b1c9f13871f3050c386fd99cebb3524</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:33:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

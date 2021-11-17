@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Retrive Payslip ">1af65a871b8620d0ef5b635ee54bcb79</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 11:35:45</sys_created_on>
+        <sys_id>8edc07231bd6e090122465fce54bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>will my payslip come up on my phone</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_8edc07231bd6e090122465fce54bcb2e</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:35:45</sys_updated_on>
+        <utterance>will my payslip come up on my phone</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_8edc07231bd6e090122465fce54bcb2e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Retrive Payslip ">1af65a871b8620d0ef5b635ee54bcb79</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 11:35:45</sys_created_on>
+        <sys_id>8edc07231bd6e090122465fce54bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>will my payslip come up on my phone</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_8edc07231bd6e090122465fce54bcb2e</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:35:45</sys_updated_on>
+        <utterance>will my payslip come up on my phone</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-397028651</payload_hash>
+        <record_name>will my payslip come up on my phone</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:49</sys_created_on>
+        <sys_id>2c5c9f93871f3050c386fd99cebb3549</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650eea90000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:49</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>685c9f93831f3050d7e32817d47cd749</update_guid>
+        <update_guid_history>685c9f93831f3050d7e32817d47cd749:0,a8a85b1f791f7450a0d7e50e3cbf8542:1133763066,4e027c546b9f30104ea7b97b1e3ec8bf:0,61eff827504b78100e76423e3a16d809:-117495266,528d38836607b41012cb17789c632792:0,4017600be443b4105138386e8f0b91d0:389821724,99db8c87e08f7410c88266111bc427b5:0,69388c47904f74109988bd787a9fb9b3:122374260,4edc0723ead6e090088c9b40d84b562f:1945078608</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 10:59:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>2654000fb7c84026984f7bd7b5b5db64</sys_id>
+        <sys_metadata>8edc07231bd6e090122465fce54bcb2e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>will my payslip come up on my phone</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_8edc07231bd6e090122465fce54bcb2e</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_8edc07231bd6e090122465fce54bcb2e">2c5c9f93871f3050c386fd99cebb3549</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 10:59:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

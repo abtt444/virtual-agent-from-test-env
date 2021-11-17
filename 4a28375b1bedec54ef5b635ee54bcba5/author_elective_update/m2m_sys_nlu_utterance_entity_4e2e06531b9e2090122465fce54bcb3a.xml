@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"where can i see my {{phrase=\"taxes\"}}","start":19,"end":23}]</annotation>
+        <entity display_value="Tax">9a0e8a131b9e2090122465fce54bcb67</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 12:23:23</sys_created_on>
+        <sys_id>4e2e06531b9e2090122465fce54bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tax.where can i see my taxes</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_4e2e06531b9e2090122465fce54bcb3a</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 12:23:23</sys_updated_on>
+        <utterance display_value="where can i see my taxes">052e82531b9e2090122465fce54bcb35</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_4e2e06531b9e2090122465fce54bcb3a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"where can i see my {{phrase=\"taxes\"}}","start":19,"end":23}]</annotation>
+        <entity display_value="Tax">9a0e8a131b9e2090122465fce54bcb67</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 12:23:23</sys_created_on>
+        <sys_id>4e2e06531b9e2090122465fce54bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tax.where can i see my taxes</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_4e2e06531b9e2090122465fce54bcb3a</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 12:23:23</sys_updated_on>
+        <utterance display_value="where can i see my taxes">052e82531b9e2090122465fce54bcb35</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>1156090113</payload_hash>
+        <record_name>Tax.where can i see my taxes</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:26</sys_created_on>
+        <sys_id>000cdbdf87db3050c386fd99cebb350c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64fa76e0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:26</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>4c0cdbdfcddb3050d5276efe39671d0b</update_guid>
+        <update_guid_history>4c0cdbdfcddb3050d5276efe39671d0b:0,5e889fdb361f7450fc82e709070a8c76:1754015435,07b134d0139f301081ec39f3f419a698:0,7cdf3027da4b781057885729d2aab3af:-2075565464,1b3dfccf9cc3b410b166dfe80769c839:0,abf6e4c7c843b410f330f67e6649a039:1195570919,418b0007638f74102c6a53a37888eee4:0,ec280447bf4f7410043f8cc1432814f3:-318084470,062e0653279e2090b626bc838f8fee3c:-1090582216</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 14:35:11">c1b731661bb3b010cb139753b24bcb41</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:35:11</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>29ffa1beb9ed4ba8a7748bed78877e90</sys_id>
+        <sys_metadata>4e2e06531b9e2090122465fce54bcb3a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tax.where can i see my taxes</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_4e2e06531b9e2090122465fce54bcb3a</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_4e2e06531b9e2090122465fce54bcb3a">000cdbdf87db3050c386fd99cebb350c</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:35:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

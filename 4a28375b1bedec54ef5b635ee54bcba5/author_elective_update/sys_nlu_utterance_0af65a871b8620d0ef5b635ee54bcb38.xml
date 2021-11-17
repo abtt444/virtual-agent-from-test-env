@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Withdrawal from Pension">caf65a871b8620d0ef5b635ee54bcb1b</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:42</sys_created_on>
+        <sys_id>0af65a871b8620d0ef5b635ee54bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>can i withdraw my pension to transfer into a different pension fund </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_0af65a871b8620d0ef5b635ee54bcb38</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:42</sys_updated_on>
+        <utterance>can i withdraw my pension to transfer into a different pension fund </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_0af65a871b8620d0ef5b635ee54bcb38</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Withdrawal from Pension">caf65a871b8620d0ef5b635ee54bcb1b</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:42</sys_created_on>
+        <sys_id>0af65a871b8620d0ef5b635ee54bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>can i withdraw my pension to transfer into a different pension fund </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_0af65a871b8620d0ef5b635ee54bcb38</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:42</sys_updated_on>
+        <utterance>can i withdraw my pension to transfer into a different pension fund </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-2108463026</payload_hash>
+        <record_name>can i withdraw my pension to transfer into a different pension fund </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:22</sys_created_on>
+        <sys_id>023cdb53871f3050c386fd99cebb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65085a20000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:22</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>4e3cdb53b81f30507d5e6bdcf5aeeafa</update_guid>
+        <update_guid_history>4e3cdb53b81f30507d5e6bdcf5aeeafa:0,79e89f9fff1f74501cb53928601c2f68:1283580089,73e1fc14ab9f3010c177bdf816bc65b1:0,02200da7684b78107ab70fc213731313:784460858,587df8436207b410cbfeeb3d0e9fb5df:0,2747a08ba443b41037fe2bfee888e476:-1923516614,a2bb4087f98f74108d6486af1771797a:0,0678800b2d4f7410b43b125419465fa5:1131872472,4af65a87458620d0e6e1a97c2363ad39:1831931617</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 11:13:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>1859918c0af74cfd99601f252d8da179</sys_id>
+        <sys_metadata>0af65a871b8620d0ef5b635ee54bcb38</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>can i withdraw my pension to transfer into a different pension fund </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_0af65a871b8620d0ef5b635ee54bcb38</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_0af65a871b8620d0ef5b635ee54bcb38">023cdb53871f3050c386fd99cebb35fb</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:13:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"i would like to retrieve my {{phrase=\"IRP5 Certificate\"}} please can you assist","start":28,"end":43}]</annotation>
+        <entity display_value="IRP5">7780fa0f1b4a20d0ef5b635ee54bcb8a</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 10:00:01</sys_created_on>
+        <sys_id>67a07a4f1b4a20d0ef5b635ee54bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5.i would like to retrieve my IRP5 Certificate please can you assist</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_67a07a4f1b4a20d0ef5b635ee54bcb1c</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:00:01</sys_updated_on>
+        <utterance display_value="i would like to retrieve my IRP5 Certificate please can you assist">6ef69a871b8620d0ef5b635ee54bcb2f</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_67a07a4f1b4a20d0ef5b635ee54bcb1c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"i would like to retrieve my {{phrase=\"IRP5 Certificate\"}} please can you assist","start":28,"end":43}]</annotation>
+        <entity display_value="IRP5">7780fa0f1b4a20d0ef5b635ee54bcb8a</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 10:00:01</sys_created_on>
+        <sys_id>67a07a4f1b4a20d0ef5b635ee54bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5.i would like to retrieve my IRP5 Certificate please can you assist</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_67a07a4f1b4a20d0ef5b635ee54bcb1c</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:00:01</sys_updated_on>
+        <utterance display_value="i would like to retrieve my IRP5 Certificate please can you assist">6ef69a871b8620d0ef5b635ee54bcb2f</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>488220746</payload_hash>
+        <record_name>IRP5.i would like to retrieve my IRP5 Certificate please can you assist</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:31</sys_created_on>
+        <sys_id>a50c9fdf87db3050c386fd99cebb3535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64fbea10000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:31</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>e10c9fdf37db30502189623a4f16b735</update_guid>
+        <update_guid_history>e10c9fdf37db30502189623a4f16b735:0,1aa81f1f1a1f745097d33f2daa02eceb:-1877184364,90c1f4d05d9f3010dcb5b159f3fe74cc:0,9befbc27714b781035fab80d7bc44756:-1081616616,a44db0037a07b410c7fdfefe3ec95b6d:0,a517240b7a43b410f365c5a896b8e2df:1911874950,1a8b0407728f74100db263e23548150b:0,df388087004f7410b33777d4fe1109c0:1829542909,2fa07a4f0f4a20d0f5a635f96f19741d:1345123401</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 14:35:14">35b771661bb3b010cb139753b24bcbb3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:35:14</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>28258282e34a4002a0c057b9d471c544</sys_id>
+        <sys_metadata>67a07a4f1b4a20d0ef5b635ee54bcb1c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5.i would like to retrieve my IRP5 Certificate please can you assist</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_67a07a4f1b4a20d0ef5b635ee54bcb1c</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_67a07a4f1b4a20d0ef5b635ee54bcb1c">a50c9fdf87db3050c386fd99cebb3535</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:35:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

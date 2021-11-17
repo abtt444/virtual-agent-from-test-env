@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"How do I draw my tax {{phrase=\"certificate\"}}","start":21,"end":31}]</annotation>
+        <entity display_value="IRP5">7780fa0f1b4a20d0ef5b635ee54bcb8a</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 11:42:08</sys_created_on>
+        <sys_id>2f4e83e31bd6e090122465fce54bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5.How do I draw my tax certificate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_2f4e83e31bd6e090122465fce54bcbd0</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:42:08</sys_updated_on>
+        <utterance display_value="How do I draw my tax certificate">325dc7231bd6e090122465fce54bcbef</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_2f4e83e31bd6e090122465fce54bcbd0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"How do I draw my tax {{phrase=\"certificate\"}}","start":21,"end":31}]</annotation>
+        <entity display_value="IRP5">7780fa0f1b4a20d0ef5b635ee54bcb8a</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 11:42:08</sys_created_on>
+        <sys_id>2f4e83e31bd6e090122465fce54bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5.How do I draw my tax certificate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_2f4e83e31bd6e090122465fce54bcbd0</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:42:08</sys_updated_on>
+        <utterance display_value="How do I draw my tax certificate">325dc7231bd6e090122465fce54bcbef</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>1160255857</payload_hash>
+        <record_name>IRP5.How do I draw my tax certificate</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:19</sys_created_on>
+        <sys_id>a6fbd7df87db3050c386fd99cebb35a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64f8e2e0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:19</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>e2fbd7dfc0db3050b06175c2a5d3dda6</update_guid>
+        <update_guid_history>e2fbd7dfc0db3050b06175c2a5d3dda6:0,0ea81f1f891f7450739b5863ad70f349:772386391,69b170d0969f30101cb2f705dd6d0451:0,8fef7c27c24b7810bb1ef1db88087cee:1483590531,bd3d3ccfa8c3b4105f2727f881dd4749:0,9917240b5643b410e238b678f3615177:-523457344,677b8cc3a18f7410b65af7487c85d50d:0,cb3840870d4f74102dc0d40fe46d96f5:-1024573384,ef4e83e341d6e09069d697e04a3e44d1:1174149343</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 14:35:12">11b731661bb3b010cb139753b24bcbff</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:35:12</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>3c56543433934990aa2b107392e25711</sys_id>
+        <sys_metadata>2f4e83e31bd6e090122465fce54bcbd0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5.How do I draw my tax certificate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_2f4e83e31bd6e090122465fce54bcbd0</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_2f4e83e31bd6e090122465fce54bcbd0">a6fbd7df87db3050c386fd99cebb35a6</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:35:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

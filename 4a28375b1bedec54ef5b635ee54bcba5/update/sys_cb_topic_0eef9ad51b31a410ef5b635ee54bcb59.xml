@@ -99,222 +99,6 @@
           "stepType": "Decision",
           "name": "Region Decision"
         },
-        "c013b26d63e744b3aedf5e25b9aab90b": {
-          "id": "c013b26d63e744b3aedf5e25b9aab90b",
-          "stepType": "LinkOutput",
-          "name": "Uganda Leave",
-          "url": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  },
-                  {
-                    "text": "https://en.wikipedia.org/wiki/Uganda"
-                  },
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "label": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  },
-                  {
-                    "text": "Here"
-                  },
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "header": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  },
-                  {
-                    "text": "Thank you. You can apply for sick leave for Uganda employees"
-                  },
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          },
-          "linkType": "single",
-          "introMsg": {
-            "value": "",
-            "mode": "simple"
-          },
-          "listOfLinks": ""
-        },
-        "31ac41e2e3084a7a9134d8733af7e304": {
-          "id": "31ac41e2e3084a7a9134d8733af7e304",
-          "stepType": "LinkOutput",
-          "name": "Tanzania Leave",
-          "url": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  },
-                  {
-                    "text": "https://en.wikipedia.org/wiki/Tanzania"
-                  },
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "label": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  },
-                  {
-                    "text": "Here"
-                  },
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "header": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  },
-                  {
-                    "text": "Thank you. You can apply for sick leave for Tanzania employees"
-                  },
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          },
-          "linkType": "single",
-          "introMsg": {
-            "value": "",
-            "mode": "simple"
-          },
-          "listOfLinks": ""
-        },
-        "44b37705d8a842cb8aaac5fe28bdf752": {
-          "id": "44b37705d8a842cb8aaac5fe28bdf752",
-          "stepType": "LinkOutput",
-          "name": "Seychelles Leave",
-          "url": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  },
-                  {
-                    "text": "https://en.wikipedia.org/wiki/Seychelles"
-                  },
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "label": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  },
-                  {
-                    "text": "Here"
-                  },
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "header": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  },
-                  {
-                    "text": "Thank you. You can apply for sick leave for Seychelles employees"
-                  },
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          },
-          "linkType": "single",
-          "introMsg": {
-            "value": "",
-            "mode": "simple"
-          },
-          "listOfLinks": ""
-        },
         "ae3a20aed5d64c82a4b22b1584c77424": {
           "id": "ae3a20aed5d64c82a4b22b1584c77424",
           "stepType": "TextOutput",
@@ -554,7 +338,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "For more information about sick leave in South Africa, take a look at this "
+                    "text": "For more information about sick leave process in South Africa, take a look at this "
                   },
                   {
                     "type": "link",
@@ -589,7 +373,124 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "bots response"
+                    "text": "Take a look the "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010761",
+                    "children": [
+                      {
+                        "text": "knowledge article"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " to find everything you need to know about the sick leave process in Botswana. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "08c83e9b2a17426c97f8b6292e0ed160": {
+          "id": "08c83e9b2a17426c97f8b6292e0ed160",
+          "stepType": "TextOutput",
+          "name": "seychelles",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look the "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010227",
+                    "children": [
+                      {
+                        "text": "knowledge article"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " to find everything you need to know about the sick leave process in Seychelles. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "fe43bf781a334522977d9b0171701d65": {
+          "id": "fe43bf781a334522977d9b0171701d65",
+          "stepType": "TextOutput",
+          "name": "Mauritius",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look the "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010881",
+                    "children": [
+                      {
+                        "text": "knowledge article"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " to find everything you need to know about the sick leave process in Mauritius. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "2ac7167b55f345339d5120de5e7b83af": {
+          "id": "2ac7167b55f345339d5120de5e7b83af",
+          "stepType": "TextOutput",
+          "name": "Ghana",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look the "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010853",
+                    "children": [
+                      {
+                        "text": "knowledge article"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " to find everything you need to know about the sick leave process in Ghana. "
                   }
                 ]
               }
@@ -608,69 +509,6 @@
           "edgeType": "Edge",
           "source": "372136420662438b8f9be1beee40eadf",
           "target": "f479d96625c6479f9e90725e0c2a6499",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "3feabb51a19b4b7bb179cdb5e34121ff",
-          "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "c013b26d63e744b3aedf5e25b9aab90b",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.region_selection=Uganda",
-            "mode": "query"
-          },
-          "label": "Uganda"
-        },
-        {
-          "id": "35e49bb755384adaaf163566ef9e6c57",
-          "edgeType": "Edge",
-          "source": "c013b26d63e744b3aedf5e25b9aab90b",
-          "target": "1356f800100542f898b34a415ad67d93",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "aa8fb6f50f44437b94586b3de0c26572",
-          "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "31ac41e2e3084a7a9134d8733af7e304",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.region_selection=Tanzania",
-            "mode": "query"
-          },
-          "label": "Tanzania"
-        },
-        {
-          "id": "8f23640714294e17917a2e3462955997",
-          "edgeType": "Edge",
-          "source": "31ac41e2e3084a7a9134d8733af7e304",
-          "target": "1356f800100542f898b34a415ad67d93",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "81c26bde7aef41d9850e74aa636a4c42",
-          "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "44b37705d8a842cb8aaac5fe28bdf752",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.region_selection=Seychelles",
-            "mode": "query"
-          },
-          "label": "Seychelles"
-        },
-        {
-          "id": "9c16f58b420f463f9ebf6c12cdbdab97",
-          "edgeType": "Edge",
-          "source": "44b37705d8a842cb8aaac5fe28bdf752",
-          "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
         },
@@ -706,10 +544,10 @@
           "sourcePort": "",
           "targetPort": "",
           "expression": {
-            "value": "vaInputs.sickleave=What is Sick Leave?",
+            "value": "vaInputs.sickleave=What is the Sick Leave Process?",
             "mode": "query"
           },
-          "label": "What is Sick Leave?"
+          "label": "What is the Sick Leave Process?"
         },
         {
           "id": "a4171af61a7445a1ae13d55d0c59c669",
@@ -794,6 +632,69 @@
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
+        },
+        {
+          "id": "81c26bde7aef41d9850e74aa636a4c42",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "08c83e9b2a17426c97f8b6292e0ed160",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Seychelles",
+            "mode": "query"
+          },
+          "label": "Seychelles"
+        },
+        {
+          "id": "a10206c533a546bebe668ad77fc2e736",
+          "edgeType": "Edge",
+          "source": "08c83e9b2a17426c97f8b6292e0ed160",
+          "target": "1356f800100542f898b34a415ad67d93",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "aa8fb6f50f44437b94586b3de0c26572",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "fe43bf781a334522977d9b0171701d65",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Mauritius",
+            "mode": "query"
+          },
+          "label": "Mauritius"
+        },
+        {
+          "id": "54583807b1f2492888d7d49f20ec4419",
+          "edgeType": "Edge",
+          "source": "fe43bf781a334522977d9b0171701d65",
+          "target": "1356f800100542f898b34a415ad67d93",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "3feabb51a19b4b7bb179cdb5e34121ff",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "2ac7167b55f345339d5120de5e7b83af",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Ghana",
+            "mode": "query"
+          },
+          "label": "Ghana"
+        },
+        {
+          "id": "ffa52853201145d99d6955087ad77fb0",
+          "edgeType": "Edge",
+          "source": "2ac7167b55f345339d5120de5e7b83af",
+          "target": "1356f800100542f898b34a415ad67d93",
+          "sourcePort": "",
+          "targetPort": ""
         }
       ]
     }
@@ -833,8 +734,8 @@
           "checked": true
         },
         {
-          "label": "Uganda",
-          "value": "Uganda",
+          "label": "Mauritius",
+          "value": "Mauritius",
           "checked": true
         }
       ],
@@ -856,8 +757,8 @@
           "checked": true
         },
         {
-          "label": "What is Sick Leave?",
-          "value": "What is Sick Leave?",
+          "label": "What is the Sick Leave Process?",
+          "value": "What is the Sick Leave Process?",
           "checked": true
         }
       ],
@@ -882,14 +783,14 @@
         <sys_created_on>2021-01-18 12:01:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>0eef9ad51b31a410ef5b635ee54bcb59</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>TF - ApplySickLeave</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_0eef9ad51b31a410ef5b635ee54bcb59</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-16 09:48:17</sys_updated_on>
+        <sys_updated_on>2021-11-16 11:46:21</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

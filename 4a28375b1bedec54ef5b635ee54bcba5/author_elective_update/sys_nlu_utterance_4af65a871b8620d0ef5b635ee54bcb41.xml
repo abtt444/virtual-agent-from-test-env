@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Withdrawal from Pension">caf65a871b8620d0ef5b635ee54bcb1b</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:42</sys_created_on>
+        <sys_id>4af65a871b8620d0ef5b635ee54bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>can i send a request to withdraw my pension on workday </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_4af65a871b8620d0ef5b635ee54bcb41</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:42</sys_updated_on>
+        <utterance>can i send a request to withdraw my pension on workday </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_4af65a871b8620d0ef5b635ee54bcb41</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Withdrawal from Pension">caf65a871b8620d0ef5b635ee54bcb1b</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:42</sys_created_on>
+        <sys_id>4af65a871b8620d0ef5b635ee54bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>can i send a request to withdraw my pension on workday </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_4af65a871b8620d0ef5b635ee54bcb41</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:42</sys_updated_on>
+        <utterance>can i send a request to withdraw my pension on workday </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>2030702040</payload_hash>
+        <record_name>can i send a request to withdraw my pension on workday </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:36</sys_created_on>
+        <sys_id>d14c1793871f3050c386fd99cebb35dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650b9f40000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:36</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>114c1793221f30509f6d670eb32ef0dd</update_guid>
+        <update_guid_history>114c1793221f30509f6d670eb32ef0dd:0,12e8df9f791f745083c0386ba4a48615:-1936978845,32f1b4544e9f3010f628495d0a9c93d9:0,9e200da7bd4b7810be305693a81430a8:-6848850,9b7db0835707b41098b5008454717627:0,7347e08b8143b41009763add23e60f25:-1387860007,35cb0887198f741092f122b5c001c419:0,5278c00b1b4f741067767cc8147501ab:-840356843,8af65a87378620d0a3bb19e3c23d6a42:-1609569165</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 11:13:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>0d1bfe7b86fc4f408550ec4c73e26564</sys_id>
+        <sys_metadata>4af65a871b8620d0ef5b635ee54bcb41</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>can i send a request to withdraw my pension on workday </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_4af65a871b8620d0ef5b635ee54bcb41</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_4af65a871b8620d0ef5b635ee54bcb41">d14c1793871f3050c386fd99cebb35dd</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:13:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

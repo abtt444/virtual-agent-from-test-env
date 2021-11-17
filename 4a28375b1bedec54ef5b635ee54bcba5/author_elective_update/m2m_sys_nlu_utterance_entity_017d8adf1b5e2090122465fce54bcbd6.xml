@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"can i see my monthly {{phrase=\"gross salary\"}}","start":21,"end":32}]</annotation>
+        <entity display_value="Payslip">dff03a8f1b4a20d0ef5b635ee54bcb75</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 12:20:19</sys_created_on>
+        <sys_id>017d8adf1b5e2090122465fce54bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payslip.can i see my monthly gross salary</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_017d8adf1b5e2090122465fce54bcbd6</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 12:20:19</sys_updated_on>
+        <utterance display_value="can i see my monthly gross salary">0b4d4e5f1b5e2090122465fce54bcbf0</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_017d8adf1b5e2090122465fce54bcbd6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"can i see my monthly {{phrase=\"gross salary\"}}","start":21,"end":32}]</annotation>
+        <entity display_value="Payslip">dff03a8f1b4a20d0ef5b635ee54bcb75</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 12:20:19</sys_created_on>
+        <sys_id>017d8adf1b5e2090122465fce54bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payslip.can i see my monthly gross salary</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_017d8adf1b5e2090122465fce54bcbd6</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 12:20:19</sys_updated_on>
+        <utterance display_value="can i see my monthly gross salary">0b4d4e5f1b5e2090122465fce54bcbf0</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>-698451040</payload_hash>
+        <record_name>Payslip.can i see my monthly gross salary</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:08</sys_created_on>
+        <sys_id>7feb53df87db3050c386fd99cebb35e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64f62300000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:08</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>bbeb53dfbadb3050aecb3ec3383701e8</update_guid>
+        <update_guid_history>bbeb53dfbadb3050aecb3ec3383701e8:0,fd7857db671f7450de6f941772ec1e67:152168136,b2a1f890f59f3010847c4b1749f85fe0:0,95cfb8e3e74b781017176187a4c8be5d:-1428012939,4f2db4cfd5c3b41049ccc28facdae78d:0,d8f620c7ff43b41033f7b714e99ff4b6:1908520708,207b08c34a8f7410c53bfb6a9e77d683:0,b308c807954f741035058d4888f34b22:-441983253,c57d8adfb45e2090802e786e667b2fd7:400165344</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 14:33:37">ce57b1261bb3b010cb139753b24bcbbc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:33:37</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>233767c2006f410a8cd48d2207dea431</sys_id>
+        <sys_metadata>017d8adf1b5e2090122465fce54bcbd6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payslip.can i see my monthly gross salary</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_017d8adf1b5e2090122465fce54bcbd6</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_017d8adf1b5e2090122465fce54bcbd6">7feb53df87db3050c386fd99cebb35e8</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:33:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

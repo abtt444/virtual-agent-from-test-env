@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>2ef69a871b8620d0ef5b635ee54bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view Retirement fund </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_2ef69a871b8620d0ef5b635ee54bcb12</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+        <utterance>view Retirement fund </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_2ef69a871b8620d0ef5b635ee54bcb12</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>2ef69a871b8620d0ef5b635ee54bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view Retirement fund </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_2ef69a871b8620d0ef5b635ee54bcb12</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+        <utterance>view Retirement fund </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>1531853268</payload_hash>
+        <record_name>view Retirement fund </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:30</sys_created_on>
+        <sys_id>ff3cdf53871f3050c386fd99cebb35bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650a1f00000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:30</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>3f3cdf53951f3050aa5e96deb97979bc</update_guid>
+        <update_guid_history>3f3cdf53951f3050aa5e96deb97979bc:0,66f8d7dfd81f74502d34afa153436330:159056347,e5f1f0547e9f30101e0490ab956a117e:0,0a3045e7364b78107cfaf3d5980ac145:-336332097,317dfc434207b4109dee5b10717bc53d:0,2b57a88b8343b4103646d34e898edeed:-858311051,18cb4487308f7410199773993d334e47:0,02880c0b2c4f7410e47e51e87b87f8db:385416327,6ef69a87c18620d0c072b25122aab413:-955655835</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 11:57:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>9007d3c96b8445c885dbeeb45d889c01</sys_id>
+        <sys_metadata>2ef69a871b8620d0ef5b635ee54bcb12</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view Retirement fund </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_2ef69a871b8620d0ef5b635ee54bcb12</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_2ef69a871b8620d0ef5b635ee54bcb12">ff3cdf53871f3050c386fd99cebb35bc</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:57:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
