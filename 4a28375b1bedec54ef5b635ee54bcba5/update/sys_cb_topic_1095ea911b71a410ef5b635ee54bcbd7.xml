@@ -57,7 +57,14 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1. Access Workday"
+                    "text": "1. On Workday, click on the cloud icon or  your profile and select "
+                  },
+                  {
+                    "text": "view profile",
+                    "bold": true
+                  },
+                  {
+                    "text": " from the dropdown "
                   }
                 ]
               },
@@ -65,15 +72,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "2. Click on the cloud icon or on your picture if uploaded and click on view profile from dropdown "
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "3. Underneath you name and surname on the far left, click on "
+                    "text": "2. Underneath your name and surname on the left of your screen, click on "
                   },
                   {
                     "text": "Time off",
@@ -85,7 +84,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "4. On the next page click on "
+                    "text": "3. Select "
                   },
                   {
                     "text": "Time off balance",
@@ -97,7 +96,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "5. Click on "
+                    "text": "4. Click on "
                   },
                   {
                     "text": "View Time Off balance",
@@ -109,7 +108,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "6. All types of leave will appear. "
+                    "text": "5. All types of leave will appear. "
                   },
                   {
                     "text": "Ending Period balance",
@@ -132,7 +131,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Your accumulated leave may be encashed or used as holiday leave instead of annual leave. Please note that we can encash up to 12 days of accumulated leave per year."
+                    "text": "Your accumulated leave may be encashed or used as holiday leave instead of annual leave. Please note that we can only encash up to 12 days of accumulated leave per year."
                   }
                 ]
               },
@@ -202,14 +201,14 @@
         <sys_created_on>2021-01-18 12:26:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>1095ea911b71a410ef5b635ee54bcbd7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>TF - AccumulatedLeave</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_1095ea911b71a410ef5b635ee54bcbd7</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-16 13:42:38</sys_updated_on>
+        <sys_updated_on>2021-11-17 08:52:16</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

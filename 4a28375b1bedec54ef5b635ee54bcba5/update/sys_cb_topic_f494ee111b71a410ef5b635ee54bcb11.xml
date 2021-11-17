@@ -72,62 +72,54 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Here is how you can go about making your leave encashment request: "
+                    "text": "Here is how you can go about making your leave encashment request:"
                   }
                 ]
               },
               {
-                "type": "bulleted-list",
+                "type": "paragraph",
                 "children": [
                   {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Type "
-                      },
-                      {
-                        "text": "Create Request ",
-                        "bold": true
-                      },
-                      {
-                        "text": "in the Workday Search field"
-                      }
-                    ]
+                    "text": "1. On Workday, in the search field type "
                   },
                   {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Select "
-                      },
-                      {
-                        "text": "Leave Encashment ",
-                        "bold": true
-                      },
-                      {
-                        "text": "from the list appearing"
-                      }
-                    ]
+                    "text": "Create Request ",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. Select "
                   },
                   {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Fill in the questionnaire, ie. number of days"
-                      }
-                    ]
+                    "text": "Leave Encashment ",
+                    "bold": true
                   },
                   {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Click on "
-                      },
-                      {
-                        "text": "Submit",
-                        "bold": true
-                      }
-                    ]
+                    "text": "from the list appearing"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3. Fill in the questionnaire, ie. number of days"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "4. Click on "
+                  },
+                  {
+                    "text": "Submit",
+                    "bold": true
                   }
                 ]
               },
@@ -213,14 +205,14 @@
         <sys_created_on>2021-01-18 12:22:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>f494ee111b71a410ef5b635ee54bcb11</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>TF - Leave Encashment</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_f494ee111b71a410ef5b635ee54bcb11</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-16 09:18:40</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-17 08:43:31</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

@@ -322,7 +322,15 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Sick leave may not be taken as holiday leave. Sick leave is unplanned leave  taken by an employee due to illness. A Medical Doctor or a Medical Pratictioner registered with South Health Council deems an employee unfit to work due to illness for a set time period as set out in the medical certificate provided to an employee. The employee will be required to submit the certificate when capturing sick leave benefit on Workday."
+                    "text": "Please note that sick leave may not be taken as holiday leave and is rather unplanned leave taken by a colleague due to illness. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "A medical doctor or a medical practitioner registered with the South African Health Council, deems a colleague unfit to work due to illness for a set time period as set out in the medical certificate provided to a colleague. The colleague will then be required to submit the certificate when capturing sick leave on Workday."
                   }
                 ]
               },
@@ -338,7 +346,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "For more information about sick leave process in South Africa, take a look at this "
+                    "text": "For more information about the sick leave process in South Africa, take a look at this "
                   },
                   {
                     "type": "link",
@@ -373,7 +381,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Take a look the "
+                    "text": "Take a look at the "
                   },
                   {
                     "type": "link",
@@ -408,7 +416,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Take a look the "
+                    "text": "Take a look at the "
                   },
                   {
                     "type": "link",
@@ -443,7 +451,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Take a look the "
+                    "text": "Take a look at the "
                   },
                   {
                     "type": "link",
@@ -478,7 +486,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Take a look the "
+                    "text": "Take a look at the "
                   },
                   {
                     "type": "link",
@@ -783,14 +791,14 @@
         <sys_created_on>2021-01-18 12:01:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>0eef9ad51b31a410ef5b635ee54bcb59</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>TF - ApplySickLeave</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_0eef9ad51b31a410ef5b635ee54bcb59</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-16 11:46:21</sys_updated_on>
+        <sys_updated_on>2021-11-17 08:24:03</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

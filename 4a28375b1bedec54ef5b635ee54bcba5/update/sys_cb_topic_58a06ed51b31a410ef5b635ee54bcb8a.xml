@@ -57,15 +57,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1.        Please access you people portal"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "2.        Select "
+                    "text": "1. Access your people portal, and select "
                   },
                   {
                     "text": "log a case",
@@ -77,7 +69,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "3.        Under categories select: "
+                    "text": "2. Under categories select "
                   },
                   {
                     "text": "Payroll Payment request",
@@ -89,7 +81,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "4.        Complete the mandatory fields"
+                    "text": "3. Complete the mandatory fields"
                   }
                 ]
               },
@@ -97,14 +89,11 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "5.        Then click on "
+                    "text": "4. Click on "
                   },
                   {
-                    "text": "submit",
+                    "text": "submit ",
                     "bold": true
-                  },
-                  {
-                    "text": "."
                   }
                 ]
               }
@@ -166,14 +155,14 @@
         <sys_created_on>2021-01-18 12:04:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>58a06ed51b31a410ef5b635ee54bcb8a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>TF - SickLeaveNotPaidOut</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_58a06ed51b31a410ef5b635ee54bcb8a</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-16 11:52:13</sys_updated_on>
+        <sys_updated_on>2021-11-17 08:40:24</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

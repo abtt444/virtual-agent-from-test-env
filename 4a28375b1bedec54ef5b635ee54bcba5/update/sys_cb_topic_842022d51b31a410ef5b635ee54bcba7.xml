@@ -142,7 +142,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1. Access Workday"
+                    "text": "1. On Workday, click on the cloud icon at the top right of your screen then select your name/view profile"
                   }
                 ]
               },
@@ -150,15 +150,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "2. Click on the cloud icon- top right of the screen then select your name/view profile"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "3. On the left side of your screen - click on "
+                    "text": "2. On the left side of your screen, click on "
                   },
                   {
                     "text": "Actions",
@@ -173,7 +165,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "4. Choose "
+                    "text": "3. Choose "
                   },
                   {
                     "text": "Worker history",
@@ -192,14 +184,21 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "5. Click on "
+                    "text": "4. Click on "
                   },
                   {
                     "text": "add",
                     "bold": true
                   },
                   {
-                    "text": " and under drop files here select files attach and click on ok bottom left"
+                    "text": " and under drop files,  select the files that you would like to attach and click on "
+                  },
+                  {
+                    "text": "ok",
+                    "bold": true
+                  },
+                  {
+                    "text": " near the bottom left of your screen "
                   }
                 ]
               },
@@ -207,78 +206,14 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "6. Click on "
+                    "text": "5. Click on "
                   },
                   {
                     "text": "done",
                     "bold": true
                   },
                   {
-                    "text": " on the bottom left when you have successfully added your document"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
+                    "text": " near the bottom left of your screen when you have successfully added your document"
                   }
                 ]
               }
@@ -301,7 +236,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Please attach the Doctors note in PDF format"
+                    "text": "Please attach the doctor's note in PDF format. "
                   }
                 ]
               }
@@ -324,7 +259,15 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Your sick leave may be submitted on Workday without the Doctor's note. Doctors notes are required when capturing sick leave of more than 2 days or when sick leave is taken on more than 2 occasions in an 8-week period."
+                    "text": "Normally, your sick leave can be submitted on Workday without a doctor's note. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "However, a doctor's notes is required when capturing sick leave of more than 2 days or when sick leave is taken on more than 2 occasions in an 8-week period."
                   }
                 ]
               }
@@ -479,14 +422,14 @@
         <sys_created_on>2021-01-18 12:02:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>842022d51b31a410ef5b635ee54bcba7</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>TF - SickLeaveDoctorsNote</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_842022d51b31a410ef5b635ee54bcba7</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-16 09:02:47</sys_updated_on>
+        <sys_updated_on>2021-11-17 08:31:25</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:bbf5ce3e1b86ac90ef5b635ee54bcb94:node:33fc4312724644cf804ae8011ffd5619:field:value</key>
+        <language>en</language>
+        <message>There are courses available on the My learning system that can be registered by colleagues. To access the courses, you can do the following:
+
+
+- Access **MyLearning** 
+- In the search field type **MyContribution**
+- All related searches available will appear)
+- The course will assist on the understanding on the process as well as navigating the system</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-17 10:54:19</sys_created_on>
+        <sys_id>153a223e1b733410cb139753b24bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:bbf5ce3e1b86ac90ef5b635ee54bcb94:node:33fc4312724644cf804ae8011ffd5619:field:value</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_153a223e1b733410cb139753b24bcb20</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-17 10:54:19</sys_updated_on>
+    </sys_ui_message>
+</record_update>
