@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "8e73ab84e1494d2daaf97cb36af8aee9": {
+          "id": "8e73ab84e1494d2daaf97cb36af8aee9",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "ec1099b3fd56441d88c097718a2c53a5": {
+          "id": "ec1099b3fd56441d88c097718a2c53a5",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "2745153feea44be688b56cae3b942eb9": {
+          "id": "2745153feea44be688b56cae3b942eb9",
+          "stepType": "TextOutput",
+          "name": "tax benefits",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "If you are working from home, we have good news for you. By using your personal space as an office you may be eligible for tax deductions from SARS this season!"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "For information on how to claim certain deductions please follow this {link}."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "e173681d419747a08befc893a1046668",
+          "edgeType": "Edge",
+          "source": "8e73ab84e1494d2daaf97cb36af8aee9",
+          "target": "2745153feea44be688b56cae3b942eb9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9242a9e5a1c545c38f55149a584bbd00",
+          "edgeType": "Edge",
+          "source": "2745153feea44be688b56cae3b942eb9",
+          "target": "ec1099b3fd56441d88c097718a2c53a5",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>TF - Tax Benefits from Home</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>TF - Tax Benefits from Home</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-18 14:23:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>69a36c9b873f3410c386fd99cebb35f8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>TF - Tax Benefits from Home</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_69a36c9b873f3410c386fd99cebb35f8</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-18 14:25:21</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=69a36c9b873f3410c386fd99cebb35f8"/>
+</record_update>

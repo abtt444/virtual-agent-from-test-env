@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_language">
+    <sys_cb_topic_language action="INSERT_OR_UPDATE">
+        <cb_topic_id display_value="Self-Service">c1085bcf87b33410c386fd99cebb3512</cb_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[{"node_id":"45300ff9c089407d84e62ca7cd91d491","variable_name":"button_decision","nlu_entity":"","nlu_entity_label":""}]</nlu_entities>
+        <nlu_intent>TF- Self-Service</nlu_intent>
+        <nlu_intent_label>TF- Self-Service</nlu_intent_label>
+        <nlu_model>ml_x_absa2_x_absa2_absa_hr_nl_global_7d23a1ae87ff3810c386fd99cebb35cf</nlu_model>
+        <nlu_model_label>Absa HR Chatbot NLU Model Nov</nlu_model_label>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cb_topic_language</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-18 08:52:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1d08970387f33410c386fd99cebb35e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_language_1d08970387f33410c386fd99cebb35e4</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-18 09:47:22</sys_updated_on>
+    </sys_cb_topic_language>
+</record_update>

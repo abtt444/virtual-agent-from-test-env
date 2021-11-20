@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="TF - Absa Leadership Academy">7e64e41f873f3410c386fd99cebb3596</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-18 14:30:18</sys_created_on>
+        <sys_id>cf35e09f873f3410c386fd99cebb3528</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>who is responsible for the absa leadership program</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_cf35e09f873f3410c386fd99cebb3528</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-18 14:30:24</sys_updated_on>
+        <utterance>who is responsible for the absa leadership program</utterance>
+    </sys_nlu_utterance>
+</record_update>

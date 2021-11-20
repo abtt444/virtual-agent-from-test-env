@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:1e9c80d7877b3410c386fd99cebb3583:node:3a8367f4ed77400a9b62d2825494391f:field:value</key>
+        <language>en</language>
+        <message>As an Absa employee, you are eligible for a 30% discount on Microsoft Office 365 on up to 6 devices. This benefit has no time limit and you can continue using the software at its discounted price for as long as you are an Absa employee.
+To take advantage of this offer:
+1. Go to [http://hup.microsoft.com/](http://hup.microsoft.com/) and enter your work email address 
+2. You will receive an email from Microsoft with a link.
+3. Log in with your personal Microsoft Live account. And choose your preferred product.
+For complete details, please read here {​insert link}.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-18 12:59:38</sys_created_on>
+        <sys_id>f270dc9f877b3410c386fd99cebb35ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:1e9c80d7877b3410c386fd99cebb3583:node:3a8367f4ed77400a9b62d2825494391f:field:value</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_f270dc9f877b3410c386fd99cebb35ae</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-18 12:59:38</sys_updated_on>
+    </sys_ui_message>
+</record_update>

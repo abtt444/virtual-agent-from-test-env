@@ -65,7 +65,19 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "{Button 1}"
+                    "text": "If you are using a personal vehicle for business travel, you may be reimbursed at the prevailing reimbursement rate as reviewed from time to time. Take a look at the "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010179",
+                    "children": [
+                      {
+                        "text": "Car Benefits and Travel Reimbursement"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " knowledge article to find out more. "
                   }
                 ]
               },
@@ -73,7 +85,27 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "{Button 2}"
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You can also follow the step-by-step processes to learn "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010716",
+                    "children": [
+                      {
+                        "text": "How to Manage Time and Allowances on Workday"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
                   }
                 ]
               }
@@ -135,14 +167,14 @@
         <sys_created_on>2021-01-18 12:20:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>bf14eedd1b31a410ef5b635ee54bcb72</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Travel Claims</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_bf14eedd1b31a410ef5b635ee54bcb72</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-16 09:36:10</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-18 08:13:58</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

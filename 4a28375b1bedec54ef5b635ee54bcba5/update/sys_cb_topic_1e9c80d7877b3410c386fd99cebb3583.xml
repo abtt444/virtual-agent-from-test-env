@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "e3cf403a27974af88d76bae1a5e62186": {
+          "id": "e3cf403a27974af88d76bae1a5e62186",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "7d4d0d6ce848445c9fe159ea590ed0af": {
+          "id": "7d4d0d6ce848445c9fe159ea590ed0af",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "3a8367f4ed77400a9b62d2825494391f": {
+          "id": "3a8367f4ed77400a9b62d2825494391f",
+          "stepType": "TextOutput",
+          "name": "office365",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "As an Absa employee, you are eligible for a 30% discount on Microsoft Office 365 on up to 6 devices. This benefit has no time limit and you can continue using the software at its discounted price for as long as you are an Absa employee."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "To take advantage of this offer:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. Go to "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://hup.microsoft.com/",
+                    "children": [
+                      {
+                        "text": "http://hup.microsoft.com/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and enter your work email address "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. You will receive an email from Microsoft with a link."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3. Log in with your personal Microsoft Live account. And choose your preferred product."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "For complete details, please read here {insert link}. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "b2303d7ae079404586d9175f05801284",
+          "edgeType": "Edge",
+          "source": "e3cf403a27974af88d76bae1a5e62186",
+          "target": "3a8367f4ed77400a9b62d2825494391f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c4d76cc97f5e440291ff80861e97023e",
+          "edgeType": "Edge",
+          "source": "3a8367f4ed77400a9b62d2825494391f",
+          "target": "7d4d0d6ce848445c9fe159ea590ed0af",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Purchase Office 365</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Purchase Office 365</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-18 12:42:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1e9c80d7877b3410c386fd99cebb3583</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Purchase Office 365</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_1e9c80d7877b3410c386fd99cebb3583</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-18 12:59:34</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=1e9c80d7877b3410c386fd99cebb3583"/>
+</record_update>

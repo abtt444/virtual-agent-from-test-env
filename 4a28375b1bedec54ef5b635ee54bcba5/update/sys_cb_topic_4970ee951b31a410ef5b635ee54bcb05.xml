@@ -108,14 +108,14 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "5. All types of leave will then appear. Note that "
+                    "text": "5. All types of leave will appear. Your balance can be seen as "
                   },
                   {
-                    "text": "Ending Period balance",
+                    "text": "Sick Benefit Leave",
                     "bold": true
                   },
                   {
-                    "text": " is your leave balance"
+                    "text": "."
                   }
                 ]
               }
@@ -160,10 +160,10 @@
     }
   }
 }</graph>
-        <key_phrases>TF - Sick Leave Days</key_phrases>
+        <key_phrases>Sick Leave Days Balance</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>TF - Sick Leave Days</name>
+        <name>Sick Leave Days Balance</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -177,14 +177,14 @@
         <sys_created_on>2021-01-18 12:04:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>4970ee951b31a410ef5b635ee54bcb05</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>TF - Sick Leave Days</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Sick Leave Days Balance</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_4970ee951b31a410ef5b635ee54bcb05</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-17 08:38:03</sys_updated_on>
+        <sys_updated_on>2021-11-18 09:28:51</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>
