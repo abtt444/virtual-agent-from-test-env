@@ -50,6 +50,77 @@
                 "type": "paragraph",
                 "children": [
                   {
+                    "text": "Whether it's for work or your home, we at Absa want to make sure that you are comfortable wherever you are."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "fc7f64f39cf741aeb882d93573db749b": {
+          "id": "fc7f64f39cf741aeb882d93573db749b",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "55262e0822324f39a005016eb588e352": {
+          "id": "55262e0822324f39a005016eb588e352",
+          "stepType": "TextOutput",
+          "name": "Purchase Furniture for your Home Office",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "As we continue working remotely, we at Absa have made it possible for you to "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1qrQGpj0jOzQpK8mezUpKdVOFmxQgAUVM/edit",
+                    "children": [
+                      {
+                        "text": "Purchase furniture for your home office at preferential rates"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "So use this offer to set up your ideal home working environment - one that is both ergonomic and enjoyable to work in."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "c8b8c42b74124f61a1e0acf6b357f7de": {
+          "id": "c8b8c42b74124f61a1e0acf6b357f7de",
+          "stepType": "TextOutput",
+          "name": "Move Office Equipment to Your Home",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
                     "text": ""
                   },
                   {
@@ -73,6 +144,90 @@
             "value": "",
             "mode": "query"
           }
+        },
+        "408c11b4efe6423b942640660dc3ab22": {
+          "stepType": "ChoicePrompt",
+          "name": "Choice",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "To begin your home office transformation, choose one of the following options listed below:"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "174a6c1712524fd9a4fe8b21f8008147",
+          "id": "408c11b4efe6423b942640660dc3ab22",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "6290d047be5b469abad25ce563587687": {
+          "id": "6290d047be5b469abad25ce563587687",
+          "stepType": "TextOutput",
+          "name": "Requesting a Desktop Bundle",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Complete your IT setup in your home office by "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1DqJDCEJSOHBLxGIgmjczMuE_Yw9Fgcf_/edit",
+                    "children": [
+                      {
+                        "text": "requesting a desktop bundle"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and ensuring that you have all the tools you need to work from home. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
         }
       },
       "edges": [
@@ -85,9 +240,80 @@
           "targetPort": ""
         },
         {
+          "id": "70af8cbb4036421199f0835217ca540c",
+          "edgeType": "Branch",
+          "source": "fc7f64f39cf741aeb882d93573db749b",
+          "target": "55262e0822324f39a005016eb588e352",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choice=Purchase Furniture for your Home Office",
+            "mode": "query"
+          },
+          "label": "Purchase Furniture for your Home Office"
+        },
+        {
+          "id": "bc1dc5130b14431c97718e5525c88e7d",
+          "edgeType": "Edge",
+          "source": "55262e0822324f39a005016eb588e352",
+          "target": "e918befdab5d4c0f9c7ca889e6eced95",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "270bcec5b13b4d98acbf3d9450875814",
+          "edgeType": "Branch",
+          "source": "fc7f64f39cf741aeb882d93573db749b",
+          "target": "c8b8c42b74124f61a1e0acf6b357f7de",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choice=Move Office Equipment to Your Home",
+            "mode": "query"
+          },
+          "label": "Move Office Equipment to Your Home"
+        },
+        {
+          "id": "a81e226085cf4a77bb11ad9b78959de5",
+          "edgeType": "Edge",
+          "source": "c8b8c42b74124f61a1e0acf6b357f7de",
+          "target": "e918befdab5d4c0f9c7ca889e6eced95",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
           "id": "7426139c529c421da4014fd8c1dce25b",
           "edgeType": "Edge",
           "source": "0c9290c85f3b4938b8ac5aa12cc5c661",
+          "target": "408c11b4efe6423b942640660dc3ab22",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "edb871606a8940b09193aeb1332b0940",
+          "edgeType": "Edge",
+          "source": "408c11b4efe6423b942640660dc3ab22",
+          "target": "fc7f64f39cf741aeb882d93573db749b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "df9ebc1c882e4d95a756ca7cb876ddd2",
+          "edgeType": "Branch",
+          "source": "fc7f64f39cf741aeb882d93573db749b",
+          "target": "6290d047be5b469abad25ce563587687",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choice=Requesting a Desktop Bundle",
+            "mode": "query"
+          },
+          "label": "Requesting a Desktop Bundle"
+        },
+        {
+          "id": "0d2f117261224b06947bbe113aed9005",
+          "edgeType": "Edge",
+          "source": "6290d047be5b469abad25ce563587687",
           "target": "e918befdab5d4c0f9c7ca889e6eced95",
           "sourcePort": "",
           "targetPort": ""
@@ -103,13 +329,36 @@
       "name": "user",
       "table": "sys_user",
       "varType": "reference"
+    },
+    "174a6c1712524fd9a4fe8b21f8008147": {
+      "id": "174a6c1712524fd9a4fe8b21f8008147",
+      "name": "choice",
+      "label": "Choice",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Purchase Furniture for your Home Office",
+          "value": "Purchase Furniture for your Home Office"
+        },
+        {
+          "label": "Move Office Equipment to Your Home",
+          "value": "Move Office Equipment to Your Home",
+          "checked": true
+        },
+        {
+          "label": "Request a Desktop Bundle",
+          "value": "Requesting a Desktop Bundle",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
     }
   }
 }</graph>
-        <key_phrases>Move Office Equipment to Your Home</key_phrases>
+        <key_phrases>Setting Up Your Home Office</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>Move Office Equipment to Your Home</name>
+        <name>Setting Up Your Home Office</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -123,14 +372,14 @@
         <sys_created_on>2021-11-22 11:31:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>aca264e887400910c386fd99cebb3505</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Move Office Equipment to Your Home</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Setting Up Your Home Office</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_aca264e887400910c386fd99cebb3505</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-22 11:36:25</sys_updated_on>
+        <sys_updated_on>2021-11-23 14:08:08</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

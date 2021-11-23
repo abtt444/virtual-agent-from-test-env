@@ -71,7 +71,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Choose one of the following to find out more about how ABSA has made it a little easier for you:"
+                    "text": "Choose one of the following to find out more about how Absa has made it a little easier for you:"
                   }
                 ]
               }
@@ -127,19 +127,19 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Travelling during the COVID-19 pandemic can be a daunting task but don't worry, we here at ABSA have your safety as an utmost priority. "
+                    "text": "Travelling during the COVID-19 pandemic can be a daunting task but don't worry, we at Absa have your safety as an utmost priority. Follow the"
                   },
                   {
                     "type": "link",
                     "url": "https://docs.google.com/document/d/1IdvBoK3jF2D74wWXcpCTQIdyX7fYGjWC/edit",
                     "children": [
                       {
-                        "text": "Following these steps"
+                        "text": " steps for travelling during COVID-19"
                       }
                     ]
                   },
                   {
-                    "text": " can help keep you and those around you safe while you travel."
+                    "text": " to keep you and those around you safe while you travel."
                   }
                 ]
               }
@@ -162,7 +162,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Working from overseas can look daunting but thanks to ABSA implementing an effective supporting framework, International Remote Working can be used in a way that is effective, compliant and consistent. "
+                    "text": "Absa has implemented an effective supporting framework for International Remote Working that can be used in a  effective, compliant and consistent way. "
                   }
                 ]
               },
@@ -185,7 +185,7 @@
                     "url": "https://docs.google.com/document/d/1ZJE8D75BVvRnWCxxk20EpmvowsP1QnMe/edit",
                     "children": [
                       {
-                        "text": "following document"
+                        "text": "following knowledge article"
                       }
                     ]
                   },
@@ -319,14 +319,14 @@
         <sys_created_on>2021-11-22 11:37:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>9ff3ac6c87400910c386fd99cebb35bb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Travelling During Covid</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_9ff3ac6c87400910c386fd99cebb35bb</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-22 11:41:14</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-23 14:20:13</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

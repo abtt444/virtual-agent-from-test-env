@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>complete your it setup in your home office by [requesting a desktop bundle](https://docs.google.com/document/d/1dqjdcejsohblxgigmjczmue_yw9fgcf_/edit) and ensuring that you have all the tools you need to work from home.</key>
+        <language>en</language>
+        <message>Complete your IT setup in your home office by [requesting a desktop bundle](https://docs.google.com/document/d/1DqJDCEJSOHBLxGIgmjczMuE_Yw9Fgcf_/edit) and ensuring that you have all the tools you need to work from home.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-23 14:08:15</sys_created_on>
+        <sys_id>f820d6341b840110cb139753b24bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>complete your it setup in your home office by [requesting a desktop bundle](https://docs.google.com/document/d/1dqjdcejsohblxgigmjczmue_yw9fgcf_/edit) and ensuring that you have all the tools you need to work from home.</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_f820d6341b840110cb139753b24bcb1c</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-23 14:08:15</sys_updated_on>
+    </sys_ui_message>
+</record_update>

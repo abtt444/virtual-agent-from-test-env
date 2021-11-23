@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "67bbafd2441343dd85213d693cdef5ed": {
+          "id": "67bbafd2441343dd85213d693cdef5ed",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "6ed62a3a6bc84a6bb9bf74c880884921": {
+          "id": "6ed62a3a6bc84a6bb9bf74c880884921",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "ded01c4fde224a1e94c56e4f5173cadb": {
+          "id": "ded01c4fde224a1e94c56e4f5173cadb",
+          "stepType": "TextOutput",
+          "name": "Intro",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "To work from home, it's important that you have all the right tools. If you need to move tech equipment to your home office, please"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1DqJDCEJSOHBLxGIgmjczMuE_Yw9Fgcf_/edit",
+                    "children": [
+                      {
+                        "text": " follow the steps"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " in the digitised asset removal request process."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "b1ce92d8764c4968a0d5274445504480",
+          "edgeType": "Edge",
+          "source": "67bbafd2441343dd85213d693cdef5ed",
+          "target": "ded01c4fde224a1e94c56e4f5173cadb",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "fdc41dee962c4da1a0d8186def1218f2",
+          "edgeType": "Edge",
+          "source": "ded01c4fde224a1e94c56e4f5173cadb",
+          "target": "6ed62a3a6bc84a6bb9bf74c880884921",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Requesting a Desktop Bundle</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Requesting a Desktop Bundle</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-22 12:43:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9f13702c87c00910c386fd99cebb3589</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Requesting a Desktop Bundle</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_9f13702c87c00910c386fd99cebb3589</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-22 12:44:03</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=9f13702c87c00910c386fd99cebb3589"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_cb_topic_9f13702c87c00910c386fd99cebb3589</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><applicability_mode>query</applicability_mode><autopilot_topic>false</autopilot_topic><category/><channels/><connect_queue/><description/><expose_on_palette>false</expose_on_palette><flexible_conversation_switching>false</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "67bbafd2441343dd85213d693cdef5ed": {
+          "id": "67bbafd2441343dd85213d693cdef5ed",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "6ed62a3a6bc84a6bb9bf74c880884921": {
+          "id": "6ed62a3a6bc84a6bb9bf74c880884921",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "ded01c4fde224a1e94c56e4f5173cadb": {
+          "id": "ded01c4fde224a1e94c56e4f5173cadb",
+          "stepType": "TextOutput",
+          "name": "Intro",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "To work from home, it's important that you have all the right tools. If you need to move tech equipment to your home office, please"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1DqJDCEJSOHBLxGIgmjczMuE_Yw9Fgcf_/edit",
+                    "children": [
+                      {
+                        "text": " follow the steps"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " in the digitised asset removal request process."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "b1ce92d8764c4968a0d5274445504480",
+          "edgeType": "Edge",
+          "source": "67bbafd2441343dd85213d693cdef5ed",
+          "target": "ded01c4fde224a1e94c56e4f5173cadb",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "fdc41dee962c4da1a0d8186def1218f2",
+          "edgeType": "Edge",
+          "source": "ded01c4fde224a1e94c56e4f5173cadb",
+          "target": "6ed62a3a6bc84a6bb9bf74c880884921",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph><key_phrases>Requesting a Desktop Bundle</key_phrases><library>false</library><live_agent>false</live_agent><name>Requesting a Desktop Bundle</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><palette_label/><roles/><source_topic_id/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>AB019AK</sys_created_by><sys_created_on>2021-11-22 12:43:21</sys_created_on><sys_domain>global</sys_domain><sys_id>9f13702c87c00910c386fd99cebb3589</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Requesting a Desktop Bundle</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_cb_topic_9f13702c87c00910c386fd99cebb3589</sys_update_name><sys_updated_by>AB019AK</sys_updated_by><sys_updated_on>2021-11-22 12:44:03</sys_updated_on><triggerable_by_notification>false</triggerable_by_notification><type>STANDARD</type><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=9f13702c87c00910c386fd99cebb3589"/></record_update>]]></payload>
+        <payload_hash>998085885</payload_hash>
+        <record_name>Requesting a Desktop Bundle</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-22 12:44:03</sys_created_on>
+        <sys_id>a543f42c87c00910c386fd99cebb3505</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d47acc1450000001</sys_recorded_at>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-22 12:44:03</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>6d43f42ca4c009106f2987abe7822204</update_guid>
+        <update_guid_history>6d43f42ca4c009106f2987abe7822204:998085885,1713b02cbac009103622a96af4b7e660:44453153</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-23 14:02:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>b4af491d98f04fa09060b45a4a99aa90</sys_id>
+        <sys_metadata>9f13702c87c00910c386fd99cebb3589</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requesting a Desktop Bundle</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_9f13702c87c00910c386fd99cebb3589</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_9f13702c87c00910c386fd99cebb3589">a543f42c87c00910c386fd99cebb3505</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-23 14:02:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

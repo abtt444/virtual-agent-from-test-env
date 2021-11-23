@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"start":33,"end":41,"annotatedString":"i need to speak to the furniture {{phrase=\"suppliers\"}} to purchase furniture"}]</annotation>
+        <entity display_value="Suppliers">0365ec2087800910c386fd99cebb35be</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 11:43:36</sys_created_on>
+        <sys_id>0075246087800910c386fd99cebb35e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suppliers.i need to speak to the furniture suppliers to purchase furniture</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_0075246087800910c386fd99cebb35e7</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 11:43:36</sys_updated_on>
+        <utterance display_value="i need to speak to the furniture suppliers to purchase furniture">9255282087800910c386fd99cebb3583</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_0075246087800910c386fd99cebb35e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"start":33,"end":41,"annotatedString":"i need to speak to the furniture {{phrase=\"suppliers\"}} to purchase furniture"}]</annotation><entity display_value="Suppliers">0365ec2087800910c386fd99cebb35be</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>AB019AM</sys_created_by><sys_created_on>2021-11-22 11:43:36</sys_created_on><sys_id>0075246087800910c386fd99cebb35e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Suppliers.i need to speak to the furniture suppliers to purchase furniture</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_0075246087800910c386fd99cebb35e7</sys_update_name><sys_updated_by>AB019AM</sys_updated_by><sys_updated_on>2021-11-22 11:43:36</sys_updated_on><utterance display_value="i need to speak to the furniture suppliers to purchase furniture">9255282087800910c386fd99cebb3583</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-736045258</payload_hash>
+        <record_name>Suppliers.i need to speak to the furniture suppliers to purchase furniture</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 11:43:36</sys_created_on>
+        <sys_id>0875246087800910c386fd99cebb35e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d47756a170000001</sys_recorded_at>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 11:43:36</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>0075246046800910ad6fe991b5b224e9</update_guid>
+        <update_guid_history>0075246046800910ad6fe991b5b224e9:-736045258</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-23 15:22:39">b0b58e7c1b040110cb139753b24bcb4c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-23 13:22:39</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>3fde4b2d2abd4f4caaae54c8d3d74f10</sys_id>
+        <sys_metadata>0075246087800910c386fd99cebb35e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suppliers.i need to speak to the furniture suppliers to purchase furniture</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_0075246087800910c386fd99cebb35e7</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_0075246087800910c386fd99cebb35e7">0875246087800910c386fd99cebb35e9</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-23 13:22:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

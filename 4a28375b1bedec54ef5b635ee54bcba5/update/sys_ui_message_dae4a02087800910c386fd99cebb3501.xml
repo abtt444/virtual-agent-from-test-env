@@ -5,18 +5,18 @@
         <commented_message/>
         <key>va:topic:9ff3ac6c87400910c386fd99cebb35bb:node:57dc9928d79646d1b92e756b158aafef:field:value</key>
         <language>en</language>
-        <message>Travelling during the COVID-19 pandemic can be a daunting task but don't worry, we here at ABSA have your safety as an utmost priority. [Following these steps](https://docs.google.com/document/d/1IdvBoK3jF2D74wWXcpCTQIdyX7fYGjWC/edit) can help keep you and those around you safe while you travel.</message>
+        <message>Travelling during the COVID-19 pandemic can be a daunting task but don't worry, we at Absa have your safety as an utmost priority. Follow the[ steps for travelling during COVID-19](https://docs.google.com/document/d/1IdvBoK3jF2D74wWXcpCTQIdyX7fYGjWC/edit) to keep you and those around you safe while you travel.</message>
         <sys_class_name>sys_ui_message</sys_class_name>
         <sys_created_by>AB019AK</sys_created_by>
         <sys_created_on>2021-11-22 11:41:18</sys_created_on>
         <sys_id>dae4a02087800910c386fd99cebb3501</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>va:topic:9ff3ac6c87400910c386fd99cebb35bb:node:57dc9928d79646d1b92e756b158aafef:field:value</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_ui_message_dae4a02087800910c386fd99cebb3501</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-22 11:41:18</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-23 14:20:54</sys_updated_on>
     </sys_ui_message>
 </record_update>
