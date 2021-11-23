@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Virtual Meetings">588fbb50874cc510c386fd99cebb351c</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"faaf723f663b41acac57862402657951","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"faaf723f663b41acac57862402657951"}],"goals":[{"name":"primary","trigger_id":"faaf723f663b41acac57862402657951","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"681ebc71c7014c40a1e3417075f324ca","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"36eb4ca632ae463ca767f665a43614b7","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:cb3cf3d8870cc510c386fd99cebb356a:node:bd3d56e666664e158618885b6ce9a125:field:Value\", vaContext.getRequesterLang())"},"id":"bd3d56e666664e158618885b6ce9a125","name":"Virtual Meetings","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"LinkOutputPrompt","header":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Are your Virtual Meetings Plump with Purpose\", vaContext.getRequesterLang())"},"label":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Purpose of Virtual Meetings\", vaContext.getRequesterLang())"},"url":{"type":"String","mode":"string","value":"https://docs.google.com/document/d/1s6n_iWZITlOvfygbgy7hi0yHrl0uzy8K/edit"},"link_type":"single","multi_link_script":"","id":"b1eff20955b74840b2e74e8084c4b3ae","name":"Meeting Link","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"681ebc71c7014c40a1e3417075f324ca","target_node_id":"bd3d56e666664e158618885b6ce9a125","id":"9d2e85091c2e41a2b5a997173ad50713"},{"type":"Edge","source_node_id":"bd3d56e666664e158618885b6ce9a125","target_node_id":"b1eff20955b74840b2e74e8084c4b3ae","id":"2ad03d48e59142af91ba1f77c21e7f32"},{"type":"Edge","source_node_id":"b1eff20955b74840b2e74e8084c4b3ae","target_node_id":"36eb4ca632ae463ca767f665a43614b7","id":"cb8f42b9ee4846fcaf9e15da20583628"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"cb3cf3d8870cc510c386fd99cebb356a","name":"Virtual Meetings","key_phrases":["Virtual Meetings"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>cb3cf3d8870cc510c386fd99cebb356a</design_topic_id>
+        <name>Virtual Meetings</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-22 08:57:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d88f3390874cc510c386fd99cebb35fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_d88f3390874cc510c386fd99cebb35fa</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 14:00:26</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

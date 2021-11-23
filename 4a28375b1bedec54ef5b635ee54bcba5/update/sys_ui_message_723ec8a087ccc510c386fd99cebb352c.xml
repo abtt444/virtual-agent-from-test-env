@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:727d84ec878cc510c386fd99cebb3551:node:c3570eab306c42419a079bbae0947067:field:value</key>
+        <language>en</language>
+        <message>In today's world, there is no doubt that effective technology leads to a successful work day. Here at Absa, we have a few great tools that can bring your work to life, including:
+1. Microsoft Teams
+2. MS Planner
+3. Cisco Jabber
+4. Cisco WebEx
+
+Read more about these tools and some tips for video conferencing [here](https://docs.google.com/document/d/1eLYb0GKu_Q1zdeHc-dVsFY6ztwnMOhNm/edit).</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 10:02:13</sys_created_on>
+        <sys_id>723ec8a087ccc510c386fd99cebb352c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>va:topic:727d84ec878cc510c386fd99cebb3551:node:c3570eab306c42419a079bbae0947067:field:value</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_723ec8a087ccc510c386fd99cebb352c</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 10:03:03</sys_updated_on>
+    </sys_ui_message>
+</record_update>

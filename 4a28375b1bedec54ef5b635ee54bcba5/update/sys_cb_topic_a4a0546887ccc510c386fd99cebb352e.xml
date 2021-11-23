@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "fbd1d1afd7e444dc80bd8a62dc2d2815": {
+          "id": "fbd1d1afd7e444dc80bd8a62dc2d2815",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "0936616ff538477eb7d1670955add7ff": {
+          "id": "0936616ff538477eb7d1670955add7ff",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "b8f863a019c6498299f84c13f1eacf9c": {
+          "id": "b8f863a019c6498299f84c13f1eacf9c",
+          "stepType": "TextOutput",
+          "name": "Intro",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Working from home can be tricky. From unexpected visitors to maintaining focus on your work, we all faced our own challenges when we started working from home and we here at ABSA understand that. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "966037d36aac43b6bc8116f3cdfeb27f": {
+          "stepType": "ChoicePrompt",
+          "name": "Button CHoice",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Choose one of the following options to find how to shift your mindset and contribute while being flexible: "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "194b191b1c5f4a3ea6df5d6f28cba84d",
+          "id": "966037d36aac43b6bc8116f3cdfeb27f",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "945417318e424476ac952beab1442818": {
+          "id": "945417318e424476ac952beab1442818",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "b17877caa7e84003a32437304900bdd4": {
+          "id": "b17877caa7e84003a32437304900bdd4",
+          "stepType": "TextOutput",
+          "name": "Contribute While Flexible",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "With the world now in your home, it's important to learn how work flexibly. We have put together a useful document on how to contribute while being flexible. Focusing on points such as:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. How do I stay contributing?"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. What is proximity bias?"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3. Bringing it home"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "To read the full article, "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/17HJ97QiizwK9sF1Cemx9PBqy6I-x4aRp/edit",
+                    "children": [
+                      {
+                        "text": "click here"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "220300e884554bdb95c6b428ab782323": {
+          "id": "220300e884554bdb95c6b428ab782323",
+          "stepType": "TextOutput",
+          "name": "Remote Working Mindshift",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "With the whole world being flipped on it head dunring this global pandemic."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Most of us have been forced to change the very way we interact with work and the world. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "However we have adapted and shifted put mindsets to remote working and so can you"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "To read more about how you can reimagine your work and shift your mindset to remote working, "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1vmrNhgc_Eda7LC9fiVOk0nyRFLcBZjE1/edit",
+                    "children": [
+                      {
+                        "text": "click here"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "ea1382cc2e864079b173cd3de298caa4",
+          "edgeType": "Edge",
+          "source": "fbd1d1afd7e444dc80bd8a62dc2d2815",
+          "target": "b8f863a019c6498299f84c13f1eacf9c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f2e41ca00344432cbfff704118fc87d7",
+          "edgeType": "Edge",
+          "source": "b8f863a019c6498299f84c13f1eacf9c",
+          "target": "966037d36aac43b6bc8116f3cdfeb27f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "2752e25ef86542aa9566a003e4acd6f6",
+          "edgeType": "Edge",
+          "source": "966037d36aac43b6bc8116f3cdfeb27f",
+          "target": "945417318e424476ac952beab1442818",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "515ac3e5291743fe8522f43355e96b3e",
+          "edgeType": "Branch",
+          "source": "945417318e424476ac952beab1442818",
+          "target": "b17877caa7e84003a32437304900bdd4",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.button_choice=Contributing While Being Flexible",
+            "mode": "query"
+          },
+          "label": "Contributing While Being Flexible"
+        },
+        {
+          "id": "167bcf25f4804eb8b9e01b1f10368d35",
+          "edgeType": "Edge",
+          "source": "b17877caa7e84003a32437304900bdd4",
+          "target": "0936616ff538477eb7d1670955add7ff",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "4da5986c26434313a3ec5005244a5297",
+          "edgeType": "Branch",
+          "source": "945417318e424476ac952beab1442818",
+          "target": "220300e884554bdb95c6b428ab782323",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.button_choice=Remote Working Mindshift",
+            "mode": "query"
+          },
+          "label": "Remote Working Mindshift"
+        },
+        {
+          "id": "06b59601b010483cb083c2a05924e712",
+          "edgeType": "Edge",
+          "source": "220300e884554bdb95c6b428ab782323",
+          "target": "0936616ff538477eb7d1670955add7ff",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "194b191b1c5f4a3ea6df5d6f28cba84d": {
+      "id": "194b191b1c5f4a3ea6df5d6f28cba84d",
+      "name": "button_choice",
+      "label": "Button CHoice",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Contributing While Being Flexible",
+          "value": "Contributing While Being Flexible"
+        },
+        {
+          "label": "Remote Working Mindshift",
+          "value": "Remote Working Mindshift",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>How to Contribute and Shift to a Remote</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>How to Contribute and Shift to a Remote</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-22 10:12:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a4a0546887ccc510c386fd99cebb352e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>How to Contribute and Shift to a Remote</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_a4a0546887ccc510c386fd99cebb352e</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 13:55:31</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=a4a0546887ccc510c386fd99cebb352e"/>
+</record_update>

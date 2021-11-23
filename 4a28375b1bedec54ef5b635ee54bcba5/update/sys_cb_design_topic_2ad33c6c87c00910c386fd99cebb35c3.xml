@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Requesting a Desktop Bundle">aad33c6c87c00910c386fd99cebb35bf</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"443572fa59774325a35c474bb833fc2f","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"443572fa59774325a35c474bb833fc2f"}],"goals":[{"name":"primary","trigger_id":"443572fa59774325a35c474bb833fc2f","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"67bbafd2441343dd85213d693cdef5ed","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"6ed62a3a6bc84a6bb9bf74c880884921","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:9f13702c87c00910c386fd99cebb3589:node:ded01c4fde224a1e94c56e4f5173cadb:field:Value\", vaContext.getRequesterLang())"},"id":"ded01c4fde224a1e94c56e4f5173cadb","name":"Intro","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"67bbafd2441343dd85213d693cdef5ed","target_node_id":"ded01c4fde224a1e94c56e4f5173cadb","id":"b1ce92d8764c4968a0d5274445504480"},{"type":"Edge","source_node_id":"ded01c4fde224a1e94c56e4f5173cadb","target_node_id":"6ed62a3a6bc84a6bb9bf74c880884921","id":"fdc41dee962c4da1a0d8186def1218f2"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"9f13702c87c00910c386fd99cebb3589","name":"Requesting a Desktop Bundle","key_phrases":["Requesting a Desktop Bundle"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>9f13702c87c00910c386fd99cebb3589</design_topic_id>
+        <name>Requesting a Desktop Bundle</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-22 12:46:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2ad33c6c87c00910c386fd99cebb35c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_2ad33c6c87c00910c386fd99cebb35c3</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-22 12:46:42</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

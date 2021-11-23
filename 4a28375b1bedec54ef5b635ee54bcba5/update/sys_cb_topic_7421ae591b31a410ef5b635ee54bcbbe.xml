@@ -93,7 +93,19 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Alternatively you may complete the {attached form} and send to "
+                    "text": "Alternatively you may complete the "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://oneintranet.intra.absa.africa/sites/ppsg/Forms/Absa%207234%20EX.pdf",
+                    "children": [
+                      {
+                        "text": "form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and send it to "
                   },
                   {
                     "type": "link",
@@ -117,162 +129,22 @@
             "mode": "query"
           },
           "secure": false
-        },
-        "5f89a8c7ab4b4012865675f81327dc2a": {
-          "stepType": "ChoicePrompt",
-          "name": "choice",
-          "prompt": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Would you like more information on navigating your way on Pension Fund Member Web? "
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "confirmMessage": {
-            "value": "",
-            "mode": "simple"
-          },
-          "acknowledgeMsg": {
-            "value": "",
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          },
-          "skippable": {
-            "value": "",
-            "mode": "query"
-          },
-          "defaultValue": {
-            "value": "",
-            "mode": "simple"
-          },
-          "variableId": "aca8a94c67114c00b598a2c694e92722",
-          "id": "5f89a8c7ab4b4012865675f81327dc2a",
-          "hasCardHeader": false,
-          "cardMetadata": {
-            "mode": "card",
-            "metadataScript": "",
-            "cardTemplate": "",
-            "cardFields": {},
-            "cardDefinition": {}
-          },
-          "withNluUserInput": false,
-          "skipIfFulfilled": false
-        },
-        "004fd9ae8f584902be6506fbe4788ffc": {
-          "id": "004fd9ae8f584902be6506fbe4788ffc",
-          "stepType": "Decision",
-          "name": "Decision"
-        },
-        "c94a0b66a5014c0f9cd45059f706e337": {
-          "id": "c94a0b66a5014c0f9cd45059f706e337",
-          "stepType": "ImageOutput",
-          "name": "img1",
-          "url": {
-            "value": "0001_1637077109761.jpg",
-            "mode": "db_image"
-          },
-          "altText": {
-            "value": "",
-            "mode": "simple"
-          },
-          "variableId": "",
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
-        },
-        "39af4fbb11644bb8914bb33b4da53be4": {
-          "id": "39af4fbb11644bb8914bb33b4da53be4",
-          "stepType": "ImageOutput",
-          "name": "img2",
-          "url": {
-            "value": "0002_1637077125660.jpg",
-            "mode": "db_image"
-          },
-          "altText": {
-            "value": "",
-            "mode": "simple"
-          },
-          "variableId": "",
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
         }
       },
       "edges": [
+        {
+          "id": "a7cb4e184c1f4d1284825b3ba8e7f1b0",
+          "edgeType": "Edge",
+          "source": "0b3dec949e234192ba0391a14fa9c3e7",
+          "target": "a1f4841f72f2486d97bc52bd3741be02",
+          "sourcePort": "",
+          "targetPort": ""
+        },
         {
           "id": "33adeca0572747cf973863d6c4a02919",
           "edgeType": "Edge",
           "source": "d34cd69e581c4d16957ab64a0394ccc5",
           "target": "0b3dec949e234192ba0391a14fa9c3e7",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "a7cb4e184c1f4d1284825b3ba8e7f1b0",
-          "edgeType": "Edge",
-          "source": "0b3dec949e234192ba0391a14fa9c3e7",
-          "target": "5f89a8c7ab4b4012865675f81327dc2a",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "a0a124ddb9334d2794b8178e1d7e4efa",
-          "edgeType": "Edge",
-          "source": "5f89a8c7ab4b4012865675f81327dc2a",
-          "target": "004fd9ae8f584902be6506fbe4788ffc",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "e8e2ebd996a7434bb619f5f1f2e6a813",
-          "edgeType": "Branch",
-          "source": "004fd9ae8f584902be6506fbe4788ffc",
-          "target": "a1f4841f72f2486d97bc52bd3741be02",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.choice=No",
-            "mode": "query"
-          },
-          "label": "No"
-        },
-        {
-          "id": "a43846036224415ebb421a6288dc62ed",
-          "edgeType": "Branch",
-          "source": "004fd9ae8f584902be6506fbe4788ffc",
-          "target": "c94a0b66a5014c0f9cd45059f706e337",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.choice=Yes",
-            "mode": "query"
-          },
-          "label": "Yes"
-        },
-        {
-          "id": "95c1e86d30d54d279eae8a0286b1a6d9",
-          "edgeType": "Edge",
-          "source": "c94a0b66a5014c0f9cd45059f706e337",
-          "target": "39af4fbb11644bb8914bb33b4da53be4",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "191e43f0230f4cf4b9c4fcbf37024b2a",
-          "edgeType": "Edge",
-          "source": "39af4fbb11644bb8914bb33b4da53be4",
-          "target": "a1f4841f72f2486d97bc52bd3741be02",
           "sourcePort": "",
           "targetPort": ""
         }
@@ -287,24 +159,6 @@
       "name": "user",
       "table": "sys_user",
       "varType": "reference"
-    },
-    "aca8a94c67114c00b598a2c694e92722": {
-      "id": "aca8a94c67114c00b598a2c694e92722",
-      "name": "choice",
-      "label": "Choice",
-      "varType": "choice",
-      "choices": [
-        {
-          "label": "Yes",
-          "value": "Yes"
-        },
-        {
-          "label": "No",
-          "value": "No",
-          "checked": true
-        }
-      ],
-      "category": "vaInputs"
     }
   }
 }</graph>
@@ -325,14 +179,14 @@
         <sys_created_on>2021-01-18 12:07:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>7421ae591b31a410ef5b635ee54bcbbe</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Pension Fund Beneficiaries</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_7421ae591b31a410ef5b635ee54bcbbe</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-17 14:29:02</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 12:31:57</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

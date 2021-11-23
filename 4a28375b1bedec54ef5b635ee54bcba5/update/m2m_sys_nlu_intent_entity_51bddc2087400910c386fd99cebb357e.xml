@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
+    <m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE">
+        <entity display_value="Work">3123adae87ff3810c386fd99cebb359d</entity>
+        <intent display_value="TF - Move Office Equipment to Home">802c902c87000910c386fd99cebb3523</intent>
+        <relationship>regular</relationship>
+        <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 11:09:49</sys_created_on>
+        <sys_id>51bddc2087400910c386fd99cebb357e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work.TF - Move Office Equipment to Home</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_intent_entity_51bddc2087400910c386fd99cebb357e</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 11:09:49</sys_updated_on>
+    </m2m_sys_nlu_intent_entity>
+</record_update>
