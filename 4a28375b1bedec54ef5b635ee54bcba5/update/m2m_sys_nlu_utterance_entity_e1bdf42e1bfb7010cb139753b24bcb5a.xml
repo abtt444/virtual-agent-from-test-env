@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":18,"end":23,"annotatedString":"is it possible to {{phrase=\"encash\"}} leave","cat":null}]</annotation>
+        <entity display_value="Encashment">517d2a071b02a4d0122465fce54bcbf7</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 08:21:48</sys_created_on>
+        <sys_id>e1bdf42e1bfb7010cb139753b24bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Encashment.is it possible to encash leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_e1bdf42e1bfb7010cb139753b24bcb5a</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:21:48</sys_updated_on>
+        <utterance display_value="is it possible to encash leave">b65d70ea1bfb7010cb139753b24bcb9c</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

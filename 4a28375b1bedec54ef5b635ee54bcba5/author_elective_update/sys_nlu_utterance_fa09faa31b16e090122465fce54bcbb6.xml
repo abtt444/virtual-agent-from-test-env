@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 10:09:14</sys_created_on>
+        <sys_id>fa09faa31b16e090122465fce54bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>i can't log into the pensionfund system </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_fa09faa31b16e090122465fce54bcbb6</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 10:09:14</sys_updated_on>
+        <utterance>i can't log into the pensionfund system </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_fa09faa31b16e090122465fce54bcbb6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 10:09:14</sys_created_on>
+        <sys_id>fa09faa31b16e090122465fce54bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>i can't log into the pensionfund system </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_fa09faa31b16e090122465fce54bcbb6</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 10:09:14</sys_updated_on>
+        <utterance>i can't log into the pensionfund system </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-1806160276</payload_hash>
+        <record_name>i can't log into the pensionfund system </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:19:12</sys_created_on>
+        <sys_id>4a6c5fd3871f3050c386fd99cebb35a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65148240000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:19:12</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>866c5fd3a21f3050fb743d54956007a5</update_guid>
+        <update_guid_history>866c5fd3a21f3050fb743d54956007a5:0,63f85bdf541f7450c03d97bd43d04264:146113986,5f127894869f3010acab85766c659a04:0,7a30c5e7c44b78109a19f23e0ebb6dc0:1059019876,739df4c32407b4105cc72a2f12280eba:0,ec676c8b2b43b4103133cd2d83dcb18d:1287862890,5beb4cc7108f741028e041868007dfdb:0,4f888c0b8f4f74109cbb191908a62f69:1896393019,be09faa38a16e090eb0b1a3bb11adeb7:-532147239</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 11:57:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>0c695205f8ed47ae82cdb2ef6c96a491</sys_id>
+        <sys_metadata>fa09faa31b16e090122465fce54bcbb6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>i can't log into the pensionfund system </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_fa09faa31b16e090122465fce54bcbb6</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_fa09faa31b16e090122465fce54bcbb6">4a6c5fd3871f3050c386fd99cebb35a5</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:57:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

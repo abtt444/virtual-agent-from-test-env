@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
     <sys_cb_topic action="INSERT_OR_UPDATE">
         <applicability/>
-        <applicability_mode/>
+        <applicability_mode>query</applicability_mode>
         <autopilot_topic>false</autopilot_topic>
         <category>d801a2591b31a410ef5b635ee54bcb52</category>
         <channels/>
@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>false</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.21.pp4",
+  "graph_api_version": "1.0.36",
   "goals": {
     "primary": {
       "id": "primary",
@@ -44,29 +44,107 @@
           "stepType": "TextOutput",
           "name": "Adding a Beneficiary",
           "value": {
-            "value": "Response for Adding a Beneficiary",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Due to technical reasons, the functionality to update dependants and beneficiaries on Workday has been temporarily suspended."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "However, you may still update your beneficiaries on the "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://acamember.sanlam.co.za/INpJus02/loginACA",
+                    "children": [
+                      {
+                        "text": "Pension Fund Member Web"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Alternatively you may complete the "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://oneintranet.intra.absa.africa/sites/ppsg/Forms/Absa%207234%20EX.pdf",
+                    "children": [
+                      {
+                        "text": "form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and send it to "
+                  },
+                  {
+                    "type": "link",
+                    "url": "Alterations@absa.co.za",
+                    "children": [
+                      {
+                        "text": "Alterations@absa.co.za"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". Please keep a copy for your personal records."
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
             "value": "",
             "mode": "query"
-          }
+          },
+          "secure": false
         }
       },
       "edges": [
-        {
-          "id": "33adeca0572747cf973863d6c4a02919",
-          "edgeType": "Edge",
-          "source": "d34cd69e581c4d16957ab64a0394ccc5",
-          "target": "0b3dec949e234192ba0391a14fa9c3e7",
-          "sourcePort": "",
-          "targetPort": ""
-        },
         {
           "id": "a7cb4e184c1f4d1284825b3ba8e7f1b0",
           "edgeType": "Edge",
           "source": "0b3dec949e234192ba0391a14fa9c3e7",
           "target": "a1f4841f72f2486d97bc52bd3741be02",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "33adeca0572747cf973863d6c4a02919",
+          "edgeType": "Edge",
+          "source": "d34cd69e581c4d16957ab64a0394ccc5",
+          "target": "0b3dec949e234192ba0391a14fa9c3e7",
           "sourcePort": "",
           "targetPort": ""
         }
@@ -84,10 +162,10 @@
     }
   }
 }</graph>
-        <key_phrases>Adding a Beneficiary</key_phrases>
+        <key_phrases>Pension Fund Beneficiaries</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>Adding a Beneficiary</name>
+        <name>Pension Fund Beneficiaries</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -101,14 +179,14 @@
         <sys_created_on>2021-01-18 12:07:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>7421ae591b31a410ef5b635ee54bcbbe</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Adding a Beneficiary</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Pension Fund Beneficiaries</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_7421ae591b31a410ef5b635ee54bcbbe</sys_update_name>
-        <sys_updated_by>michaela.govender</sys_updated_by>
-        <sys_updated_on>2021-01-18 12:16:43</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 12:31:57</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

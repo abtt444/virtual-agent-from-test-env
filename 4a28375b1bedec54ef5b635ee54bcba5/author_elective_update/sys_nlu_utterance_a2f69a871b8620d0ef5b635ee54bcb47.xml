@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="IRP5 Certificate">2af69a871b8620d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>a2f69a871b8620d0ef5b635ee54bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>who do i get in contact with to retrieve my IRP5 Certificate </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_a2f69a871b8620d0ef5b635ee54bcb47</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+        <utterance>who do i get in contact with to retrieve my IRP5 Certificate </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_a2f69a871b8620d0ef5b635ee54bcb47</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="IRP5 Certificate">2af69a871b8620d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>a2f69a871b8620d0ef5b635ee54bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>who do i get in contact with to retrieve my IRP5 Certificate </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_a2f69a871b8620d0ef5b635ee54bcb47</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+        <utterance>who do i get in contact with to retrieve my IRP5 Certificate </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-444491864</payload_hash>
+        <record_name>who do i get in contact with to retrieve my IRP5 Certificate </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:54</sys_created_on>
+        <sys_id>655c13d3871f3050c386fd99cebb35f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65100860000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:54</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>a15c13d3681f30507ef1502bd2a160f1</update_guid>
+        <update_guid_history>a15c13d3681f30507ef1502bd2a160f1:0,6aa85f1f9c1f745001bd4db8065cd64e:-672452342,cb023094089f3010d7db6cd1af5bde3a:0,93efbc27514b7810b39e0ede52f2798f:-1291168397,df8df8833407b41066d6c295a5f65a0c:0,7517640b5743b410190556b58c37ba24:1411268265,eadb40c7758f74109587cf53ee7e9735:0,2b38c087514f7410fb50afa96daef450:1182868493,e2f69a87278620d039c9737fedd40f48:-361514163</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:35:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>44dad541d08e4f84add179186e83d290</sys_id>
+        <sys_metadata>a2f69a871b8620d0ef5b635ee54bcb47</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>who do i get in contact with to retrieve my IRP5 Certificate </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_a2f69a871b8620d0ef5b635ee54bcb47</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_a2f69a871b8620d0ef5b635ee54bcb47">655c13d3871f3050c386fd99cebb35f1</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:35:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

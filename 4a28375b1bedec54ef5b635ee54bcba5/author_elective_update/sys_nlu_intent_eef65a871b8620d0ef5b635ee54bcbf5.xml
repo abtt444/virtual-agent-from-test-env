@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_intent">
+    <sys_nlu_intent action="DELETE">
+        <confidence_threshold/>
+        <description/>
+        <enable>true</enable>
+        <model display_value="Absa HR Chatbot NLU Model - Entities">07c696471b8620d0ef5b635ee54bcbfd</model>
+        <name>View Pension</name>
+        <origin/>
+        <override_confidence_threshold>false</override_confidence_threshold>
+        <primary_intent/>
+        <status>draft</status>
+        <sys_class_name>sys_nlu_intent</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>eef65a871b8620d0ef5b635ee54bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_intent_eef65a871b8620d0ef5b635ee54bcbf5</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+    </sys_nlu_intent>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_intent_eef65a871b8620d0ef5b635ee54bcbf5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_intent">
+    <sys_nlu_intent action="INSERT_OR_UPDATE">
+        <confidence_threshold/>
+        <description/>
+        <enable>true</enable>
+        <model display_value="Absa HR Chatbot NLU Model - Entities">07c696471b8620d0ef5b635ee54bcbfd</model>
+        <name>View Pension</name>
+        <origin/>
+        <override_confidence_threshold>false</override_confidence_threshold>
+        <primary_intent/>
+        <status>draft</status>
+        <sys_class_name>sys_nlu_intent</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>eef65a871b8620d0ef5b635ee54bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_intent_eef65a871b8620d0ef5b635ee54bcbf5</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+    </sys_nlu_intent>
+</record_update>]]></payload>
+        <payload_hash>26743552</payload_hash>
+        <record_name>View Pension</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:20</sys_created_on>
+        <sys_id>d53c9b53871f3050c386fd99cebb355b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6507bd50000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:20</sys_updated_on>
+        <type>NLU Intent</type>
+        <update_guid>153c9b53bf1f3050bd35b4d0ed75a55b</update_guid>
+        <update_guid_history>153c9b53bf1f3050bd35b4d0ed75a55b:0,ebf85bdf401f74508c121e9ab7995270:-1299967512,13e1bc14989f3010dbd478426ce6797a:0,7230c5e7eb4b7810ab3523eb92be7ccc:-428375823,2b6db843c807b4106771774311aec1a8:0,64676c8b7c43b41029d25c721327ccb2:1669382373,46bb0087ad8f741045004310b4d96443:0,47888c0bf84f74106004f02de46f1475:-1521784636,22f65a87bf8620d0baa1c23735f1adf7:-1462277693</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 11:57:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_intent">sys_nlu_intent</sys_db_object>
+        <sys_id>479b65cb0fd341449c1b4a19421718f9</sys_id>
+        <sys_metadata>eef65a871b8620d0ef5b635ee54bcbf5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_intent_eef65a871b8620d0ef5b635ee54bcbf5</sys_update_name>
+        <sys_update_version display_value="sys_nlu_intent_eef65a871b8620d0ef5b635ee54bcbf5">d53c9b53871f3050c386fd99cebb355b</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:57:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

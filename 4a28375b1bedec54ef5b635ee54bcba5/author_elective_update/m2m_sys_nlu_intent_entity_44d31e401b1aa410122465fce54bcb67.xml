@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
+    <m2m_sys_nlu_intent_entity action="DELETE">
+        <entity display_value="Relocation">a4d9fe8f1b42a4d0122465fce54bcb60</entity>
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <relationship>regular</relationship>
+        <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-08 10:27:51</sys_created_on>
+        <sys_id>44d31e401b1aa410122465fce54bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation.Relocation Leave Information</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_intent_entity_44d31e401b1aa410122465fce54bcb67</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:27:51</sys_updated_on>
+    </m2m_sys_nlu_intent_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_intent_entity_44d31e401b1aa410122465fce54bcb67</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
+    <m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE">
+        <entity display_value="Relocation">a4d9fe8f1b42a4d0122465fce54bcb60</entity>
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <relationship>regular</relationship>
+        <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-08 10:27:51</sys_created_on>
+        <sys_id>44d31e401b1aa410122465fce54bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation.Relocation Leave Information</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_intent_entity_44d31e401b1aa410122465fce54bcb67</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-08 10:27:51</sys_updated_on>
+    </m2m_sys_nlu_intent_entity>
+</record_update>]]></payload>
+        <payload_hash>-831102261</payload_hash>
+        <record_name>Relocation.Relocation Leave Information</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:05</sys_created_on>
+        <sys_id>8febdf9f87db3050c386fd99cebb35ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64f572f0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:05</sys_updated_on>
+        <type>NLU Intent Entity</type>
+        <update_guid>cbebdf9f9adb3050d9855812529c72ef</update_guid>
+        <update_guid_history>cbebdf9f9adb3050d9855812529c72ef:0,5398971f8c1f745063bcaf92fa804b4b:1219581334,4ea1b890189f3010990f6a178cadd513:0,58ef38275e4b7810342c7162a4b5fba6:-1685729997,962d34cf33c3b410a328d154a1a5bada:0,fa07ecc7ff43b410434a7a707eeb4954:1176042214,3f6bc4c3dc8f7410dec033233500563f:0,50380c47724f7410aff23cc46514b21a:-2145936612,ccd31e409c1aa410f985ca014ab12968:-1574708416</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 10:45:38">7e23cdee87fb3810c386fd99cebb3535</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 08:45:38</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_intent_entity">m2m_sys_nlu_intent_entity</sys_db_object>
+        <sys_id>094dbb1fad7245a8841d78b2a0d1c440</sys_id>
+        <sys_metadata>44d31e401b1aa410122465fce54bcb67</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation.Relocation Leave Information</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_intent_entity_44d31e401b1aa410122465fce54bcb67</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_intent_entity_44d31e401b1aa410122465fce54bcb67">8febdf9f87db3050c386fd99cebb35ef</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:45:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

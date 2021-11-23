@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
     <sys_cb_topic action="INSERT_OR_UPDATE">
         <applicability/>
-        <applicability_mode/>
+        <applicability_mode>query</applicability_mode>
         <autopilot_topic>false</autopilot_topic>
         <category>1c51ae591b31a410ef5b635ee54bcbde</category>
         <channels/>
@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>false</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.21.pp4",
+  "graph_api_version": "1.0.36",
   "goals": {
     "primary": {
       "id": "primary",
@@ -44,29 +44,237 @@
           "stepType": "TextOutput",
           "name": "Absa Covid Policies",
           "value": {
-            "value": "(function execute() {\n    var message1 = \"1. Should you have any COVID-19 / Flu-like symptoms please advise our consultant and reschedule your appointment\\n\";\n    var message2 = \"2. Wearing of facial masks is mandatory\\n\";\n    var message3 = \"3. All clients' temperature will be recorded and client will be required to complete the COVID- 19 screening questionnaire\\n\";\n    var message4 = \"4. Hands will be sanitized on entry, during and after signature of documentation / consultation\\n\";\n    var message5 = \"5. Strict social distancing measure to be adhered to\\n\";\n    var message6 = \"6. All regulations published by the COVID-19 Command Centre must be strictly complied with at all times\\n\";\n    \n    return message1+message2+message3+message4+message5+message6;\n})()\n",
-            "mode": "script"
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "ABSA has taken a strong stance against Covid-19. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Our Covid -19 policies and procedures are as follows: "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. Should you have any COVID-19 / Flu-like symptoms please advise our consultant and reschedule your appointment"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. Wearing of facial masks is mandatory"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3. All clients' temperature will be recorded and client will be required to complete the COVID- 19 screening questionnaire"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "4. Hands will be sanitized on entry, during and after signature of documentation / consultation"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "5. Strict social distancing measure to be adhered to"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "6. All regulations published by the COVID-19 Command Centre must be strictly complied with at all times."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
           },
           "applicability": {
             "value": "",
             "mode": "query"
-          }
+          },
+          "secure": false
+        },
+        "4e425c8503364b44a2e6a730e0e47dde": {
+          "id": "4e425c8503364b44a2e6a730e0e47dde",
+          "stepType": "LinkOutput",
+          "name": "Covid-19 FAQ",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Covid-19 FAQs"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please see the official Covid-19 FAQ documentation from the World Health Organisation (WHO) to find out more about the virus. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
         }
       },
       "edges": [
-        {
-          "id": "2ed1949418bb49f68d16ee96a473029d",
-          "edgeType": "Edge",
-          "source": "6ed8ea604cc04094b59e2bbd6e141033",
-          "target": "cc49f437a320409594fe5d86dd575097",
-          "sourcePort": "",
-          "targetPort": ""
-        },
         {
           "id": "288a1e451fa54c99981f0844894b51c6",
           "edgeType": "Edge",
           "source": "6720d200f4a64ae3a3da2bb11d5b3faa",
           "target": "6ed8ea604cc04094b59e2bbd6e141033",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "2ed1949418bb49f68d16ee96a473029d",
+          "edgeType": "Edge",
+          "source": "6ed8ea604cc04094b59e2bbd6e141033",
+          "target": "4e425c8503364b44a2e6a730e0e47dde",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b260a8760da849d99a39fb17a4f62fb3",
+          "edgeType": "Edge",
+          "source": "4e425c8503364b44a2e6a730e0e47dde",
+          "target": "cc49f437a320409594fe5d86dd575097",
           "sourcePort": "",
           "targetPort": ""
         }
@@ -84,10 +292,10 @@
     }
   }
 }</graph>
-        <key_phrases>Covid-19 Absa Policies</key_phrases>
+        <key_phrases>Covid-19 Policies &amp; Procedures</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>Covid-19 Absa Policies</name>
+        <name>Covid-19 Policies &amp; Procedures</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -101,14 +309,14 @@
         <sys_created_on>2021-01-13 14:54:49</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>d9971d771b69a094ef5b635ee54bcbca</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>Covid-19 Absa Policies</sys_name>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Covid-19 Policies &amp; Procedures</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_d9971d771b69a094ef5b635ee54bcbca</sys_update_name>
-        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
-        <sys_updated_on>2021-01-18 12:58:44</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-17 14:33:56</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

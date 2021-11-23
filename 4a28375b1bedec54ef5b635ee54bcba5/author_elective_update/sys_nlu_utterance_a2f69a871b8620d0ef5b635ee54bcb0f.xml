@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>a2f69a871b8620d0ef5b635ee54bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How much pension do I have?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_a2f69a871b8620d0ef5b635ee54bcb0f</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+        <utterance>How much pension do I have?</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_a2f69a871b8620d0ef5b635ee54bcb0f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>a2f69a871b8620d0ef5b635ee54bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How much pension do I have?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_a2f69a871b8620d0ef5b635ee54bcb0f</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+        <utterance>How much pension do I have?</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>1693882164</payload_hash>
+        <record_name>How much pension do I have?</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:54</sys_created_on>
+        <sys_id>e95c13d3871f3050c386fd99cebb35ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65100660000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:54</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>295c13d3d41f3050c5b86f9d1f6bb4ed</update_guid>
+        <update_guid_history>295c13d3d41f3050c5b86f9d1f6bb4ed:0,bef8d7dfc31f7450df1dd4c530f5ffd7:-506202141,47023094e19f301028fd44f4e30f1137:0,1a3085e71a4b781084daca6279276c21:1650593875,5b8df883b707b4102752daf265b04109:0,0867e88bb843b4106e38643ffc38bfc9:-1435989195,66db40c7928f741010a57b57d8b21d32:0,5a884c0b454f7410b7ecb064bf092a53:16924627,e2f69a87978620d030495d7c5f45aa10:1530183879</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 11:57:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>a4ab035a82594235910dfb70227a0071</sys_id>
+        <sys_metadata>a2f69a871b8620d0ef5b635ee54bcb0f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How much pension do I have?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_a2f69a871b8620d0ef5b635ee54bcb0f</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_a2f69a871b8620d0ef5b635ee54bcb0f">e95c13d3871f3050c386fd99cebb35ed</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:57:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

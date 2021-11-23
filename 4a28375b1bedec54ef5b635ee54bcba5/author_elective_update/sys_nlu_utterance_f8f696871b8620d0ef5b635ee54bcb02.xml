@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:37</sys_created_on>
+        <sys_id>f8f696871b8620d0ef5b635ee54bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rona</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_f8f696871b8620d0ef5b635ee54bcb02</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:37</sys_updated_on>
+        <utterance>rona</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_f8f696871b8620d0ef5b635ee54bcb02</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:37</sys_created_on>
+        <sys_id>f8f696871b8620d0ef5b635ee54bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rona</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_f8f696871b8620d0ef5b635ee54bcb02</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:37</sys_updated_on>
+        <utterance>rona</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-83371116</payload_hash>
+        <record_name>rona</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:19:12</sys_created_on>
+        <sys_id>826c5fd3871f3050c386fd99cebb357c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65147130000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:19:12</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>ce6c5fd3961f30504c1e3142a159d47b</update_guid>
+        <update_guid_history>ce6c5fd3961f30504c1e3142a159d47b:0,6ba8df1f3c1f74503f5a5c2459ba488e:-1377520167,5f1238941f9f30104a92539986df89d0:0,98ff3067e34b781035df0bf9f50afc28:2145611296,bb9df4c36407b410374110aa22ebd379:0,2e17a40b1443b410a843b40e67cdf4bd:-2119943017,5beb4cc7388f7410c53333f943bbd8a7:0,504884873e4f741092700ab50226233f:-6729599,3cf69687df8620d026dd931d6668f803:1850552151</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 09:53:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>0dca82a45a5a435a88be151903202d64</sys_id>
+        <sys_metadata>f8f696871b8620d0ef5b635ee54bcb02</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rona</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_f8f696871b8620d0ef5b635ee54bcb02</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_f8f696871b8620d0ef5b635ee54bcb02">826c5fd3871f3050c386fd99cebb357c</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 09:53:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language">
+    <sys_cs_topic_language action="DELETE">
+        <cs_topic_id display_value="Leave Encashment Payout">92e4ea511b71a410ef5b635ee54bcbba</cs_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[]</nlu_entities>
+        <nlu_intent>TF - Leave Encashment</nlu_intent>
+        <nlu_intent_label>TF - Leave Encashment</nlu_intent_label>
+        <nlu_model>global_4a28375b1bedec54ef5b635ee54bcba5_07c696471b8620d0ef5b635ee54bcbfd</nlu_model>
+        <nlu_model_label>Absa HR Chatbot NLU Model - Entities</nlu_model_label>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cs_topic_language</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:23:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9ae4ea511b71a410ef5b635ee54bcbbf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_language_9ae4ea511b71a410ef5b635ee54bcbbf</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:36:57</sys_updated_on>
+    </sys_cs_topic_language>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_cs_topic_language_9ae4ea511b71a410ef5b635ee54bcbbf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language"><sys_cs_topic_language action="INSERT_OR_UPDATE"><cs_topic_id display_value="Leave Encashment Payout">92e4ea511b71a410ef5b635ee54bcbba</cs_topic_id><language_code>en</language_code><nlu_entities>[]</nlu_entities><nlu_intent>TF - Leave Encashment</nlu_intent><nlu_intent_label>TF - Leave Encashment</nlu_intent_label><nlu_model>global_4a28375b1bedec54ef5b635ee54bcba5_07c696471b8620d0ef5b635ee54bcbfd</nlu_model><nlu_model_label>Absa HR Chatbot NLU Model - Entities</nlu_model_label><nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider><sys_class_name>sys_cs_topic_language</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-18 12:23:33</sys_created_on><sys_domain>global</sys_domain><sys_id>9ae4ea511b71a410ef5b635ee54bcbbf</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_cs_topic_language_9ae4ea511b71a410ef5b635ee54bcbbf</sys_update_name><sys_updated_by>AB019AK</sys_updated_by><sys_updated_on>2021-11-16 08:36:57</sys_updated_on></sys_cs_topic_language></record_update>]]></payload>
+        <payload_hash>-713141687</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 08:36:57</sys_created_on>
+        <sys_id>af21cda21b3f7010cb139753b24bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d27e45f7e0000001</sys_recorded_at>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:36:57</sys_updated_on>
+        <type>CS Topic Language</type>
+        <update_guid>6721cda2b53f7010f0c92057e7c795df</update_guid>
+        <update_guid_history>6721cda2b53f7010f0c92057e7c795df:-713141687,bb11cda2003f701050325b3fa7a27c9b:2036736849,732c97531d1f305012d52dab5faac8d8:0,3d49db53ab5f7450824b9cc3ab35609d:281193227,1928345416d7fc10ad059679a84e00a6:164288696,79e1f814b29f3010a1dbeca7f68e3860:0,fe70456b014b781036664795e4172ad6:-1280756052,526df443e207b4102cba425446fe4438:0,2ca76c0f3c43b41096b9a4926bce3a9f:1588189643,20bb0c47f28f741074be64dd69151c70:0,a369c4cf3a4f7410516fe4c48870a93c:-1427083764,cec3af4c765e7010fd678ec0d16cc4b6:872727323,044942f769c638102fea8d88dd187b14:1028612594,1e73178c0116a410bf420a447b17d3b2:1281746223,5ae4ea51a471a4106802d8bd23d5b6c0:705491203</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 08:41:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_topic_language">sys_cs_topic_language</sys_db_object>
+        <sys_id>3b4d4738a0bc476c8557d3232d94bf64</sys_id>
+        <sys_metadata>9ae4ea511b71a410ef5b635ee54bcbbf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cs_topic_language_9ae4ea511b71a410ef5b635ee54bcbbf</sys_update_name>
+        <sys_update_version display_value="sys_cs_topic_language_9ae4ea511b71a410ef5b635ee54bcbbf">af21cda21b3f7010cb139753b24bcbdf</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:41:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

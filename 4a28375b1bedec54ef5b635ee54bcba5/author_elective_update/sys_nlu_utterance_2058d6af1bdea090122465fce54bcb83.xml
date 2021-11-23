@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 07:46:16</sys_created_on>
+        <sys_id>2058d6af1bdea090122465fce54bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>how do i see my pension balance </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_2058d6af1bdea090122465fce54bcb83</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 07:46:16</sys_updated_on>
+        <utterance>how do i see my pension balance </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_2058d6af1bdea090122465fce54bcb83</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 07:46:16</sys_created_on>
+        <sys_id>2058d6af1bdea090122465fce54bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>how do i see my pension balance </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_2058d6af1bdea090122465fce54bcb83</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 07:46:16</sys_updated_on>
+        <utterance>how do i see my pension balance </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-999993640</payload_hash>
+        <record_name>how do i see my pension balance </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:27</sys_created_on>
+        <sys_id>433c9f53871f3050c386fd99cebb3547</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65097350000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:27</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>8f3c9f53fc1f3050f488de51bd1a8d46</update_guid>
+        <update_guid_history>8f3c9f53fc1f3050f488de51bd1a8d46:0,16f897dfdf1f74501308eca08ba480d3:-834856074,74f1b054899f30103e17cde14798ff1c:0,f13005e70f4b7810e24efc0d2b0f7bd5:493725761,1d7d7c437b07b41016d6cbd502e3b4f3:0,d757a88b6143b41024ccf8204faa934b:-1205089145,27bbc0875e8f7410a5e7e405d34b67fe:0,42880c0b8a4f7410a51c856094379b90:-1970885987,e058d6afd6dea09023e1058cf447d084:1351654809</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 11:57:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>24b114bd5dab43189b6362ad1dc61539</sys_id>
+        <sys_metadata>2058d6af1bdea090122465fce54bcb83</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>how do i see my pension balance </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_2058d6af1bdea090122465fce54bcb83</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_2058d6af1bdea090122465fce54bcb83">433c9f53871f3050c386fd99cebb3547</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:57:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

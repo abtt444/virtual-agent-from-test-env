@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
     <sys_cb_topic action="INSERT_OR_UPDATE">
         <applicability/>
-        <applicability_mode/>
+        <applicability_mode>query</applicability_mode>
         <autopilot_topic>false</autopilot_topic>
         <category>8661ae591b31a410ef5b635ee54bcbf5</category>
         <channels/>
@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>true</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.21.pp4",
+  "graph_api_version": "1.0.36",
   "goals": {
     "primary": {
       "id": "primary",
@@ -39,59 +39,377 @@
             "value": ""
           }
         },
-        "cd17ec6ca234483ba014ac3d04c0cd88": {
-          "id": "cd17ec6ca234483ba014ac3d04c0cd88",
-          "stepType": "LinkOutput",
-          "name": "MyContribution PDF",
-          "url": {
-            "value": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011844",
-            "mode": "simple"
-          },
-          "label": {
-            "value": "Click here for the Absa MyContribution Toolkit",
-            "mode": "simple"
-          },
-          "header": {
-            "value": "Thank you for your interest. Let me tell you about the art and heart of MyContribution conversations.\r",
+        "403722763f1f493ca4daa5fc0d73fe1a": {
+          "id": "403722763f1f493ca4daa5fc0d73fe1a",
+          "stepType": "TextOutput",
+          "name": "MyContribution",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "MyContribution is about knowing your and your team’s strengths. It’s about helping you understand the business and how you make a meaningful contribution to the business every day. Through MyContribution you can reflect on your contribution and move forward, achieving your full potential and possibilities and ultimately understanding your contribution outcome. "
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
             "value": "",
             "mode": "query"
-          },
-          "linkType": "single",
-          "introMsg": {
-            "value": "",
-            "mode": "simple"
-          },
-          "listOfLinks": ""
+          }
         },
-        "341253eace1c4e04be7e903beb8cdd56": {
-          "id": "341253eace1c4e04be7e903beb8cdd56",
-          "stepType": "LinkOutput",
-          "name": "FAQ Link",
-          "url": {
-            "value": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011812",
+        "6a0b2ea9de9546c79a4202bc7b3a4c74": {
+          "stepType": "ChoicePrompt",
+          "name": "MyContribution List",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Choose one of the below options to find out more about MyContribution:"
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
-          "label": {
-            "value": "Click Here for MyContribution FAQ",
+          "confirmMessage": {
+            "value": "",
             "mode": "simple"
           },
-          "header": {
-            "value": "You've got questions? We've got answers!",
+          "acknowledgeMsg": {
+            "value": "",
             "mode": "simple"
           },
           "applicability": {
             "value": "",
             "mode": "query"
           },
-          "linkType": "single",
-          "introMsg": {
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
             "value": "",
             "mode": "simple"
           },
-          "listOfLinks": ""
+          "variableId": "d0cb2c969e7d44919aeb62f8e618605d",
+          "id": "6a0b2ea9de9546c79a4202bc7b3a4c74",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "ac6bc727e2b5477ab4757fcaa28a5816": {
+          "id": "ac6bc727e2b5477ab4757fcaa28a5816",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "33fc4312724644cf804ae8011ffd5619": {
+          "id": "33fc4312724644cf804ae8011ffd5619",
+          "stepType": "TextOutput",
+          "name": "Who allocates courses to MyContribution",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "There are courses available on the My learning system that can be registered by colleagues. To access the courses, you can do the following:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "bulleted-list",
+                "children": [
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Access "
+                      },
+                      {
+                        "text": "MyLearning ",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "In the search field type "
+                      },
+                      {
+                        "text": "MyContribution",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "All related searches available will appear)"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "The course will assist on the understanding on the process as well as navigating the system"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "1184929eb0ee432292de79ebfd3e3d46": {
+          "id": "1184929eb0ee432292de79ebfd3e3d46",
+          "stepType": "TextOutput",
+          "name": "How to draw MyContribution reports",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The MyContribution Reporting Dashboard should be used to view the year end performance review process for your organization. You will only be able to use these reports to view employees you support. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "To view the dashboards, you can do the following:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. Access "
+                  },
+                  {
+                    "text": "workday",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. Under application select the "
+                  },
+                  {
+                    "text": "MyContribution Reporting Dashboard ",
+                    "bold": true
+                  },
+                  {
+                    "text": "worklet"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "d9af7104431b490aa0466ad0736ac3ee": {
+          "id": "d9af7104431b490aa0466ad0736ac3ee",
+          "stepType": "TextOutput",
+          "name": "When can I use MyContribution",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The MyContribution features are available throughout the year."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "bulleted-list",
+                "children": [
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Objective setting",
+                        "bold": true
+                      },
+                      {
+                        "text": " : this be added /edited /deleted at anytime during the year. For year end, this can only be added /edited /deleted on the year end review template on available"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Snapshot",
+                        "bold": true
+                      },
+                      {
+                        "text": "/"
+                      },
+                      {
+                        "text": "check",
+                        "bold": true
+                      },
+                      {
+                        "text": "-"
+                      },
+                      {
+                        "text": "in review template",
+                        "bold": true
+                      },
+                      {
+                        "text": ":  this can be requested at anytime during the year until the preparation of year review template•Gift of feedback – Can be requested / provided to colleagues at anytime of the year"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Manager",
+                        "bold": true
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "text": "evaluation year end review:",
+                        "bold": true
+                      },
+                      {
+                        "text": " Only assigned and completed once a year (assigned by the Workday Functional Configurator)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "a666f484128642dbaad0a89e65d4be88": {
+          "id": "a666f484128642dbaad0a89e65d4be88",
+          "stepType": "TextOutput",
+          "name": "Can I get access to MyContribution",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The MyContribution features are available on workday"
+                  }
+                ]
+              },
+              {
+                "type": "bulleted-list",
+                "children": [
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Access workday"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Under applications"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Select the talent and performance worklet"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
         }
       },
       "edges": [
@@ -99,22 +417,106 @@
           "id": "063dbe2b0e1b4f4fb7c4c59ea1bf7609",
           "edgeType": "Edge",
           "source": "3de8079590c446fa97e8fcfdd1d939bb",
-          "target": "cd17ec6ca234483ba014ac3d04c0cd88",
+          "target": "403722763f1f493ca4daa5fc0d73fe1a",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "0620c8d3663d4996858b6502494a5e55",
+          "id": "43b2534ff8c644749a5171fa8b181101",
           "edgeType": "Edge",
-          "source": "cd17ec6ca234483ba014ac3d04c0cd88",
-          "target": "341253eace1c4e04be7e903beb8cdd56",
+          "source": "403722763f1f493ca4daa5fc0d73fe1a",
+          "target": "6a0b2ea9de9546c79a4202bc7b3a4c74",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "196f422d951441acbcd19968391dbc86",
+          "id": "156dd85da3a64adb8480468cf0276a3f",
           "edgeType": "Edge",
-          "source": "341253eace1c4e04be7e903beb8cdd56",
+          "source": "6a0b2ea9de9546c79a4202bc7b3a4c74",
+          "target": "ac6bc727e2b5477ab4757fcaa28a5816",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "71193fd32a6a40a283a371105cfe6dbb",
+          "edgeType": "Branch",
+          "source": "ac6bc727e2b5477ab4757fcaa28a5816",
+          "target": "33fc4312724644cf804ae8011ffd5619",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_list=Who allocates courses to MyContribution and how does it help me",
+            "mode": "query"
+          },
+          "label": "Who allocates courses to MyContribution and how does it help me"
+        },
+        {
+          "id": "025f304fd1a147469a497165f4a848e7",
+          "edgeType": "Edge",
+          "source": "33fc4312724644cf804ae8011ffd5619",
+          "target": "dda2a366c0af4389a117c9f561f5951d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "27dfd43547514dd5907f9f86fc98edb7",
+          "edgeType": "Branch",
+          "source": "ac6bc727e2b5477ab4757fcaa28a5816",
+          "target": "1184929eb0ee432292de79ebfd3e3d46",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_list=How to draw MyContribution reports",
+            "mode": "query"
+          },
+          "label": "How to draw MyContribution reports"
+        },
+        {
+          "id": "01c5e6c55a0948e282f3099b17d11a6d",
+          "edgeType": "Edge",
+          "source": "1184929eb0ee432292de79ebfd3e3d46",
+          "target": "dda2a366c0af4389a117c9f561f5951d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d5c9d2b8c4564d6f88009626f157b799",
+          "edgeType": "Branch",
+          "source": "ac6bc727e2b5477ab4757fcaa28a5816",
+          "target": "d9af7104431b490aa0466ad0736ac3ee",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_list=When can I use MyContribution",
+            "mode": "query"
+          },
+          "label": "When can I use MyContribution"
+        },
+        {
+          "id": "dc3256ebaa334f6087fadfab10dfca55",
+          "edgeType": "Edge",
+          "source": "d9af7104431b490aa0466ad0736ac3ee",
+          "target": "dda2a366c0af4389a117c9f561f5951d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a593fbb5623744ea9a0da12c4c66d60b",
+          "edgeType": "Branch",
+          "source": "ac6bc727e2b5477ab4757fcaa28a5816",
+          "target": "a666f484128642dbaad0a89e65d4be88",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.mycontribution_list=Can I get access to MyContribution",
+            "mode": "query"
+          },
+          "label": "Can I get access to MyContribution"
+        },
+        {
+          "id": "3142487d05224462984eba4faf9e114c",
+          "edgeType": "Edge",
+          "source": "a666f484128642dbaad0a89e65d4be88",
           "target": "dda2a366c0af4389a117c9f561f5951d",
           "sourcePort": "",
           "targetPort": ""
@@ -130,13 +532,41 @@
       "name": "user",
       "table": "sys_user",
       "varType": "reference"
+    },
+    "d0cb2c969e7d44919aeb62f8e618605d": {
+      "id": "d0cb2c969e7d44919aeb62f8e618605d",
+      "name": "mycontribution_list",
+      "label": "MyContribution List",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "When can I use MyContribution",
+          "value": "When can I use MyContribution"
+        },
+        {
+          "label": "Can I get access to MyContribution",
+          "value": "Can I get access to MyContribution",
+          "checked": true
+        },
+        {
+          "label": "Who allocates courses to MyContribution and how does it help me",
+          "value": "Who allocates courses to MyContribution and how does it help me",
+          "checked": true
+        },
+        {
+          "label": "How to draw MyContribution reports",
+          "value": "How to draw MyContribution reports",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
     }
   }
 }</graph>
-        <key_phrases>MyContribution</key_phrases>
+        <key_phrases>My Contribution Information</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>MyContribution</name>
+        <name>My Contribution Information</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -150,14 +580,14 @@
         <sys_created_on>2021-02-04 12:15:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>bbf5ce3e1b86ac90ef5b635ee54bcb94</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>MyContribution</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>My Contribution Information</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_bbf5ce3e1b86ac90ef5b635ee54bcb94</sys_update_name>
-        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
-        <sys_updated_on>2021-02-04 12:22:02</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-17 14:29:19</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

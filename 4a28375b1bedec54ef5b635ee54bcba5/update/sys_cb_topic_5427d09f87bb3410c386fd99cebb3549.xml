@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "ef47dd3a100a4c6a927d24f3245ba80f": {
+          "id": "ef47dd3a100a4c6a927d24f3245ba80f",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "7a410bae32fb4fc59ee4277079650331": {
+          "id": "7a410bae32fb4fc59ee4277079650331",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "55b1827d30254578be5590fde7ab8998": {
+          "id": "55b1827d30254578be5590fde7ab8998",
+          "stepType": "TextOutput",
+          "name": "New Joiner Laptop Intro",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "To assist all new employees have a smooth start in the office and that they have all the correct equipment when they need, we ask that all new joiners please complete the automated process for requesting laptops and desktops."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "To do so please, follow the steps outlined in this "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/17NGs9ZDwLzHr1DqckN0ZdfxFjUW68P5h/edit",
+                    "children": [
+                      {
+                        "text": "link"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "For escalations, please contact the End-User Experience Provisioning team on "
+                  },
+                  {
+                    "type": "link",
+                    "url": "JMLEuehardware@absa.africa",
+                    "children": [
+                      {
+                        "text": "JMLEuehardware@absa.africa"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "912007c3d26640479ea05b81248ebc76",
+          "edgeType": "Edge",
+          "source": "ef47dd3a100a4c6a927d24f3245ba80f",
+          "target": "55b1827d30254578be5590fde7ab8998",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "711ea465a6434923826893d5411db74f",
+          "edgeType": "Edge",
+          "source": "55b1827d30254578be5590fde7ab8998",
+          "target": "7a410bae32fb4fc59ee4277079650331",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Laptops for New Joiners</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Laptops for New Joiners</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-18 13:28:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5427d09f87bb3410c386fd99cebb3549</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Laptops for New Joiners</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_5427d09f87bb3410c386fd99cebb3549</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 14:06:59</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=5427d09f87bb3410c386fd99cebb3549"/>
+</record_update>

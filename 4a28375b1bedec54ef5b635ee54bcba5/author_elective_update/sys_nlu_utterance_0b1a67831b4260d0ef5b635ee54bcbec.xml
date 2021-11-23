@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 14:10:57</sys_created_on>
+        <sys_id>0b1a67831b4260d0ef5b635ee54bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>What is the maximum number of consecutive days of relocation leave that I can take? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_0b1a67831b4260d0ef5b635ee54bcbec</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 14:10:57</sys_updated_on>
+        <utterance>What is the maximum number of consecutive days of relocation leave that I can take? </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_0b1a67831b4260d0ef5b635ee54bcbec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 14:10:57</sys_created_on>
+        <sys_id>0b1a67831b4260d0ef5b635ee54bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>What is the maximum number of consecutive days of relocation leave that I can take? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_0b1a67831b4260d0ef5b635ee54bcbec</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 14:10:57</sys_updated_on>
+        <utterance>What is the maximum number of consecutive days of relocation leave that I can take? </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>1382861820</payload_hash>
+        <record_name>What is the maximum number of consecutive days of relocation leave that I can take? </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:22</sys_created_on>
+        <sys_id>8a3cdb53871f3050c386fd99cebb35fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65085cb0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:22</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>c63cdb53761f3050abd226bd8f3841fe</update_guid>
+        <update_guid_history>c63cdb53761f3050abd226bd8f3841fe:0,f598171fcd1f7450e1e528415c5e0828:-2142513451,f7e1fc145c9f30102eb418a85d77feb4:0,17df7427be4b781002133de90a982ee8:1139649001,dc7df8439607b410e76c187956409ae2:0,c2076cc79143b410130d2fe2d329441f:-950519315,2abb40877a8f741086fe2b3eb488af7d:0,d3288847ee4f7410068a80e84d38782f:965579637,4b1a6783504260d0a9a57ce8501f2fed:-765240657</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 08:22:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>bbba83184a3b46c9a0c25e191df28cb1</sys_id>
+        <sys_metadata>0b1a67831b4260d0ef5b635ee54bcbec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>What is the maximum number of consecutive days of relocation leave that I can take? </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_0b1a67831b4260d0ef5b635ee54bcbec</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_0b1a67831b4260d0ef5b635ee54bcbec">8a3cdb53871f3050c386fd99cebb35fe</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:22:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

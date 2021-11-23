@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"Can i submit a request through workday to retrieve my {{phrase=\"payslip\"}}","start":54,"end":60}]</annotation>
+        <entity display_value="Payslip">dff03a8f1b4a20d0ef5b635ee54bcb75</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 10:02:24</sys_created_on>
+        <sys_id>ca3136cf1b4a20d0ef5b635ee54bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payslip.Can i submit a request through workday to retrieve my payslip </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_ca3136cf1b4a20d0ef5b635ee54bcb1a</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:02:24</sys_updated_on>
+        <utterance display_value="Can i submit a request through workday to retrieve my payslip ">92f65a871b8620d0ef5b635ee54bcbbc</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_ca3136cf1b4a20d0ef5b635ee54bcb1a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"Can i submit a request through workday to retrieve my {{phrase=\"payslip\"}}","start":54,"end":60}]</annotation>
+        <entity display_value="Payslip">dff03a8f1b4a20d0ef5b635ee54bcb75</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 10:02:24</sys_created_on>
+        <sys_id>ca3136cf1b4a20d0ef5b635ee54bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payslip.Can i submit a request through workday to retrieve my payslip </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_ca3136cf1b4a20d0ef5b635ee54bcb1a</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:02:24</sys_updated_on>
+        <utterance display_value="Can i submit a request through workday to retrieve my payslip ">92f65a871b8620d0ef5b635ee54bcbbc</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>1137766054</payload_hash>
+        <record_name>Payslip.Can i submit a request through workday to retrieve my payslip </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:51</sys_created_on>
+        <sys_id>121cdb13871f3050c386fd99cebb35f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6500ae50000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:51</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>5e1cdb13171f3050b30abd12770390ef</update_guid>
+        <update_guid_history>5e1cdb13171f3050b30abd12770390ef:0,e8a85b1ff81f7450a9919fbad4d7c54c:29972505,45d170148a9f3010ecd66ed57dd2e92a:0,a5eff8279f4b7810169982c11e505812:-214226051,895d3c032207b41068b9059b5dcc3a22:0,8417600b3043b4103f980c40d813d5d9:1600890496,cb9b8047c18f7410cf73b89dc1fb3a13:0,ad388c47f54f7410fc314155b9d08fbc:-1610519829,823136cf3b4a20d03b8132049a498b1c:-2120297697</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 14:33:39">ae57f1261bb3b010cb139753b24bcbcb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:33:39</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>0d691e0f685340c8856d249694d2cc84</sys_id>
+        <sys_metadata>ca3136cf1b4a20d0ef5b635ee54bcb1a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payslip.Can i submit a request through workday to retrieve my payslip </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_ca3136cf1b4a20d0ef5b635ee54bcb1a</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_ca3136cf1b4a20d0ef5b635ee54bcb1a">121cdb13871f3050c386fd99cebb35f0</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:33:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

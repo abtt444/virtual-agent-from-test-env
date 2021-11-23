@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 14:10:57</sys_created_on>
+        <sys_id>8f1a67831b4260d0ef5b635ee54bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Do I have relocation leave due to me?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_8f1a67831b4260d0ef5b635ee54bcbe8</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 14:10:57</sys_updated_on>
+        <utterance>Do I have relocation leave due to me?</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_8f1a67831b4260d0ef5b635ee54bcbe8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 14:10:57</sys_created_on>
+        <sys_id>8f1a67831b4260d0ef5b635ee54bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Do I have relocation leave due to me?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_8f1a67831b4260d0ef5b635ee54bcbe8</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 14:10:57</sys_updated_on>
+        <utterance>Do I have relocation leave due to me?</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>92698250</payload_hash>
+        <record_name>Do I have relocation leave due to me?</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:49</sys_created_on>
+        <sys_id>285c9f93871f3050c386fd99cebb355f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650ef800000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:49</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>645c9f93681f30501c21cac8d263fb5f</update_guid>
+        <update_guid_history>645c9f93681f30501c21cac8d263fb5f:0,fa98571fbd1f74502cae88f1e61c38a7:1778264709,0a027c547d9f301090856e0e708665e0:0,c4eff427794b7810e5d362c831a1f9ce:1642388338,1e8d38839407b41051bec4488e6319b2:0,e207acc7bf43b4100b875f3ef0e61ec7:1479518527,addb8c876c8f74109edb6a2a4fe98cc9:0,4838c847294f7410e4dbd16ebc40ac8c:-1936416383,cf1a67831c4260d007054f817c57b1e9:2082876163</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 08:31:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>e28969f5f41141caa91b54daf36c3544</sys_id>
+        <sys_metadata>8f1a67831b4260d0ef5b635ee54bcbe8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Do I have relocation leave due to me?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_8f1a67831b4260d0ef5b635ee54bcbe8</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_8f1a67831b4260d0ef5b635ee54bcbe8">285c9f93871f3050c386fd99cebb355f</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:31:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

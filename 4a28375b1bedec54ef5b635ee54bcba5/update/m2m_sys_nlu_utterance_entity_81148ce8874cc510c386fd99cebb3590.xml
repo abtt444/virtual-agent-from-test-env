@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":13,"end":27,"annotatedString":"how to avoid {{phrase=\"electrical fire\"}} and hazards"},{"start":33,"end":39,"annotatedString":"how to avoid electrical fire and {{phrase=\"hazards\"}}","cat":null}]</annotation>
+        <entity display_value="Hazard">441408e8874cc510c386fd99cebb35ac</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 09:17:51</sys_created_on>
+        <sys_id>81148ce8874cc510c386fd99cebb3590</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Hazard.how to avoid electrical fire and hazards</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_81148ce8874cc510c386fd99cebb3590</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 09:18:03</sys_updated_on>
+        <utterance display_value="how to avoid electrical fire and hazards">bea28428874cc510c386fd99cebb3576</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

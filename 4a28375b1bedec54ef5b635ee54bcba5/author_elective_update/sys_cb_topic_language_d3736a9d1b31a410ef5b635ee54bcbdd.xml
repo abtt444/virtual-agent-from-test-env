@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_language">
+    <sys_cb_topic_language action="DELETE">
+        <cb_topic_id display_value="Increasing Monthly Contribution">0b73e29d1b31a410ef5b635ee54bcb0f</cb_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[]</nlu_entities>
+        <nlu_intent>Increasing Monthly Contribution</nlu_intent>
+        <nlu_intent_label>Increasing Monthly Contribution</nlu_intent_label>
+        <nlu_model>global_4a28375b1bedec54ef5b635ee54bcba5_07c696471b8620d0ef5b635ee54bcbfd</nlu_model>
+        <nlu_model_label>Absa HR Chatbot NLU Model - Entities</nlu_model_label>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cb_topic_language</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-18 12:17:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d3736a9d1b31a410ef5b635ee54bcbdd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_language_d3736a9d1b31a410ef5b635ee54bcbdd</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:08:17</sys_updated_on>
+    </sys_cb_topic_language>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_cb_topic_language_d3736a9d1b31a410ef5b635ee54bcbdd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_language">
+    <sys_cb_topic_language action="INSERT_OR_UPDATE">
+        <cb_topic_id display_value="Increasing Monthly Contribution">0b73e29d1b31a410ef5b635ee54bcb0f</cb_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[]</nlu_entities>
+        <nlu_intent>Increasing Monthly Contribution</nlu_intent>
+        <nlu_intent_label>Increasing Monthly Contribution</nlu_intent_label>
+        <nlu_model>global_4a28375b1bedec54ef5b635ee54bcba5_07c696471b8620d0ef5b635ee54bcbfd</nlu_model>
+        <nlu_model_label>Absa HR Chatbot NLU Model - Entities</nlu_model_label>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cb_topic_language</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-01-18 12:17:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d3736a9d1b31a410ef5b635ee54bcbdd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_language_d3736a9d1b31a410ef5b635ee54bcbdd</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:08:17</sys_updated_on>
+    </sys_cb_topic_language>
+</record_update>]]></payload>
+        <payload_hash>636835715</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:10</sys_created_on>
+        <sys_id>c32c5753871f3050c386fd99cebb3531</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65054d90000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:10</sys_updated_on>
+        <type>CB Topic Language</type>
+        <update_guid>032c5753001f3050f4b756c4821aea31</update_guid>
+        <update_guid_history>032c5753001f3050f4b756c4821aea31:0,da099fdfe51f745089cb686ffc09dd69:-295023488,21287454ffd7fc10cdd7586416180d11:957495928,09e17814e29f30100cc8695f20267fa7:0,85400de7144b7810b8759e1501023b2b:1807311619,556d74433507b410c5c8cc780ea893ef:0,8b6760cb7543b41019dae6548717fedd:1995102533,a7ab8847348f7410362c8c842b952fb7:0,4e98044b0b4f7410c407c0f0ea64641c:-73595471,81e2eafbd44a38107600a0a795f82ae9:613729051,144942f75dc6381005cee58ec5d39cc9:-813229134,880497cc0516a410012b5c98f2cb9626:-1357191827,d3736a9d0631a41048f179359729bfde:1632760513</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 14:16:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic_language">sys_cb_topic_language</sys_db_object>
+        <sys_id>31317dafa8ec464c83efc6d159c8b011</sys_id>
+        <sys_metadata>d3736a9d1b31a410ef5b635ee54bcbdd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_language_d3736a9d1b31a410ef5b635ee54bcbdd</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_language_d3736a9d1b31a410ef5b635ee54bcbdd">c32c5753871f3050c386fd99cebb3531</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 14:16:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"Who can give my {{phrase=\"pension\"}} fund balance","start":16,"end":22}]</annotation>
+        <entity display_value="Pension">c50856431b4e64d0122465fce54bcb32</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 07:45:51</sys_created_on>
+        <sys_id>1638da2f1bdea090122465fce54bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.Who can give my pension fund balance</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_1638da2f1bdea090122465fce54bcbb1</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 07:45:51</sys_updated_on>
+        <utterance display_value="Who can give my pension fund balance">e038da2f1bdea090122465fce54bcbae</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_1638da2f1bdea090122465fce54bcbb1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"Who can give my {{phrase=\"pension\"}} fund balance","start":16,"end":22}]</annotation>
+        <entity display_value="Pension">c50856431b4e64d0122465fce54bcb32</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 07:45:51</sys_created_on>
+        <sys_id>1638da2f1bdea090122465fce54bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.Who can give my pension fund balance</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_1638da2f1bdea090122465fce54bcbb1</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 07:45:51</sys_updated_on>
+        <utterance display_value="Who can give my pension fund balance">e038da2f1bdea090122465fce54bcbae</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>518017232</payload_hash>
+        <record_name>Pension.Who can give my pension fund balance</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:13</sys_created_on>
+        <sys_id>4dfb17df87db3050c386fd99cebb3568</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64f77050000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:13</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>89fb17df87db30508c304742a2cd8f68</update_guid>
+        <update_guid_history>89fb17df87db30508c304742a2cd8f68:0,13f81bdf971f74500ea205c6acad31d1:-360337806,08b1bc907a9f30102a88891d3b415086:0,aa30c5e7f94b781076a3d46ba356e434:135479669,503d78cf7ac3b4102c7aa377c029824d:0,d8672c8b4a43b4103dedb6c5033e73dc:-597074674,397bc8c3328f7410800b8e4a8aef7610:0,72888c0b0f4f7410f9b8bb48e8d3561c:-139618632,96381aaf9cdea09039895efa73dde150:708835138</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 13:57:39">531fe5661b73b010cb139753b24bcb7d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 11:57:39</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>035113db9f204d568060a71a055892f1</sys_id>
+        <sys_metadata>1638da2f1bdea090122465fce54bcbb1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.Who can give my pension fund balance</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_1638da2f1bdea090122465fce54bcbb1</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_1638da2f1bdea090122465fce54bcbb1">4dfb17df87db3050c386fd99cebb3568</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:57:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

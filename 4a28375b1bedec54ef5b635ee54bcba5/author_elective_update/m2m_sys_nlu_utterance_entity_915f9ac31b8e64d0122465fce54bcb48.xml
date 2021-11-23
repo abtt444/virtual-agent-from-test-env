@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"who do i contact for retirement fund {{phrase=\"withdrawals\"}}","start":37,"end":47}]</annotation>
+        <entity display_value="Withdraw">34ce1e431b8e64d0122465fce54bcbba</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 08:44:15</sys_created_on>
+        <sys_id>915f9ac31b8e64d0122465fce54bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Withdraw.who do i contact for retirement fund withdrawals </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_915f9ac31b8e64d0122465fce54bcb48</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:44:15</sys_updated_on>
+        <utterance display_value="who do i contact for retirement fund withdrawals ">0af65a871b8620d0ef5b635ee54bcb1d</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_915f9ac31b8e64d0122465fce54bcb48</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"who do i contact for retirement fund {{phrase=\"withdrawals\"}}","start":37,"end":47}]</annotation>
+        <entity display_value="Withdraw">34ce1e431b8e64d0122465fce54bcbba</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 08:44:15</sys_created_on>
+        <sys_id>915f9ac31b8e64d0122465fce54bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Withdraw.who do i contact for retirement fund withdrawals </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_915f9ac31b8e64d0122465fce54bcb48</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:44:15</sys_updated_on>
+        <utterance display_value="who do i contact for retirement fund withdrawals ">0af65a871b8620d0ef5b635ee54bcb1d</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>-345182798</payload_hash>
+        <record_name>Withdraw.who do i contact for retirement fund withdrawals </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:39</sys_created_on>
+        <sys_id>df0c5713871f3050c386fd99cebb35a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64fdc4b0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:39</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>1f0c5713f21f3050a4a3c606b3b228a2</update_guid>
+        <update_guid_history>1f0c5713f21f3050a4a3c606b3b228a2:0,75e89f9fcb1f7450c59de9cc01156332:-1153670763,8ec1f8d0879f3010265be2730292f592:0,4220c9a73b4b78107e13623f8dff5df7:551635153,124db403ac07b410448b74ac4096ab4d:0,6f47a08b8a43b410b6b443d1e79d9466:-1747820853,109b4807578f74108d77a2a0c983e792:0,0a78800b154f7410c546b845bf987e70:-908748579,595f9ac3878e64d05c64b71784b1ae49:-689659881</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 13:13:10">80f4ed2687337810c386fd99cebb35ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 11:13:10</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>0713768690fc459883aef81953f2fc90</sys_id>
+        <sys_metadata>915f9ac31b8e64d0122465fce54bcb48</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Withdraw.who do i contact for retirement fund withdrawals </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_915f9ac31b8e64d0122465fce54bcb48</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_915f9ac31b8e64d0122465fce54bcb48">df0c5713871f3050c386fd99cebb35a2</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:13:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Withdrawal from Pension">caf65a871b8620d0ef5b635ee54bcb1b</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:43</sys_created_on>
+        <sys_id>1ef65a871b8620d0ef5b635ee54bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>request for pension payout</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_1ef65a871b8620d0ef5b635ee54bcb5c</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:43</sys_updated_on>
+        <utterance>request for pension payout</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_1ef65a871b8620d0ef5b635ee54bcb5c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Withdrawal from Pension">caf65a871b8620d0ef5b635ee54bcb1b</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:43</sys_created_on>
+        <sys_id>1ef65a871b8620d0ef5b635ee54bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>request for pension payout</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_1ef65a871b8620d0ef5b635ee54bcb5c</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:43</sys_updated_on>
+        <utterance>request for pension payout</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>882489146</payload_hash>
+        <record_name>request for pension payout</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:27</sys_created_on>
+        <sys_id>cf3c9f53871f3050c386fd99cebb3534</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65096780000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:27</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>0f3c9f53211f30503a3470b480285834</update_guid>
+        <update_guid_history>0f3c9f53211f30503a3470b480285834:0,c6e89f9f351f7450f5a3bc937cc760c4:597695630,f8f17054409f3010cdb06357bb8e5cd9:0,8e200da7464b78104d37fd19d5eb4b5d:1549961490,9d7d7c436f07b410f4a384b01f29d3e2:0,3f47a08b3543b410b95c9d01837dbcb4:196495308,a7bbc087d98f7410c9a09b33557025ed:0,d678c00bbf4f7410f7733e0f82332215:1248799971,5ef65a870c8620d0b525cd5c620db05d:-1014280479</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 11:13:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>10c715f589d7468d849747e2d68f4ba1</sys_id>
+        <sys_metadata>1ef65a871b8620d0ef5b635ee54bcb5c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>request for pension payout</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_1ef65a871b8620d0ef5b635ee54bcb5c</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_1ef65a871b8620d0ef5b635ee54bcb5c">cf3c9f53871f3050c386fd99cebb3534</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:13:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

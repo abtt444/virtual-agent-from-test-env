@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "96fec7db972a42fe91e4d1dd5cb68d0d": {
+          "id": "96fec7db972a42fe91e4d1dd5cb68d0d",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "b4e007b8810545e0a1c9507ae60e5b20": {
+          "id": "b4e007b8810545e0a1c9507ae60e5b20",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "7962d53f5b154ef39c64453fbd1a44b5": {
+          "id": "7962d53f5b154ef39c64453fbd1a44b5",
+          "stepType": "TextOutput",
+          "name": "zscaler",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "ZScaler is a platform that allows users to  connect to their ASBA email, internet and applications in a more convenient way. It allows our tech team to have a more complete view of  remote users, allowing faster and more accurate identification of issues and problems."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "How to locate and activate ZScaler:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. Search for ZScaler in your Windows menu"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. Launch the app and follow the prompts. Once the app reflects an ON status, you can stop using FortiClient and AnyConnect VPN"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "If ZScaler is not installed or you are experiencing any difficulties, please call the IT HelpDesk at 0861 721 721. For complete details on ZScaler please click here {Insert Link}. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "6e81ea398990490bb996ff3a6341f27d",
+          "edgeType": "Edge",
+          "source": "96fec7db972a42fe91e4d1dd5cb68d0d",
+          "target": "7962d53f5b154ef39c64453fbd1a44b5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "42e913dd9ed442419769ff2706b00031",
+          "edgeType": "Edge",
+          "source": "7962d53f5b154ef39c64453fbd1a44b5",
+          "target": "b4e007b8810545e0a1c9507ae60e5b20",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>zScaler Platform</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>zScaler Platform</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-18 13:21:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3d65d49b87bb3410c386fd99cebb3571</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>zScaler Platform</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_3d65d49b87bb3410c386fd99cebb3571</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-18 13:25:58</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=3d65d49b87bb3410c386fd99cebb3571"/>
+</record_update>

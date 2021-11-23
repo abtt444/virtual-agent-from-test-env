@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":33,"end":40,"annotatedString":"WHat do I need to know if I work {{phrase=\"overseas\"}}","cat":null}]</annotation>
+        <entity display_value="Travel">bd23adae87ff3810c386fd99cebb35c9</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-22 11:34:15</sys_created_on>
+        <sys_id>03436c2c87400910c386fd99cebb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Travel.WHat do I need to know if I work overseas</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_03436c2c87400910c386fd99cebb35c4</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-22 11:34:15</sys_updated_on>
+        <utterance display_value="WHat do I need to know if I work overseas">c4212ce487400910c386fd99cebb355e</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

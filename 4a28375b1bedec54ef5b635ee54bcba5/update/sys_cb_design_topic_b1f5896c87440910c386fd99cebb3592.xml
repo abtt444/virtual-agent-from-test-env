@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Handset">39f5896c87440910c386fd99cebb358e</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"da1202b72882497bb8f83697222734fe","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"da1202b72882497bb8f83697222734fe"}],"goals":[{"name":"primary","trigger_id":"da1202b72882497bb8f83697222734fe","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"3ac42b8b1606440a91ee9895577a8a2d","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"7e1af69ebfe047c0a58be4c5a9444da7","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:5e313f4387b73410c386fd99cebb35a5:node:3d686b52accb490c90f7ff910499ea60:field:Value\", vaContext.getRequesterLang())"},"id":"3d686b52accb490c90f7ff910499ea60","name":"Handset Intro","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"3ac42b8b1606440a91ee9895577a8a2d","target_node_id":"3d686b52accb490c90f7ff910499ea60","id":"667c30ecc1694c94b27ec9c02368e6c6"},{"type":"Edge","source_node_id":"3d686b52accb490c90f7ff910499ea60","target_node_id":"7e1af69ebfe047c0a58be4c5a9444da7","id":"6bf8f221686e43c3a21e581c065b88d6"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"5e313f4387b73410c386fd99cebb35a5","name":"Handset","key_phrases":["Handset"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>5e313f4387b73410c386fd99cebb35a5</design_topic_id>
+        <name>Handset</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-22 14:05:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b1f5896c87440910c386fd99cebb3592</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_b1f5896c87440910c386fd99cebb3592</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-22 14:05:43</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":8,"end":-1,"annotatedString":"what is {{phrase=\"what is \"}}what is microsoft teams","cat":null},{"start":8,"end":22,"annotatedString":"what is {{phrase=\"microsoft teams\"}}","cat":null}]</annotation>
+        <entity display_value="Software">1eb984e4878cc510c386fd99cebb3595</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 09:43:30</sys_created_on>
+        <sys_id>fcf90028878cc510c386fd99cebb357a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Software.what is {{"phrase":"microsoft teams","lookupSources":[{"solutionName":"GLOBAL","lookupSourceName":"software","name":"@lookupSources:software@@","displayName":"Software"}]}}</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_fcf90028878cc510c386fd99cebb357a</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 09:43:43</sys_updated_on>
+        <utterance display_value="what is {{&quot;phrase&quot;:&quot;microsoft teams&quot;,&quot;lookupSources&quot;:[{&quot;solutionName&quot;:&quot;GLOBAL&quot;,&quot;lookupSourceName&quot;:&quot;software&quot;,&quot;name&quot;:&quot;@lookupSources:software@@&quot;,&quot;displayName&quot;:&quot;Software&quot;,&quot;entityName&quot;:&quot;Software&quot;}]}}">63e90028878cc510c386fd99cebb3577</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>4fd0e6591b31a410ef5b635ee54bcbc9</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "ab09c650bd05426099f7d3145dcb801b": {
+          "id": "ab09c650bd05426099f7d3145dcb801b",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "b936bd205ee94a6f84ef9546cffcf9c5": {
+          "id": "b936bd205ee94a6f84ef9546cffcf9c5",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "d781314e684d42479d1613a3eb7b207e": {
+          "id": "d781314e684d42479d1613a3eb7b207e",
+          "stepType": "TextOutput",
+          "name": "Leave Encashment",
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Leave encashment is your accumulated leave balance available. All permanent employees qualify to encash up to 12 days of accumulated leave per year."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Here is how you can go about making your leave encashment request: "
+                  }
+                ]
+              },
+              {
+                "type": "bulleted-list",
+                "children": [
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Type ‘Create Request’ in the Workday Search field"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Select ‘Leave Encashment’ from the list appearing"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Fill in the questionnaire, ie. number of days"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Click on Submit"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please note that leave encashment successfully submitted on Workday by the payroll cut off date - which is the 10th of every month - is paid in the current month's pay run."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "secure": false
+        }
+      },
+      "edges": [
+        {
+          "id": "40888bd48d564f95b178b425d73c9230",
+          "edgeType": "Edge",
+          "source": "ab09c650bd05426099f7d3145dcb801b",
+          "target": "d781314e684d42479d1613a3eb7b207e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "fe3e8e23fde249a1b55ff27cf8b59c56",
+          "edgeType": "Edge",
+          "source": "d781314e684d42479d1613a3eb7b207e",
+          "target": "b936bd205ee94a6f84ef9546cffcf9c5",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Leave Encashment</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Leave Encashment</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-01-18 12:23:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>35d42e111b71a410ef5b635ee54bcb45</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Leave Encashment</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_35d42e111b71a410ef5b635ee54bcb45</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:40:51</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=35d42e111b71a410ef5b635ee54bcb45"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_cb_topic_35d42e111b71a410ef5b635ee54bcb45</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><applicability_mode>query</applicability_mode><autopilot_topic>false</autopilot_topic><category>4fd0e6591b31a410ef5b635ee54bcbc9</category><channels/><connect_queue/><description/><expose_on_palette>false</expose_on_palette><flexible_conversation_switching>true</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "ab09c650bd05426099f7d3145dcb801b": {
+          "id": "ab09c650bd05426099f7d3145dcb801b",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "b936bd205ee94a6f84ef9546cffcf9c5": {
+          "id": "b936bd205ee94a6f84ef9546cffcf9c5",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "d781314e684d42479d1613a3eb7b207e": {
+          "id": "d781314e684d42479d1613a3eb7b207e",
+          "stepType": "TextOutput",
+          "name": "Leave Encashment",
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Leave encashment is your accumulated leave balance available. All permanent employees qualify to encash up to 12 days of accumulated leave per year."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Here is how you can go about making your leave encashment request: "
+                  }
+                ]
+              },
+              {
+                "type": "bulleted-list",
+                "children": [
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Type ‘Create Request’ in the Workday Search field"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Select ‘Leave Encashment’ from the list appearing"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Fill in the questionnaire, ie. number of days"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Click on Submit"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please note that leave encashment successfully submitted on Workday by the payroll cut off date - which is the 10th of every month - is paid in the current month's pay run."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "secure": false
+        }
+      },
+      "edges": [
+        {
+          "id": "40888bd48d564f95b178b425d73c9230",
+          "edgeType": "Edge",
+          "source": "ab09c650bd05426099f7d3145dcb801b",
+          "target": "d781314e684d42479d1613a3eb7b207e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "fe3e8e23fde249a1b55ff27cf8b59c56",
+          "edgeType": "Edge",
+          "source": "d781314e684d42479d1613a3eb7b207e",
+          "target": "b936bd205ee94a6f84ef9546cffcf9c5",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph><key_phrases>Leave Encashment</key_phrases><library>false</library><live_agent>false</live_agent><name>Leave Encashment</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><palette_label/><roles/><source_topic_id/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>gabriel.eisenberg</sys_created_by><sys_created_on>2021-01-18 12:23:14</sys_created_on><sys_domain>global</sys_domain><sys_id>35d42e111b71a410ef5b635ee54bcb45</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Leave Encashment</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_cb_topic_35d42e111b71a410ef5b635ee54bcb45</sys_update_name><sys_updated_by>AB019AK</sys_updated_by><sys_updated_on>2021-11-16 08:40:51</sys_updated_on><triggerable_by_notification>false</triggerable_by_notification><type>STANDARD</type><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=35d42e111b71a410ef5b635ee54bcb45"/></record_update>]]></payload>
+        <payload_hash>63221784</payload_hash>
+        <record_name>Leave Encashment</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 08:40:51</sys_created_on>
+        <sys_id>d81285261b3f7010cb139753b24bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d27e7ee870000001</sys_recorded_at>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:40:51</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>90128526253f7010686a47627c98abd6</update_guid>
+        <update_guid_history>90128526253f7010686a47627c98abd6:63221784,ee81c1e2a93f70109b2bf2246623b29f:-421883552,862cd353fe1f305002ad7ea5f6cc6971:0,94299b13955f7450ced8737f8f2a38c1:-815064772,18e1f414bc9f3010846d2667e81f52e9:0,3650c52b574b78100ba3cb0a43b85aa9:68943422,6c6df043dc07b410af3e4391cf3d24cd:0,9c872ccbe943b41058eaf21cd43c0265:-233276154,6aab4847ed8f74100e5b3702ddf8af28:0,93f8c00f534f7410a13e56cb0acf8b9e:-1152790362,c8a3ab4c875e70102f305b3f1d5f8195:-1633502310,71e4e251ca71a41007980da43446498f:1727521012,35d42a51d771a410550e62537cbc85c0:-1153242262</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 08:41:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>147f97ae93a5459a8942a5573dd4a344</sys_id>
+        <sys_metadata>35d42e111b71a410ef5b635ee54bcb45</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave Encashment</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_35d42e111b71a410ef5b635ee54bcb45</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_35d42e111b71a410ef5b635ee54bcb45">d81285261b3f7010cb139753b24bcbd6</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:41:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

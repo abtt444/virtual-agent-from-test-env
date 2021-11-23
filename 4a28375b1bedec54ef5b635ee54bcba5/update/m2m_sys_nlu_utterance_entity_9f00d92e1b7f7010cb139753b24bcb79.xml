@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":41,"end":52,"annotatedString":"what is absa doing to protect staff from {{phrase=\"coronavirus?\"}}","cat":null}]</annotation>
+        <entity display_value="Covid">728f41ea1b7f7010cb139753b24bcb31</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 09:41:56</sys_created_on>
+        <sys_id>9f00d92e1b7f7010cb139753b24bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Covid.what is absa doing to protect staff from coronavirus?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_9f00d92e1b7f7010cb139753b24bcb79</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 09:41:56</sys_updated_on>
+        <utterance display_value="what is absa doing to protect staff from coronavirus?">82f61a871b8620d0ef5b635ee54bcbd2</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

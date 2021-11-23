@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"I applied for a position in Cape Town and got the job. Why does the new manager say that I don't qualify for {{phrase=\"relocation\"}} benefits?","start":109,"end":118}]</annotation>
+        <entity display_value="Relocation">a4d9fe8f1b42a4d0122465fce54bcb60</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 14:00:54</sys_created_on>
+        <sys_id>ea742e1f1b126090122465fce54bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation.I applied for a position in Cape Town and got the job. Why does the new manager say that I don't qualify for relocation benefits?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_ea742e1f1b126090122465fce54bcbfa</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 14:00:54</sys_updated_on>
+        <utterance display_value="I applied for a position in Cape Town and got the job. Why does the new manager say that I don't qualify for relocation benefits?">8574a65f1b126090122465fce54bcb72</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_ea742e1f1b126090122465fce54bcbfa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"I applied for a position in Cape Town and got the job. Why does the new manager say that I don't qualify for {{phrase=\"relocation\"}} benefits?","start":109,"end":118}]</annotation>
+        <entity display_value="Relocation">a4d9fe8f1b42a4d0122465fce54bcb60</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 14:00:54</sys_created_on>
+        <sys_id>ea742e1f1b126090122465fce54bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation.I applied for a position in Cape Town and got the job. Why does the new manager say that I don't qualify for relocation benefits?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_ea742e1f1b126090122465fce54bcbfa</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 14:00:54</sys_updated_on>
+        <utterance display_value="I applied for a position in Cape Town and got the job. Why does the new manager say that I don't qualify for relocation benefits?">8574a65f1b126090122465fce54bcb72</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>-837257387</payload_hash>
+        <record_name>Relocation.I applied for a position in Cape Town and got the job. Why does the new manager say that </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:58</sys_created_on>
+        <sys_id>042cdf13871f3050c386fd99cebb35a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650257d0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:58</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>402cdf13c01f305008c9e148406b5ba3</update_guid>
+        <update_guid_history>402cdf13c01f305008c9e148406b5ba3:0,3e98571f501f74504aec09163bb5a753:-555015002,e6d13414669f30101d71feea218e294b:0,77dff427214b78108784be239af00742:-1567702567,7a5dfc037807b410c4b28d11a7161ccc:0,a607acc70843b410ef70fda2a9a29260:322081521,3cab4447d28f7410f7c354e93a4491a4:0,f328c847154f7410ed4ac335342d5932:-822864056,ae742e1f27126090aae65ecb9cdf02fb:-1483650465</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 10:15:43">ac5cbc2287fb3810c386fd99cebb3537</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 08:15:43</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>7e2397440c184dbc8b013d1c7c61c310</sys_id>
+        <sys_metadata>ea742e1f1b126090122465fce54bcbfa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation.I applied for a position in Cape Town and got the job. Why does the new manager say that I don't qualify for relocation benefits?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_ea742e1f1b126090122465fce54bcbfa</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_ea742e1f1b126090122465fce54bcbfa">042cdf13871f3050c386fd99cebb35a3</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:15:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

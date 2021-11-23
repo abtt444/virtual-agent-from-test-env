@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>if you are working from home, we have good news for you. by using your personal space as an office you may be eligible for tax deductions from sars this season!
+for information on how to claim certain deductions please follow this {​link}.</key>
+        <language>en</language>
+        <message>If you are working from home, we have good news for you. By using your personal space as an office you may be eligible for tax deductions from SARS this season!
+For information on how to claim certain deductions please follow this {​link}.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-18 14:25:26</sys_created_on>
+        <sys_id>6f14a8db873f3410c386fd99cebb35b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>if you are working from home, we have good news for you. by using your personal space as an office you may be eligible for tax deductions from sars this season!
+for information on how to claim certain deductions please follow this {​link}.</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_6f14a8db873f3410c386fd99cebb35b5</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-18 14:25:26</sys_updated_on>
+    </sys_ui_message>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Move Office Equipment to Your Home">83c3ec6c87400910c386fd99cebb3593</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"aea19d58f56949558b44ca26f97b89ae","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"aea19d58f56949558b44ca26f97b89ae"}],"goals":[{"name":"primary","trigger_id":"aea19d58f56949558b44ca26f97b89ae","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"9e96132fbba6413ca5c40ff29409c5ea","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"e918befdab5d4c0f9c7ca889e6eced95","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"gs.getMessageLang(\"[Complete the digitised request process to move equipment from the office to your home](https://docs.google.com/document/d/1XP9jJ4GUfB1nkROM3jYjkUhvtbtsdhG9/edit), and find out more about how the request and approval process works.\", vaContext.getRequesterLang())"},"id":"0c9290c85f3b4938b8ac5aa12cc5c661","name":"response","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"9e96132fbba6413ca5c40ff29409c5ea","target_node_id":"0c9290c85f3b4938b8ac5aa12cc5c661","id":"cb4bcc8f1605431fb26c64eabc12dd04"},{"type":"Edge","source_node_id":"0c9290c85f3b4938b8ac5aa12cc5c661","target_node_id":"e918befdab5d4c0f9c7ca889e6eced95","id":"7426139c529c421da4014fd8c1dce25b"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"aca264e887400910c386fd99cebb3505","name":"Move Office Equipment to Your Home","key_phrases":["Move Office Equipment to Your Home"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>aca264e887400910c386fd99cebb3505</design_topic_id>
+        <name>Move Office Equipment to Your Home</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 11:36:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cfc3ec6c87400910c386fd99cebb35e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_cfc3ec6c87400910c386fd99cebb35e1</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 11:36:26</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

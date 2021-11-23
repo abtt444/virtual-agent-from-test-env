@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:5e313f4387b73410c386fd99cebb35a5:node:3d686b52accb490c90f7ff910499ea60:field:value</key>
+        <language>en</language>
+        <message>[](https://docs.google.com/document/d/1471kdhxHny1EZ7ISMKH6PLrt3pDIbfjU/edit)With hundreds of our employees now working from home, we have updated out Mobile Standard to accommodate this. With these change, eligible employees are now able to request mobile devices values up to R4000 (excluding VAT) across all grades, roles and positions.
+
+You can also request devices values over R4000 however you will be required to play the difference
+Also remember that once the device is retired it becomes your property.
+You can read more [here](https://docs.google.com/document/d/1Lv7kJleDt_heZB3nlr23mNfkXGr97Ft-/edit).</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-18 13:00:02</sys_created_on>
+        <sys_id>a89094df877b3410c386fd99cebb35a6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>va:topic:5e313f4387b73410c386fd99cebb35a5:node:3d686b52accb490c90f7ff910499ea60:field:value</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_a89094df877b3410c386fd99cebb35a6</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-22 14:05:42</sys_updated_on>
+    </sys_ui_message>
+</record_update>

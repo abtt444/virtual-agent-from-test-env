@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_intent">
+    <sys_nlu_intent action="DELETE">
+        <confidence_threshold/>
+        <description>Retrieval of the employees IRP5 Certificate</description>
+        <enable>true</enable>
+        <model display_value="Absa HR Chatbot NLU Model - Entities">07c696471b8620d0ef5b635ee54bcbfd</model>
+        <name>IRP5 Certificate</name>
+        <origin/>
+        <override_confidence_threshold>false</override_confidence_threshold>
+        <primary_intent/>
+        <status>draft</status>
+        <sys_class_name>sys_nlu_intent</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>2af69a871b8620d0ef5b635ee54bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5 Certificate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_intent_2af69a871b8620d0ef5b635ee54bcb28</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+    </sys_nlu_intent>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_intent_2af69a871b8620d0ef5b635ee54bcb28</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_intent">
+    <sys_nlu_intent action="INSERT_OR_UPDATE">
+        <confidence_threshold/>
+        <description>Retrieval of the employees IRP5 Certificate</description>
+        <enable>true</enable>
+        <model display_value="Absa HR Chatbot NLU Model - Entities">07c696471b8620d0ef5b635ee54bcbfd</model>
+        <name>IRP5 Certificate</name>
+        <origin/>
+        <override_confidence_threshold>false</override_confidence_threshold>
+        <primary_intent/>
+        <status>draft</status>
+        <sys_class_name>sys_nlu_intent</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>2af69a871b8620d0ef5b635ee54bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5 Certificate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_intent_2af69a871b8620d0ef5b635ee54bcb28</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+    </sys_nlu_intent>
+</record_update>]]></payload>
+        <payload_hash>-1267509304</payload_hash>
+        <record_name>IRP5 Certificate</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:18</sys_created_on>
+        <sys_id>453c5b53871f3050c386fd99cebb3577</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65075370000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:18</sys_updated_on>
+        <type>NLU Intent</type>
+        <update_guid>813c5b53f31f3050c0ba6ca511256f77</update_guid>
+        <update_guid_history>813c5b53f31f3050c0ba6ca511256f77:0,83a89f1fcc1f7450249203a8cd6d7e62:374176755,cbe17c14b89f3010ad97def3513b6894:0,fbeffc277a4b7810e555144171afe854:290019033,d76d7843b107b4100f565e78373e8d91:0,1617a40bff43b4104e3e5c3bfaa2200f:-1569368751,25bbcc47728f741084786c7585182b2c:0,c44844873b4f7410d879cc78e2d9d902:-196194749,6af69a87348620d0b836504e044aef29:1486370699</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:35:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_intent">sys_nlu_intent</sys_db_object>
+        <sys_id>10725ec2d6304b8b96a75d56e6e4fc39</sys_id>
+        <sys_metadata>2af69a871b8620d0ef5b635ee54bcb28</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5 Certificate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_intent_2af69a871b8620d0ef5b635ee54bcb28</sys_update_name>
+        <sys_update_version display_value="sys_nlu_intent_2af69a871b8620d0ef5b635ee54bcb28">453c5b53871f3050c386fd99cebb3577</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:35:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 14:10:57</sys_created_on>
+        <sys_id>cf1a67831b4260d0ef5b635ee54bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How often can I take relocation leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_cf1a67831b4260d0ef5b635ee54bcbf1</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 14:10:57</sys_updated_on>
+        <utterance>How often can I take relocation leave</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_cf1a67831b4260d0ef5b635ee54bcbf1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 14:10:57</sys_created_on>
+        <sys_id>cf1a67831b4260d0ef5b635ee54bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How often can I take relocation leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_cf1a67831b4260d0ef5b635ee54bcbf1</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 14:10:57</sys_updated_on>
+        <utterance>How often can I take relocation leave</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-1223394550</payload_hash>
+        <record_name>How often can I take relocation leave</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:19:03</sys_created_on>
+        <sys_id>886cd7d3871f3050c386fd99cebb353f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65124fd0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:19:03</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>c46cd7d3621f30507ac8292226050f3f</update_guid>
+        <update_guid_history>c46cd7d3621f30507ac8292226050f3f:0,1798971f701f74506e984b255fa38a3d:-76105462,19123494e29f3010b358fcca61dfbd9e:0,18ef3827a64b7810f0073f36d283078d:2027448363,e59df0c3df07b4100b71b3cc6d13f82e:0,7207ecc70143b410255be8e7f6e7dc48:881151528,c9eb84c79a8f741084e98155adc8550b:0,10380c47fb4f7410ff58a622b49b0301:651196871,031a6783024260d0f0f2b4a8462182f3:881215819</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 08:45:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>a2e6d52fe8be41a0b0d4902701d20240</sys_id>
+        <sys_metadata>cf1a67831b4260d0ef5b635ee54bcbf1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How often can I take relocation leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_cf1a67831b4260d0ef5b635ee54bcbf1</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_cf1a67831b4260d0ef5b635ee54bcbf1">886cd7d3871f3050c386fd99cebb353f</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:45:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

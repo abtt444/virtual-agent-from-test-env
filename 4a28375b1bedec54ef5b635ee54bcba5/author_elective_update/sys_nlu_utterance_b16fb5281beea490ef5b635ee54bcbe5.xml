@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-22 08:31:19</sys_created_on>
+        <sys_id>b16fb5281beea490ef5b635ee54bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>carona</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_b16fb5281beea490ef5b635ee54bcbe5</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-22 08:31:19</sys_updated_on>
+        <utterance>carona</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_b16fb5281beea490ef5b635ee54bcbe5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-22 08:31:19</sys_created_on>
+        <sys_id>b16fb5281beea490ef5b635ee54bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>carona</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_b16fb5281beea490ef5b635ee54bcbe5</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-22 08:31:19</sys_updated_on>
+        <utterance>carona</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-1695338480</payload_hash>
+        <record_name>carona</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:57</sys_created_on>
+        <sys_id>de5c93d3871f3050c386fd99cebb3573</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6510be60000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:57</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>1e5c93d3541f3050a4bed3792821e873</update_guid>
+        <update_guid_history>1e5c93d3541f3050a4bed3792821e873:0,6fa8df1f6e1f7450b49668064bb67b62:337561829,ff0270947f9f3010622b70de82dd618e:0,88ff3067eb4b781034d0962b8fd90600:144401556,409d7c837207b410ac3b3a9c518bc441:0,6617a40bd143b4109ff61bc3ec061289:-1591456588,17db80c7be8f741068b32ab4f9904498:0,d8484487a84f74104148dd497356b7f1:-998339889,b56fb528a2eea4901830485b0ef5bce6:1210280791</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 09:53:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>3ae8714e467549f69e6db10efbddc1e4</sys_id>
+        <sys_metadata>b16fb5281beea490ef5b635ee54bcbe5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>carona</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_b16fb5281beea490ef5b635ee54bcbe5</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_b16fb5281beea490ef5b635ee54bcbe5">de5c93d3871f3050c386fd99cebb3573</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 09:53:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

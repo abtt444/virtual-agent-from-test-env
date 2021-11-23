@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:37</sys_created_on>
+        <sys_id>38f696871b8620d0ef5b635ee54bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>how do you get infected by coronavirus?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_38f696871b8620d0ef5b635ee54bcb04</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:37</sys_updated_on>
+        <utterance>how do you get infected by coronavirus?</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_38f696871b8620d0ef5b635ee54bcb04</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:37</sys_created_on>
+        <sys_id>38f696871b8620d0ef5b635ee54bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>how do you get infected by coronavirus?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_38f696871b8620d0ef5b635ee54bcb04</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:37</sys_updated_on>
+        <utterance>how do you get infected by coronavirus?</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-2135460174</payload_hash>
+        <record_name>how do you get infected by coronavirus?</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:32</sys_created_on>
+        <sys_id>984c5393871f3050c386fd99cebb3591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650ab360000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:32</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>d44c5393f01f30504b430e8864d57691</update_guid>
+        <update_guid_history>d44c5393f01f30504b430e8864d57691:0,d3a89f1fd61f74508e05554885b689b1:-559438895,c2f13454829f3010c8bbf0cecc60ddd3:0,4cfffc27dc4b78101a11d1f1b5636b92:1600204335,127d3083f407b410786c958383a75e60:0,5e17a40bf943b410bb527a05d5bb1f40:575362698,b8cb84872d8f7410205b932df4dfa951:0,08484487514f74106b02d54590ad1d77:-76583854,78f696874b8620d05cb02c381cea4b05:772703163</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 09:53:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>3cb3757fd369488c94a97fe6f021ea90</sys_id>
+        <sys_metadata>38f696871b8620d0ef5b635ee54bcb04</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>how do you get infected by coronavirus?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_38f696871b8620d0ef5b635ee54bcb04</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_38f696871b8620d0ef5b635ee54bcb04">984c5393871f3050c386fd99cebb3591</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 09:53:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

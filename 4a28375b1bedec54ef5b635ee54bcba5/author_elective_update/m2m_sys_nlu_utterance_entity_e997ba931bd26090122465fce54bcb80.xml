@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"Where can I get my {{phrase=\"IRP5\"}} for 2019?","start":19,"end":22}]</annotation>
+        <entity display_value="IRP5">7780fa0f1b4a20d0ef5b635ee54bcb8a</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 15:24:24</sys_created_on>
+        <sys_id>e997ba931bd26090122465fce54bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5.Where can I get my IRP5 for 2019?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_e997ba931bd26090122465fce54bcb80</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 15:24:24</sys_updated_on>
+        <utterance display_value="Where can I get my IRP5 for 2019?">d49736171bd26090122465fce54bcb12</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_e997ba931bd26090122465fce54bcb80</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"Where can I get my {{phrase=\"IRP5\"}} for 2019?","start":19,"end":22}]</annotation>
+        <entity display_value="IRP5">7780fa0f1b4a20d0ef5b635ee54bcb8a</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 15:24:24</sys_created_on>
+        <sys_id>e997ba931bd26090122465fce54bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5.Where can I get my IRP5 for 2019?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_e997ba931bd26090122465fce54bcb80</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 15:24:24</sys_updated_on>
+        <utterance display_value="Where can I get my IRP5 for 2019?">d49736171bd26090122465fce54bcb12</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>190071583</payload_hash>
+        <record_name>IRP5.Where can I get my IRP5 for 2019?</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:57</sys_created_on>
+        <sys_id>331cdf13871f3050c386fd99cebb3589</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65024620000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:57</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>7f1cdf139f1f30505bedd7a11cf51788</update_guid>
+        <update_guid_history>7f1cdf139f1f30505bedd7a11cf51788:0,f6a85f1f421f745021f9c9c97ffbd3ac:1369122581,62d13414229f3010c8f693508be31f1a:0,e7efbc27e74b78100201a4028a6bc0ce:655690790,f25dfc039207b41076289ae42027069b:0,7117640b0343b41065b0f55f7a4ee070:2092673667,a4ab4447db8f7410ebd0a68da12ff873:0,ef38c087004f74101665a08173e0d3e6:-894039006,219776579dd260903b37f3a5050415f1:1339325843</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 14:35:15">d6b7b1661bb3b010cb139753b24bcb86</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:35:15</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>17784de0f9d540468394e9a599b8dc44</sys_id>
+        <sys_metadata>e997ba931bd26090122465fce54bcb80</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5.Where can I get my IRP5 for 2019?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_e997ba931bd26090122465fce54bcb80</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_e997ba931bd26090122465fce54bcb80">331cdf13871f3050c386fd99cebb3589</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:35:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

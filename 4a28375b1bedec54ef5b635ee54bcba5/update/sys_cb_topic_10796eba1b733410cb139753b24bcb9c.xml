@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "16fee0377bae4c1aa01968b81d43ce9a": {
+          "id": "16fee0377bae4c1aa01968b81d43ce9a",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "63cb5449bc454dc4b8236ca0401efc1e": {
+          "id": "63cb5449bc454dc4b8236ca0401efc1e",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "b5507d90d6d74d559ac4cea4826a965b": {
+          "id": "b5507d90d6d74d559ac4cea4826a965b",
+          "stepType": "TextOutput",
+          "name": "ratingscale",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You can find the My Contribution Rating Scale "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/my_contribution?id=rating_scale",
+                    "children": [
+                      {
+                        "text": "here"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "c97dc7a4ce274fc9804372a7abbfdea9",
+          "edgeType": "Edge",
+          "source": "16fee0377bae4c1aa01968b81d43ce9a",
+          "target": "b5507d90d6d74d559ac4cea4826a965b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7aaa3016ab2f49f39c064b418501b0fd",
+          "edgeType": "Edge",
+          "source": "b5507d90d6d74d559ac4cea4826a965b",
+          "target": "63cb5449bc454dc4b8236ca0401efc1e",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>My Contribution Rating Scale</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>My Contribution Rating Scale</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-17 10:50:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>10796eba1b733410cb139753b24bcb9c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My Contribution Rating Scale</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_10796eba1b733410cb139753b24bcb9c</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-17 14:35:27</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=10796eba1b733410cb139753b24bcb9c"/>
+</record_update>

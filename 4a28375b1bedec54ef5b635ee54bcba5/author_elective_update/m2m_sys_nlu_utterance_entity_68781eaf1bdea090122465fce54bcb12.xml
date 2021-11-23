@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"can i please {{phrase=\"view\"}} my pension balance","start":13,"end":16}]</annotation>
+        <entity display_value="View">b7d3aa8f1b8e64d0122465fce54bcb41</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 07:46:49</sys_created_on>
+        <sys_id>68781eaf1bdea090122465fce54bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View.can i please view my pension balance </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_68781eaf1bdea090122465fce54bcb12</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 07:46:49</sys_updated_on>
+        <utterance display_value="can i please view my pension balance ">c14856af1bdea090122465fce54bcb2d</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_68781eaf1bdea090122465fce54bcb12</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"can i please {{phrase=\"view\"}} my pension balance","start":13,"end":16}]</annotation>
+        <entity display_value="View">b7d3aa8f1b8e64d0122465fce54bcb41</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 07:46:49</sys_created_on>
+        <sys_id>68781eaf1bdea090122465fce54bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View.can i please view my pension balance </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_68781eaf1bdea090122465fce54bcb12</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 07:46:49</sys_updated_on>
+        <utterance display_value="can i please view my pension balance ">c14856af1bdea090122465fce54bcb2d</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>682579305</payload_hash>
+        <record_name>View.can i please view my pension balance </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:32</sys_created_on>
+        <sys_id>290c9fdf87db3050c386fd99cebb3568</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64fbfb30000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:32</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>650c9fdf7ddb3050fb092498ff05a568</update_guid>
+        <update_guid_history>650c9fdf7ddb3050fb092498ff05a568:0,83f81bdf3e1f74502c401ed88560a359:-2126829671,98c1f4d0389f30105ad6ceac83fa73e4:0,6e3085e7fa4b7810cd02d7eb4a4298e5:-1037042026,644db003ed07b41004f93417a542c492:0,84672c8ba343b4103448f27617afaf81:2009721565,d68b0407508f741009fa9184fd64eb30:0,a6884c0bf54f7410fab9c2420ac78eb4:-1259714755,20781eafd2dea09084e855ce88f7fb14:586527356</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 13:57:38">0f1fe5661b73b010cb139753b24bcb49</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 11:57:38</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>02360372d1864b008007d1f8fad90000</sys_id>
+        <sys_metadata>68781eaf1bdea090122465fce54bcb12</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View.can i please view my pension balance </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_68781eaf1bdea090122465fce54bcb12</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_68781eaf1bdea090122465fce54bcb12">290c9fdf87db3050c386fd99cebb3568</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:57:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

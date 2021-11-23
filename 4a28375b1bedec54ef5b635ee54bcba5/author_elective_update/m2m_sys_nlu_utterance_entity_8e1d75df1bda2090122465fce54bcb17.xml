@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"where do i capture my {{phrase=\"relocation\"}} leave","start":22,"end":31}]</annotation>
+        <entity display_value="Relocation">a4d9fe8f1b42a4d0122465fce54bcb60</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 11:08:50</sys_created_on>
+        <sys_id>8e1d75df1bda2090122465fce54bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation.where do i capture my relocation leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_8e1d75df1bda2090122465fce54bcb17</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 11:08:50</sys_updated_on>
+        <utterance display_value="where do i capture my relocation leave">551d3d9f1bda2090122465fce54bcbeb</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_8e1d75df1bda2090122465fce54bcb17</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"where do i capture my {{phrase=\"relocation\"}} leave","start":22,"end":31}]</annotation>
+        <entity display_value="Relocation">a4d9fe8f1b42a4d0122465fce54bcb60</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 11:08:50</sys_created_on>
+        <sys_id>8e1d75df1bda2090122465fce54bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation.where do i capture my relocation leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_8e1d75df1bda2090122465fce54bcb17</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 11:08:50</sys_updated_on>
+        <utterance display_value="where do i capture my relocation leave">551d3d9f1bda2090122465fce54bcbeb</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>-1273701599</payload_hash>
+        <record_name>Relocation.where do i capture my relocation leave</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:38</sys_created_on>
+        <sys_id>1f0c5713871f3050c386fd99cebb3528</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64fda000000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:38</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>5b0c57137f1f3050a455f0bdf7dc0728</update_guid>
+        <update_guid_history>5b0c57137f1f3050a455f0bdf7dc0728:0,6298571fd91f7450667ceb20a9c89a23:597655706,bdc1f8d03d9f3010ef5c0d1ee300f15a:0,3fdfb427064b78109ede4be5121cc6fb:202093730,4e4d7403d707b410693348d5c614abd6:0,da07acc7d943b410c966c8b2840c6b32:-856799729,4c9b4807398f7410bd8e3f74134a351b:0,ff28c8472d4f74105cdd3ce35bd5a810:1765209292,461d75dfeeda209036ecc13707f1fe19:-1686464521</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 10:16:01">f46c7c2287fb3810c386fd99cebb3522</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 08:16:01</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>2eeff8b4b7a14970ad68fe6e27263791</sys_id>
+        <sys_metadata>8e1d75df1bda2090122465fce54bcb17</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relocation.where do i capture my relocation leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_8e1d75df1bda2090122465fce54bcb17</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_8e1d75df1bda2090122465fce54bcb17">1f0c5713871f3050c386fd99cebb3528</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:16:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"help me sign into the {{phrase=\"pensionfund\"}} portal","start":22,"end":32}]</annotation>
+        <entity display_value="Pension">c50856431b4e64d0122465fce54bcb32</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 10:09:23</sys_created_on>
+        <sys_id>cd193ea31b16e090122465fce54bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.help me sign into the pensionfund portal </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_cd193ea31b16e090122465fce54bcb73</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 10:09:23</sys_updated_on>
+        <utterance display_value="help me sign into the pensionfund portal ">4df8bea31b16e090122465fce54bcbf1</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_cd193ea31b16e090122465fce54bcb73</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"help me sign into the {{phrase=\"pensionfund\"}} portal","start":22,"end":32}]</annotation>
+        <entity display_value="Pension">c50856431b4e64d0122465fce54bcb32</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 10:09:23</sys_created_on>
+        <sys_id>cd193ea31b16e090122465fce54bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.help me sign into the pensionfund portal </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_cd193ea31b16e090122465fce54bcb73</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 10:09:23</sys_updated_on>
+        <utterance display_value="help me sign into the pensionfund portal ">4df8bea31b16e090122465fce54bcbf1</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>-1855118473</payload_hash>
+        <record_name>Pension.help me sign into the pensionfund portal </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:52</sys_created_on>
+        <sys_id>ea1c1f13871f3050c386fd99cebb35b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6500e2c0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:52</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>2a1c1f13501f30503bec9e645b788fb2</update_guid>
+        <update_guid_history>2a1c1f13501f30503bec9e645b788fb2:0,aaf8d7dffd1f74506185ebe502eadc43:-1664810405,9dd17014ee9f3010835227834db22983:0,c23045e79f4b7810b7d2c5c27ae7b670:941437091,995d3c033207b41010ef7fad4f57b988:0,2f57e88ba543b41034d07a32cd840d0b:-699015738,5b9b8047818f7410e849286d7eeccb92:0,8e880c0b764f7410dc267bfd11d63bec:1890496278,85193ea3d016e09004ed5c42fffbcb75:-823120564</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 13:57:36">6e1fa5661b73b010cb139753b24bcb0e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 11:57:36</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>04cc600d29b24a6b80c0d76970435d39</sys_id>
+        <sys_metadata>cd193ea31b16e090122465fce54bcb73</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.help me sign into the pensionfund portal </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_cd193ea31b16e090122465fce54bcb73</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_cd193ea31b16e090122465fce54bcb73">ea1c1f13871f3050c386fd99cebb35b2</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:57:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:f2a2dc6c87ccc510c386fd99cebb353b:node:e86928dac7604d21a72a8b643e43855b:field:value</key>
+        <language>en</language>
+        <message>For any clients, visitors and suppliers visiting an ABSA building during the COVID-19 pandemic, the following process must be followed: 
+
+- CRES must be notified of the external visitor by telephone
+- The COVID-19 Absa Facility Access Declaration form will be emailed to external visitors to complete and return prior to entering the building
+
+You can find more information on the External Visitor Process [here](https://docs.google.com/document/d/1DjeMQ9agUfkJdRn85PC8xLD18G1ogCAW/edit).</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 10:28:08</sys_created_on>
+        <sys_id>2e2494ec87ccc510c386fd99cebb3515</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:f2a2dc6c87ccc510c386fd99cebb353b:node:e86928dac7604d21a72a8b643e43855b:field:value</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_2e2494ec87ccc510c386fd99cebb3515</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 10:28:08</sys_updated_on>
+    </sys_ui_message>
+</record_update>

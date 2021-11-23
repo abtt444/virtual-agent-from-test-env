@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Withdrawal from Pension">caf65a871b8620d0ef5b635ee54bcb1b</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:42</sys_created_on>
+        <sys_id>46f65a871b8620d0ef5b635ee54bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>please assist id like to withdraw my pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_46f65a871b8620d0ef5b635ee54bcb3a</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:42</sys_updated_on>
+        <utterance>please assist id like to withdraw my pension</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_46f65a871b8620d0ef5b635ee54bcb3a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Withdrawal from Pension">caf65a871b8620d0ef5b635ee54bcb1b</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:42</sys_created_on>
+        <sys_id>46f65a871b8620d0ef5b635ee54bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>please assist id like to withdraw my pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_46f65a871b8620d0ef5b635ee54bcb3a</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:42</sys_updated_on>
+        <utterance>please assist id like to withdraw my pension</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-1084946086</payload_hash>
+        <record_name>please assist id like to withdraw my pension</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:35</sys_created_on>
+        <sys_id>854cd393871f3050c386fd99cebb35e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650b62e0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:35</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>c14cd393a31f3050039f5960a90b03e2</update_guid>
+        <update_guid_history>c14cd393a31f3050039f5960a90b03e2:0,96e8df9f751f745021d3ba42a30d4e07:389792543,26f1b454159f301059371a4e0bedfb23:0,96200da78a4b781071ab99e20ebed29c:-1937516788,cf7d7083f907b410e81c8dbc01f4bec8:0,7f47a08b0b43b410c4fe382e0578eee6:1761399406,a1cbc487768f7410ca9ca0747a56c5ae:0,9278c00b7b4f74108341e6ddeba7ce92:-190019576,86f65a870b8620d0c8c2ce597c805c3b:2003067553</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 11:13:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>70ddcfb6e2b84f14a15da04ab806a604</sys_id>
+        <sys_metadata>46f65a871b8620d0ef5b635ee54bcb3a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>please assist id like to withdraw my pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_46f65a871b8620d0ef5b635ee54bcb3a</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_46f65a871b8620d0ef5b635ee54bcb3a">854cd393871f3050c386fd99cebb35e2</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:13:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

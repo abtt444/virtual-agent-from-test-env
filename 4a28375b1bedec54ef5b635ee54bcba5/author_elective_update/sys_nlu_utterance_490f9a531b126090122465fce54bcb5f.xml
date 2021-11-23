@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="IRP5 Certificate">2af69a871b8620d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 13:37:03</sys_created_on>
+        <sys_id>490f9a531b126090122465fce54bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I worked for Absa 5 years ago, please can you send my tax certificate for 2016</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_490f9a531b126090122465fce54bcb5f</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 13:37:03</sys_updated_on>
+        <utterance>I worked for Absa 5 years ago, please can you send my tax certificate for 2016</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_490f9a531b126090122465fce54bcb5f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="IRP5 Certificate">2af69a871b8620d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 13:37:03</sys_created_on>
+        <sys_id>490f9a531b126090122465fce54bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I worked for Absa 5 years ago, please can you send my tax certificate for 2016</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_490f9a531b126090122465fce54bcb5f</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 13:37:03</sys_updated_on>
+        <utterance>I worked for Absa 5 years ago, please can you send my tax certificate for 2016</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-920796782</payload_hash>
+        <record_name>I worked for Absa 5 years ago, please can you send my tax certificate for 2016</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:35</sys_created_on>
+        <sys_id>5d4c1793871f3050c386fd99cebb358a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650b8c00000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:35</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>994c17937a1f3050e5f69a03b0a5db8a</update_guid>
+        <update_guid_history>994c17937a1f3050e5f69a03b0a5db8a:0,52a81f1fa51f7450617f7e4984f46399:1507243188,7af1b454879f3010c084154ec175a663:0,83efbc27064b78103be696ee691ec82c:1272739308,077db0839807b41000453e0847a49b09:0,6517240bad43b41088e33f09981d14c1:-2136573651,bdcbc487fe8f74104ac16fe63ec0f5fa:0,5b388087cc4f7410bbac91af89bd367d:-333283576,090f9a53b21260905dee7f6fe7f56c60:-1692164275</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:35:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>1cca1372b59841da84d42411b403b6a1</sys_id>
+        <sys_metadata>490f9a531b126090122465fce54bcb5f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I worked for Absa 5 years ago, please can you send my tax certificate for 2016</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_490f9a531b126090122465fce54bcb5f</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_490f9a531b126090122465fce54bcb5f">5d4c1793871f3050c386fd99cebb358a</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:35:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
     <sys_cb_topic action="INSERT_OR_UPDATE">
         <applicability/>
-        <applicability_mode/>
+        <applicability_mode>query</applicability_mode>
         <autopilot_topic>false</autopilot_topic>
         <category>b531aa591b31a410ef5b635ee54bcb6b</category>
         <channels/>
@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>true</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.21.pp4",
+  "graph_api_version": "1.0.36",
   "goals": {
     "primary": {
       "id": "primary",
@@ -42,15 +42,184 @@
         "68939791d86c4e61a43e891f448e1432": {
           "id": "68939791d86c4e61a43e891f448e1432",
           "stepType": "TextOutput",
-          "name": "IRP5 Certificate",
+          "name": "Retrieve Payslip/Tax Certificate",
           "value": {
-            "value": "IRP5 Certification Response",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You can find your payslips, IRP5 certificates and other documents on "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://wd3.myworkday.com/absa/d/home.htmld",
+                    "children": [
+                      {
+                        "text": "Workday"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
+                  }
+                ]
+              },
+              {
+                "type": "bulleted-list",
+                "children": [
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "For more information on how to find and view your payslips on Workday, take a look at the "
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010662",
+                        "children": [
+                          {
+                            "text": "knowledge article"
+                          }
+                        ]
+                      },
+                      {
+                        "text": ". "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "If you are a South African colleague, take a look at the knowledge article on "
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011623",
+                        "children": [
+                          {
+                            "text": "How To Access Your Worker Documents"
+                          }
+                        ]
+                      },
+                      {
+                        "text": ". Alternatively, find your IRP5 documents {Insert Link} directly on Workday. "
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://absahr.service-now.com/myhrportal?sys_kb_id=cd040c0e1b43e4103231ea0ee54bcb5f&amp;id=kb_article_view&amp;sysparm_rank=1&amp;sysparm_tsqueryId=8af41eaa1bf7f810b637a97ce54bcb48",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
             "value": "",
             "mode": "query"
-          }
+          },
+          "secure": false
+        },
+        "0c057c961e694c63a8051eff8dfca828": {
+          "id": "0c057c961e694c63a8051eff8dfca828",
+          "stepType": "LinkOutput",
+          "name": "Payslip",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://wd3.myworkday.com/absa/d/task/2998$12117.htmld"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Access your payslips directly on Workday:"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "30818d91a1e04be3b239e3c323be12fc": {
+          "id": "30818d91a1e04be3b239e3c323be12fc",
+          "stepType": "LinkOutput",
+          "name": "irp5",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://wd3.myworkday.com/absa/d/inst/13102!CK5mGhEKBggDEMenAhIHCgUI1A0Qaw~~/cacheable-task/2997$2151.htmld#backheader=true"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "If you are a South African colleague, you can find your IRP5 documents by clicking on the link below: "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
         }
       },
       "edges": [
@@ -66,6 +235,22 @@
           "id": "207dfc8d6cc44b2b95264e2acf79316d",
           "edgeType": "Edge",
           "source": "68939791d86c4e61a43e891f448e1432",
+          "target": "0c057c961e694c63a8051eff8dfca828",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "aa07d2c05baa44ae8b09ecc73c94b24a",
+          "edgeType": "Edge",
+          "source": "0c057c961e694c63a8051eff8dfca828",
+          "target": "30818d91a1e04be3b239e3c323be12fc",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "2b99ec6182a74c64aab50498c6c6b1bb",
+          "edgeType": "Edge",
+          "source": "30818d91a1e04be3b239e3c323be12fc",
           "target": "06b9800149ff422cadb34b9ad83542fa",
           "sourcePort": "",
           "targetPort": ""
@@ -84,10 +269,10 @@
     }
   }
 }</graph>
-        <key_phrases>IRP5 Certificate</key_phrases>
+        <key_phrases>Payslips and Worker Documents</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>IRP5 Certificate</name>
+        <name>Payslips and Worker Documents</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -101,14 +286,14 @@
         <sys_created_on>2021-01-18 12:28:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>f916a6d11b71a410ef5b635ee54bcb18</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>IRP5 Certificate</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Payslips and Worker Documents</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_f916a6d11b71a410ef5b635ee54bcb18</sys_update_name>
-        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
-        <sys_updated_on>2021-01-28 14:40:52</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-23 07:30:25</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

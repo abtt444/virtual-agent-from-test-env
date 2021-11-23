@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Absa Leadership Academy">e0282497877f3410c386fd99cebb3576</cb_topic_id>
+        <channels/>
+        <definition>{"id":"e0282497877f3410c386fd99cebb3576","name":"Absa Leadership Academy","system_topic":false,"autopilot_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Absa Leadership Academy","applicability":"true","categories":[],"key_phrases":["Absa Leadership Academy"],"variables":[{"name":"__segment_trigger_fe41363070a14cdc9d0116e925bac897_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_00596c1b717f3410ea77b571e1afeb6b","unique":false,"default_value":"true","key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_8c596c1b8a7f34103dd1b31003580b6a","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_TerminateGoal_ea270e7baef24783808ffdb7f7006853","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_Branch_RootDecisionBranch_cc596c1bee7f341094daca82f6dac06a","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_OutputPrompt_ef4fc03d6ec34b5eb899c76af1d9e748","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_StartGoal_e04427f7ff7c4c4b999aa1dbffb63cae","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_fe41363070a14cdc9d0116e925bac897_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_00596c1b717f3410ea77b571e1afeb6b\");vaInputs.initialize(\"__silent_Decision_RootDecision_8c596c1b8a7f34103dd1b31003580b6a\");vaInputs.initialize(\"__silent_StartGoal_e04427f7ff7c4c4b999aa1dbffb63cae\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_cc596c1bee7f341094daca82f6dac06a\");vaInputs.initialize(\"__silent_TerminateGoal_ea270e7baef24783808ffdb7f7006853\");vaInputs.initialize(\"__silent_OutputPrompt_ef4fc03d6ec34b5eb899c76af1d9e748\");null;","fields":[{"name":"__silent_Decision_RootDecision_8c596c1b8a7f34103dd1b31003580b6a","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_8c596c1b8a7f34103dd1b31003580b6a\";vaInputs.__silent_Decision_RootDecision_8c596c1b8a7f34103dd1b31003580b6a=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_8c596c1b8a7f34103dd1b31003580b6a\";var ackMsg=null;ackMsg=null;vaInputs.RootDecisionBranch_00596c1b717f3410ea77b571e1afeb6b=true;ackMsg;"},{"name":"__silent_Branch_RootDecisionBranch_cc596c1bee7f341094daca82f6dac06a","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_8c596c1b8a7f34103dd1b31003580b6a\" &amp;&amp; ((vaInputs.RootDecisionBranch_00596c1b717f3410ea77b571e1afeb6b.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_cc596c1bee7f341094daca82f6dac06a___RootDecisionBranch_cc596c1bee7f341094daca82f6dac06a\";vaInputs.__silent_Branch_RootDecisionBranch_cc596c1bee7f341094daca82f6dac06a=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_cc596c1bee7f341094daca82f6dac06a___RootDecisionBranch_cc596c1bee7f341094daca82f6dac06a\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_StartGoal_e04427f7ff7c4c4b999aa1dbffb63cae","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_cc596c1bee7f341094daca82f6dac06a___RootDecisionBranch_cc596c1bee7f341094daca82f6dac06a\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___e04427f7ff7c4c4b999aa1dbffb63cae\";vaInputs.__silent_StartGoal_e04427f7ff7c4c4b999aa1dbffb63cae=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___e04427f7ff7c4c4b999aa1dbffb63cae\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_OutputPrompt_ef4fc03d6ec34b5eb899c76af1d9e748","applicable":"vaVars.previous_graph_node==\"Start___e04427f7ff7c4c4b999aa1dbffb63cae\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Absa Leadership Academy___ef4fc03d6ec34b5eb899c76af1d9e748\";vaInputs.__silent_OutputPrompt_ef4fc03d6ec34b5eb899c76af1d9e748=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Absa Leadership Academy___ef4fc03d6ec34b5eb899c76af1d9e748\";var ackMsg=null;ackMsg=(function execute() {return gs.getMessageLang(\"va:topic:e0282497877f3410c386fd99cebb3576:node:ef4fc03d6ec34b5eb899c76af1d9e748:field:Value\", vaContext.getRequesterLang());})();ackMsg;","acknowledge_msg_mask_type":"NONE"},{"name":"__silent_TerminateGoal_ea270e7baef24783808ffdb7f7006853","applicable":"vaVars.previous_graph_node==\"Absa Leadership Academy___ef4fc03d6ec34b5eb899c76af1d9e748\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___ea270e7baef24783808ffdb7f7006853\";vaInputs.__silent_TerminateGoal_ea270e7baef24783808ffdb7f7006853=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___ea270e7baef24783808ffdb7f7006853\";var ackMsg=null;ackMsg=null;vaVars.__segment_trigger_fe41363070a14cdc9d0116e925bac897_done=true;ackMsg;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"expose_on_palette":false,"palette_label":"","flexible_conversation_switching":false,"design_categories":[],"nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"triggerable_by_notification":false,"score":0.0,"visible":true,"discoverable":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Absa Leadership Academy","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category/>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Absa Leadership Academy</key_phrases>
+        <last_published_on>2021-11-18 14:48:07</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>APS LTRX AKTM</metaphone>
+        <name>Absa Leadership Academy</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-18 14:48:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c8596c1b877f3410c386fd99cebb356b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Absa Leadership Academy</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_c8596c1b877f3410c386fd99cebb356b</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-18 14:48:07</sys_updated_on>
+        <title>Absa Leadership Academy</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=c8596c1b877f3410c386fd99cebb356b"/>
+</record_update>

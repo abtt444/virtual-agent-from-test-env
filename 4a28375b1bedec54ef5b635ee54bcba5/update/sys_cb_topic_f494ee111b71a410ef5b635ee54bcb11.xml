@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
     <sys_cb_topic action="INSERT_OR_UPDATE">
         <applicability/>
-        <applicability_mode/>
+        <applicability_mode>query</applicability_mode>
         <autopilot_topic>false</autopilot_topic>
         <category>4fd0e6591b31a410ef5b635ee54bcbc9</category>
         <channels/>
@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>true</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.21.pp4",
+  "graph_api_version": "1.0.36",
   "goals": {
     "primary": {
       "id": "primary",
@@ -42,15 +42,119 @@
         "ed3e3f752fa24f13b112949da4b86e53": {
           "id": "ed3e3f752fa24f13b112949da4b86e53",
           "stepType": "TextOutput",
-          "name": "Leave Encashment Information",
+          "name": "Leave Encashment",
           "value": {
-            "value": "Leave Encashment Information Response",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Leave encashment is your accumulated leave balance available. All permanent employees qualify to encash up to"
+                  },
+                  {
+                    "text": " 12 days",
+                    "bold": true
+                  },
+                  {
+                    "text": " of accumulated leave per year."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Here is how you can go about making your leave encashment request:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. On Workday, in the search field type "
+                  },
+                  {
+                    "text": "Create Request ",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. Select "
+                  },
+                  {
+                    "text": "Leave Encashment ",
+                    "bold": true
+                  },
+                  {
+                    "text": "from the list appearing"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3. Fill in the questionnaire, ie. number of days"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "4. Click on "
+                  },
+                  {
+                    "text": "Submit",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please note that leave encashment successfully submitted on Workday by the payroll cut off date - which is the 10th of every month - is paid in the current month's pay run."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
             "value": "",
             "mode": "query"
-          }
+          },
+          "secure": false
         }
       },
       "edges": [
@@ -84,10 +188,10 @@
     }
   }
 }</graph>
-        <key_phrases>Leave Encashment Information</key_phrases>
+        <key_phrases>Leave Encashment</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>Leave Encashment Information</name>
+        <name>Leave Encashment</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -101,14 +205,14 @@
         <sys_created_on>2021-01-18 12:22:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>f494ee111b71a410ef5b635ee54bcb11</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Leave Encashment Information</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Leave Encashment</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_f494ee111b71a410ef5b635ee54bcb11</sys_update_name>
-        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
-        <sys_updated_on>2021-01-18 12:22:23</sys_updated_on>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-17 14:24:00</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

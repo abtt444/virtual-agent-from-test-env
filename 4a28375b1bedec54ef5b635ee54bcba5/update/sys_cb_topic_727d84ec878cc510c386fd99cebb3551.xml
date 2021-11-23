@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "602e6c2282934d65aab7b51be19fec7d": {
+          "id": "602e6c2282934d65aab7b51be19fec7d",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "97cb6eb6f7054cceb739367ad97bc73a": {
+          "id": "97cb6eb6f7054cceb739367ad97bc73a",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "c3570eab306c42419a079bbae0947067": {
+          "id": "c3570eab306c42419a079bbae0947067",
+          "stepType": "TextOutput",
+          "name": "response",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "In today's world, there is no doubt that effective technology leads to a successful work day. Here at Absa, we have a few great tools that can bring your work to life, including:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. Microsoft Teams"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. MS Planner"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3. Cisco Jabber"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "4. Cisco WebEx"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Read more about these tools and some tips for video conferencing "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1eLYb0GKu_Q1zdeHc-dVsFY6ztwnMOhNm/edit",
+                    "children": [
+                      {
+                        "text": "here"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "d1d3b20ad5364f69bb47ca228e60aa11",
+          "edgeType": "Edge",
+          "source": "602e6c2282934d65aab7b51be19fec7d",
+          "target": "c3570eab306c42419a079bbae0947067",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9b0a0f3a703f4e6eaf1c16cfc711be23",
+          "edgeType": "Edge",
+          "source": "c3570eab306c42419a079bbae0947067",
+          "target": "97cb6eb6f7054cceb739367ad97bc73a",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Using Your Tech</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Using Your Tech</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 09:58:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>727d84ec878cc510c386fd99cebb3551</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Using Your Tech</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_727d84ec878cc510c386fd99cebb3551</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 10:02:55</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=727d84ec878cc510c386fd99cebb3551"/>
+</record_update>

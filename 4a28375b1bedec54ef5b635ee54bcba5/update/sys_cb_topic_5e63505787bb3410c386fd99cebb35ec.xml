@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Intent for damaged/stolen laptops</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "e4fc95fc65dd413ea7cc51c653f23a61": {
+          "id": "e4fc95fc65dd413ea7cc51c653f23a61",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "0bf2e69835b542bd9f17abb3b70dc4c5": {
+          "id": "0bf2e69835b542bd9f17abb3b70dc4c5",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "f8942ec0f8d4411a8627918c50e15525": {
+          "id": "f8942ec0f8d4411a8627918c50e15525",
+          "stepType": "TextOutput",
+          "name": "Into",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Should your laptop become damaged, lost or stolen, you are able to request a replacement by logging an insurance claim. You can click one of these buttons to learn more about how to replace your laptop."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "For queries or additional information, please contact the team at absa-insurance@absa.co.za "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "976d88d1186d496fb0d9d1c170c43c4b": {
+          "id": "976d88d1186d496fb0d9d1c170c43c4b",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "61cb8e84d3004565b9cd6fc29e322264": {
+          "stepType": "ChoicePrompt",
+          "name": "Laptop Decision",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You can click one of these buttons to learn more about how to replace your laptop."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "cf79db264104434b867d75f2be95faeb",
+          "id": "61cb8e84d3004565b9cd6fc29e322264",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "2c5c4c98495d44d2a1fa874c9e664359": {
+          "id": "2c5c4c98495d44d2a1fa874c9e664359",
+          "stepType": "TextOutput",
+          "name": "Stolen/Lost Laptop Instructions",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "If your laptop has been stolen or lost:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. Report the incident to your line manager"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. Obtain a valid affidavit detailing the loss or theft from the SAPS"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3. Ask your manager or a colleague to log an insurance claim request on your behalf on the IT Service Portal."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "4. Email the SAPS validated affidavit to the insurance claims coordinator. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Once the Claims team has will assessed and validated the claim and affidavit,. you will be provided with a replacement device"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "797b023447a442d3af2c1f6c793f263a": {
+          "id": "797b023447a442d3af2c1f6c793f263a",
+          "stepType": "TextOutput",
+          "name": "Damaged Laptop Instructions",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "If your laptop has been damage:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. Report the damage to your line manager"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. Ask your manage or a colleague to log an insurance claim on your behalf on the IT Service Portal"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Once the claims team has assessed and verified the claims request a replacement will be sent to you"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "78d988cab3e64132af8d22875d8545ed",
+          "edgeType": "Edge",
+          "source": "e4fc95fc65dd413ea7cc51c653f23a61",
+          "target": "f8942ec0f8d4411a8627918c50e15525",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ac7ad5b180cc4d30af5a83128af53322",
+          "edgeType": "Edge",
+          "source": "f8942ec0f8d4411a8627918c50e15525",
+          "target": "61cb8e84d3004565b9cd6fc29e322264",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1e5fa2374f1f4084b2d260cde18509a2",
+          "edgeType": "Edge",
+          "source": "61cb8e84d3004565b9cd6fc29e322264",
+          "target": "976d88d1186d496fb0d9d1c170c43c4b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b48ee0e071f143378791187a639c93d1",
+          "edgeType": "Branch",
+          "source": "976d88d1186d496fb0d9d1c170c43c4b",
+          "target": "2c5c4c98495d44d2a1fa874c9e664359",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.laptop_decision=Stolen/Lost Laptop",
+            "mode": "query"
+          },
+          "label": "Stolen/Lost Laptop"
+        },
+        {
+          "id": "6e7022a33a004a969f3704505f4488d4",
+          "edgeType": "Edge",
+          "source": "2c5c4c98495d44d2a1fa874c9e664359",
+          "target": "0bf2e69835b542bd9f17abb3b70dc4c5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "bf8632031fb74961964d8672182b8cd7",
+          "edgeType": "Branch",
+          "source": "976d88d1186d496fb0d9d1c170c43c4b",
+          "target": "797b023447a442d3af2c1f6c793f263a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.laptop_decision=Damaged Laptop",
+            "mode": "query"
+          },
+          "label": "Damaged Laptop"
+        },
+        {
+          "id": "1de913c68e2f4a7292c014ffe205b532",
+          "edgeType": "Edge",
+          "source": "797b023447a442d3af2c1f6c793f263a",
+          "target": "0bf2e69835b542bd9f17abb3b70dc4c5",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "cf79db264104434b867d75f2be95faeb": {
+      "id": "cf79db264104434b867d75f2be95faeb",
+      "name": "laptop_decision",
+      "label": "Laptop Decision",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Damaged Laptop",
+          "value": "Damaged Laptop"
+        },
+        {
+          "label": "Stolen/Lost Laptop",
+          "value": "Stolen/Lost Laptop",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Damage/Stolen Laptop</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Damage/Stolen Laptop</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-18 13:12:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5e63505787bb3410c386fd99cebb35ec</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Damage/Stolen Laptop</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_5e63505787bb3410c386fd99cebb35ec</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-18 13:17:49</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=5e63505787bb3410c386fd99cebb35ec"/>
+</record_update>

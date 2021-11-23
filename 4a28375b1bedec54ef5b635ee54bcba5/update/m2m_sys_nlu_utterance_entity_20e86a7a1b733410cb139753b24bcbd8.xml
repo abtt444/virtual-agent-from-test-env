@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":0,"end":17,"annotatedString":"{{phrase=\"performance rating\"}}","cat":null}]</annotation>
+        <entity display_value="Rating Scale">be98267a1b733410cb139753b24bcb9e</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-17 10:48:32</sys_created_on>
+        <sys_id>20e86a7a1b733410cb139753b24bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rating Scale.performance rating</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_20e86a7a1b733410cb139753b24bcbd8</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-17 10:48:32</sys_updated_on>
+        <utterance display_value="performance rating">0ce86a7a1b733410cb139753b24bcb93</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Leave Encashment Information">0df696871b8620d0ef5b635ee54bcb97</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 14:14:03</sys_created_on>
+        <sys_id>1377ead31b526090122465fce54bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>when i sell leave days will it appear on my salary slip</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_1377ead31b526090122465fce54bcbe4</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 14:14:03</sys_updated_on>
+        <utterance>when i sell leave days will it appear on my salary slip</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_1377ead31b526090122465fce54bcbe4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Leave Encashment Information">0df696871b8620d0ef5b635ee54bcb97</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 14:14:03</sys_created_on>
+        <sys_id>1377ead31b526090122465fce54bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>when i sell leave days will it appear on my salary slip</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_1377ead31b526090122465fce54bcbe4</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 14:14:03</sys_updated_on>
+        <utterance>when i sell leave days will it appear on my salary slip</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>768046020</payload_hash>
+        <record_name>when i sell leave days will it appear on my salary slip</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:24</sys_created_on>
+        <sys_id>6a3c1f53871f3050c386fd99cebb35dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6508cfb0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:24</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>a63c1f53561f30507a319bcf50474ddd</update_guid>
+        <update_guid_history>a63c1f53561f30507a319bcf50474ddd:0,d898531f551f7450c308e8d9550d4ed0:1606961694,18f13054b99f301093d93b83f06ab0b8:0,5edff027f34b7810acb8d4b9f50f27cf:-2038241079,247d3c434307b4105e2e7777271554b5:0,9d07a8c75043b410059a8fa6471ce496:-105829160,03bb80879c8f74101492f2289cb1648e:0,ae2808474c4f741003db5e075e7e5fb5:-1195471945,d377ead3fc5260900431fea85b7fdce5:646949875</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 08:42:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>479e7caad584433684236e57ecc01589</sys_id>
+        <sys_metadata>1377ead31b526090122465fce54bcbe4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>when i sell leave days will it appear on my salary slip</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_1377ead31b526090122465fce54bcbe4</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_1377ead31b526090122465fce54bcbe4">6a3c1f53871f3050c386fd99cebb35dd</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:42:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="External Visitor Process">ae24dc2087000910c386fd99cebb35c1</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"a1b2e42b04ab4444bd071894ae01e204","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"a1b2e42b04ab4444bd071894ae01e204"}],"goals":[{"name":"primary","trigger_id":"a1b2e42b04ab4444bd071894ae01e204","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"2803ab2cc06845d1befe1dcb905ea6f3","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"13aaeb89131a474c99684e3933faad6f","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:f2a2dc6c87ccc510c386fd99cebb353b:node:e86928dac7604d21a72a8b643e43855b:field:Value\", vaContext.getRequesterLang())"},"id":"e86928dac7604d21a72a8b643e43855b","name":"response","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"2803ab2cc06845d1befe1dcb905ea6f3","target_node_id":"e86928dac7604d21a72a8b643e43855b","id":"4c1853d8ba314c4e95b23bb0bb1bad3f"},{"type":"Edge","source_node_id":"e86928dac7604d21a72a8b643e43855b","target_node_id":"13aaeb89131a474c99684e3933faad6f","id":"7b3c05cf0ca74a90b3c2b8704dd5d328"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"f2a2dc6c87ccc510c386fd99cebb353b","name":"External Visitor Process","key_phrases":["External Visitor Process"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>f2a2dc6c87ccc510c386fd99cebb353b</design_topic_id>
+        <name>External Visitor Process</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 10:28:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2624dc2087000910c386fd99cebb35c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_2624dc2087000910c386fd99cebb35c5</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 10:28:08</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

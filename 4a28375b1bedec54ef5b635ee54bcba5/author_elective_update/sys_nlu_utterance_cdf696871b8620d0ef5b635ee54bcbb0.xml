@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Leave Encashment Information">0df696871b8620d0ef5b635ee54bcb97</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:38</sys_created_on>
+        <sys_id>cdf696871b8620d0ef5b635ee54bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>what's leave encashment?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_cdf696871b8620d0ef5b635ee54bcbb0</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:38</sys_updated_on>
+        <utterance>what's leave encashment?</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_cdf696871b8620d0ef5b635ee54bcbb0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Leave Encashment Information">0df696871b8620d0ef5b635ee54bcb97</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:38</sys_created_on>
+        <sys_id>cdf696871b8620d0ef5b635ee54bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>what's leave encashment?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_cdf696871b8620d0ef5b635ee54bcbb0</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:38</sys_updated_on>
+        <utterance>what's leave encashment?</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>867348862</payload_hash>
+        <record_name>what's leave encashment?</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:19:03</sys_created_on>
+        <sys_id>f35c97d3871f3050c386fd99cebb35f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65123970000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:19:03</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>335c97d3a61f3050842a49fffedb53f2</update_guid>
+        <update_guid_history>335c97d3a61f3050842a49fffedb53f2:0,0198d31f811f7450d2e6f8a094354862:586240122,09123494879f3010bfe7cf06d5337d47:0,43df7427b54b781050f305db96395329:-60883112,e59db0c3d307b410f26f1c2050880fd7:0,71072cc77843b41053f9ff9d26132a60:-1406639552,f4eb44c7bd8f7410eb5d89c96d0065e6:0,c72848474b4f7410a86630dc0104c9c4:1935437260,01f696878e8620d0b8bdaf3c68c1f0b2:-662173367</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 08:42:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>0055482eb72543c889b794caa1411240</sys_id>
+        <sys_metadata>cdf696871b8620d0ef5b635ee54bcbb0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>what's leave encashment?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_cdf696871b8620d0ef5b635ee54bcbb0</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_cdf696871b8620d0ef5b635ee54bcbb0">f35c97d3871f3050c386fd99cebb35f2</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:42:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
