@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="MyContribution - Grievance">1ada8b8987888110c386fd99cebb35ee</cb_topic_id>
+        <channels/>
+        <definition>{"id":"1ada8b8987888110c386fd99cebb35ee","name":"MyContribution - Grievance","system_topic":false,"autopilot_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"MyContribution - Grievance","applicability":"true","categories":[],"key_phrases":["MyContribution - Grievance"],"variables":[{"name":"__segment_trigger_290b9036e07f4ba2b0689149ae0166e1_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_85fa8fc996888110af73862762b16127","unique":false,"default_value":"true","key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_45fa8fc9d78881105634b98ff4b1a827","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_TerminateGoal_1af08f5f60e54fa2b1b10eb4fe661162","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_OutputPrompt_b31a2bf5b2af45f683be96f364407ce0","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_Decision_RootDecision_05fa8fc907888110880aa6f2a80eb927","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_StartGoal_2d2923b5da6349e7813441f0e5146907","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_290b9036e07f4ba2b0689149ae0166e1_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_85fa8fc996888110af73862762b16127\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_45fa8fc9d78881105634b98ff4b1a827\");vaInputs.initialize(\"__silent_Decision_RootDecision_05fa8fc907888110880aa6f2a80eb927\");vaInputs.initialize(\"__silent_StartGoal_2d2923b5da6349e7813441f0e5146907\");vaInputs.initialize(\"__silent_TerminateGoal_1af08f5f60e54fa2b1b10eb4fe661162\");vaInputs.initialize(\"__silent_OutputPrompt_b31a2bf5b2af45f683be96f364407ce0\");null;","fields":[{"name":"__silent_Decision_RootDecision_05fa8fc907888110880aa6f2a80eb927","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_05fa8fc907888110880aa6f2a80eb927\";vaInputs.__silent_Decision_RootDecision_05fa8fc907888110880aa6f2a80eb927=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_05fa8fc907888110880aa6f2a80eb927\";var ackMsg=null;ackMsg=null;vaInputs.RootDecisionBranch_85fa8fc996888110af73862762b16127=true;ackMsg;"},{"name":"__silent_Branch_RootDecisionBranch_45fa8fc9d78881105634b98ff4b1a827","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_05fa8fc907888110880aa6f2a80eb927\" &amp;&amp; ((vaInputs.RootDecisionBranch_85fa8fc996888110af73862762b16127.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_45fa8fc9d78881105634b98ff4b1a827___RootDecisionBranch_45fa8fc9d78881105634b98ff4b1a827\";vaInputs.__silent_Branch_RootDecisionBranch_45fa8fc9d78881105634b98ff4b1a827=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_45fa8fc9d78881105634b98ff4b1a827___RootDecisionBranch_45fa8fc9d78881105634b98ff4b1a827\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_StartGoal_2d2923b5da6349e7813441f0e5146907","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_45fa8fc9d78881105634b98ff4b1a827___RootDecisionBranch_45fa8fc9d78881105634b98ff4b1a827\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___2d2923b5da6349e7813441f0e5146907\";vaInputs.__silent_StartGoal_2d2923b5da6349e7813441f0e5146907=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___2d2923b5da6349e7813441f0e5146907\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_OutputPrompt_b31a2bf5b2af45f683be96f364407ce0","applicable":"vaVars.previous_graph_node==\"Start___2d2923b5da6349e7813441f0e5146907\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Intro___b31a2bf5b2af45f683be96f364407ce0\";vaInputs.__silent_OutputPrompt_b31a2bf5b2af45f683be96f364407ce0=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Intro___b31a2bf5b2af45f683be96f364407ce0\";var ackMsg=null;ackMsg=(function execute() {return gs.getMessageLang(\"Default Response\", vaContext.getRequesterLang());})();ackMsg;","acknowledge_msg_mask_type":"NONE"},{"name":"__silent_TerminateGoal_1af08f5f60e54fa2b1b10eb4fe661162","applicable":"vaVars.previous_graph_node==\"Intro___b31a2bf5b2af45f683be96f364407ce0\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___1af08f5f60e54fa2b1b10eb4fe661162\";vaInputs.__silent_TerminateGoal_1af08f5f60e54fa2b1b10eb4fe661162=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___1af08f5f60e54fa2b1b10eb4fe661162\";var ackMsg=null;ackMsg=null;vaVars.__segment_trigger_290b9036e07f4ba2b0689149ae0166e1_done=true;ackMsg;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"expose_on_palette":false,"palette_label":"","flexible_conversation_switching":false,"design_categories":[],"nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"triggerable_by_notification":false,"score":0.0,"visible":true,"discoverable":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"MyContribution - Grievance","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category/>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>MyContribution - Grievance</key_phrases>
+        <last_published_on>2021-11-24 13:03:43</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>MKNT KRFN</metaphone>
+        <name>MyContribution - Grievance</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-24 13:03:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>01fa8fc987888110c386fd99cebb3528</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyContribution - Grievance</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_01fa8fc987888110c386fd99cebb3528</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-24 13:03:43</sys_updated_on>
+        <title>MyContribution - Grievance</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=01fa8fc987888110c386fd99cebb3528"/>
+</record_update>

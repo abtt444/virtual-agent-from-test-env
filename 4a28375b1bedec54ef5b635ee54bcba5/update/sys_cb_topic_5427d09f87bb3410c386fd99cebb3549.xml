@@ -50,7 +50,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "To assist all new employees have a smooth start in the office and that they have all the correct equipment when they need, we ask that all new joiners please complete the automated process for requesting laptops and desktops."
+                    "text": "Help new joiners have a smooth start in the office by ensuring that they have all the  equipment they need. "
                   }
                 ]
               },
@@ -66,19 +66,19 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "To do so please, follow the steps outlined in this "
+                    "text": "To ensure that onboarding is complete and that your new joiner’s equipment is available on their start date, complete the following steps in "
                   },
                   {
                     "type": "link",
                     "url": "https://docs.google.com/document/d/17NGs9ZDwLzHr1DqckN0ZdfxFjUW68P5h/edit",
                     "children": [
                       {
-                        "text": "link"
+                        "text": "this article"
                       }
                     ]
                   },
                   {
-                    "text": "."
+                    "text": ". "
                   }
                 ]
               },
@@ -167,14 +167,14 @@
         <sys_created_on>2021-11-18 13:28:40</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>5427d09f87bb3410c386fd99cebb3549</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Laptops for New Joiners</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_5427d09f87bb3410c386fd99cebb3549</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-22 14:06:59</sys_updated_on>
+        <sys_updated_on>2021-11-24 08:42:54</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

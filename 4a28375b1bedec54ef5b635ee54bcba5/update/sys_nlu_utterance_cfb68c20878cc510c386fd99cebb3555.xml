@@ -7,14 +7,14 @@
         <sys_created_by>AB019AK</sys_created_by>
         <sys_created_on>2021-11-22 09:29:27</sys_created_on>
         <sys_id>cfb68c20878cc510c386fd99cebb3555</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>staying healthy at work</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>staying healthy in my workspace</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_nlu_utterance_cfb68c20878cc510c386fd99cebb3555</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-22 09:29:27</sys_updated_on>
-        <utterance>staying healthy at work</utterance>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-24 07:27:14</sys_updated_on>
+        <utterance>staying healthy in my workspace</utterance>
     </sys_nlu_utterance>
 </record_update>

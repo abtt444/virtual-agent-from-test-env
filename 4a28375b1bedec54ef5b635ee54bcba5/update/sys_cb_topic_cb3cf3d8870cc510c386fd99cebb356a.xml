@@ -50,7 +50,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Meeting is connecting, it's how we communicate with each other. And ensuring that we communicate with each other, both soundly and effectively are key points to make meetings work:"
+                    "text": "Meeting is connecting - it's how we communicate with each other. Ensuring that we communicate with each other, both soundly and effectively, are key points to making a meeting work. "
                   }
                 ]
               },
@@ -58,7 +58,27 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Read the following article to master these points:"
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Read "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1s6n_iWZITlOvfygbgy7hi0yHrl0uzy8K/edit",
+                    "children": [
+                      {
+                        "text": "this article"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " to ensure your meetings are filled with purpose and to master the following key areas:"
                   }
                 ]
               },
@@ -101,84 +121,22 @@
             "value": "",
             "mode": "query"
           }
-        },
-        "b1eff20955b74840b2e74e8084c4b3ae": {
-          "id": "b1eff20955b74840b2e74e8084c4b3ae",
-          "stepType": "LinkOutput",
-          "name": "Meeting Link",
-          "url": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "https://docs.google.com/document/d/1s6n_iWZITlOvfygbgy7hi0yHrl0uzy8K/edit"
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "label": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Purpose of Virtual Meetings"
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "header": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Are your Virtual Meetings Plump with Purpose"
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          },
-          "linkType": "single",
-          "introMsg": {
-            "value": "",
-            "mode": "simple"
-          },
-          "listOfLinks": ""
         }
       },
       "edges": [
+        {
+          "id": "2ad03d48e59142af91ba1f77c21e7f32",
+          "edgeType": "Edge",
+          "source": "bd3d56e666664e158618885b6ce9a125",
+          "target": "36eb4ca632ae463ca767f665a43614b7",
+          "sourcePort": "",
+          "targetPort": ""
+        },
         {
           "id": "9d2e85091c2e41a2b5a997173ad50713",
           "edgeType": "Edge",
           "source": "681ebc71c7014c40a1e3417075f324ca",
           "target": "bd3d56e666664e158618885b6ce9a125",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "2ad03d48e59142af91ba1f77c21e7f32",
-          "edgeType": "Edge",
-          "source": "bd3d56e666664e158618885b6ce9a125",
-          "target": "b1eff20955b74840b2e74e8084c4b3ae",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "cb8f42b9ee4846fcaf9e15da20583628",
-          "edgeType": "Edge",
-          "source": "b1eff20955b74840b2e74e8084c4b3ae",
-          "target": "36eb4ca632ae463ca767f665a43614b7",
           "sourcePort": "",
           "targetPort": ""
         }
@@ -196,10 +154,10 @@
     }
   }
 }</graph>
-        <key_phrases>Virtual Meetings</key_phrases>
+        <key_phrases>Having Virtual Meetings with Purpose</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>Virtual Meetings</name>
+        <name>Having Virtual Meetings with Purpose</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -213,14 +171,14 @@
         <sys_created_on>2021-11-22 08:43:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>cb3cf3d8870cc510c386fd99cebb356a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Virtual Meetings</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Having Virtual Meetings with Purpose</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_cb3cf3d8870cc510c386fd99cebb356a</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-22 08:57:08</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-24 07:51:03</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

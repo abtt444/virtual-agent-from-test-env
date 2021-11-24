@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":40,"end":57,"annotatedString":"How does my body work in relation to my {{phrase=\"working enviroment\"}}","cat":null}]</annotation>
+        <entity display_value="Workspace">b46284e4874cc510c386fd99cebb3577</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-24 07:12:27</sys_created_on>
+        <sys_id>e38af58987408110c386fd99cebb35ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace.How does my body work in relation to my working enviroment</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_e38af58987408110c386fd99cebb35ae</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-24 07:12:27</sys_updated_on>
+        <utterance display_value="How does my body work in relation to my working enviroment">a35ab5c987408110c386fd99cebb3551</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

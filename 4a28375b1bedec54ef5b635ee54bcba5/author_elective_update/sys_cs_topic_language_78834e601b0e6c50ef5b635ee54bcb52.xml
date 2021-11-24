@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language">
+    <sys_cs_topic_language action="DELETE">
+        <cs_topic_id display_value="Absa Live Agent Transfer">3c834e601b0e6c50ef5b635ee54bcb45</cs_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[]</nlu_entities>
+        <nlu_intent>Personal</nlu_intent>
+        <nlu_intent_label>Personal</nlu_intent_label>
+        <nlu_model>global_4a28375b1bedec54ef5b635ee54bcba5_07c696471b8620d0ef5b635ee54bcbfd</nlu_model>
+        <nlu_model_label>Absa HR Chatbot NLU Model - Entities</nlu_model_label>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cs_topic_language</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-01-28 12:17:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>78834e601b0e6c50ef5b635ee54bcb52</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_language_78834e601b0e6c50ef5b635ee54bcb52</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:18:01</sys_updated_on>
+    </sys_cs_topic_language>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_cs_topic_language_78834e601b0e6c50ef5b635ee54bcb52</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language">
+    <sys_cs_topic_language action="INSERT_OR_UPDATE">
+        <cs_topic_id display_value="Absa Live Agent Transfer">3c834e601b0e6c50ef5b635ee54bcb45</cs_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[]</nlu_entities>
+        <nlu_intent>Personal</nlu_intent>
+        <nlu_intent_label>Personal</nlu_intent_label>
+        <nlu_model>global_4a28375b1bedec54ef5b635ee54bcba5_07c696471b8620d0ef5b635ee54bcbfd</nlu_model>
+        <nlu_model_label>Absa HR Chatbot NLU Model - Entities</nlu_model_label>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cs_topic_language</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-01-28 12:17:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>78834e601b0e6c50ef5b635ee54bcb52</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_language_78834e601b0e6c50ef5b635ee54bcb52</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:18:01</sys_updated_on>
+    </sys_cs_topic_language>
+</record_update>]]></payload>
+        <payload_hash>-627476540</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:13</sys_created_on>
+        <sys_id>fb2c9753871f3050c386fd99cebb35ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650616c0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:13</sys_updated_on>
+        <type>CS Topic Language</type>
+        <update_guid>3b2c9753611f30505030e83be5e3fcad</update_guid>
+        <update_guid_history>3b2c9753611f30505030e83be5e3fcad:0,3c29db13735f74502d35258d3cd26e86:-810453057,91283454ddd7fc10a10cdb66f3988c8f:742833221,71e1f814d69f301023a93927f7795245:0,1f50092bff4b78105db197f2f7133ea1:-1817005720,4a6df443f807b4100960ea8ad6e1061c:0,f0876ccb6a43b41017e11b7caf046c2c:247351458,18bb0c47228f74103c10690ec5505e54:0,4009440fb34f7410b0a032c21315a566:1941842131,fe20792a7ba63450985c244b62706c3d:742833221,7b3902f722c63810c256a6973ed7ddfc:-1595693121,b2365bc0b456a41044bf5626899f0441:-1967057718,fc01c9e278422c9083040d638dbfabde:-898403256,38834e603e0e6c509bc616ff3390b653:-64903019</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-24 09:51:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_topic_language">sys_cs_topic_language</sys_db_object>
+        <sys_id>0534762351ac41c08c4e037e36015640</sys_id>
+        <sys_metadata>78834e601b0e6c50ef5b635ee54bcb52</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cs_topic_language_78834e601b0e6c50ef5b635ee54bcb52</sys_update_name>
+        <sys_update_version display_value="sys_cs_topic_language_78834e601b0e6c50ef5b635ee54bcb52">fb2c9753871f3050c386fd99cebb35ad</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-24 09:51:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
