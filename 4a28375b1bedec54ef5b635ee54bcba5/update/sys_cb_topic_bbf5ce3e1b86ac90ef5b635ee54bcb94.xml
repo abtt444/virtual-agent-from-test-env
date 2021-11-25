@@ -50,7 +50,19 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "MyContribution is about knowing your and your team’s strengths. It’s about helping you understand the business and how you make a meaningful contribution to the business every day. Through MyContribution you can reflect on your contribution and move forward, achieving your full potential and possibilities and ultimately understanding your contribution outcome. "
+                    "text": ""
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/my_contribution?id=my_contribution_home",
+                    "children": [
+                      {
+                        "text": "MyContribution"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " is about knowing you and your team’s strengths. It’s about helping you understand and make a meaningful contribution to the business every day. "
                   }
                 ]
               }
@@ -116,82 +128,6 @@
           "stepType": "Decision",
           "name": "Decision"
         },
-        "33fc4312724644cf804ae8011ffd5619": {
-          "id": "33fc4312724644cf804ae8011ffd5619",
-          "stepType": "TextOutput",
-          "name": "Who allocates courses to MyContribution",
-          "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "There are courses available on the My learning system that can be registered by colleagues. To access the courses, you can do the following:"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "bulleted-list",
-                "children": [
-                  {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Access "
-                      },
-                      {
-                        "text": "MyLearning ",
-                        "bold": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "In the search field type "
-                      },
-                      {
-                        "text": "MyContribution",
-                        "bold": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "All related searches available will appear)"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "The course will assist on the understanding on the process as well as navigating the system"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
-        },
         "1184929eb0ee432292de79ebfd3e3d46": {
           "id": "1184929eb0ee432292de79ebfd3e3d46",
           "stepType": "TextOutput",
@@ -203,7 +139,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "The MyContribution Reporting Dashboard should be used to view the year end performance review process for your organization. You will only be able to use these reports to view employees you support. "
+                    "text": "The MyContribution Reporting Dashboard should be used to view the year end performance review process for your organisation. You will only be able to use these reports to view colleagues you support. "
                   }
                 ]
               },
@@ -249,107 +185,6 @@
                     "text": "worklet"
                   }
                 ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
-        },
-        "d9af7104431b490aa0466ad0736ac3ee": {
-          "id": "d9af7104431b490aa0466ad0736ac3ee",
-          "stepType": "TextOutput",
-          "name": "When can I use MyContribution",
-          "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "The MyContribution features are available throughout the year."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "bulleted-list",
-                "children": [
-                  {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Objective setting",
-                        "bold": true
-                      },
-                      {
-                        "text": " : this be added /edited /deleted at anytime during the year. For year end, this can only be added /edited /deleted on the year end review template on available"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Snapshot",
-                        "bold": true
-                      },
-                      {
-                        "text": "/"
-                      },
-                      {
-                        "text": "check",
-                        "bold": true
-                      },
-                      {
-                        "text": "-"
-                      },
-                      {
-                        "text": "in review template",
-                        "bold": true
-                      },
-                      {
-                        "text": ":  this can be requested at anytime during the year until the preparation of year review template•Gift of feedback – Can be requested / provided to colleagues at anytime of the year"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Manager",
-                        "bold": true
-                      },
-                      {
-                        "text": " "
-                      },
-                      {
-                        "text": "evaluation year end review:",
-                        "bold": true
-                      },
-                      {
-                        "text": " Only assigned and completed once a year (assigned by the Workday Functional Configurator)"
-                      }
-                    ]
-                  }
-                ]
               }
             ],
             "mode": "simple"
@@ -370,34 +205,22 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "The MyContribution features are available on workday"
-                  }
-                ]
-              },
-              {
-                "type": "bulleted-list",
-                "children": [
-                  {
-                    "type": "list-item",
+                    "type": "paragraph",
                     "children": [
                       {
-                        "text": "Access workday"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "list-item",
-                    "children": [
+                        "text": ""
+                      },
                       {
-                        "text": "Under applications"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "list-item",
-                    "children": [
+                        "type": "link",
+                        "url": "https://absahr.service-now.com/my_contribution?id=my_contribution_home",
+                        "children": [
+                          {
+                            "text": "Click here"
+                          }
+                        ]
+                      },
                       {
-                        "text": "Select the talent and performance worklet"
+                        "text": " to access the MyContribution Portal. "
                       }
                     ]
                   }
@@ -438,27 +261,6 @@
           "targetPort": ""
         },
         {
-          "id": "71193fd32a6a40a283a371105cfe6dbb",
-          "edgeType": "Branch",
-          "source": "ac6bc727e2b5477ab4757fcaa28a5816",
-          "target": "33fc4312724644cf804ae8011ffd5619",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.mycontribution_list=Who allocates courses to MyContribution and how does it help me",
-            "mode": "query"
-          },
-          "label": "Who allocates courses to MyContribution and how does it help me"
-        },
-        {
-          "id": "025f304fd1a147469a497165f4a848e7",
-          "edgeType": "Edge",
-          "source": "33fc4312724644cf804ae8011ffd5619",
-          "target": "dda2a366c0af4389a117c9f561f5951d",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
           "id": "27dfd43547514dd5907f9f86fc98edb7",
           "edgeType": "Branch",
           "source": "ac6bc727e2b5477ab4757fcaa28a5816",
@@ -475,27 +277,6 @@
           "id": "01c5e6c55a0948e282f3099b17d11a6d",
           "edgeType": "Edge",
           "source": "1184929eb0ee432292de79ebfd3e3d46",
-          "target": "dda2a366c0af4389a117c9f561f5951d",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "d5c9d2b8c4564d6f88009626f157b799",
-          "edgeType": "Branch",
-          "source": "ac6bc727e2b5477ab4757fcaa28a5816",
-          "target": "d9af7104431b490aa0466ad0736ac3ee",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.mycontribution_list=When can I use MyContribution",
-            "mode": "query"
-          },
-          "label": "When can I use MyContribution"
-        },
-        {
-          "id": "dc3256ebaa334f6087fadfab10dfca55",
-          "edgeType": "Edge",
-          "source": "d9af7104431b490aa0466ad0736ac3ee",
           "target": "dda2a366c0af4389a117c9f561f5951d",
           "sourcePort": "",
           "targetPort": ""
@@ -540,17 +321,8 @@
       "varType": "choice",
       "choices": [
         {
-          "label": "When can I use MyContribution",
-          "value": "When can I use MyContribution"
-        },
-        {
           "label": "Can I get access to MyContribution",
           "value": "Can I get access to MyContribution",
-          "checked": true
-        },
-        {
-          "label": "Who allocates courses to MyContribution and how does it help me",
-          "value": "Who allocates courses to MyContribution and how does it help me",
           "checked": true
         },
         {
@@ -580,14 +352,14 @@
         <sys_created_on>2021-02-04 12:15:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>bbf5ce3e1b86ac90ef5b635ee54bcb94</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>My Contribution Information</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_bbf5ce3e1b86ac90ef5b635ee54bcb94</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-17 14:29:19</sys_updated_on>
+        <sys_updated_on>2021-11-25 08:28:37</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

@@ -127,7 +127,19 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Each colleague is encouraged to complete the self evaluation, as it provides you with the opportunity to reflect on your own contribution during the performance year. This is captured by updating the status of each objective, adding comments per objective, summary comments and uploading attachments."
+                    "text": "Each colleague is encouraged to complete the "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/my_contribution?id=self_evaluation&amp;sysparm_domain_restore=false&amp;sysparm_stack=no",
+                    "children": [
+                      {
+                        "text": "self-evaluation"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", as it provides you with the opportunity to reflect on your own contribution during the performance year. This is captured by updating the status of each objective, adding comments per objective, summary comments and uploading attachments."
                   }
                 ]
               }
@@ -246,6 +258,51 @@
             "mode": "simple"
           },
           "listOfLinks": ""
+        },
+        "56996a6c6095403e98af89ac7492be59": {
+          "id": "56996a6c6095403e98af89ac7492be59",
+          "stepType": "LinkOutput",
+          "name": "me1",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/my_contribution?id=manager_evaluation&amp;sysparm_domain_restore=false&amp;sysparm_stack=no"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Manager Evaluation "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
         }
       },
       "edges": [
@@ -300,14 +357,6 @@
           "targetPort": ""
         },
         {
-          "id": "63550f2d0fa644b9a012da807eb07d18",
-          "edgeType": "Edge",
-          "source": "cededbb18bcd4ff3aebfd13c819169a1",
-          "target": "42c0f8e5dbc145e8927936e6222882cf",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
           "id": "b79d9a0693134d27af8e348676bbbfdb",
           "edgeType": "Edge",
           "source": "895c45704ce443ac8e05df23832aa787",
@@ -319,6 +368,22 @@
           "id": "d072164f590f42859b9f17461c033d1b",
           "edgeType": "Edge",
           "source": "2c9e5c0d6642464b85a15d669355a09f",
+          "target": "42c0f8e5dbc145e8927936e6222882cf",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "63550f2d0fa644b9a012da807eb07d18",
+          "edgeType": "Edge",
+          "source": "cededbb18bcd4ff3aebfd13c819169a1",
+          "target": "56996a6c6095403e98af89ac7492be59",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ac05ae75d06b4b5fa492c4406261a343",
+          "edgeType": "Edge",
+          "source": "56996a6c6095403e98af89ac7492be59",
           "target": "42c0f8e5dbc145e8927936e6222882cf",
           "sourcePort": "",
           "targetPort": ""
@@ -372,14 +437,14 @@
         <sys_created_on>2021-11-06 14:17:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>db3fae1b1b277010cb139753b24bcbe0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Self &amp; Manager Evaluation</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_db3fae1b1b277010cb139753b24bcbe0</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-22 13:23:44</sys_updated_on>
+        <sys_updated_on>2021-11-25 09:14:09</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

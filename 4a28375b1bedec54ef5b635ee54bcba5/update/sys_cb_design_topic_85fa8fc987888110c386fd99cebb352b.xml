@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
     <sys_cb_design_topic action="INSERT_OR_UPDATE">
-        <compiled_topic display_value="MyContribution - Grievance">01fa8fc987888110c386fd99cebb3528</compiled_topic>
-        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"290b9036e07f4ba2b0689149ae0166e1","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"290b9036e07f4ba2b0689149ae0166e1"}],"goals":[{"name":"primary","trigger_id":"290b9036e07f4ba2b0689149ae0166e1","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"2d2923b5da6349e7813441f0e5146907","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"1af08f5f60e54fa2b1b10eb4fe661162","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Default Response\", vaContext.getRequesterLang())"},"id":"b31a2bf5b2af45f683be96f364407ce0","name":"Intro","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"2d2923b5da6349e7813441f0e5146907","target_node_id":"b31a2bf5b2af45f683be96f364407ce0","id":"76bbfa16535c4fd4b90f08bf5a1ba9b8"},{"type":"Edge","source_node_id":"b31a2bf5b2af45f683be96f364407ce0","target_node_id":"1af08f5f60e54fa2b1b10eb4fe661162","id":"9d1a66b9cd7a4c34b27a471039b6cef6"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"1ada8b8987888110c386fd99cebb35ee","name":"MyContribution - Grievance","key_phrases":["MyContribution - Grievance"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <compiled_topic display_value="Grievance Process">01fa8fc987888110c386fd99cebb3528</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"6c253d7652d542b3884f24192513ef4f","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"6c253d7652d542b3884f24192513ef4f"}],"goals":[{"name":"primary","trigger_id":"6c253d7652d542b3884f24192513ef4f","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"2d2923b5da6349e7813441f0e5146907","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"1af08f5f60e54fa2b1b10eb4fe661162","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Default Response\", vaContext.getRequesterLang())"},"id":"b31a2bf5b2af45f683be96f364407ce0","name":"Intro","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"2d2923b5da6349e7813441f0e5146907","target_node_id":"b31a2bf5b2af45f683be96f364407ce0","id":"76bbfa16535c4fd4b90f08bf5a1ba9b8"},{"type":"Edge","source_node_id":"b31a2bf5b2af45f683be96f364407ce0","target_node_id":"1af08f5f60e54fa2b1b10eb4fe661162","id":"9d1a66b9cd7a4c34b27a471039b6cef6"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"1ada8b8987888110c386fd99cebb35ee","name":"Grievance Process","key_phrases":["Grievance Process"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
         <design_topic_id>1ada8b8987888110c386fd99cebb35ee</design_topic_id>
-        <name>MyContribution - Grievance</name>
+        <name>Grievance Process</name>
         <sys_class_name>sys_cb_design_topic</sys_class_name>
         <sys_created_by>AB019AK</sys_created_by>
         <sys_created_on>2021-11-24 13:03:43</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>85fa8fc987888110c386fd99cebb352b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>FlowTopic</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Grievance Process</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_design_topic_85fa8fc987888110c386fd99cebb352b</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-24 13:03:43</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-25 11:31:01</sys_updated_on>
         <type>FlowTopic</type>
     </sys_cb_design_topic>
 </record_update>

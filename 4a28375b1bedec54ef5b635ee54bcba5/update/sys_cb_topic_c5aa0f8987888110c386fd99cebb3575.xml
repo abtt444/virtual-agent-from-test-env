@@ -50,7 +50,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Default Response"
+                    "text": "Feedback does not require an approval step and can be used to provide feedback irrespective of business, function, country, or job grade. Feedback takes the form of badges, supported by feedback comments."
                   }
                 ]
               }
@@ -71,7 +71,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Chive on of the following"
+                    "text": "Choose one of the following to learn more about feedback"
                   }
                 ]
               }
@@ -116,50 +116,43 @@
           "stepType": "Decision",
           "name": "Decision"
         },
-        "092c11e036c744ac9531f6f8251e7545": {
-          "id": "092c11e036c744ac9531f6f8251e7545",
-          "stepType": "TextOutput",
-          "name": "How to view feedback given to others",
-          "secure": false,
-          "value": {
+        "37c659522c2441f8969e55a124c80ceb": {
+          "id": "37c659522c2441f8969e55a124c80ceb",
+          "stepType": "LinkOutput",
+          "name": "More Info",
+          "url": {
             "value": [
               {
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Step 1: Navigate to your Workday profile, by clicking on your photo or the cloud icon that appears at the top right corner of the Workday screen. Thereafter, click on View Profile."
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011250 "
                   }
                 ]
-              },
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
               {
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": ""
+                    "text": "Click here to learn more about the Gift of Feedback"
                   }
                 ]
-              },
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
               {
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Step 2: On the left navigation pane (in pink) select the Action button that appears below the employee details. After clicking Action, select Talent, and thereafter select the View feedback by request option, as shown below."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Step 3: The View feedback given to others page will display."
+                    "text": "Feedback Information"
                   }
                 ]
               }
@@ -169,52 +162,51 @@
           "applicability": {
             "value": "",
             "mode": "query"
-          }
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
         },
-        "909fb7c736f244809372f0aab2a9fc67": {
-          "id": "909fb7c736f244809372f0aab2a9fc67",
-          "stepType": "TextOutput",
-          "name": "\"How to view feedback by request",
-          "secure": false,
-          "value": {
+        "f6a85d7216b945d4a44def2dc774d868": {
+          "id": "f6a85d7216b945d4a44def2dc774d868",
+          "stepType": "LinkOutput",
+          "name": "How to get Feedback",
+          "url": {
             "value": [
               {
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Step 1: Navigate to your Workday profile, by clicking on your photo or the cloud icon that appears at the top right corner of the Workday screen. Thereafter, click on View Profile."
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010892 "
                   }
                 ]
-              },
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
               {
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": " "
+                    "text": "Click here to learn more about hot to get Feedback"
                   }
                 ]
-              },
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
               {
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Step 2: On the left navigation pane (in pink) select the Action button that appears below the employee details. After clicking Action, select Talent and thereafter, select View feedback by request, as shown below."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Step 3: On the Feedback Requested screen, you can filter by Status, Request date or From to view specific details of the feedback you have requested."
+                    "text": "How to get Feedback"
                   }
                 ]
               }
@@ -224,10 +216,104 @@
           "applicability": {
             "value": "",
             "mode": "query"
-          }
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "750f532d648d4dbf8b290b2ae5839b30": {
+          "id": "750f532d648d4dbf8b290b2ae5839b30",
+          "stepType": "LinkOutput",
+          "name": "How to provide Feedback",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011225 "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click Here to learn more about  how to provide Feedback"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "How to provide Feedback"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
         }
       },
       "edges": [
+        {
+          "id": "42e009ac5e764e26ba1647c6fdb535fe",
+          "edgeType": "Branch",
+          "source": "f6e07151343142628e14cdd527f225c0",
+          "target": "750f532d648d4dbf8b290b2ae5839b30",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choice=How to provide Feedback",
+            "mode": "query"
+          },
+          "label": "How to provide Feedback"
+        },
+        {
+          "id": "cb6d95a7595d4558a6e32fca2d764bbd",
+          "edgeType": "Branch",
+          "source": "f6e07151343142628e14cdd527f225c0",
+          "target": "f6a85d7216b945d4a44def2dc774d868",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choice=How to get Feedback",
+            "mode": "query"
+          },
+          "label": "How to get Feedback"
+        },
+        {
+          "id": "2b3e014598904f41bf6f6d0edcc3f93d",
+          "edgeType": "Edge",
+          "source": "3986ec5cdc6044e8a6e1e1b5b1f78409",
+          "target": "f6e07151343142628e14cdd527f225c0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
         {
           "id": "b16d41f8628148419d27c82ca12217ba",
           "edgeType": "Edge",
@@ -245,51 +331,38 @@
           "targetPort": ""
         },
         {
-          "id": "2b3e014598904f41bf6f6d0edcc3f93d",
-          "edgeType": "Edge",
-          "source": "3986ec5cdc6044e8a6e1e1b5b1f78409",
-          "target": "f6e07151343142628e14cdd527f225c0",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "42e009ac5e764e26ba1647c6fdb535fe",
+          "id": "b109f114f00a4444980e1f2a57573fbc",
           "edgeType": "Branch",
           "source": "f6e07151343142628e14cdd527f225c0",
-          "target": "092c11e036c744ac9531f6f8251e7545",
+          "target": "37c659522c2441f8969e55a124c80ceb",
           "sourcePort": "",
           "targetPort": "",
           "expression": {
-            "value": "vaInputs.choice=How to view feedback given to others",
+            "value": "vaInputs.choice=More Info",
             "mode": "query"
           },
-          "label": "How to view feedback given to others"
+          "label": "More Info"
         },
         {
-          "id": "9ebbc20c956a45089633768b66ab9249",
+          "id": "ff30259dea904156b490264f34827b8a",
           "edgeType": "Edge",
-          "source": "092c11e036c744ac9531f6f8251e7545",
+          "source": "37c659522c2441f8969e55a124c80ceb",
           "target": "a9115a67b85443649a966e69d6bdf803",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "cb6d95a7595d4558a6e32fca2d764bbd",
-          "edgeType": "Branch",
-          "source": "f6e07151343142628e14cdd527f225c0",
-          "target": "909fb7c736f244809372f0aab2a9fc67",
+          "id": "f218431d892f45fd9ec133fe25afb3d9",
+          "edgeType": "Edge",
+          "source": "f6a85d7216b945d4a44def2dc774d868",
+          "target": "a9115a67b85443649a966e69d6bdf803",
           "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.choice=\"How to view feedback by request",
-            "mode": "query"
-          },
-          "label": "\"How to view feedback by request"
+          "targetPort": ""
         },
         {
-          "id": "a3b4055a7a8a463f91bbbfd63d82e769",
+          "id": "46051d9995164d70a8d3dc111e3bab06",
           "edgeType": "Edge",
-          "source": "909fb7c736f244809372f0aab2a9fc67",
+          "source": "750f532d648d4dbf8b290b2ae5839b30",
           "target": "a9115a67b85443649a966e69d6bdf803",
           "sourcePort": "",
           "targetPort": ""
@@ -313,12 +386,17 @@
       "varType": "choice",
       "choices": [
         {
-          "label": "\"How to view feedback by request",
-          "value": "\"How to view feedback by request"
+          "label": "How to get Feedback",
+          "value": "How to get Feedback"
         },
         {
-          "label": "How to view feedback given to others",
-          "value": "How to view feedback given to others",
+          "label": "How to provide Feedback",
+          "value": "How to provide Feedback",
+          "checked": true
+        },
+        {
+          "label": "More Info",
+          "value": "More Info",
           "checked": true
         }
       ],
@@ -343,14 +421,14 @@
         <sys_created_on>2021-11-24 13:02:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>c5aa0f8987888110c386fd99cebb3575</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Request &amp; Give Feedback</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_c5aa0f8987888110c386fd99cebb3575</sys_update_name>
-        <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-24 13:47:54</sys_updated_on>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-25 09:09:14</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>
