@@ -62,7 +62,19 @@
                     ]
                   },
                   {
-                    "text": "With hundreds of our employees now working from home, we have updated out Mobile Standard to accommodate this. With these change, eligible employees are now able to request mobile devices values up to R4000 (excluding VAT) across all grades, roles and positions."
+                    "text": "With hundreds of our employees now working from home, we have updated our Mobile Standard to accommodate this. With these changes, eligible employees are now able to "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1Lv7kJleDt_heZB3nlr23mNfkXGr97Ft-/edit",
+                    "children": [
+                      {
+                        "text": "request a company handset"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " valued up to R4000 (excluding VAT) across all grades, roles and positions."
                   }
                 ]
               },
@@ -73,40 +85,39 @@
                     "text": ""
                   }
                 ]
-              },
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "2e6a284b359c401094d94adf1e4fdb15": {
+          "id": "2e6a284b359c401094d94adf1e4fdb15",
+          "stepType": "TextOutput",
+          "name": "selfhelp",
+          "secure": false,
+          "value": {
+            "value": [
               {
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "You can also request devices values over R4000 however you will be required to play the difference"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Also remember that once the device is retired it becomes your property."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "You can read more "
+                    "text": "If you have any mobile service queries, take a look at our "
                   },
                   {
                     "type": "link",
-                    "url": "https://docs.google.com/document/d/1Lv7kJleDt_heZB3nlr23mNfkXGr97Ft-/edit",
+                    "url": "https://docs.google.com/document/d/1mNfBRH-AgKwNcyAiESVW1twM5ERYKQ3O/edit",
                     "children": [
                       {
-                        "text": "here"
+                        "text": "mobile self-help guide"
                       }
                     ]
                   },
                   {
-                    "text": "."
+                    "text": ". "
                   }
                 ]
               }
@@ -132,6 +143,14 @@
           "id": "6bf8f221686e43c3a21e581c065b88d6",
           "edgeType": "Edge",
           "source": "3d686b52accb490c90f7ff910499ea60",
+          "target": "2e6a284b359c401094d94adf1e4fdb15",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9ff14fa6ceb54104949a060e67ac10ee",
+          "edgeType": "Edge",
+          "source": "2e6a284b359c401094d94adf1e4fdb15",
           "target": "7e1af69ebfe047c0a58be4c5a9444da7",
           "sourcePort": "",
           "targetPort": ""
@@ -150,10 +169,10 @@
     }
   }
 }</graph>
-        <key_phrases>Handset</key_phrases>
+        <key_phrases>Company Mobile Handset</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>Handset</name>
+        <name>Company Mobile Handset</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -167,14 +186,14 @@
         <sys_created_on>2021-11-18 10:43:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>5e313f4387b73410c386fd99cebb35a5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Handset</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Company Mobile Handset</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_5e313f4387b73410c386fd99cebb35a5</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-22 14:05:38</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-23 09:43:00</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

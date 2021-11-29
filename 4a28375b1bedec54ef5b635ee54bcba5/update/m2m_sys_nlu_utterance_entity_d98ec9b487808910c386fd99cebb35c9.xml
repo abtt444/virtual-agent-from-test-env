@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":10,"end":19,"annotatedString":"I need an {{phrase=\"IT service\"}} support engineer","cat":null}]</annotation>
+        <entity display_value="IT Support">547cdf0b87f33410c386fd99cebb3545</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-23 09:21:35</sys_created_on>
+        <sys_id>d98ec9b487808910c386fd99cebb35c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Support.I need an IT service support engineer</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_d98ec9b487808910c386fd99cebb35c9</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-23 09:21:35</sys_updated_on>
+        <utterance display_value="I need an IT service support engineer">dc1dc5f087808910c386fd99cebb35c5</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

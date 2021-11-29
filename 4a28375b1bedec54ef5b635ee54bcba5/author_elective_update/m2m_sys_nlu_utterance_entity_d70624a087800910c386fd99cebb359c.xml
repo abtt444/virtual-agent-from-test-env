@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"start":24,"end":29,"annotatedString":"Is there a discount for {{phrase=\"buying\"}} furniture from absa","cat":null}]</annotation>
+        <entity display_value="Purchase">5ce524a087800910c386fd99cebb352b</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 11:46:17</sys_created_on>
+        <sys_id>d70624a087800910c386fd99cebb359c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Purchase.Is there a discount for buying furniture from absa</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_d70624a087800910c386fd99cebb359c</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 11:46:17</sys_updated_on>
+        <utterance display_value="Is there a discount for buying furniture from absa">25d4ecec87400910c386fd99cebb3569</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_d70624a087800910c386fd99cebb359c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"start":24,"end":29,"annotatedString":"Is there a discount for {{phrase=\"buying\"}} furniture from absa","cat":null}]</annotation><entity display_value="Purchase">5ce524a087800910c386fd99cebb352b</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>AB019AM</sys_created_by><sys_created_on>2021-11-22 11:46:17</sys_created_on><sys_id>d70624a087800910c386fd99cebb359c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Purchase.Is there a discount for buying furniture from absa</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_d70624a087800910c386fd99cebb359c</sys_update_name><sys_updated_by>AB019AM</sys_updated_by><sys_updated_on>2021-11-22 11:46:17</sys_updated_on><utterance display_value="Is there a discount for buying furniture from absa">25d4ecec87400910c386fd99cebb3569</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>191936954</payload_hash>
+        <record_name>Purchase.Is there a discount for buying furniture from absa</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 11:46:17</sys_created_on>
+        <sys_id>9b06aca087800910c386fd99cebb350b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d4777dd1d0000001</sys_recorded_at>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-22 11:46:17</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>9306aca0b1800910e5f1b9435657060b</update_guid>
+        <update_guid_history>9306aca0b1800910e5f1b9435657060b:191936954</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-23 15:28:31">f20746701b440110cb139753b24bcb5f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-23 13:28:31</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>525bb1e75072473287f431636595cb04</sys_id>
+        <sys_metadata>d70624a087800910c386fd99cebb359c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Purchase.Is there a discount for buying furniture from absa</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_d70624a087800910c386fd99cebb359c</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_d70624a087800910c386fd99cebb359c">9b06aca087800910c386fd99cebb350b</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-23 13:28:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

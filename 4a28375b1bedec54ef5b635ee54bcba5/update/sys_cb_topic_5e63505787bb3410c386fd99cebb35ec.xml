@@ -50,7 +50,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Should your laptop become damaged, lost or stolen, you are able to request a replacement by logging an insurance claim. You can click one of these buttons to learn more about how to replace your laptop."
+                    "text": "Should your laptop become damaged, lost or stolen, request a replacement by logging an insurance claim. "
                   }
                 ]
               },
@@ -66,7 +66,19 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "For queries or additional information, please contact the team at absa-insurance@absa.co.za "
+                    "text": "For queries or additional information, please contact the team at absa-insurance@absa.co.za or take a look at the following "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/15RH-EmCtFGaXS2OICoL6xRy4ZtOxQGbR/edit",
+                    "children": [
+                      {
+                        "text": "knowledge article"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
                   }
                 ]
               }
@@ -92,7 +104,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "You can click one of these buttons to learn more about how to replace your laptop."
+                    "text": "Choose one of the following to learn more about how to replace your laptop:"
                   }
                 ]
               }
@@ -168,7 +180,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "3. Ask your manager or a colleague to log an insurance claim request on your behalf on the IT Service Portal."
+                    "text": "3. Ask your manager or a colleague to log an insurance claim request on your behalf on the IT Service Portal"
                   }
                 ]
               },
@@ -176,7 +188,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "4. Email the SAPS validated affidavit to the insurance claims coordinator. "
+                    "text": "4. Email the SAPS validated affidavit to the insurance claims coordinator "
                   }
                 ]
               },
@@ -192,7 +204,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Once the Claims team has will assessed and validated the claim and affidavit,. you will be provided with a replacement device"
+                    "text": "Once the Claims team has  assessed and validated the claim and affidavit, you will be provided with a replacement device."
                   }
                 ]
               }
@@ -215,7 +227,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "If your laptop has been damage:",
+                    "text": "If your laptop has been damaged:",
                     "bold": true
                   }
                 ]
@@ -248,7 +260,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Once the claims team has assessed and verified the claims request a replacement will be sent to you"
+                    "text": "Once the Claims team has assessed and verified the claims request, a replacement will be sent to you."
                   }
                 ]
               }
@@ -351,7 +363,7 @@
           "value": "Damaged Laptop"
         },
         {
-          "label": "Stolen/Lost Laptop",
+          "label": "Stolen or Lost Laptop",
           "value": "Stolen/Lost Laptop",
           "checked": true
         }
@@ -360,10 +372,10 @@
     }
   }
 }</graph>
-        <key_phrases>Damage/Stolen Laptop</key_phrases>
+        <key_phrases>Damaged/Stolen Laptop</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>Damage/Stolen Laptop</name>
+        <name>Damaged/Stolen Laptop</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -377,14 +389,14 @@
         <sys_created_on>2021-11-18 13:12:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>5e63505787bb3410c386fd99cebb35ec</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Damage/Stolen Laptop</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Damaged/Stolen Laptop</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_5e63505787bb3410c386fd99cebb35ec</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-18 13:17:49</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-29 11:50:44</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

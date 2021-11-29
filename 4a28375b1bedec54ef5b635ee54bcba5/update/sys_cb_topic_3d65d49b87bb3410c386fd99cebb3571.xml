@@ -50,23 +50,96 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "ZScaler is a platform that allows users to  connect to their ASBA email, internet and applications in a more convenient way. It allows our tech team to have a more complete view of  remote users, allowing faster and more accurate identification of issues and problems."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
                     "text": ""
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1I4TzRE_MSvvf8T2yRtKJkkz8FvZ8uI4K/edit",
+                    "children": [
+                      {
+                        "text": "ZScaler"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " is a platform that allows users to  connect to their Absa email, internet and applications in a more convenient way. It allows our tech team to have a more complete view of  remote users, allowing faster and more accurate identification of issues and problems."
                   }
                 ]
-              },
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "17cbd5d02a744c71a5449c32a5f78f62": {
+          "stepType": "ChoicePrompt",
+          "name": "choice",
+          "prompt": {
+            "value": [
               {
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "How to locate and activate ZScaler:"
+                    "text": "To find out more, choose one of the following options: "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "1f5b643e270b4588944940cd6f98a55b",
+          "id": "17cbd5d02a744c71a5449c32a5f78f62",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "2d2d862532d94764aaf92c1fd5ba1f45": {
+          "id": "2d2d862532d94764aaf92c1fd5ba1f45",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "a8f6008df9b94db4af43ee4344474e3b": {
+          "id": "a8f6008df9b94db4af43ee4344474e3b",
+          "stepType": "TextOutput",
+          "name": "locate",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You can locate and activate ZScaler as follows:"
                   }
                 ]
               },
@@ -82,31 +155,37 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "2. Launch the app and follow the prompts. Once the app reflects an ON status, you can stop using FortiClient and AnyConnect VPN"
+                    "text": "2. Launch the app and follow the prompts. Once the app reflects an "
+                  },
+                  {
+                    "text": "ON",
+                    "bold": true
+                  },
+                  {
+                    "text": " status, you can stop using FortiClient and AnyConnect VPN"
                   }
                 ]
-              },
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "d2f2b615ff3e4446b375ef60368c7d29": {
+          "id": "d2f2b615ff3e4446b375ef60368c7d29",
+          "stepType": "TextOutput",
+          "name": "issues",
+          "secure": false,
+          "value": {
+            "value": [
               {
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "If ZScaler is not installed or you are experiencing any difficulties, please call the IT HelpDesk at 0861 721 721. For complete details on ZScaler please click here {Insert Link}. "
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
+                    "text": "If ZScaler is not installed or you are experiencing any difficulties, please call the IT HelpDesk at 0861 721 721. "
                   }
                 ]
               }
@@ -132,6 +211,56 @@
           "id": "42e913dd9ed442419769ff2706b00031",
           "edgeType": "Edge",
           "source": "7962d53f5b154ef39c64453fbd1a44b5",
+          "target": "17cbd5d02a744c71a5449c32a5f78f62",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ab96e6d2fe7b41ada05c8ee487401d43",
+          "edgeType": "Edge",
+          "source": "17cbd5d02a744c71a5449c32a5f78f62",
+          "target": "2d2d862532d94764aaf92c1fd5ba1f45",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8476dd35d43f461b9fa435df7da22c74",
+          "edgeType": "Branch",
+          "source": "2d2d862532d94764aaf92c1fd5ba1f45",
+          "target": "a8f6008df9b94db4af43ee4344474e3b",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choice=How to Activate ZScaler",
+            "mode": "query"
+          },
+          "label": "How to Activate ZScaler"
+        },
+        {
+          "id": "689f08aec19c4de0abda1ee0921e389c",
+          "edgeType": "Edge",
+          "source": "a8f6008df9b94db4af43ee4344474e3b",
+          "target": "b4e007b8810545e0a1c9507ae60e5b20",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "adfebe3486564b32b2b065ef2c0027e4",
+          "edgeType": "Branch",
+          "source": "2d2d862532d94764aaf92c1fd5ba1f45",
+          "target": "d2f2b615ff3e4446b375ef60368c7d29",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choice=Technical Issues",
+            "mode": "query"
+          },
+          "label": "Technical Issues"
+        },
+        {
+          "id": "d595a4318e8444fbbf2a05eb2e293d85",
+          "edgeType": "Edge",
+          "source": "d2f2b615ff3e4446b375ef60368c7d29",
           "target": "b4e007b8810545e0a1c9507ae60e5b20",
           "sourcePort": "",
           "targetPort": ""
@@ -147,13 +276,31 @@
       "name": "user",
       "table": "sys_user",
       "varType": "reference"
+    },
+    "1f5b643e270b4588944940cd6f98a55b": {
+      "id": "1f5b643e270b4588944940cd6f98a55b",
+      "name": "choice",
+      "label": "Choice",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "How to Activate ZScaler",
+          "value": "How to Activate ZScaler"
+        },
+        {
+          "label": "Technical Issues",
+          "value": "Technical Issues",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
     }
   }
 }</graph>
-        <key_phrases>zScaler Platform</key_phrases>
+        <key_phrases>ZScaler Platform</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>zScaler Platform</name>
+        <name>ZScaler Platform</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -167,14 +314,14 @@
         <sys_created_on>2021-11-18 13:21:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>3d65d49b87bb3410c386fd99cebb3571</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>zScaler Platform</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>ZScaler Platform</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_3d65d49b87bb3410c386fd99cebb3571</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-18 13:25:58</sys_updated_on>
+        <sys_updated_on>2021-11-23 14:51:28</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>
