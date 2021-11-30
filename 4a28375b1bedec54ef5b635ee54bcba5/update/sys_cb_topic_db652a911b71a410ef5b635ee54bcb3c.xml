@@ -49,7 +49,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Leave is not just a benefit, it's essential. Find out more about why you should take leave "
+                    "text": "Leave is not just a benefit; it's essential. Find out more about why you should take leave "
                   },
                   {
                     "type": "link",
@@ -77,7 +77,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Please note that annual leave captured does not require the line managers approval. "
+                    "text": "Please note that annual leave captured does not require your line manager's approval. "
                   }
                 ]
               }
@@ -163,11 +163,21 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1. On Workday under applications, select "
+                    "text": "1. On Workday under "
                   },
                   {
-                    "text": "absence",
+                    "text": "Applications",
                     "bold": true
+                  },
+                  {
+                    "text": ", select "
+                  },
+                  {
+                    "text": "Absence",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
                   }
                 ]
               },
@@ -178,7 +188,7 @@
                     "text": "2. Click on "
                   },
                   {
-                    "text": "request absence",
+                    "text": "Request Absence",
                     "bold": true
                   }
                 ]
@@ -190,11 +200,11 @@
                     "text": "3. Select "
                   },
                   {
-                    "text": "date range",
+                    "text": "Date Range",
                     "bold": true
                   },
                   {
-                    "text": " and input the dates of your leave "
+                    "text": " and enter the dates of your leave."
                   }
                 ]
               },
@@ -202,11 +212,21 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "4. Under type of, select "
+                    "text": "4. Under "
                   },
                   {
-                    "text": "time off: Annual leave ",
+                    "text": "Type ",
                     "bold": true
+                  },
+                  {
+                    "text": "of, select "
+                  },
+                  {
+                    "text": "Time Off: Annual Leave",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
                   }
                 ]
               },
@@ -217,7 +237,7 @@
                     "text": "5. Review leave captured and "
                   },
                   {
-                    "text": "submit",
+                    "text": "Submit",
                     "bold": true
                   },
                   {
@@ -342,14 +362,14 @@
         <sys_created_on>2021-01-18 12:25:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>db652a911b71a410ef5b635ee54bcb3c</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Annual Leave</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_db652a911b71a410ef5b635ee54bcb3c</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-17 14:25:24</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-30 10:22:30</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

@@ -49,7 +49,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "A maximum of 5 days of Relocation Leave is granted to a colleague who has to transfer at ABSA's request and that transfer results in relocation. "
+                    "text": "A maximum of 5 days of relocation leave is granted to a colleague who has to transfer at Absa's request and that transfer results in relocation. "
                   }
                 ]
               },
@@ -57,7 +57,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Only 1 day of relocation leave is provided to colleagues that transfer and relocate at their own request. "
+                    "text": "Only one day of relocation leave is provided to colleagues who transfer and relocate at their own request. "
                   }
                 ]
               },
@@ -159,7 +159,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1. Access Workday "
+                    "text": "1. Access Workday. "
                   }
                 ]
               },
@@ -167,11 +167,28 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "2. Under applications click on "
+                    "text": "2. Under "
                   },
                   {
-                    "text": "absence",
+                    "text": "Applications",
                     "bold": true
+                  },
+                  {
+                    "text": ","
+                  },
+                  {
+                    "text": " ",
+                    "bold": true
+                  },
+                  {
+                    "text": "click on "
+                  },
+                  {
+                    "text": "Absence",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
                   }
                 ]
               },
@@ -182,8 +199,11 @@
                     "text": "3. Select "
                   },
                   {
-                    "text": "request absence",
+                    "text": "Request Absence",
                     "bold": true
+                  },
+                  {
+                    "text": "."
                   }
                 ]
               },
@@ -194,11 +214,11 @@
                     "text": "4. Select "
                   },
                   {
-                    "text": "date range",
+                    "text": "Date Range",
                     "bold": true
                   },
                   {
-                    "text": " and input the dates of leave "
+                    "text": " and enter the dates of your leave."
                   }
                 ]
               },
@@ -206,11 +226,21 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "5. Under type of select "
+                    "text": "5. Under "
                   },
                   {
-                    "text": "time off: Relocation leave ",
+                    "text": "Type ",
                     "bold": true
+                  },
+                  {
+                    "text": "of select "
+                  },
+                  {
+                    "text": "Time Off: Relocation Leave",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
                   }
                 ]
               },
@@ -221,7 +251,7 @@
                     "text": "6. Review leave captured and "
                   },
                   {
-                    "text": "submit",
+                    "text": "Submit",
                     "bold": true
                   },
                   {
@@ -346,14 +376,14 @@
         <sys_created_on>2021-01-18 12:24:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>d135a2911b71a410ef5b635ee54bcb36</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Relocation Leave</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_d135a2911b71a410ef5b635ee54bcb36</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-17 14:26:50</sys_updated_on>
+        <sys_updated_on>2021-11-30 10:21:32</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

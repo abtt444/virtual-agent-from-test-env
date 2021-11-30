@@ -49,60 +49,55 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "When you resign from our employ, you must complete a Absa Pension Fund Withdrawal Benefit Claim Form indicating whether you wish to:"
+                    "text": "When you resign from our employ, you must complete an Absa Pension Fund Withdrawal Benefit Claim Form indicating whether you wish to:"
                   }
                 ]
               },
               {
-                "type": "bulleted-list",
+                "type": "paragraph",
                 "children": [
                   {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Transfer your share of the Fund to your new employer’s pension and/or provident fund. Not taxable."
-                      }
-                    ]
-                  },
+                    "text": "1. Make a non-taxable transfer of your share of the fund to your new employer’s pension and/or provident fund."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
                   {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Transfer your share of the Fund to a retirement annuity fund. Not taxable."
-                      }
-                    ]
-                  },
+                    "text": "2. Make a non-taxable transfer of your share of the fund to a retirement annuity fund."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
                   {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Transfer your money to a pension preservation fund. Not taxable."
-                      }
-                    ]
-                  },
+                    "text": "3. Make a non-taxable transfer of your money to a pension preservation fund."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
                   {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Leave your Fund credit in the Fund until a later date ('Defer' your withdrawal date). Not taxable."
-                      }
-                    ]
-                  },
+                    "text": "4. Leave your fund credit in the fund until a later date ('Defer' your withdrawal date). This is not taxable."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
                   {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Take your share of the Fund in cash (taxable)."
-                      }
-                    ]
-                  },
+                    "text": "5. Take your share of the Fund in cash (taxable)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
                   {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Please contact the Pension fund on 0860 100 380"
-                      }
-                    ]
+                    "text": "6. Please contact the Pension fund on 0860 100 380."
                   }
                 ]
               },
@@ -118,7 +113,27 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "To find out how your pension fund savings are growing in our fund, please register here: https://acamember.sanlam.co.za. Refer to the attached user guide: How to access the Absa Pension Fund site."
+                    "text": "To find out how your pension fund savings are growing in our fund, please register at: "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://acamember.sanlam.co.za",
+                    "children": [
+                      {
+                        "text": "https://acamember.sanlam.co.za"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
                   }
                 ]
               }
@@ -130,6 +145,105 @@
             "mode": "query"
           },
           "secure": false
+        },
+        "8d435286af9446f2a6351217760e9897": {
+          "stepType": "ChoicePrompt",
+          "name": "chouice",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Would you like more information on how to access the Pension Fund site?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "7864653eb1c5472e93a35f0e59e8b82d",
+          "id": "8d435286af9446f2a6351217760e9897",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "ae9743ff0aac4dad8d74d3014eff08ea": {
+          "id": "ae9743ff0aac4dad8d74d3014eff08ea",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "a90eaea49c4d4dc38d2b54489fdf24cb": {
+          "id": "a90eaea49c4d4dc38d2b54489fdf24cb",
+          "stepType": "ImageOutput",
+          "name": "image1",
+          "url": {
+            "value": "0001_1638269017037.jpg",
+            "mode": "db_image"
+          },
+          "altText": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "8cc28dadbae040ce91a7aa14cd0e93bf": {
+          "id": "8cc28dadbae040ce91a7aa14cd0e93bf",
+          "stepType": "ImageOutput",
+          "name": "image 2",
+          "url": {
+            "value": "0002_1638269041157.jpg",
+            "mode": "db_image"
+          },
+          "altText": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
         }
       },
       "edges": [
@@ -145,6 +259,56 @@
           "id": "172d7b84f95947cf8e71188524df06eb",
           "edgeType": "Edge",
           "source": "685962a47015454fb581d068e1006a03",
+          "target": "8d435286af9446f2a6351217760e9897",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b21ebf8171c74385b297c6b4e87f08a9",
+          "edgeType": "Edge",
+          "source": "8d435286af9446f2a6351217760e9897",
+          "target": "ae9743ff0aac4dad8d74d3014eff08ea",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "47c02671734542a79fa4cf0ee7134864",
+          "edgeType": "Branch",
+          "source": "ae9743ff0aac4dad8d74d3014eff08ea",
+          "target": "467e4265884d45abbe7df52b489385c0",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.chouice=No",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "3282f711deca4b7e975fb4b5240307bd",
+          "edgeType": "Branch",
+          "source": "ae9743ff0aac4dad8d74d3014eff08ea",
+          "target": "a90eaea49c4d4dc38d2b54489fdf24cb",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.chouice=Yes",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "a93e3047754a4e21b2ebbf1d965c9db8",
+          "edgeType": "Edge",
+          "source": "a90eaea49c4d4dc38d2b54489fdf24cb",
+          "target": "8cc28dadbae040ce91a7aa14cd0e93bf",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ec18b8178d6743f0a8356bde48e0115e",
+          "edgeType": "Edge",
+          "source": "8cc28dadbae040ce91a7aa14cd0e93bf",
           "target": "467e4265884d45abbe7df52b489385c0",
           "sourcePort": "",
           "targetPort": ""
@@ -160,6 +324,24 @@
       "name": "user",
       "table": "sys_user",
       "varType": "reference"
+    },
+    "7864653eb1c5472e93a35f0e59e8b82d": {
+      "id": "7864653eb1c5472e93a35f0e59e8b82d",
+      "name": "chouice",
+      "label": "Chouice",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
     }
   }
 }</graph>
@@ -180,14 +362,14 @@
         <sys_created_on>2021-01-18 12:24:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>3b05a2511b71a410ef5b635ee54bcb97</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Pension Fund Transferral</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_3b05a2511b71a410ef5b635ee54bcb97</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-22 13:59:19</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-30 10:44:30</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

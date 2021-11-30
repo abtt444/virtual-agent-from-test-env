@@ -83,7 +83,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Choose one of the below options to find out more about MyContribution:"
+                    "text": "Choose one of the options below to find out more about MyContribution."
                   }
                 ]
               }
@@ -139,7 +139,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "The MyContribution Reporting Dashboard should be used to view the year end performance review process for your organisation. You will only be able to use these reports to view colleagues you support. "
+                    "text": "The MyContribution Reporting Dashboard should be used to view the year-end performance review process for your organisation. You will only be able to use these reports to view colleagues you support. "
                   }
                 ]
               },
@@ -166,8 +166,11 @@
                     "text": "1. Access "
                   },
                   {
-                    "text": "workday",
+                    "text": "Workday",
                     "bold": true
+                  },
+                  {
+                    "text": "."
                   }
                 ]
               },
@@ -175,14 +178,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "2. Under application select the "
-                  },
-                  {
-                    "text": "MyContribution Reporting Dashboard ",
-                    "bold": true
-                  },
-                  {
-                    "text": "worklet"
+                    "text": "2. Under Application, select the MyContribution Reporting Dashboard worklet."
                   }
                 ]
               }
@@ -321,7 +317,7 @@
       "varType": "choice",
       "choices": [
         {
-          "label": "Can I get access to MyContribution",
+          "label": "Can I get access to MyContribution?",
           "value": "Can I get access to MyContribution",
           "checked": true
         },
@@ -352,14 +348,14 @@
         <sys_created_on>2021-02-04 12:15:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>bbf5ce3e1b86ac90ef5b635ee54bcb94</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>My Contribution Information</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_bbf5ce3e1b86ac90ef5b635ee54bcb94</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-25 08:28:37</sys_updated_on>
+        <sys_updated_on>2021-11-30 12:28:58</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

@@ -49,7 +49,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "ABSA has taken a strong stance against Covid-19. "
+                    "text": "ABSA has taken a strong stance against the spreading of COVID-19. "
                   }
                 ]
               },
@@ -65,7 +65,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Our Covid -19 policies and procedures are as follows: "
+                    "text": "Our COVID-19 policies and procedures are as follows: "
                   }
                 ]
               },
@@ -73,7 +73,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1. Should you have any COVID-19 / Flu-like symptoms please advise our consultant and reschedule your appointment"
+                    "text": "1. Clients should be informed that if they have any COVID-19/flu-like symptoms, they should please advise our consultants and reschedule their appointment"
                   }
                 ]
               },
@@ -81,7 +81,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "2. Wearing of facial masks is mandatory"
+                    "text": "2. Facial masks must be worn"
                   }
                 ]
               },
@@ -89,7 +89,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "3. All clients' temperature will be recorded and client will be required to complete the COVID- 19 screening questionnaire"
+                    "text": "3. All clients' temperatures must be recorded and they will be required to complete the COVID-19 screening questionnaire"
                   }
                 ]
               },
@@ -97,7 +97,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "4. Hands will be sanitized on entry, during and after signature of documentation / consultation"
+                    "text": "4. Hands must be sanitised on entry, during and after signature of documentation and during and after the consultation"
                   }
                 ]
               },
@@ -105,7 +105,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "5. Strict social distancing measure to be adhered to"
+                    "text": "5. Strict social distancing measures must be adhered to"
                   }
                 ]
               },
@@ -113,7 +113,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "6. All regulations published by the COVID-19 Command Centre must be strictly complied with at all times."
+                    "text": "6. All regulations published by the COVID-19 Command Centre must be strictly complied with at all times"
                   }
                 ]
               },
@@ -221,7 +221,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Covid-19 FAQs"
+                    "text": "COVID-19 FAQs"
                   }
                 ]
               }
@@ -234,7 +234,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Please see the official Covid-19 FAQ documentation from the World Health Organisation (WHO) to find out more about the virus. "
+                    "text": "Please see the official COVID-19 FAQ documentation from the World Health Organisation (WHO) to find out more about the virus. "
                   }
                 ]
               }
@@ -309,14 +309,14 @@
         <sys_created_on>2021-01-13 14:54:49</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>d9971d771b69a094ef5b635ee54bcbca</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Covid-19 Policies &amp; Procedures</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_d9971d771b69a094ef5b635ee54bcbca</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-17 14:33:56</sys_updated_on>
+        <sys_updated_on>2021-11-30 10:52:22</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>
