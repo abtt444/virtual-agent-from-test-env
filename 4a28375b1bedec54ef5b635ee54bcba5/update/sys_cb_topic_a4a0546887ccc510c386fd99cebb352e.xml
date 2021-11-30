@@ -50,7 +50,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Working from home can be tricky. From unexpected visitors to staying focused, each of us faced our own challenges when we started working from home and we at ABSA understand that. "
+                    "text": "Working from home can be tricky. From unexpected visitors to maintaining focus on your work, we all faced our own challenges when we started working from home and we here at Absa understand that. "
                   }
                 ]
               }
@@ -71,7 +71,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Choose one of the following options to find out more: "
+                    "text": "See the articles below about how to shift your mindset and how to contribute while being flexible."
                   }
                 ]
               }
@@ -151,7 +151,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1. How do I stay contributing?"
+                    "text": "1. How do I continue contributing?"
                   }
                 ]
               },
@@ -218,7 +218,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "With the whole world being flipped on its head during this global pandemic, most of us have been forced to change the very way we interact with work and the world. "
+                    "text": "With the whole world being flipped on its head during this global pandemic, most of us have been forced to change the way we interact with work and the world. "
                   }
                 ]
               },
@@ -375,14 +375,14 @@
         <sys_created_on>2021-11-22 10:12:43</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>a4a0546887ccc510c386fd99cebb352e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Remote Working Mind-Shift</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_a4a0546887ccc510c386fd99cebb352e</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-23 14:41:16</sys_updated_on>
+        <sys_updated_on>2021-11-30 12:58:08</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

@@ -127,7 +127,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Travelling during the COVID-19 pandemic can be a daunting task but don't worry, we at Absa have your safety as an utmost priority. Follow the"
+                    "text": "Travelling during the COVID-19 pandemic can be a daunting task but don't worry, your safety is an utmost priority for us at Absa. Follow the"
                   },
                   {
                     "type": "link",
@@ -162,7 +162,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Absa has implemented an effective supporting framework for International Remote Working that can be used in a  effective, compliant and consistent way. "
+                    "text": "Absa has implemented an effective supporting framework for international remote working that can be used in an  effective, compliant and consistent way. "
                   }
                 ]
               },
@@ -178,7 +178,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "To learn more about International Remote Working and how to work overseas, please refer to the "
+                    "text": "To learn more about international remote working and how to work overseas, please refer to the "
                   },
                   {
                     "type": "link",
@@ -257,10 +257,10 @@
           "sourcePort": "",
           "targetPort": "",
           "expression": {
-            "value": "vaInputs.choice=International Remote Working",
+            "value": "vaInputs.choice=International remote working",
             "mode": "query"
           },
-          "label": "International Remote Working"
+          "label": "International remote working"
         },
         {
           "id": "a6751ac814b74b39b3e70bdd129dd49b",
@@ -289,8 +289,8 @@
       "varType": "choice",
       "choices": [
         {
-          "label": "International Remote Working",
-          "value": "International Remote Working"
+          "label": "International remote working",
+          "value": "International remote working"
         },
         {
           "label": "Travelling during Covid-19",
@@ -319,14 +319,14 @@
         <sys_created_on>2021-11-22 11:37:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>9ff3ac6c87400910c386fd99cebb35bb</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Travelling During Covid</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_9ff3ac6c87400910c386fd99cebb35bb</sys_update_name>
-        <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-23 14:20:13</sys_updated_on>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-30 14:11:32</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

@@ -49,7 +49,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "If you're sure you want to cancel your leave, you can do so as follows:"
+                    "text": "If you wish to cancel your leave, you can do the following:"
                   }
                 ]
               },
@@ -60,11 +60,11 @@
                     "text": "1. On Workday, click on "
                   },
                   {
-                    "text": "absence ",
+                    "text": "Absence ",
                     "bold": true
                   },
                   {
-                    "text": "in your applications"
+                    "text": "in your applications."
                   }
                 ]
               },
@@ -75,8 +75,11 @@
                     "text": "2. Click on "
                   },
                   {
-                    "text": "correct my absence",
+                    "text": "Correct my Absence",
                     "bold": true
+                  },
+                  {
+                    "text": "."
                   }
                 ]
               },
@@ -84,7 +87,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "3. Select the leave that you are canceling from the pop-up window"
+                    "text": "3. Select the leave that you are canceling from the pop-up window."
                   }
                 ]
               },
@@ -99,7 +102,7 @@
                     "bold": true
                   },
                   {
-                    "text": " on each day that you are canceling"
+                    "text": " on each day you wish to cancel."
                   }
                 ]
               },
@@ -107,14 +110,14 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "6. Click on "
+                    "text": "6. Once you click on "
                   },
                   {
-                    "text": "submit ",
+                    "text": "Submit",
                     "bold": true
                   },
                   {
-                    "text": "once done, after which the green tick will disappear"
+                    "text": ", the green tick will disappear."
                   }
                 ]
               }
@@ -176,14 +179,14 @@
         <sys_created_on>2021-01-18 12:27:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>cab526d11b71a410ef5b635ee54bcbe9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Leave Cancellation</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_cab526d11b71a410ef5b635ee54bcbe9</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-17 14:26:22</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-30 10:28:52</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

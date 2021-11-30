@@ -50,7 +50,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Problems come and go, and we want to help you solve yours as fast as possible. "
+                    "text": "Problems come and go, and we want to help you solve your technical problems as fast as possible. Click on the links below for: "
                   }
                 ]
               },
@@ -126,7 +126,7 @@
                     ]
                   },
                   {
-                    "text": ""
+                    "text": "."
                   }
                 ]
               }
@@ -187,14 +187,14 @@
         <sys_created_on>2021-11-18 08:52:56</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>c1085bcf87b33410c386fd99cebb3512</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Self-Service</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_c1085bcf87b33410c386fd99cebb3512</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-23 09:56:19</sys_updated_on>
+        <sys_updated_on>2021-11-30 12:31:49</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

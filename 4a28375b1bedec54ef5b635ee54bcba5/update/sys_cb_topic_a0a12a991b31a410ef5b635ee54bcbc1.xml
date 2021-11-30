@@ -49,11 +49,14 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1. Click on your profile on the top right of the screen on Workday and select "
+                    "text": "1. Click on your profile picture on the top right of the screen on Workday and select "
                   },
                   {
                     "text": "View Profile",
                     "bold": true
+                  },
+                  {
+                    "text": "."
                   }
                 ]
               },
@@ -132,6 +135,9 @@
                   {
                     "text": "Change Benefit Elections",
                     "bold": true
+                  },
+                  {
+                    "text": "."
                   }
                 ]
               },
@@ -144,6 +150,9 @@
                   {
                     "text": "Let’s Get Started",
                     "bold": true
+                  },
+                  {
+                    "text": "."
                   }
                 ]
               },
@@ -163,6 +172,9 @@
                   {
                     "text": "Manage",
                     "bold": true
+                  },
+                  {
+                    "text": "."
                   }
                 ]
               },
@@ -173,11 +185,11 @@
                     "text": "8. Select the Benefit Plan and click "
                   },
                   {
-                    "text": "Confirm ",
+                    "text": "Confirm and Continue",
                     "bold": true
                   },
                   {
-                    "text": "and Continue"
+                    "text": "."
                   }
                 ]
               },
@@ -185,7 +197,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "9. In the Step 1 of 2, leave the Contribution (%) as is (6.5%) and click "
+                    "text": "9. In Step 1, leave the Contribution (%) as is (6.5%) and click "
                   },
                   {
                     "text": "Save",
@@ -200,7 +212,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "10. In the Step 2 of 2, in the Contribution (%) section, insert your desired additional voluntary contribution % and click "
+                    "text": "10. In Step 2, in the Contribution (%) section, insert your desired additional voluntary contribution % and click "
                   },
                   {
                     "text": "Save",
@@ -222,14 +234,14 @@
                     "bold": true
                   },
                   {
-                    "text": " to view the summary of your benefit elections and ensure that all elections are correct prior to submitting. Click "
+                    "text": " to view the summary of your benefit elections and ensure that all elections are correct prior to submitting. Then click "
                   },
                   {
                     "text": "Submit",
                     "bold": true
                   },
                   {
-                    "text": ". Click "
+                    "text": ", followed by "
                   },
                   {
                     "text": "Done",
@@ -260,7 +272,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "You can follow the steps below to change Additional Voluntary Contributions to your Pension Fund:"
+                    "text": "You can follow the steps below to change additional voluntary contributions to your pension fund:"
                   }
                 ]
               }
@@ -329,14 +341,14 @@
         <sys_created_on>2021-01-18 12:09:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>a0a12a991b31a410ef5b635ee54bcbc1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Pension Fund Contribution</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_a0a12a991b31a410ef5b635ee54bcbc1</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-17 14:29:52</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-30 10:36:39</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

@@ -119,7 +119,7 @@
                     ]
                   },
                   {
-                    "text": ", you can apply for sick leave and take some time to recover. "
+                    "text": ". You can apply for sick leave and take some time to recover. "
                   }
                 ]
               }
@@ -204,38 +204,14 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "2. Under applications click on "
+                    "text": "2. Under applications, click on "
                   },
                   {
-                    "text": "absence",
-                    "bold": true
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "3. Select r"
-                  },
-                  {
-                    "text": "equest absence",
-                    "bold": true
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "4. Select "
-                  },
-                  {
-                    "text": "date range",
+                    "text": "Absence",
                     "bold": true
                   },
                   {
-                    "text": " and input the dates of leave"
+                    "text": "."
                   }
                 ]
               },
@@ -243,11 +219,14 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "5. Under type of select "
+                    "text": "3. Select "
                   },
                   {
-                    "text": "time off: Sick Leave",
+                    "text": "Request Absence",
                     "bold": true
+                  },
+                  {
+                    "text": "."
                   }
                 ]
               },
@@ -255,7 +234,14 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "6. Review leave taken"
+                    "text": "4. Select D"
+                  },
+                  {
+                    "text": "ate Range",
+                    "bold": true
+                  },
+                  {
+                    "text": " and input the dates of your leave."
                   }
                 ]
               },
@@ -263,7 +249,37 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "7. Attach medical certificate and "
+                    "text": "5. Under "
+                  },
+                  {
+                    "text": "Type ",
+                    "bold": true
+                  },
+                  {
+                    "text": "of, select "
+                  },
+                  {
+                    "text": "Time Off: Sick Leave",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "6. Review your leave taken."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "7. Attach your medical certificate and "
                   },
                   {
                     "text": "Submit",
@@ -293,7 +309,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Please be advised that you require a medical certificate from the Doctor or medical practitioner if your sick leave is for more than 2 days or you have taken sick leave more than once in an 8-week period."
+                    "text": "Please be advised that you require a medical certificate from the doctor or medical practitioner if your sick leave is for more than two days or you have taken sick leave more than once in an eight-week period."
                   }
                 ]
               }
@@ -316,7 +332,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Please note that sick leave may not be taken as holiday leave and is rather unplanned leave taken by a colleague due to illness. "
+                    "text": "Please note that sick leave may not be taken as holiday leave and is rather unplanned leave taken due to illness. "
                   }
                 ]
               },
@@ -324,37 +340,327 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "A medical doctor or a medical practitioner registered with the South African Health Council, deems a colleague unfit to work due to illness for a set time period as set out in the medical certificate provided to a colleague. The colleague will then be required to submit the certificate when capturing sick leave on Workday."
+                    "text": "A medical doctor or a medical practitioner registered with the South African Health Council, deems a colleague unfit to work due to illness for a set time period as set out in a medical certificate. The colleague will then be required to submit the certificate when capturing sick leave on Workday."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "065bf9d23e3847399aa9b4866e9f14d1": {
+          "id": "065bf9d23e3847399aa9b4866e9f14d1",
+          "stepType": "LinkOutput",
+          "name": "SA article link",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010232"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "For more information about the sick leave process in South Africa, take a look at this article: "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "6870564ff1114e0fbcb43a19cbdcfd1e": {
+          "id": "6870564ff1114e0fbcb43a19cbdcfd1e",
+          "stepType": "LinkOutput",
+          "name": "tanzania",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010986"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look at the knowledge article to find everything you need to know about the sick leave process in Tanzania NBC: "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "c508949c3b874f43be57305dc735ad88": {
+          "id": "c508949c3b874f43be57305dc735ad88",
+          "stepType": "LinkOutput",
+          "name": "Uganda",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010953"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look at the knowledge article to find everything you need to know about the sick leave process in Uganda: "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "7dc5819e8767489db40c4eb6a2968469": {
+          "id": "7dc5819e8767489db40c4eb6a2968469",
+          "stepType": "LinkOutput",
+          "name": "Ghana",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010853"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look at the knowledge article to find everything you need to know about the sick leave process in Ghana: "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "0464be54608646618d49cd71001af129": {
+          "id": "0464be54608646618d49cd71001af129",
+          "stepType": "LinkOutput",
+          "name": "Mauritius",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010881"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look at the knowledge article to find everything you need to know about the sick leave process in Mauritius: "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "0a8614be4eb64e6f87ab5c288be0106b": {
+          "id": "0a8614be4eb64e6f87ab5c288be0106b",
+          "stepType": "LinkOutput",
+          "name": "seychelles",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010227"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look at the knowledge article to find everything you need to know about the sick leave process in Seychelles: "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "7c55490bfd084dce86a32a546cbc023a": {
+          "id": "7c55490bfd084dce86a32a546cbc023a",
+          "stepType": "LinkOutput",
+          "name": "Botswana",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010761"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look at the knowledge article to find everything you need to know about the sick leave process in Botswana: "
                   }
                 ]
               },
               {
-                "type": "paragraph",
+                "type": "link",
+                "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010761",
                 "children": [
                   {
                     "text": ""
                   }
                 ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "For more information about the sick leave process in South Africa, take a look at this "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010232",
-                    "children": [
-                      {
-                        "text": "article"
-                      }
-                    ]
-                  },
-                  {
-                    "text": ". "
-                  }
-                ]
               }
             ],
             "mode": "simple"
@@ -362,220 +668,94 @@
           "applicability": {
             "value": "",
             "mode": "query"
-          }
-        },
-        "52136d08da6a463a857b55b19ecb3d32": {
-          "id": "52136d08da6a463a857b55b19ecb3d32",
-          "stepType": "TextOutput",
-          "name": "botswana",
-          "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Take a look at the "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010761",
-                    "children": [
-                      {
-                        "text": "knowledge article"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " to find everything you need to know about the sick leave process in Botswana. "
-                  }
-                ]
-              }
-            ],
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
             "mode": "simple"
           },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
-        },
-        "08c83e9b2a17426c97f8b6292e0ed160": {
-          "id": "08c83e9b2a17426c97f8b6292e0ed160",
-          "stepType": "TextOutput",
-          "name": "seychelles",
-          "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Take a look at the "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010227",
-                    "children": [
-                      {
-                        "text": "knowledge article"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " to find everything you need to know about the sick leave process in Seychelles. "
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
-        },
-        "fe43bf781a334522977d9b0171701d65": {
-          "id": "fe43bf781a334522977d9b0171701d65",
-          "stepType": "TextOutput",
-          "name": "Mauritius",
-          "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Take a look at the "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010881",
-                    "children": [
-                      {
-                        "text": "knowledge article"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " to find everything you need to know about the sick leave process in Mauritius. "
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
-        },
-        "2ac7167b55f345339d5120de5e7b83af": {
-          "id": "2ac7167b55f345339d5120de5e7b83af",
-          "stepType": "TextOutput",
-          "name": "Ghana",
-          "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Take a look at the "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010853",
-                    "children": [
-                      {
-                        "text": "knowledge article"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " to find everything you need to know about the sick leave process in Ghana. "
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
-        },
-        "236c1bf8403742949c382d44a2b100e9": {
-          "id": "236c1bf8403742949c382d44a2b100e9",
-          "stepType": "TextOutput",
-          "name": "uganda",
-          "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Take a look at the "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010953",
-                    "children": [
-                      {
-                        "text": "knowledge article"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " to find everything you need to know about the sick leave process in Uganda. "
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
-        },
-        "ef73cb42c61149aba5e27a3b2d05055c": {
-          "id": "ef73cb42c61149aba5e27a3b2d05055c",
-          "stepType": "TextOutput",
-          "name": "Tanzania NBC",
-          "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Take a look at the "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010986",
-                    "children": [
-                      {
-                        "text": "knowledge article"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " to find everything you need to know about the sick leave process in Tanzania NBC. "
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
+          "listOfLinks": ""
         }
       },
       "edges": [
+        {
+          "id": "4f9a2549294041bb88b61f831c1e9224",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "7c55490bfd084dce86a32a546cbc023a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Botswana",
+            "mode": "query"
+          },
+          "label": "Botswana"
+        },
+        {
+          "id": "81c26bde7aef41d9850e74aa636a4c42",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "0a8614be4eb64e6f87ab5c288be0106b",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Seychelles",
+            "mode": "query"
+          },
+          "label": "Seychelles"
+        },
+        {
+          "id": "aa8fb6f50f44437b94586b3de0c26572",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "0464be54608646618d49cd71001af129",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Mauritius",
+            "mode": "query"
+          },
+          "label": "Mauritius"
+        },
+        {
+          "id": "3feabb51a19b4b7bb179cdb5e34121ff",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "7dc5819e8767489db40c4eb6a2968469",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Ghana",
+            "mode": "query"
+          },
+          "label": "Ghana"
+        },
+        {
+          "id": "e0a12a69465742229fe2a84c31cae4cd",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "c508949c3b874f43be57305dc735ad88",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Uganda",
+            "mode": "query"
+          },
+          "label": "Uganda"
+        },
+        {
+          "id": "0e7450c1836140e7aae655610e2ea24e",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "6870564ff1114e0fbcb43a19cbdcfd1e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Tanzania NBC",
+            "mode": "query"
+          },
+          "label": "Tanzania NBC"
+        },
         {
           "id": "d1a4178f597141cd8dbaee748c89c48c",
           "edgeType": "Edge",
@@ -650,10 +830,10 @@
           "sourcePort": "",
           "targetPort": "",
           "expression": {
-            "value": "vaInputs.sickleave=What do I Require to Book Sick Leave",
+            "value": "vaInputs.sickleave=What do I Require to Book Sick Leave?",
             "mode": "query"
           },
-          "label": "What do I Require to Book Sick Leave"
+          "label": "What do I Require to Book Sick Leave?"
         },
         {
           "id": "2deddb6d24c74054bdbb60b86064d6b9",
@@ -680,132 +860,62 @@
           "id": "4d68bc32b5584e308441edd36d3c1823",
           "edgeType": "Edge",
           "source": "9736d5cc7cec4c2d908c9b98f2af5325",
+          "target": "065bf9d23e3847399aa9b4866e9f14d1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "418a9184c282417f945552be7fdc95dc",
+          "edgeType": "Edge",
+          "source": "065bf9d23e3847399aa9b4866e9f14d1",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "4f9a2549294041bb88b61f831c1e9224",
-          "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "52136d08da6a463a857b55b19ecb3d32",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.region_selection=Botswana",
-            "mode": "query"
-          },
-          "label": "Botswana"
-        },
-        {
-          "id": "e9d1bd44752344d89dd4425800cb7e1c",
+          "id": "3c4093f2e1e34d58a5dc96935fa5011e",
           "edgeType": "Edge",
-          "source": "52136d08da6a463a857b55b19ecb3d32",
+          "source": "6870564ff1114e0fbcb43a19cbdcfd1e",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "81c26bde7aef41d9850e74aa636a4c42",
-          "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "08c83e9b2a17426c97f8b6292e0ed160",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.region_selection=Seychelles",
-            "mode": "query"
-          },
-          "label": "Seychelles"
-        },
-        {
-          "id": "a10206c533a546bebe668ad77fc2e736",
+          "id": "1b29e1a002a849b086a817e149699e52",
           "edgeType": "Edge",
-          "source": "08c83e9b2a17426c97f8b6292e0ed160",
+          "source": "c508949c3b874f43be57305dc735ad88",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "aa8fb6f50f44437b94586b3de0c26572",
-          "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "fe43bf781a334522977d9b0171701d65",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.region_selection=Mauritius",
-            "mode": "query"
-          },
-          "label": "Mauritius"
-        },
-        {
-          "id": "54583807b1f2492888d7d49f20ec4419",
+          "id": "d80ebb5263044642b6a1dcee32743b3b",
           "edgeType": "Edge",
-          "source": "fe43bf781a334522977d9b0171701d65",
+          "source": "7dc5819e8767489db40c4eb6a2968469",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "3feabb51a19b4b7bb179cdb5e34121ff",
-          "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "2ac7167b55f345339d5120de5e7b83af",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.region_selection=Ghana",
-            "mode": "query"
-          },
-          "label": "Ghana"
-        },
-        {
-          "id": "ffa52853201145d99d6955087ad77fb0",
+          "id": "2275a2a2d4a64d6fa59b94cc3771bdce",
           "edgeType": "Edge",
-          "source": "2ac7167b55f345339d5120de5e7b83af",
+          "source": "0464be54608646618d49cd71001af129",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "e0a12a69465742229fe2a84c31cae4cd",
-          "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "236c1bf8403742949c382d44a2b100e9",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.region_selection=Uganda",
-            "mode": "query"
-          },
-          "label": "Uganda"
-        },
-        {
-          "id": "511ea471022a48e08342104c37a6462e",
+          "id": "908f78984c0e41128cff032b4dda7390",
           "edgeType": "Edge",
-          "source": "236c1bf8403742949c382d44a2b100e9",
+          "source": "0a8614be4eb64e6f87ab5c288be0106b",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "0e7450c1836140e7aae655610e2ea24e",
-          "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "ef73cb42c61149aba5e27a3b2d05055c",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.region_selection=Tanzania NBC",
-            "mode": "query"
-          },
-          "label": "Tanzania NBC"
-        },
-        {
-          "id": "23ca6020678c4dd38c5840922f45e4a8",
+          "id": "92a6dbe998734818870943c609e491dd",
           "edgeType": "Edge",
-          "source": "ef73cb42c61149aba5e27a3b2d05055c",
+          "source": "7c55490bfd084dce86a32a546cbc023a",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
@@ -876,8 +986,8 @@
           "value": "How to Apply for Sick Leave"
         },
         {
-          "label": "What do I Require to Book Sick Leave",
-          "value": "What do I Require to Book Sick Leave",
+          "label": "What do I Require to Book Sick Leave?",
+          "value": "What do I Require to Book Sick Leave?",
           "checked": true
         },
         {
@@ -907,14 +1017,14 @@
         <sys_created_on>2021-01-18 12:01:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>0eef9ad51b31a410ef5b635ee54bcb59</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>Apply for Sick Leave</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_0eef9ad51b31a410ef5b635ee54bcb59</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-25 13:01:54</sys_updated_on>
+        <sys_updated_on>2021-11-30 10:08:11</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

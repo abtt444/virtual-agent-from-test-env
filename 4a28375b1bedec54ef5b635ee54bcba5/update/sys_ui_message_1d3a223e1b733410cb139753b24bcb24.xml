@@ -5,22 +5,22 @@
         <commented_message/>
         <key>va:topic:bbf5ce3e1b86ac90ef5b635ee54bcb94:node:1184929eb0ee432292de79ebfd3e3d46:field:value</key>
         <language>en</language>
-        <message>The MyContribution Reporting Dashboard should be used to view the year end performance review process for your organisation. You will only be able to use these reports to view colleagues you support. 
+        <message>The MyContribution Reporting Dashboard should be used to view the year-end performance review process for your organisation. You will only be able to use these reports to view colleagues you support. 
 
 To view the dashboards, you can do the following:
-1. Access **workday**
-2. Under application select the **MyContribution Reporting Dashboard** worklet</message>
+1. Access **Workday**.
+2. Under Application, select the MyContribution Reporting Dashboard worklet.</message>
         <sys_class_name>sys_ui_message</sys_class_name>
         <sys_created_by>AB019AK</sys_created_by>
         <sys_created_on>2021-11-17 10:54:19</sys_created_on>
         <sys_id>1d3a223e1b733410cb139753b24bcb24</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>va:topic:bbf5ce3e1b86ac90ef5b635ee54bcb94:node:1184929eb0ee432292de79ebfd3e3d46:field:value</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_ui_message_1d3a223e1b733410cb139753b24bcb24</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-25 08:28:45</sys_updated_on>
+        <sys_updated_on>2021-11-30 12:29:04</sys_updated_on>
     </sys_ui_message>
 </record_update>

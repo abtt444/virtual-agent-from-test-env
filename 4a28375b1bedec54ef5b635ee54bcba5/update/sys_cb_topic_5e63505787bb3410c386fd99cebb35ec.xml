@@ -66,7 +66,19 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "For queries or additional information, please contact the team at absa-insurance@absa.co.za or take a look at the following "
+                    "text": "For queries or additional information, please contact the team at "
+                  },
+                  {
+                    "type": "link",
+                    "url": "absa-insurance@absa.co.za",
+                    "children": [
+                      {
+                        "text": "absa-insurance@absa.co.za"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " or read the following "
                   },
                   {
                     "type": "link",
@@ -104,7 +116,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Choose one of the following to learn more about how to replace your laptop:"
+                    "text": "Choose one of the following for more information on how to replace your laptop:"
                   }
                 ]
               }
@@ -164,7 +176,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1. Report the incident to your line manager"
+                    "text": "1. Report the incident to your line manager."
                   }
                 ]
               },
@@ -172,7 +184,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "2. Obtain a valid affidavit detailing the loss or theft from the SAPS"
+                    "text": "2. Obtain a valid affidavit detailing the loss or theft from the SAPS."
                   }
                 ]
               },
@@ -180,7 +192,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "3. Ask your manager or a colleague to log an insurance claim request on your behalf on the IT Service Portal"
+                    "text": "3. Ask your manager or a colleague to log an insurance claim request on the IT Service Portal on your behalf. "
                   }
                 ]
               },
@@ -188,7 +200,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "4. Email the SAPS validated affidavit to the insurance claims coordinator "
+                    "text": "4. Email the SAPS-validated affidavit to the insurance claims coordinator."
                   }
                 ]
               },
@@ -204,7 +216,35 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Once the Claims team has  assessed and validated the claim and affidavit, you will be provided with a replacement device."
+                    "text": "Once the Claims team has assessed and validated the claim and affidavit, you will be provided with a replacement device."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "For queries or additional information, please contact the team at "
+                  },
+                  {
+                    "type": "link",
+                    "url": "absa-insurance@absa.co.za",
+                    "children": [
+                      {
+                        "text": "absa-insurance@absa.co.za"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
                   }
                 ]
               }
@@ -236,7 +276,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1. Report the damage to your line manager"
+                    "text": "1. Report the damage to your line manager."
                   }
                 ]
               },
@@ -244,7 +284,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "2. Ask your manage or a colleague to log an insurance claim on your behalf on the IT Service Portal"
+                    "text": "2. Ask your manager or a colleague to log an insurance claim on the IT Service Portal on your behalf. "
                   }
                 ]
               },
@@ -260,7 +300,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Once the Claims team has assessed and verified the claims request, a replacement will be sent to you."
+                    "text": "Once the Claims team has assessed and verified the claims request, a replacement laptop will be sent to you."
                   }
                 ]
               }
@@ -389,14 +429,14 @@
         <sys_created_on>2021-11-18 13:12:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>5e63505787bb3410c386fd99cebb35ec</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Damaged/Stolen Laptop</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_5e63505787bb3410c386fd99cebb35ec</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-29 11:50:44</sys_updated_on>
+        <sys_updated_on>2021-11-30 12:45:12</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>
