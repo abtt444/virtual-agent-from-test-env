@@ -104,7 +104,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Prior to completing the year-end performance review for the employee, the people manager should engage with the employee,and reviewed the self-evaluation and feedback that has been provided for the employee in Workday and through other relevant data sources. Where necessary, the people manager should engage with other employees to clarify the feedback received, or obtain verbal feedback if insufficient feedback exists."
+                    "text": "Prior to completing the year-end performance review for the employee, the people manager should engage with the employee, and review the self-evaluation and feedback that has been provided for the employee in Workday and through other relevant data sources. Where necessary, the people manager should engage with other employees to clarify the feedback received, or obtain verbal feedback if insufficient feedback exists."
                   }
                 ]
               }
@@ -437,14 +437,14 @@
         <sys_created_on>2021-11-06 14:17:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>db3fae1b1b277010cb139753b24bcbe0</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Self &amp; Manager Evaluation</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_db3fae1b1b277010cb139753b24bcbe0</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-30 13:39:37</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-01 06:27:23</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

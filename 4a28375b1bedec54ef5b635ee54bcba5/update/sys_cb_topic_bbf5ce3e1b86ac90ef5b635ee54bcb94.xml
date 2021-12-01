@@ -139,7 +139,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "The MyContribution Reporting Dashboard should be used to view the year-end performance review process for your organisation. You will only be able to use these reports to view colleagues you support. "
+                    "text": "The MyContribution Reporting Dashboard should be used to view the year-end performance review process for your organisation. You will only be able to view the reports of colleagues you support. "
                   }
                 ]
               },
@@ -348,14 +348,14 @@
         <sys_created_on>2021-02-04 12:15:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>bbf5ce3e1b86ac90ef5b635ee54bcb94</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>My Contribution Information</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_bbf5ce3e1b86ac90ef5b635ee54bcb94</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-30 12:28:58</sys_updated_on>
+        <sys_updated_on>2021-12-01 07:05:04</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>
