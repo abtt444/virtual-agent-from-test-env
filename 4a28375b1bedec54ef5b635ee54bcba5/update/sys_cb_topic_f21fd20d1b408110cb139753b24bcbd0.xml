@@ -69,7 +69,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Would you like to speak to a live agent?"
+                    "text": "Would you like to be transferred to a live agent?"
                   }
                 ]
               }
@@ -114,10 +114,10 @@
           "stepType": "Decision",
           "name": "Decision"
         },
-        "69223af30f654cec894091975d7b464f": {
-          "id": "69223af30f654cec894091975d7b464f",
+        "3c593794ee994788b884967bd775cfe3": {
+          "id": "3c593794ee994788b884967bd775cfe3",
           "stepType": "TextOutput",
-          "name": "liveagent",
+          "name": "intro",
           "secure": false,
           "value": {
             "value": [
@@ -125,7 +125,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "You can contact a live agent on 0860 369 369. "
+                    "text": "For any general queries or queries relating to the MyContribution grievance process, speak to a live agent by calling 0860 369 369. "
                   }
                 ]
               }
@@ -140,26 +140,31 @@
       },
       "edges": [
         {
-          "id": "c52c9da02f3045faab773c478ce30ee0",
-          "edgeType": "Edge",
-          "source": "5272c458e9904631b68f6ac923b0c81b",
-          "target": "b529bedf6d0743c79e717d1161093ae0",
+          "id": "7bee74be023740bd84453ccce71dfbc3",
+          "edgeType": "Branch",
+          "source": "81473f10f3c9477b9f377f81bb628973",
+          "target": "5272c458e9904631b68f6ac923b0c81b",
           "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "670c823c73094781a8be3ad7dbbce8da",
-          "edgeType": "Edge",
-          "source": "64ea3cd541da43e3811cc07feaebc8c8",
-          "target": "078335f9dd964fbf99bfbf2b948b46e7",
-          "sourcePort": "",
-          "targetPort": ""
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choice=Yes",
+            "mode": "query"
+          },
+          "label": "Yes"
         },
         {
           "id": "09918265df23421c91bc531b2bcfa5e4",
           "edgeType": "Edge",
           "source": "078335f9dd964fbf99bfbf2b948b46e7",
           "target": "81473f10f3c9477b9f377f81bb628973",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c52c9da02f3045faab773c478ce30ee0",
+          "edgeType": "Edge",
+          "source": "5272c458e9904631b68f6ac923b0c81b",
+          "target": "b529bedf6d0743c79e717d1161093ae0",
           "sourcePort": "",
           "targetPort": ""
         },
@@ -177,23 +182,18 @@
           "label": "No"
         },
         {
-          "id": "7bee74be023740bd84453ccce71dfbc3",
-          "edgeType": "Branch",
-          "source": "81473f10f3c9477b9f377f81bb628973",
-          "target": "69223af30f654cec894091975d7b464f",
+          "id": "670c823c73094781a8be3ad7dbbce8da",
+          "edgeType": "Edge",
+          "source": "64ea3cd541da43e3811cc07feaebc8c8",
+          "target": "3c593794ee994788b884967bd775cfe3",
           "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.choice=Yes",
-            "mode": "query"
-          },
-          "label": "Yes"
+          "targetPort": ""
         },
         {
-          "id": "cd9b516985154d7a8b1d1c282a508ea9",
+          "id": "badd16a99ee0471c9bf0be0efa38107b",
           "edgeType": "Edge",
-          "source": "69223af30f654cec894091975d7b464f",
-          "target": "5272c458e9904631b68f6ac923b0c81b",
+          "source": "3c593794ee994788b884967bd775cfe3",
+          "target": "078335f9dd964fbf99bfbf2b948b46e7",
           "sourcePort": "",
           "targetPort": ""
         }
@@ -246,14 +246,14 @@
         <sys_created_on>2021-11-24 09:52:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>f21fd20d1b408110cb139753b24bcbd0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Absa Live Agent Transfer</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_f21fd20d1b408110cb139753b24bcbd0</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-12-01 09:59:34</sys_updated_on>
+        <sys_updated_on>2021-12-01 12:44:55</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>SETUP_TOPIC</type>
         <variables/>
