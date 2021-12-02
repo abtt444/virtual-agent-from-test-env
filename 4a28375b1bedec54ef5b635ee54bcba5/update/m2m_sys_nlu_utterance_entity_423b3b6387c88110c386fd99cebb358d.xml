@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":44,"end":49,"annotatedString":"can absa leadership academy help me with my {{phrase=\"career\"}}","cat":null}]</annotation>
+        <entity display_value="Career">f42bf32f87888110c386fd99cebb35aa</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-12-02 10:59:24</sys_created_on>
+        <sys_id>423b3b6387c88110c386fd99cebb358d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Career.can absa leadership academy help me with my career</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_423b3b6387c88110c386fd99cebb358d</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-02 10:59:24</sys_updated_on>
+        <utterance display_value="can absa leadership academy help me with my career">3bdaff6f87888110c386fd99cebb3526</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

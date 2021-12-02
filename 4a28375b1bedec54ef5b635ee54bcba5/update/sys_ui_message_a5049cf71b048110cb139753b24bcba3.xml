@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:1095ea911b71a410ef5b635ee54bcbd7:node:f4bfed208b804ba5bcca600a248a37ed:field:value</key>
+        <language>en</language>
+        <message>You can find your leave balance on Workday: 
+1. Click on the cloud icon or your profile picture and select **view profile** from the drop-down list.
+2. Underneath your name and surname on the left of your screen, click on **Time off**.
+3. Select **Time Off Balance**.
+4. Click on **View Time Off Balance**.
+5. All types of leave will appear. Your balance can be seen as **Accumulated Leave**.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-02 12:47:46</sys_created_on>
+        <sys_id>a5049cf71b048110cb139753b24bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:1095ea911b71a410ef5b635ee54bcbd7:node:f4bfed208b804ba5bcca600a248a37ed:field:value</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_a5049cf71b048110cb139753b24bcba3</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-02 12:47:46</sys_updated_on>
+    </sys_ui_message>
+</record_update>
