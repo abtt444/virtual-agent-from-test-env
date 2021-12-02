@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "1537ec4f7e76487194c614114e591376": {
+          "id": "1537ec4f7e76487194c614114e591376",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "372063781aa54dcab9123e0247773212": {
+          "id": "372063781aa54dcab9123e0247773212",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "9177d0df0ad349b5a1edaf85010f610c": {
+          "id": "9177d0df0ad349b5a1edaf85010f610c",
+          "stepType": "TextOutput",
+          "name": "help message",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You can ask me about any of the following: "
+                  }
+                ]
+              },
+              {
+                "type": "bulleted-list",
+                "children": [
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "text": "Leave"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Document Retrieval"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Returning to Work"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "Working from Home"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "MyContribution "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "COVID-19 guidelines."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Type in what you need and I will try to help you where I can. "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you would like, you can contact a live agent on 0860 369 369. "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "3865334630ae456d8bb56dc2cc7258a4": {
+          "id": "3865334630ae456d8bb56dc2cc7258a4",
+          "stepType": "TextOutput",
+          "name": "icas",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "If you need any personal help or advice please reach out to ICAS 0800 611 262 (request a call-back by dialling *134*905#)."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "d3773373e2e3476b856206e87583ebda",
+          "edgeType": "Edge",
+          "source": "9177d0df0ad349b5a1edaf85010f610c",
+          "target": "372063781aa54dcab9123e0247773212",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "2a4f7345ff064e7989822ef51697decd",
+          "edgeType": "Edge",
+          "source": "1537ec4f7e76487194c614114e591376",
+          "target": "3865334630ae456d8bb56dc2cc7258a4",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "405bc797441b459c9c20252e399c8f67",
+          "edgeType": "Edge",
+          "source": "3865334630ae456d8bb56dc2cc7258a4",
+          "target": "9177d0df0ad349b5a1edaf85010f610c",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>I need help</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>I need help</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-12-01 08:26:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8dbe0edf87084510c386fd99cebb356f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>I need help</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_8dbe0edf87084510c386fd99cebb356f</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-01 13:26:12</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=8dbe0edf87084510c386fd99cebb356f"/>
+</record_update>

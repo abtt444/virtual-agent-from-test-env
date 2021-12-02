@@ -71,7 +71,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Choose one of the following to learn more about feedback"
+                    "text": "Choose one of the following to learn more about feedback:"
                   }
                 ]
               }
@@ -139,7 +139,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Click here to learn more about the Gift of Feedback"
+                    "text": "Click here to learn more about the Gift of Feedback."
                   }
                 ]
               }
@@ -193,7 +193,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Click here to learn more about how to get Feedback"
+                    "text": "Click here to learn more about how to get Feedback."
                   }
                 ]
               }
@@ -247,7 +247,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Click Here to learn more about  how to provide Feedback"
+                    "text": "Click here to learn more about how to provide Feedback."
                   }
                 ]
               }
@@ -421,14 +421,14 @@
         <sys_created_on>2021-11-24 13:02:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>c5aa0f8987888110c386fd99cebb3575</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Request &amp; Give Feedback</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_c5aa0f8987888110c386fd99cebb3575</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-29 08:32:50</sys_updated_on>
+        <sys_updated_on>2021-12-01 13:10:58</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

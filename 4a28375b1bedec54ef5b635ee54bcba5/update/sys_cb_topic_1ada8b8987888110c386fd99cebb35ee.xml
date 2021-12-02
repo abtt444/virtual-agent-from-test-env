@@ -39,10 +39,10 @@
             "value": ""
           }
         },
-        "b31a2bf5b2af45f683be96f364407ce0": {
-          "id": "b31a2bf5b2af45f683be96f364407ce0",
+        "8344e802e9bd456fb2a377b165fa2f85": {
+          "id": "8344e802e9bd456fb2a377b165fa2f85",
           "stepType": "TextOutput",
-          "name": "Intro",
+          "name": "reply",
           "secure": false,
           "value": {
             "value": [
@@ -50,7 +50,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "To speak to a live agent, you can call 0861 721 721. "
+                    "text": "For any queries relating to the My Contribution grievance process, speak to a live agent by calling 0860 369 369. "
                   }
                 ]
               }
@@ -61,58 +61,13 @@
             "value": "",
             "mode": "query"
           }
-        },
-        "bb1fad02df924efa998e3b4edc3f107c": {
-          "id": "bb1fad02df924efa998e3b4edc3f107c",
-          "stepType": "LinkOutput",
-          "name": "grievance",
-          "url": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "www.google.za"
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "label": {
-            "value": "",
-            "mode": "simple"
-          },
-          "header": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "You can take a look at the following knowledge article to find out more about the MyContribution grievance process: "
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          },
-          "linkType": "single",
-          "introMsg": {
-            "value": "",
-            "mode": "simple"
-          },
-          "listOfLinks": ""
         }
       },
       "edges": [
         {
-          "id": "9d1a66b9cd7a4c34b27a471039b6cef6",
+          "id": "ae5a31ac1d6d49e786b082c510bf0263",
           "edgeType": "Edge",
-          "source": "b31a2bf5b2af45f683be96f364407ce0",
+          "source": "8344e802e9bd456fb2a377b165fa2f85",
           "target": "1af08f5f60e54fa2b1b10eb4fe661162",
           "sourcePort": "",
           "targetPort": ""
@@ -121,15 +76,7 @@
           "id": "76bbfa16535c4fd4b90f08bf5a1ba9b8",
           "edgeType": "Edge",
           "source": "2d2923b5da6349e7813441f0e5146907",
-          "target": "bb1fad02df924efa998e3b4edc3f107c",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "e46ee7ed48744049b02cb213f5153b08",
-          "edgeType": "Edge",
-          "source": "bb1fad02df924efa998e3b4edc3f107c",
-          "target": "b31a2bf5b2af45f683be96f364407ce0",
+          "target": "8344e802e9bd456fb2a377b165fa2f85",
           "sourcePort": "",
           "targetPort": ""
         }
@@ -164,14 +111,14 @@
         <sys_created_on>2021-11-24 13:03:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>1ada8b8987888110c386fd99cebb35ee</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Grievance Process</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_1ada8b8987888110c386fd99cebb35ee</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-30 13:58:26</sys_updated_on>
+        <sys_updated_on>2021-12-01 09:57:37</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

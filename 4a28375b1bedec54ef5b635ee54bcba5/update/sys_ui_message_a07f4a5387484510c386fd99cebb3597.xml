@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>you can ask me about any of the following: 
+
+- leave
+- document retrieval
+- returning to work
+- working from home
+- my contribution 
+- document retrieval
+- covid-19 guidelines
+
+if you would like, you can contact a live agent on 0861 721 721.</key>
+        <language>en</language>
+        <message>You can ask me about any of the following: 
+
+- Leave
+- Document Retrieval
+- Returning to Work
+- Working from Home
+- My Contribution 
+- Document Retrieval
+- COVID-19 guidelines
+
+If you would like, you can contact a live agent on 0861 721 721.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-12-01 08:30:03</sys_created_on>
+        <sys_id>a07f4a5387484510c386fd99cebb3597</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>you can ask me about any of the following: 
+
+- leave
+- document retrieval
+- returning to work
+- working from home
+- my contribution 
+- document retrieval
+- covid-19 guidelines
+
+if you would like, you can contact a live agent on 0861 721 721.</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_a07f4a5387484510c386fd99cebb3597</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-01 08:30:03</sys_updated_on>
+    </sys_ui_message>
+</record_update>
