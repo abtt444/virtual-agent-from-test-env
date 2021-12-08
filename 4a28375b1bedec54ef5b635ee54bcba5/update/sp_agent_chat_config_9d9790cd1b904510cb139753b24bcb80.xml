@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_agent_chat_config">
+    <sp_agent_chat_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Absa Virtual Agent</name>
+        <order>100</order>
+        <portal>c9968a6e1bf3b010cb139753b24bcb75,cbaf04630b603200d8cf0d0737673a8e</portal>
+        <public>false</public>
+        <roles/>
+        <server_script><![CDATA[(function($sp) {
+	return {
+		live_agent_queue: $sp.getDisplayValue('sp_chat_queue'),
+		branding_key: "absa_virtual_agent",
+		skip_load_history: "true",
+		};
+})($sp);]]></server_script>
+        <sys_class_name>sp_agent_chat_config</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-12-06 10:17:38</sys_created_on>
+        <sys_id>9d9790cd1b904510cb139753b24bcb80</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Absa Virtual Agent</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sp_agent_chat_config_9d9790cd1b904510cb139753b24bcb80</sys_update_name>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2021-12-07 09:43:16</sys_updated_on>
+    </sp_agent_chat_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=9d9790cd1b904510cb139753b24bcb80"/>
+</record_update>

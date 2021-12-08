@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"start":17,"end":26,"annotatedString":"I need to take a {{phrase=\"covid test\"}}","cat":null}]</annotation>
+        <entity display_value="Self-Screening">6acf206487c00910c386fd99cebb352f</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-22 12:35:08</sys_created_on>
+        <sys_id>be31f8a487c00910c386fd99cebb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self-Screening.I need to take a covid test</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_be31f8a487c00910c386fd99cebb3594</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-22 12:35:08</sys_updated_on>
+        <utterance display_value="I need to take a covid test">ad313ca487c00910c386fd99cebb357d</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_be31f8a487c00910c386fd99cebb3594</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"start":17,"end":26,"annotatedString":"I need to take a {{phrase=\"covid test\"}}","cat":null}]</annotation><entity display_value="Self-Screening">6acf206487c00910c386fd99cebb352f</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>AB019AK</sys_created_by><sys_created_on>2021-11-22 12:35:08</sys_created_on><sys_id>be31f8a487c00910c386fd99cebb3594</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Self-Screening.I need to take a covid test</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_be31f8a487c00910c386fd99cebb3594</sys_update_name><sys_updated_by>AB019AK</sys_updated_by><sys_updated_on>2021-11-22 12:35:08</sys_updated_on><utterance display_value="I need to take a covid test">ad313ca487c00910c386fd99cebb357d</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-636122870</payload_hash>
+        <record_name>Self-Screening.I need to take a covid test</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-22 12:35:08</sys_created_on>
+        <sys_id>be31702887c00910c386fd99cebb3510</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d47a494fa0000001</sys_recorded_at>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-22 12:35:08</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>b631702858c009106d2e17c0e15b3410</update_guid>
+        <update_guid_history>b631702858c009106d2e17c0e15b3410:-636122870</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-12-08 13:23:22">fb3a362187908110c386fd99cebb35b1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-12-08 11:23:22</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>4b1279943f81452aa8ccc632f2974e69</sys_id>
+        <sys_metadata>be31f8a487c00910c386fd99cebb3594</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self-Screening.I need to take a covid test</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_be31f8a487c00910c386fd99cebb3594</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_be31f8a487c00910c386fd99cebb3594">be31702887c00910c386fd99cebb3510</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-08 11:23:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

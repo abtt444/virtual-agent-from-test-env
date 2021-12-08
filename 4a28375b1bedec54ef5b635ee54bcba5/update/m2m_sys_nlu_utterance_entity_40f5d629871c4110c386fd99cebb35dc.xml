@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":18,"end":21,"annotatedString":"where do i upload {{phrase=\"docs\"}} note","cat":null}]</annotation>
+        <entity display_value="Doctor">3923adae87ff3810c386fd99cebb3599</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-12-08 08:44:44</sys_created_on>
+        <sys_id>40f5d629871c4110c386fd99cebb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Doctor.where do i upload docs note</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_40f5d629871c4110c386fd99cebb35dc</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-08 08:44:44</sys_updated_on>
+        <utterance display_value="where do i upload docs note">b1b59ee5871c4110c386fd99cebb35b8</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>
