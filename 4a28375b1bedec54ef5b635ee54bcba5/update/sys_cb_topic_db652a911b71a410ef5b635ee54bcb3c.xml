@@ -53,7 +53,7 @@
                   },
                   {
                     "type": "link",
-                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0012085",
+                    "url": "https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012636",
                     "children": [
                       {
                         "text": "here"
@@ -99,7 +99,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Do you want know more about how to apply for annual leave?"
+                    "text": "Choose one of the options below to find our more about annual leave: "
                   }
                 ]
               }
@@ -147,7 +147,7 @@
         "73a580d0e5284da8b5e03e991c93553f": {
           "id": "73a580d0e5284da8b5e03e991c93553f",
           "stepType": "TextOutput",
-          "name": "Apply for Leave steps",
+          "name": "Find out how to apply for leave",
           "secure": false,
           "value": {
             "value": [
@@ -252,22 +252,45 @@
             "value": "",
             "mode": "query"
           }
+        },
+        "e82ee63c7c60482aab0eec00a4592bdf": {
+          "id": "e82ee63c7c60482aab0eec00a4592bdf",
+          "stepType": "TextOutput",
+          "name": "What is the difference between annual le",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Annual leave is accrued per month according to your subgroup whereas, accumulated leave is accrued at 0.66667 days per month and is not dependent on your subgroup. Please note that you are only able to encash accumulated leave."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
         }
       },
       "edges": [
-        {
-          "id": "b300e4e56c3141589c323db8cbdb9925",
-          "edgeType": "Edge",
-          "source": "c625ed4265b049ba8f6bf24252ae4bf6",
-          "target": "6c9195dc3c174a9891950ab55b6b4144",
-          "sourcePort": "",
-          "targetPort": ""
-        },
         {
           "id": "60718873ec724b26b19ced704b05062c",
           "edgeType": "Edge",
           "source": "6c9195dc3c174a9891950ab55b6b4144",
           "target": "33f39a005bf642df8939ce9de36f7d42",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b300e4e56c3141589c323db8cbdb9925",
+          "edgeType": "Edge",
+          "source": "c625ed4265b049ba8f6bf24252ae4bf6",
+          "target": "6c9195dc3c174a9891950ab55b6b4144",
           "sourcePort": "",
           "targetPort": ""
         },
@@ -287,10 +310,10 @@
           "sourcePort": "",
           "targetPort": "",
           "expression": {
-            "value": "vaInputs.learn_more_about_annual=Yes",
+            "value": "vaInputs.learn_more_about_annual=Find out how to apply for leave",
             "mode": "query"
           },
-          "label": "Yes"
+          "label": "Find out how to apply for leave"
         },
         {
           "id": "066048aa16d94f79ade715d237ae424f",
@@ -304,14 +327,22 @@
           "id": "749ac4a377874c9f800cb48214dcbc4d",
           "edgeType": "Branch",
           "source": "7039b35fedd540fc9489f41cd2ad958b",
-          "target": "557216f664e541ef904932754d115a35",
+          "target": "e82ee63c7c60482aab0eec00a4592bdf",
           "sourcePort": "",
           "targetPort": "",
           "expression": {
             "value": "vaInputs.learn_more_about_annual=No",
             "mode": "query"
           },
-          "label": "No"
+          "label": "What is the difference between annual leave and accumulated leave?"
+        },
+        {
+          "id": "e8a4c4efe0f146e68200d7051113a911",
+          "edgeType": "Edge",
+          "source": "e82ee63c7c60482aab0eec00a4592bdf",
+          "target": "557216f664e541ef904932754d115a35",
+          "sourcePort": "",
+          "targetPort": ""
         }
       ]
     }
@@ -332,12 +363,12 @@
       "varType": "choice",
       "choices": [
         {
-          "label": "Yes",
-          "value": "Yes"
+          "label": "Find out how to apply for leave",
+          "value": "Find out how to apply for leave"
         },
         {
-          "label": "No",
-          "value": "No",
+          "label": "What is the difference between annual leave and accumulated leave?",
+          "value": "What is the difference between annual leave and accumulated leave?",
           "checked": true
         }
       ],
@@ -362,14 +393,14 @@
         <sys_created_on>2021-01-18 12:25:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>db652a911b71a410ef5b635ee54bcb3c</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Annual Leave</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_db652a911b71a410ef5b635ee54bcb3c</sys_update_name>
-        <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-30 10:22:30</sys_updated_on>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 07:30:07</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

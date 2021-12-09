@@ -49,7 +49,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "You can contact the pension fund on 0860 100 380 to request your pension fund balance or to find out more about withdrawing your pension."
+                    "text": "You can contact the pension fund on 0860 100 380 to request your pension fund balance, benefits statement or to find out more about withdrawing your pension."
                   }
                 ]
               },
@@ -125,117 +125,14 @@
             "mode": "query"
           },
           "secure": false
-        },
-        "6670ac5c527e4fc89eca0ca9fd41cab9": {
-          "stepType": "ChoicePrompt",
-          "name": "moreinfo",
-          "prompt": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Would you like more information on how to access the pension fund site?"
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "confirmMessage": {
-            "value": "",
-            "mode": "simple"
-          },
-          "acknowledgeMsg": {
-            "value": "",
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          },
-          "skippable": {
-            "value": "",
-            "mode": "query"
-          },
-          "defaultValue": {
-            "value": "",
-            "mode": "simple"
-          },
-          "variableId": "41c0f2534e9e4f20ba9cbd92676aafc2",
-          "id": "6670ac5c527e4fc89eca0ca9fd41cab9",
-          "hasCardHeader": false,
-          "cardMetadata": {
-            "mode": "card",
-            "metadataScript": "",
-            "cardTemplate": "",
-            "cardFields": {},
-            "cardDefinition": {}
-          },
-          "withNluUserInput": false,
-          "skipIfFulfilled": false
-        },
-        "6a14f799dca047c1bcf7c17a17b96568": {
-          "id": "6a14f799dca047c1bcf7c17a17b96568",
-          "stepType": "Decision",
-          "name": "Decision"
-        },
-        "60888e4e0d754b76b49f61b71bafbc85": {
-          "id": "60888e4e0d754b76b49f61b71bafbc85",
-          "stepType": "ImageOutput",
-          "name": "Image1",
-          "url": {
-            "value": "0001_1637075867175.jpg",
-            "mode": "db_image"
-          },
-          "altText": {
-            "value": "",
-            "mode": "simple"
-          },
-          "variableId": "",
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
-        },
-        "15a74dcb96384244ac0bd2fafd862a31": {
-          "id": "15a74dcb96384244ac0bd2fafd862a31",
-          "stepType": "ImageOutput",
-          "name": "Image2",
-          "url": {
-            "value": "0002_1637075904389.jpg",
-            "mode": "db_image"
-          },
-          "altText": {
-            "value": "",
-            "mode": "simple"
-          },
-          "variableId": "",
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
         }
       },
       "edges": [
         {
-          "id": "7dac11b4f9a744d5a7ef6857f1c5eb0a",
-          "edgeType": "Branch",
-          "source": "6a14f799dca047c1bcf7c17a17b96568",
-          "target": "34cb230d23bd4aadac96f1d08df07297",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.moreinfo=No",
-            "mode": "query"
-          },
-          "label": "No"
-        },
-        {
           "id": "d1fe72b563ec42d980ac8133bbcb8de0",
           "edgeType": "Edge",
           "source": "d741abb0d0e34709857d46b45ae89787",
-          "target": "6670ac5c527e4fc89eca0ca9fd41cab9",
+          "target": "34cb230d23bd4aadac96f1d08df07297",
           "sourcePort": "",
           "targetPort": ""
         },
@@ -244,43 +141,6 @@
           "edgeType": "Edge",
           "source": "161e6e7bee1d4dd2aebf4f5161e6573e",
           "target": "d741abb0d0e34709857d46b45ae89787",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "e4342cb4590444bab355fd365d5a8ff9",
-          "edgeType": "Edge",
-          "source": "6670ac5c527e4fc89eca0ca9fd41cab9",
-          "target": "6a14f799dca047c1bcf7c17a17b96568",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "5cf6187dfcc74ffc99d2c013a9a31b9f",
-          "edgeType": "Branch",
-          "source": "6a14f799dca047c1bcf7c17a17b96568",
-          "target": "60888e4e0d754b76b49f61b71bafbc85",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.moreinfo=Yes",
-            "mode": "query"
-          },
-          "label": "Yes"
-        },
-        {
-          "id": "ef5355ce1a8949c0a9b56df5688a87cc",
-          "edgeType": "Edge",
-          "source": "60888e4e0d754b76b49f61b71bafbc85",
-          "target": "15a74dcb96384244ac0bd2fafd862a31",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "3af797584af3464da4546de1e6cd9337",
-          "edgeType": "Edge",
-          "source": "15a74dcb96384244ac0bd2fafd862a31",
-          "target": "34cb230d23bd4aadac96f1d08df07297",
           "sourcePort": "",
           "targetPort": ""
         }
@@ -295,24 +155,6 @@
       "name": "user",
       "table": "sys_user",
       "varType": "reference"
-    },
-    "41c0f2534e9e4f20ba9cbd92676aafc2": {
-      "id": "41c0f2534e9e4f20ba9cbd92676aafc2",
-      "name": "moreinfo",
-      "label": "Moreinfo",
-      "varType": "choice",
-      "choices": [
-        {
-          "label": "Yes",
-          "value": "Yes"
-        },
-        {
-          "label": "No",
-          "value": "No",
-          "checked": true
-        }
-      ],
-      "category": "vaInputs"
     }
   }
 }</graph>
@@ -333,14 +175,14 @@
         <sys_created_on>2021-01-15 08:36:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>24141ed41b3da494ef5b635ee54bcb0f</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>My Pension Fund</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_24141ed41b3da494ef5b635ee54bcb0f</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-30 10:31:05</sys_updated_on>
+        <sys_updated_on>2021-12-09 08:11:41</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

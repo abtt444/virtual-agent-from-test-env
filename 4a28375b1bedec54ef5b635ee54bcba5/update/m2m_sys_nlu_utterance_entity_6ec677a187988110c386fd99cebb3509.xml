@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":10,"end":20,"annotatedString":"effective {{phrase=\"home office\"}}","cat":null}]</annotation>
+        <entity display_value="Workspace">b46284e4874cc510c386fd99cebb3577</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-12-08 15:47:53</sys_created_on>
+        <sys_id>6ec677a187988110c386fd99cebb3509</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace.effective home office</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_6ec677a187988110c386fd99cebb3509</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-08 15:47:53</sys_updated_on>
+        <utterance display_value="effective home office">d7b67fa187988110c386fd99cebb35ef</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

@@ -10,18 +10,18 @@ To take advantage of this offer:
 1. Go to [http://hup.microsoft.com/](http://hup.microsoft.com/) and enter your work email address. 
 2. You will receive an email from Microsoft with a link.
 3. Log in with your personal Microsoft Live account and choose your preferred product.
-For full details, [please read here](https://docs.google.com/document/d/1471kdhxHny1EZ7ISMKH6PLrt3pDIbfjU/edit).</message>
+For full details, [please read here](https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012670).</message>
         <sys_class_name>sys_ui_message</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-11-18 12:59:38</sys_created_on>
         <sys_id>f270dc9f877b3410c386fd99cebb35ae</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>va:topic:1e9c80d7877b3410c386fd99cebb3583:node:3a8367f4ed77400a9b62d2825494391f:field:value</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_ui_message_f270dc9f877b3410c386fd99cebb35ae</sys_update_name>
-        <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-30 12:33:19</sys_updated_on>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 09:05:12</sys_updated_on>
     </sys_ui_message>
 </record_update>

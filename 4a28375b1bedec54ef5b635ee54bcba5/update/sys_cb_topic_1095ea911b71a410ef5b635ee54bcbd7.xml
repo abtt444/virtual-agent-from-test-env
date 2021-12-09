@@ -49,6 +49,115 @@
                 "type": "paragraph",
                 "children": [
                   {
+                    "text": "Your accumulated leave may be encashed or used as holiday leave instead of annual leave. Please note that you can only encash up to 12 days of accumulated leave per year."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "secure": false
+        },
+        "2d84af7818794b56be698e6b839a48a1": {
+          "stepType": "ChoicePrompt",
+          "name": "Decision",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Choose one of the options below to find our more about accumulated leave: "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "f7e641c29976431b903a6164c9b2f1ab",
+          "id": "2d84af7818794b56be698e6b839a48a1",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "5af9ccfd0a7f408ea463ec20c23bcec8": {
+          "id": "5af9ccfd0a7f408ea463ec20c23bcec8",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "ae0d8ebdac58417bb432d94bcbe48c74": {
+          "id": "ae0d8ebdac58417bb432d94bcbe48c74",
+          "stepType": "TextOutput",
+          "name": "What is the difference between annual le",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Annual leave is accrued per month according to your subgroup whereas, accumulated leave is accrued at 0.66667 days per month and is not dependent on your subgroup. Please note that you are only able to encash accumulated leave."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "f4bfed208b804ba5bcca600a248a37ed": {
+          "id": "f4bfed208b804ba5bcca600a248a37ed",
+          "stepType": "TextOutput",
+          "name": "How to find your leave balance one Workd",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
                     "text": "You can find your leave balance on Workday: "
                   }
                 ]
@@ -127,30 +236,6 @@
                     "text": "."
                   }
                 ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Your accumulated leave may be encashed or used as holiday leave instead of annual leave. Please note that we can only encash up to 12 days of accumulated leave per year."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
               }
             ],
             "mode": "simple"
@@ -158,8 +243,7 @@
           "applicability": {
             "value": "",
             "mode": "query"
-          },
-          "secure": false
+          }
         }
       },
       "edges": [
@@ -175,6 +259,56 @@
           "id": "517207d37582401ea5cb027eaaa7e71e",
           "edgeType": "Edge",
           "source": "23e0faa999d94b7da07ce8a6c2e9bf1e",
+          "target": "2d84af7818794b56be698e6b839a48a1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b67a9c2c69934dd69a04702a2d98c401",
+          "edgeType": "Edge",
+          "source": "2d84af7818794b56be698e6b839a48a1",
+          "target": "5af9ccfd0a7f408ea463ec20c23bcec8",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a9c92a197e8f45ac8e4c2fd46efcd86c",
+          "edgeType": "Branch",
+          "source": "5af9ccfd0a7f408ea463ec20c23bcec8",
+          "target": "ae0d8ebdac58417bb432d94bcbe48c74",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.decision=What is the difference between annual leave and accumulated leave?",
+            "mode": "query"
+          },
+          "label": "What is the difference between annual leave and accumulated leave?"
+        },
+        {
+          "id": "462268f78a8b4038877e28b8ed428555",
+          "edgeType": "Edge",
+          "source": "ae0d8ebdac58417bb432d94bcbe48c74",
+          "target": "9b7de8330d7d4ae88ecf82ef6ddac611",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9cf435cb4564450f91300bea88bfe51b",
+          "edgeType": "Branch",
+          "source": "5af9ccfd0a7f408ea463ec20c23bcec8",
+          "target": "f4bfed208b804ba5bcca600a248a37ed",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.decision=How to find your leave balance one Workday",
+            "mode": "query"
+          },
+          "label": "How to find your leave balance one Workday"
+        },
+        {
+          "id": "9b42cccf25e242ceb730b34a2af8fe2d",
+          "edgeType": "Edge",
+          "source": "f4bfed208b804ba5bcca600a248a37ed",
           "target": "9b7de8330d7d4ae88ecf82ef6ddac611",
           "sourcePort": "",
           "targetPort": ""
@@ -190,6 +324,24 @@
       "name": "user",
       "table": "sys_user",
       "varType": "reference"
+    },
+    "f7e641c29976431b903a6164c9b2f1ab": {
+      "id": "f7e641c29976431b903a6164c9b2f1ab",
+      "name": "decision",
+      "label": "Decision",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "How to find your leave balance on Workday",
+          "value": "How to find your leave balance one Workday"
+        },
+        {
+          "label": "What is the difference between annual leave and accumulated leave?",
+          "value": "What is the difference between annual leave and accumulated leave?",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
     }
   }
 }</graph>
@@ -210,14 +362,14 @@
         <sys_created_on>2021-01-18 12:26:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>1095ea911b71a410ef5b635ee54bcbd7</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Accumulated Leave</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_1095ea911b71a410ef5b635ee54bcbd7</sys_update_name>
         <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-30 10:27:43</sys_updated_on>
+        <sys_updated_on>2021-12-03 13:17:53</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>
