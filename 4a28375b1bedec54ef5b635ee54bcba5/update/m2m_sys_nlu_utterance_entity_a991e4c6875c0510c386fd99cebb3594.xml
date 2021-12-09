@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
     <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
         <annotation>[{"start":21,"end":26,"annotatedString":"I am unhappy with my {{phrase=\"rating\"}}","cat":null}]</annotation>
-        <entity display_value="Performance Rating">3123adae87ff3810c386fd99cebb35ab</entity>
+        <entity display_value="Rating">be98267a1b733410cb139753b24bcb9e</entity>
         <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
-        <sys_created_by>AB019AK</sys_created_by>
-        <sys_created_on>2021-12-08 09:44:19</sys_created_on>
-        <sys_id>8d93a66d879c4110c386fd99cebb35ba</sys_id>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-12-09 13:33:21</sys_created_on>
+        <sys_id>a991e4c6875c0510c386fd99cebb3594</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Performance Rating.I am unhappy with my rating</sys_name>
+        <sys_name>Rating.I am unhappy with my rating</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
-        <sys_update_name>m2m_sys_nlu_utterance_entity_8d93a66d879c4110c386fd99cebb35ba</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-12-08 09:44:19</sys_updated_on>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_a991e4c6875c0510c386fd99cebb3594</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-09 13:33:21</sys_updated_on>
         <utterance display_value="I am unhappy with my rating">4081dadd87580910c386fd99cebb350d</utterance>
     </m2m_sys_nlu_utterance_entity>
 </record_update>

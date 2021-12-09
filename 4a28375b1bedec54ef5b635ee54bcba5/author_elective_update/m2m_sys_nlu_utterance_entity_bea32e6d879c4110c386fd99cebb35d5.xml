@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"start":57,"end":62,"annotatedString":"please tell me how i can grieve about my my contribution {{phrase=\"rating\"}}","cat":null}]</annotation>
+        <entity display_value="Performance Rating">3123adae87ff3810c386fd99cebb35ab</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-08 09:44:44</sys_created_on>
+        <sys_id>bea32e6d879c4110c386fd99cebb35d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Rating.please tell me how i can grieve about my my contribution rating</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_bea32e6d879c4110c386fd99cebb35d5</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 09:44:44</sys_updated_on>
+        <utterance display_value="please tell me how i can grieve about my my contribution rating">55125ec3874cc110c386fd99cebb35ea</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_bea32e6d879c4110c386fd99cebb35d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"start":57,"end":62,"annotatedString":"please tell me how i can grieve about my my contribution {{phrase=\"rating\"}}","cat":null}]</annotation><entity display_value="Performance Rating">3123adae87ff3810c386fd99cebb35ab</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>AB019AK</sys_created_by><sys_created_on>2021-12-08 09:44:44</sys_created_on><sys_id>bea32e6d879c4110c386fd99cebb35d5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Performance Rating.please tell me how i can grieve about my my contribution rating</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_bea32e6d879c4110c386fd99cebb35d5</sys_update_name><sys_updated_by>AB019AK</sys_updated_by><sys_updated_on>2021-12-08 09:44:44</sys_updated_on><utterance display_value="please tell me how i can grieve about my my contribution rating">55125ec3874cc110c386fd99cebb35ea</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-457994792</payload_hash>
+        <record_name>Performance Rating.please tell me how i can grieve about my my contribution rating</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-08 09:44:44</sys_created_on>
+        <sys_id>c3a32e6d879c4110c386fd99cebb35d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d996e54c50000001</sys_recorded_at>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 09:44:44</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>cba32e6d609c411049e5b9e41b5730d7</update_guid>
+        <update_guid_history>cba32e6d609c411049e5b9e41b5730d7:-457994792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-12-09 15:31:27">b521a486875c0510c386fd99cebb3520</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-12-09 13:31:27</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>7a9f254f653548c89692faca09070b90</sys_id>
+        <sys_metadata>bea32e6d879c4110c386fd99cebb35d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Rating.please tell me how i can grieve about my my contribution rating</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_bea32e6d879c4110c386fd99cebb35d5</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_bea32e6d879c4110c386fd99cebb35d5">c3a32e6d879c4110c386fd99cebb35d8</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-09 13:31:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
