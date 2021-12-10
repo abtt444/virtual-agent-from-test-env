@@ -67,49 +67,6 @@
           "stepType": "Decision",
           "name": "Decision"
         },
-        "55262e0822324f39a005016eb588e352": {
-          "id": "55262e0822324f39a005016eb588e352",
-          "stepType": "TextOutput",
-          "name": "Purchase Furniture for your Home Office",
-          "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "As we continue working remotely, we at Absa have made it possible for you to "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://docs.google.com/document/d/1qrQGpj0jOzQpK8mezUpKdVOFmxQgAUVM/edit",
-                    "children": [
-                      {
-                        "text": "Purchase furniture for your home office at preferential rates"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "So use this offer to set up your ideal home working environment: one that is both ergonomic and enjoyable to work in."
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
-        },
         "c8b8c42b74124f61a1e0acf6b357f7de": {
           "id": "c8b8c42b74124f61a1e0acf6b357f7de",
           "stepType": "TextOutput",
@@ -240,27 +197,6 @@
           "targetPort": ""
         },
         {
-          "id": "70af8cbb4036421199f0835217ca540c",
-          "edgeType": "Branch",
-          "source": "fc7f64f39cf741aeb882d93573db749b",
-          "target": "55262e0822324f39a005016eb588e352",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.choice=Purchase Furniture for your Home Office",
-            "mode": "query"
-          },
-          "label": "Purchase Furniture for your Home Office"
-        },
-        {
-          "id": "bc1dc5130b14431c97718e5525c88e7d",
-          "edgeType": "Edge",
-          "source": "55262e0822324f39a005016eb588e352",
-          "target": "e918befdab5d4c0f9c7ca889e6eced95",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
           "id": "270bcec5b13b4d98acbf3d9450875814",
           "edgeType": "Branch",
           "source": "fc7f64f39cf741aeb882d93573db749b",
@@ -337,10 +273,6 @@
       "varType": "choice",
       "choices": [
         {
-          "label": "Purchase Furniture for your Home Office",
-          "value": "Purchase Furniture for your Home Office"
-        },
-        {
           "label": "Move Office Equipment to Your Home",
           "value": "Move Office Equipment to Your Home",
           "checked": true
@@ -372,14 +304,14 @@
         <sys_created_on>2021-11-22 11:31:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>aca264e887400910c386fd99cebb3505</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Setting Up Your Home Office</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_aca264e887400910c386fd99cebb3505</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-12-08 09:20:10</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-10 12:16:23</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>
