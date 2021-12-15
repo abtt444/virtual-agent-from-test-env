@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="IRP5 Certificate">f916a6d11b71a410ef5b635ee54bcb18</model>
+        <model display_value="Payslips and Worker Documents">f916a6d11b71a410ef5b635ee54bcb18</model>
         <model_id>f916a6d11b71a410ef5b635ee54bcb18</model_id>
         <model_table/>
         <name>var__m_topic_variable_f916a6d11b71a410ef5b635ee54bcb18</name>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
     <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
         <annotation>[{"start":16,"end":22,"annotatedString":"keeping my body {{phrase=\"healthy\"}}","cat":null}]</annotation>
-        <entity display_value="Health">85824028874cc510c386fd99cebb35a2</entity>
+        <entity display_value="Physical Health">85824028874cc510c386fd99cebb35a2</entity>
         <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
         <sys_created_by>AB019AK</sys_created_by>
         <sys_created_on>2021-11-22 09:30:32</sys_created_on>

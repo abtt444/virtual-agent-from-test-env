@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Handset">5e313f4387b73410c386fd99cebb35a5</model>
+        <model display_value="Company Mobile Handset">5e313f4387b73410c386fd99cebb35a5</model>
         <model_id>5e313f4387b73410c386fd99cebb35a5</model_id>
         <model_table/>
         <name>var__m_topic_variable_5e313f4387b73410c386fd99cebb35a5</name>

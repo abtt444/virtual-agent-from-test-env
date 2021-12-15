@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="TF - Tax Benefits from Home">69a36c9b873f3410c386fd99cebb35f8</model>
+        <model display_value="Tax Benefits from Home">69a36c9b873f3410c386fd99cebb35f8</model>
         <model_id>69a36c9b873f3410c386fd99cebb35f8</model_id>
         <model_table/>
         <name>var__m_topic_variable_69a36c9b873f3410c386fd99cebb35f8</name>

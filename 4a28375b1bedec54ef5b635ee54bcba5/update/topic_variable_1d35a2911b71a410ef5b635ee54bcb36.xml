@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Book Relocation Leave">d135a2911b71a410ef5b635ee54bcb36</model>
+        <model display_value="Relocation Leave">d135a2911b71a410ef5b635ee54bcb36</model>
         <model_id>d135a2911b71a410ef5b635ee54bcb36</model_id>
         <model_table/>
         <name>var__m_topic_variable_d135a2911b71a410ef5b635ee54bcb36</name>

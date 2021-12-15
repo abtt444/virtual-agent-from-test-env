@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Leave Encashment Information">f494ee111b71a410ef5b635ee54bcb11</model>
+        <model display_value="Leave Encashment">f494ee111b71a410ef5b635ee54bcb11</model>
         <model_id>f494ee111b71a410ef5b635ee54bcb11</model_id>
         <model_table/>
         <name>var__m_topic_variable_f494ee111b71a410ef5b635ee54bcb11</name>

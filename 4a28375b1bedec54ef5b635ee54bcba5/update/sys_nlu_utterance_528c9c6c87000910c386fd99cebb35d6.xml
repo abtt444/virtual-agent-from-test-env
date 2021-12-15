@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
     <sys_nlu_utterance action="INSERT_OR_UPDATE">
-        <intent display_value="TF - Move Office Equipment to Home">802c902c87000910c386fd99cebb3523</intent>
+        <intent display_value="TF - Setting Up Your Home Office">802c902c87000910c386fd99cebb3523</intent>
         <original_utterance/>
         <primary_utterance/>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
