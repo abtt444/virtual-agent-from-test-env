@@ -163,14 +163,42 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1. On Workday under "
+                    "text": "1. Access "
                   },
                   {
-                    "text": "Applications",
+                    "type": "link",
+                    "url": "https://wd3.myworkday.com/absa/d/home.htmld",
+                    "children": [
+                      {
+                        "text": "Workday"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2.Click on "
+                  },
+                  {
+                    "text": "View All Apps",
                     "bold": true
                   },
                   {
-                    "text": ", select "
+                    "text": " ."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3.Select  "
                   },
                   {
                     "text": "Absence",
@@ -185,10 +213,10 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "2. Click on "
+                    "text": "4.Click on "
                   },
                   {
-                    "text": "Request Absence",
+                    "text": "Request Absence.",
                     "bold": true
                   }
                 ]
@@ -197,7 +225,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "3. Select "
+                    "text": "5. Select "
                   },
                   {
                     "text": "Date Range",
@@ -212,7 +240,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "4. Under "
+                    "text": "6. Under "
                   },
                   {
                     "text": "Type ",
@@ -234,7 +262,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "5. Review leave captured and "
+                    "text": "7. Review leave captured and "
                   },
                   {
                     "text": "Submit",
@@ -249,7 +277,7 @@
             "mode": "simple"
           },
           "applicability": {
-            "value": "",
+            "value": "vaInputs.learn_more_about_annual=Find out how to apply for leave",
             "mode": "query"
           }
         },
@@ -272,7 +300,7 @@
             "mode": "simple"
           },
           "applicability": {
-            "value": "",
+            "value": "vaInputs.learn_more_about_annual=What is the difference between annual leave and accumulated leave?",
             "mode": "query"
           }
         }
@@ -376,10 +404,10 @@
     }
   }
 }</graph>
-        <key_phrases>Annual Leave</key_phrases>
+        <key_phrases>Annual Leave - old</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>Annual Leave</name>
+        <name>Annual Leave - old</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -393,14 +421,14 @@
         <sys_created_on>2021-01-18 12:25:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>db652a911b71a410ef5b635ee54bcb3c</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>Annual Leave</sys_name>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Annual Leave - old</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_db652a911b71a410ef5b635ee54bcb3c</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-12-08 07:30:07</sys_updated_on>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-02-22 13:14:41</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

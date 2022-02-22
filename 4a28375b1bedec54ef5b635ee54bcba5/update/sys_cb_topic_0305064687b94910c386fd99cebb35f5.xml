@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>8df026591b31a410ef5b635ee54bcba7</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "38c9e04553f0485185c301fa409197c8": {
+          "id": "38c9e04553f0485185c301fa409197c8",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "719a3d624c104c2fad9f451f16dc3340": {
+          "id": "719a3d624c104c2fad9f451f16dc3340",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "9cb2d195b2dc48ed8c419ab778fbaa2e": {
+          "id": "9cb2d195b2dc48ed8c419ab778fbaa2e",
+          "stepType": "TextOutput",
+          "name": "Annual Leave",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Leave is not just a benefit; it's essential. Find out more about why you should take leave "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012636",
+                    "children": [
+                      {
+                        "text": "here"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please note that annual leave captured does not require your line manager's approval. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "1890abfbb6054bab81d3fa4bbcf60827": {
+          "stepType": "ChoicePrompt",
+          "name": "Learn More about annual",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Choose one of the options below to find our more about annual leave test: "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "e3c221e4ad8440ea9cf41d29e20ed07a",
+          "id": "1890abfbb6054bab81d3fa4bbcf60827",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "2b6feb2240af4b1a8cf697c4ac47b319": {
+          "id": "2b6feb2240af4b1a8cf697c4ac47b319",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "371a7e7239bd4be59e6508e92cd1e9ba": {
+          "id": "371a7e7239bd4be59e6508e92cd1e9ba",
+          "stepType": "TextOutput",
+          "name": "What is the difference between annual le",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Annual leave is accrued per month according to your subgroup whereas, accumulated leave is accrued at 0.66667 days per month and is not dependent on your subgroup. Please note that you are only able to encash accumulated leave."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "vaInputs.learn_more_about_annual=What is the difference between annual leave and accumulated leave?",
+            "mode": "query"
+          }
+        },
+        "0db868a734c84560bddf432585805d5b": {
+          "id": "0db868a734c84560bddf432585805d5b",
+          "stepType": "TextOutput",
+          "name": "Find out how to apply for leave",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take some time off and apply for leave as follows:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. Access "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://wd3.myworkday.com/absa/d/home.htmld",
+                    "children": [
+                      {
+                        "text": "Workday"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2.Click on "
+                  },
+                  {
+                    "text": "View All Apps",
+                    "bold": true
+                  },
+                  {
+                    "text": " ."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3.Select  "
+                  },
+                  {
+                    "text": "Absence",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "4.Click on "
+                  },
+                  {
+                    "text": "Request Absence.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "5. Select "
+                  },
+                  {
+                    "text": "Date Range",
+                    "bold": true
+                  },
+                  {
+                    "text": " and enter the dates of your leave."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "6. Under "
+                  },
+                  {
+                    "text": "Type ",
+                    "bold": true
+                  },
+                  {
+                    "text": "of, select "
+                  },
+                  {
+                    "text": "Time Off: Annual Leave",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "7. Review leave captured and "
+                  },
+                  {
+                    "text": "Submit",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "vaInputs.learn_more_about_annual=Find out how to apply for leave",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "b04bbcbd5b5c453484684493f73fdacf",
+          "edgeType": "Edge",
+          "source": "371a7e7239bd4be59e6508e92cd1e9ba",
+          "target": "719a3d624c104c2fad9f451f16dc3340",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "96f3d0a2d83f4988b044ce3ca5f3a967",
+          "edgeType": "Edge",
+          "source": "38c9e04553f0485185c301fa409197c8",
+          "target": "9cb2d195b2dc48ed8c419ab778fbaa2e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "3fe2a8c3e531468382a26c62f402ba59",
+          "edgeType": "Edge",
+          "source": "9cb2d195b2dc48ed8c419ab778fbaa2e",
+          "target": "1890abfbb6054bab81d3fa4bbcf60827",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "237a28c2d2874a8ba541fe13458e4a95",
+          "edgeType": "Edge",
+          "source": "1890abfbb6054bab81d3fa4bbcf60827",
+          "target": "2b6feb2240af4b1a8cf697c4ac47b319",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6f6347cdab7b44b99b6d84bbc45a459b",
+          "edgeType": "Branch",
+          "source": "2b6feb2240af4b1a8cf697c4ac47b319",
+          "target": "0db868a734c84560bddf432585805d5b",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "",
+            "mode": "query"
+          },
+          "label": "Always"
+        },
+        {
+          "id": "f503416c27ab43de94a5280140e1339a",
+          "edgeType": "Edge",
+          "source": "0db868a734c84560bddf432585805d5b",
+          "target": "371a7e7239bd4be59e6508e92cd1e9ba",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "e3c221e4ad8440ea9cf41d29e20ed07a": {
+      "id": "e3c221e4ad8440ea9cf41d29e20ed07a",
+      "name": "learn_more_about_annual",
+      "label": "Learn More About Annual",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Find out how to apply for leave",
+          "value": "Find out how to apply for leave"
+        },
+        {
+          "label": "What is the difference between annual leave and accumulated leave?",
+          "value": "What is the difference between annual leave and accumulated leave?",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Annual Leave</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Annual Leave</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-02-22 10:22:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0305064687b94910c386fd99cebb35f5</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Annual Leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_0305064687b94910c386fd99cebb35f5</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-02-22 13:15:27</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=0305064687b94910c386fd99cebb35f5"/>
+</record_update>
