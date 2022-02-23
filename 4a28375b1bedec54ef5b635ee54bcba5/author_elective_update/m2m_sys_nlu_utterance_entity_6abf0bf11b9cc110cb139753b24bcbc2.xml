@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"start":16,"end":20,"annotatedString":"how much annula {{phrase=\"leave\"}} do I have","cat":null}]</annotation>
+        <entity display_value="Leave">3923adae87ff3810c386fd99cebb3598</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-09 07:35:42</sys_created_on>
+        <sys_id>6abf0bf11b9cc110cb139753b24bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave.how much annula leave do I have</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_6abf0bf11b9cc110cb139753b24bcbc2</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-09 07:35:42</sys_updated_on>
+        <utterance display_value="how much annula leave do I have">c8bf83f11b9cc110cb139753b24bcb6d</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_6abf0bf11b9cc110cb139753b24bcbc2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"start":16,"end":20,"annotatedString":"how much annula {{phrase=\"leave\"}} do I have","cat":null}]</annotation><entity display_value="Leave">3923adae87ff3810c386fd99cebb3598</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>AB019AK</sys_created_by><sys_created_on>2021-12-09 07:35:42</sys_created_on><sys_id>6abf0bf11b9cc110cb139753b24bcbc2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Leave.how much annula leave do I have</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_6abf0bf11b9cc110cb139753b24bcbc2</sys_update_name><sys_updated_by>AB019AK</sys_updated_by><sys_updated_on>2021-12-09 07:35:42</sys_updated_on><utterance display_value="how much annula leave do I have">c8bf83f11b9cc110cb139753b24bcb6d</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-1730866365</payload_hash>
+        <record_name>Leave.how much annula leave do I have</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-09 07:35:42</sys_created_on>
+        <sys_id>aebf0bf11b9cc110cb139753b24bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d9e1e8e980000001</sys_recorded_at>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-09 07:35:42</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>a6bf0bf18d9cc1103db7b108ec7415c4</update_guid>
+        <update_guid_history>a6bf0bf18d9cc1103db7b108ec7415c4:-1730866365</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2022-02-23 07:48:24">23ff8a968739c910c386fd99cebb3537</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-02-23 05:48:24</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>39671bce4bad45408d0cdfe11da82400</sys_id>
+        <sys_metadata>6abf0bf11b9cc110cb139753b24bcbc2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave.how much annula leave do I have</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_6abf0bf11b9cc110cb139753b24bcbc2</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_6abf0bf11b9cc110cb139753b24bcbc2">aebf0bf11b9cc110cb139753b24bcbc4</sys_update_version>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-02-23 05:48:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
