@@ -22,16 +22,16 @@
         <scoped_administration>false</scoped_administration>
         <short_description>This application contains the NLU models for the HR Chatbot</short_description>
         <source>x_absa2_absa_hr_nl</source>
-        <store_correlation_id>REPOAPP0000533455</store_correlation_id>
+        <store_correlation_id>REPOAPP0000534336</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>gabriel.eisenberg</sys_created_by>
         <sys_created_on>2021-01-12 13:19:25</sys_created_on>
         <sys_id>4a28375b1bedec54ef5b635ee54bcba5</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_updated_by>thabiso.diphare</sys_updated_by>
-        <sys_updated_on>2022-02-24 07:04:35</sys_updated_on>
+        <sys_updated_on>2022-02-24 07:10:07</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>

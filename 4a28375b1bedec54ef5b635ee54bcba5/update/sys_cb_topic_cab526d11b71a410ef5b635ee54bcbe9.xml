@@ -57,7 +57,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1. Access "
+                    "text": "1.  Access "
                   },
                   {
                     "type": "link",
@@ -77,7 +77,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "2.Select"
+                    "text": "2. Select"
                   },
                   {
                     "text": " View All Apps",
@@ -92,14 +92,14 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "3.Click on "
+                    "text": "3. Click on "
                   },
                   {
                     "text": "Absence ",
                     "bold": true
                   },
                   {
-                    "text": "in your applications."
+                    "text": "in your applications"
                   }
                 ]
               },
@@ -153,6 +153,22 @@
                   },
                   {
                     "text": ", the green tick will disappear."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
                   }
                 ]
               }
@@ -214,14 +230,14 @@
         <sys_created_on>2021-01-18 12:27:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>cab526d11b71a410ef5b635ee54bcbe9</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Leave Cancellation</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_cab526d11b71a410ef5b635ee54bcbe9</sys_update_name>
         <sys_updated_by>thabiso.diphare</sys_updated_by>
-        <sys_updated_on>2022-02-15 15:07:49</sys_updated_on>
+        <sys_updated_on>2022-02-24 08:35:05</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

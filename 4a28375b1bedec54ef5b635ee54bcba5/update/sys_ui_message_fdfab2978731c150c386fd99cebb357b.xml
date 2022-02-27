@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:842022d51b31a410ef5b635ee54bcba7:node:cea16f993ea84bdeafe3431b84aa7788:field:value</key>
+        <language>en</language>
+        <message>1. On [Workday](https://wd3.myworkday.com/absa/d/home.htmld), click on the cloud icon at the top right of your screen then select your name/view profile.
+2. On the left side of your screen, click on **Actions**.
+3. Choose **Worker History**, followed by **Maintain Worker Documents**.
+4. Click on **Add** and under **Drop Files**, select the files that you would like to attach. Then click on **OK** near the bottom left of your screen.
+5. Click on **Done** near the bottom left of your screen when you have successfully added your document.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-02-26 11:30:05</sys_created_on>
+        <sys_id>fdfab2978731c150c386fd99cebb357b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:842022d51b31a410ef5b635ee54bcba7:node:cea16f993ea84bdeafe3431b84aa7788:field:value</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_fdfab2978731c150c386fd99cebb357b</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-02-26 11:30:05</sys_updated_on>
+    </sys_ui_message>
+</record_update>

@@ -70,7 +70,7 @@
                   },
                   {
                     "type": "link",
-                    "url": "https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012666",
+                    "url": "https://absahr.service-now.com/ways_of_work?id=kb_article_view&amp;sysparm_article=KB0012666",
                     "children": [
                       {
                         "text": "this article"
@@ -98,7 +98,7 @@
                   },
                   {
                     "type": "link",
-                    "url": "JMLEuehardware@absa.africa",
+                    "url": "mailto:JMLEuehardware@absa.africa",
                     "children": [
                       {
                         "text": "JMLEuehardware@absa.africa"
@@ -167,14 +167,14 @@
         <sys_created_on>2021-11-18 13:28:40</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>5427d09f87bb3410c386fd99cebb3549</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Laptops for New Joiners</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_5427d09f87bb3410c386fd99cebb3549</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-12-08 09:08:26</sys_updated_on>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-02-26 05:35:12</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

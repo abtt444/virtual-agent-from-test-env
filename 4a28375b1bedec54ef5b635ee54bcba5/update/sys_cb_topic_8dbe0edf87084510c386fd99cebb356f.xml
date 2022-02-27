@@ -39,98 +39,6 @@
             "value": ""
           }
         },
-        "9177d0df0ad349b5a1edaf85010f610c": {
-          "id": "9177d0df0ad349b5a1edaf85010f610c",
-          "stepType": "TextOutput",
-          "name": "help message",
-          "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "You can ask me about any of the following: "
-                  }
-                ]
-              },
-              {
-                "type": "bulleted-list",
-                "children": [
-                  {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": ""
-                      },
-                      {
-                        "text": "Leave"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Document Retrieval"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Returning to Work"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "Working from Home"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "MyContribution "
-                      }
-                    ]
-                  },
-                  {
-                    "type": "list-item",
-                    "children": [
-                      {
-                        "text": "COVID-19 guidelines."
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "type": "paragraph",
-                    "children": [
-                      {
-                        "text": "Type in your query and I will try to help you where I can. "
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
-        },
         "3865334630ae456d8bb56dc2cc7258a4": {
           "id": "3865334630ae456d8bb56dc2cc7258a4",
           "stepType": "TextOutput",
@@ -157,9 +65,9 @@
       },
       "edges": [
         {
-          "id": "d3773373e2e3476b856206e87583ebda",
+          "id": "405bc797441b459c9c20252e399c8f67",
           "edgeType": "Edge",
-          "source": "9177d0df0ad349b5a1edaf85010f610c",
+          "source": "3865334630ae456d8bb56dc2cc7258a4",
           "target": "372063781aa54dcab9123e0247773212",
           "sourcePort": "",
           "targetPort": ""
@@ -169,14 +77,6 @@
           "edgeType": "Edge",
           "source": "1537ec4f7e76487194c614114e591376",
           "target": "3865334630ae456d8bb56dc2cc7258a4",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "405bc797441b459c9c20252e399c8f67",
-          "edgeType": "Edge",
-          "source": "3865334630ae456d8bb56dc2cc7258a4",
-          "target": "9177d0df0ad349b5a1edaf85010f610c",
           "sourcePort": "",
           "targetPort": ""
         }
@@ -211,14 +111,14 @@
         <sys_created_on>2021-12-01 08:26:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>8dbe0edf87084510c386fd99cebb356f</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>ICAS</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_8dbe0edf87084510c386fd99cebb356f</sys_update_name>
-        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
-        <sys_updated_on>2022-02-15 12:51:34</sys_updated_on>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-02-24 08:50:59</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>
