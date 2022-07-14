@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>normally, your sick leave can be submitted on workday without a doctor's note. 
+however, a doctor's notes is required when capturing sick leave of more than 2 days or when sick leave is taken on more than 2 occasions in an 8-week period.</key>
+        <language>en</language>
+        <message>Normally, your sick leave can be submitted on Workday without a doctor's note. 
+However, a doctor's notes is required when capturing sick leave of more than 2 days or when sick leave is taken on more than 2 occasions in an 8-week period.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-17 08:31:54</sys_created_on>
+        <sys_id>179982761bbff010cb139753b24bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>normally, your sick leave can be submitted on workday without a doctor's note. 
+however, a doctor's notes is required when capturing sick leave of more than 2 days or when sick leave is taken on more than 2 occasions in an 8-week period.</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_179982761bbff010cb139753b24bcbac</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-17 08:31:54</sys_updated_on>
+    </sys_ui_message>
+</record_update>

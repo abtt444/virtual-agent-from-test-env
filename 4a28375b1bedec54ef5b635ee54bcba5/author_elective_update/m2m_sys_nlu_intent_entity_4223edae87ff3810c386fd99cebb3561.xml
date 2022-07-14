@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
+    <m2m_sys_nlu_intent_entity action="DELETE">
+        <entity display_value="">3123adae87ff3810c386fd99cebb35ab</entity>
+        <intent display_value="TF - My Contribution Rating Scale">8e23adae87ff3810c386fd99cebb35df</intent>
+        <relationship>regular</relationship>
+        <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 11:05:24</sys_created_on>
+        <sys_id>4223edae87ff3810c386fd99cebb3561</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Rating.My Contribution - Performance Rating</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_intent_entity_4223edae87ff3810c386fd99cebb3561</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:05:24</sys_updated_on>
+    </m2m_sys_nlu_intent_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_intent_entity_4223edae87ff3810c386fd99cebb3561</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity"><m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE"><entity display_value="">3123adae87ff3810c386fd99cebb35ab</entity><intent display_value="TF - My Contribution Rating Scale">8e23adae87ff3810c386fd99cebb35df</intent><relationship>regular</relationship><sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name><sys_created_by>AB019AM</sys_created_by><sys_created_on>2021-11-16 11:05:24</sys_created_on><sys_id>4223edae87ff3810c386fd99cebb3561</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Performance Rating.My Contribution - Performance Rating</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_intent_entity_4223edae87ff3810c386fd99cebb3561</sys_update_name><sys_updated_by>AB019AM</sys_updated_by><sys_updated_on>2021-11-16 11:05:24</sys_updated_on></m2m_sys_nlu_intent_entity></record_update>]]></payload>
+        <payload_hash>-479168190</payload_hash>
+        <record_name>Performance Rating.My Contribution - Performance Rating</record_name>
+        <reverted_from/>
+        <source>a4f5ab001b100110cb139753b24bcb75</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-12-03 22:43:24</sys_created_on>
+        <sys_id>8841e886875c0510c386fd99cebb35dd</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17d82776ae00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>NLU Intent Entity</type>
+        <update_guid>4841e886bf5c051012a083366a0c62dd</update_guid>
+        <update_guid_history>4841e886bf5c051012a083366a0c62dd:-479168190</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-12-09 15:31:52">8841e886875c0510c386fd99cebb35de</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-12-09 13:31:52</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_intent_entity">m2m_sys_nlu_intent_entity</sys_db_object>
+        <sys_id>279eeae9b9cd4e9789fcbf2c60be8149</sys_id>
+        <sys_metadata>4223edae87ff3810c386fd99cebb3561</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Rating.My Contribution - Performance Rating</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_intent_entity_4223edae87ff3810c386fd99cebb3561</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_intent_entity_4223edae87ff3810c386fd99cebb3561">8841e886875c0510c386fd99cebb35dd</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-09 13:31:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

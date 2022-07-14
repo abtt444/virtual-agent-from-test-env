@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"i would like to withdraw my {{phrase=\"pension\"}} please can you assist","start":28,"end":34}]</annotation>
+        <entity display_value="Pension">c50856431b4e64d0122465fce54bcb32</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 08:43:12</sys_created_on>
+        <sys_id>461fda831b8e64d0122465fce54bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.i would like to withdraw my pension please can you assist </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_461fda831b8e64d0122465fce54bcbf6</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:43:12</sys_updated_on>
+        <utterance display_value="i would like to withdraw my pension please can you assist ">9af65a871b8620d0ef5b635ee54bcb6e</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_461fda831b8e64d0122465fce54bcbf6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"i would like to withdraw my {{phrase=\"pension\"}} please can you assist","start":28,"end":34}]</annotation>
+        <entity display_value="Pension">c50856431b4e64d0122465fce54bcb32</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 08:43:12</sys_created_on>
+        <sys_id>461fda831b8e64d0122465fce54bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.i would like to withdraw my pension please can you assist </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_461fda831b8e64d0122465fce54bcbf6</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:43:12</sys_updated_on>
+        <utterance display_value="i would like to withdraw my pension please can you assist ">9af65a871b8620d0ef5b635ee54bcb6e</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>874069254</payload_hash>
+        <record_name>Pension.i would like to withdraw my pension please can you assist </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:24</sys_created_on>
+        <sys_id>abfb9bdf87db3050c386fd99cebb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64fa06f0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:24</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>e7fb9bdffedb30503e497babc7fd5b14</update_guid>
+        <update_guid_history>e7fb9bdffedb30503e497babc7fd5b14:0,76e813df821f7450920d796426966316:-1931647680,eab1f0d00a9f30102e44bf44030c84ea:0,be204da7074b781061f572806a9a9b75:-1170722468,f23dbccf4cc3b4107f76b2f6e4b3bc5a:0,9857e08baa43b4105db97053a257d9e5:548071579,608b00070e8f7410011c1785cd96682a:0,fe78440b964f741084c8dacc7e1e3757:710722889,0e1fda83288e64d0152481a42630fdf7:-1534405682</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 13:13:15">81f4a16687337810c386fd99cebb3505</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 11:13:15</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>478d927c43ee49489f8b770241f82110</sys_id>
+        <sys_metadata>461fda831b8e64d0122465fce54bcbf6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.i would like to withdraw my pension please can you assist </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_461fda831b8e64d0122465fce54bcbf6</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_461fda831b8e64d0122465fce54bcbf6">abfb9bdf87db3050c386fd99cebb3514</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:13:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -39,10 +39,176 @@
             "value": ""
           }
         },
-        "a361816707d84a7893cea93f7f01830a": {
-          "id": "a361816707d84a7893cea93f7f01830a",
+        "fd363710cb9d4e23bccea5168983c01b": {
+          "stepType": "ChoicePrompt",
+          "name": "chooseeval",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Choose one of the following for more information:"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "fdcdc7c387694af5bf720012b56cd943",
+          "id": "fd363710cb9d4e23bccea5168983c01b",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "52ec0cee4c584be4965989a689a39ee0": {
+          "id": "52ec0cee4c584be4965989a689a39ee0",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "067057aff3cd42a78251c0eb75dbb6d2": {
+          "id": "067057aff3cd42a78251c0eb75dbb6d2",
+          "stepType": "TextOutput",
+          "name": "me",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Prior to completing the year-end performance review for the employee, the people manager should engage with the employee, and review the self-evaluation and feedback that has been provided for the employee in Workday and through other relevant data sources. Where necessary, the people manager should engage with other employees to clarify the feedback received, or obtain verbal feedback if insufficient feedback exists."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "895c45704ce443ac8e05df23832aa787": {
+          "id": "895c45704ce443ac8e05df23832aa787",
+          "stepType": "TextOutput",
+          "name": "se",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Each colleague is encouraged to complete the "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/my_contribution?id=self_evaluation&amp;sysparm_domain_restore=false&amp;sysparm_stack=no",
+                    "children": [
+                      {
+                        "text": "self-evaluation"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", as it provides you with the opportunity to reflect on your own contribution during the performance year. This is captured by updating the status of each objective, adding comments per objective, adding  summary comments and uploading attachments."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "cededbb18bcd4ff3aebfd13c819169a1": {
+          "id": "cededbb18bcd4ff3aebfd13c819169a1",
           "stepType": "LinkOutput",
-          "name": "MyContribution Self-Evaluation",
+          "name": "me",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0011251"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "How to Complete the Manager Evaluation"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "For detailed steps click on the link below: "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "2c9e5c0d6642464b85a15d669355a09f": {
+          "id": "2c9e5c0d6642464b85a15d669355a09f",
+          "stepType": "LinkOutput",
+          "name": "se",
           "url": {
             "value": [
               {
@@ -62,7 +228,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Click here for detailed steps you will be required to follow for completing a Self Evaluation in Workday."
+                    "text": "How to Complete a Self-Evaluation"
                   }
                 ]
               }
@@ -75,7 +241,52 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "Each colleague is encouraged to complete the self evaluation, as it provides you with the opportunity to reflect on your own contribution during the performance year. This is captured by updating the status of each objective, adding comments per objective, summary comments and uploading attachments."
+                    "text": "For detailed steps click on the link below:"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "56996a6c6095403e98af89ac7492be59": {
+          "id": "56996a6c6095403e98af89ac7492be59",
+          "stepType": "LinkOutput",
+          "name": "me1",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/my_contribution?id=manager_evaluation&amp;sysparm_domain_restore=false&amp;sysparm_stack=no"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Manager Evaluation "
                   }
                 ]
               }
@@ -99,14 +310,80 @@
           "id": "34a77736ed944d2ab479267c31aa20e2",
           "edgeType": "Edge",
           "source": "a82ec466505e422ea8e92a693acff4b5",
-          "target": "a361816707d84a7893cea93f7f01830a",
+          "target": "fd363710cb9d4e23bccea5168983c01b",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "25affd612ee1444cb54091386d098792",
+          "id": "1189ade206a54810b4fdd7957eb03dd4",
           "edgeType": "Edge",
-          "source": "a361816707d84a7893cea93f7f01830a",
+          "source": "fd363710cb9d4e23bccea5168983c01b",
+          "target": "52ec0cee4c584be4965989a689a39ee0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "da366fe3650c447d977183476ecc9950",
+          "edgeType": "Branch",
+          "source": "52ec0cee4c584be4965989a689a39ee0",
+          "target": "067057aff3cd42a78251c0eb75dbb6d2",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.chooseeval=Manager Evaluation",
+            "mode": "query"
+          },
+          "label": "Manager Evaluation"
+        },
+        {
+          "id": "3ddcc250d65a406d871ab83742e00e08",
+          "edgeType": "Branch",
+          "source": "52ec0cee4c584be4965989a689a39ee0",
+          "target": "895c45704ce443ac8e05df23832aa787",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.chooseeval=Self Evaluation",
+            "mode": "query"
+          },
+          "label": "Self Evaluation"
+        },
+        {
+          "id": "45737001fd714077946f92a7bc5f7253",
+          "edgeType": "Edge",
+          "source": "067057aff3cd42a78251c0eb75dbb6d2",
+          "target": "cededbb18bcd4ff3aebfd13c819169a1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b79d9a0693134d27af8e348676bbbfdb",
+          "edgeType": "Edge",
+          "source": "895c45704ce443ac8e05df23832aa787",
+          "target": "2c9e5c0d6642464b85a15d669355a09f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d072164f590f42859b9f17461c033d1b",
+          "edgeType": "Edge",
+          "source": "2c9e5c0d6642464b85a15d669355a09f",
+          "target": "42c0f8e5dbc145e8927936e6222882cf",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "63550f2d0fa644b9a012da807eb07d18",
+          "edgeType": "Edge",
+          "source": "cededbb18bcd4ff3aebfd13c819169a1",
+          "target": "56996a6c6095403e98af89ac7492be59",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ac05ae75d06b4b5fa492c4406261a343",
+          "edgeType": "Edge",
+          "source": "56996a6c6095403e98af89ac7492be59",
           "target": "42c0f8e5dbc145e8927936e6222882cf",
           "sourcePort": "",
           "targetPort": ""
@@ -122,13 +399,31 @@
       "name": "user",
       "table": "sys_user",
       "varType": "reference"
+    },
+    "fdcdc7c387694af5bf720012b56cd943": {
+      "id": "fdcdc7c387694af5bf720012b56cd943",
+      "name": "chooseeval",
+      "label": "Chooseeval",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Self-Evaluation",
+          "value": "Self Evaluation"
+        },
+        {
+          "label": "Manager Evaluation",
+          "value": "Manager Evaluation",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
     }
   }
 }</graph>
-        <key_phrases>My Contribution - Self Evaluation</key_phrases>
+        <key_phrases>Self &amp; Manager Evaluation</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>My Contribution - Self Evaluation</name>
+        <name>Self &amp; Manager Evaluation</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -142,14 +437,14 @@
         <sys_created_on>2021-11-06 14:17:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>db3fae1b1b277010cb139753b24bcbe0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>My Contribution - Self Evaluation</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Self &amp; Manager Evaluation</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_db3fae1b1b277010cb139753b24bcbe0</sys_update_name>
-        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
-        <sys_updated_on>2021-11-06 14:23:56</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-01 13:05:02</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

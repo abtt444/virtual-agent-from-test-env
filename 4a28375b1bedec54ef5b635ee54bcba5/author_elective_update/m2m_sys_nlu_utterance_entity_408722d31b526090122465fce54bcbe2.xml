@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"when i sell {{phrase=\"leave\"}} days will it appear on my salary slip","start":12,"end":16}]</annotation>
+        <entity display_value="Leave">1fe1a3031b0260d0ef5b635ee54bcb86</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 14:14:06</sys_created_on>
+        <sys_id>408722d31b526090122465fce54bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave.when i sell leave days will it appear on my salary slip</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_408722d31b526090122465fce54bcbe2</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 14:14:06</sys_updated_on>
+        <utterance display_value="when i sell leave days will it appear on my salary slip">1377ead31b526090122465fce54bcbe4</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_408722d31b526090122465fce54bcbe2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"when i sell {{phrase=\"leave\"}} days will it appear on my salary slip","start":12,"end":16}]</annotation>
+        <entity display_value="Leave">1fe1a3031b0260d0ef5b635ee54bcb86</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 14:14:06</sys_created_on>
+        <sys_id>408722d31b526090122465fce54bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave.when i sell leave days will it appear on my salary slip</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_408722d31b526090122465fce54bcbe2</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 14:14:06</sys_updated_on>
+        <utterance display_value="when i sell leave days will it appear on my salary slip">1377ead31b526090122465fce54bcbe4</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>-43208007</payload_hash>
+        <record_name>Leave.when i sell leave days will it appear on my salary slip</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:22</sys_created_on>
+        <sys_id>57fb5bdf87db3050c386fd99cebb3564</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64f9b2a0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:22</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>93fb5bdf14db3050d82908f75ea68b64</update_guid>
+        <update_guid_history>93fb5bdf14db3050d82908f75ea68b64:0,9498531f071f7450e966bf35c73da9cd:-735011859,12b1f0d0c99f30104e21428aecf39b12:0,9edff027aa4b7810dff4a3a9f814f5cc:-2006151532,a63d7ccf2cc3b410c2fd1781b090649a:0,5107a8c7c543b410162e9aa1e09f9c7b:-887675446,148bccc3df8f74102b8c97917add0b6a:0,ee280847af4f7410906c1b076b54c8b2:-1060093522,088722d3ee5260908d0d23cf27edf8e3:-1465788939</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 10:42:13">a46249661b3f7010cb139753b24bcb21</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 08:42:13</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>1a53b2d4e5f44e9daa0df8efc4bfdf61</sys_id>
+        <sys_metadata>408722d31b526090122465fce54bcbe2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave.when i sell leave days will it appear on my salary slip</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_408722d31b526090122465fce54bcbe2</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_408722d31b526090122465fce54bcbe2">57fb5bdf87db3050c386fd99cebb3564</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:42:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

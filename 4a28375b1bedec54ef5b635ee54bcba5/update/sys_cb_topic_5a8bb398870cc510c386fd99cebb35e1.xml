@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "647a6971561d4348940ad5e0a665ea7e": {
+          "id": "647a6971561d4348940ad5e0a665ea7e",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "af536b783f814c10aca5b96d57d4aa16": {
+          "id": "af536b783f814c10aca5b96d57d4aa16",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "5758292f43a04699ac6e66552f69feb2": {
+          "id": "5758292f43a04699ac6e66552f69feb2",
+          "stepType": "TextOutput",
+          "name": "Response",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Your mental health is important to us at Absa and we want to help you where we can. If you are feeling burnt out, tired or emotionally strained at the moment, take a moment for yourself and follow some of our "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012671",
+                    "children": [
+                      {
+                        "text": "suggested steps"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " on how to alleviate fatigue. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Sometimes you may feel overwhelmed when you find that what worked well for you in the past is no longer working for you at the moment. If so, let us help you reimagine your routine and "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012653",
+                    "children": [
+                      {
+                        "text": "Plan for Possibility"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ".  "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "If you or your mental health is suffering, or if you need help or advice please reach out to ICAS 0800 611 262 (request a call-back by dialling *134*905#)."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "a67aa4bff68543a5a661e7c58d887cca",
+          "edgeType": "Edge",
+          "source": "647a6971561d4348940ad5e0a665ea7e",
+          "target": "5758292f43a04699ac6e66552f69feb2",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9639ae41ffbe433483839a89ba007c6a",
+          "edgeType": "Edge",
+          "source": "5758292f43a04699ac6e66552f69feb2",
+          "target": "af536b783f814c10aca5b96d57d4aa16",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Plan for Possibility</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Plan for Possibility</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 08:40:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5a8bb398870cc510c386fd99cebb35e1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Plan for Possibility</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_5a8bb398870cc510c386fd99cebb35e1</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 08:26:16</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=5a8bb398870cc510c386fd99cebb35e1"/>
+</record_update>

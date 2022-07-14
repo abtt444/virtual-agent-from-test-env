@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "e04427f7ff7c4c4b999aa1dbffb63cae": {
+          "id": "e04427f7ff7c4c4b999aa1dbffb63cae",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "ea270e7baef24783808ffdb7f7006853": {
+          "id": "ea270e7baef24783808ffdb7f7006853",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "ef4fc03d6ec34b5eb899c76af1d9e748": {
+          "id": "ef4fc03d6ec34b5eb899c76af1d9e748",
+          "stepType": "TextOutput",
+          "name": "Absa Leadership Academy",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "For those wanting to develop their leadership skills, the Absa Leadership Academy offers multiple leadership and management programmes. The academy develops distinctive leaders for Absa and Africa undefined by age, organisational tenure, qualification or job title. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "If you are interested in starting your journey to becoming an inspirational leader,  follow the steps in this "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012638",
+                    "children": [
+                      {
+                        "text": "knowledge article"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "7b7917e60a884e8c82ed4079cf2997ef",
+          "edgeType": "Edge",
+          "source": "e04427f7ff7c4c4b999aa1dbffb63cae",
+          "target": "ef4fc03d6ec34b5eb899c76af1d9e748",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "78724670d228456ea7c7a48f1525dc4e",
+          "edgeType": "Edge",
+          "source": "ef4fc03d6ec34b5eb899c76af1d9e748",
+          "target": "ea270e7baef24783808ffdb7f7006853",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Absa Leadership Academy</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Absa Leadership Academy</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-18 14:42:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e0282497877f3410c386fd99cebb3576</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Absa Leadership Academy</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_e0282497877f3410c386fd99cebb3576</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 07:36:06</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=e0282497877f3410c386fd99cebb3576"/>
+</record_update>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Retrive Payslip ">1af65a871b8620d0ef5b635ee54bcb79</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 12:20:01</sys_created_on>
+        <sys_id>ac6d0adf1b5e2090122465fce54bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>please retrieve my payslip with my monthly income</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_ac6d0adf1b5e2090122465fce54bcb24</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 12:20:01</sys_updated_on>
+        <utterance>please retrieve my payslip with my monthly income</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_ac6d0adf1b5e2090122465fce54bcb24</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Retrive Payslip ">1af65a871b8620d0ef5b635ee54bcb79</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 12:20:01</sys_created_on>
+        <sys_id>ac6d0adf1b5e2090122465fce54bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>please retrieve my payslip with my monthly income</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_ac6d0adf1b5e2090122465fce54bcb24</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 12:20:01</sys_updated_on>
+        <utterance>please retrieve my payslip with my monthly income</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-654587243</payload_hash>
+        <record_name>please retrieve my payslip with my monthly income</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:56</sys_created_on>
+        <sys_id>0a5c53d3871f3050c386fd99cebb35f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65107b90000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:56</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>465c53d32f1f3050b04b009f2d1040f3</update_guid>
+        <update_guid_history>465c53d32f1f3050b04b009f2d1040f3:0,fca85b1fce1f74503cae34fb805df295:-1285340372,2b027094589f30108d9bf39a6a61cc16:0,69eff827f04b78100a1bc30389b1f73e:-1890776056,ff8d3c833f07b410e88dbfa292419126:0,0017a00be843b410813f2aa0139e9412:-588830278,03db80c7d78f741028e0dbc4f5a6e406:0,3138cc47f54f7410284c3d52917cad02:-1962011658,606d0adf2e5e20909c3edd4f44fa7d26:35500368</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:33:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>b8203020d2f447e58256305bc6e2f039</sys_id>
+        <sys_metadata>ac6d0adf1b5e2090122465fce54bcb24</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>please retrieve my payslip with my monthly income</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_ac6d0adf1b5e2090122465fce54bcb24</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_ac6d0adf1b5e2090122465fce54bcb24">0a5c53d3871f3050c386fd99cebb35f3</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:33:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

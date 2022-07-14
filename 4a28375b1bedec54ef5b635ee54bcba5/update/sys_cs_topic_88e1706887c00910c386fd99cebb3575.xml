@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Self-Screening To Return To Work">62d078a487c00910c386fd99cebb3576</cb_topic_id>
+        <channels/>
+        <definition>{"id":"62d078a487c00910c386fd99cebb3576","name":"Self-Screening To Return To Work","system_topic":false,"autopilot_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Self-Screening To Return To Work","applicability":"true","categories":[],"key_phrases":["Self-Screening To Return To Work"],"variables":[{"name":"__segment_trigger_8b5a1907bc4b4679b54b683d5c2c9ae1_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_1cbd9ae94a5c41101ae73846fd6ec378","unique":false,"default_value":"true","key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_d8bd9ae9335c4110138810f27cd91678","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_TerminateGoal_b97097cbdcab45998662933fffd1f95f","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_Decision_RootDecision_98bd9ae9425c41107b9500efc0b01678","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_OutputPrompt_cf31aa7b12084aed9cb8974faa6fe7ba","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_StartGoal_563de52b22e34ccba4c1ea5ea66b5b63","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_8b5a1907bc4b4679b54b683d5c2c9ae1_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_1cbd9ae94a5c41101ae73846fd6ec378\");vaInputs.initialize(\"__silent_StartGoal_563de52b22e34ccba4c1ea5ea66b5b63\");vaInputs.initialize(\"__silent_OutputPrompt_cf31aa7b12084aed9cb8974faa6fe7ba\");vaInputs.initialize(\"__silent_TerminateGoal_b97097cbdcab45998662933fffd1f95f\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_d8bd9ae9335c4110138810f27cd91678\");vaInputs.initialize(\"__silent_Decision_RootDecision_98bd9ae9425c41107b9500efc0b01678\");null;","fields":[{"name":"__silent_Decision_RootDecision_98bd9ae9425c41107b9500efc0b01678","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_98bd9ae9425c41107b9500efc0b01678\";vaInputs.__silent_Decision_RootDecision_98bd9ae9425c41107b9500efc0b01678=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_98bd9ae9425c41107b9500efc0b01678\";var ackMsg=null;ackMsg=null;vaInputs.RootDecisionBranch_1cbd9ae94a5c41101ae73846fd6ec378=true;ackMsg;"},{"name":"__silent_Branch_RootDecisionBranch_d8bd9ae9335c4110138810f27cd91678","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_98bd9ae9425c41107b9500efc0b01678\" &amp;&amp; ((vaInputs.RootDecisionBranch_1cbd9ae94a5c41101ae73846fd6ec378.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_d8bd9ae9335c4110138810f27cd91678___RootDecisionBranch_d8bd9ae9335c4110138810f27cd91678\";vaInputs.__silent_Branch_RootDecisionBranch_d8bd9ae9335c4110138810f27cd91678=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_d8bd9ae9335c4110138810f27cd91678___RootDecisionBranch_d8bd9ae9335c4110138810f27cd91678\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_StartGoal_563de52b22e34ccba4c1ea5ea66b5b63","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_d8bd9ae9335c4110138810f27cd91678___RootDecisionBranch_d8bd9ae9335c4110138810f27cd91678\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___563de52b22e34ccba4c1ea5ea66b5b63\";vaInputs.__silent_StartGoal_563de52b22e34ccba4c1ea5ea66b5b63=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___563de52b22e34ccba4c1ea5ea66b5b63\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_OutputPrompt_cf31aa7b12084aed9cb8974faa6fe7ba","applicable":"vaVars.previous_graph_node==\"Start___563de52b22e34ccba4c1ea5ea66b5b63\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Intro___cf31aa7b12084aed9cb8974faa6fe7ba\";vaInputs.__silent_OutputPrompt_cf31aa7b12084aed9cb8974faa6fe7ba=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Intro___cf31aa7b12084aed9cb8974faa6fe7ba\";var ackMsg=null;ackMsg=(function execute() {return gs.getMessageLang(\"For those wishing to return to Absa offices, you will be required to perform a self-screening survey. \\n\\nMore information on the self-screening procedure can be found [here](https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012637).\", vaContext.getRequesterLang());})();ackMsg;","acknowledge_msg_mask_type":"NONE"},{"name":"__silent_TerminateGoal_b97097cbdcab45998662933fffd1f95f","applicable":"vaVars.previous_graph_node==\"Intro___cf31aa7b12084aed9cb8974faa6fe7ba\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___b97097cbdcab45998662933fffd1f95f\";vaInputs.__silent_TerminateGoal_b97097cbdcab45998662933fffd1f95f=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___b97097cbdcab45998662933fffd1f95f\";var ackMsg=null;ackMsg=null;vaVars.__segment_trigger_8b5a1907bc4b4679b54b683d5c2c9ae1_done=true;ackMsg;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"expose_on_palette":false,"palette_label":"","flexible_conversation_switching":false,"design_categories":[],"nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"triggerable_by_notification":false,"score":0.0,"visible":true,"discoverable":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Self-Screening To Return To Work","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category/>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Self-Screening To Return To Work</key_phrases>
+        <last_published_on>2021-12-08 09:18:37</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>SKN RTRN ARK SLF</metaphone>
+        <name>Self-Screening To Return To Work</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-22 12:37:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>88e1706887c00910c386fd99cebb3575</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Self-Screening To Return To Work</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_88e1706887c00910c386fd99cebb3575</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 09:18:37</sys_updated_on>
+        <title>Self-Screening To Return To Work</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=88e1706887c00910c386fd99cebb3575"/>
+</record_update>

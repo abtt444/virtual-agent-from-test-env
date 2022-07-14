@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":39,"end":47,"annotatedString":"what measures are in place at Absa for {{phrase=\"covid-19?\"}}","cat":null}]</annotation>
+        <entity display_value="Covid">728f41ea1b7f7010cb139753b24bcb31</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 09:40:56</sys_created_on>
+        <sys_id>e8df852e1b7f7010cb139753b24bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Covid.what measures are in place at Absa for covid-19?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_e8df852e1b7f7010cb139753b24bcbbe</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 09:40:56</sys_updated_on>
+        <utterance display_value="what measures are in place at Absa for covid-19?">cef61a871b8620d0ef5b635ee54bcbd3</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

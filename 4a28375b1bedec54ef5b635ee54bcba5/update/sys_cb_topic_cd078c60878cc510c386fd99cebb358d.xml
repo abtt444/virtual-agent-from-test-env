@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "12f39dc680684756a7ed14def82fa985": {
+          "id": "12f39dc680684756a7ed14def82fa985",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "38fbf30baff44695aa4efb11bf01419e": {
+          "id": "38fbf30baff44695aa4efb11bf01419e",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "42a9507bf7634ebab56025dac197691c": {
+          "id": "42a9507bf7634ebab56025dac197691c",
+          "stepType": "TextOutput",
+          "name": "response",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "After working from home for some time, we have all settled into our own routines. While working from home comes with its own advantages,  working away from the safety of our buildings comes with its challenges.  "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You can read the following articles on how to create a safe working environment both online and physically:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012657",
+                    "children": [
+                      {
+                        "text": "Ensuring your safety while working from home"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012615",
+                    "children": [
+                      {
+                        "text": "Secure remote working"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "d761242da4ae48aa9bd7d8ae39c27d01",
+          "edgeType": "Edge",
+          "source": "12f39dc680684756a7ed14def82fa985",
+          "target": "42a9507bf7634ebab56025dac197691c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d556dcbb2b9a48c0af259362c777ff96",
+          "edgeType": "Edge",
+          "source": "42a9507bf7634ebab56025dac197691c",
+          "target": "38fbf30baff44695aa4efb11bf01419e",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Stay Safe At Home - Online &amp; Physically</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Stay Safe At Home - Online &amp; Physically</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 09:30:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cd078c60878cc510c386fd99cebb358d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Stay Safe At Home - Online &amp; Physically</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_cd078c60878cc510c386fd99cebb358d</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 09:02:08</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=cd078c60878cc510c386fd99cebb358d"/>
+</record_update>

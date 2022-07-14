@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:a4a0546887ccc510c386fd99cebb352e:node:220300e884554bdb95c6b428ab782323:field:value</key>
+        <language>en</language>
+        <message>With the whole world being flipped on its head during this global pandemic, most of us have been forced to change the way we interact with work and the world. 
+
+To read more about how you can reimagine your work and shift your mindset to remote working, [click here](https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012617).</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-22 10:24:19</sys_created_on>
+        <sys_id>624394ec87ccc510c386fd99cebb3542</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>va:topic:a4a0546887ccc510c386fd99cebb352e:node:220300e884554bdb95c6b428ab782323:field:value</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_624394ec87ccc510c386fd99cebb3542</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 07:38:31</sys_updated_on>
+    </sys_ui_message>
+</record_update>

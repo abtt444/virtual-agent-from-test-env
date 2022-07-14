@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":26,"end":29,"annotatedString":"i want to be apart of the {{phrase=\"absa\"}} leadership academy","cat":null}]</annotation>
+        <entity display_value="Absa">be95ec5f873f3410c386fd99cebb3590</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-18 14:33:59</sys_created_on>
+        <sys_id>f416a013877f3410c386fd99cebb35bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Absa.i want to be apart of the absa leadership academy</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_f416a013877f3410c386fd99cebb35bb</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-18 14:33:59</sys_updated_on>
+        <utterance display_value="i want to be apart of the absa leadership academy">9f15e45f873f3410c386fd99cebb3567</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

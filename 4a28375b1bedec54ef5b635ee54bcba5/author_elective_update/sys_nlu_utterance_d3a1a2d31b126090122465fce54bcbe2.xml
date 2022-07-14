@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 13:48:39</sys_created_on>
+        <sys_id>d3a1a2d31b126090122465fce54bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I cannot remember my password for the Pension Member Web</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_d3a1a2d31b126090122465fce54bcbe2</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 13:48:39</sys_updated_on>
+        <utterance>I cannot remember my password for the Pension Member Web</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_d3a1a2d31b126090122465fce54bcbe2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 13:48:39</sys_created_on>
+        <sys_id>d3a1a2d31b126090122465fce54bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I cannot remember my password for the Pension Member Web</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_d3a1a2d31b126090122465fce54bcbe2</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 13:48:39</sys_updated_on>
+        <utterance>I cannot remember my password for the Pension Member Web</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-1717689506</payload_hash>
+        <record_name>I cannot remember my password for the Pension Member Web</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:19:04</sys_created_on>
+        <sys_id>546c1bd3871f3050c386fd99cebb3547</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65129ae0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:19:04</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>906c1bd34c1f3050b19a5068ab85c447</update_guid>
+        <update_guid_history>906c1bd34c1f3050b19a5068ab85c447:0,9ff81bdf061f74503249bfa38601a1be:2130644452,e1127494ee9f301087f4b28fd8a88221:0,6630c5e7384b78109b34213029fdcc2f:394041775,029df0c37107b410d9000ade19e54cca:0,94672c8b1543b41069279753f14c91d7:1124193937,11ebc4c7338f741088af67a19c4b7040:0,76888c0bfe4f74102df2c8a5ab37330a:1872960173,93a1a2d3b0126090dfff455f64e3a4e3:-237399687</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 11:57:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>05e486f46eb9431c8027dfa745937b10</sys_id>
+        <sys_metadata>d3a1a2d31b126090122465fce54bcbe2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I cannot remember my password for the Pension Member Web</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_d3a1a2d31b126090122465fce54bcbe2</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_d3a1a2d31b126090122465fce54bcbe2">546c1bd3871f3050c386fd99cebb3547</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:57:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

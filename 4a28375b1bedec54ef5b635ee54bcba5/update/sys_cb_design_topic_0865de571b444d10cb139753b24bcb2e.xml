@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Grievance Process">8465de571b444d10cb139753b24bcb2b</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"06810aedcf354c589f4a1bfbc706c6d2","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"06810aedcf354c589f4a1bfbc706c6d2"}],"goals":[{"name":"primary","trigger_id":"06810aedcf354c589f4a1bfbc706c6d2","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"2d2923b5da6349e7813441f0e5146907","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"1af08f5f60e54fa2b1b10eb4fe661162","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"gs.getMessageLang(\"To speak to a live agent, you can call 0861 721 721.\", vaContext.getRequesterLang())"},"id":"b31a2bf5b2af45f683be96f364407ce0","name":"Intro","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"LinkOutputPrompt","header":{"type":"String","mode":"string","value":"gs.getMessageLang(\"You can take a look at the following knowledge article to find out more about the MyContribution grievance process:\", vaContext.getRequesterLang())"},"label":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Workday\", vaContext.getRequesterLang())"},"url":{"type":"String","mode":"string","value":"www.google.za"},"link_type":"single","multi_link_script":"","id":"bb1fad02df924efa998e3b4edc3f107c","name":"grievance","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"b31a2bf5b2af45f683be96f364407ce0","target_node_id":"1af08f5f60e54fa2b1b10eb4fe661162","id":"9d1a66b9cd7a4c34b27a471039b6cef6"},{"type":"Edge","source_node_id":"2d2923b5da6349e7813441f0e5146907","target_node_id":"bb1fad02df924efa998e3b4edc3f107c","id":"76bbfa16535c4fd4b90f08bf5a1ba9b8"},{"type":"Edge","source_node_id":"bb1fad02df924efa998e3b4edc3f107c","target_node_id":"b31a2bf5b2af45f683be96f364407ce0","id":"e46ee7ed48744049b02cb213f5153b08"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"1ada8b8987888110c386fd99cebb35ee","name":"_PRVW__c4659a1750444d10310c0b701a239fdb","key_phrases":["Grievance Process"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>1ada8b8987888110c386fd99cebb35ee</design_topic_id>
+        <name>_PRVW__c4659a1750444d10310c0b701a239fdb</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-01 08:55:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0865de571b444d10cb139753b24bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_0865de571b444d10cb139753b24bcb2e</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-01 08:55:57</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

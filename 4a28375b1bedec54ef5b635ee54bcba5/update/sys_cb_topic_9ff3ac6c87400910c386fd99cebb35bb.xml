@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "5c432564dae74993a3f3cbd07c2a6d73": {
+          "id": "5c432564dae74993a3f3cbd07c2a6d73",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "4a6d9309e81a40f3ba44d6fa4f4d606d": {
+          "id": "4a6d9309e81a40f3ba44d6fa4f4d606d",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "1c23232151704142b609227e894e4674": {
+          "id": "1c23232151704142b609227e894e4674",
+          "stepType": "TextOutput",
+          "name": "Introi",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Working and travelling overseas or locally is already daunting, and the COVID-19 pandemic makes it even more so."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "922e41ad0a1b4e27a304b7a4806214b7": {
+          "stepType": "ChoicePrompt",
+          "name": "Choice",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Choose one of the following to find out more about how Absa has made it a little easier for you:"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "13d23c371a1b4e4c8fb4232a4c21d644",
+          "id": "922e41ad0a1b4e27a304b7a4806214b7",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "f4117c8277f5406082b0080c57bd7b29": {
+          "id": "f4117c8277f5406082b0080c57bd7b29",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "57dc9928d79646d1b92e756b158aafef": {
+          "id": "57dc9928d79646d1b92e756b158aafef",
+          "stepType": "TextOutput",
+          "name": "Travelling During Covid",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Travelling during the COVID-19 pandemic can be a daunting task, but don't worry, your safety is an utmost priority for us at Absa. Follow the"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012663",
+                    "children": [
+                      {
+                        "text": " steps for travelling during COVID-19"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " to keep you and those around you safe while you travel."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "0b1bb55e692a4c77b8f12b2908f84603": {
+          "id": "0b1bb55e692a4c77b8f12b2908f84603",
+          "stepType": "TextOutput",
+          "name": "International Travelling",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Absa has implemented an effective supporting framework for international remote working that can be used in an  effective, compliant and consistent way. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "To learn more about international remote working and how to work overseas, please refer to the "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1ZJE8D75BVvRnWCxxk20EpmvowsP1QnMe/edit",
+                    "children": [
+                      {
+                        "text": "following knowledge article"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "028efe70d30c4a74add92e8d7fefe0f7",
+          "edgeType": "Edge",
+          "source": "5c432564dae74993a3f3cbd07c2a6d73",
+          "target": "1c23232151704142b609227e894e4674",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "02169d875ce54c6a9e6780eb124f1bac",
+          "edgeType": "Edge",
+          "source": "1c23232151704142b609227e894e4674",
+          "target": "922e41ad0a1b4e27a304b7a4806214b7",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "315f7e398fac47ad9afd5e02bb594dfe",
+          "edgeType": "Edge",
+          "source": "922e41ad0a1b4e27a304b7a4806214b7",
+          "target": "f4117c8277f5406082b0080c57bd7b29",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ca16833f79984f96a868a936c2b96a29",
+          "edgeType": "Branch",
+          "source": "f4117c8277f5406082b0080c57bd7b29",
+          "target": "57dc9928d79646d1b92e756b158aafef",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choice=Travelling during Covid-19",
+            "mode": "query"
+          },
+          "label": "Travelling during Covid-19"
+        },
+        {
+          "id": "f411f6f9ad9c4f6b8adfc174cd8f1e75",
+          "edgeType": "Edge",
+          "source": "57dc9928d79646d1b92e756b158aafef",
+          "target": "4a6d9309e81a40f3ba44d6fa4f4d606d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "983e652dd4ac44fda9dca33405b08a7f",
+          "edgeType": "Branch",
+          "source": "f4117c8277f5406082b0080c57bd7b29",
+          "target": "0b1bb55e692a4c77b8f12b2908f84603",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choice=International remote working",
+            "mode": "query"
+          },
+          "label": "International remote working"
+        },
+        {
+          "id": "a6751ac814b74b39b3e70bdd129dd49b",
+          "edgeType": "Edge",
+          "source": "0b1bb55e692a4c77b8f12b2908f84603",
+          "target": "4a6d9309e81a40f3ba44d6fa4f4d606d",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "13d23c371a1b4e4c8fb4232a4c21d644": {
+      "id": "13d23c371a1b4e4c8fb4232a4c21d644",
+      "name": "choice",
+      "label": "Choice",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "International remote working",
+          "value": "International remote working"
+        },
+        {
+          "label": "Travelling during COVID-19",
+          "value": "Travelling during Covid-19",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Travelling During Covid</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Travelling During Covid</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-22 11:37:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9ff3ac6c87400910c386fd99cebb35bb</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Travelling During Covid</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_9ff3ac6c87400910c386fd99cebb35bb</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 09:16:33</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=9ff3ac6c87400910c386fd99cebb35bb"/>
+</record_update>

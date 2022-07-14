@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>2ef65a871b8620d0ef5b635ee54bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Please can you assist with viewing my pension fund</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_2ef65a871b8620d0ef5b635ee54bcbf7</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+        <utterance>Please can you assist with viewing my pension fund</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_2ef65a871b8620d0ef5b635ee54bcbf7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>2ef65a871b8620d0ef5b635ee54bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Please can you assist with viewing my pension fund</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_2ef65a871b8620d0ef5b635ee54bcbf7</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+        <utterance>Please can you assist with viewing my pension fund</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>870295762</payload_hash>
+        <record_name>Please can you assist with viewing my pension fund</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:30</sys_created_on>
+        <sys_id>773cdf53871f3050c386fd99cebb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650a1cb0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:30</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>b33cdf535a1f3050e64a15f06bebd9b9</update_guid>
+        <update_guid_history>b33cdf535a1f3050e64a15f06bebd9b9:0,eaf8d7dfdd1f7450538f05ee529a0322:138009412,61f1f054759f30102ced5f29cc1cf37b:0,4a3045e7e04b7810996476ae19ec8f2c:1076522097,b97dfc432007b410285fa4bf02264839:0,6b57a88b0c43b4100b40203a1a444dd4:-320683983,90cb44876e8f74100ac0aef947e96044:0,42880c0b684f741072e7355eaf2586c2:-861647285,aef65a87228620d03fd1202bf8be03f8:-1958958087</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 11:57:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>1d2e5731b52c4110a80d1ea1a2f92144</sys_id>
+        <sys_metadata>2ef65a871b8620d0ef5b635ee54bcbf7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Please can you assist with viewing my pension fund</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_2ef65a871b8620d0ef5b635ee54bcbf7</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_2ef65a871b8620d0ef5b635ee54bcbf7">773cdf53871f3050c386fd99cebb35b9</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:57:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

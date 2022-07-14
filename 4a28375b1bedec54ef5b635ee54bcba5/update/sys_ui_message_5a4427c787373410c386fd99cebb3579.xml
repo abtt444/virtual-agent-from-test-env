@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>problems come and go, and we want to help you solve yours as fast as possible. 
+for more information, please visit the [it service portal](https://absa.service-now.com/sp?id=index)</key>
+        <language>en</language>
+        <message>Problems come and go, and we want to help you solve yours as fast as possible. 
+For more information, please visit the [IT Service Portal](https://absa.service-now.com/sp?id=index)</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-18 09:46:32</sys_created_on>
+        <sys_id>5a4427c787373410c386fd99cebb3579</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>problems come and go, and we want to help you solve yours as fast as possible. 
+for more information, please visit the [it service portal](https://absa.service-now.com/sp?id=index)</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_5a4427c787373410c386fd99cebb3579</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-18 09:46:32</sys_updated_on>
+    </sys_ui_message>
+</record_update>

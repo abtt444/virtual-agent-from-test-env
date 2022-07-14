@@ -5,21 +5,21 @@
         <nlu_entities>[]</nlu_entities>
         <nlu_intent>Survey Feedback</nlu_intent>
         <nlu_intent_label>Survey Feedback</nlu_intent_label>
-        <nlu_model>global_4a28375b1bedec54ef5b635ee54bcba5_07c696471b8620d0ef5b635ee54bcbfd</nlu_model>
-        <nlu_model_label>Absa HR Chatbot NLU Model - Entities</nlu_model_label>
+        <nlu_model>ml_x_absa2_x_absa2_absa_hr_nl_global_7d23a1ae87ff3810c386fd99cebb35cf</nlu_model>
+        <nlu_model_label>Absa HR Chatbot NLU Model Nov</nlu_model_label>
         <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
         <sys_class_name>sys_cb_topic_language</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>
         <sys_created_on>2021-01-27 10:19:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>66be989c1b86ac50122465fce54bcbdb</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_language_66be989c1b86ac50122465fce54bcbdb</sys_update_name>
-        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
-        <sys_updated_on>2021-02-08 15:18:43</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-25 07:40:10</sys_updated_on>
     </sys_cb_topic_language>
 </record_update>

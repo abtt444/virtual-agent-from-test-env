@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
     <sys_cb_topic action="INSERT_OR_UPDATE">
         <applicability/>
-        <applicability_mode/>
+        <applicability_mode>query</applicability_mode>
         <autopilot_topic>false</autopilot_topic>
         <category>617fde951b31a410ef5b635ee54bcb11</category>
         <channels/>
@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>true</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.21.pp4",
+  "graph_api_version": "1.0.36",
   "goals": {
     "primary": {
       "id": "primary",
@@ -44,7 +44,244 @@
           "stepType": "TextOutput",
           "name": "Doctor's Note",
           "value": {
-            "value": "Doctor's Note Response",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "I hope everything went well at the doctor, "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.first_name}}",
+                      "displayValue": "Input Variables➛User➛First name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "secure": false
+        },
+        "79799d33294a468f96411a8347d1ec17": {
+          "stepType": "ChoicePrompt",
+          "name": "choice",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "I can help you with any of the following:"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "88cecfa084534ae19da51f41e72e2a22",
+          "id": "79799d33294a468f96411a8347d1ec17",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "296713fa9b324d86bffbd15622a9ea56": {
+          "id": "296713fa9b324d86bffbd15622a9ea56",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "5e67e7c6f65a43cc859fb2e65ccbe4e7": {
+          "id": "5e67e7c6f65a43cc859fb2e65ccbe4e7",
+          "stepType": "TextOutput",
+          "name": "howtosubmit",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. On Workday, click on the cloud icon at the top right of your screen then select your name/view profile."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. On the left side of your screen, click on "
+                  },
+                  {
+                    "text": "Actions",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3. Choose "
+                  },
+                  {
+                    "text": "Worker History",
+                    "bold": true
+                  },
+                  {
+                    "text": ", followed by "
+                  },
+                  {
+                    "text": "Maintain Worker Documents",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "4. Click on "
+                  },
+                  {
+                    "text": "Add ",
+                    "bold": true
+                  },
+                  {
+                    "text": "and under "
+                  },
+                  {
+                    "text": "Drop Files",
+                    "bold": true
+                  },
+                  {
+                    "text": ", select the files that you would like to attach. Then click on "
+                  },
+                  {
+                    "text": "OK ",
+                    "bold": true
+                  },
+                  {
+                    "text": "near the bottom left of your screen."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "5. Click on "
+                  },
+                  {
+                    "text": "Done ",
+                    "bold": true
+                  },
+                  {
+                    "text": "near the bottom left of your screen when you have successfully added your document."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "6d7eba0cd001400cbe6dab143c4bd204": {
+          "id": "6d7eba0cd001400cbe6dab143c4bd204",
+          "stepType": "TextOutput",
+          "name": "format",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please attach the doctor's note in PDF format. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "3b8b36b4335841ef8ae7e6e386326e16": {
+          "id": "3b8b36b4335841ef8ae7e6e386326e16",
+          "stepType": "TextOutput",
+          "name": "whensubmit",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Normally, your sick leave can be submitted on Workday without a doctor's note. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "However, a doctor's notes is required when capturing sick leave of more than two days or when sick leave is taken on more than two occasions in an eight-week period."
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
@@ -66,6 +303,77 @@
           "id": "f1b3b88291c04f948d624905ce24cffa",
           "edgeType": "Edge",
           "source": "276212598aea459293eccd930398210c",
+          "target": "79799d33294a468f96411a8347d1ec17",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "747362ea095b48518a7769e14a13ac42",
+          "edgeType": "Edge",
+          "source": "79799d33294a468f96411a8347d1ec17",
+          "target": "296713fa9b324d86bffbd15622a9ea56",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "842cfb4f362d4c329a0195acc4e9184c",
+          "edgeType": "Branch",
+          "source": "296713fa9b324d86bffbd15622a9ea56",
+          "target": "5e67e7c6f65a43cc859fb2e65ccbe4e7",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choice=How to Submit a Doctor's Note",
+            "mode": "query"
+          },
+          "label": "How to Submit a Doctor's Note"
+        },
+        {
+          "id": "d4272dc8f279400f83f1e4b81c148fbf",
+          "edgeType": "Edge",
+          "source": "5e67e7c6f65a43cc859fb2e65ccbe4e7",
+          "target": "02ba536e34b6421086d6ee114b5b2b0b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "5d3351a733fd431f92ea4f83eee56f60",
+          "edgeType": "Branch",
+          "source": "296713fa9b324d86bffbd15622a9ea56",
+          "target": "6d7eba0cd001400cbe6dab143c4bd204",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choice=What format do I need to Submit a Doctor's Note In",
+            "mode": "query"
+          },
+          "label": "What format do I need to Submit a Doctor's Note In"
+        },
+        {
+          "id": "8c47feb5d3c64ebe8246df69ec8955a8",
+          "edgeType": "Edge",
+          "source": "6d7eba0cd001400cbe6dab143c4bd204",
+          "target": "02ba536e34b6421086d6ee114b5b2b0b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1c134b95876e4bb68d1839de44000d4f",
+          "edgeType": "Branch",
+          "source": "296713fa9b324d86bffbd15622a9ea56",
+          "target": "3b8b36b4335841ef8ae7e6e386326e16",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choice=When do I need to submit a doctor's note",
+            "mode": "query"
+          },
+          "label": "When do I need to submit a doctor's note"
+        },
+        {
+          "id": "b371d599c6e9460292eb93ef553f113f",
+          "edgeType": "Edge",
+          "source": "3b8b36b4335841ef8ae7e6e386326e16",
           "target": "02ba536e34b6421086d6ee114b5b2b0b",
           "sourcePort": "",
           "targetPort": ""
@@ -81,13 +389,36 @@
       "name": "user",
       "table": "sys_user",
       "varType": "reference"
+    },
+    "88cecfa084534ae19da51f41e72e2a22": {
+      "id": "88cecfa084534ae19da51f41e72e2a22",
+      "name": "choice",
+      "label": "Choice",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "How to submit a doctor's note",
+          "value": "How to submit a Doctor's Note"
+        },
+        {
+          "label": "When do I need to submit a doctor's note?",
+          "value": "When do I need to submit a doctor's note",
+          "checked": true
+        },
+        {
+          "label": "What format do I need to Submit a doctor's note in?",
+          "value": "What format do I need to Submit a Doctor's Note In",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
     }
   }
 }</graph>
-        <key_phrases>Doctor's Note</key_phrases>
+        <key_phrases>Sick Leave Doctor's Note</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>Doctor's Note</name>
+        <name>Sick Leave Doctor's Note</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -101,14 +432,14 @@
         <sys_created_on>2021-01-18 12:02:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>842022d51b31a410ef5b635ee54bcba7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Doctor's Note</sys_name>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Sick Leave Doctor's Note</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_842022d51b31a410ef5b635ee54bcba7</sys_update_name>
-        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
-        <sys_updated_on>2021-01-18 12:02:59</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-30 10:18:33</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

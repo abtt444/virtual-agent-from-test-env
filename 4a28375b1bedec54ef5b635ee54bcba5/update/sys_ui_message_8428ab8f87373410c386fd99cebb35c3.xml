@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:c1085bcf87b33410c386fd99cebb3512:node:016054afd6b7422da833d358a9a0be12:field:value</key>
+        <language>en</language>
+        <message>Problems come and go, and we want to help you solve your technical problems as fast as possible. Click on the links below for: 
+
+1. [Resetting your password or unlocking your account](https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012667)
+2. [Self-service channels for faster technical assistance](https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012650)
+3. If you are an existing employee and need more information about acquiring a new laptop, you can do so by visiting the [IT Service Portal](https://absa.service-now.com/sp?id=index) or by dialling 0861 721 721.
+
+For more information, please visit the [IT Service Portal](https://absa.service-now.com/sp?id=index).</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-18 10:03:19</sys_created_on>
+        <sys_id>8428ab8f87373410c386fd99cebb35c3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>va:topic:c1085bcf87b33410c386fd99cebb3512:node:016054afd6b7422da833d358a9a0be12:field:value</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_8428ab8f87373410c386fd99cebb35c3</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 09:04:10</sys_updated_on>
+    </sys_ui_message>
+</record_update>

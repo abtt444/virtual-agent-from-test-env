@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="MyContribution Rating Scale">7d1a6efa1b733410cb139753b24bcb05</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"677ed8caef174cdab22e7b91422d3b06","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"677ed8caef174cdab22e7b91422d3b06"}],"goals":[{"name":"primary","trigger_id":"677ed8caef174cdab22e7b91422d3b06","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"16fee0377bae4c1aa01968b81d43ce9a","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"63cb5449bc454dc4b8236ca0401efc1e","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"gs.getMessageLang(\"You can find all you need to know about the MyContribution Rating Scale [here](https://absahr.service-now.com/my_contribution?id=rating_scale).\", vaContext.getRequesterLang())"},"id":"b5507d90d6d74d559ac4cea4826a965b","name":"ratingscale","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"16fee0377bae4c1aa01968b81d43ce9a","target_node_id":"b5507d90d6d74d559ac4cea4826a965b","id":"c97dc7a4ce274fc9804372a7abbfdea9"},{"type":"Edge","source_node_id":"b5507d90d6d74d559ac4cea4826a965b","target_node_id":"63cb5449bc454dc4b8236ca0401efc1e","id":"7aaa3016ab2f49f39c064b418501b0fd"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"10796eba1b733410cb139753b24bcb9c","name":"MyContribution Rating Scale","key_phrases":["MyContribution Rating Scale"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>10796eba1b733410cb139753b24bcb9c</design_topic_id>
+        <name>MyContribution Rating Scale</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-17 10:53:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>311a6efa1b733410cb139753b24bcb0c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>MyContribution Rating Scale</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_311a6efa1b733410cb139753b24bcb0c</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-01 12:58:05</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

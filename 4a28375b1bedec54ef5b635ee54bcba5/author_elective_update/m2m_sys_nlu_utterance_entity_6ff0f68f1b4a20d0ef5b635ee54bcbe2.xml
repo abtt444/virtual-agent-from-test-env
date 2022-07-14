@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"where can I find my {{phrase=\"payslip\"}}","start":20,"end":26}]</annotation>
+        <entity display_value="Payslip">dff03a8f1b4a20d0ef5b635ee54bcb75</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 10:01:24</sys_created_on>
+        <sys_id>6ff0f68f1b4a20d0ef5b635ee54bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payslip.where can I find my payslip </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_6ff0f68f1b4a20d0ef5b635ee54bcbe2</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:01:24</sys_updated_on>
+        <utterance display_value="where can I find my payslip ">12f65a871b8620d0ef5b635ee54bcb7f</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_6ff0f68f1b4a20d0ef5b635ee54bcbe2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"where can I find my {{phrase=\"payslip\"}}","start":20,"end":26}]</annotation>
+        <entity display_value="Payslip">dff03a8f1b4a20d0ef5b635ee54bcb75</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 10:01:24</sys_created_on>
+        <sys_id>6ff0f68f1b4a20d0ef5b635ee54bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payslip.where can I find my payslip </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_6ff0f68f1b4a20d0ef5b635ee54bcbe2</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:01:24</sys_updated_on>
+        <utterance display_value="where can I find my payslip ">12f65a871b8620d0ef5b635ee54bcb7f</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>-499573278</payload_hash>
+        <record_name>Payslip.where can I find my payslip </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:33</sys_created_on>
+        <sys_id>790cdfdf87db3050c386fd99cebb3597</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64fc49d0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:33</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>b50cdfdf5ddb3050054aa2957d8be997</update_guid>
+        <update_guid_history>b50cdfdf5ddb3050054aa2957d8be997:0,04a81b1fca1f745047b98f6843d3c93f:1306274376,68c138d0279f3010225228f97b595e76:0,81efb8278e4b7810723664f1c52c2f69:-2013665930,344df003f607b410c3b7a3732a932a24:0,a707200b9e43b410dac85737d6a6befe:-1128473863,368b0407a68f7410749e92c55a6915db:0,41384c47254f7410e59cd6e25a9e15c9:-320701808,27f0f68fa24a20d012731307146f30e4:-832105818</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 14:33:37">0257b1261bb3b010cb139753b24bcbe0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:33:37</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>7f8f79c7c19d4a92a21a923bcfd05584</sys_id>
+        <sys_metadata>6ff0f68f1b4a20d0ef5b635ee54bcbe2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payslip.where can I find my payslip </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_6ff0f68f1b4a20d0ef5b635ee54bcbe2</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_6ff0f68f1b4a20d0ef5b635ee54bcbe2">790cdfdf87db3050c386fd99cebb3597</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:33:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

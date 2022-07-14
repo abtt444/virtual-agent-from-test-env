@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 13:35:09</sys_created_on>
+        <sys_id>919e9e131b126090122465fce54bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>how long does it take to get results from a covid test</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_919e9e131b126090122465fce54bcb7b</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 13:35:09</sys_updated_on>
+        <utterance>how long does it take to get results from a covid test</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_919e9e131b126090122465fce54bcb7b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Covid-19 Information">38f656871b8620d0ef5b635ee54bcbf0</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 13:35:09</sys_created_on>
+        <sys_id>919e9e131b126090122465fce54bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>how long does it take to get results from a covid test</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_919e9e131b126090122465fce54bcb7b</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 13:35:09</sys_updated_on>
+        <utterance>how long does it take to get results from a covid test</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-1759741900</payload_hash>
+        <record_name>how long does it take to get results from a covid test</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:50</sys_created_on>
+        <sys_id>f05c9f93871f3050c386fd99cebb35f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650f2040000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:50</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>305c9f93f21f30502b2a61d795fe56f4</update_guid>
+        <update_guid_history>305c9f93f21f30502b2a61d795fe56f4:0,97a8df1fd51f7450c60fb506b6864730:1550752065,d202bc54d69f3010267f61bc23c85f3f:0,4cfffc27a34b78108c32f59a701b1fc2:1921887140,6a8d38831e07b410012317bc5d6fb5f8:0,6617a40be243b410c4372ba124ec167d:1438091010,addbcc87f48f7410c1041066a2c11f42:0,14484487314f74103682769e4a0e92d9:1858574489,519e9e13c21260905dc18052b94a0f7c:-250448873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 09:53:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>048bb1a865774880878e9f3414064000</sys_id>
+        <sys_metadata>919e9e131b126090122465fce54bcb7b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>how long does it take to get results from a covid test</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_919e9e131b126090122465fce54bcb7b</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_919e9e131b126090122465fce54bcb7b">f05c9f93871f3050c386fd99cebb35f4</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 09:53:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

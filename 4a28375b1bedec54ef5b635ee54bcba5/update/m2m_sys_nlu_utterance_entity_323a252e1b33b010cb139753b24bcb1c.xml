@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":18,"end":24,"annotatedString":"How can i view my {{phrase=\"pension\"}} fund","cat":null}]</annotation>
+        <entity display_value="Pension">3123adae87ff3810c386fd99cebb35ad</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 11:36:19</sys_created_on>
+        <sys_id>323a252e1b33b010cb139753b24bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.How can i view my pension fund</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_323a252e1b33b010cb139753b24bcb1c</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:36:19</sys_updated_on>
+        <utterance display_value="How can i view my pension fund">eb46ed621b33b010cb139753b24bcb46</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"start":57,"end":61,"annotatedString":" If I work additional hours even though I'm working from {{phrase=\"home,\"}} will I be paid overtime?","cat":null}]</annotation>
+        <entity display_value="Leave">3923adae87ff3810c386fd99cebb3598</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-08 13:08:27</sys_created_on>
+        <sys_id>074297e987548110c386fd99cebb350c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave. If I work additional hours even though I'm working from home, will I be paid overtime?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_074297e987548110c386fd99cebb350c</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 13:08:27</sys_updated_on>
+        <utterance display_value=" If I work additional hours even though I'm working from home, will I be paid overtime?">d723e1ee87ff3810c386fd99cebb35e6</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_074297e987548110c386fd99cebb350c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"start":57,"end":61,"annotatedString":" If I work additional hours even though I'm working from {{phrase=\"home,\"}} will I be paid overtime?","cat":null}]</annotation><entity display_value="Leave">3923adae87ff3810c386fd99cebb3598</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>AB019AK</sys_created_by><sys_created_on>2021-12-08 13:08:27</sys_created_on><sys_id>074297e987548110c386fd99cebb350c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Leave. If I work additional hours even though I'm working from home, will I be paid overtime?</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_074297e987548110c386fd99cebb350c</sys_update_name><sys_updated_by>AB019AK</sys_updated_by><sys_updated_on>2021-12-08 13:08:27</sys_updated_on><utterance display_value=" If I work additional hours even though I'm working from home, will I be paid overtime?">d723e1ee87ff3810c386fd99cebb35e6</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>1975082154</payload_hash>
+        <record_name>Leave. If I work additional hours even though I'm working from home, will I be paid overtime?</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-08 13:08:27</sys_created_on>
+        <sys_id>4b4297e987548110c386fd99cebb3510</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d9a28d5eb0000001</sys_recorded_at>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 13:08:27</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>434297e9955481108670e13c7de79f10</update_guid>
+        <update_guid_history>434297e9955481108670e13c7de79f10:1975082154</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-12-08 15:09:24">c182dfe987548110c386fd99cebb359f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-08 13:09:24</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>67a26a65f5074a5dbbda8a3fbd94d049</sys_id>
+        <sys_metadata>074297e987548110c386fd99cebb350c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave. If I work additional hours even though I'm working from home, will I be paid overtime?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_074297e987548110c386fd99cebb350c</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_074297e987548110c386fd99cebb350c">4b4297e987548110c386fd99cebb3510</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 13:09:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":9,"end":20,"annotatedString":"I use my {{phrase=\"personal car\"}} for business travel and need to claim","cat":null},{"start":26,"end":40,"annotatedString":"I use my personal car for {{phrase=\"business travel\"}} and need to claim","cat":null}]</annotation>
+        <entity display_value="Travel">bd23adae87ff3810c386fd99cebb35c9</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-18 08:49:27</sys_created_on>
+        <sys_id>8e379b8f87b33410c386fd99cebb3574</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Travel.I use my personal car for business travel and need to claim</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_8e379b8f87b33410c386fd99cebb3574</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-18 08:49:32</sys_updated_on>
+        <utterance display_value="I use my personal car for business travel and need to claim">f037db8f87b33410c386fd99cebb35a0</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

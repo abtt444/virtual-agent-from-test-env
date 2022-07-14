@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:5a8bb398870cc510c386fd99cebb35e1:node:5758292f43a04699ac6e66552f69feb2:field:value</key>
+        <language>en</language>
+        <message>Your mental health is important to us at Absa and we want to help you where we can. If you are feeling burnt out, tired or emotionally strained at the moment, take a moment for yourself and follow some of our [suggested steps](https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012671) on how to alleviate fatigue. 
+
+Sometimes you may feel overwhelmed when you find that what worked well for you in the past is no longer working for you at the moment. If so, let us help you reimagine your routine and [Plan for Possibility](https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012653).  
+
+If you or your mental health is suffering, or if you need help or advice please reach out to ICAS 0800 611 262 (request a call-back by dialling \\*134\\*905\\#).</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 08:57:53</sys_created_on>
+        <sys_id>2c8f7390874cc510c386fd99cebb3539</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>va:topic:5a8bb398870cc510c386fd99cebb35e1:node:5758292f43a04699ac6e66552f69feb2:field:value</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_2c8f7390874cc510c386fd99cebb3539</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 08:26:33</sys_updated_on>
+    </sys_ui_message>
+</record_update>

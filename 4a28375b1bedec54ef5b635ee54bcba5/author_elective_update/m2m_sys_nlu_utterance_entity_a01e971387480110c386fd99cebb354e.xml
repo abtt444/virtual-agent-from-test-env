@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"start":0,"end":16,"annotatedString":"{{phrase=\"Grievance process\"}}","cat":null}]</annotation>
+        <entity display_value="Day">3123adae87ff3810c386fd99cebb35a7</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-01 14:13:34</sys_created_on>
+        <sys_id>a01e971387480110c386fd99cebb354e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Day.Grievance process</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_a01e971387480110c386fd99cebb354e</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-01 14:13:34</sys_updated_on>
+        <utterance display_value="Grievance process">602c1bdb87080110c386fd99cebb353b</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_a01e971387480110c386fd99cebb354e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"start":0,"end":16,"annotatedString":"{{phrase=\"Grievance process\"}}","cat":null}]</annotation><entity display_value="Day">3123adae87ff3810c386fd99cebb35a7</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>AB019AK</sys_created_by><sys_created_on>2021-12-01 14:13:34</sys_created_on><sys_id>a01e971387480110c386fd99cebb354e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Day.Grievance process</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_a01e971387480110c386fd99cebb354e</sys_update_name><sys_updated_by>AB019AK</sys_updated_by><sys_updated_on>2021-12-01 14:13:34</sys_updated_on><utterance display_value="Grievance process">602c1bdb87080110c386fd99cebb353b</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-1417819591</payload_hash>
+        <record_name>Day.Grievance process</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-01 14:13:34</sys_created_on>
+        <sys_id>ac1e1b1387480110c386fd99cebb35b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d7657f1660000001</sys_recorded_at>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-01 14:13:34</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>ec1e971378480110a1e85b8f7ac9114f</update_guid>
+        <update_guid_history>ec1e971378480110a1e85b8f7ac9114f:-1417819591</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-12-01 16:13:44">031e9b1387480110c386fd99cebb3551</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-01 14:13:44</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>b6463b48c246482c91e60af037ebf290</sys_id>
+        <sys_metadata>a01e971387480110c386fd99cebb354e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Day.Grievance process</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_a01e971387480110c386fd99cebb354e</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_a01e971387480110c386fd99cebb354e">ac1e1b1387480110c386fd99cebb35b1</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-01 14:13:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>e6f69a871b8620d0ef5b635ee54bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can I view my pension in workday?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_e6f69a871b8620d0ef5b635ee54bcb1f</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+        <utterance>Can I view my pension in workday?</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_e6f69a871b8620d0ef5b635ee54bcb1f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="View Pension">eef65a871b8620d0ef5b635ee54bcbf5</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>e6f69a871b8620d0ef5b635ee54bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can I view my pension in workday?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_e6f69a871b8620d0ef5b635ee54bcb1f</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+        <utterance>Can I view my pension in workday?</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-561762924</payload_hash>
+        <record_name>Can I view my pension in workday?</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:19:08</sys_created_on>
+        <sys_id>456cdbd3871f3050c386fd99cebb35a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb651382f0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:19:08</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>816cdbd3531f30503ff27e4a428c86a4</update_guid>
+        <update_guid_history>816cdbd3531f30503ff27e4a428c86a4:0,ebf85bdf391f7450584be68d6c7afa12:1563069961,9a12f494659f3010bf749f159c9bec13:0,7a30c5e7434b78101704089efb4aaca3:1906989998,769d74c3c007b41095f9d526d3f5c6d5:0,90676c8bf843b4100e43ec9fe984c83f:-330806875,deeb88c7638f74106ad612a48418af85:0,7e888c0b984f7410dff057ba5624844c:1904850644,2af69a87028620d05d3f40d8c1a8ee20:272692097</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 11:57:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>181ce2e3b0e34bf487d660bc96e3e751</sys_id>
+        <sys_metadata>e6f69a871b8620d0ef5b635ee54bcb1f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can I view my pension in workday?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_e6f69a871b8620d0ef5b635ee54bcb1f</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_e6f69a871b8620d0ef5b635ee54bcb1f">456cdbd3871f3050c386fd99cebb35a4</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:57:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

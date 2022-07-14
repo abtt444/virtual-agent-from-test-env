@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>b9f926e81b02ac50ef5b635ee54bcbf3</category>
+        <channels/>
+        <connect_queue/>
+        <description>Enables users to request a live agent and view items that a live agent can assist with.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "53724428a071443a99cba69d9e008b3a": {
+          "id": "53724428a071443a99cba69d9e008b3a",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "1f9b6650bdcd488dae0c43d1faa8b06d": {
+          "id": "1f9b6650bdcd488dae0c43d1faa8b06d",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "d7d25cfbb57240a389d8b0aa6ab4f3c3": {
+          "id": "d7d25cfbb57240a389d8b0aa6ab4f3c3",
+          "name": "Connect To Agent",
+          "script": "(function execute() {\n    vaSystem.connectToAgent();\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "ab72755b8eca461a94041469a29325dd",
+          "edgeType": "Edge",
+          "source": "53724428a071443a99cba69d9e008b3a",
+          "target": "d7d25cfbb57240a389d8b0aa6ab4f3c3",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "5c1eeb77fb33428dac118c323cadf335",
+          "edgeType": "Edge",
+          "source": "d7d25cfbb57240a389d8b0aa6ab4f3c3",
+          "target": "1f9b6650bdcd488dae0c43d1faa8b06d",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "f4eb21fe2e7b4beaba74fd7bf801475b": {
+      "category": "vaInputs",
+      "id": "f4eb21fe2e7b4beaba74fd7bf801475b",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Absa Live Agent Transfer,Absa Live Agent Transfer,agent,live agent,Live Agent Support</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Absa Live Agent Transfer</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>public</roles>
+        <source_topic_id>8d96d0a01bce2c50ef5b635ee54bcbef</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2021-01-28 12:15:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>91030aec1b8a6c50ef5b635ee54bcb96</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Absa Live Agent Transfer</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_91030aec1b8a6c50ef5b635ee54bcb96</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-24 09:17:15</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=91030aec1b8a6c50ef5b635ee54bcb96"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_cb_topic_91030aec1b8a6c50ef5b635ee54bcb96</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><applicability_mode>query</applicability_mode><autopilot_topic>false</autopilot_topic><category>b9f926e81b02ac50ef5b635ee54bcbf3</category><channels/><connect_queue/><description>Enables users to request a live agent and view items that a live agent can assist with.</description><expose_on_palette>false</expose_on_palette><flexible_conversation_switching>false</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "53724428a071443a99cba69d9e008b3a": {
+          "id": "53724428a071443a99cba69d9e008b3a",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "1f9b6650bdcd488dae0c43d1faa8b06d": {
+          "id": "1f9b6650bdcd488dae0c43d1faa8b06d",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "d7d25cfbb57240a389d8b0aa6ab4f3c3": {
+          "id": "d7d25cfbb57240a389d8b0aa6ab4f3c3",
+          "name": "Connect To Agent",
+          "script": "(function execute() {\n    vaSystem.connectToAgent();\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "ab72755b8eca461a94041469a29325dd",
+          "edgeType": "Edge",
+          "source": "53724428a071443a99cba69d9e008b3a",
+          "target": "d7d25cfbb57240a389d8b0aa6ab4f3c3",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "5c1eeb77fb33428dac118c323cadf335",
+          "edgeType": "Edge",
+          "source": "d7d25cfbb57240a389d8b0aa6ab4f3c3",
+          "target": "1f9b6650bdcd488dae0c43d1faa8b06d",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "f4eb21fe2e7b4beaba74fd7bf801475b": {
+      "category": "vaInputs",
+      "id": "f4eb21fe2e7b4beaba74fd7bf801475b",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph><key_phrases>Absa Live Agent Transfer,Absa Live Agent Transfer,agent,live agent,Live Agent Support</key_phrases><library>false</library><live_agent>false</live_agent><name>Absa Live Agent Transfer</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><palette_label/><roles>public</roles><source_topic_id>8d96d0a01bce2c50ef5b635ee54bcbef</source_topic_id><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>tshwarelo.tshabalala</sys_created_by><sys_created_on>2021-01-28 12:15:44</sys_created_on><sys_domain>global</sys_domain><sys_id>91030aec1b8a6c50ef5b635ee54bcb96</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Absa Live Agent Transfer</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_cb_topic_91030aec1b8a6c50ef5b635ee54bcb96</sys_update_name><sys_updated_by>AB019AM</sys_updated_by><sys_updated_on>2021-11-24 09:17:15</sys_updated_on><triggerable_by_notification>false</triggerable_by_notification><type>STANDARD</type><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=91030aec1b8a6c50ef5b635ee54bcb96"/></record_update>]]></payload>
+        <payload_hash>1748034066</payload_hash>
+        <record_name>Absa Live Agent Transfer</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-24 09:17:15</sys_created_on>
+        <sys_id>7b17164d1b008110cb139753b24bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d513c228b0000001</sys_recorded_at>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-24 09:17:15</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>3317164df8008110350fc4cca340ae3f</update_guid>
+        <update_guid_history>3317164df8008110350fc4cca340ae3f:1748034066,e6d6164ddd008110311f997d31ef0e34:296398506,4363d6c56d008110b279244fa44ce8e8:1748034066,de2cd353a21f3050fbf5df0410088dd1:0,a549db53225f7450711086d4b0170d46:-307290776,68e13814b89f3010f0401e9500e5a046:0,7670456b2f4b781000fad7fc0b7b296b:456522291,3c6d34439407b410f68bda112601d543:0,5ca76c0ff543b41099fab8f1efda2d27:1884916097,76ab48474d8f741095fdc72c06a4ab60:0,db6984cf424f7410936443364f8c5b91:1802237689,0db6adb39f0a3050964e88be2d437a9d:1620725427,5b4a26e88602ac50eee7b4e3af77653d:-1125548559,c2e40e24070e6c50ef4cf9f5a13593b1:1619065544,ec83c220b60e6c5039216c15404e5511:1175568538,dd03ca20ab0e6c506c54343d48e0bfba:-1008862816</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-24 09:51:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>2b18827f90e141618acfbe34ee6c55b9</sys_id>
+        <sys_metadata>91030aec1b8a6c50ef5b635ee54bcb96</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Absa Live Agent Transfer</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_91030aec1b8a6c50ef5b635ee54bcb96</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_91030aec1b8a6c50ef5b635ee54bcb96">7b17164d1b008110cb139753b24bcb3f</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-24 09:51:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

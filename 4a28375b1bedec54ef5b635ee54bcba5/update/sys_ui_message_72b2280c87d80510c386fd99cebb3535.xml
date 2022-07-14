@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>how to find your leave balance on workday</key>
+        <language>en</language>
+        <message>How to find your leave balance on Workday</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-12-03 08:30:30</sys_created_on>
+        <sys_id>72b2280c87d80510c386fd99cebb3535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>how to find your leave balance on workday</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_72b2280c87d80510c386fd99cebb3535</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-03 08:30:30</sys_updated_on>
+    </sys_ui_message>
+</record_update>

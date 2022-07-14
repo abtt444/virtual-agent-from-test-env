@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
     <sys_cb_topic action="INSERT_OR_UPDATE">
         <applicability/>
-        <applicability_mode/>
+        <applicability_mode>query</applicability_mode>
         <autopilot_topic>false</autopilot_topic>
         <category>3de066591b31a410ef5b635ee54bcbe3</category>
         <channels/>
         <connect_queue/>
-        <description/>
+        <description>Combination if RL Info and Book RL</description>
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>true</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.21.pp4",
+  "graph_api_version": "1.0.36",
   "goals": {
     "primary": {
       "id": "primary",
@@ -42,9 +42,240 @@
         "e84552f6900f4c96a898795c32c59c50": {
           "id": "e84552f6900f4c96a898795c32c59c50",
           "stepType": "TextOutput",
-          "name": "Book Relocation Leave",
+          "name": "Relocation Leave",
           "value": {
-            "value": "Book Relocation Leave Response",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "A maximum of 5 days of relocation leave is granted to a colleague who has to transfer at Absa's request and that transfer results in relocation. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Only one day of relocation leave is provided to colleagues who transfer and relocate at their own request. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please note that you cannot use relocation leave to move house as this will be annual leave. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You are required to speak to your line manager before requesting relocation leave. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "secure": false
+        },
+        "6d52b9ac7b484c66aec731141a2b000a": {
+          "stepType": "ChoicePrompt",
+          "name": "RLChoice",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Do you want to find out more on how to log your relocation leave request? "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "c952777e5e2e4aacbcba6c8ce06cb8ec",
+          "id": "6d52b9ac7b484c66aec731141a2b000a",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "fabca087a45348858c4736929c7fdde4": {
+          "id": "fabca087a45348858c4736929c7fdde4",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "d75ece6306ff4fad8adccc67188c4bd9": {
+          "id": "d75ece6306ff4fad8adccc67188c4bd9",
+          "stepType": "TextOutput",
+          "name": "howtobook",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You can log your Relocation Leave request as follows:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. Access Workday. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. Under "
+                  },
+                  {
+                    "text": "Applications",
+                    "bold": true
+                  },
+                  {
+                    "text": ","
+                  },
+                  {
+                    "text": " ",
+                    "bold": true
+                  },
+                  {
+                    "text": "click on "
+                  },
+                  {
+                    "text": "Absence",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3. Select "
+                  },
+                  {
+                    "text": "Request Absence",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "4. Select "
+                  },
+                  {
+                    "text": "Date Range",
+                    "bold": true
+                  },
+                  {
+                    "text": " and enter the dates of your leave."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "5. Under "
+                  },
+                  {
+                    "text": "Type ",
+                    "bold": true
+                  },
+                  {
+                    "text": "of select "
+                  },
+                  {
+                    "text": "Time Off: Relocation Leave",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "6. Review leave captured and "
+                  },
+                  {
+                    "text": "Submit",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
@@ -54,6 +285,14 @@
         }
       },
       "edges": [
+        {
+          "id": "09d146c45c874ea188413724d3c2d4c2",
+          "edgeType": "Edge",
+          "source": "d75ece6306ff4fad8adccc67188c4bd9",
+          "target": "54ecf9da3e19439796b3cc6fb0e3d0d0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
         {
           "id": "b1aed7e431df4ec192827885e83a8d83",
           "edgeType": "Edge",
@@ -66,9 +305,43 @@
           "id": "ffebd12675e84daa842cdb1072cb3980",
           "edgeType": "Edge",
           "source": "e84552f6900f4c96a898795c32c59c50",
-          "target": "54ecf9da3e19439796b3cc6fb0e3d0d0",
+          "target": "6d52b9ac7b484c66aec731141a2b000a",
           "sourcePort": "",
           "targetPort": ""
+        },
+        {
+          "id": "2d30e67685a04807a6375ece0253e008",
+          "edgeType": "Edge",
+          "source": "6d52b9ac7b484c66aec731141a2b000a",
+          "target": "fabca087a45348858c4736929c7fdde4",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c5f7545ad6c14898b6596f164ff2c437",
+          "edgeType": "Branch",
+          "source": "fabca087a45348858c4736929c7fdde4",
+          "target": "54ecf9da3e19439796b3cc6fb0e3d0d0",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.rlchoice=No",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "063b1dafbfc5450f90795a529868a8b8",
+          "edgeType": "Branch",
+          "source": "fabca087a45348858c4736929c7fdde4",
+          "target": "d75ece6306ff4fad8adccc67188c4bd9",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.rlchoice=Yes",
+            "mode": "query"
+          },
+          "label": "Yes"
         }
       ]
     }
@@ -81,13 +354,31 @@
       "name": "user",
       "table": "sys_user",
       "varType": "reference"
+    },
+    "c952777e5e2e4aacbcba6c8ce06cb8ec": {
+      "id": "c952777e5e2e4aacbcba6c8ce06cb8ec",
+      "name": "rlchoice",
+      "label": "RLChoice",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
     }
   }
 }</graph>
-        <key_phrases>Book Relocation Leave</key_phrases>
+        <key_phrases>Relocation Leave</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>Book Relocation Leave</name>
+        <name>Relocation Leave</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -101,14 +392,14 @@
         <sys_created_on>2021-01-18 12:24:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>d135a2911b71a410ef5b635ee54bcb36</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Book Relocation Leave</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Relocation Leave</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_d135a2911b71a410ef5b635ee54bcb36</sys_update_name>
-        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
-        <sys_updated_on>2021-01-18 12:25:00</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-07 08:36:44</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

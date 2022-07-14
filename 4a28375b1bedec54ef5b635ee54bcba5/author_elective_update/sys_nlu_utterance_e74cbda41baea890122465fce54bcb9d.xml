@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-22 08:17:48</sys_created_on>
+        <sys_id>e74cbda41baea890122465fce54bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>international mobility</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_e74cbda41baea890122465fce54bcb9d</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-22 08:17:48</sys_updated_on>
+        <utterance>international mobility</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_e74cbda41baea890122465fce54bcb9d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Relocation Leave Information">0f1aef431b4260d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-22 08:17:48</sys_created_on>
+        <sys_id>e74cbda41baea890122465fce54bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>international mobility</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_e74cbda41baea890122465fce54bcb9d</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-22 08:17:48</sys_updated_on>
+        <utterance>international mobility</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-596755450</payload_hash>
+        <record_name>international mobility</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:19:08</sys_created_on>
+        <sys_id>5d6cdbd3871f3050c386fd99cebb35b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb65138c20000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:19:08</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>996cdbd36b1f3050a11c3b2a2dd615b2</update_guid>
+        <update_guid_history>996cdbd36b1f3050a11c3b2a2dd615b2:0,5798971fd41f7450e11c4c2a23bff446:2080078629,5a12f4943e9f3010b0b4da90d3ba772d:0,d0ef38272d4b7810fd8a4beef63ab1a2:1972912037,4f9d74c3e907b4100d61fc79201eafe2:0,7607ecc7b543b410e493d277e8a84750:1727962691,9eeb88c7f28f7410012292ce177b359f:0,d8380c47b24f74100f66aa1b3778fe15:481449929,e34c79e4a9aea890efd66e842078c374:-46698161</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 08:09:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>3d19376513034e2e91706280a7c5a799</sys_id>
+        <sys_metadata>e74cbda41baea890122465fce54bcb9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>international mobility</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_e74cbda41baea890122465fce54bcb9d</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_e74cbda41baea890122465fce54bcb9d">5d6cdbd3871f3050c386fd99cebb35b2</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:09:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

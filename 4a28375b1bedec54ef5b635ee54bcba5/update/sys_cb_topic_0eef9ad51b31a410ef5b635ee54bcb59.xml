@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
     <sys_cb_topic action="INSERT_OR_UPDATE">
         <applicability/>
-        <applicability_mode/>
+        <applicability_mode>query</applicability_mode>
         <autopilot_topic>false</autopilot_topic>
         <category>617fde951b31a410ef5b635ee54bcb11</category>
         <channels/>
@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>true</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.21.pp4",
+  "graph_api_version": "1.0.36",
   "goals": {
     "primary": {
       "id": "primary",
@@ -43,7 +43,16 @@
           "stepType": "ChoicePrompt",
           "name": "Region Selection",
           "prompt": {
-            "value": "Which region are employed in?",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Which region are you employed in?"
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "confirmMessage": {
@@ -69,27 +78,312 @@
           "variableId": "c856de2beecc4a2a88a3320d1aef41f5",
           "id": "372136420662438b8f9be1beee40eadf",
           "withNluUserInput": false,
-          "skipIfFulfilled": false
+          "skipIfFulfilled": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "hasCardHeader": false
         },
         "f479d96625c6479f9e90725e0c2a6499": {
           "id": "f479d96625c6479f9e90725e0c2a6499",
           "stepType": "Decision",
           "name": "Region Decision"
         },
-        "c013b26d63e744b3aedf5e25b9aab90b": {
-          "id": "c013b26d63e744b3aedf5e25b9aab90b",
+        "ae3a20aed5d64c82a4b22b1584c77424": {
+          "id": "ae3a20aed5d64c82a4b22b1584c77424",
+          "stepType": "TextOutput",
+          "name": "sorry you unwell",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "I'm sorry you are unwell "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.first_name}}",
+                      "displayValue": "Input Variables➛User➛First name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". You can apply for sick leave and take some time to recover. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "c571a76963124336a694461d23030a92": {
+          "stepType": "ChoicePrompt",
+          "name": "sickleave",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Choose one of the following options to find out more:"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "68ad0a2a66664c259ca02de9fa85372d",
+          "id": "c571a76963124336a694461d23030a92",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "0403b2b63cf94d0d9950d91dac27c382": {
+          "id": "0403b2b63cf94d0d9950d91dac27c382",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "062d6cd9880040baaf385b13c0ba7bda": {
+          "id": "062d6cd9880040baaf385b13c0ba7bda",
+          "stepType": "TextOutput",
+          "name": "howtoapply",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. Access Workday"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. Under applications, click on "
+                  },
+                  {
+                    "text": "Absence",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3. Select "
+                  },
+                  {
+                    "text": "Request Absence",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "4. Select D"
+                  },
+                  {
+                    "text": "ate Range",
+                    "bold": true
+                  },
+                  {
+                    "text": " and input the dates of your leave."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "5. Under "
+                  },
+                  {
+                    "text": "Type ",
+                    "bold": true
+                  },
+                  {
+                    "text": "of, select "
+                  },
+                  {
+                    "text": "Time Off: Sick Leave",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "6. Review your leave taken."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "7. Attach your medical certificate and "
+                  },
+                  {
+                    "text": "Submit",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "6ab10a7b57354457b68753ea0facff50": {
+          "id": "6ab10a7b57354457b68753ea0facff50",
+          "stepType": "TextOutput",
+          "name": "whatdoirequire",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please be advised that you require a medical certificate from the doctor or medical practitioner if your sick leave is for more than two days or you have taken sick leave more than once in an eight-week period."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "9736d5cc7cec4c2d908c9b98f2af5325": {
+          "id": "9736d5cc7cec4c2d908c9b98f2af5325",
+          "stepType": "TextOutput",
+          "name": "southafrica",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please note that sick leave may not be taken as holiday leave and is rather unplanned leave taken due to illness. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "A medical doctor or a medical practitioner registered with the South African Health Council, deems a colleague unfit to work due to illness for a set time period as set out in a medical certificate. The colleague will then be required to submit the certificate when capturing sick leave on Workday."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "065bf9d23e3847399aa9b4866e9f14d1": {
+          "id": "065bf9d23e3847399aa9b4866e9f14d1",
           "stepType": "LinkOutput",
-          "name": "Uganda Leave",
+          "name": "SA article link",
           "url": {
-            "value": "https://en.wikipedia.org/wiki/Uganda",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010232"
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "label": {
-            "value": "Here",
+            "value": "",
             "mode": "simple"
           },
           "header": {
-            "value": "Thank you. You can apply for sick leave for Uganda employees",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "For more information about the sick leave process in South Africa, take a look at this article: "
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
@@ -103,20 +397,38 @@
           },
           "listOfLinks": ""
         },
-        "31ac41e2e3084a7a9134d8733af7e304": {
-          "id": "31ac41e2e3084a7a9134d8733af7e304",
+        "6870564ff1114e0fbcb43a19cbdcfd1e": {
+          "id": "6870564ff1114e0fbcb43a19cbdcfd1e",
           "stepType": "LinkOutput",
-          "name": "Tanzania Leave",
+          "name": "tanzania",
           "url": {
-            "value": "https://en.wikipedia.org/wiki/Tanzania",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010986"
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "label": {
-            "value": "Here",
+            "value": "",
             "mode": "simple"
           },
           "header": {
-            "value": "Thank you. You can apply for sick leave for Tanzania employees",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look at the knowledge article to find everything you need to know about the sick leave process in Tanzania NBC: "
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
@@ -130,20 +442,38 @@
           },
           "listOfLinks": ""
         },
-        "d9b3afc7f42b43909c43a804a3b656e3": {
-          "id": "d9b3afc7f42b43909c43a804a3b656e3",
+        "c508949c3b874f43be57305dc735ad88": {
+          "id": "c508949c3b874f43be57305dc735ad88",
           "stepType": "LinkOutput",
-          "name": "South Africa Leave",
+          "name": "Uganda",
           "url": {
-            "value": "https://en.wikipedia.org/wiki/South_Africa",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010953"
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "label": {
-            "value": "Here",
+            "value": "",
             "mode": "simple"
           },
           "header": {
-            "value": "Thank you. You can apply for sick leave for South Africa employees",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look at the knowledge article to find everything you need to know about the sick leave process in Uganda: "
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
@@ -157,20 +487,38 @@
           },
           "listOfLinks": ""
         },
-        "44b37705d8a842cb8aaac5fe28bdf752": {
-          "id": "44b37705d8a842cb8aaac5fe28bdf752",
+        "7dc5819e8767489db40c4eb6a2968469": {
+          "id": "7dc5819e8767489db40c4eb6a2968469",
           "stepType": "LinkOutput",
-          "name": "Seychelles Leave",
+          "name": "Ghana",
           "url": {
-            "value": "https://en.wikipedia.org/wiki/Seychelles",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010853"
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "label": {
-            "value": "Here",
+            "value": "",
             "mode": "simple"
           },
           "header": {
-            "value": "Thank you. You can apply for sick leave for Seychelles employees",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look at the knowledge article to find everything you need to know about the sick leave process in Ghana: "
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
@@ -184,20 +532,38 @@
           },
           "listOfLinks": ""
         },
-        "87783d37dc8a4292b9574b000c8339ff": {
-          "id": "87783d37dc8a4292b9574b000c8339ff",
+        "0464be54608646618d49cd71001af129": {
+          "id": "0464be54608646618d49cd71001af129",
           "stepType": "LinkOutput",
-          "name": "Mauritius Leave",
+          "name": "Mauritius",
           "url": {
-            "value": "https://en.wikipedia.org/wiki/Mauritius",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010881"
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "label": {
-            "value": "Here",
+            "value": "",
             "mode": "simple"
           },
           "header": {
-            "value": "Thank you. You can apply for sick leave for Mauritius employees",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look at the knowledge article to find everything you need to know about the sick leave process in Mauritius: "
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
@@ -211,20 +577,38 @@
           },
           "listOfLinks": ""
         },
-        "b70a9fec61854375a88b3ccb6b9acb9d": {
-          "id": "b70a9fec61854375a88b3ccb6b9acb9d",
+        "0a8614be4eb64e6f87ab5c288be0106b": {
+          "id": "0a8614be4eb64e6f87ab5c288be0106b",
           "stepType": "LinkOutput",
-          "name": "Ghana Leave",
+          "name": "seychelles",
           "url": {
-            "value": "https://en.wikipedia.org/wiki/Ghana",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010227"
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "label": {
-            "value": "Here",
+            "value": "",
             "mode": "simple"
           },
           "header": {
-            "value": "Thank you. You can apply for sick leave for Ghana employees",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look at the knowledge article to find everything you need to know about the sick leave process in Seychelles: "
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
@@ -238,20 +622,47 @@
           },
           "listOfLinks": ""
         },
-        "8d1a451cb7c14308813c4a017af6f7ef": {
-          "id": "8d1a451cb7c14308813c4a017af6f7ef",
+        "7c55490bfd084dce86a32a546cbc023a": {
+          "id": "7c55490bfd084dce86a32a546cbc023a",
           "stepType": "LinkOutput",
-          "name": "Botswana Leave",
+          "name": "Botswana",
           "url": {
-            "value": "https://en.wikipedia.org/wiki/Botswana",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010761"
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "label": {
-            "value": "Here",
+            "value": "",
             "mode": "simple"
           },
           "header": {
-            "value": "Thank you. You can apply for sick leave for Botswana employees",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Take a look at the knowledge article to find everything you need to know about the sick leave process in Botswana: "
+                  }
+                ]
+              },
+              {
+                "type": "link",
+                "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010761",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
@@ -268,12 +679,82 @@
       },
       "edges": [
         {
-          "id": "3c93eb69931a4298866b8f3f553b6632",
-          "edgeType": "Edge",
-          "source": "17598bb9e08a497f82ff0249139999e9",
-          "target": "372136420662438b8f9be1beee40eadf",
+          "id": "4f9a2549294041bb88b61f831c1e9224",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "7c55490bfd084dce86a32a546cbc023a",
           "sourcePort": "",
-          "targetPort": ""
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Botswana",
+            "mode": "query"
+          },
+          "label": "Botswana"
+        },
+        {
+          "id": "81c26bde7aef41d9850e74aa636a4c42",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "0a8614be4eb64e6f87ab5c288be0106b",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Seychelles",
+            "mode": "query"
+          },
+          "label": "Seychelles"
+        },
+        {
+          "id": "aa8fb6f50f44437b94586b3de0c26572",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "0464be54608646618d49cd71001af129",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Mauritius",
+            "mode": "query"
+          },
+          "label": "Mauritius"
+        },
+        {
+          "id": "3feabb51a19b4b7bb179cdb5e34121ff",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "7dc5819e8767489db40c4eb6a2968469",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Ghana",
+            "mode": "query"
+          },
+          "label": "Ghana"
+        },
+        {
+          "id": "e0a12a69465742229fe2a84c31cae4cd",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "c508949c3b874f43be57305dc735ad88",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Uganda",
+            "mode": "query"
+          },
+          "label": "Uganda"
+        },
+        {
+          "id": "0e7450c1836140e7aae655610e2ea24e",
+          "edgeType": "Branch",
+          "source": "f479d96625c6479f9e90725e0c2a6499",
+          "target": "6870564ff1114e0fbcb43a19cbdcfd1e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.region_selection=Tanzania NBC",
+            "mode": "query"
+          },
+          "label": "Tanzania NBC"
         },
         {
           "id": "d1a4178f597141cd8dbaee748c89c48c",
@@ -284,43 +765,80 @@
           "targetPort": ""
         },
         {
-          "id": "3feabb51a19b4b7bb179cdb5e34121ff",
+          "id": "3c93eb69931a4298866b8f3f553b6632",
+          "edgeType": "Edge",
+          "source": "17598bb9e08a497f82ff0249139999e9",
+          "target": "ae3a20aed5d64c82a4b22b1584c77424",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0a169a087a78414cb35324ad85079a66",
+          "edgeType": "Edge",
+          "source": "ae3a20aed5d64c82a4b22b1584c77424",
+          "target": "c571a76963124336a694461d23030a92",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "3ebb0b18bf0c4d52a17e847ff99487db",
+          "edgeType": "Edge",
+          "source": "c571a76963124336a694461d23030a92",
+          "target": "0403b2b63cf94d0d9950d91dac27c382",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9bb3e383ad264b77b6183ca510b49c96",
           "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "c013b26d63e744b3aedf5e25b9aab90b",
+          "source": "0403b2b63cf94d0d9950d91dac27c382",
+          "target": "372136420662438b8f9be1beee40eadf",
           "sourcePort": "",
           "targetPort": "",
           "expression": {
-            "value": "vaInputs.region_selection=Uganda",
+            "value": "vaInputs.sickleave=What is the Sick Leave Process?",
             "mode": "query"
           },
-          "label": "Uganda"
+          "label": "What is the Sick Leave Process?"
         },
         {
-          "id": "35e49bb755384adaaf163566ef9e6c57",
+          "id": "a4171af61a7445a1ae13d55d0c59c669",
+          "edgeType": "Branch",
+          "source": "0403b2b63cf94d0d9950d91dac27c382",
+          "target": "062d6cd9880040baaf385b13c0ba7bda",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.sickleave=How to Apply for Sick Leave",
+            "mode": "query"
+          },
+          "label": "How to Apply for Sick Leave"
+        },
+        {
+          "id": "ab2c8b7af54549249948d74c0777a1f5",
           "edgeType": "Edge",
-          "source": "c013b26d63e744b3aedf5e25b9aab90b",
+          "source": "062d6cd9880040baaf385b13c0ba7bda",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "aa8fb6f50f44437b94586b3de0c26572",
+          "id": "bfc0da150cd344b5b9f032e3acef3f0f",
           "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "31ac41e2e3084a7a9134d8733af7e304",
+          "source": "0403b2b63cf94d0d9950d91dac27c382",
+          "target": "6ab10a7b57354457b68753ea0facff50",
           "sourcePort": "",
           "targetPort": "",
           "expression": {
-            "value": "vaInputs.region_selection=Tanzania",
+            "value": "vaInputs.sickleave=What do I Require to Book Sick Leave?",
             "mode": "query"
           },
-          "label": "Tanzania"
+          "label": "What do I Require to Book Sick Leave?"
         },
         {
-          "id": "8f23640714294e17917a2e3462955997",
+          "id": "2deddb6d24c74054bdbb60b86064d6b9",
           "edgeType": "Edge",
-          "source": "31ac41e2e3084a7a9134d8733af7e304",
+          "source": "6ab10a7b57354457b68753ea0facff50",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
@@ -329,7 +847,7 @@
           "id": "3da26bfb7b3842b0ad0e9151f0d4c0ae",
           "edgeType": "Branch",
           "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "d9b3afc7f42b43909c43a804a3b656e3",
+          "target": "9736d5cc7cec4c2d908c9b98f2af5325",
           "sourcePort": "",
           "targetPort": "",
           "expression": {
@@ -339,93 +857,65 @@
           "label": "South Africa"
         },
         {
-          "id": "1c0e752b9b7a4d1f8a56f2d5786f338c",
+          "id": "4d68bc32b5584e308441edd36d3c1823",
           "edgeType": "Edge",
-          "source": "d9b3afc7f42b43909c43a804a3b656e3",
+          "source": "9736d5cc7cec4c2d908c9b98f2af5325",
+          "target": "065bf9d23e3847399aa9b4866e9f14d1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "418a9184c282417f945552be7fdc95dc",
+          "edgeType": "Edge",
+          "source": "065bf9d23e3847399aa9b4866e9f14d1",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "81c26bde7aef41d9850e74aa636a4c42",
-          "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "44b37705d8a842cb8aaac5fe28bdf752",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.region_selection=Seychelles",
-            "mode": "query"
-          },
-          "label": "Seychelles"
-        },
-        {
-          "id": "9c16f58b420f463f9ebf6c12cdbdab97",
+          "id": "3c4093f2e1e34d58a5dc96935fa5011e",
           "edgeType": "Edge",
-          "source": "44b37705d8a842cb8aaac5fe28bdf752",
+          "source": "6870564ff1114e0fbcb43a19cbdcfd1e",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "1e599211d4494d568a2a50a2a74e46b0",
-          "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "87783d37dc8a4292b9574b000c8339ff",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.region_selection=Mauritius",
-            "mode": "query"
-          },
-          "label": "Mauritius"
-        },
-        {
-          "id": "8f6844a2a5094b5ba20874a679f4f66d",
+          "id": "1b29e1a002a849b086a817e149699e52",
           "edgeType": "Edge",
-          "source": "87783d37dc8a4292b9574b000c8339ff",
+          "source": "c508949c3b874f43be57305dc735ad88",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "2d9046fab45e4f7bb5a2d24030f5ae71",
-          "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "b70a9fec61854375a88b3ccb6b9acb9d",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.region_selection=Ghana",
-            "mode": "query"
-          },
-          "label": "Ghana"
-        },
-        {
-          "id": "acc89310db7743c4892e63bea2f1fdc9",
+          "id": "d80ebb5263044642b6a1dcee32743b3b",
           "edgeType": "Edge",
-          "source": "b70a9fec61854375a88b3ccb6b9acb9d",
+          "source": "7dc5819e8767489db40c4eb6a2968469",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "4f9a2549294041bb88b61f831c1e9224",
-          "edgeType": "Branch",
-          "source": "f479d96625c6479f9e90725e0c2a6499",
-          "target": "8d1a451cb7c14308813c4a017af6f7ef",
+          "id": "2275a2a2d4a64d6fa59b94cc3771bdce",
+          "edgeType": "Edge",
+          "source": "0464be54608646618d49cd71001af129",
+          "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.region_selection=Botswana",
-            "mode": "query"
-          },
-          "label": "Botswana"
+          "targetPort": ""
         },
         {
-          "id": "9f89d0efc84e44db9a04a0afef0f86cc",
+          "id": "908f78984c0e41128cff032b4dda7390",
           "edgeType": "Edge",
-          "source": "8d1a451cb7c14308813c4a017af6f7ef",
+          "source": "0a8614be4eb64e6f87ab5c288be0106b",
+          "target": "1356f800100542f898b34a415ad67d93",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "92a6dbe998734818870943c609e491dd",
+          "edgeType": "Edge",
+          "source": "7c55490bfd084dce86a32a546cbc023a",
           "target": "1356f800100542f898b34a415ad67d93",
           "sourcePort": "",
           "targetPort": ""
@@ -458,11 +948,6 @@
           "checked": true
         },
         {
-          "label": "Mauritius",
-          "value": "Mauritius",
-          "checked": true
-        },
-        {
           "label": "Seychelles",
           "value": "Seychelles",
           "checked": true
@@ -473,13 +958,41 @@
           "checked": true
         },
         {
-          "label": "Tanzania",
-          "value": "Tanzania",
+          "label": "Mauritius",
+          "value": "Mauritius",
           "checked": true
         },
         {
           "label": "Uganda",
           "value": "Uganda",
+          "checked": true
+        },
+        {
+          "label": "Tanzania NBC",
+          "value": "Tanzania NBC",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "68ad0a2a66664c259ca02de9fa85372d": {
+      "id": "68ad0a2a66664c259ca02de9fa85372d",
+      "name": "sickleave",
+      "label": "Sickleave",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "How to Apply for Sick Leave",
+          "value": "How to Apply for Sick Leave"
+        },
+        {
+          "label": "What do I Require to Book Sick Leave?",
+          "value": "What do I Require to Book Sick Leave?",
+          "checked": true
+        },
+        {
+          "label": "What is the Sick Leave Process?",
+          "value": "What is the Sick Leave Process?",
           "checked": true
         }
       ],
@@ -504,14 +1017,14 @@
         <sys_created_on>2021-01-18 12:01:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>0eef9ad51b31a410ef5b635ee54bcb59</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>Apply for Sick Leave</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_0eef9ad51b31a410ef5b635ee54bcb59</sys_update_name>
-        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
-        <sys_updated_on>2021-01-26 14:55:23</sys_updated_on>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-30 10:08:11</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":27,"end":33,"annotatedString":"How do I have a purposeful {{phrase=\"meeting\"}}","cat":null}]</annotation>
+        <entity display_value="Meetings">961bb718870cc510c386fd99cebb3544</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-24 07:40:45</sys_created_on>
+        <sys_id>4e01020987808110c386fd99cebb3553</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meetings.How do I have a purposeful meeting</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_4e01020987808110c386fd99cebb3553</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-24 07:40:45</sys_updated_on>
+        <utterance display_value="How do I have a purposeful meeting">9fcf790587808110c386fd99cebb351e</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"Do i qualify for leave {{phrase=\"encashment\"}}","start":23,"end":32}]</annotation>
+        <entity display_value="Encashment">517d2a071b02a4d0122465fce54bcbf7</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 10:14:51</sys_created_on>
+        <sys_id>2814fac31b42a4d0122465fce54bcbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Encashment.Do i qualify for leave encashment</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_2814fac31b42a4d0122465fce54bcbb4</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:14:51</sys_updated_on>
+        <utterance display_value="Do i qualify for leave encashment">55f696871b8620d0ef5b635ee54bcbf5</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_2814fac31b42a4d0122465fce54bcbb4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"Do i qualify for leave {{phrase=\"encashment\"}}","start":23,"end":32}]</annotation>
+        <entity display_value="Encashment">517d2a071b02a4d0122465fce54bcbf7</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 10:14:51</sys_created_on>
+        <sys_id>2814fac31b42a4d0122465fce54bcbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Encashment.Do i qualify for leave encashment</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_2814fac31b42a4d0122465fce54bcbb4</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 10:14:51</sys_updated_on>
+        <utterance display_value="Do i qualify for leave encashment">55f696871b8620d0ef5b635ee54bcbf5</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>-1273336858</payload_hash>
+        <record_name>Encashment.Do i qualify for leave encashment</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:17</sys_created_on>
+        <sys_id>4afb97df87db3050c386fd99cebb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64f87180000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:17</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>86fb97dffddb305011cd78d673860493</update_guid>
+        <update_guid_history>86fb97dffddb305011cd78d673860493:0,e898931f681f7450e3a704daced16547:1453553996,c9b130d0d09f30100edcf995c9187070:0,aedf3427c44b78107f5d85c5f1ab211b:-252734331,913df8cfabc3b41092dd815bb7fbbd50:0,d907e8c74143b410742e76df1fff9e14:1321828786,4f7b0cc3a08f7410565f515ae20539e1:0,fe284847774f74100b92f649dd75f001:-895257082,ec14fac34f42a4d0707fc24459c5bcb5:-1525690086</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 10:42:14">386249661b3f7010cb139753b24bcbaa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 08:42:14</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>0ea10afa5038427594b4a62bcd69e231</sys_id>
+        <sys_metadata>2814fac31b42a4d0122465fce54bcbb4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Encashment.Do i qualify for leave encashment</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_2814fac31b42a4d0122465fce54bcbb4</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_2814fac31b42a4d0122465fce54bcbb4">4afb97df87db3050c386fd99cebb3593</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:42:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

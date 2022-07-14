@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>take a look at the knowledge article to find everything you need to know about the sick leave process in ghana:</key>
+        <language>en</language>
+        <message>Take a look at the knowledge article to find everything you need to know about the sick leave process in Ghana:</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-30 10:08:43</sys_created_on>
+        <sys_id>0c7cd5c387c4c110c386fd99cebb350f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>take a look at the knowledge article to find everything you need to know about the sick leave process in ghana:</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_0c7cd5c387c4c110c386fd99cebb350f</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-30 10:08:43</sys_updated_on>
+    </sys_ui_message>
+</record_update>

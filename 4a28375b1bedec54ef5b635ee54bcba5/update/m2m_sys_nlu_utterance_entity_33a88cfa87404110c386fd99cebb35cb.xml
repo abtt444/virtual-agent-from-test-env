@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":24,"end":26,"annotatedString":"Do I need a PCR test to {{phrase=\"fly\"}}","cat":null}]</annotation>
+        <entity display_value="Travel">bd23adae87ff3810c386fd99cebb35c9</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-29 09:24:18</sys_created_on>
+        <sys_id>33a88cfa87404110c386fd99cebb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Travel.Do I need a PCR test to fly</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_33a88cfa87404110c386fd99cebb35cb</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-29 09:24:18</sys_updated_on>
+        <utterance display_value="Do I need a PCR test to fly">b48804fa87404110c386fd99cebb3543</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

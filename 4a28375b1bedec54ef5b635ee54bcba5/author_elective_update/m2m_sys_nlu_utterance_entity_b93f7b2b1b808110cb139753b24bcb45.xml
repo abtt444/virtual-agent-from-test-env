@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"start":11,"end":23,"annotatedString":"I'm taking {{phrase=\"holiday leave\"}}","cat":null}]</annotation>
+        <entity display_value="Leave">3923adae87ff3810c386fd99cebb3598</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-02 11:16:52</sys_created_on>
+        <sys_id>b93f7b2b1b808110cb139753b24bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave.I'm taking holiday leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_b93f7b2b1b808110cb139753b24bcb45</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-02 11:16:52</sys_updated_on>
+        <utterance display_value="I'm taking holiday leave">072ff72b1b808110cb139753b24bcb79</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_b93f7b2b1b808110cb139753b24bcb45</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"start":11,"end":23,"annotatedString":"I'm taking {{phrase=\"holiday leave\"}}","cat":null}]</annotation><entity display_value="Leave">3923adae87ff3810c386fd99cebb3598</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>AB019AK</sys_created_by><sys_created_on>2021-12-02 11:16:52</sys_created_on><sys_id>b93f7b2b1b808110cb139753b24bcb45</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Leave.I'm taking holiday leave</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_b93f7b2b1b808110cb139753b24bcb45</sys_update_name><sys_updated_by>AB019AK</sys_updated_by><sys_updated_on>2021-12-02 11:16:52</sys_updated_on><utterance display_value="I'm taking holiday leave">072ff72b1b808110cb139753b24bcb79</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-1383227142</payload_hash>
+        <record_name>Leave.I'm taking holiday leave</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-02 11:16:52</sys_created_on>
+        <sys_id>fd3f7b2b1b808110cb139753b24bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d7adc86db0000001</sys_recorded_at>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-02 11:16:52</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>f53f7b2b3d808110eb36db7bf4400e47</update_guid>
+        <update_guid_history>f53f7b2b3d808110eb36db7bf4400e47:-1383227142</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-12-08 11:26:53">699f96ed875c4110c386fd99cebb35fd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-12-08 09:26:53</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>ad65348fe0a942fd89561c6b0a2edb99</sys_id>
+        <sys_metadata>b93f7b2b1b808110cb139753b24bcb45</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave.I'm taking holiday leave</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_b93f7b2b1b808110cb139753b24bcb45</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_b93f7b2b1b808110cb139753b24bcb45">fd3f7b2b1b808110cb139753b24bcb47</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-08 09:26:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Plan for Possibility">5a8bb398870cc510c386fd99cebb35e1</cb_topic_id>
+        <channels/>
+        <definition>{"id":"5a8bb398870cc510c386fd99cebb35e1","name":"Plan for Possibility","system_topic":false,"autopilot_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Plan for Possibility","applicability":"true","categories":[],"key_phrases":["Plan for Possibility"],"variables":[{"name":"__segment_trigger_99ea99a3eb9b4523b7e854477b1c3530_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_06c1d6212f1c41105fb6eb6d686850bd","unique":false,"default_value":"true","key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"String","name":"__silent_OutputPrompt_5758292f43a04699ac6e66552f69feb2","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_TerminateGoal_af536b783f814c10aca5b96d57d4aa16","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_StartGoal_647a6971561d4348940ad5e0a665ea7e","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_Branch_RootDecisionBranch_c2c1d6211e1c41104af54731d58060bd","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_Decision_RootDecision_82c1d621331c41100de881487fa7a4bd","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_99ea99a3eb9b4523b7e854477b1c3530_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_06c1d6212f1c41105fb6eb6d686850bd\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_c2c1d6211e1c41104af54731d58060bd\");vaInputs.initialize(\"__silent_OutputPrompt_5758292f43a04699ac6e66552f69feb2\");vaInputs.initialize(\"__silent_Decision_RootDecision_82c1d621331c41100de881487fa7a4bd\");vaInputs.initialize(\"__silent_StartGoal_647a6971561d4348940ad5e0a665ea7e\");vaInputs.initialize(\"__silent_TerminateGoal_af536b783f814c10aca5b96d57d4aa16\");null;","fields":[{"name":"__silent_Decision_RootDecision_82c1d621331c41100de881487fa7a4bd","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_82c1d621331c41100de881487fa7a4bd\";vaInputs.__silent_Decision_RootDecision_82c1d621331c41100de881487fa7a4bd=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_82c1d621331c41100de881487fa7a4bd\";var ackMsg=null;ackMsg=null;vaInputs.RootDecisionBranch_06c1d6212f1c41105fb6eb6d686850bd=true;ackMsg;"},{"name":"__silent_Branch_RootDecisionBranch_c2c1d6211e1c41104af54731d58060bd","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_82c1d621331c41100de881487fa7a4bd\" &amp;&amp; ((vaInputs.RootDecisionBranch_06c1d6212f1c41105fb6eb6d686850bd.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_c2c1d6211e1c41104af54731d58060bd___RootDecisionBranch_c2c1d6211e1c41104af54731d58060bd\";vaInputs.__silent_Branch_RootDecisionBranch_c2c1d6211e1c41104af54731d58060bd=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_c2c1d6211e1c41104af54731d58060bd___RootDecisionBranch_c2c1d6211e1c41104af54731d58060bd\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_StartGoal_647a6971561d4348940ad5e0a665ea7e","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_c2c1d6211e1c41104af54731d58060bd___RootDecisionBranch_c2c1d6211e1c41104af54731d58060bd\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___647a6971561d4348940ad5e0a665ea7e\";vaInputs.__silent_StartGoal_647a6971561d4348940ad5e0a665ea7e=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___647a6971561d4348940ad5e0a665ea7e\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_OutputPrompt_5758292f43a04699ac6e66552f69feb2","applicable":"vaVars.previous_graph_node==\"Start___647a6971561d4348940ad5e0a665ea7e\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Response___5758292f43a04699ac6e66552f69feb2\";vaInputs.__silent_OutputPrompt_5758292f43a04699ac6e66552f69feb2=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Response___5758292f43a04699ac6e66552f69feb2\";var ackMsg=null;ackMsg=(function execute() {return gs.getMessageLang(\"va:topic:5a8bb398870cc510c386fd99cebb35e1:node:5758292f43a04699ac6e66552f69feb2:field:Value\", vaContext.getRequesterLang());})();ackMsg;","acknowledge_msg_mask_type":"NONE"},{"name":"__silent_TerminateGoal_af536b783f814c10aca5b96d57d4aa16","applicable":"vaVars.previous_graph_node==\"Response___5758292f43a04699ac6e66552f69feb2\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___af536b783f814c10aca5b96d57d4aa16\";vaInputs.__silent_TerminateGoal_af536b783f814c10aca5b96d57d4aa16=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___af536b783f814c10aca5b96d57d4aa16\";var ackMsg=null;ackMsg=null;vaVars.__segment_trigger_99ea99a3eb9b4523b7e854477b1c3530_done=true;ackMsg;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"expose_on_palette":false,"palette_label":"","flexible_conversation_switching":false,"design_categories":[],"nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"triggerable_by_notification":false,"score":0.0,"visible":true,"discoverable":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Plan for Possibility","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category/>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Plan for Possibility</key_phrases>
+        <last_published_on>2021-12-08 08:26:34</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>PLN PSPL</metaphone>
+        <name>Plan for Possibility</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 08:57:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e88f7390874cc510c386fd99cebb353e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Plan for Possibility</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_e88f7390874cc510c386fd99cebb353e</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 08:26:34</sys_updated_on>
+        <title>Plan for Possibility</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=e88f7390874cc510c386fd99cebb353e"/>
+</record_update>

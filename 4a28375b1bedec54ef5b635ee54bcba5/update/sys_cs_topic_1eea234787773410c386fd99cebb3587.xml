@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="Work Ailments">435aa7c387773410c386fd99cebb35d8</cb_topic_id>
+        <channels/>
+        <definition>{"id":"435aa7c387773410c386fd99cebb35d8","name":"Work Ailments","system_topic":false,"autopilot_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Work Ailments","applicability":"true","categories":[],"key_phrases":["Work Ailments"],"variables":[{"name":"__segment_trigger_4396fc5daf1b4cdd9008fd8657383f68_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_30b95661295c4110323193b75f6a3c14","unique":false,"default_value":"true","key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_9e3ed2f59f7f4aa9a93f42fcad6639dd","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_TerminateGoal_4a1b3e6fb13b489092a32912ab5027b7","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_Decision_RootDecision_bcb95661c25c411078725c9b93ab8c13","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_Branch_RootDecisionBranch_fcb95661785c4110ed944b7de368bf13","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_OutputPrompt_6907333f02e0448a9899c62aa7dcfab1","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_4396fc5daf1b4cdd9008fd8657383f68_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_30b95661295c4110323193b75f6a3c14\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_fcb95661785c4110ed944b7de368bf13\");vaInputs.initialize(\"__silent_TerminateGoal_4a1b3e6fb13b489092a32912ab5027b7\");vaInputs.initialize(\"__silent_OutputPrompt_6907333f02e0448a9899c62aa7dcfab1\");vaInputs.initialize(\"__silent_StartGoal_9e3ed2f59f7f4aa9a93f42fcad6639dd\");vaInputs.initialize(\"__silent_Decision_RootDecision_bcb95661c25c411078725c9b93ab8c13\");null;","fields":[{"name":"__silent_Decision_RootDecision_bcb95661c25c411078725c9b93ab8c13","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_bcb95661c25c411078725c9b93ab8c13\";vaInputs.__silent_Decision_RootDecision_bcb95661c25c411078725c9b93ab8c13=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_bcb95661c25c411078725c9b93ab8c13\";var ackMsg=null;ackMsg=null;vaInputs.RootDecisionBranch_30b95661295c4110323193b75f6a3c14=true;ackMsg;"},{"name":"__silent_Branch_RootDecisionBranch_fcb95661785c4110ed944b7de368bf13","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_bcb95661c25c411078725c9b93ab8c13\" &amp;&amp; ((vaInputs.RootDecisionBranch_30b95661295c4110323193b75f6a3c14.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_fcb95661785c4110ed944b7de368bf13___RootDecisionBranch_fcb95661785c4110ed944b7de368bf13\";vaInputs.__silent_Branch_RootDecisionBranch_fcb95661785c4110ed944b7de368bf13=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_fcb95661785c4110ed944b7de368bf13___RootDecisionBranch_fcb95661785c4110ed944b7de368bf13\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_StartGoal_9e3ed2f59f7f4aa9a93f42fcad6639dd","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_fcb95661785c4110ed944b7de368bf13___RootDecisionBranch_fcb95661785c4110ed944b7de368bf13\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___9e3ed2f59f7f4aa9a93f42fcad6639dd\";vaInputs.__silent_StartGoal_9e3ed2f59f7f4aa9a93f42fcad6639dd=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___9e3ed2f59f7f4aa9a93f42fcad6639dd\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_OutputPrompt_6907333f02e0448a9899c62aa7dcfab1","applicable":"vaVars.previous_graph_node==\"Start___9e3ed2f59f7f4aa9a93f42fcad6639dd\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Work Ailments___6907333f02e0448a9899c62aa7dcfab1\";vaInputs.__silent_OutputPrompt_6907333f02e0448a9899c62aa7dcfab1=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Work Ailments___6907333f02e0448a9899c62aa7dcfab1\";var ackMsg=null;ackMsg=(function execute() {return gs.getMessageLang(\"va:topic:435aa7c387773410c386fd99cebb35d8:node:6907333f02e0448a9899c62aa7dcfab1:field:Value\", vaContext.getRequesterLang());})();ackMsg;","acknowledge_msg_mask_type":"NONE"},{"name":"__silent_TerminateGoal_4a1b3e6fb13b489092a32912ab5027b7","applicable":"vaVars.previous_graph_node==\"Work Ailments___6907333f02e0448a9899c62aa7dcfab1\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___4a1b3e6fb13b489092a32912ab5027b7\";vaInputs.__silent_TerminateGoal_4a1b3e6fb13b489092a32912ab5027b7=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___4a1b3e6fb13b489092a32912ab5027b7\";var ackMsg=null;ackMsg=null;vaVars.__segment_trigger_4396fc5daf1b4cdd9008fd8657383f68_done=true;ackMsg;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"expose_on_palette":false,"palette_label":"","flexible_conversation_switching":false,"design_categories":[],"nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"triggerable_by_notification":false,"score":0.0,"visible":true,"discoverable":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"Work Ailments","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category/>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Work Ailments</key_phrases>
+        <last_published_on>2021-12-08 09:01:10</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>ALMN ARK</metaphone>
+        <name>Work Ailments</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-18 10:15:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1eea234787773410c386fd99cebb3587</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Work Ailments</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_1eea234787773410c386fd99cebb3587</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 09:01:10</sys_updated_on>
+        <title>Work Ailments</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=1eea234787773410c386fd99cebb3587"/>
+</record_update>

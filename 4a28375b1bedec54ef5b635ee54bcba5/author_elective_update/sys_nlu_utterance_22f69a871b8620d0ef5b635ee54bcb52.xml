@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="IRP5 Certificate">2af69a871b8620d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>22f69a871b8620d0ef5b635ee54bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_22f69a871b8620d0ef5b635ee54bcb52</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+        <utterance>IRP5</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_22f69a871b8620d0ef5b635ee54bcb52</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="IRP5 Certificate">2af69a871b8620d0ef5b635ee54bcb28</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:44</sys_created_on>
+        <sys_id>22f69a871b8620d0ef5b635ee54bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_22f69a871b8620d0ef5b635ee54bcb52</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:44</sys_updated_on>
+        <utterance>IRP5</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-859723514</payload_hash>
+        <record_name>IRP5</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:28</sys_created_on>
+        <sys_id>533c9f53871f3050c386fd99cebb35ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6509a180000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:28</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>9f3c9f53c31f3050e38b93dd5d2008ab</update_guid>
+        <update_guid_history>9f3c9f53c31f3050e38b93dd5d2008ab:0,8aa81f1f9b1f745052b671990a99c31c:-1569022507,89f1b054209f30102099041fc0f7b16f:0,beef7c27674b7810f13aa064673f8eb7:-1391553916,997dbc437707b410a70aa1644da9c63a:0,5917240b4743b410230762bae52b0a59:234184147,b3bb0487fe8f7410bf666e03342f7d45:0,f6384087c64f7410d3cf5565c2d19199:1488996158,62f69a87d18620d02c35dc6f9b532753:-225120051</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:35:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>2a4c785cf1b84201a85360c372193d11</sys_id>
+        <sys_metadata>22f69a871b8620d0ef5b635ee54bcb52</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IRP5</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_22f69a871b8620d0ef5b635ee54bcb52</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_22f69a871b8620d0ef5b635ee54bcb52">533c9f53871f3050c386fd99cebb35ac</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:35:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

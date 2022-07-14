@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"see my {{phrase=\"pension\"}}","start":7,"end":13}]</annotation>
+        <entity display_value="Pension">c50856431b4e64d0122465fce54bcb32</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 09:10:09</sys_created_on>
+        <sys_id>dd8b22e71b92e090122465fce54bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.see my pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_dd8b22e71b92e090122465fce54bcbc6</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 09:10:09</sys_updated_on>
+        <utterance display_value="see my pension">427ba6e71b92e090122465fce54bcb72</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_dd8b22e71b92e090122465fce54bcbc6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"see my {{phrase=\"pension\"}}","start":7,"end":13}]</annotation>
+        <entity display_value="Pension">c50856431b4e64d0122465fce54bcb32</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-19 09:10:09</sys_created_on>
+        <sys_id>dd8b22e71b92e090122465fce54bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.see my pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_dd8b22e71b92e090122465fce54bcbc6</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-19 09:10:09</sys_updated_on>
+        <utterance display_value="see my pension">427ba6e71b92e090122465fce54bcb72</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>1472979889</payload_hash>
+        <record_name>Pension.see my pension</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:55</sys_created_on>
+        <sys_id>9f1c9f13871f3050c386fd99cebb353e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6501af80000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:55</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>db1c9f13a21f305056de62d79d7bd83e</update_guid>
+        <update_guid_history>db1c9f13a21f305056de62d79d7bd83e:0,aaf8d7dfd41f74504a548b5b0eef983a:225147846,42d1b014579f3010837fad86b18a1ce1:0,ce3045e70b4b7810abb356a945c98c67:-402305127,1e5dbc034307b410bdbf73a527514555:0,6357a88b5643b410f9345f522c764ff7:-2127937932,c8ab0447be8f7410744c593c0e39c55f:0,8a880c0b8b4f74102f6b0993ff6e43e4:-1508342182,958b22e7df92e09095727f4c0afe14c8:-2010919233</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 13:57:36">aa1fa5661b73b010cb139753b24bcb04</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 11:57:36</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>0124ca9ded924b8b8001a35c3a752f21</sys_id>
+        <sys_metadata>dd8b22e71b92e090122465fce54bcbc6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.see my pension</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_dd8b22e71b92e090122465fce54bcbc6</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_dd8b22e71b92e090122465fce54bcbc6">9f1c9f13871f3050c386fd99cebb353e</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:57:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

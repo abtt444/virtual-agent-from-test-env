@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:db652a911b71a410ef5b635ee54bcb3c:node:6c9195dc3c174a9891950ab55b6b4144:field:value</key>
+        <language>en</language>
+        <message>Leave is not just a benefit; it's essential. Find out more about why you should take leave [here](https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0012085). 
+
+Please note that annual leave captured does not require your line manager's approval.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 09:10:18</sys_created_on>
+        <sys_id>3fc809ee1b3f7010cb139753b24bcb0b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>va:topic:db652a911b71a410ef5b635ee54bcb3c:node:6c9195dc3c174a9891950ab55b6b4144:field:value</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_3fc809ee1b3f7010cb139753b24bcb0b</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-30 10:24:06</sys_updated_on>
+    </sys_ui_message>
+</record_update>

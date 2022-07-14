@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"annotatedString":"can i withdraw my {{phrase=\"pension\"}} to transfer into a different pension fund","start":18,"end":24},{"annotatedString":"can i withdraw my pension to transfer into a different {{phrase=\"pension\"}} fund","start":55,"end":61}]</annotation>
+        <entity display_value="Pension">c50856431b4e64d0122465fce54bcb32</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 08:44:28</sys_created_on>
+        <sys_id>646fdac31b8e64d0122465fce54bcb14</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Pension.can i withdraw my pension to transfer into a different pension fund </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_646fdac31b8e64d0122465fce54bcb14</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:44:32</sys_updated_on>
+        <utterance display_value="can i withdraw my pension to transfer into a different pension fund ">0af65a871b8620d0ef5b635ee54bcb38</utterance>
+    </m2m_sys_nlu_utterance_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_646fdac31b8e64d0122465fce54bcb14</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"can i withdraw my {{phrase=\"pension\"}} to transfer into a different pension fund","start":18,"end":24},{"annotatedString":"can i withdraw my pension to transfer into a different {{phrase=\"pension\"}} fund","start":55,"end":61}]</annotation>
+        <entity display_value="Pension">c50856431b4e64d0122465fce54bcb32</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-05 08:44:28</sys_created_on>
+        <sys_id>646fdac31b8e64d0122465fce54bcb14</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Pension.can i withdraw my pension to transfer into a different pension fund </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_646fdac31b8e64d0122465fce54bcb14</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:44:32</sys_updated_on>
+        <utterance display_value="can i withdraw my pension to transfer into a different pension fund ">0af65a871b8620d0ef5b635ee54bcb38</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>]]></payload>
+        <payload_hash>-82862694</payload_hash>
+        <record_name>Pension.can i withdraw my pension to transfer into a different pension fund </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:31</sys_created_on>
+        <sys_id>110c5fdf87db3050c386fd99cebb359c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64fbbd00000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:31</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>5d0c5fdf7fdb3050d039c495b3728c9b</update_guid>
+        <update_guid_history>5d0c5fdf7fdb3050d039c495b3728c9b:0,35e89f9fed1f7450d41ac771d8653a65:1280794303,8cc1f4d0699f3010b1dd5a5942ffa450:0,42200da7334b7810d02d75974943f810:-696436863,9c4db003d607b410d0cb160ae1788223:0,6747a08b9143b41077d45ab041a34173:-937813307,4a8bc0071f8f74105c0970a75fad90b5:0,8e78800b954f741085e4fe3447f1a295:-1608136244,ed6f9ec3dd8e64d0d067a3ce22eebd3d:-2124352295,206f5ec3ec8e64d034e7e60851fc4539:2110300111</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 13:13:10">ccf4216687337810c386fd99cebb3507</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 11:13:10</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>10b651b109504407b6c6921265ed3091</sys_id>
+        <sys_metadata>646fdac31b8e64d0122465fce54bcb14</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pension.can i withdraw my pension to transfer into a different pension fund </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_646fdac31b8e64d0122465fce54bcb14</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_646fdac31b8e64d0122465fce54bcb14">110c5fdf87db3050c386fd99cebb359c</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:13:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":9,"end":14,"annotatedString":"Buying a {{phrase=\"laptop\"}}","cat":null}]</annotation>
+        <entity display_value="Equipment">35c34ca8874cc510c386fd99cebb35ae</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-12-08 12:48:56</sys_created_on>
+        <sys_id>05dd872187548110c386fd99cebb35da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment.Buying a {{"phrase":"laptop","lookupSources":[{"solutionName":"GLOBAL","lookupSourceName":"hardware","name":"@lookupSources:hardware.computer@@","displayName":"Hardware › Computer","entityName":"Laptop"}]}}</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_05dd872187548110c386fd99cebb35da</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-08 12:48:56</sys_updated_on>
+        <utterance display_value="Buying a {{&quot;phrase&quot;:&quot;laptop&quot;,&quot;lookupSources&quot;:[{&quot;solutionName&quot;:&quot;GLOBAL&quot;,&quot;lookupSourceName&quot;:&quot;hardware&quot;,&quot;name&quot;:&quot;@lookupSources:hardware.computer@@&quot;,&quot;displayName&quot;:&quot;Hardware › Computer&quot;,&quot;entityName&quot;:&quot;Equipment&quot;}]}}">30d64c011b504510cb139753b24bcb13</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

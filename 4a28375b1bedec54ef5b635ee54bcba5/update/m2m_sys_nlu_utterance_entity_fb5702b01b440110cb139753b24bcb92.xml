@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":25,"end":34,"annotatedString":"who can i speak to about {{phrase=\"purchasing\"}} furniture","cat":null}]</annotation>
+        <entity display_value="Purchase">5ce524a087800910c386fd99cebb352b</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-23 13:29:57</sys_created_on>
+        <sys_id>fb5702b01b440110cb139753b24bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Purchase.who can i speak to about purchasing furniture</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_fb5702b01b440110cb139753b24bcb92</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-23 13:29:57</sys_updated_on>
+        <utterance display_value="who can i speak to about purchasing furniture">ed5742b01b440110cb139753b24bcbe2</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

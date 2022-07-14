@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Leave Encashment Information">0df696871b8620d0ef5b635ee54bcb97</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 14:16:08</sys_created_on>
+        <sys_id>6df726171b526090122465fce54bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>i need to use my annual leave as leave encashment </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_6df726171b526090122465fce54bcb74</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 14:16:08</sys_updated_on>
+        <utterance>i need to use my annual leave as leave encashment </utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_6df726171b526090122465fce54bcb74</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Leave Encashment Information">0df696871b8620d0ef5b635ee54bcb97</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 14:16:08</sys_created_on>
+        <sys_id>6df726171b526090122465fce54bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>i need to use my annual leave as leave encashment </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_6df726171b526090122465fce54bcb74</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 14:16:08</sys_updated_on>
+        <utterance>i need to use my annual leave as leave encashment </utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-1719187450</payload_hash>
+        <record_name>i need to use my annual leave as leave encashment </record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:42</sys_created_on>
+        <sys_id>3a4c9b93871f3050c386fd99cebb3541</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb650d2850000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:42</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>764c9b93801f3050005560b00e36bb41</update_guid>
+        <update_guid_history>764c9b93801f3050005560b00e36bb41:0,2898931fae1f7450a094b6b4ebcecfab:1035424908,9802b854669f3010497de0878759dc74:0,bedf34277a4b78105f3c603db4cd6686:1999519578,f48d74835907b4108a21856639642e3a:0,e907e8c7cf43b4103f84d6d7d28d1e7f:442677180,ebcbc887c48f74103e5303d2c90b0e31:0,b22848472f4f7410e51d3f41a9b0f13b:-1768037259,21f7261770526090ffe9e0fe947e0276:-865033079</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 08:42:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>01805d65d7304bf88073868b6d855a40</sys_id>
+        <sys_metadata>6df726171b526090122465fce54bcb74</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>i need to use my annual leave as leave encashment </sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_6df726171b526090122465fce54bcb74</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_6df726171b526090122465fce54bcb74">3a4c9b93871f3050c386fd99cebb3541</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 08:42:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

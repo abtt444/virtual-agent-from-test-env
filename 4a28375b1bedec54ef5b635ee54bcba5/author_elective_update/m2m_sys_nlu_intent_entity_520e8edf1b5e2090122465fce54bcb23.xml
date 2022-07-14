@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
+    <m2m_sys_nlu_intent_entity action="DELETE">
+        <entity display_value="Tax">9a0e8a131b9e2090122465fce54bcb67</entity>
+        <intent display_value="IRP5 Certificate">2af69a871b8620d0ef5b635ee54bcb28</intent>
+        <relationship>regular</relationship>
+        <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 12:22:51</sys_created_on>
+        <sys_id>520e8edf1b5e2090122465fce54bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tax.IRP5 Certificate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_intent_entity_520e8edf1b5e2090122465fce54bcb23</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 12:22:51</sys_updated_on>
+    </m2m_sys_nlu_intent_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_intent_entity_520e8edf1b5e2090122465fce54bcb23</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
+    <m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE">
+        <entity display_value="Tax">9a0e8a131b9e2090122465fce54bcb67</entity>
+        <intent display_value="IRP5 Certificate">2af69a871b8620d0ef5b635ee54bcb28</intent>
+        <relationship>regular</relationship>
+        <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
+        <sys_created_by>michaela.govender</sys_created_by>
+        <sys_created_on>2021-02-18 12:22:51</sys_created_on>
+        <sys_id>520e8edf1b5e2090122465fce54bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tax.IRP5 Certificate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_intent_entity_520e8edf1b5e2090122465fce54bcb23</sys_update_name>
+        <sys_updated_by>michaela.govender</sys_updated_by>
+        <sys_updated_on>2021-02-18 12:22:51</sys_updated_on>
+    </m2m_sys_nlu_intent_entity>
+</record_update>]]></payload>
+        <payload_hash>15072965</payload_hash>
+        <record_name>Tax.IRP5 Certificate</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:17:05</sys_created_on>
+        <sys_id>8beb13df87db3050c386fd99cebb3511</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb64f58540000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:17:05</sys_updated_on>
+        <type>NLU Intent Entity</type>
+        <update_guid>c7eb13df2ddb3050f190adf37c8ad911</update_guid>
+        <update_guid_history>c7eb13df2ddb3050f190adf37c8ad911:0,47a89f1f981f745003f6e74f067e6649:-831548697,56a1b890e69f301072b1437546aff533:0,f7effc27764b78104bf18bf8f6ac4549:-238996730,ae2d34cf52c3b4106f4c3b58810964f9:0,1217a40b7e43b41054905cd3deca3204:783039927,376bc4c3288f7410e93f4c64205de95f:0,0c480487fd4f7410e08601756a9863ea:2130377809,9e0e8edfa15e2090b001b002628b5724:-299246060</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-11-16 14:35:17">e6b7f1661bb3b010cb139753b24bcb48</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:35:17</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_intent_entity">m2m_sys_nlu_intent_entity</sys_db_object>
+        <sys_id>0569fbf2c605433d853cd4db121452e9</sys_id>
+        <sys_metadata>520e8edf1b5e2090122465fce54bcb23</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tax.IRP5 Certificate</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_intent_entity_520e8edf1b5e2090122465fce54bcb23</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_intent_entity_520e8edf1b5e2090122465fce54bcb23">8beb13df87db3050c386fd99cebb3511</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:35:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

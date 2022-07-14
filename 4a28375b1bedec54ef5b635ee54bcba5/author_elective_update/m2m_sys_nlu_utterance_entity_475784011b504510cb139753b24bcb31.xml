@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"start":4,"end":9,"annotatedString":"Buy {{phrase=\"laptop\"}}","cat":null}]</annotation>
+        <entity display_value="Laptop">93125c9387bb3410c386fd99cebb350d</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-06 09:04:51</sys_created_on>
+        <sys_id>475784011b504510cb139753b24bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptop.Buy {{"phrase":"laptop","lookupSources":[{"solutionName":"GLOBAL","lookupSourceName":"hardware","name":"@lookupSources:hardware.computer@@","displayName":"Hardware › Computer"}]}}</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_475784011b504510cb139753b24bcb31</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-06 09:04:51</sys_updated_on>
+        <utterance display_value="Buy {{&quot;phrase&quot;:&quot;laptop&quot;,&quot;lookupSources&quot;:[{&quot;solutionName&quot;:&quot;GLOBAL&quot;,&quot;lookupSourceName&quot;:&quot;hardware&quot;,&quot;name&quot;:&quot;@lookupSources:hardware.computer@@&quot;,&quot;displayName&quot;:&quot;Hardware › Computer&quot;}]}}">02c64c011b504510cb139753b24bcb1b</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_475784011b504510cb139753b24bcb31</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"start":4,"end":9,"annotatedString":"Buy {{phrase=\"laptop\"}}","cat":null}]</annotation><entity display_value="Laptop">93125c9387bb3410c386fd99cebb350d</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>AB019AK</sys_created_by><sys_created_on>2021-12-06 09:04:51</sys_created_on><sys_id>475784011b504510cb139753b24bcb31</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Laptop.Buy {{"phrase":"laptop","lookupSources":[{"solutionName":"GLOBAL","lookupSourceName":"hardware","name":"@lookupSources:hardware.computer@@","displayName":"Hardware › Computer"}]}}</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_475784011b504510cb139753b24bcb31</sys_update_name><sys_updated_by>AB019AK</sys_updated_by><sys_updated_on>2021-12-06 09:04:51</sys_updated_on><utterance display_value="Buy {{&quot;phrase&quot;:&quot;laptop&quot;,&quot;lookupSources&quot;:[{&quot;solutionName&quot;:&quot;GLOBAL&quot;,&quot;lookupSourceName&quot;:&quot;hardware&quot;,&quot;name&quot;:&quot;@lookupSources:hardware.computer@@&quot;,&quot;displayName&quot;:&quot;Hardware › Computer&quot;}]}}">02c64c011b504510cb139753b24bcb1b</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>1679210621</payload_hash>
+        <record_name>Laptop.Buy {{"phrase":"laptop","lookupSources":[{"solutionName":"GLOBAL","lookupSourceName":"hardwar</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-12-06 09:04:51</sys_created_on>
+        <sys_id>8b5784011b504510cb139753b24bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d8efd195c0000001</sys_recorded_at>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-06 09:04:51</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>835784017a5045101951828e883c9b33</update_guid>
+        <update_guid_history>835784017a5045101951828e883c9b33:1679210621</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-12-08 14:49:02">22dd4b2187548110c386fd99cebb35f4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-12-08 12:49:02</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>5ce3a682096d4debafca6b319d28c931</sys_id>
+        <sys_metadata>475784011b504510cb139753b24bcb31</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptop.Buy {{"phrase":"laptop","lookupSources":[{"solutionName":"GLOBAL","lookupSourceName":"hardware","name":"@lookupSources:hardware.computer@@","displayName":"Hardware › Computer"}]}}</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_475784011b504510cb139753b24bcb31</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_475784011b504510cb139753b24bcb31">8b5784011b504510cb139753b24bcb33</sys_update_version>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-08 12:49:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

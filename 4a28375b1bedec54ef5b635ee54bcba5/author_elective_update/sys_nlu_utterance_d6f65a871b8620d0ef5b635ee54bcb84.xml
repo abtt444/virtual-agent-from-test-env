@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="Retrive Payslip ">1af65a871b8620d0ef5b635ee54bcb79</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:43</sys_created_on>
+        <sys_id>d6f65a871b8620d0ef5b635ee54bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>payslip</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_d6f65a871b8620d0ef5b635ee54bcb84</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:43</sys_updated_on>
+        <utterance>payslip</utterance>
+    </sys_nlu_utterance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_nlu_utterance_d6f65a871b8620d0ef5b635ee54bcb84</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Retrive Payslip ">1af65a871b8620d0ef5b635ee54bcb79</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>gabriel.eisenberg</sys_created_by>
+        <sys_created_on>2021-02-05 08:07:43</sys_created_on>
+        <sys_id>d6f65a871b8620d0ef5b635ee54bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>payslip</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_utterance_d6f65a871b8620d0ef5b635ee54bcb84</sys_update_name>
+        <sys_updated_by>gabriel.eisenberg</sys_updated_by>
+        <sys_updated_on>2021-02-05 08:07:43</sys_updated_on>
+        <utterance>payslip</utterance>
+    </sys_nlu_utterance>
+</record_update>]]></payload>
+        <payload_hash>-1529476395</payload_hash>
+        <record_name>payslip</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:19:05</sys_created_on>
+        <sys_id>186c1bd3871f3050c386fd99cebb35bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6512bc90000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:19:05</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>546c1bd3061f30503d9b91d66a299ebf</update_guid>
+        <update_guid_history>546c1bd3061f30503d9b91d66a299ebf:0,74a85b1f541f7450ac39333c7f3a32b5:1090695331,a91274944a9f3010a2220ac21876ec63:0,35eff827534b781087d4f8146ab9e574:-646626079,8e9d34c3b707b410afeac32f9a958d18:0,5c17a00baa43b4106a6b3960bb7e992e:197973728,99ebc4c7ab8f7410dc9bdcc54cf02cc0:0,b938cc47f74f74105a0e8670b2796d37:1554196837,1af65a87ed8620d03cb76a813a9bab85:-1452764040</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-16 12:33:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>0eff44b818c649e8a45cc885de072440</sys_id>
+        <sys_metadata>d6f65a871b8620d0ef5b635ee54bcb84</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>payslip</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_d6f65a871b8620d0ef5b635ee54bcb84</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_d6f65a871b8620d0ef5b635ee54bcb84">186c1bd3871f3050c386fd99cebb35bf</sys_update_version>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-16 12:33:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

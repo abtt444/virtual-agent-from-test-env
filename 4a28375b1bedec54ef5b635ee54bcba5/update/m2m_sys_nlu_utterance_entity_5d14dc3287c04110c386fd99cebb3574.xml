@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":6,"end":9,"annotatedString":"Can I {{phrase=\"work\"}} from home","cat":null}]</annotation>
+        <entity display_value="Work">3123adae87ff3810c386fd99cebb359d</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AK</sys_created_by>
+        <sys_created_on>2021-11-29 10:14:06</sys_created_on>
+        <sys_id>5d14dc3287c04110c386fd99cebb3574</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work.Can I work from home</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_5d14dc3287c04110c386fd99cebb3574</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-11-29 10:14:06</sys_updated_on>
+        <utterance display_value="Can I work from home">97e3583287c04110c386fd99cebb3576</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

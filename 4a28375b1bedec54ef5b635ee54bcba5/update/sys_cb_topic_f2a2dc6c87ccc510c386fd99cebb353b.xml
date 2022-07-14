@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "2803ab2cc06845d1befe1dcb905ea6f3": {
+          "id": "2803ab2cc06845d1befe1dcb905ea6f3",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "13aaeb89131a474c99684e3933faad6f": {
+          "id": "13aaeb89131a474c99684e3933faad6f",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e86928dac7604d21a72a8b643e43855b": {
+          "id": "e86928dac7604d21a72a8b643e43855b",
+          "stepType": "TextOutput",
+          "name": "response",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "For any clients, visitors and suppliers visiting an Absa building during the COVID-19 pandemic, the following process must be followed: "
+                  }
+                ]
+              },
+              {
+                "type": "bulleted-list",
+                "children": [
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "CRES must be notified of the external visitor by telephone"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list-item",
+                    "children": [
+                      {
+                        "text": "The COVID-19 Absa Facility Access Declaration form will be emailed to external visitors to complete and return prior to entering the building"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You can find more information on the External Visitor Process "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012617",
+                    "children": [
+                      {
+                        "text": "here"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "4c1853d8ba314c4e95b23bb0bb1bad3f",
+          "edgeType": "Edge",
+          "source": "2803ab2cc06845d1befe1dcb905ea6f3",
+          "target": "e86928dac7604d21a72a8b643e43855b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7b3c05cf0ca74a90b3c2b8704dd5d328",
+          "edgeType": "Edge",
+          "source": "e86928dac7604d21a72a8b643e43855b",
+          "target": "13aaeb89131a474c99684e3933faad6f",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>External Visitor Process</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>External Visitor Process</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-22 10:21:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f2a2dc6c87ccc510c386fd99cebb353b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>External Visitor Process</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_f2a2dc6c87ccc510c386fd99cebb353b</sys_update_name>
+        <sys_updated_by>AB019AK</sys_updated_by>
+        <sys_updated_on>2021-12-08 09:17:37</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=f2a2dc6c87ccc510c386fd99cebb353b"/>
+</record_update>
