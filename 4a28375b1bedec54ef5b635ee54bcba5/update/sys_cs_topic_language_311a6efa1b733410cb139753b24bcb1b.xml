@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language">
     <sys_cs_topic_language action="INSERT_OR_UPDATE">
-        <cs_topic_id display_value="My Contribution Rating Scale">7d1a6efa1b733410cb139753b24bcb05</cs_topic_id>
+        <cs_topic_id display_value="MyContribution Rating Scale">7d1a6efa1b733410cb139753b24bcb05</cs_topic_id>
         <language_code>en</language_code>
         <nlu_entities>[]</nlu_entities>
         <nlu_intent>TF - My Contribution Rating Scale</nlu_intent>

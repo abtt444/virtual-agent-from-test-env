@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Sick Leave Days">4970ee951b31a410ef5b635ee54bcb05</model>
+        <model display_value="Sick Leave Days Balance">4970ee951b31a410ef5b635ee54bcb05</model>
         <model_id>4970ee951b31a410ef5b635ee54bcb05</model_id>
         <model_table/>
         <name>var__m_topic_variable_4970ee951b31a410ef5b635ee54bcb05</name>

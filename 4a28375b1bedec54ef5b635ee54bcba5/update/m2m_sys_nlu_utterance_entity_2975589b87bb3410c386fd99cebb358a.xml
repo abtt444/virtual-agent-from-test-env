@@ -14,6 +14,6 @@
         <sys_update_name>m2m_sys_nlu_utterance_entity_2975589b87bb3410c386fd99cebb358a</sys_update_name>
         <sys_updated_by>AB019AK</sys_updated_by>
         <sys_updated_on>2021-11-18 13:21:23</sys_updated_on>
-        <utterance display_value="My {{&quot;phrase&quot;:&quot;laptop screen&quot;,&quot;lookupSources&quot;:[{&quot;solutionName&quot;:&quot;GLOBAL&quot;,&quot;lookupSourceName&quot;:&quot;hardware&quot;,&quot;name&quot;:&quot;@lookupSources:hardware.displayDevice@@&quot;,&quot;displayName&quot;:&quot;Hardware › Display Device&quot;,&quot;entityName&quot;:&quot;Laptop&quot;}]}} broke">4ce1d09387bb3410c386fd99cebb3542</utterance>
+        <utterance display_value="My {{&quot;phrase&quot;:&quot;laptop screen&quot;,&quot;lookupSources&quot;:[{&quot;solutionName&quot;:&quot;GLOBAL&quot;,&quot;lookupSourceName&quot;:&quot;hardware&quot;,&quot;name&quot;:&quot;@lookupSources:hardware.displayDevice@@&quot;,&quot;displayName&quot;:&quot;Hardware › Display Device&quot;,&quot;entityName&quot;:&quot;Equipment&quot;}]}} broke">4ce1d09387bb3410c386fd99cebb3542</utterance>
     </m2m_sys_nlu_utterance_entity>
 </record_update>

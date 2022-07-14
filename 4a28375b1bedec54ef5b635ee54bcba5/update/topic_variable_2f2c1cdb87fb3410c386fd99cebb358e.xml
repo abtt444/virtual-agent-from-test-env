@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Absa Digital Academy">ab2c54db87fb3410c386fd99cebb35c0</model>
+        <model display_value="Absa Digital Campus">ab2c54db87fb3410c386fd99cebb35c0</model>
         <model_id>ab2c54db87fb3410c386fd99cebb35c0</model_id>
         <model_table/>
         <name>var__m_topic_variable_ab2c54db87fb3410c386fd99cebb35c0</name>

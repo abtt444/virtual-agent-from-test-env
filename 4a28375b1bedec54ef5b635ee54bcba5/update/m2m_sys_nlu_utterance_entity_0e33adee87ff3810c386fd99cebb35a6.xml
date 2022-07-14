@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"annotatedString":"what are the policies around wearing {{phrase=\"masks\"}} at work?","start":37,"end":41}]</annotation>
+        <entity display_value="Mask">3923adae87ff3810c386fd99cebb35a1</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 11:05:40</sys_created_on>
+        <sys_id>0e33adee87ff3810c386fd99cebb35a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mask.what are the policies around wearing masks at work?</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_0e33adee87ff3810c386fd99cebb35a6</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:05:40</sys_updated_on>
+        <utterance display_value="what are the policies around wearing masks at work?">f62361ee87ff3810c386fd99cebb35ea</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

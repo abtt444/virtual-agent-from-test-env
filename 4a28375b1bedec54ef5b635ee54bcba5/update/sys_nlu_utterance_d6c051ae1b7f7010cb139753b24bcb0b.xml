@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
     <sys_nlu_utterance action="INSERT_OR_UPDATE">
-        <intent display_value="TF - Covid-19">02f61a871b8620d0ef5b635ee54bcbc9</intent>
+        <intent display_value="TF - Covid19">02f61a871b8620d0ef5b635ee54bcbc9</intent>
         <original_utterance/>
         <primary_utterance/>
         <sys_class_name>sys_nlu_utterance</sys_class_name>

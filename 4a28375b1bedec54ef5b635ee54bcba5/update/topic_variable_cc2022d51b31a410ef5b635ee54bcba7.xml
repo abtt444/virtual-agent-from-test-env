@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Doctor's Note">842022d51b31a410ef5b635ee54bcba7</model>
+        <model display_value="Sick Leave Doctor's Note">842022d51b31a410ef5b635ee54bcba7</model>
         <model_id>842022d51b31a410ef5b635ee54bcba7</model_id>
         <model_table/>
         <name>var__m_topic_variable_842022d51b31a410ef5b635ee54bcba7</name>

@@ -7,18 +7,18 @@
         <language>en</language>
         <message>For those wanting to develop their leadership skills, the Absa Leadership Academy offers multiple leadership and management programmes. The academy develops distinctive leaders for Absa and Africa undefined by age, organisational tenure, qualification or job title. 
 
-If you are interested in starting your journey to becoming an inspirational leader,  follow the steps in this [knowledge article](https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012638).</message>
+If you are interested in starting your journey to becoming an inspirational leader,  follow the steps in this [knowledge article](https://absahr.service-now.com/ways_of_work?id=kb_article_view&amp;sysparm_article=KB0012638).</message>
         <sys_class_name>sys_ui_message</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-11-18 14:48:07</sys_created_on>
         <sys_id>0c59a41b877f3410c386fd99cebb35fc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>va:topic:e0282497877f3410c386fd99cebb3576:node:ef4fc03d6ec34b5eb899c76af1d9e748:field:value</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_ui_message_0c59a41b877f3410c386fd99cebb35fc</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-12-08 09:09:19</sys_updated_on>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-02-24 10:44:31</sys_updated_on>
     </sys_ui_message>
 </record_update>

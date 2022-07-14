@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
     <m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE">
-        <entity display_value="Rating Scale">be98267a1b733410cb139753b24bcb9e</entity>
+        <entity display_value="Rating">be98267a1b733410cb139753b24bcb9e</entity>
         <intent display_value="TF - Absa Live Agent Transfer">52b09a011b008110cb139753b24bcbd7</intent>
         <relationship>regular</relationship>
         <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>

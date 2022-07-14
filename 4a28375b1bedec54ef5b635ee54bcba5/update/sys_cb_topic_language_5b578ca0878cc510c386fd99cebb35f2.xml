@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_language">
     <sys_cb_topic_language action="INSERT_OR_UPDATE">
-        <cb_topic_id display_value="Creating Healthy Workspaces">d75704a0878cc510c386fd99cebb358b</cb_topic_id>
+        <cb_topic_id display_value="Creating an Effective Workspace">d75704a0878cc510c386fd99cebb358b</cb_topic_id>
         <language_code>en</language_code>
         <nlu_entities>[]</nlu_entities>
         <nlu_intent>TF - Creating Workspaces</nlu_intent>

@@ -5,18 +5,18 @@
         <commented_message/>
         <key>va:topic:5e313f4387b73410c386fd99cebb35a5:node:3d686b52accb490c90f7ff910499ea60:field:value</key>
         <language>en</language>
-        <message>[](https://docs.google.com/document/d/1471kdhxHny1EZ7ISMKH6PLrt3pDIbfjU/edit)With hundreds of our employees now working from home, we have updated our Mobile Standard to accommodate this. With these changes, eligible employees are now able to [request a company handset](https://absahr.service-now.com/kb_view.do?sysparm_article=KB0012668) up to the value of R4000 (excluding VAT) across all grades, roles and positions.</message>
+        <message>[](https://docs.google.com/document/d/1471kdhxHny1EZ7ISMKH6PLrt3pDIbfjU/edit)With hundreds of our employees now working from home, we have updated our Mobile Standard to accommodate this. With these changes, eligible employees are now able to [request a company handset](https://absahr.service-now.com/ways_of_work?id=kb_article_view&amp;sysparm_article=KB0012668) up to the value of R4000 (excluding VAT) across all grades, roles and positions.</message>
         <sys_class_name>sys_ui_message</sys_class_name>
         <sys_created_by>AB019AK</sys_created_by>
         <sys_created_on>2021-11-18 13:00:02</sys_created_on>
         <sys_id>a89094df877b3410c386fd99cebb35a6</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>va:topic:5e313f4387b73410c386fd99cebb35a5:node:3d686b52accb490c90f7ff910499ea60:field:value</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_ui_message_a89094df877b3410c386fd99cebb35a6</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-12-08 09:06:14</sys_updated_on>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-02-24 10:57:26</sys_updated_on>
     </sys_ui_message>
 </record_update>

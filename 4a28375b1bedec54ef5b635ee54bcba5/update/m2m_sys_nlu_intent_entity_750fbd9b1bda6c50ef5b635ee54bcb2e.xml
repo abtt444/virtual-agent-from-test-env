@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
     <m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE">
         <entity display_value="Social Distancing">a10f719b1bda6c50ef5b635ee54bcba6</entity>
-        <intent display_value="Absa Covid-19">02f61a871b8620d0ef5b635ee54bcbc9</intent>
+        <intent display_value="TF - Covid19">02f61a871b8620d0ef5b635ee54bcbc9</intent>
         <relationship>regular</relationship>
         <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
         <sys_created_by>gabriel.eisenberg</sys_created_by>

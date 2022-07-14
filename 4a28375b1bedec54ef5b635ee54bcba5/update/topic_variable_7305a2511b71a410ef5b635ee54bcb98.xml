@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Transferring Pension">3b05a2511b71a410ef5b635ee54bcb97</model>
+        <model display_value="Pension Fund Transferral">3b05a2511b71a410ef5b635ee54bcb97</model>
         <model_id>3b05a2511b71a410ef5b635ee54bcb97</model_id>
         <model_table/>
         <name>var__m_topic_variable_3b05a2511b71a410ef5b635ee54bcb97</name>

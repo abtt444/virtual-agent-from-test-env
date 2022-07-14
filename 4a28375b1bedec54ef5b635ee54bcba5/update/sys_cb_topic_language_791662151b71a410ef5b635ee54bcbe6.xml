@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_language">
     <sys_cb_topic_language action="INSERT_OR_UPDATE">
-        <cb_topic_id display_value="TF - PayslipIRP5 Certificate">f916a6d11b71a410ef5b635ee54bcb18</cb_topic_id>
+        <cb_topic_id display_value="Payslips and Worker Documents">f916a6d11b71a410ef5b635ee54bcb18</cb_topic_id>
         <language_code>en</language_code>
         <nlu_entities>[]</nlu_entities>
         <nlu_intent>TF - Payslip/IRP5 Certificate</nlu_intent>

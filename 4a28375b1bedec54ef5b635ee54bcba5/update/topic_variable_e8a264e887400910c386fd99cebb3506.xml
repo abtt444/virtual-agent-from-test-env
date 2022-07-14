@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Move Office Equipment to Your Home">aca264e887400910c386fd99cebb3505</model>
+        <model display_value="Setting Up Your Home Office">aca264e887400910c386fd99cebb3505</model>
         <model_id>aca264e887400910c386fd99cebb3505</model_id>
         <model_table/>
         <name>var__m_topic_variable_aca264e887400910c386fd99cebb3505</name>

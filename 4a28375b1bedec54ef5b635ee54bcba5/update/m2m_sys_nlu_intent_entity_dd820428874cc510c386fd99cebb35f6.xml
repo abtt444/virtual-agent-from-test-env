@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
     <m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE">
-        <entity display_value="Health">85824028874cc510c386fd99cebb35a2</entity>
+        <entity display_value="Physical Health">85824028874cc510c386fd99cebb35a2</entity>
         <intent display_value="TF - Creating Workspaces">53cffb90874cc510c386fd99cebb3515</intent>
         <relationship>regular</relationship>
         <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>

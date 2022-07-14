@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category>7a6dc0201b8e2c50ef5b635ee54bcb98</category>
+        <channels/>
+        <connect_queue/>
+        <description>Transfer to Human Chat Agent for further Help</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "f9c3d89fe2494c97a0f47880fcf1fedc": {
+          "id": "f9c3d89fe2494c97a0f47880fcf1fedc",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "41130d47a3f6422a9b017b10d256ff83": {
+          "id": "41130d47a3f6422a9b017b10d256ff83",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "5e5aaa9616ae496984c79a2e8e660c5e": {
+          "id": "5e5aaa9616ae496984c79a2e8e660c5e",
+          "stepType": "TextOutput",
+          "name": "Help",
+          "value": {
+            "value": "Help",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "11b32123697748f3bcd91c53eabec3eb",
+          "edgeType": "Edge",
+          "source": "f9c3d89fe2494c97a0f47880fcf1fedc",
+          "target": "5e5aaa9616ae496984c79a2e8e660c5e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "18923238d88c428aa3cab43ca191b690",
+          "edgeType": "Edge",
+          "source": "5e5aaa9616ae496984c79a2e8e660c5e",
+          "target": "41130d47a3f6422a9b017b10d256ff83",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "1041b483ef8b462d840bcd87c5109eb3": {
+      "category": "vaInputs",
+      "id": "1041b483ef8b462d840bcd87c5109eb3",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Help,Accumulated Leave</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Help</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id>1095ea911b71a410ef5b635ee54bcbd7</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>ABRJ203</sys_created_by>
+        <sys_created_on>2021-01-28 03:59:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e75158641b8e2c50ef5b635ee54bcb99</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Help</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_e75158641b8e2c50ef5b635ee54bcb99</sys_update_name>
+        <sys_updated_by>ABRJ203</sys_updated_by>
+        <sys_updated_on>2021-01-28 04:14:14</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=e75158641b8e2c50ef5b635ee54bcb99"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_cb_topic_e75158641b8e2c50ef5b635ee54bcb99</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category>7a6dc0201b8e2c50ef5b635ee54bcb98</category>
+        <channels/>
+        <connect_queue/>
+        <description>Transfer to Human Chat Agent for further Help</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.21.pp4",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "f9c3d89fe2494c97a0f47880fcf1fedc": {
+          "id": "f9c3d89fe2494c97a0f47880fcf1fedc",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "41130d47a3f6422a9b017b10d256ff83": {
+          "id": "41130d47a3f6422a9b017b10d256ff83",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "5e5aaa9616ae496984c79a2e8e660c5e": {
+          "id": "5e5aaa9616ae496984c79a2e8e660c5e",
+          "stepType": "TextOutput",
+          "name": "Help",
+          "value": {
+            "value": "Help",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "11b32123697748f3bcd91c53eabec3eb",
+          "edgeType": "Edge",
+          "source": "f9c3d89fe2494c97a0f47880fcf1fedc",
+          "target": "5e5aaa9616ae496984c79a2e8e660c5e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "18923238d88c428aa3cab43ca191b690",
+          "edgeType": "Edge",
+          "source": "5e5aaa9616ae496984c79a2e8e660c5e",
+          "target": "41130d47a3f6422a9b017b10d256ff83",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "1041b483ef8b462d840bcd87c5109eb3": {
+      "category": "vaInputs",
+      "id": "1041b483ef8b462d840bcd87c5109eb3",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Help,Accumulated Leave</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Help</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id>1095ea911b71a410ef5b635ee54bcbd7</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>ABRJ203</sys_created_by>
+        <sys_created_on>2021-01-28 03:59:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e75158641b8e2c50ef5b635ee54bcb99</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Help</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_e75158641b8e2c50ef5b635ee54bcb99</sys_update_name>
+        <sys_updated_by>ABRJ203</sys_updated_by>
+        <sys_updated_on>2021-01-28 04:14:14</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=e75158641b8e2c50ef5b635ee54bcb99"/>
+</record_update>]]></payload>
+        <payload_hash>2036826896</payload_hash>
+        <record_name>Help</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:18:08</sys_created_on>
+        <sys_id>e22c1753871f3050c386fd99cebb355f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6504ddd0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:18:08</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>222c1753e61f30501959b39b5992ee5f</update_guid>
+        <update_guid_history>222c1753e61f30501959b39b5992ee5f:0,265957930a5f7450edf9bf070df65e8a:1511185825,78e13814be9f3010b619009467ec7bb0:0,57804d6b764b7810fdff237da61350d9:1871604366,416d34437a07b410aaed7a2536c5fad3:0,c1b7a44f5843b410ab649bded3cdc95c:561930978,c3ab8847d98f7410d156de0ba025b90b:0,30898003b08f741074cb0a7df1f36a88:716373718,44d4186cf88e2c50337f946697cf5d02:1859279237,2ce394e83a8e2c501c8786436c1e6468:-838573591,fdf290e8388e2c50a4169e33c8f9149a:-46752360,76e11c288a8e2c501f397e20a0e54e03:2044540968,dd91dc64f08e2c50aa665686dcaf5ed4:-46752360,e3519428ef8e2c508e8a26e7a26c2201:323910276</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2022-02-15 13:19:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>156b50f2957645e7bc806931734da5d9</sys_id>
+        <sys_metadata>e75158641b8e2c50ef5b635ee54bcb99</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Help</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_e75158641b8e2c50ef5b635ee54bcb99</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_e75158641b8e2c50ef5b635ee54bcb99">e22c1753871f3050c386fd99cebb355f</sys_update_version>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2022-02-15 13:19:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

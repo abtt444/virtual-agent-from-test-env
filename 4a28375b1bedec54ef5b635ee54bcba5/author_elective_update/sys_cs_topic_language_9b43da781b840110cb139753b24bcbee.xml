@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language">
+    <sys_cs_topic_language action="DELETE">
+        <cs_topic_id display_value="Travelling During Covid">1b43da781b840110cb139753b24bcbe7</cs_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[{"variable_name":"choice","nlu_entity":"","nlu_entity_label":""}]</nlu_entities>
+        <nlu_intent>TF - Travelling During Covid</nlu_intent>
+        <nlu_intent_label>TF - Travelling During Covid</nlu_intent_label>
+        <nlu_model>ml_x_absa2_x_absa2_absa_hr_nl_global_7d23a1ae87ff3810c386fd99cebb35cf</nlu_model>
+        <nlu_model_label>Absa HR Chatbot NLU Model Nov</nlu_model_label>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cs_topic_language</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-23 14:22:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9b43da781b840110cb139753b24bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_language_9b43da781b840110cb139753b24bcbee</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-23 14:22:05</sys_updated_on>
+    </sys_cs_topic_language>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_cs_topic_language_9b43da781b840110cb139753b24bcbee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language"><sys_cs_topic_language action="INSERT_OR_UPDATE"><cs_topic_id display_value="Travelling During Covid">1b43da781b840110cb139753b24bcbe7</cs_topic_id><language_code>en</language_code><nlu_entities>[{"variable_name":"choice","nlu_entity":"","nlu_entity_label":""}]</nlu_entities><nlu_intent>TF - Travelling During Covid</nlu_intent><nlu_intent_label>TF - Travelling During Covid</nlu_intent_label><nlu_model>ml_x_absa2_x_absa2_absa_hr_nl_global_7d23a1ae87ff3810c386fd99cebb35cf</nlu_model><nlu_model_label>Absa HR Chatbot NLU Model Nov</nlu_model_label><nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider><sys_class_name>sys_cs_topic_language</sys_class_name><sys_created_by>AB019AM</sys_created_by><sys_created_on>2021-11-23 14:22:05</sys_created_on><sys_domain>global</sys_domain><sys_id>9b43da781b840110cb139753b24bcbee</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_cs_topic_language_9b43da781b840110cb139753b24bcbee</sys_update_name><sys_updated_by>AB019AM</sys_updated_by><sys_updated_on>2021-11-23 14:22:05</sys_updated_on></sys_cs_topic_language></record_update>]]></payload>
+        <payload_hash>-623723959</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-23 14:22:05</sys_created_on>
+        <sys_id>5b4312b81b840110cb139753b24bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d4d2cdba60000001</sys_recorded_at>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-23 14:22:05</sys_updated_on>
+        <type>CS Topic Language</type>
+        <update_guid>db43da7803840110dd4ebae212c4b6ef</update_guid>
+        <update_guid_history>db43da7803840110dd4ebae212c4b6ef:-623723959</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-24 02:49:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_topic_language">sys_cs_topic_language</sys_db_object>
+        <sys_id>2b08c4dc45df4a7e99fcc4c069b16f04</sys_id>
+        <sys_metadata>9b43da781b840110cb139753b24bcbee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cs_topic_language_9b43da781b840110cb139753b24bcbee</sys_update_name>
+        <sys_update_version display_value="sys_cs_topic_language_9b43da781b840110cb139753b24bcbee">5b4312b81b840110cb139753b24bcb4f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-24 02:49:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

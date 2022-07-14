@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
     <m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE">
         <entity display_value="Home">7e85630b87373410c386fd99cebb350c</entity>
-        <intent display_value="TF - Move Office Equipment to Home">802c902c87000910c386fd99cebb3523</intent>
+        <intent display_value="TF - Setting Up Your Home Office">802c902c87000910c386fd99cebb3523</intent>
         <relationship>regular</relationship>
         <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>

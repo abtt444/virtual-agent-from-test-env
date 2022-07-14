@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Covid-19 Absa Policies">d9971d771b69a094ef5b635ee54bcbca</model>
+        <model display_value="Covid-19 Policies &amp; Procedures">d9971d771b69a094ef5b635ee54bcbca</model>
         <model_id>d9971d771b69a094ef5b635ee54bcbca</model_id>
         <model_table/>
         <name>var__m_topic_variable_d9971d771b69a094ef5b635ee54bcbca</name>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="topic_variable">
+    <topic_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>User</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>User</label>
+        <limit/>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Help">e75158641b8e2c50ef5b635ee54bcb99</model>
+        <model_id>e75158641b8e2c50ef5b635ee54bcb99</model_id>
+        <model_table/>
+        <name>var__m_topic_variable_e75158641b8e2c50ef5b635ee54bcb99</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <query_parameters/>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>topic_variable</sys_class_name>
+        <sys_created_by>ABRJ203</sys_created_by>
+        <sys_created_on>2021-01-28 03:59:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ef5158641b8e2c50ef5b635ee54bcb99</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>User</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>topic_variable_ef5158641b8e2c50ef5b635ee54bcb99</sys_update_name>
+        <sys_updated_by>ABRJ203</sys_updated_by>
+        <sys_updated_on>2021-01-28 03:59:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </topic_variable>
+    <sys_element_mapping action="DELETE" query="id=ef5158641b8e2c50ef5b635ee54bcb99"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>topic_variable_ef5158641b8e2c50ef5b635ee54bcb99</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="topic_variable"&gt;
+    &lt;topic_variable action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;array&gt;false&lt;/array&gt;
+        &lt;array_denormalized&gt;false&lt;/array_denormalized&gt;
+        &lt;attributes/&gt;
+        &lt;audit&gt;false&lt;/audit&gt;
+        &lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;
+        &lt;choice/&gt;
+        &lt;choice_field/&gt;
+        &lt;choice_table/&gt;
+        &lt;column_label&gt;User&lt;/column_label&gt;
+        &lt;comments/&gt;
+        &lt;create_roles/&gt;
+        &lt;default_value/&gt;
+        &lt;defaultsort/&gt;
+        &lt;delete_roles/&gt;
+        &lt;dependent/&gt;
+        &lt;dependent_on_field/&gt;
+        &lt;display&gt;false&lt;/display&gt;
+        &lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;
+        &lt;dynamic_creation_script/&gt;
+        &lt;dynamic_default_value/&gt;
+        &lt;dynamic_ref_qual/&gt;
+        &lt;element&gt;user&lt;/element&gt;
+        &lt;element_reference&gt;false&lt;/element_reference&gt;
+        &lt;foreign_database/&gt;
+        &lt;function_definition/&gt;
+        &lt;function_field&gt;false&lt;/function_field&gt;
+        &lt;help/&gt;
+        &lt;hint/&gt;
+        &lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;
+        &lt;label&gt;User&lt;/label&gt;
+        &lt;limit/&gt;
+        &lt;mandatory&gt;false&lt;/mandatory&gt;
+        &lt;max_length&gt;32&lt;/max_length&gt;
+        &lt;model display_value="Help"&gt;e75158641b8e2c50ef5b635ee54bcb99&lt;/model&gt;
+        &lt;model_id&gt;e75158641b8e2c50ef5b635ee54bcb99&lt;/model_id&gt;
+        &lt;model_table/&gt;
+        &lt;name&gt;var__m_topic_variable_e75158641b8e2c50ef5b635ee54bcb99&lt;/name&gt;
+        &lt;next_element/&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;primary&gt;false&lt;/primary&gt;
+        &lt;query_parameters/&gt;
+        &lt;read_only&gt;false&lt;/read_only&gt;
+        &lt;read_roles/&gt;
+        &lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;
+        &lt;reference_cascade_rule/&gt;
+        &lt;reference_floats&gt;false&lt;/reference_floats&gt;
+        &lt;reference_key/&gt;
+        &lt;reference_qual/&gt;
+        &lt;reference_qual_condition/&gt;
+        &lt;reference_type/&gt;
+        &lt;sizeclass/&gt;
+        &lt;spell_check&gt;false&lt;/spell_check&gt;
+        &lt;staged&gt;false&lt;/staged&gt;
+        &lt;sys_class_name&gt;topic_variable&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;ABRJ203&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-01-28 03:59:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_id&gt;ef5158641b8e2c50ef5b635ee54bcb99&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;User&lt;/sys_name&gt;
+        &lt;sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl"&gt;4a28375b1bedec54ef5b635ee54bcba5&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Absa HR NLU Models"&gt;4a28375b1bedec54ef5b635ee54bcba5&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;topic_variable_ef5158641b8e2c50ef5b635ee54bcb99&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;ABRJ203&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2021-01-28 03:59:11&lt;/sys_updated_on&gt;
+        &lt;table_reference&gt;false&lt;/table_reference&gt;
+        &lt;text_index&gt;false&lt;/text_index&gt;
+        &lt;unique&gt;false&lt;/unique&gt;
+        &lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;
+        &lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;
+        &lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;
+        &lt;virtual&gt;false&lt;/virtual&gt;
+        &lt;widget/&gt;
+        &lt;write_roles/&gt;
+        &lt;xml_view&gt;false&lt;/xml_view&gt;
+    &lt;/topic_variable&gt;
+    &lt;sys_element_mapping action="delete_multiple" query="id=ef5158641b8e2c50ef5b635ee54bcb99"/&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1444187679</payload_hash>
+        <record_name>User</record_name>
+        <reverted_from/>
+        <source>60ebdb9f87db3050c386fd99cebb350b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2021-10-25 07:19:29</sys_created_on>
+        <sys_id>d67c9717871f3050c386fd99cebb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb6518a5a0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2021-10-25 07:19:29</sys_updated_on>
+        <type>Variables</type>
+        <update_guid>167c9717701f3050e1d943dc0359d4a9</update_guid>
+        <update_guid_history>167c9717701f3050e1d943dc0359d4a9:0,ae595793615f7450497111460743da84:1725395460,c432f4d4a49f3010a2c6e94215365f92:0,57804d6bd74b7810734cb3ea05edfbd4:1897720510,abadfcc3d207b410e01c3e7e638b5cd7:0,c1b7a44f5743b410e4f875a55ffd4357:-1145954511,affbc40ba98f7410c3cf42745a165c72:0,78898003ec8f7410a2fd472a9662c976:-1210541385,6f5154281b8e2c50a2d8ed89f31765fd:-202679677,67515428938e2c5023d5ab3a266e89f9:886221627,67515428cd8e2c50fb932ce5b92d37f4:-202679677</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2022-02-15 15:19:09">d47aa63f87690d10c386fd99cebb3518</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tshwarelo.tshabalala</sys_created_by>
+        <sys_created_on>2022-02-15 13:19:09</sys_created_on>
+        <sys_db_object display_value="" name="topic_variable">topic_variable</sys_db_object>
+        <sys_id>07c21dbaaf784fb0806726388aa02284</sys_id>
+        <sys_metadata>ef5158641b8e2c50ef5b635ee54bcb99</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>topic_variable_ef5158641b8e2c50ef5b635ee54bcb99</sys_update_name>
+        <sys_update_version display_value="topic_variable_ef5158641b8e2c50ef5b635ee54bcb99">d67c9717871f3050c386fd99cebb35a9</sys_update_version>
+        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
+        <sys_updated_on>2022-02-15 13:19:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

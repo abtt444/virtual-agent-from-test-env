@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
     <m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE">
         <entity display_value="Relocation">a4d9fe8f1b42a4d0122465fce54bcb60</entity>
-        <intent display_value="Book Relocation Leave">91329a801b5e6410ef5b635ee54bcbaf</intent>
+        <intent display_value="TF - Relocation Leave">91329a801b5e6410ef5b635ee54bcbaf</intent>
         <relationship>regular</relationship>
         <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
         <sys_created_by>gabriel.eisenberg</sys_created_by>

@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Adding a Beneficiary">7421ae591b31a410ef5b635ee54bcbbe</model>
+        <model display_value="Pension Fund Beneficiaries">7421ae591b31a410ef5b635ee54bcbbe</model>
         <model_id>7421ae591b31a410ef5b635ee54bcbbe</model_id>
         <model_table/>
         <name>var__m_topic_variable_7421ae591b31a410ef5b635ee54bcbbe</name>

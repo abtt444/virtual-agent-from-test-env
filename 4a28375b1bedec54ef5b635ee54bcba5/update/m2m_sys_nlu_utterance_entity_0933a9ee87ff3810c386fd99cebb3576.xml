@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":19,"end":30,"annotatedString":"how are we handing {{phrase=\"corona virus\"}} as the bank","cat":null}]</annotation>
+        <entity display_value="Covid">3923adae87ff3810c386fd99cebb35a2</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>AB019AM</sys_created_by>
+        <sys_created_on>2021-11-16 11:05:36</sys_created_on>
+        <sys_id>0933a9ee87ff3810c386fd99cebb3576</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Covid.how are we handing corona virus as the bank</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_0933a9ee87ff3810c386fd99cebb3576</sys_update_name>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:05:36</sys_updated_on>
+        <utterance display_value="how are we handing corona virus as the bank">4f23a1ee87ff3810c386fd99cebb3510</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>
