@@ -61,53 +61,118 @@
           "stepType": "Decision",
           "name": "Decision"
         },
-        "4d1b99f745474761aa66fa456c0cd537": {
-          "id": "4d1b99f745474761aa66fa456c0cd537",
-          "stepType": "TextOutput",
-          "name": "Show Sorry Message",
-          "value": {
-            "value": "(function execute() {\n    return vaVars._topic_sorry_msg;\n})()\n",
-            "mode": "script"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          },
-          "secure": false
-        },
-        "e38f5c6218d6416198e6ece0639c637d": {
-          "id": "e38f5c6218d6416198e6ece0639c637d",
-          "stepType": "TextOutput",
-          "name": "Show Topic Not Found Message",
-          "value": {
-            "value": "(function execute() {\n    return vaVars._topic_not_found_msg;\n})()\n",
-            "mode": "script"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          },
-          "secure": false
-        },
         "5c9d4108c55c4c41b3ddf803e5a4fdce": {
           "id": "5c9d4108c55c4c41b3ddf803e5a4fdce",
-          "name": "Show Topics",
+          "name": "Show TopicsUser",
           "script": "(function execute() {\n    //vaSystem.switchTopic(vaVars._setup_explore_help_topic);\n    var greetingMessage = vaSystem.getTopicSelectionMessage();\n    vaSystem.sendTopicPickerControl(greetingMessage);\n    vaSystem.topicDiscovery();\n})()",
           "stepType": "ScriptAction",
           "applicability": {
             "mode": "script",
             "value": ""
           }
+        },
+        "1649a701ccc34b6c8f1a66aba787e88a": {
+          "id": "1649a701ccc34b6c8f1a66aba787e88a",
+          "name": "User Search Text",
+          "script": "(function execute() {\n   vaVars.user_search_text = vaSystem.getSearchText().trim();\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "61f437fd082f4c3cab1d66873b67c9c1": {
+          "id": "61f437fd082f4c3cab1d66873b67c9c1",
+          "stepType": "ReusableTopic",
+          "name": "Contextual Search",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "reusableTopicChoice": "Contextual Search",
+          "reusableTopicId": "d9dec393b3973300dbbf6030c6a8dc27",
+          "inputs": {
+            "context": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "091fa3d3c37221003d2ae219cdba8f0e"
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "query": {
+              "value": "(function execute() {\n    /* Return a quoted string.  For example:\n\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessageLang(\"hi there {0}\", vaContext.getRequesterLang(), [vaInputs.first_name]);\n       } else {\n           return gs.getMessageLang(\"how are you {0}\", vaContext.getRequesterLang(), [vaInputs.last_name]);\n       }\n    */\n    return '11';\n})()\n",
+              "mode": "script",
+              "type": "String"
+            },
+            "portal": {
+              "value": "",
+              "mode": "simple",
+              "type": "String"
+            },
+            "kb_knowledge_base": {
+              "value": "",
+              "mode": "simple",
+              "type": "String"
+            }
+          },
+          "outputs": [
+            {
+              "id": "3556d499b3a24843ab3d43ab95a2783f",
+              "value": "results_returned",
+              "mapping": "results_returned",
+              "preventDisable": false
+            },
+            {
+              "id": "dd9867b1d4644ebf865a5f1051b17ada",
+              "value": "results_helpful",
+              "mapping": "results_helpful",
+              "preventDisable": false
+            },
+            {
+              "id": "ddd1cc3795964ca491440d58f7123b29",
+              "value": "ctx_search_details",
+              "mapping": "ctx_search_details",
+              "preventDisable": false
+            }
+          ],
+          "variableIds": [
+            "3556d499b3a24843ab3d43ab95a2783f",
+            "dd9867b1d4644ebf865a5f1051b17ada",
+            "ddd1cc3795964ca491440d58f7123b29"
+          ],
+          "outdatedNote": false,
+          "loading": false
         }
       },
       "edges": [
         {
-          "id": "7082d2d60b9b438892b553fd0d41b523",
+          "id": "edbf6d9eb1a942c985320177598258af",
           "edgeType": "Edge",
-          "source": "e38f5c6218d6416198e6ece0639c637d",
-          "target": "5c9d4108c55c4c41b3ddf803e5a4fdce",
+          "source": "61f437fd082f4c3cab1d66873b67c9c1",
+          "target": "89b200e2219c42a5bcd9676e0b2f2cfa",
           "sourcePort": "",
           "targetPort": ""
+        },
+        {
+          "id": "be03e25fd3434da79b6062093a3128af",
+          "edgeType": "Branch",
+          "source": "e9bec5dcdcc0460c8d7a12a2f2338bce",
+          "target": "1649a701ccc34b6c8f1a66aba787e88a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaVars._topic_strategy == 'unknown';\n})()\n"
+          },
+          "label": "Topic Not Found"
         },
         {
           "id": "57d4289c65fe45f6a32db271ca39fe7d",
@@ -131,27 +196,6 @@
           "label": "Wrong Topic"
         },
         {
-          "id": "be03e25fd3434da79b6062093a3128af",
-          "edgeType": "Branch",
-          "source": "e9bec5dcdcc0460c8d7a12a2f2338bce",
-          "target": "4d1b99f745474761aa66fa456c0cd537",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "mode": "script",
-            "value": "(function execute() {\n    return vaVars._topic_strategy == 'unknown';\n})()\n"
-          },
-          "label": "Topic Not Found"
-        },
-        {
-          "id": "dc9d3ffc2c7c4b60bb15c1fb72701849",
-          "edgeType": "Edge",
-          "source": "4d1b99f745474761aa66fa456c0cd537",
-          "target": "e38f5c6218d6416198e6ece0639c637d",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
           "id": "c1b1d987b4f248d9a124088ea79723cb",
           "edgeType": "Edge",
           "source": "42fad500d1f042c0b6917ab2d9067ac9",
@@ -164,6 +208,14 @@
           "edgeType": "Edge",
           "source": "5c9d4108c55c4c41b3ddf803e5a4fdce",
           "target": "89b200e2219c42a5bcd9676e0b2f2cfa",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "31dcea9f0447460eaa5174b0b7871d0b",
+          "edgeType": "Edge",
+          "source": "1649a701ccc34b6c8f1a66aba787e88a",
+          "target": "61f437fd082f4c3cab1d66873b67c9c1",
           "sourcePort": "",
           "targetPort": ""
         }
@@ -233,6 +285,53 @@
       "name": "user",
       "table": "sys_user",
       "varType": "reference"
+    },
+    "d1eb0cbcf0614ebe93a5f25495684022": {
+      "id": "d1eb0cbcf0614ebe93a5f25495684022",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "user_search_text",
+      "label": "user_search_text",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "3556d499b3a24843ab3d43ab95a2783f": {
+      "id": "3556d499b3a24843ab3d43ab95a2783f",
+      "name": "results_returned",
+      "label": "Results_returned",
+      "defaultValue": "results_returned",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    },
+    "dd9867b1d4644ebf865a5f1051b17ada": {
+      "id": "dd9867b1d4644ebf865a5f1051b17ada",
+      "name": "results_helpful",
+      "label": "Results_helpful",
+      "defaultValue": "results_helpful",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    },
+    "ddd1cc3795964ca491440d58f7123b29": {
+      "id": "ddd1cc3795964ca491440d58f7123b29",
+      "name": "ctx_search_details",
+      "label": "Ctx_search_details",
+      "defaultValue": "ctx_search_details",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
     }
   }
 }</graph>
@@ -253,14 +352,14 @@
         <sys_created_on>2021-01-18 09:35:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>8f5eb1511b3d6410ef5b635ee54bcb8b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Fallback</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_8f5eb1511b3d6410ef5b635ee54bcb8b</sys_update_name>
-        <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-17 13:50:49</sys_updated_on>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-08-03 07:08:52</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>SETUP_TOPIC</type>
         <variables/>

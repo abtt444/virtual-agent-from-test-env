@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability>(function execute() {
+    return false;
+})()
+</applicability>
+        <applicability_mode>script</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Fallback topic that runs when users input is not understood, with integrated catalog and knowledge search</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "722d97bb5c074cba81fc7d1f2a7cf7b2": {
+          "id": "722d97bb5c074cba81fc7d1f2a7cf7b2",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "33b2f30d20ca4476bdd782f6e6758314": {
+          "id": "33b2f30d20ca4476bdd782f6e6758314",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "27dd94c2ae9e4f338bca21de2eba8433": {
+          "id": "27dd94c2ae9e4f338bca21de2eba8433",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "e7897a277a2a4e0ab013e61d659e8c5b": {
+          "id": "e7897a277a2a4e0ab013e61d659e8c5b",
+          "stepType": "TextOutput",
+          "name": "test message",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "thabiso test"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "e4bbe951cab34790926a9f61f228b6fc",
+          "edgeType": "Edge",
+          "source": "722d97bb5c074cba81fc7d1f2a7cf7b2",
+          "target": "27dd94c2ae9e4f338bca21de2eba8433",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "83bf21ac886c49cf8a44ad5c04fcd053",
+          "edgeType": "Branch",
+          "source": "27dd94c2ae9e4f338bca21de2eba8433",
+          "target": "e7897a277a2a4e0ab013e61d659e8c5b",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaVars._topic_strategy == 'unknown';\n})()\n"
+          },
+          "label": "Topic Not Found"
+        },
+        {
+          "id": "ba30ffcc9bcc46f194c303fac4924f97",
+          "edgeType": "Edge",
+          "source": "e7897a277a2a4e0ab013e61d659e8c5b",
+          "target": "33b2f30d20ca4476bdd782f6e6758314",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "bfa6867409d24d98af7fa0e12fb9cf6d": {
+      "category": "vaInputs",
+      "id": "bfa6867409d24d98af7fa0e12fb9cf6d",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "ccace816c7f84daea15c8520751ab545": {
+      "id": "ccace816c7f84daea15c8520751ab545",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_topic_strategy",
+      "label": "_topic_strategy",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "a06afde8907b4eeab5a6dd8a640d2b54": {
+      "id": "a06afde8907b4eeab5a6dd8a640d2b54",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "user_search_text",
+      "label": "user_search_text",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "8a920cb3a2b9470e80663a824bf0b4af": {
+      "id": "8a920cb3a2b9470e80663a824bf0b4af",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_topic_wrong_msg",
+      "label": "_topic_wrong_msg",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "e40a7ec2ddeb412eaa73e032a0a2051c": {
+      "id": "e40a7ec2ddeb412eaa73e032a0a2051c",
+      "value": {
+        "mode": "script",
+        "value": "(function execute() {\n    return gs.getMessage(\"Sorry I didn't find something that helped. {0}\", vaVars._topic_not_found_msg);\n})()\n"
+      },
+      "name": "topic_not_found",
+      "label": "topic_not_found",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "d342f4975410431baf1dfbadf0c07f27": {
+      "id": "d342f4975410431baf1dfbadf0c07f27",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_setup_explore_help_topic",
+      "label": "_setup_explore_help_topic",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "d548a5369c7547438f5428fa81f067a7": {
+      "id": "d548a5369c7547438f5428fa81f067a7",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_topic_not_found_msg",
+      "label": "_topic_not_found_msg",
+      "varType": "script",
+      "category": "vaVars"
+    }
+  }
+}</graph>
+        <key_phrases>Absa Fallback,Search Fallback Topic., Fallback Topic</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Absa Fallback</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>public</roles>
+        <source_topic_id>b969abd2539a0010c839ddeeff7b12c7</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-07-28 11:53:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>75f1b958878d9d10c386fd99cebb358f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Absa Fallback</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_75f1b958878d9d10c386fd99cebb358f</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-07-30 20:24:04</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=75f1b958878d9d10c386fd99cebb358f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_cb_topic_75f1b958878d9d10c386fd99cebb358f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability>(function execute() {
+    return false;
+})()
+</applicability><applicability_mode>script</applicability_mode><autopilot_topic>false</autopilot_topic><category/><channels/><connect_queue/><description>Fallback topic that runs when users input is not understood, with integrated catalog and knowledge search</description><expose_on_palette>false</expose_on_palette><flexible_conversation_switching>false</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "722d97bb5c074cba81fc7d1f2a7cf7b2": {
+          "id": "722d97bb5c074cba81fc7d1f2a7cf7b2",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "33b2f30d20ca4476bdd782f6e6758314": {
+          "id": "33b2f30d20ca4476bdd782f6e6758314",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "27dd94c2ae9e4f338bca21de2eba8433": {
+          "id": "27dd94c2ae9e4f338bca21de2eba8433",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "e7897a277a2a4e0ab013e61d659e8c5b": {
+          "id": "e7897a277a2a4e0ab013e61d659e8c5b",
+          "stepType": "TextOutput",
+          "name": "test message",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "thabiso test"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "e4bbe951cab34790926a9f61f228b6fc",
+          "edgeType": "Edge",
+          "source": "722d97bb5c074cba81fc7d1f2a7cf7b2",
+          "target": "27dd94c2ae9e4f338bca21de2eba8433",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "83bf21ac886c49cf8a44ad5c04fcd053",
+          "edgeType": "Branch",
+          "source": "27dd94c2ae9e4f338bca21de2eba8433",
+          "target": "e7897a277a2a4e0ab013e61d659e8c5b",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaVars._topic_strategy == 'unknown';\n})()\n"
+          },
+          "label": "Topic Not Found"
+        },
+        {
+          "id": "ba30ffcc9bcc46f194c303fac4924f97",
+          "edgeType": "Edge",
+          "source": "e7897a277a2a4e0ab013e61d659e8c5b",
+          "target": "33b2f30d20ca4476bdd782f6e6758314",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "bfa6867409d24d98af7fa0e12fb9cf6d": {
+      "category": "vaInputs",
+      "id": "bfa6867409d24d98af7fa0e12fb9cf6d",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "ccace816c7f84daea15c8520751ab545": {
+      "id": "ccace816c7f84daea15c8520751ab545",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_topic_strategy",
+      "label": "_topic_strategy",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "a06afde8907b4eeab5a6dd8a640d2b54": {
+      "id": "a06afde8907b4eeab5a6dd8a640d2b54",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "user_search_text",
+      "label": "user_search_text",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "8a920cb3a2b9470e80663a824bf0b4af": {
+      "id": "8a920cb3a2b9470e80663a824bf0b4af",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_topic_wrong_msg",
+      "label": "_topic_wrong_msg",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "e40a7ec2ddeb412eaa73e032a0a2051c": {
+      "id": "e40a7ec2ddeb412eaa73e032a0a2051c",
+      "value": {
+        "mode": "script",
+        "value": "(function execute() {\n    return gs.getMessage(\"Sorry I didn't find something that helped. {0}\", vaVars._topic_not_found_msg);\n})()\n"
+      },
+      "name": "topic_not_found",
+      "label": "topic_not_found",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "d342f4975410431baf1dfbadf0c07f27": {
+      "id": "d342f4975410431baf1dfbadf0c07f27",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_setup_explore_help_topic",
+      "label": "_setup_explore_help_topic",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "d548a5369c7547438f5428fa81f067a7": {
+      "id": "d548a5369c7547438f5428fa81f067a7",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_topic_not_found_msg",
+      "label": "_topic_not_found_msg",
+      "varType": "script",
+      "category": "vaVars"
+    }
+  }
+}</graph><key_phrases>Absa Fallback,Search Fallback Topic., Fallback Topic</key_phrases><library>false</library><live_agent>false</live_agent><name>Absa Fallback</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><palette_label/><roles>public</roles><source_topic_id>b969abd2539a0010c839ddeeff7b12c7</source_topic_id><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>thabiso.diphare</sys_created_by><sys_created_on>2022-07-28 11:53:25</sys_created_on><sys_domain>global</sys_domain><sys_id>75f1b958878d9d10c386fd99cebb358f</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Absa Fallback</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_cb_topic_75f1b958878d9d10c386fd99cebb358f</sys_update_name><sys_updated_by>thabiso.diphare</sys_updated_by><sys_updated_on>2022-07-30 20:24:04</sys_updated_on><triggerable_by_notification>false</triggerable_by_notification><type>SETUP_TOPIC</type><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=75f1b958878d9d10c386fd99cebb358f"/></record_update>]]></payload>
+        <payload_hash>-1031535234</payload_hash>
+        <record_name>Absa Fallback</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-07-30 20:24:04</sys_created_on>
+        <sys_id>a90a398d97891190fac1f386f053af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18250c7befe0000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-07-30 20:24:04</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>610a398db28911901a41655f5a58e37f</update_guid>
+        <update_guid_history>610a398db28911901a41655f5a58e37f:-1031535234,7ba93d0de0891190b59b3f96dd73562c:486021,ec223d413f891190fc5b4bf199af758f:1135021719,13f83d90f2cd9d100c29c97a3df91434:-1310927029,40e47d1cdf8d9d1048e194193e788baa:2109907343,8c32fd587a8d9d101afd8f048a3d909b:-749619160,42f1b958e08d9d106f096738955d90e2:935419838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-07-31 09:37:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>536daad0f6ae48a091ed0d65357f9900</sys_id>
+        <sys_metadata>75f1b958878d9d10c386fd99cebb358f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Absa Fallback</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_75f1b958878d9d10c386fd99cebb358f</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_75f1b958878d9d10c386fd99cebb358f">a90a398d97891190fac1f386f053af7f</sys_update_version>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-07-31 09:37:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
