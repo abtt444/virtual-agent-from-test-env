@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Enables users to request a live agent or log a case.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "f23e8814870446109bd50d34c1cd9584": {
+          "id": "f23e8814870446109bd50d34c1cd9584",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "5c9be73c2b324f6ea928775829228efb": {
+          "id": "5c9be73c2b324f6ea928775829228efb",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "2c6ba4b1fc9c40049add7d71db2bf583": {
+          "id": "2c6ba4b1fc9c40049add7d71db2bf583",
+          "name": "Connect To Agent",
+          "script": "(function execute() {\n    vaSystem.connectToAgent();\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "7a35f87cc2814aee8ea46f920ce4ab53": {
+          "id": "7a35f87cc2814aee8ea46f920ce4ab53",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "7e9c1f91796b49ce8038c9c3fed17233": {
+          "id": "7e9c1f91796b49ce8038c9c3fed17233",
+          "stepType": "TextOutput",
+          "name": "link to log a case",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You can log a case "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahrdev.service-now.com/myhrportal?id=sc_category&amp;catalog_id=-1",
+                    "children": [
+                      {
+                        "text": "here"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " ."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "f967cf710ff947d1b0dc27e8b143893d": {
+          "stepType": "ChoicePrompt",
+          "name": "select log case or transfer to agent",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "choose an option"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "f7d46899f6004ae39a100ba6c31e41e5",
+          "id": "f967cf710ff947d1b0dc27e8b143893d",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": true,
+          "skipIfFulfilled": false
+        }
+      },
+      "edges": [
+        {
+          "id": "8b2157be20ff4b23b5e7189f365ab55e",
+          "edgeType": "Edge",
+          "source": "f967cf710ff947d1b0dc27e8b143893d",
+          "target": "7a35f87cc2814aee8ea46f920ce4ab53",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dbda5d5b56374384b32a0ba9c8d0b8eb",
+          "edgeType": "Branch",
+          "source": "7a35f87cc2814aee8ea46f920ce4ab53",
+          "target": "2c6ba4b1fc9c40049add7d71db2bf583",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.select_log_case_or_transfer_to_agent=live agent",
+            "mode": "query"
+          },
+          "label": "transfer to agent"
+        },
+        {
+          "id": "32f829f109f5446bad91aa00eaca44f9",
+          "edgeType": "Edge",
+          "source": "2c6ba4b1fc9c40049add7d71db2bf583",
+          "target": "5c9be73c2b324f6ea928775829228efb",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0dac8c9b71914d0ca94e98c3a7bd0775",
+          "edgeType": "Branch",
+          "source": "7a35f87cc2814aee8ea46f920ce4ab53",
+          "target": "7e9c1f91796b49ce8038c9c3fed17233",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.select_log_case_or_transfer_to_agent=log a case",
+            "mode": "query"
+          },
+          "label": "log a case"
+        },
+        {
+          "id": "f4a852f0136d4c8a9885080c1ad7cde0",
+          "edgeType": "Edge",
+          "source": "7e9c1f91796b49ce8038c9c3fed17233",
+          "target": "5c9be73c2b324f6ea928775829228efb",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "587e8aab424d4cf6b0fa6b72acc9eddf",
+          "edgeType": "Edge",
+          "source": "f23e8814870446109bd50d34c1cd9584",
+          "target": "f967cf710ff947d1b0dc27e8b143893d",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "ab3dba19aa994bc5a03687aa99fa252d": {
+      "category": "vaInputs",
+      "id": "ab3dba19aa994bc5a03687aa99fa252d",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "f7d46899f6004ae39a100ba6c31e41e5": {
+      "id": "f7d46899f6004ae39a100ba6c31e41e5",
+      "name": "select_log_case_or_transfer_to_agent",
+      "label": "Select Log Case Or Transfer To Agent",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "log a case",
+          "value": "log a case"
+        },
+        {
+          "label": "live agent",
+          "value": "live agent",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases/>
+        <library>true</library>
+        <live_agent>false</live_agent>
+        <name>Transfer To Agent Or Log a Case</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id>996257ff1bf92850ef5b635ee54bcb00</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-09-17 13:43:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7924703087c69950c386fd99cebb35af</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Transfer To Agent Or Log a Case</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_7924703087c69950c386fd99cebb35af</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-09-17 14:27:11</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>TOPIC_BLOCK</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=7924703087c69950c386fd99cebb35af"/>
+</record_update>

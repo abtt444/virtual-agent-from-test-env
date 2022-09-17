@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability>(function execute() {
+    return false;
+})()
+</applicability>
+        <applicability_mode>script</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Fallback topic that runs when users input is not understood, with integrated catalog and knowledge search</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "686ab061d0bf47cc9c21b642ed6ceddc": {
+          "id": "686ab061d0bf47cc9c21b642ed6ceddc",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "893c6a1338c7416ba3925102c72d1742": {
+          "id": "893c6a1338c7416ba3925102c72d1742",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "cb323830d96e4887a125c669d9f1cbb5": {
+          "id": "cb323830d96e4887a125c669d9f1cbb5",
+          "stepType": "Decision",
+          "name": "Did the search return results?"
+        },
+        "ce2f19cc278045d1bb2e19248112425a": {
+          "id": "ce2f19cc278045d1bb2e19248112425a",
+          "name": "Conversation Builder",
+          "script": "(function execute() {\n    var contextualSearch = new global.VAGlobalContextualSearchUtil();\n    vaVars.user_search_text = vaSystem.getSearchText().trim();\n    var response = contextualSearch.search(\n        vaVars.search_context_sys_id, vaVars.user_search_text, vaInputs.kb_knowledge_base\n    );\n    var success = contextualSearch.processSearchResponse(response);\n    if (!success) {\n        return;\n    }\n\n    var relevantSearchResults = contextualSearch.processGeneralResults(response, 6, -2);\n    vaVars.searchResultCount = relevantSearchResults.length;\n    vaVars.search_result_json_string = JSON.stringify(relevantSearchResults);\n    vaVars.index = 0;\n    return;\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "f5831de556634262aeb36d1128fe4a1f": {
+          "id": "f5831de556634262aeb36d1128fe4a1f",
+          "stepType": "TextOutput",
+          "name": "Found Information",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "I found this information that might help you"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "3f38839938994d7e84d5f3a5f405f20a": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Choose Article",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "I found some information that might help you"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "f84c7bc5da5045619161e1521eabe6b4",
+          "id": "3f38839938994d7e84d5f3a5f405f20a",
+          "mode": "external",
+          "script": "(function execute() {\n    var options = [];\n    var searchJsonObj = JSON.parse(vaVars.search_result_json_string);\n\n    for (i = 0; i &lt; searchJsonObj.length; i++) {\n        options.push({ 'value': i, 'label': searchJsonObj[i].title });\n    }\n\n    options.push({ 'value': '-1', 'label': 'I\\'m looking for something else' })\n\n    return options;\n})()\n",
+          "metadataScript": "",
+          "cardData": {},
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "No records found."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "value": "(function execute() {\n    var options = [];\n    var searchJsonObj = JSON.parse(vaVars.search_result_json_string);\n\n    for (i = 0; i &lt; searchJsonObj.length; i++) {\n        options.push({ 'value': i, 'label': searchJsonObj[i].title });\n    }\n\n    options.push({ 'value': '-1', 'label': 'I\\'m looking for something else' })\n\n    return options;\n})()\n",
+            "mode": "external_script"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "d66b47bd818f45708072fa9a403816ab": {
+          "id": "d66b47bd818f45708072fa9a403816ab",
+          "stepType": "TextOutput",
+          "name": "Display article",
+          "secure": false,
+          "value": {
+            "value": "(function execute() {\n    \n   // relevant properties to get record\n    var searchJsonObj = JSON.parse(vaVars.search_result_json_string);\n    var resultNumber = searchJsonObj[vaVars.selected_faq].meta.number;\n    gs.info('cw:resultNumber ' + resultNumber);\n\n   // var faqUtil = new global.VAFaqUtil();\n    // build the header text\n   // header_text =  faqUtil.buildHeaderText(resultNumber, vaVars.selected_type);\n  gs.info('cw:choose_article' + resultNumber);\nvar getKBArticle = new GlideRecord('kb_knowledge');\ngetKBArticle.get('number', resultNumber);\nvar description = getKBArticle.getValue('text').replace(/(&lt;([^&gt;]+)&gt;)/gi, \"\");\n//if(description.length &gt; 80) \n//{   \n// description = description.slice(0, 78); \nvaVars.description = description;\nvaVars.short_description = getKBArticle.getValue('short_description');\n\n//}\n\n  header_text = resultNumber + '&lt;br&gt;&lt;br&gt;'+vaVars.short_description;  \n    header_text += '&lt;br&gt;&lt;br&gt;';\ngs.info('cw: vaVars.selected_faq:'  + vaVars.selected_faq);\n    var linkBuilder = new global.cxs_SearchResultLinkBuilder();\n    var link = linkBuilder.build(searchJsonObj[vaVars.selected_faq], vaInputs.portal);\ngs.info('cw: link.link' + link.link);\n    //header_text += '&lt;a href=\"'+link.link+'\" target=\"_blank\" &gt;'+ 'Read full article'+ '&lt;/a&gt;';\nheader_text += '&lt;a href=\"'+\"myhrportal?id=kb_article_view&amp;sysparm_article=\" + resultNumber +'\" target=\"_blank\" &gt;'+ 'Read full article'+ '&lt;/a&gt;';\n   // &lt;p&gt;&lt;a href=\"cep?id=kb_article_view&amp;sysparm_article={{vaInputs.show_knowledge_blocks.number}}\" target=\"_blank\"&gt;More Details&lt;/a&gt;&lt;/p&gt;\n    //header_text += '[Read full article]('+link.link+')'\n    return header_text;\n    gs.info('hello');\n})()\n",
+            "mode": "script"
+          },
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          }
+        },
+        "badde888150c4a8f8a55b1ea72ea4025": {
+          "id": "badde888150c4a8f8a55b1ea72ea4025",
+          "stepType": "Prompt",
+          "name": "Did the info help",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Did this information help you?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "d6fc2b007bf44020847d2910948f0f20"
+        },
+        "23c9bffacddf41ada6a0982c562da1ec": {
+          "id": "23c9bffacddf41ada6a0982c562da1ec",
+          "name": "Record Outputs",
+          "script": "(function execute() {\n    if(vaInputs.did_info_help == 'true') {\n        vaVars.results_helpful = true;\n    } else {\n        vaVars.results_helpful = false;\n    }\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "562e98cc9dec42c885858cd36d892a46": {
+          "id": "562e98cc9dec42c885858cd36d892a46",
+          "stepType": "Decision",
+          "name": "Decision"
+        }
+      },
+      "edges": [
+        {
+          "id": "923aecb91db14bc0982983b1d5f821c5",
+          "edgeType": "Edge",
+          "source": "3f38839938994d7e84d5f3a5f405f20a",
+          "target": "562e98cc9dec42c885858cd36d892a46",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "cc1fc572301844768bc7d38a775648da",
+          "edgeType": "Branch",
+          "source": "cb323830d96e4887a125c669d9f1cbb5",
+          "target": "f5831de556634262aeb36d1128fe4a1f",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    if(vaVars.searchResultCount === 1) {\n        vaVars.results_returned = true;\n        vaVars.selected_faq = 0;\n        vaVars.selected_type = 'single';\n        return true;\n    }\n    return false;\n})()\n"
+          },
+          "label": "Found one"
+        },
+        {
+          "id": "d28b6822964249598eeb056bdff29f68",
+          "edgeType": "Edge",
+          "source": "ce2f19cc278045d1bb2e19248112425a",
+          "target": "cb323830d96e4887a125c669d9f1cbb5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f408b9d5c888429fb68b597faafb2e2c",
+          "edgeType": "Edge",
+          "source": "686ab061d0bf47cc9c21b642ed6ceddc",
+          "target": "ce2f19cc278045d1bb2e19248112425a",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "535afddfc3c14d0c87a5e69b85c0e7ec",
+          "edgeType": "Branch",
+          "source": "cb323830d96e4887a125c669d9f1cbb5",
+          "target": "893c6a1338c7416ba3925102c72d1742",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    if (!(vaVars.searchResultCount &gt; 0)) {\n        vaVars.results_helpful = false;\n        vaVars.results_returned = false;\n        return true;\n    }\n    return false;\n\n})()\n"
+          },
+          "label": "No"
+        },
+        {
+          "id": "80fdc9f9efd3480788c8df42c65b8f5d",
+          "edgeType": "Branch",
+          "source": "cb323830d96e4887a125c669d9f1cbb5",
+          "target": "3f38839938994d7e84d5f3a5f405f20a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaVars._topic_strategy == 'unknown';\n})()\n"
+          },
+          "label": "More than one"
+        },
+        {
+          "id": "9d9d0d5831354c4d8994357a274cd1bf",
+          "edgeType": "Edge",
+          "source": "f5831de556634262aeb36d1128fe4a1f",
+          "target": "d66b47bd818f45708072fa9a403816ab",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b0d268b566b84b379eea4e7bff5a139a",
+          "edgeType": "Edge",
+          "source": "d66b47bd818f45708072fa9a403816ab",
+          "target": "badde888150c4a8f8a55b1ea72ea4025",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "28982c88f4fb45fcb6412e6a4374bf45",
+          "edgeType": "Edge",
+          "source": "badde888150c4a8f8a55b1ea72ea4025",
+          "target": "23c9bffacddf41ada6a0982c562da1ec",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ec3f40495e5047d6955ab04c60a8d255",
+          "edgeType": "Edge",
+          "source": "23c9bffacddf41ada6a0982c562da1ec",
+          "target": "893c6a1338c7416ba3925102c72d1742",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d24ad83d3e774fcc86a871eebe759d8f",
+          "edgeType": "Branch",
+          "source": "562e98cc9dec42c885858cd36d892a46",
+          "target": "d66b47bd818f45708072fa9a403816ab",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    if (vaInputs.choose_article.getValue() != '-1') {\n        // need parseInt because it was keeping decimals\n        vaVars.selected_faq = parseInt(vaInputs.choose_article.getValue());\n        vaVars.selected_type = 'multi';\n        return true;\n    }\n    return false;\n})()\n"
+          },
+          "label": "Selected one"
+        },
+        {
+          "id": "e946c01683e54d8bbc43234461e77457",
+          "edgeType": "Branch",
+          "source": "562e98cc9dec42c885858cd36d892a46",
+          "target": "893c6a1338c7416ba3925102c72d1742",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaInputs.choose_article.getValue() == '-1';\n})()\n"
+          },
+          "label": "Something else"
+        }
+      ]
+    }
+  },
+  "variables": {
+    "8c424f2fb6fc4c169ca85845dbfe3a6e": {
+      "category": "vaInputs",
+      "id": "8c424f2fb6fc4c169ca85845dbfe3a6e",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "09bf8a0898e04c48a34600a1509d3d05": {
+      "id": "09bf8a0898e04c48a34600a1509d3d05",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_topic_strategy",
+      "label": "_topic_strategy",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "cf5b773f56164bac87bb53f1fddbd129": {
+      "id": "cf5b773f56164bac87bb53f1fddbd129",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "user_search_text",
+      "label": "user_search_text",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "1ad3b767fea64b3087c180011d69026c": {
+      "id": "1ad3b767fea64b3087c180011d69026c",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_topic_wrong_msg",
+      "label": "_topic_wrong_msg",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "1b26fecc9ac640b1979ef02089edbdb9": {
+      "id": "1b26fecc9ac640b1979ef02089edbdb9",
+      "value": {
+        "mode": "script",
+        "value": "(function execute() {\n    return gs.getMessage(\"Sorry I didn't find something that helped. {0}\", vaVars._topic_not_found_msg);\n})()\n"
+      },
+      "name": "topic_not_found",
+      "label": "topic_not_found",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "431db36d85a2447b879ea86552c68109": {
+      "id": "431db36d85a2447b879ea86552c68109",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_setup_explore_help_topic",
+      "label": "_setup_explore_help_topic",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "a02d5dd3d61e4d81981fc3772a56da08": {
+      "id": "a02d5dd3d61e4d81981fc3772a56da08",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_topic_not_found_msg",
+      "label": "_topic_not_found_msg",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "f84c7bc5da5045619161e1521eabe6b4": {
+      "id": "f84c7bc5da5045619161e1521eabe6b4",
+      "name": "choose_article",
+      "label": "Choose Article",
+      "varType": "reference",
+      "table": "",
+      "category": "vaInputs"
+    },
+    "0abb7558f292421d95bcd3b3f845814b": {
+      "id": "0abb7558f292421d95bcd3b3f845814b",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "DEBUG_JSON_RESULT",
+      "label": "DEBUG_JSON_RESULT",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "31bb58fa6bfb4b439ceceff6a09868a2": {
+      "id": "31bb58fa6bfb4b439ceceff6a09868a2",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "index",
+      "label": "index",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "5cf1ff0f732641ad82c144d203be970f": {
+      "id": "5cf1ff0f732641ad82c144d203be970f",
+      "value": {
+        "mode": "simple",
+        "value": "3"
+      },
+      "name": "limit",
+      "label": "limit",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "e75fd46b724745638452d3cf499d58b0": {
+      "id": "e75fd46b724745638452d3cf499d58b0",
+      "value": {
+        "mode": "simple",
+        "value": "false"
+      },
+      "name": "results_helpful",
+      "label": "results_helpful",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "22b5a13f11b04ef68dd3cb7fe466cf24": {
+      "id": "22b5a13f11b04ef68dd3cb7fe466cf24",
+      "value": {
+        "mode": "simple",
+        "value": "03ddb541c31121005655107698ba8f7f"
+      },
+      "name": "search_context_sys_id",
+      "label": "search_context_sys_id",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "d6fc2b007bf44020847d2910948f0f20": {
+      "id": "d6fc2b007bf44020847d2910948f0f20",
+      "name": "did_the_info_help",
+      "label": "Did The Info Help",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs"
+    },
+    "465371b15d7947e280a0319b73be7459": {
+      "id": "465371b15d7947e280a0319b73be7459",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "selected_faq",
+      "label": "selected_faq",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "084d6ca7a1ce40eca8a4263b9143aa74": {
+      "id": "084d6ca7a1ce40eca8a4263b9143aa74",
+      "value": {
+        "mode": "script",
+        "value": "(function execute() {\n    return 'none';\n})()\n"
+      },
+      "name": "selected_type",
+      "label": "selected_type",
+      "varType": "script",
+      "category": "vaVars"
+    }
+  }
+}</graph>
+        <key_phrases>New FallBack working - backup,New Fall backup 1.0,New Fallback backup,New Fallback,Search Fallback Topic., Fallback Topic</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>New FallBack working - backup</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>public</roles>
+        <source_topic_id>b74cab8e87455950c386fd99cebb35b3</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-09-17 12:59:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d31aa8fc97021910fac1f386f053afd8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New FallBack working - backup</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_d31aa8fc97021910fac1f386f053afd8</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-09-17 13:27:21</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=d31aa8fc97021910fac1f386f053afd8"/>
+</record_update>

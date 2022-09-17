@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Fallback topic that runs when users input is not understood, with integrated catalog and knowledge search</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "2711f785bae149db8190bdf796744ce1": {
+          "id": "2711f785bae149db8190bdf796744ce1",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "a189dd3161694070a029fef3bec14fbe": {
+          "id": "a189dd3161694070a029fef3bec14fbe",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "c1909581eec945f5bfb0e0663617063c": {
+          "id": "c1909581eec945f5bfb0e0663617063c",
+          "stepType": "Prompt",
+          "name": "Transfer to live agent or log case",
+          "prompt": {
+            "value": "(function execute() {\n    return gs.getMessage('Looks like you might need additional help. Would you like to speak with a live agent instead?');\n})()\n",
+            "mode": "script"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "2c340c3beb3a4ed5a69b6f23fe504fc7"
+        },
+        "5094a4bda42d46b7a77b1be28662a377": {
+          "id": "5094a4bda42d46b7a77b1be28662a377",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "2a66a2d519534186be02be665a0e1c44": {
+          "id": "2a66a2d519534186be02be665a0e1c44",
+          "stepType": "TextOutput",
+          "name": "link to log a case",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You can log a case "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahrdev.service-now.com/myhrportal?id=sc_category&amp;catalog_id=-1",
+                    "children": [
+                      {
+                        "text": "here"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " ."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "271031a505384653a7001538a46fe84a": {
+          "id": "271031a505384653a7001538a46fe84a",
+          "name": "connect to agent",
+          "script": "(function execute() {\n    vaSystem.connectToAgent();\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "78006f3225394b5f912d74f5e4be9a31",
+          "edgeType": "Edge",
+          "source": "2711f785bae149db8190bdf796744ce1",
+          "target": "c1909581eec945f5bfb0e0663617063c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dd4d28c9683347f0bb6f2d4ff3ac1e2e",
+          "edgeType": "Edge",
+          "source": "c1909581eec945f5bfb0e0663617063c",
+          "target": "5094a4bda42d46b7a77b1be28662a377",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b5febd1a0028485c9cc3ed91ba992c8e",
+          "edgeType": "Branch",
+          "source": "5094a4bda42d46b7a77b1be28662a377",
+          "target": "2a66a2d519534186be02be665a0e1c44",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "query",
+            "value": ""
+          },
+          "label": "log case"
+        },
+        {
+          "id": "51515c21461544e48e558385b58ce3d0",
+          "edgeType": "Edge",
+          "source": "2a66a2d519534186be02be665a0e1c44",
+          "target": "a189dd3161694070a029fef3bec14fbe",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "52702f8e14ec4f53b346552dd11a5bbe",
+          "edgeType": "Branch",
+          "source": "5094a4bda42d46b7a77b1be28662a377",
+          "target": "271031a505384653a7001538a46fe84a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "",
+            "mode": "query"
+          },
+          "label": "live agent"
+        },
+        {
+          "id": "c090c6097ea54d02af98364350649d17",
+          "edgeType": "Edge",
+          "source": "271031a505384653a7001538a46fe84a",
+          "target": "a189dd3161694070a029fef3bec14fbe",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "5054b66b8af7477e9917ea34207d7ac9": {
+      "category": "vaInputs",
+      "id": "5054b66b8af7477e9917ea34207d7ac9",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "9ba74182f0ff481784fbc548ce307255": {
+      "id": "9ba74182f0ff481784fbc548ce307255",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_topic_strategy",
+      "label": "_topic_strategy",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "e2d289bb3ff64f1cad35daf2c19525a1": {
+      "id": "e2d289bb3ff64f1cad35daf2c19525a1",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "user_search_text",
+      "label": "user_search_text",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "90090dceb22c42fa8ee5cfa262a4aa4f": {
+      "id": "90090dceb22c42fa8ee5cfa262a4aa4f",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_topic_wrong_msg",
+      "label": "_topic_wrong_msg",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "fd3b8958f04446c1a1272421ab18e522": {
+      "id": "fd3b8958f04446c1a1272421ab18e522",
+      "value": {
+        "mode": "script",
+        "value": "(function execute() {\n    return gs.getMessage(\"Sorry I didn't find something that helped. {0}\", vaVars._topic_not_found_msg);\n})()\n"
+      },
+      "name": "topic_not_found",
+      "label": "topic_not_found",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "15dabdef925c4cc3adba48620edc6aa0": {
+      "id": "15dabdef925c4cc3adba48620edc6aa0",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_setup_explore_help_topic",
+      "label": "_setup_explore_help_topic",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "6fda93e613fd499493c97972abe6203c": {
+      "id": "6fda93e613fd499493c97972abe6203c",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_topic_not_found_msg",
+      "label": "_topic_not_found_msg",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "a2327baf757145f3be1f4099c94becc1": {
+      "id": "a2327baf757145f3be1f4099c94becc1",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "DEBUG_JSON_RESULT",
+      "label": "DEBUG_JSON_RESULT",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "3dbfb8498c4e4452bcac5a40a59e4510": {
+      "id": "3dbfb8498c4e4452bcac5a40a59e4510",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "index",
+      "label": "index",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "2c53da3e57ef4073adab898efc6c6aa0": {
+      "id": "2c53da3e57ef4073adab898efc6c6aa0",
+      "value": {
+        "mode": "simple",
+        "value": "3"
+      },
+      "name": "limit",
+      "label": "limit",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "636073fa4a3d46e599d525f2b5e345ef": {
+      "id": "636073fa4a3d46e599d525f2b5e345ef",
+      "value": {
+        "mode": "simple",
+        "value": "false"
+      },
+      "name": "results_helpful",
+      "label": "results_helpful",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "52102addbef94f559a8e6fbb14f063e6": {
+      "id": "52102addbef94f559a8e6fbb14f063e6",
+      "value": {
+        "mode": "simple",
+        "value": "03ddb541c31121005655107698ba8f7f"
+      },
+      "name": "search_context_sys_id",
+      "label": "search_context_sys_id",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "77e61e7156ff4314ae239aa412f87fe1": {
+      "id": "77e61e7156ff4314ae239aa412f87fe1",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "selected_faq",
+      "label": "selected_faq",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "1330f94e087244499e0fa2d0d94b83ac": {
+      "id": "1330f94e087244499e0fa2d0d94b83ac",
+      "value": {
+        "mode": "script",
+        "value": "(function execute() {\n    return 'none';\n})()\n"
+      },
+      "name": "selected_type",
+      "label": "selected_type",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "2c340c3beb3a4ed5a69b6f23fe504fc7": {
+      "id": "2c340c3beb3a4ed5a69b6f23fe504fc7",
+      "name": "transfer_to_live_agent_or_log_case",
+      "label": "Transfer To Live Agent Or Log Case",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases/>
+        <library>true</library>
+        <live_agent>false</live_agent>
+        <name>Live Agent Transfer and Log Case 1</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id>81d8a03087869950c386fd99cebb3526</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-09-17 13:08:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a83c2cf087869950c386fd99cebb3596</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Live Agent Transfer and Log Case 1</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_a83c2cf087869950c386fd99cebb3596</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-09-17 13:08:37</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>TOPIC_BLOCK</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=a83c2cf087869950c386fd99cebb3596"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_cb_topic_a83c2cf087869950c386fd99cebb3596</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><applicability_mode>query</applicability_mode><autopilot_topic>false</autopilot_topic><category/><channels/><connect_queue/><description>Fallback topic that runs when users input is not understood, with integrated catalog and knowledge search</description><expose_on_palette>false</expose_on_palette><flexible_conversation_switching>true</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "2711f785bae149db8190bdf796744ce1": {
+          "id": "2711f785bae149db8190bdf796744ce1",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "a189dd3161694070a029fef3bec14fbe": {
+          "id": "a189dd3161694070a029fef3bec14fbe",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "c1909581eec945f5bfb0e0663617063c": {
+          "id": "c1909581eec945f5bfb0e0663617063c",
+          "stepType": "Prompt",
+          "name": "Transfer to live agent or log case",
+          "prompt": {
+            "value": "(function execute() {\n    return gs.getMessage('Looks like you might need additional help. Would you like to speak with a live agent instead?');\n})()\n",
+            "mode": "script"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "2c340c3beb3a4ed5a69b6f23fe504fc7"
+        },
+        "5094a4bda42d46b7a77b1be28662a377": {
+          "id": "5094a4bda42d46b7a77b1be28662a377",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "2a66a2d519534186be02be665a0e1c44": {
+          "id": "2a66a2d519534186be02be665a0e1c44",
+          "stepType": "TextOutput",
+          "name": "link to log a case",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You can log a case "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://absahrdev.service-now.com/myhrportal?id=sc_category&amp;catalog_id=-1",
+                    "children": [
+                      {
+                        "text": "here"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " ."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "271031a505384653a7001538a46fe84a": {
+          "id": "271031a505384653a7001538a46fe84a",
+          "name": "connect to agent",
+          "script": "(function execute() {\n    vaSystem.connectToAgent();\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "78006f3225394b5f912d74f5e4be9a31",
+          "edgeType": "Edge",
+          "source": "2711f785bae149db8190bdf796744ce1",
+          "target": "c1909581eec945f5bfb0e0663617063c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dd4d28c9683347f0bb6f2d4ff3ac1e2e",
+          "edgeType": "Edge",
+          "source": "c1909581eec945f5bfb0e0663617063c",
+          "target": "5094a4bda42d46b7a77b1be28662a377",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b5febd1a0028485c9cc3ed91ba992c8e",
+          "edgeType": "Branch",
+          "source": "5094a4bda42d46b7a77b1be28662a377",
+          "target": "2a66a2d519534186be02be665a0e1c44",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "query",
+            "value": ""
+          },
+          "label": "log case"
+        },
+        {
+          "id": "51515c21461544e48e558385b58ce3d0",
+          "edgeType": "Edge",
+          "source": "2a66a2d519534186be02be665a0e1c44",
+          "target": "a189dd3161694070a029fef3bec14fbe",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "52702f8e14ec4f53b346552dd11a5bbe",
+          "edgeType": "Branch",
+          "source": "5094a4bda42d46b7a77b1be28662a377",
+          "target": "271031a505384653a7001538a46fe84a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "",
+            "mode": "query"
+          },
+          "label": "live agent"
+        },
+        {
+          "id": "c090c6097ea54d02af98364350649d17",
+          "edgeType": "Edge",
+          "source": "271031a505384653a7001538a46fe84a",
+          "target": "a189dd3161694070a029fef3bec14fbe",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "5054b66b8af7477e9917ea34207d7ac9": {
+      "category": "vaInputs",
+      "id": "5054b66b8af7477e9917ea34207d7ac9",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "9ba74182f0ff481784fbc548ce307255": {
+      "id": "9ba74182f0ff481784fbc548ce307255",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_topic_strategy",
+      "label": "_topic_strategy",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "e2d289bb3ff64f1cad35daf2c19525a1": {
+      "id": "e2d289bb3ff64f1cad35daf2c19525a1",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "user_search_text",
+      "label": "user_search_text",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "90090dceb22c42fa8ee5cfa262a4aa4f": {
+      "id": "90090dceb22c42fa8ee5cfa262a4aa4f",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_topic_wrong_msg",
+      "label": "_topic_wrong_msg",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "fd3b8958f04446c1a1272421ab18e522": {
+      "id": "fd3b8958f04446c1a1272421ab18e522",
+      "value": {
+        "mode": "script",
+        "value": "(function execute() {\n    return gs.getMessage(\"Sorry I didn't find something that helped. {0}\", vaVars._topic_not_found_msg);\n})()\n"
+      },
+      "name": "topic_not_found",
+      "label": "topic_not_found",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "15dabdef925c4cc3adba48620edc6aa0": {
+      "id": "15dabdef925c4cc3adba48620edc6aa0",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "_setup_explore_help_topic",
+      "label": "_setup_explore_help_topic",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "6fda93e613fd499493c97972abe6203c": {
+      "id": "6fda93e613fd499493c97972abe6203c",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "_topic_not_found_msg",
+      "label": "_topic_not_found_msg",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "a2327baf757145f3be1f4099c94becc1": {
+      "id": "a2327baf757145f3be1f4099c94becc1",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "DEBUG_JSON_RESULT",
+      "label": "DEBUG_JSON_RESULT",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "3dbfb8498c4e4452bcac5a40a59e4510": {
+      "id": "3dbfb8498c4e4452bcac5a40a59e4510",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "index",
+      "label": "index",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "2c53da3e57ef4073adab898efc6c6aa0": {
+      "id": "2c53da3e57ef4073adab898efc6c6aa0",
+      "value": {
+        "mode": "simple",
+        "value": "3"
+      },
+      "name": "limit",
+      "label": "limit",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "636073fa4a3d46e599d525f2b5e345ef": {
+      "id": "636073fa4a3d46e599d525f2b5e345ef",
+      "value": {
+        "mode": "simple",
+        "value": "false"
+      },
+      "name": "results_helpful",
+      "label": "results_helpful",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "52102addbef94f559a8e6fbb14f063e6": {
+      "id": "52102addbef94f559a8e6fbb14f063e6",
+      "value": {
+        "mode": "simple",
+        "value": "03ddb541c31121005655107698ba8f7f"
+      },
+      "name": "search_context_sys_id",
+      "label": "search_context_sys_id",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "77e61e7156ff4314ae239aa412f87fe1": {
+      "id": "77e61e7156ff4314ae239aa412f87fe1",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "selected_faq",
+      "label": "selected_faq",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "1330f94e087244499e0fa2d0d94b83ac": {
+      "id": "1330f94e087244499e0fa2d0d94b83ac",
+      "value": {
+        "mode": "script",
+        "value": "(function execute() {\n    return 'none';\n})()\n"
+      },
+      "name": "selected_type",
+      "label": "selected_type",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "2c340c3beb3a4ed5a69b6f23fe504fc7": {
+      "id": "2c340c3beb3a4ed5a69b6f23fe504fc7",
+      "name": "transfer_to_live_agent_or_log_case",
+      "label": "Transfer To Live Agent Or Log Case",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph><key_phrases/><library>true</library><live_agent>false</live_agent><name>Live Agent Transfer and Log Case 1</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><palette_label/><roles/><source_topic_id>81d8a03087869950c386fd99cebb3526</source_topic_id><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>thabiso.diphare</sys_created_by><sys_created_on>2022-09-17 13:08:21</sys_created_on><sys_domain>global</sys_domain><sys_id>a83c2cf087869950c386fd99cebb3596</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Live Agent Transfer and Log Case 1</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_cb_topic_a83c2cf087869950c386fd99cebb3596</sys_update_name><sys_updated_by>thabiso.diphare</sys_updated_by><sys_updated_on>2022-09-17 13:08:37</sys_updated_on><triggerable_by_notification>false</triggerable_by_notification><type>TOPIC_BLOCK</type><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=a83c2cf087869950c386fd99cebb3596"/></record_update>]]></payload>
+        <payload_hash>459803917</payload_hash>
+        <record_name>Live Agent Transfer and Log Case 1</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-09-17 13:08:37</sys_created_on>
+        <sys_id>684ca47487869950c386fd99cebb3581</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1834b90b3890000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-09-17 13:08:37</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>204ca4742186995075c922d55eb54481</update_guid>
+        <update_guid_history>204ca4742186995075c922d55eb54481:459803917,e83ca474d3869950c3536abbccf4ef7c:1819953583</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-09-17 13:08:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>2c45ea905851441e8cbbbf8ae3e81629</sys_id>
+        <sys_metadata>a83c2cf087869950c386fd99cebb3596</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Live Agent Transfer and Log Case 1</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_a83c2cf087869950c386fd99cebb3596</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_a83c2cf087869950c386fd99cebb3596">684ca47487869950c386fd99cebb3581</sys_update_version>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-09-17 13:08:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

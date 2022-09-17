@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Presents a greeting to the user at the beginning of a conversation.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "5164b99b00a0484e80613ae3bdf4a6b9": {
+          "id": "5164b99b00a0484e80613ae3bdf4a6b9",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": "",
+            "mode": "simple"
+          }
+        },
+        "0c5da2fec6d9466eba28362ceae6d012": {
+          "id": "0c5da2fec6d9466eba28362ceae6d012",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "c3f4b1bc0aff43d3be8fb65fe53eb8a9": {
+          "id": "c3f4b1bc0aff43d3be8fb65fe53eb8a9",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "0d2a7bf2da7743958c9d3677098a0716": {
+          "id": "0d2a7bf2da7743958c9d3677098a0716",
+          "stepType": "TextOutput",
+          "name": "Testing Text",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Name :Thabiso Jerry Diphare"
+                  },
+                  {
+                    "type": "emoji",
+                    "emoji": {
+                      "id": "laughing",
+                      "name": "Smiling Face with Open Mouth and Tightly-Closed Eyes",
+                      "short_names": [
+                        "laughing",
+                        "satisfied"
+                      ],
+                      "colons": ":laughing:",
+                      "emoticons": [
+                        ":&gt;",
+                        ":-&gt;"
+                      ],
+                      "unified": "1f606",
+                      "skin": null,
+                      "native": ""
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": " "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "99df90b725d9400e86378debdbb96b3b": {
+          "id": "99df90b725d9400e86378debdbb96b3b",
+          "stepType": "ImplicitEnd"
+        },
+        "6c6c632ae7ba4e84aad5d5c4a3a5f0e6": {
+          "id": "6c6c632ae7ba4e84aad5d5c4a3a5f0e6",
+          "name": "User Search Text",
+          "script": "(function execute() {\n   vaVars.user_search_text = vaSystem.getSearchText().trim();\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "23cb91b07cef4715a9ffbed70b8e30a0": {
+          "id": "23cb91b07cef4715a9ffbed70b8e30a0",
+          "stepType": "ReusableTopic",
+          "name": "Contextual Search",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "reusableTopicChoice": "Contextual Search",
+          "reusableTopicId": "d9dec393b3973300dbbf6030c6a8dc27",
+          "inputs": {
+            "context": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "d51b7504eb53210070a9666cd206feff"
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "query": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaVars.user_search_text}}",
+                        "displayValue": "Script Variables➛user_search_text"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "portal": {
+              "value": "",
+              "mode": "simple",
+              "type": "String"
+            },
+            "kb_knowledge_base": {
+              "value": "",
+              "mode": "simple",
+              "type": "String"
+            }
+          },
+          "outputs": [
+            {
+              "id": "650c288324964caaa35170c0d8cc4592",
+              "value": "results_returned",
+              "mapping": "results_returned",
+              "preventDisable": false
+            },
+            {
+              "id": "c66c1e85e8924844bbe06338c9664227",
+              "value": "results_helpful",
+              "mapping": "results_helpful",
+              "preventDisable": false
+            },
+            {
+              "id": "743b28cbf7744bb78c6526f80ad048d0",
+              "value": "ctx_search_details",
+              "mapping": "ctx_search_details",
+              "preventDisable": false
+            }
+          ],
+          "variableIds": [
+            "650c288324964caaa35170c0d8cc4592",
+            "c66c1e85e8924844bbe06338c9664227",
+            "743b28cbf7744bb78c6526f80ad048d0"
+          ],
+          "outdatedNote": false,
+          "loading": false
+        },
+        "9deb12ea5ba847deaccdc9574f139879": {
+          "id": "9deb12ea5ba847deaccdc9574f139879",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "2e1b5aaba0ac44fb82cb4cf1807e2ba2": {
+          "id": "2e1b5aaba0ac44fb82cb4cf1807e2ba2",
+          "stepType": "TextOutput",
+          "name": "Test message",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Thabiso "
+                  },
+                  {
+                    "type": "emoji",
+                    "emoji": {
+                      "id": "heart_eyes",
+                      "name": "Smiling Face with Heart-Shaped Eyes",
+                      "short_names": [
+                        "heart_eyes"
+                      ],
+                      "colons": ":heart_eyes:",
+                      "emoticons": [],
+                      "unified": "1f60d",
+                      "skin": null,
+                      "native": ""
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "2173858a2cdf4d3689df71dd5555e950",
+          "edgeType": "Edge",
+          "source": "5164b99b00a0484e80613ae3bdf4a6b9",
+          "target": "c3f4b1bc0aff43d3be8fb65fe53eb8a9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "2f01ed4c7eac4080b6e873e8fc9b5990",
+          "edgeType": "Branch",
+          "source": "c3f4b1bc0aff43d3be8fb65fe53eb8a9",
+          "target": "0d2a7bf2da7743958c9d3677098a0716",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaVars._topic_strategy != 'unknown';\n})()"
+          },
+          "label": "Wrong Topic"
+        },
+        {
+          "id": "bca520f13f1c430f9a590e04b623eb40",
+          "edgeType": "Edge",
+          "source": "0d2a7bf2da7743958c9d3677098a0716",
+          "target": "0c5da2fec6d9466eba28362ceae6d012",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "82896da879cd49b4929aa624701d8e08",
+          "edgeType": "Edge",
+          "source": "6c6c632ae7ba4e84aad5d5c4a3a5f0e6",
+          "target": "23cb91b07cef4715a9ffbed70b8e30a0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e8308798ee4d434dba8ed7357365c789",
+          "edgeType": "Edge",
+          "source": "23cb91b07cef4715a9ffbed70b8e30a0",
+          "target": "9deb12ea5ba847deaccdc9574f139879",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "716cc718aec446b1a18c59e996b878db",
+          "edgeType": "Branch",
+          "source": "9deb12ea5ba847deaccdc9574f139879",
+          "target": "99df90b725d9400e86378debdbb96b3b",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "",
+            "mode": "query"
+          },
+          "label": "Always"
+        },
+        {
+          "id": "29693c23d88f47acb99a981ef944d0bc",
+          "edgeType": "Branch",
+          "source": "c3f4b1bc0aff43d3be8fb65fe53eb8a9",
+          "target": "2e1b5aaba0ac44fb82cb4cf1807e2ba2",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaVars._topic_strategy == 'unknown';\n})()\n"
+          },
+          "label": "Topic Not Found"
+        },
+        {
+          "id": "e5a10d6d54a2474abfe9e6019e4e2ef9",
+          "edgeType": "Edge",
+          "source": "2e1b5aaba0ac44fb82cb4cf1807e2ba2",
+          "target": "6c6c632ae7ba4e84aad5d5c4a3a5f0e6",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "0fe382bfc0884244bebadb726c6a9f37": {
+      "id": "0fe382bfc0884244bebadb726c6a9f37",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "greeting_message",
+      "label": "greeting_message",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "5527ec1f4f6d4a52bdbd182eda975c9c": {
+      "category": "vaInputs",
+      "id": "5527ec1f4f6d4a52bdbd182eda975c9c",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "650c288324964caaa35170c0d8cc4592": {
+      "id": "650c288324964caaa35170c0d8cc4592",
+      "name": "results_returned",
+      "label": "Results_returned",
+      "defaultValue": "results_returned",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    },
+    "c66c1e85e8924844bbe06338c9664227": {
+      "id": "c66c1e85e8924844bbe06338c9664227",
+      "name": "results_helpful",
+      "label": "Results_helpful",
+      "defaultValue": "results_helpful",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    },
+    "743b28cbf7744bb78c6526f80ad048d0": {
+      "id": "743b28cbf7744bb78c6526f80ad048d0",
+      "name": "ctx_search_details",
+      "label": "Ctx_search_details",
+      "defaultValue": "ctx_search_details",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    }
+  }
+}</graph>
+        <key_phrases>test fallback 2.0,Test Fallback,Absa Greeting,Greetings</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Test Fallback</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>public</roles>
+        <source_topic_id>e8a54d331be5a094ef5b635ee54bcbd3</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-07-31 10:24:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1b7a7415974d5190fac1f386f053afb8</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Test Fallback</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_1b7a7415974d5190fac1f386f053afb8</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-07-31 14:01:37</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=1b7a7415974d5190fac1f386f053afb8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</application>
+        <file_path/>
+        <instance_id>b3065e0edb486b4052e3f70fbf96193b</instance_id>
+        <instance_name>absahrdev</instance_name>
+        <name>sys_cb_topic_1b7a7415974d5190fac1f386f053afb8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><applicability_mode>query</applicability_mode><autopilot_topic>false</autopilot_topic><category/><channels/><connect_queue/><description>Presents a greeting to the user at the beginning of a conversation.</description><expose_on_palette>false</expose_on_palette><flexible_conversation_switching>false</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "5164b99b00a0484e80613ae3bdf4a6b9": {
+          "id": "5164b99b00a0484e80613ae3bdf4a6b9",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": "",
+            "mode": "simple"
+          }
+        },
+        "0c5da2fec6d9466eba28362ceae6d012": {
+          "id": "0c5da2fec6d9466eba28362ceae6d012",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "c3f4b1bc0aff43d3be8fb65fe53eb8a9": {
+          "id": "c3f4b1bc0aff43d3be8fb65fe53eb8a9",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "0d2a7bf2da7743958c9d3677098a0716": {
+          "id": "0d2a7bf2da7743958c9d3677098a0716",
+          "stepType": "TextOutput",
+          "name": "Testing Text",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Name :Thabiso Jerry Diphare"
+                  },
+                  {
+                    "type": "emoji",
+                    "emoji": {
+                      "id": "laughing",
+                      "name": "Smiling Face with Open Mouth and Tightly-Closed Eyes",
+                      "short_names": [
+                        "laughing",
+                        "satisfied"
+                      ],
+                      "colons": ":laughing:",
+                      "emoticons": [
+                        ":&gt;",
+                        ":-&gt;"
+                      ],
+                      "unified": "1f606",
+                      "skin": null,
+                      "native": ""
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": " "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "99df90b725d9400e86378debdbb96b3b": {
+          "id": "99df90b725d9400e86378debdbb96b3b",
+          "stepType": "ImplicitEnd"
+        },
+        "6c6c632ae7ba4e84aad5d5c4a3a5f0e6": {
+          "id": "6c6c632ae7ba4e84aad5d5c4a3a5f0e6",
+          "name": "User Search Text",
+          "script": "(function execute() {\n   vaVars.user_search_text = vaSystem.getSearchText().trim();\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "23cb91b07cef4715a9ffbed70b8e30a0": {
+          "id": "23cb91b07cef4715a9ffbed70b8e30a0",
+          "stepType": "ReusableTopic",
+          "name": "Contextual Search",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "reusableTopicChoice": "Contextual Search",
+          "reusableTopicId": "d9dec393b3973300dbbf6030c6a8dc27",
+          "inputs": {
+            "context": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "d51b7504eb53210070a9666cd206feff"
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "query": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaVars.user_search_text}}",
+                        "displayValue": "Script Variables➛user_search_text"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "portal": {
+              "value": "",
+              "mode": "simple",
+              "type": "String"
+            },
+            "kb_knowledge_base": {
+              "value": "",
+              "mode": "simple",
+              "type": "String"
+            }
+          },
+          "outputs": [
+            {
+              "id": "650c288324964caaa35170c0d8cc4592",
+              "value": "results_returned",
+              "mapping": "results_returned",
+              "preventDisable": false
+            },
+            {
+              "id": "c66c1e85e8924844bbe06338c9664227",
+              "value": "results_helpful",
+              "mapping": "results_helpful",
+              "preventDisable": false
+            },
+            {
+              "id": "743b28cbf7744bb78c6526f80ad048d0",
+              "value": "ctx_search_details",
+              "mapping": "ctx_search_details",
+              "preventDisable": false
+            }
+          ],
+          "variableIds": [
+            "650c288324964caaa35170c0d8cc4592",
+            "c66c1e85e8924844bbe06338c9664227",
+            "743b28cbf7744bb78c6526f80ad048d0"
+          ],
+          "outdatedNote": false,
+          "loading": false
+        },
+        "9deb12ea5ba847deaccdc9574f139879": {
+          "id": "9deb12ea5ba847deaccdc9574f139879",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "2e1b5aaba0ac44fb82cb4cf1807e2ba2": {
+          "id": "2e1b5aaba0ac44fb82cb4cf1807e2ba2",
+          "stepType": "TextOutput",
+          "name": "Test message",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Thabiso "
+                  },
+                  {
+                    "type": "emoji",
+                    "emoji": {
+                      "id": "heart_eyes",
+                      "name": "Smiling Face with Heart-Shaped Eyes",
+                      "short_names": [
+                        "heart_eyes"
+                      ],
+                      "colons": ":heart_eyes:",
+                      "emoticons": [],
+                      "unified": "1f60d",
+                      "skin": null,
+                      "native": ""
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "2173858a2cdf4d3689df71dd5555e950",
+          "edgeType": "Edge",
+          "source": "5164b99b00a0484e80613ae3bdf4a6b9",
+          "target": "c3f4b1bc0aff43d3be8fb65fe53eb8a9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "2f01ed4c7eac4080b6e873e8fc9b5990",
+          "edgeType": "Branch",
+          "source": "c3f4b1bc0aff43d3be8fb65fe53eb8a9",
+          "target": "0d2a7bf2da7743958c9d3677098a0716",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaVars._topic_strategy != 'unknown';\n})()"
+          },
+          "label": "Wrong Topic"
+        },
+        {
+          "id": "bca520f13f1c430f9a590e04b623eb40",
+          "edgeType": "Edge",
+          "source": "0d2a7bf2da7743958c9d3677098a0716",
+          "target": "0c5da2fec6d9466eba28362ceae6d012",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "82896da879cd49b4929aa624701d8e08",
+          "edgeType": "Edge",
+          "source": "6c6c632ae7ba4e84aad5d5c4a3a5f0e6",
+          "target": "23cb91b07cef4715a9ffbed70b8e30a0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e8308798ee4d434dba8ed7357365c789",
+          "edgeType": "Edge",
+          "source": "23cb91b07cef4715a9ffbed70b8e30a0",
+          "target": "9deb12ea5ba847deaccdc9574f139879",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "716cc718aec446b1a18c59e996b878db",
+          "edgeType": "Branch",
+          "source": "9deb12ea5ba847deaccdc9574f139879",
+          "target": "99df90b725d9400e86378debdbb96b3b",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "",
+            "mode": "query"
+          },
+          "label": "Always"
+        },
+        {
+          "id": "29693c23d88f47acb99a981ef944d0bc",
+          "edgeType": "Branch",
+          "source": "c3f4b1bc0aff43d3be8fb65fe53eb8a9",
+          "target": "2e1b5aaba0ac44fb82cb4cf1807e2ba2",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaVars._topic_strategy == 'unknown';\n})()\n"
+          },
+          "label": "Topic Not Found"
+        },
+        {
+          "id": "e5a10d6d54a2474abfe9e6019e4e2ef9",
+          "edgeType": "Edge",
+          "source": "2e1b5aaba0ac44fb82cb4cf1807e2ba2",
+          "target": "6c6c632ae7ba4e84aad5d5c4a3a5f0e6",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "0fe382bfc0884244bebadb726c6a9f37": {
+      "id": "0fe382bfc0884244bebadb726c6a9f37",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "greeting_message",
+      "label": "greeting_message",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "5527ec1f4f6d4a52bdbd182eda975c9c": {
+      "category": "vaInputs",
+      "id": "5527ec1f4f6d4a52bdbd182eda975c9c",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "650c288324964caaa35170c0d8cc4592": {
+      "id": "650c288324964caaa35170c0d8cc4592",
+      "name": "results_returned",
+      "label": "Results_returned",
+      "defaultValue": "results_returned",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    },
+    "c66c1e85e8924844bbe06338c9664227": {
+      "id": "c66c1e85e8924844bbe06338c9664227",
+      "name": "results_helpful",
+      "label": "Results_helpful",
+      "defaultValue": "results_helpful",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    },
+    "743b28cbf7744bb78c6526f80ad048d0": {
+      "id": "743b28cbf7744bb78c6526f80ad048d0",
+      "name": "ctx_search_details",
+      "label": "Ctx_search_details",
+      "defaultValue": "ctx_search_details",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    }
+  }
+}</graph><key_phrases>test fallback 2.0,Test Fallback,Absa Greeting,Greetings</key_phrases><library>false</library><live_agent>false</live_agent><name>Test Fallback</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><palette_label/><roles>public</roles><source_topic_id>e8a54d331be5a094ef5b635ee54bcbd3</source_topic_id><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>thabiso.diphare</sys_created_by><sys_created_on>2022-07-31 10:24:58</sys_created_on><sys_domain>global</sys_domain><sys_id>1b7a7415974d5190fac1f386f053afb8</sys_id><sys_mod_count>14</sys_mod_count><sys_name>Test Fallback</sys_name><sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package><sys_policy/><sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope><sys_update_name>sys_cb_topic_1b7a7415974d5190fac1f386f053afb8</sys_update_name><sys_updated_by>thabiso.diphare</sys_updated_by><sys_updated_on>2022-07-31 14:01:37</sys_updated_on><triggerable_by_notification>false</triggerable_by_notification><type>SETUP_TOPIC</type><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=1b7a7415974d5190fac1f386f053afb8"/></record_update>]]></payload>
+        <payload_hash>-342148198</payload_hash>
+        <record_name>Test Fallback</record_name>
+        <reverted_from/>
+        <source>3f3d971f87db3050c386fd99cebb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-07-31 14:01:37</sys_created_on>
+        <sys_id>451ced5597419190fac1f386f053afbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182548ff9010000001</sys_recorded_at>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-07-31 14:01:37</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>c91ced55ad419190e0082505d98caabc</update_guid>
+        <update_guid_history>c91ced55ad419190e0082505d98caabc:-342148198,ceea65551241919060b0873f9c31decd:1804133209,0c76699d6601919029d8936caaa2b3e3:-205932265,6283a999370191901feb615502dfaf61:-1485930497,63636999ec0191900795082aaa7a79f6:1217661254,f85acd992f8d5190b3cf4f9e083999b5:262707082,288901592f8d51908427203ce3832c96:1152346139,e009cd19138d51906a22d764ae65e5fd:-349042326,e20401919a8d519023e3d51df818bfb8:2070304341,3fe201dd434d51906aaa7b6e0c4c075c:249645357,26520111778d5190f7f48b9c13c923e7:-914917019,ac61c59dc64d51903b5a26ecd371e438:-1763037683,848ef499b04d5190131238889ebda258:-222926248,7eaa3c55ef4d51900496ce618c21514e:-1411198793,a77a3855184d51902fbad8cc34db9231:-1401546291</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-09-15 06:50:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>0ffc128e4cdf4c348297caa89c1ca8a4</sys_id>
+        <sys_metadata>1b7a7415974d5190fac1f386f053afb8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Fallback</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_scope_delete display_value="">3da79fd4d6714547bf3d1f765703ed69</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_1b7a7415974d5190fac1f386f053afb8</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_1b7a7415974d5190fac1f386f053afb8">451ced5597419190fac1f386f053afbd</sys_update_version>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-09-15 06:50:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
