@@ -234,6 +234,21 @@
           "inputs": {},
           "variableIds": [],
           "outputs": []
+        },
+        "d75fbd52a9554081a6857801bae8a83c": {
+          "id": "d75fbd52a9554081a6857801bae8a83c",
+          "stepType": "ReusableTopic",
+          "name": "Transfer To Agent Or Log a Case",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "reusableTopicChoice": "Transfer To Agent Or Log a Case",
+          "reusableTopicId": "d834303087c69950c386fd99cebb356f",
+          "inputs": {},
+          "variableIds": [],
+          "outputs": []
         }
       },
       "edges": [
@@ -333,19 +348,6 @@
           "label": "Selected one"
         },
         {
-          "id": "0469c1c52d3e42369d48a967d1809f88",
-          "edgeType": "Branch",
-          "source": "9b4615894cfd48fcb916e035ef39026d",
-          "target": "fa844de65974434cabc309ad24c33004",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "mode": "script",
-            "value": "(function execute() {\n    return vaInputs.choose_article.getValue() == '-1';\n})()\n"
-          },
-          "label": "Something else"
-        },
-        {
           "id": "d10731473fab41329190de797c2c80d2",
           "edgeType": "Branch",
           "source": "68b5c61c53804c7896df34bb6a38649a",
@@ -362,6 +364,27 @@
           "id": "9e487473a1c047ac9235054f98e2d8a8",
           "edgeType": "Edge",
           "source": "f3425b2b358042b7926ee9569da57f8a",
+          "target": "fa844de65974434cabc309ad24c33004",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0469c1c52d3e42369d48a967d1809f88",
+          "edgeType": "Branch",
+          "source": "9b4615894cfd48fcb916e035ef39026d",
+          "target": "d75fbd52a9554081a6857801bae8a83c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaInputs.choose_article.getValue() == '-1';\n})()\n"
+          },
+          "label": "Something else"
+        },
+        {
+          "id": "6e44211546534c8db1e2c9422e88d05a",
+          "edgeType": "Edge",
+          "source": "d75fbd52a9554081a6857801bae8a83c",
           "target": "fa844de65974434cabc309ad24c33004",
           "sourcePort": "",
           "targetPort": ""
@@ -556,14 +579,14 @@
         <sys_created_on>2022-08-03 07:17:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>b74cab8e87455950c386fd99cebb35b3</sys_id>
-        <sys_mod_count>58</sys_mod_count>
+        <sys_mod_count>59</sys_mod_count>
         <sys_name>New Fallback</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_b74cab8e87455950c386fd99cebb35b3</sys_update_name>
         <sys_updated_by>thabiso.diphare</sys_updated_by>
-        <sys_updated_on>2022-09-17 14:30:44</sys_updated_on>
+        <sys_updated_on>2022-09-19 07:31:22</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>SETUP_TOPIC</type>
         <variables/>
