@@ -357,6 +357,7 @@
         <nlu_provider/>
         <palette_label/>
         <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id>b74cab8e87455950c386fd99cebb35b3</source_topic_id>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>thabiso.diphare</sys_created_by>

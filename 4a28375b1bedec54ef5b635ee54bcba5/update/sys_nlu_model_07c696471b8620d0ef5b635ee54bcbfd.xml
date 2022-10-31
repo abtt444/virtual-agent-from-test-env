@@ -4,13 +4,14 @@
         <confidence_threshold>0.6</confidence_threshold>
         <description/>
         <display_name>Absa HR Chatbot NLU Model - Entities</display_name>
+        <ignore_punctuation/>
         <language>en</language>
         <last_translated_on/>
         <model_domain/>
         <name>global_4a28375b1bedec54ef5b635ee54bcba5_07c696471b8620d0ef5b635ee54bcbfd</name>
         <oob>false</oob>
         <primary_model/>
-        <state>Published</state>
+        <state>Draft</state>
         <sys_class_name>sys_nlu_model</sys_class_name>
         <sys_created_by>gabriel.eisenberg</sys_created_by>
         <sys_created_on>2021-02-05 08:06:57</sys_created_on>

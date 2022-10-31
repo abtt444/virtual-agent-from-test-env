@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_language">
     <sys_cb_topic_language action="INSERT_OR_UPDATE">
-        <cb_topic_id display_value="New Fallback">b74cab8e87455950c386fd99cebb35b3</cb_topic_id>
+        <cb_topic_id display_value="Absa VA Fallback">b74cab8e87455950c386fd99cebb35b3</cb_topic_id>
         <language_code>en</language_code>
         <nlu_entities>[]</nlu_entities>
         <nlu_intent>Fallback</nlu_intent>

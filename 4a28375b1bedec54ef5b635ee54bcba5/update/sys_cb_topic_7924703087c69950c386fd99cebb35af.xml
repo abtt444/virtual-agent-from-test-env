@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>true</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.36",
+  "graph_api_version": "1.0.39",
   "goals": {
     "primary": {
       "id": "primary",
@@ -65,7 +65,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "You can log a case "
+                    "text": "Click  "
                   },
                   {
                     "type": "link",
@@ -77,7 +77,7 @@
                     ]
                   },
                   {
-                    "text": " ."
+                    "text": " to log a case."
                   }
                 ]
               }
@@ -98,7 +98,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "choose an option"
+                    "text": "Would you like log a case or be transferred to an agent?"
                   }
                 ]
               }
@@ -156,10 +156,10 @@
           "sourcePort": "",
           "targetPort": "",
           "expression": {
-            "value": "vaInputs.select_log_case_or_transfer_to_agent=live agent",
+            "value": "vaInputs.select_log_case_or_transfer_to_agent=Transfer to live agent",
             "mode": "query"
           },
-          "label": "transfer to agent"
+          "label": "Transfer to agent"
         },
         {
           "id": "32f829f109f5446bad91aa00eaca44f9",
@@ -177,10 +177,10 @@
           "sourcePort": "",
           "targetPort": "",
           "expression": {
-            "value": "vaInputs.select_log_case_or_transfer_to_agent=log a case",
+            "value": "vaInputs.select_log_case_or_transfer_to_agent=Log a case",
             "mode": "query"
           },
-          "label": "log a case"
+          "label": "Log a case"
         },
         {
           "id": "f4a852f0136d4c8a9885080c1ad7cde0",
@@ -217,16 +217,16 @@
       "varType": "choice",
       "choices": [
         {
-          "label": "Log a case",
+          "label": " Log a case.",
           "value": "Log a case"
         },
         {
-          "label": "Transfer to live agent",
+          "label": "Transfer to live agent.",
           "value": "Transfer to live agent",
           "checked": true
         },
         {
-          "label": "No thanks",
+          "label": "No thanks.",
           "value": "No thanks",
           "checked": true
         }
@@ -246,20 +246,21 @@
         <nlu_provider/>
         <palette_label/>
         <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id>996257ff1bf92850ef5b635ee54bcb00</source_topic_id>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>thabiso.diphare</sys_created_by>
         <sys_created_on>2022-09-17 13:43:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>7924703087c69950c386fd99cebb35af</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Transfer To Agent Or Log a Case</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_7924703087c69950c386fd99cebb35af</sys_update_name>
         <sys_updated_by>thabiso.diphare</sys_updated_by>
-        <sys_updated_on>2022-09-19 08:19:42</sys_updated_on>
+        <sys_updated_on>2022-10-31 09:19:49</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>TOPIC_BLOCK</type>
         <variables/>

@@ -4,6 +4,7 @@
         <confidence_threshold>0.6</confidence_threshold>
         <description>The NLU engine for the Absa HR Chatbot</description>
         <display_name>Absa HR Chatbot NLU Model</display_name>
+        <ignore_punctuation/>
         <language>en</language>
         <last_translated_on/>
         <model_domain/>

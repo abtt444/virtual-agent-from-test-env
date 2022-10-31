@@ -14,6 +14,7 @@
         <correct_answer_choice/>
         <correct_answer_template/>
         <correct_answer_yesno/>
+        <custom_metric/>
         <datatype>string</datatype>
         <default_value_field/>
         <depends_on display_value="New Image Scale">3081347a87844110c386fd99cebb3574</depends_on>
@@ -59,6 +60,7 @@
         <sys_updated_by>AB019AM</sys_updated_by>
         <sys_updated_on>2021-12-10 13:01:43</sys_updated_on>
         <template/>
+        <value_parameters/>
         <weight>10</weight>
     </asmt_metric>
     <sys_translated_text action="delete_multiple" query="documentkey=0181b47a87844110c386fd99cebb3506"/>

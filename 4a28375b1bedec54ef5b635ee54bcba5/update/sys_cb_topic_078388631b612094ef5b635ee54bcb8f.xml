@@ -113,6 +113,7 @@
         <nlu_provider/>
         <palette_label/>
         <roles>public</roles>
+        <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id>1acd645053130010cf8cddeeff7b12cd</source_topic_id>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>gabriel.eisenberg</sys_created_by>

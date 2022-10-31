@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="New Fallback">b74cab8e87455950c386fd99cebb35b3</model>
+        <model display_value="Absa VA Fallback">b74cab8e87455950c386fd99cebb35b3</model>
         <model_id>b74cab8e87455950c386fd99cebb35b3</model_id>
         <model_table/>
         <name>var__m_topic_variable_b74cab8e87455950c386fd99cebb35b3</name>

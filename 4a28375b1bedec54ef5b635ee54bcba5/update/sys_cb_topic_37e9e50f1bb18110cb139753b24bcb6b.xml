@@ -21,6 +21,7 @@
         <nlu_provider/>
         <palette_label/>
         <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id>0eef9ad51b31a410ef5b635ee54bcb59</source_topic_id>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>thabiso.diphare</sys_created_by>

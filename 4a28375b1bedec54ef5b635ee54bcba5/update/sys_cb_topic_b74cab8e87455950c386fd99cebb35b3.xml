@@ -13,7 +13,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>false</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.36",
+  "graph_api_version": "1.0.39",
   "goals": {
     "primary": {
       "id": "primary",
@@ -29,8 +29,8 @@
           "stepType": "Start",
           "name": "Start",
           "greetingResponse": {
-            "mode": "simple",
-            "value": ""
+            "value": "(function execute() {\n    /* Return a quoted string.  For example:\n\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessageLang(\"hi there {0}\", vaContext.getRequesterLang(), [vaInputs.first_name]);\n       } else {\n           return gs.getMessageLang(\"how are you {0}\", vaContext.getRequesterLang(), [vaInputs.last_name]);\n       }\n    */\n      return '';\n})()\n",
+            "mode": "script"
           }
         },
         "fa844de65974434cabc309ad24c33004": {
@@ -50,7 +50,7 @@
         "371e827f65854570ae1e3d9a257f033d": {
           "id": "371e827f65854570ae1e3d9a257f033d",
           "name": "Conversation Builder",
-          "script": "(function execute() {\n    var contextualSearch = new global.VAGlobalContextualSearchUtil();\n    vaVars.user_search_text = vaSystem.getSearchText().trim();\n    var response = contextualSearch.search(\n        vaVars.search_context_sys_id, vaVars.user_search_text, vaInputs.kb_knowledge_base\n    );\n    var success = contextualSearch.processSearchResponse(response);\n    if (!success) {\n        return;\n    }\n\n    var relevantSearchResults = contextualSearch.processGeneralResults(response, 6, -2);\n    vaVars.searchResultCount = relevantSearchResults.length;\n    vaVars.search_result_json_string = JSON.stringify(relevantSearchResults);\n    vaVars.index = 0;\n    return;\n})()\n",
+          "script": "(function execute() {\n    var contextualSearch = new global.VAGlobalContextualSearchUtil();\n    vaVars.user_search_text = vaSystem.getSearchText().trim();\n    var response = contextualSearch.search(\n        vaVars.search_context_sys_id, vaVars.user_search_text, vaVars.selected_kb_knowledge_base\n        \n    );\n    var success = contextualSearch.processSearchResponse(response);\n    if (!success) {\n        return;\n    }\n\n    var relevantSearchResults = contextualSearch.processGeneralResults(response, 6, -2);\n    vaVars.searchResultCount = relevantSearchResults.length;\n    vaVars.search_result_json_string = JSON.stringify(relevantSearchResults);\n    vaVars.index = 0;\n    return;\n})()\n",
           "stepType": "ScriptAction",
           "applicability": {
             "value": "",
@@ -89,7 +89,7 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "I found some information that might help you"
+                    "text": "I found some articles that might help you:"
                   }
                 ]
               }
@@ -156,7 +156,7 @@
           "name": "Display article",
           "secure": false,
           "value": {
-            "value": "(function execute() {\n    \n   // relevant properties to get record\n    var searchJsonObj = JSON.parse(vaVars.search_result_json_string);\n    var resultNumber = searchJsonObj[vaVars.selected_faq].meta.number;\n    gs.info('cw:resultNumber ' + resultNumber);\n\n   // var faqUtil = new global.VAFaqUtil();\n    // build the header text\n   // header_text =  faqUtil.buildHeaderText(resultNumber, vaVars.selected_type);\n  gs.info('cw:choose_article' + resultNumber);\nvar getKBArticle = new GlideRecord('kb_knowledge');\ngetKBArticle.get('number', resultNumber);\nvar description = getKBArticle.getValue('text').replace(/(&lt;([^&gt;]+)&gt;)/gi, \"\");\n//if(description.length &gt; 80) \n//{   \n// description = description.slice(0, 78); \nvaVars.description = description;\nvaVars.short_description = getKBArticle.getValue('short_description');\n\n//}\n\n  header_text = resultNumber + '&lt;br&gt;&lt;br&gt;'+vaVars.short_description;  \n    header_text += '&lt;br&gt;&lt;br&gt;';\ngs.info('cw: vaVars.selected_faq:'  + vaVars.selected_faq);\n    var linkBuilder = new global.cxs_SearchResultLinkBuilder();\n    var link = linkBuilder.build(searchJsonObj[vaVars.selected_faq], vaInputs.portal);\ngs.info('cw: link.link' + link.link);\n    //header_text += '&lt;a href=\"'+link.link+'\" target=\"_blank\" &gt;'+ 'Read full article'+ '&lt;/a&gt;';\nheader_text += '&lt;a href=\"'+\"myhrportal?id=kb_article_view&amp;sysparm_article=\" + resultNumber +'\" target=\"_blank\" &gt;'+ 'Read full article'+ '&lt;/a&gt;';\n   // &lt;p&gt;&lt;a href=\"cep?id=kb_article_view&amp;sysparm_article={{vaInputs.show_knowledge_blocks.number}}\" target=\"_blank\"&gt;More Details&lt;/a&gt;&lt;/p&gt;\n    //header_text += '[Read full article]('+link.link+')'\n    return header_text;\n    gs.info('hello');\n})()\n",
+            "value": "(function execute() {\n    \n   // relevant properties to get record\n    var searchJsonObj = JSON.parse(vaVars.search_result_json_string);\n    var resultNumber = searchJsonObj[vaVars.selected_faq].meta.number;\n    gs.info('cw:resultNumber ' + resultNumber);\n\n   // var faqUtil = new global.VAFaqUtil();\n    // build the header text\n   // header_text =  faqUtil.buildHeaderText(resultNumber, vaVars.selected_type);\n  gs.info('cw:choose_article' + resultNumber);\nvar getKBArticle = new GlideRecord('kb_knowledge');\ngetKBArticle.get('number', resultNumber);\nvar description = getKBArticle.getValue('text').replace(/(&lt;([^&gt;]+)&gt;)/gi, \"\");\n//if(description.length &gt; 80) \n//{   \n// description = description.slice(0, 78); \nvaVars.description = description;\nvaVars.short_description = getKBArticle.getValue('short_description');\n\n//}\n\n  header_text = resultNumber + '&lt;br&gt;&lt;br&gt;'+vaVars.short_description;  \n    header_text += '&lt;br&gt;&lt;br&gt;';\ngs.info('cw: vaVars.selected_faq:'  + vaVars.selected_faq);\n    var linkBuilder = new global.cxs_SearchResultLinkBuilder();\n    var link = linkBuilder.build(searchJsonObj[vaVars.selected_faq], vaInputs.portal);\ngs.info('cw: link.link' + link.link);\n    //header_text += '&lt;a href=\"'+link.link+'\" target=\"_blank\" &gt;'+ 'Read full article'+ '&lt;/a&gt;';\nheader_text += 'Click '+'&lt;a href=\"'+\"myhrportal?id=kb_article_view&amp;sysparm_article=\" + resultNumber +'\" target=\"_blank\" &gt;'+ ' here '+ '&lt;/a&gt;'+' to access the article';\n   // &lt;p&gt;&lt;a href=\"cep?id=kb_article_view&amp;sysparm_article={{vaInputs.show_knowledge_blocks.number}}\" target=\"_blank\"&gt;More Details&lt;/a&gt;&lt;/p&gt;\n    //header_text += '[Read full article]('+link.link+')'\n    return header_text;\n    gs.info('hello');\n})()\n",
             "mode": "script"
           },
           "applicability": {
@@ -249,9 +249,50 @@
           "inputs": {},
           "variableIds": [],
           "outputs": []
+        },
+        "58d441afea884791b71b17e72fbaa50d": {
+          "id": "58d441afea884791b71b17e72fbaa50d",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "263c6ab05aca494ab5b3c1e52e3366fd": {
+          "id": "263c6ab05aca494ab5b3c1e52e3366fd",
+          "stepType": "ReusableTopic",
+          "name": "Transfer To Agent Or Log a Case",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "reusableTopicChoice": "Transfer To Agent Or Log a Case",
+          "reusableTopicId": "d834303087c69950c386fd99cebb356f",
+          "inputs": {},
+          "variableIds": [],
+          "outputs": []
         }
       },
       "edges": [
+        {
+          "id": "d10731473fab41329190de797c2c80d2",
+          "edgeType": "Branch",
+          "source": "68b5c61c53804c7896df34bb6a38649a",
+          "target": "f3425b2b358042b7926ee9569da57f8a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    if (!(vaVars.searchResultCount &gt; 0)) {\n        vaVars.results_helpful = false;\n        vaVars.results_returned = false;\n        return true;\n    }\n    return false;\n\n})()\n"
+          },
+          "label": "No"
+        },
+        {
+          "id": "bb1761ff69c740e8aa616fb9a21a6817",
+          "edgeType": "Edge",
+          "source": "7f492480069b451e9bf296fc6c3770c7",
+          "target": "371e827f65854570ae1e3d9a257f033d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
         {
           "id": "d06197a48d804fa3b71e85470207c317",
           "edgeType": "Edge",
@@ -278,14 +319,6 @@
           "edgeType": "Edge",
           "source": "371e827f65854570ae1e3d9a257f033d",
           "target": "68b5c61c53804c7896df34bb6a38649a",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "bb1761ff69c740e8aa616fb9a21a6817",
-          "edgeType": "Edge",
-          "source": "7f492480069b451e9bf296fc6c3770c7",
-          "target": "371e827f65854570ae1e3d9a257f033d",
           "sourcePort": "",
           "targetPort": ""
         },
@@ -319,14 +352,6 @@
           "targetPort": ""
         },
         {
-          "id": "ced9119c71f04e2c99398de7bf3b5e3d",
-          "edgeType": "Edge",
-          "source": "ade2422645064e69802d197886ff767e",
-          "target": "10597d82da3041219460dfc83cf1c1eb",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
           "id": "d312e4b0bddc48658bfff56d16db85f9",
           "edgeType": "Edge",
           "source": "10597d82da3041219460dfc83cf1c1eb",
@@ -346,19 +371,6 @@
             "value": "(function execute() {\n    if (vaInputs.choose_article.getValue() != '-1') {\n        // need parseInt because it was keeping decimals\n        vaVars.selected_faq = parseInt(vaInputs.choose_article.getValue());\n        vaVars.selected_type = 'multi';\n        return true;\n    }\n    return false;\n})()\n"
           },
           "label": "Selected one"
-        },
-        {
-          "id": "d10731473fab41329190de797c2c80d2",
-          "edgeType": "Branch",
-          "source": "68b5c61c53804c7896df34bb6a38649a",
-          "target": "f3425b2b358042b7926ee9569da57f8a",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "mode": "script",
-            "value": "(function execute() {\n    if (!(vaVars.searchResultCount &gt; 0)) {\n        vaVars.results_helpful = false;\n        vaVars.results_returned = false;\n        return true;\n    }\n    return false;\n\n})()\n"
-          },
-          "label": "No"
         },
         {
           "id": "9e487473a1c047ac9235054f98e2d8a8",
@@ -385,6 +397,48 @@
           "id": "6e44211546534c8db1e2c9422e88d05a",
           "edgeType": "Edge",
           "source": "d75fbd52a9554081a6857801bae8a83c",
+          "target": "fa844de65974434cabc309ad24c33004",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ced9119c71f04e2c99398de7bf3b5e3d",
+          "edgeType": "Edge",
+          "source": "ade2422645064e69802d197886ff767e",
+          "target": "58d441afea884791b71b17e72fbaa50d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9b58bf6297364c0fb706a9e7ef807dd1",
+          "edgeType": "Branch",
+          "source": "58d441afea884791b71b17e72fbaa50d",
+          "target": "10597d82da3041219460dfc83cf1c1eb",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.did_the_info_help=true",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "3f6a1a51b6c04d8d95cf16877d8e583c",
+          "edgeType": "Branch",
+          "source": "58d441afea884791b71b17e72fbaa50d",
+          "target": "263c6ab05aca494ab5b3c1e52e3366fd",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.did_the_info_help=",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "b617d950dd854a94a1ab6eedd9611525",
+          "edgeType": "Edge",
+          "source": "263c6ab05aca494ab5b3c1e52e3366fd",
           "target": "fa844de65974434cabc309ad24c33004",
           "sourcePort": "",
           "targetPort": ""
@@ -559,13 +613,24 @@
       "label": "selected_type",
       "varType": "script",
       "category": "vaVars"
+    },
+    "e45091739a3a49269e426d42e4a5a53c": {
+      "id": "e45091739a3a49269e426d42e4a5a53c",
+      "value": {
+        "mode": "simple",
+        "value": "bb0370019f22120047a2d126c42e7073"
+      },
+      "name": "selected_kb_knowledge_base",
+      "label": "selected_kb_knowledge_base",
+      "varType": "script",
+      "category": "vaVars"
     }
   }
 }</graph>
-        <key_phrases>New Fallback backup,New Fallback,Search Fallback Topic., Fallback Topic</key_phrases>
+        <key_phrases>Absa VA Fallback,New Fallback backup,Search Fallback Topic., Fallback Topic</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
-        <name>New Fallback</name>
+        <name>Absa VA Fallback</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -573,20 +638,21 @@
         <nlu_provider/>
         <palette_label/>
         <roles>public</roles>
+        <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id>b969abd2539a0010c839ddeeff7b12c7</source_topic_id>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>thabiso.diphare</sys_created_by>
         <sys_created_on>2022-08-03 07:17:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>b74cab8e87455950c386fd99cebb35b3</sys_id>
-        <sys_mod_count>59</sys_mod_count>
-        <sys_name>New Fallback</sys_name>
+        <sys_mod_count>97</sys_mod_count>
+        <sys_name>Absa VA Fallback</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_b74cab8e87455950c386fd99cebb35b3</sys_update_name>
         <sys_updated_by>thabiso.diphare</sys_updated_by>
-        <sys_updated_on>2022-09-19 07:31:22</sys_updated_on>
+        <sys_updated_on>2022-10-31 08:43:32</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>SETUP_TOPIC</type>
         <variables/>

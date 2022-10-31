@@ -13,7 +13,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>false</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.36",
+  "graph_api_version": "1.0.39",
   "goals": {
     "primary": {
       "id": "primary",
@@ -477,7 +477,7 @@
       "id": "22b5a13f11b04ef68dd3cb7fe466cf24",
       "value": {
         "mode": "simple",
-        "value": "03ddb541c31121005655107698ba8f7f"
+        "value": "d51b7504eb53210070a9666cd206feff"
       },
       "name": "search_context_sys_id",
       "label": "search_context_sys_id",
@@ -527,20 +527,21 @@
         <nlu_provider/>
         <palette_label/>
         <roles>public</roles>
+        <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id>b74cab8e87455950c386fd99cebb35b3</source_topic_id>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>thabiso.diphare</sys_created_by>
         <sys_created_on>2022-09-17 12:59:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>d31aa8fc97021910fac1f386f053afd8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>New FallBack working - backup</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_d31aa8fc97021910fac1f386f053afd8</sys_update_name>
         <sys_updated_by>thabiso.diphare</sys_updated_by>
-        <sys_updated_on>2022-09-17 13:27:21</sys_updated_on>
+        <sys_updated_on>2022-10-04 08:19:44</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>SETUP_TOPIC</type>
         <variables/>
