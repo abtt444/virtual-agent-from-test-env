@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_language">
     <sys_cb_topic_language action="INSERT_OR_UPDATE">
-        <cb_topic_id display_value="Annual Leave">0305064687b94910c386fd99cebb35f5</cb_topic_id>
+        <cb_topic_id display_value="">0305064687b94910c386fd99cebb35f5</cb_topic_id>
         <language_code>en</language_code>
         <nlu_entities>[{"node_id":"1890abfbb6054bab81d3fa4bbcf60827","variable_name":"learn_more_about_annual","nlu_entity":"Leave","nlu_entity_label":"Leave"}]</nlu_entities>
         <nlu_intent>Capture Annual Leave</nlu_intent>

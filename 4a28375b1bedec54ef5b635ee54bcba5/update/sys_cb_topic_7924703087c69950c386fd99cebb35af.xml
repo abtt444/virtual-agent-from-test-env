@@ -69,7 +69,7 @@
                   },
                   {
                     "type": "link",
-                    "url": "https://absahrdev.service-now.com/myhrportal?id=sc_category&amp;catalog_id=-1",
+                    "url": "https://absahruat.service-now.com/myhrportal?id=sc_category&amp;catalog_id=-1",
                     "children": [
                       {
                         "text": "here"
@@ -253,14 +253,14 @@
         <sys_created_on>2022-09-17 13:43:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>7924703087c69950c386fd99cebb35af</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Transfer To Agent Or Log a Case</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_7924703087c69950c386fd99cebb35af</sys_update_name>
         <sys_updated_by>thabiso.diphare</sys_updated_by>
-        <sys_updated_on>2022-10-31 09:19:49</sys_updated_on>
+        <sys_updated_on>2022-11-09 09:13:20</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>TOPIC_BLOCK</type>
         <variables/>

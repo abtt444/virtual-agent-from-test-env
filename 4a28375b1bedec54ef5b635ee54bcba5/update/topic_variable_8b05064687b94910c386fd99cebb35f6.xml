@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Annual Leave">0305064687b94910c386fd99cebb35f5</model>
+        <model display_value="">0305064687b94910c386fd99cebb35f5</model>
         <model_id>0305064687b94910c386fd99cebb35f5</model_id>
         <model_table/>
         <name>var__m_topic_variable_0305064687b94910c386fd99cebb35f5</name>
