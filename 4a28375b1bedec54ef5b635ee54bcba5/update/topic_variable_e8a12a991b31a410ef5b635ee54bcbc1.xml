@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Changing Pension Contribution">a0a12a991b31a410ef5b635ee54bcbc1</model>
+        <model display_value="Pension Fund Contribution">a0a12a991b31a410ef5b635ee54bcbc1</model>
         <model_id>a0a12a991b31a410ef5b635ee54bcbc1</model_id>
         <model_table/>
         <name>var__m_topic_variable_a0a12a991b31a410ef5b635ee54bcbc1</name>

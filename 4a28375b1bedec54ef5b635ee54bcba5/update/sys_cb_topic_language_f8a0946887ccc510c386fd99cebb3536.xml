@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_language">
     <sys_cb_topic_language action="INSERT_OR_UPDATE">
-        <cb_topic_id display_value="How to Contribute and Shift to a Remote">a4a0546887ccc510c386fd99cebb352e</cb_topic_id>
+        <cb_topic_id display_value="Remote Working Mind-Shift">a4a0546887ccc510c386fd99cebb352e</cb_topic_id>
         <language_code>en</language_code>
         <nlu_entities>[{"node_id":"966037d36aac43b6bc8116f3cdfeb27f","variable_name":"button_choice","nlu_entity":"","nlu_entity_label":""}]</nlu_entities>
         <nlu_intent>TF - Contribute While Flexible</nlu_intent>

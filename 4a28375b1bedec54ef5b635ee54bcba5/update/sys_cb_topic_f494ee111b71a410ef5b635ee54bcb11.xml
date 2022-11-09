@@ -80,7 +80,19 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1. On Workday, type "
+                    "text": "1. On "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://wd3.myworkday.com/absa/d/home.htmld",
+                    "children": [
+                      {
+                        "text": "Workday"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", type "
                   },
                   {
                     "text": "Create Request ",
@@ -205,20 +217,21 @@
         <nlu_provider/>
         <palette_label/>
         <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id/>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>gabriel.eisenberg</sys_created_by>
         <sys_created_on>2021-01-18 12:22:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>f494ee111b71a410ef5b635ee54bcb11</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Leave Encashment</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_f494ee111b71a410ef5b635ee54bcb11</sys_update_name>
-        <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-30 10:17:47</sys_updated_on>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-02-15 14:59:25</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

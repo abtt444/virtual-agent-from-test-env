@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language">
     <sys_cs_topic_language action="INSERT_OR_UPDATE">
-        <cs_topic_id display_value="TF - Beneficiary">7a61e6991b31a410ef5b635ee54bcb7f</cs_topic_id>
+        <cs_topic_id display_value="Pension Fund Beneficiaries">7a61e6991b31a410ef5b635ee54bcb7f</cs_topic_id>
         <language_code>en</language_code>
         <nlu_entities>[{"variable_name":"choice","nlu_entity":"","nlu_entity_label":""}]</nlu_entities>
         <nlu_intent>Adding a Beneficiary </nlu_intent>

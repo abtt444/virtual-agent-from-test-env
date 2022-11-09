@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="MyContribution - Grievance">1ada8b8987888110c386fd99cebb35ee</model>
+        <model display_value="Grievance Process">1ada8b8987888110c386fd99cebb35ee</model>
         <model_id>1ada8b8987888110c386fd99cebb35ee</model_id>
         <model_table/>
         <name>var__m_topic_variable_1ada8b8987888110c386fd99cebb35ee</name>

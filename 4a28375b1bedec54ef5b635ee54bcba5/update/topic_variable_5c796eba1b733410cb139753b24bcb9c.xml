@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="TF - MCRatingScale">10796eba1b733410cb139753b24bcb9c</model>
+        <model display_value="MyContribution Rating Scale">10796eba1b733410cb139753b24bcb9c</model>
         <model_id>10796eba1b733410cb139753b24bcb9c</model_id>
         <model_table/>
         <name>var__m_topic_variable_10796eba1b733410cb139753b24bcb9c</name>

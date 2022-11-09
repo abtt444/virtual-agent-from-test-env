@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Virtual Meetings">cb3cf3d8870cc510c386fd99cebb356a</model>
+        <model display_value="Having Virtual Meetings with Purpose">cb3cf3d8870cc510c386fd99cebb356a</model>
         <model_id>cb3cf3d8870cc510c386fd99cebb356a</model_id>
         <model_table/>
         <name>var__m_topic_variable_cb3cf3d8870cc510c386fd99cebb356a</name>

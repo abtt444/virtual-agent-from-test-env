@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="sn_dd_absahrnlumodels_publishtoapprepo" name="sn_dd_absahrnlumodels_publishtoapprepo">5daabd8d876a1910c386fd99cebb3557</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>AB01212</sys_created_by>
+        <sys_created_on>2022-10-13 10:00:57</sys_created_on>
+        <sys_id>9daabd8d876a1910c386fd99cebb3558</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5daabd8d876a1910c386fd99cebb3557</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_embedded_help_role_9daabd8d876a1910c386fd99cebb3558</sys_update_name>
+        <sys_updated_by>AB01212</sys_updated_by>
+        <sys_updated_on>2022-10-13 10:00:57</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

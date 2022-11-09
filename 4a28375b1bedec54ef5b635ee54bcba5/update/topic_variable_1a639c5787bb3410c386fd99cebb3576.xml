@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Damage/Stolen Laptop">5e63505787bb3410c386fd99cebb35ec</model>
+        <model display_value="Damaged/Stolen Laptop">5e63505787bb3410c386fd99cebb35ec</model>
         <model_id>5e63505787bb3410c386fd99cebb35ec</model_id>
         <model_table/>
         <name>var__m_topic_variable_5e63505787bb3410c386fd99cebb35ec</name>

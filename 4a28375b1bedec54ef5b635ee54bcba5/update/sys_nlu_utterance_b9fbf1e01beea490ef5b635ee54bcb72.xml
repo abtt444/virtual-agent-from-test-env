@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
     <sys_nlu_utterance action="INSERT_OR_UPDATE">
-        <intent display_value="Book Relocation Leave">91329a801b5e6410ef5b635ee54bcbaf</intent>
+        <intent display_value="TF - Relocation Leave">91329a801b5e6410ef5b635ee54bcbaf</intent>
         <original_utterance/>
         <primary_utterance/>
         <sys_class_name>sys_nlu_utterance</sys_class_name>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
     <m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE">
-        <entity display_value="Rating Scale">be98267a1b733410cb139753b24bcb9e</entity>
+        <entity display_value="Rating">be98267a1b733410cb139753b24bcb9e</entity>
         <intent display_value="TF - My Contribution Rating Scale">8e23adae87ff3810c386fd99cebb35df</intent>
         <relationship>regular</relationship>
         <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>

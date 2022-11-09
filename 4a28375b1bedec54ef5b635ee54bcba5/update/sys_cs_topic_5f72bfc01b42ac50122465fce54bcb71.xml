@@ -26,6 +26,7 @@
         <palette_label/>
         <published>true</published>
         <roles>public</roles>
+        <secure_custom_input_control>false</secure_custom_input_control>
         <sys_class_name>sys_cs_topic</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>
         <sys_created_on>2021-01-27 07:05:48</sys_created_on>

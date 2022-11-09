@@ -7,14 +7,14 @@
         <sys_created_by>AB019AK</sys_created_by>
         <sys_created_on>2021-11-18 13:05:31</sys_created_on>
         <sys_id>05d1d09387bb3410c386fd99cebb350b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>how do I replace my {{"phrase":"laptop","lookupSources":[{"solutionName":"GLOBAL","lookupSourceName":"hardware","name":"@lookupSources:hardware.computer@@","displayName":"Hardware › Computer","entityName":"Laptop"}]}}</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>how do I replace my {{"phrase":"laptop","lookupSources":[{"solutionName":"GLOBAL","lookupSourceName":"hardware","name":"@lookupSources:hardware.computer@@","displayName":"Hardware › Computer","entityName":"Equipment"}]}}</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_nlu_utterance_05d1d09387bb3410c386fd99cebb350b</sys_update_name>
-        <sys_updated_by>AB019AK</sys_updated_by>
-        <sys_updated_on>2021-11-18 13:07:10</sys_updated_on>
-        <utterance>how do I replace my {{"phrase":"laptop","lookupSources":[{"solutionName":"GLOBAL","lookupSourceName":"hardware","name":"@lookupSources:hardware.computer@@","displayName":"Hardware › Computer","entityName":"Laptop"}]}}</utterance>
+        <sys_updated_by>AB019AM</sys_updated_by>
+        <sys_updated_on>2021-12-08 12:09:38</sys_updated_on>
+        <utterance>how do I replace my {{"phrase":"laptop","lookupSources":[{"solutionName":"GLOBAL","lookupSourceName":"hardware","name":"@lookupSources:hardware.computer@@","displayName":"Hardware › Computer","entityName":"Equipment"}]}}</utterance>
     </sys_nlu_utterance>
 </record_update>

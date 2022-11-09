@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Sick Leave Payment">58a06ed51b31a410ef5b635ee54bcb8a</model>
+        <model display_value="Sick Leave Pay">58a06ed51b31a410ef5b635ee54bcb8a</model>
         <model_id>58a06ed51b31a410ef5b635ee54bcb8a</model_id>
         <model_table/>
         <name>var__m_topic_variable_58a06ed51b31a410ef5b635ee54bcb8a</name>

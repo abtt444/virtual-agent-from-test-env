@@ -126,13 +126,62 @@
           "withNluUserInput": false,
           "skipIfFulfilled": false
         },
-        "296713fa9b324d86bffbd15622a9ea56": {
-          "id": "296713fa9b324d86bffbd15622a9ea56",
-          "stepType": "Decision",
-          "name": "Decision"
+        "027675d585e74aeea2182f8eaf74074d": {
+          "id": "027675d585e74aeea2182f8eaf74074d",
+          "stepType": "TextOutput",
+          "name": "whensubmit",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Normally, your sick leave can be submitted on Workday without a doctor's note. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "However, a doctor's notes is required when capturing sick leave of more than two days or when sick leave is taken on more than two occasions in an eight-week period."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "vaInputs.choice=When do I need to submit a doctor's note",
+            "mode": "query"
+          }
         },
-        "5e67e7c6f65a43cc859fb2e65ccbe4e7": {
-          "id": "5e67e7c6f65a43cc859fb2e65ccbe4e7",
+        "411b25351d324ef4a022dc10b9e1c5c4": {
+          "id": "411b25351d324ef4a022dc10b9e1c5c4",
+          "stepType": "TextOutput",
+          "name": "format",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please attach the doctor's note in PDF format. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "vaInputs.choice=What format do I need to Submit a Doctor's Note In",
+            "mode": "query"
+          }
+        },
+        "cea16f993ea84bdeafe3431b84aa7788": {
+          "id": "cea16f993ea84bdeafe3431b84aa7788",
           "stepType": "TextOutput",
           "name": "howtosubmit",
           "secure": false,
@@ -142,7 +191,19 @@
                 "type": "paragraph",
                 "children": [
                   {
-                    "text": "1. On Workday, click on the cloud icon at the top right of your screen then select your name/view profile."
+                    "text": "1. On "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://wd3.myworkday.com/absa/d/home.htmld",
+                    "children": [
+                      {
+                        "text": "Workday"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", click on the cloud icon at the top right of your screen then select your name/view profile."
                   }
                 ]
               },
@@ -231,63 +292,14 @@
             "mode": "simple"
           },
           "applicability": {
-            "value": "",
+            "value": "vaInputs.choice=How to submit a Doctor's Note",
             "mode": "query"
           }
         },
-        "6d7eba0cd001400cbe6dab143c4bd204": {
-          "id": "6d7eba0cd001400cbe6dab143c4bd204",
-          "stepType": "TextOutput",
-          "name": "format",
-          "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Please attach the doctor's note in PDF format. "
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
-        },
-        "3b8b36b4335841ef8ae7e6e386326e16": {
-          "id": "3b8b36b4335841ef8ae7e6e386326e16",
-          "stepType": "TextOutput",
-          "name": "whensubmit",
-          "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Normally, your sick leave can be submitted on Workday without a doctor's note. "
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "However, a doctor's notes is required when capturing sick leave of more than two days or when sick leave is taken on more than two occasions in an eight-week period."
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          }
+        "e60c05cc011b41e592bd01762fb98475": {
+          "id": "e60c05cc011b41e592bd01762fb98475",
+          "stepType": "Decision",
+          "name": "Decision"
         }
       },
       "edges": [
@@ -308,75 +320,49 @@
           "targetPort": ""
         },
         {
+          "id": "342e0eea13c54ced9fdd0f9daf1f2b06",
+          "edgeType": "Edge",
+          "source": "027675d585e74aeea2182f8eaf74074d",
+          "target": "411b25351d324ef4a022dc10b9e1c5c4",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f9e5d16e25a84a9e83b1cac28a971646",
+          "edgeType": "Edge",
+          "source": "411b25351d324ef4a022dc10b9e1c5c4",
+          "target": "cea16f993ea84bdeafe3431b84aa7788",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7f9ebfaf0eca489cb5a7909729f0737c",
+          "edgeType": "Edge",
+          "source": "cea16f993ea84bdeafe3431b84aa7788",
+          "target": "02ba536e34b6421086d6ee114b5b2b0b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
           "id": "747362ea095b48518a7769e14a13ac42",
           "edgeType": "Edge",
           "source": "79799d33294a468f96411a8347d1ec17",
-          "target": "296713fa9b324d86bffbd15622a9ea56",
+          "target": "e60c05cc011b41e592bd01762fb98475",
           "sourcePort": "",
           "targetPort": ""
         },
         {
-          "id": "842cfb4f362d4c329a0195acc4e9184c",
+          "id": "fff80c20e0f242a1a56babf5f9f4daac",
           "edgeType": "Branch",
-          "source": "296713fa9b324d86bffbd15622a9ea56",
-          "target": "5e67e7c6f65a43cc859fb2e65ccbe4e7",
+          "source": "e60c05cc011b41e592bd01762fb98475",
+          "target": "027675d585e74aeea2182f8eaf74074d",
           "sourcePort": "",
           "targetPort": "",
           "expression": {
-            "value": "vaInputs.choice=How to Submit a Doctor's Note",
+            "value": "",
             "mode": "query"
           },
-          "label": "How to Submit a Doctor's Note"
-        },
-        {
-          "id": "d4272dc8f279400f83f1e4b81c148fbf",
-          "edgeType": "Edge",
-          "source": "5e67e7c6f65a43cc859fb2e65ccbe4e7",
-          "target": "02ba536e34b6421086d6ee114b5b2b0b",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "5d3351a733fd431f92ea4f83eee56f60",
-          "edgeType": "Branch",
-          "source": "296713fa9b324d86bffbd15622a9ea56",
-          "target": "6d7eba0cd001400cbe6dab143c4bd204",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.choice=What format do I need to Submit a Doctor's Note In",
-            "mode": "query"
-          },
-          "label": "What format do I need to Submit a Doctor's Note In"
-        },
-        {
-          "id": "8c47feb5d3c64ebe8246df69ec8955a8",
-          "edgeType": "Edge",
-          "source": "6d7eba0cd001400cbe6dab143c4bd204",
-          "target": "02ba536e34b6421086d6ee114b5b2b0b",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "1c134b95876e4bb68d1839de44000d4f",
-          "edgeType": "Branch",
-          "source": "296713fa9b324d86bffbd15622a9ea56",
-          "target": "3b8b36b4335841ef8ae7e6e386326e16",
-          "sourcePort": "",
-          "targetPort": "",
-          "expression": {
-            "value": "vaInputs.choice=When do I need to submit a doctor's note",
-            "mode": "query"
-          },
-          "label": "When do I need to submit a doctor's note"
-        },
-        {
-          "id": "b371d599c6e9460292eb93ef553f113f",
-          "edgeType": "Edge",
-          "source": "3b8b36b4335841ef8ae7e6e386326e16",
-          "target": "02ba536e34b6421086d6ee114b5b2b0b",
-          "sourcePort": "",
-          "targetPort": ""
+          "label": "Always"
         }
       ]
     }
@@ -415,7 +401,7 @@
     }
   }
 }</graph>
-        <key_phrases>Sick Leave Doctor's Note</key_phrases>
+        <key_phrases>Sick Leave Doctor's Note - backup,Sick Leave Doctor's Note</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
         <name>Sick Leave Doctor's Note</name>
@@ -426,20 +412,21 @@
         <nlu_provider/>
         <palette_label/>
         <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id/>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>gabriel.eisenberg</sys_created_by>
         <sys_created_on>2021-01-18 12:02:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>842022d51b31a410ef5b635ee54bcba7</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Sick Leave Doctor's Note</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_842022d51b31a410ef5b635ee54bcba7</sys_update_name>
-        <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-11-30 10:18:33</sys_updated_on>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-02-26 11:29:54</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

@@ -4,6 +4,7 @@
         <confidence_threshold>0.7</confidence_threshold>
         <description>Cloning because publish is not working</description>
         <display_name>Absa HR Chatbot NLU Model Nov</display_name>
+        <ignore_punctuation/>
         <language>en</language>
         <last_translated_on/>
         <model_domain/>

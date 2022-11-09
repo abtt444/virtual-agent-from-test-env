@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="I need help">8dbe0edf87084510c386fd99cebb356f</model>
+        <model display_value="ICAS">8dbe0edf87084510c386fd99cebb356f</model>
         <model_id>8dbe0edf87084510c386fd99cebb356f</model_id>
         <model_table/>
         <name>var__m_topic_variable_8dbe0edf87084510c386fd99cebb356f</name>

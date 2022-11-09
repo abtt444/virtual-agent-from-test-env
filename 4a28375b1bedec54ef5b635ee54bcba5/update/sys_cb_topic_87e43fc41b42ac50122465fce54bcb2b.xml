@@ -1325,6 +1325,7 @@
         <nlu_provider/>
         <palette_label/>
         <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id>11d818213b77330074bc456993efc4c2</source_topic_id>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>

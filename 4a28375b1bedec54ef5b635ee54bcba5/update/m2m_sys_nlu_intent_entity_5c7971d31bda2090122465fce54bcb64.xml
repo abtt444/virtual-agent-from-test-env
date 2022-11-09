@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_intent_entity">
     <m2m_sys_nlu_intent_entity action="INSERT_OR_UPDATE">
         <entity display_value="Day">9b39aa4f1b0a20d0ef5b635ee54bcb3d</entity>
-        <intent display_value="Leave Encashment Payout">76f69a871b8620d0ef5b635ee54bcb9a</intent>
+        <intent display_value="TF - Leave Encashment">76f69a871b8620d0ef5b635ee54bcb9a</intent>
         <relationship>regular</relationship>
         <sys_class_name>m2m_sys_nlu_intent_entity</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>

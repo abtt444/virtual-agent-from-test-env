@@ -95,6 +95,7 @@
         <nlu_provider/>
         <palette_label/>
         <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id/>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>gabriel.eisenberg</sys_created_by>

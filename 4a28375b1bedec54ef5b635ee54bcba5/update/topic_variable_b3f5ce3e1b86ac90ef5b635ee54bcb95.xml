@@ -39,7 +39,7 @@
         <limit/>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="MyContribution">bbf5ce3e1b86ac90ef5b635ee54bcb94</model>
+        <model display_value="MyContribution Information">bbf5ce3e1b86ac90ef5b635ee54bcb94</model>
         <model_id>bbf5ce3e1b86ac90ef5b635ee54bcb94</model_id>
         <model_table/>
         <name>var__m_topic_variable_bbf5ce3e1b86ac90ef5b635ee54bcb94</name>

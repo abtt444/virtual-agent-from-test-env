@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:1b7a7415974d5190fac1f386f053afb8:node:3bf8e539d510492d8c509b4e18766061:field:value {0}</key>
+        <language>en</language>
+        <message>Hi {0}, I am a Virtual Agent!  I can assist you with queries related to:
+
+- Leave
+- Returning to Work
+- Working from Home
+- MyContribution 
+- COVID-19 guidelines.
+
+Please feel free to ask me a question! I am a chatbot, still in the process of learning how to help you with your queries.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-07-31 10:25:45</sys_created_on>
+        <sys_id>87aaf855974d5190fac1f386f053afe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:1b7a7415974d5190fac1f386f053afb8:node:3bf8e539d510492d8c509b4e18766061:field:value {0}</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_87aaf855974d5190fac1f386f053afe0</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-07-31 10:25:45</sys_updated_on>
+    </sys_ui_message>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:62d078a487c00910c386fd99cebb3576:node:cf31aa7b12084aed9cb8974faa6fe7ba:field:value</key>
+        <language>en</language>
+        <message>For those wishing to return to Absa offices, you will be required to perform a self-screening survey. 
+
+More information on the self-screening procedure can be found[ here](https://absahr.service-now.com/ways_of_work?id=kb_article_view&amp;sysparm_article=KB0012637).</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2022-02-24 10:48:49</sys_created_on>
+        <sys_id>925e547e1bbd8d10cb139753b24bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:62d078a487c00910c386fd99cebb3576:node:cf31aa7b12084aed9cb8974faa6fe7ba:field:value</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_925e547e1bbd8d10cb139753b24bcb1a</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-02-24 10:48:49</sys_updated_on>
+    </sys_ui_message>
+</record_update>
