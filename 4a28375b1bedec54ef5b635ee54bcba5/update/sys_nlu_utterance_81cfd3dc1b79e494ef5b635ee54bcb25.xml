@@ -3,6 +3,7 @@
         <intent display_value="Covid-19 Information">4db9db901b79e494ef5b635ee54bcb61</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>
         <sys_created_on>2021-01-15 14:06:47</sys_created_on>

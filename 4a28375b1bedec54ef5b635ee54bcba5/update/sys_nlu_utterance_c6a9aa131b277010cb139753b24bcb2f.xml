@@ -3,6 +3,7 @@
         <intent display_value="My Contribution - Cascade Objectives">dd596edf1be37010cb139753b24bcb1c</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>tshwarelo.tshabalala</sys_created_by>
         <sys_created_on>2021-11-06 13:53:10</sys_created_on>

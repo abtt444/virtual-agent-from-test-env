@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</source_scope>
+        <status>requested</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>AB01215</sys_created_by>
+        <sys_created_on>2022-11-22 20:44:33</sys_created_on>
+        <sys_id>3a8d02ce87d7dd10c386fd99cebb35a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_absa2_compliance_compliance_capability</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_scope_privilege_3a8d02ce87d7dd10c386fd99cebb35a5</sys_update_name>
+        <sys_updated_by>AB01215</sys_updated_by>
+        <sys_updated_on>2022-11-22 20:44:33</sys_updated_on>
+        <target_name>x_absa2_compliance_compliance_capability</target_name>
+        <target_scope display_value="Compliance Enquiries">44a1e5d51bf73010cb139753b24bcb47</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

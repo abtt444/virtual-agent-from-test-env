@@ -3,6 +3,7 @@
         <intent display_value="TF - External Visitor Process">74ee00e087ccc510c386fd99cebb35c2</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-11-22 10:06:23</sys_created_on>

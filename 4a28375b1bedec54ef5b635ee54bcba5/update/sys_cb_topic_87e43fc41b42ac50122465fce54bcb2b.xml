@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
     <sys_cb_topic action="INSERT_OR_UPDATE">
         <applicability/>
-        <applicability_mode/>
+        <applicability_mode>query</applicability_mode>
         <autopilot_topic>false</autopilot_topic>
         <category/>
         <channels/>
@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>true</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.21.pp4",
+  "graph_api_version": "1.0.42",
   "goals": {
     "primary": {
       "id": "primary",
@@ -36,7 +36,9 @@
               "id": "54e0b477bba048e18ebc708ec9d7bcc9",
               "disabled": true,
               "referenced": true,
-              "checked": true
+              "type": "String",
+              "hint": "",
+              "required": true
             },
             {
               "name": "confirmationNeeded",
@@ -44,15 +46,19 @@
               "id": "e1c17e6044774054b3770b5792b89241",
               "referenced": false,
               "disabled": true,
-              "checked": true
+              "type": "String",
+              "hint": "",
+              "required": true
             },
             {
               "name": "saveQuestionsToContext",
               "value": "false",
               "id": "3089b24235064409a7fe5013836626e9",
-              "checked": true,
               "referenced": true,
-              "disabled": true
+              "disabled": true,
+              "type": "String",
+              "hint": "",
+              "required": true
             }
           ],
           "variableIds": [
@@ -221,27 +227,81 @@
           "id": "ec047a8643df46a883575378c77233bd",
           "stepType": "TextOutput",
           "name": "End note",
-          "value": {
-            "value": "{{vaVars.endNote}}",
-            "mode": "simple"
-          },
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaVars.endNote}}",
+                        "displayValue": "vaVars➛endNote"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple"
+            }
+          ],
           "applicability": {
             "value": "",
             "mode": "query"
-          }
+          },
+          "secure": false
         },
         "0481412e6152484b9ff59a10fe44f981": {
           "id": "0481412e6152484b9ff59a10fe44f981",
           "stepType": "TextOutput",
           "name": "Introduction",
-          "value": {
-            "value": "{{vaVars.introduction}}",
-            "mode": "simple"
-          },
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaVars.introduction}}",
+                        "displayValue": "vaVars➛introduction"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple"
+            }
+          ],
           "applicability": {
             "value": "",
             "mode": "query"
-          }
+          },
+          "secure": false
         },
         "b3d5a15656164fd68dc0ccbd6da114be": {
           "stepType": "ReferenceChoicePrompt",
@@ -272,7 +332,22 @@
           "mode": "external",
           "script": "(function execute() {\n    var i = vaVars.questionIndex;\n    var questions = JSON.parse(vaVars.surveyQuestions);\n    var choices = questions[i].choices;\n    var options = [];\n    for (var j = 0; j &lt; choices.length; j++) {\n        var c = choices[j];\n        options.push({\n            'label': c.display,\n            'value': c.value\n        });\n    }\n\n    return options;\n})()",
           "noRecordsResponseMsg": {
-            "value": "No data found",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "No data found"
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "condition": {
@@ -285,7 +360,15 @@
           "skippable": {
             "value": "",
             "mode": "query"
-          }
+          },
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "hasCardHeader": false
         },
         "8d8c3ba65a1b48e59fefa81f6af9abad": {
           "id": "8d8c3ba65a1b48e59fefa81f6af9abad",
@@ -418,14 +501,17 @@
           "id": "165a1bd573254bd883338b583112ab3a",
           "stepType": "TextOutput",
           "name": "Validation failed",
-          "value": {
-            "value": "(function execute() {\n    return vaVars.currentAnswerErrorMsg;\n})()",
-            "mode": "script"
-          },
+          "value": [
+            {
+              "value": "(function execute() {\n    return vaVars.currentAnswerErrorMsg;\n})()",
+              "mode": "script"
+            }
+          ],
           "applicability": {
             "value": "",
             "mode": "query"
-          }
+          },
+          "secure": false
         },
         "a8991376ae65459092f66cf8adcd6352": {
           "stepType": "CarouselPrompt",
@@ -459,7 +545,22 @@
           },
           "carouselItemExpression": "(function execute() {\n    var i = vaVars.questionIndex;\n    var questions = JSON.parse(vaVars.surveyQuestions);\n    var choices = questions[i].choices;\n    var options = [];\n    for (var j = 0; j &lt; choices.length; j++) {\n        var c = choices[j];\n        options.push({\n            'Name': c.display,\n            'Value': c.value,\n            'Body': c.unselected\n        });\n    }\n\n    return options;\n})()",
           "noRecordsResponseMsg": {
-            "value": "No data found",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "No data found"
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "withNluUserInput": false,
@@ -486,7 +587,31 @@
           "stepType": "Prompt",
           "name": "Verify Response",
           "prompt": {
-            "value": "{{vaVars.surveyVerificationMsg}}",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaVars.surveyVerificationMsg}}",
+                      "displayValue": "vaVars➛surveyVerificationMsg"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "confirmMessage": {
@@ -571,7 +696,22 @@
           "mode": "external",
           "script": "(function execute() {\n    var options = [];\n    var table = vaVars.currentQuestionReferenceTable;\n    var condition = vaVars.currentQuestionReferenceCondition;\n    if (!table)\n        return options;\n \n    var taskExtensions = new TableUtils(\"task\").getTableExtensions();\n    var isTask = (taskExtensions.indexOf(table) &gt; -1) ? true : false;\n\n    var gr = new GlideRecord(table);\n    if (condition)\n        gr.addEncodedQuery(condition);\n    gr.query();\n    while (gr.next()) {\n        options.push({\n            'value': gr.sys_id + '',\n            'label': (isTask)? gr.number + ': ' + gr.short_description : gr.getDisplayValue()\n        });\n    }\n    return options;\n})()",
           "noRecordsResponseMsg": {
-            "value": "No reference found",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "No reference found"
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "condition": {
@@ -580,7 +720,15 @@
           },
           "withNluUserInput": false,
           "skipIfFulfilled": false,
-          "entity": ""
+          "entity": "",
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "hasCardHeader": false
         }
       },
       "edges": [
@@ -932,7 +1080,9 @@
       "name": "show_image_scale_question",
       "label": "Show Image Scale Question",
       "varType": "carousel-image",
-      "category": "vaInputs"
+      "category": "vaInputs",
+      "nodeId": "a8991376ae65459092f66cf8adcd6352",
+      "isHidden": false
     },
     "ee08946ee151463fb2ff28d0a1402196": {
       "id": "ee08946ee151463fb2ff28d0a1402196",
@@ -950,7 +1100,15 @@
       "name": "show_text_input_question",
       "label": "Show Text Input Question",
       "varType": "string",
-      "category": "vaInputs"
+      "category": "vaInputs",
+      "secure": false,
+      "encryptionSalt": {
+        "value": "MTY4NDQwOTc5Nzc0NyBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "encryptionHashFunction": "SHA-256",
+      "nodeId": "88d3611b425f4bcbb2852753a69585f6",
+      "isHidden": false
     },
     "c6e5588b47dc4fb0821a2479bf731907": {
       "id": "c6e5588b47dc4fb0821a2479bf731907",
@@ -968,7 +1126,9 @@
       "name": "show_boolean_question",
       "label": "Show Boolean Question",
       "varType": "boolean",
-      "category": "vaInputs"
+      "category": "vaInputs",
+      "nodeId": "da016b4266b448efb5fab4c127561362",
+      "isHidden": false
     },
     "3f8d863d9bb7428d9452b5f83cf278c5": {
       "id": "3f8d863d9bb7428d9452b5f83cf278c5",
@@ -987,7 +1147,9 @@
       "label": "Show Choice Question",
       "varType": "reference",
       "table": "",
-      "category": "vaInputs"
+      "category": "vaInputs",
+      "nodeId": "b3d5a15656164fd68dc0ccbd6da114be",
+      "isHidden": false
     },
     "8b7ef81ef0af43a9937a7b200ef86a26": {
       "id": "8b7ef81ef0af43a9937a7b200ef86a26",
@@ -1115,7 +1277,9 @@
       "name": "show_attachment_question",
       "label": "Show Attachment Question",
       "varType": "image",
-      "category": "vaInputs"
+      "category": "vaInputs",
+      "nodeId": "8d8c3ba65a1b48e59fefa81f6af9abad",
+      "isHidden": false
     },
     "861966c151804bb68836a40f308c932c": {
       "id": "861966c151804bb68836a40f308c932c",
@@ -1123,7 +1287,9 @@
       "label": "Show Date Question",
       "varType": "date_time",
       "category": "vaInputs",
-      "mode": "date"
+      "mode": "date",
+      "nodeId": "ddec3a3a210c4c9b988b0b6962e8ad90",
+      "isHidden": false
     },
     "0c01e42b8a384b0bb1e13df038d2da4a": {
       "id": "0c01e42b8a384b0bb1e13df038d2da4a",
@@ -1131,7 +1297,9 @@
       "label": "Show Datetime Question",
       "varType": "date_time",
       "category": "vaInputs",
-      "mode": "date_time"
+      "mode": "date_time",
+      "nodeId": "58c46b71b4834bae8f7a21401fc092fc",
+      "isHidden": false
     },
     "54e0b477bba048e18ebc708ec9d7bcc9": {
       "id": "54e0b477bba048e18ebc708ec9d7bcc9",
@@ -1139,14 +1307,21 @@
       "label": "SurveyId",
       "defaultValue": "",
       "varType": "string",
-      "category": "vaInputs"
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "input"
+      },
+      "nodeId": "27ff68f3be6045628e884f702a35ba62",
+      "isHidden": false
     },
     "bad1065e16054a2da96f60afed9f86d8": {
       "id": "bad1065e16054a2da96f60afed9f86d8",
       "name": "verify_response",
       "label": "Verify Response",
       "varType": "boolean",
-      "category": "vaInputs"
+      "category": "vaInputs",
+      "nodeId": "8499d4d549864b58a94713e7fa02977c",
+      "isHidden": false
     },
     "d193fec885e14a9d83e289a5b3e51b34": {
       "id": "d193fec885e14a9d83e289a5b3e51b34",
@@ -1165,7 +1340,12 @@
       "label": "ConfirmationNeeded",
       "defaultValue": "false",
       "varType": "string",
-      "category": "vaInputs"
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "input"
+      },
+      "nodeId": "27ff68f3be6045628e884f702a35ba62",
+      "isHidden": false
     },
     "97ea8b0fe348441488607bfacf21e1ae": {
       "id": "97ea8b0fe348441488607bfacf21e1ae",
@@ -1184,7 +1364,12 @@
       "label": "SaveQuestionsToContext",
       "defaultValue": "false",
       "varType": "string",
-      "category": "vaInputs"
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "input"
+      },
+      "nodeId": "27ff68f3be6045628e884f702a35ba62",
+      "isHidden": false
     },
     "300806ce2a44421ba8dd3189c95e9c53": {
       "id": "300806ce2a44421ba8dd3189c95e9c53",
@@ -1288,7 +1473,9 @@
       "label": "Show Reference Question",
       "varType": "reference",
       "table": "",
-      "category": "vaInputs"
+      "category": "vaInputs",
+      "nodeId": "af73200e251349639110c03d95ac7d68",
+      "isHidden": false
     },
     "815bcdcd47d047ad924aa4e906f52d94": {
       "id": "815bcdcd47d047ad924aa4e906f52d94",
@@ -1325,6 +1512,7 @@
         <nlu_provider/>
         <palette_label/>
         <roles/>
+        <root_topic_id>11d818213b77330074bc456993efc4c2</root_topic_id>
         <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id>11d818213b77330074bc456993efc4c2</source_topic_id>
         <sys_class_name>sys_cb_topic</sys_class_name>
@@ -1332,14 +1520,14 @@
         <sys_created_on>2021-01-27 07:16:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>87e43fc41b42ac50122465fce54bcb2b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Survey ABSA</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_87e43fc41b42ac50122465fce54bcb2b</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-10-19 19:02:21</sys_updated_on>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-05-18 11:41:48</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>TOPIC_BLOCK</type>
         <variables/>

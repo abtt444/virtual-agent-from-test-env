@@ -3,6 +3,7 @@
         <intent display_value="Changing Pension Contribution ">dc0e4a911bbd6410ef5b635ee54bcb13</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>
         <sys_created_on>2021-01-18 10:45:59</sys_created_on>

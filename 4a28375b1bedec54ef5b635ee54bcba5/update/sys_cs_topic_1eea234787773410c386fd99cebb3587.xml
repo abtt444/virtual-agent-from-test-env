@@ -47,4 +47,5 @@
         <visible>true</visible>
     </sys_cs_topic>
     <sys_variable_value action="delete_multiple" query="document_key=1eea234787773410c386fd99cebb3587"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1eea234787773410c386fd99cebb3587"/>
 </record_update>

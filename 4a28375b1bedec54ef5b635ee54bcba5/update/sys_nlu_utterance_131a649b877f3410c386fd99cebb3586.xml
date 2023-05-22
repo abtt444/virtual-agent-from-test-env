@@ -3,6 +3,7 @@
         <intent display_value="TF - Plan for Possibility and Being Tired">6699281b877f3410c386fd99cebb3576</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-11-18 14:51:37</sys_created_on>

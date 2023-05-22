@@ -246,6 +246,7 @@
         <nlu_provider/>
         <palette_label/>
         <roles/>
+        <root_topic_id>2ad78361b3633300dbbf6030c6a8dc14</root_topic_id>
         <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id>996257ff1bf92850ef5b635ee54bcb00</source_topic_id>
         <sys_class_name>sys_cb_topic</sys_class_name>
@@ -253,14 +254,14 @@
         <sys_created_on>2022-09-17 13:43:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>7924703087c69950c386fd99cebb35af</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>Transfer To Agent Or Log a Case</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_7924703087c69950c386fd99cebb35af</sys_update_name>
-        <sys_updated_by>thabiso.diphare</sys_updated_by>
-        <sys_updated_on>2022-11-21 23:15:29</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-24 19:50:28</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>TOPIC_BLOCK</type>
         <variables/>

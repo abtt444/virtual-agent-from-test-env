@@ -3,6 +3,7 @@
         <intent display_value="TF - Self-Screening To Return To Work">d185286087800910c386fd99cebb3549</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-11-29 09:21:55</sys_created_on>

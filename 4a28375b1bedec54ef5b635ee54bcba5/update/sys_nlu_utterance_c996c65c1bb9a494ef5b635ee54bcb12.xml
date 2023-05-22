@@ -3,6 +3,7 @@
         <intent display_value="Withdrawal from Pension">a02c3d581b79a494ef5b635ee54bcbd9</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>
         <sys_created_on>2021-01-15 07:37:07</sys_created_on>

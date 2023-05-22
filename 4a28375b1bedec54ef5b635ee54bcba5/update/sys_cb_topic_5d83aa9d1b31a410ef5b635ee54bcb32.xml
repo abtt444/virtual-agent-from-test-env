@@ -148,6 +148,7 @@
         <nlu_provider/>
         <palette_label/>
         <roles/>
+        <root_topic_id/>
         <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id/>
         <sys_class_name>sys_cb_topic</sys_class_name>

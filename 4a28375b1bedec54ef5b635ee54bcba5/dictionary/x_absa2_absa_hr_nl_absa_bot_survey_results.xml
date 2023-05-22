@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="ABSA Bot Survey Results " max_length="40" name="x_absa2_absa_hr_nl_absa_bot_survey_results" sizeclass="0" type="collection"/>
+    <element db_object_id="3f6e28b597cbd510fac1f386f053af07" label="ABSA Bot Survey Results " max_length="40" name="x_absa2_absa_hr_nl_absa_bot_survey_results" type="collection"/>
 </database>

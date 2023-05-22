@@ -79,7 +79,7 @@
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
-        <roles/>
+        <roles>snc_internal</roles>
         <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
@@ -107,14 +107,14 @@
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-12-07 11:38:57</sys_created_on>
         <sys_id>5234f55987940910c386fd99cebb35e1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>by topic</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_report_5234f55987940910c386fd99cebb35e1</sys_update_name>
-        <sys_updated_by>AB019AM</sys_updated_by>
-        <sys_updated_on>2021-12-09 09:14:37</sys_updated_on>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2022-12-02 09:19:27</sys_updated_on>
         <table>sys_cs_conversation_task</table>
         <title>by topic</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

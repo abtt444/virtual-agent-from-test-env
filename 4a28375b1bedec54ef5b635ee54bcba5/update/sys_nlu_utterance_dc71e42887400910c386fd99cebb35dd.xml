@@ -3,6 +3,7 @@
         <intent display_value="TF - Travelling During Covid">e5c3dcec87ccc510c386fd99cebb35ad</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>AB019AK</sys_created_by>
         <sys_created_on>2021-11-22 11:26:08</sys_created_on>

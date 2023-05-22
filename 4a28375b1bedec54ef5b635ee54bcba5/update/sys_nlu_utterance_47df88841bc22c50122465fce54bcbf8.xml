@@ -3,6 +3,7 @@
         <intent display_value="Anything Else">85cf4c001b062c50122465fce54bcb9c</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>
         <sys_created_on>2021-01-26 14:35:38</sys_created_on>

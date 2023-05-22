@@ -27,6 +27,7 @@
         <sys_updated_on>2022-02-22 11:01:27</sys_updated_on>
         <table/>
         <training_frequency>run_once</training_frequency>
+        <triggered_source>API</triggered_source>
         <word_vector_corpus/>
     </ml_capability_definition_base>
 </record_update>

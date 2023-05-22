@@ -3,6 +3,7 @@
         <intent display_value="Relocation Leave Information">71ed29c01bb92494ef5b635ee54bcb25</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>
         <sys_created_on>2021-01-14 11:43:14</sys_created_on>

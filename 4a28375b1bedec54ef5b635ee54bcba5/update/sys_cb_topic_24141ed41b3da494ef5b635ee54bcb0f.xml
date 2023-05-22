@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>false</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.36",
+  "graph_api_version": "1.0.42",
   "goals": {
     "primary": {
       "id": "primary",
@@ -43,83 +43,85 @@
           "id": "d741abb0d0e34709857d46b45ae89787",
           "stepType": "TextOutput",
           "name": "View/Withdraw Pension",
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "You can contact the pension fund on 0860 100 380 to request your pension fund balance, benefits statement or to find out more about withdrawing your pension."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "To find out how your pension fund savings are growing in our fund, please "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://acamember.sanlam.co.za",
-                    "children": [
-                      {
-                        "text": "register/login"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " on the Pension Fund Member Web. "
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Take a look at the "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010221",
-                    "children": [
-                      {
-                        "text": "knowledge article"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " to find out more about the South Africa Pension Fund, Retirement and Death Benefits. "
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "You can contact the pension fund on 0860 422 777 to request your pension fund balance, benefits statement or to find out more about withdrawing your pension."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "To find out how your pension fund savings are growing in our fund, please "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://www.alexforbes.com/za/en/global/home-global.html",
+                      "children": [
+                        {
+                          "text": "register/login"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " on the Pension Fund Member Web. "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Take a look at the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://absahr.service-now.com/myhrportal?id=kb_article_view&amp;sysparm_article=KB0010221",
+                      "children": [
+                        {
+                          "text": "knowledge article"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " to find out more about the South Africa Pension Fund, Retirement and Death Benefits. "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple"
+            }
+          ],
           "applicability": {
             "value": "",
             "mode": "query"
@@ -169,6 +171,7 @@
         <nlu_provider/>
         <palette_label/>
         <roles/>
+        <root_topic_id/>
         <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id/>
         <sys_class_name>sys_cb_topic</sys_class_name>
@@ -176,14 +179,14 @@
         <sys_created_on>2021-01-15 08:36:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>24141ed41b3da494ef5b635ee54bcb0f</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>My Pension Fund</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_24141ed41b3da494ef5b635ee54bcb0f</sys_update_name>
-        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
-        <sys_updated_on>2022-02-15 13:57:15</sys_updated_on>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-05-16 12:07:35</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

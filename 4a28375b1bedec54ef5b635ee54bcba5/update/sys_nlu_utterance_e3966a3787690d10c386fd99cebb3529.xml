@@ -3,6 +3,7 @@
         <intent display_value="Help">d281868787c8c110c386fd99cebb3589</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>tshwarelo.tshabalala</sys_created_by>
         <sys_created_on>2022-02-15 13:02:26</sys_created_on>

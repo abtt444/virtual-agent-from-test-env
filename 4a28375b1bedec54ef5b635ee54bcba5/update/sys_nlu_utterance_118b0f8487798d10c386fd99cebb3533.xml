@@ -3,6 +3,7 @@
         <intent display_value="Adding a Beneficiary ">f523adae87ff3810c386fd99cebb35cb</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>thabiso.diphare</sys_created_by>
         <sys_created_on>2022-02-16 10:22:09</sys_created_on>

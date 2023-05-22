@@ -3,6 +3,7 @@
         <intent display_value="View Pension">bb91fd541b39a494ef5b635ee54bcb04</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>
         <sys_created_on>2021-01-15 06:09:11</sys_created_on>

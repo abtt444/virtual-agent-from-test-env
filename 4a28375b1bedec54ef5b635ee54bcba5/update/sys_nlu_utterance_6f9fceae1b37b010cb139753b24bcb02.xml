@@ -3,6 +3,7 @@
         <intent display_value="TF - Pension Contribution">f523adae87ff3810c386fd99cebb35cd</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>AB019AK</sys_created_by>
         <sys_created_on>2021-11-16 14:19:40</sys_created_on>

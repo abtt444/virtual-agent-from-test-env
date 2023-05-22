@@ -3,6 +3,7 @@
         <intent display_value="My Contribution - Self-Evaluation">daeb9e1b1ba37010cb139753b24bcb50</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>tshwarelo.tshabalala</sys_created_by>
         <sys_created_on>2021-11-06 12:59:25</sys_created_on>

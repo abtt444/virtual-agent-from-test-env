@@ -3,6 +3,7 @@
         <intent display_value="TF - Absa Live Agent Transfer">52b09a011b008110cb139753b24bcbd7</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-11-24 08:53:56</sys_created_on>

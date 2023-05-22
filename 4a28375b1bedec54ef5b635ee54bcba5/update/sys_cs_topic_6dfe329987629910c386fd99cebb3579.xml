@@ -50,4 +50,5 @@
         <visible>false</visible>
     </sys_cs_topic>
     <sys_variable_value action="delete_multiple" query="document_key=6dfe329987629910c386fd99cebb3579"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6dfe329987629910c386fd99cebb3579"/>
 </record_update>

@@ -25,6 +25,7 @@
         <sys_update_name>sys_nlu_model_df78fb5b1bedec54ef5b635ee54bcb7a</sys_update_name>
         <sys_updated_by>gabriel.eisenberg</sys_updated_by>
         <sys_updated_on>2021-02-08 12:37:45</sys_updated_on>
+        <threshold_type>automatic</threshold_type>
         <vocabulary_needs_review>false</vocabulary_needs_review>
     </sys_nlu_model>
 </record_update>

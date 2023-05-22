@@ -3,6 +3,7 @@
         <intent display_value="IRP5 Certificate">bf203d991bb9a410122465fce54bcb1e</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>ABDT007</sys_created_by>
         <sys_created_on>2021-01-18 08:34:03</sys_created_on>

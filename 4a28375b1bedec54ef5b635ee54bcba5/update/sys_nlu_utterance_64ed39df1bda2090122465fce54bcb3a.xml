@@ -3,6 +3,7 @@
         <intent display_value="TF - Relocation Leave">91329a801b5e6410ef5b635ee54bcbaf</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>
         <sys_created_on>2021-02-18 11:12:17</sys_created_on>

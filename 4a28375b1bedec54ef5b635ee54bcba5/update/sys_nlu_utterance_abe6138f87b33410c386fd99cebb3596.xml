@@ -3,6 +3,7 @@
         <intent display_value="Travel Claims">8e23adae87ff3810c386fd99cebb35e6</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-11-18 08:48:11</sys_created_on>

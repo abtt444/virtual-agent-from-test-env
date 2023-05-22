@@ -3,6 +3,7 @@
         <intent display_value="TF - Work Ailments">4f64a7c787373410c386fd99cebb3594</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-11-18 09:49:15</sys_created_on>

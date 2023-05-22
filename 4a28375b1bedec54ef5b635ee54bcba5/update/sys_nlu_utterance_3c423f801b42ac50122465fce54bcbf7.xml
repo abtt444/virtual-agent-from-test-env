@@ -3,6 +3,7 @@
         <intent display_value="Survey Feedback">9e027f401b42ac50122465fce54bcb57</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>
         <sys_created_on>2021-01-27 07:04:48</sys_created_on>

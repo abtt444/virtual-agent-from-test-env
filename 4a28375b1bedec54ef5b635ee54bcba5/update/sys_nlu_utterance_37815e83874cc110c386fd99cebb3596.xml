@@ -3,6 +3,7 @@
         <intent display_value="TF - MyContribution Grievance ">52051f0d87c88110c386fd99cebb35b8</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-11-30 14:00:48</sys_created_on>

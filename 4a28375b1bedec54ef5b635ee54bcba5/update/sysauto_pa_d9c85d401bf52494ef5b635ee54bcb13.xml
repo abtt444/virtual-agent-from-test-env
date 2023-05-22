@@ -9,6 +9,7 @@
         <description/>
         <entered_time/>
         <kill_job>false</kill_job>
+        <max_drift/>
         <name>NLU Performance</name>
         <offset/>
         <offset_type/>

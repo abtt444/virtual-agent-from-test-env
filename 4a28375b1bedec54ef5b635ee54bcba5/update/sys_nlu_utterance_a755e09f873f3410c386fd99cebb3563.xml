@@ -3,6 +3,7 @@
         <intent display_value="TF - Absa Leadership Academy">7e64e41f873f3410c386fd99cebb3596</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-11-18 14:30:53</sys_created_on>

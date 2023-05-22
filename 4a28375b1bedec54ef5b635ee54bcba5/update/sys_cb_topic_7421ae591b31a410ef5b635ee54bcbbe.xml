@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>false</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.36",
+  "graph_api_version": "1.0.42",
   "goals": {
     "primary": {
       "id": "primary",
@@ -43,87 +43,89 @@
           "id": "0b3dec949e234192ba0391a14fa9c3e7",
           "stepType": "TextOutput",
           "name": "Adding a Beneficiary",
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Due to technical reasons, the functionality to update dependants and beneficiaries on Workday has been temporarily suspended."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "However, you may still update your beneficiaries on the "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://acamember.sanlam.co.za/INpJus02/loginACA",
-                    "children": [
-                      {
-                        "text": "Pension Fund Member Web"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Alternatively you may complete "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://oneintranet.intra.absa.africa/sites/ppsg/Forms/Absa%207234%20EX.pdf",
-                    "children": [
-                      {
-                        "text": "the form"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " and send it to "
-                  },
-                  {
-                    "type": "link",
-                    "url": "mailto:aca.nominations@sanlam.co.za",
-                    "children": [
-                      {
-                        "text": "aca.nominations@sanlam.co.za"
-                      }
-                    ]
-                  },
-                  {
-                    "text": ". Please keep a copy for your personal records."
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Due to technical reasons, the functionality to update dependants and beneficiaries on Workday has been temporarily suspended."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "However, you may still update your beneficiaries on the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://www.alexforbes.com/za/en/global/home-global.html",
+                      "children": [
+                        {
+                          "text": "Pension Fund Member Web"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Alternatively you may complete "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://oneintranet.intra.absa.africa/sites/ppsg/Forms/Absa%207234%20EX.pdf",
+                      "children": [
+                        {
+                          "text": "the form"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " and send it to "
+                    },
+                    {
+                      "type": "link",
+                      "url": "mailto:apf.nominations@alexforbes.com",
+                      "children": [
+                        {
+                          "text": "apf.nominations@alexforbes.com "
+                        }
+                      ]
+                    },
+                    {
+                      "text": ". Please keep a copy for your personal records."
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple"
+            }
+          ],
           "applicability": {
             "value": "",
             "mode": "query"
@@ -173,6 +175,7 @@
         <nlu_provider/>
         <palette_label/>
         <roles/>
+        <root_topic_id/>
         <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id/>
         <sys_class_name>sys_cb_topic</sys_class_name>
@@ -180,14 +183,14 @@
         <sys_created_on>2021-01-18 12:07:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>7421ae591b31a410ef5b635ee54bcbbe</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Pension Fund Beneficiaries</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_7421ae591b31a410ef5b635ee54bcbbe</sys_update_name>
         <sys_updated_by>thabiso.diphare</sys_updated_by>
-        <sys_updated_on>2022-03-21 23:36:31</sys_updated_on>
+        <sys_updated_on>2023-05-16 11:53:41</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

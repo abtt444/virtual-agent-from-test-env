@@ -3,6 +3,7 @@
         <intent display_value="Leave Encashment Information">5adda5441bb92494ef5b635ee54bcb2f</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>ABDT007</sys_created_by>
         <sys_created_on>2021-01-14 11:32:59</sys_created_on>

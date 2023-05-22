@@ -3,6 +3,7 @@
         <intent display_value="Sick Leave Pay">eeead9fb1b69a094ef5b635ee54bcb40</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>gabriel.eisenberg</sys_created_by>
         <sys_created_on>2021-01-18 10:33:00</sys_created_on>

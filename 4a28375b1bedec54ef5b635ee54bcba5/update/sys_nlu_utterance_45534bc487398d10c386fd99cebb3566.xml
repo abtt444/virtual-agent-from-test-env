@@ -3,6 +3,7 @@
         <intent display_value="TF - Payslip/IRP5 Certificate">ce23adae87ff3810c386fd99cebb35cf</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>thabiso.diphare</sys_created_by>
         <sys_created_on>2022-02-16 09:46:21</sys_created_on>

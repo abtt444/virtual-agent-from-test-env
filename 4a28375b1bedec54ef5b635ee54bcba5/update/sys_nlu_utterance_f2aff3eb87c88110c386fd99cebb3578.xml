@@ -3,6 +3,7 @@
         <intent display_value="TF - Creating Workspaces">53cffb90874cc510c386fd99cebb3515</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-12-02 11:18:50</sys_created_on>

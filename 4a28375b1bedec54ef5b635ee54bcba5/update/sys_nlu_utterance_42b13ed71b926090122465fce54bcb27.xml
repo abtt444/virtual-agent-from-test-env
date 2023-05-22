@@ -3,6 +3,7 @@
         <intent display_value="Doctors Note">c4f65a471b8620d0ef5b635ee54bcb6d</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>
         <sys_created_on>2021-02-18 14:58:46</sys_created_on>

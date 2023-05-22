@@ -3,6 +3,7 @@
         <intent display_value="Adding a Beneficiary ">02fa8ed91b7d6410ef5b635ee54bcba0</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>gabriel.eisenberg</sys_created_by>
         <sys_created_on>2021-01-18 11:53:13</sys_created_on>

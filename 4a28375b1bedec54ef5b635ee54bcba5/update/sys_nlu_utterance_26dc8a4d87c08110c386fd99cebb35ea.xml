@@ -3,6 +3,7 @@
         <intent display_value="TF - Laptops for New Joiners">f9e41c1b87bb3410c386fd99cebb3586</intent>
         <original_utterance/>
         <primary_utterance/>
+        <source>manual</source>
         <sys_class_name>sys_nlu_utterance</sys_class_name>
         <sys_created_by>AB019AK</sys_created_by>
         <sys_created_on>2021-11-24 08:32:23</sys_created_on>
