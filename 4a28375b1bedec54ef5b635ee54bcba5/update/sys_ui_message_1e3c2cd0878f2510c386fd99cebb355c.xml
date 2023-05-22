@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:a0a12a991b31a410ef5b635ee54bcbc1:node:bb3e790f2a884e649a8454d9c32f50c0:field:0</key>
+        <language>en</language>
+        <message>1. Click on your profile picture on the top right of the screen on Workday and select **View Profile**.
+2. Select **Actions** under your name on the left side of your screen.
+3. Select **Benefits** and then the **Change Benefits** option. (You can also type Change Benefits in your search bar to access this task.)
+4. Select the **Pension Additional Voluntary Contributions (ZA**) option. Insert the event date (NB: The event date should be the 1st of the following month) Click **Submit**.
+5. On the same screen (as step 4), click **Open** under **Change Benefit Elections**.
+6. Click **Let’s Get Started**.
+7. Under **Retirement and Pension Fund**, click **Manage**.
+8. Select the Benefit Plan and click **Confirm and Continue**.
+9. In Step 1, leave the Contribution (%) as is (6.5%) and click **Save**.
+10. In Step 2, in the Contribution (%) section, insert your desired additional voluntary contribution % and click **Save**.
+11. Click **Review and Sign** to view the summary of your benefit elections and ensure that all elections are correct prior to submitting. Then click **Submit**, followed by **Done**.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2023-05-22 13:05:26</sys_created_on>
+        <sys_id>1e3c2cd0878f2510c386fd99cebb355c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:a0a12a991b31a410ef5b635ee54bcbc1:node:bb3e790f2a884e649a8454d9c32f50c0:field:0</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_1e3c2cd0878f2510c386fd99cebb355c</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-05-22 13:05:26</sys_updated_on>
+    </sys_ui_message>
+</record_update>

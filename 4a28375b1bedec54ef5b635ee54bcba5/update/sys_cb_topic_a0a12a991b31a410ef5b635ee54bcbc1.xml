@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>false</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.36",
+  "graph_api_version": "1.0.42",
   "goals": {
     "primary": {
       "id": "primary",
@@ -43,218 +43,220 @@
           "id": "bb3e790f2a884e649a8454d9c32f50c0",
           "stepType": "TextOutput",
           "name": "Changing pension contribution",
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "1. Click on your profile picture on the top right of the screen on Workday and select "
-                  },
-                  {
-                    "text": "View Profile",
-                    "bold": true
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "2. Select "
-                  },
-                  {
-                    "text": "Actions ",
-                    "bold": true
-                  },
-                  {
-                    "text": "under your name on the left side of your screen."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "3. Select "
-                  },
-                  {
-                    "text": "Benefits ",
-                    "bold": true
-                  },
-                  {
-                    "text": "and then the"
-                  },
-                  {
-                    "text": " Change Benefits",
-                    "bold": true
-                  },
-                  {
-                    "text": " option. (You can also type Change Benefits in your search bar to access this task.)"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "4. Select the "
-                  },
-                  {
-                    "text": "Pension Additional Voluntary Contributions (ZA",
-                    "bold": true
-                  },
-                  {
-                    "text": ") option. Insert the event date (NB: The event date should be the 1st of the following month) Click "
-                  },
-                  {
-                    "text": "Submit",
-                    "bold": true
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "5. On the same screen (as step 4), click "
-                  },
-                  {
-                    "text": "Open ",
-                    "bold": true
-                  },
-                  {
-                    "text": "under "
-                  },
-                  {
-                    "text": "Change Benefit Elections",
-                    "bold": true
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "6. Click "
-                  },
-                  {
-                    "text": "Let’s Get Started",
-                    "bold": true
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "7. Under "
-                  },
-                  {
-                    "text": "Retirement and Pension Fund",
-                    "bold": true
-                  },
-                  {
-                    "text": ", click "
-                  },
-                  {
-                    "text": "Manage",
-                    "bold": true
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "8. Select the Benefit Plan and click "
-                  },
-                  {
-                    "text": "Confirm and Continue",
-                    "bold": true
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "9. In Step 1, leave the Contribution (%) as is (6.5%) and click "
-                  },
-                  {
-                    "text": "Save",
-                    "bold": true
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "10. In Step 2, in the Contribution (%) section, insert your desired additional voluntary contribution % and click "
-                  },
-                  {
-                    "text": "Save",
-                    "bold": true
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "11. Click "
-                  },
-                  {
-                    "text": "Review and Sign",
-                    "bold": true
-                  },
-                  {
-                    "text": " to view the summary of your benefit elections and ensure that all elections are correct prior to submitting. Then click "
-                  },
-                  {
-                    "text": "Submit",
-                    "bold": true
-                  },
-                  {
-                    "text": ", followed by "
-                  },
-                  {
-                    "text": "Done",
-                    "bold": true
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "1. Click on your profile picture on the top right of the screen on Workday and select "
+                    },
+                    {
+                      "text": "View Profile",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "2. Select "
+                    },
+                    {
+                      "text": "Actions ",
+                      "bold": true
+                    },
+                    {
+                      "text": "under your name on the left side of your screen."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "3. Select "
+                    },
+                    {
+                      "text": "Benefits ",
+                      "bold": true
+                    },
+                    {
+                      "text": "and then the"
+                    },
+                    {
+                      "text": " Change Benefits",
+                      "bold": true
+                    },
+                    {
+                      "text": " option. (You can also type Change Benefits in your search bar to access this task.)"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "4. Select the "
+                    },
+                    {
+                      "text": "Pension Additional Voluntary Contributions (ZA",
+                      "bold": true
+                    },
+                    {
+                      "text": ") option. Insert the event date (NB: The event date should be the 1st of the following month) Click "
+                    },
+                    {
+                      "text": "Submit",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "5. On the same screen (as step 4), click "
+                    },
+                    {
+                      "text": "Open ",
+                      "bold": true
+                    },
+                    {
+                      "text": "under "
+                    },
+                    {
+                      "text": "Change Benefit Elections",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "6. Click "
+                    },
+                    {
+                      "text": "Let’s Get Started",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "7. Under "
+                    },
+                    {
+                      "text": "Retirement and Pension Fund",
+                      "bold": true
+                    },
+                    {
+                      "text": ", click "
+                    },
+                    {
+                      "text": "Manage",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "8. Select the Benefit Plan and click "
+                    },
+                    {
+                      "text": "Confirm and Continue",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "9. In Step 1, leave the Contribution (%) as is (6.5%) and click "
+                    },
+                    {
+                      "text": "Save",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "10. In Step 2, in the Contribution (%) section, insert your desired additional voluntary contribution % and click "
+                    },
+                    {
+                      "text": "Save",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "11. Click "
+                    },
+                    {
+                      "text": "Review and Sign",
+                      "bold": true
+                    },
+                    {
+                      "text": " to view the summary of your benefit elections and ensure that all elections are correct prior to submitting. Then click "
+                    },
+                    {
+                      "text": "Submit",
+                      "bold": true
+                    },
+                    {
+                      "text": ", followed by "
+                    },
+                    {
+                      "text": "Done",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple"
+            }
+          ],
           "applicability": {
             "value": "",
             "mode": "query"
@@ -266,19 +268,21 @@
           "stepType": "TextOutput",
           "name": "Intro",
           "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "You can follow the steps below to change additional voluntary contributions to your pension fund:"
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "You can follow the steps below to change additional voluntary contributions to your pension fund:"
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple"
+            }
+          ],
           "applicability": {
             "value": "",
             "mode": "query"
@@ -343,14 +347,14 @@
         <sys_created_on>2021-01-18 12:09:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>a0a12a991b31a410ef5b635ee54bcbc1</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Pension Fund Contribution</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_a0a12a991b31a410ef5b635ee54bcbc1</sys_update_name>
-        <sys_updated_by>tshwarelo.tshabalala</sys_updated_by>
-        <sys_updated_on>2022-02-15 14:02:10</sys_updated_on>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-05-22 13:05:14</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

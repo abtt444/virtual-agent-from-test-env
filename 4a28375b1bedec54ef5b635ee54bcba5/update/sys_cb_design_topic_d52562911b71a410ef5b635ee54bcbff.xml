@@ -1,23 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
     <sys_cb_design_topic action="INSERT_OR_UPDATE">
         <compiled_topic display_value="Pension Fund Transferral">912562911b71a410ef5b635ee54bcbfc</compiled_topic>
-        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"53ae600f86644ea28ab2431a5b5c3c56","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"53ae600f86644ea28ab2431a5b5c3c56"}],"goals":[{"name":"primary","trigger_id":"53ae600f86644ea28ab2431a5b5c3c56","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"832fab4f3a194a96a747da83821c8d1e","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"467e4265884d45abbe7df52b489385c0","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:3b05a2511b71a410ef5b635ee54bcb97:node:685962a47015454fb581d068e1006a03:field:Value\", vaContext.getRequesterLang())"},"id":"685962a47015454fb581d068e1006a03","name":"Transferring Pension ","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"685962a47015454fb581d068e1006a03","target_node_id":"467e4265884d45abbe7df52b489385c0","id":"172d7b84f95947cf8e71188524df06eb"},{"type":"Edge","source_node_id":"832fab4f3a194a96a747da83821c8d1e","target_node_id":"685962a47015454fb581d068e1006a03","id":"1f757255d07641d6a3f9a1ecbb4793bf"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"3b05a2511b71a410ef5b635ee54bcb97","name":"Pension Fund Transferral","key_phrases":["Pension Fund Transferral","Dependent","Depandant"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[{"name":null,"visible":false,"sysId":"d801a2591b31a410ef5b635ee54bcb52"}],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"4f543a26110840b0bdac41c3fa06240a","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"4f543a26110840b0bdac41c3fa06240a"}],"goals":[{"name":"primary","trigger_id":"4f543a26110840b0bdac41c3fa06240a","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"832fab4f3a194a96a747da83821c8d1e","name":"Start"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"467e4265884d45abbe7df52b489385c0","name":"End"},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:3b05a2511b71a410ef5b635ee54bcb97:node:685962a47015454fb581d068e1006a03:field:0\", vaContext.getRequesterLang())"}],"id":"685962a47015454fb581d068e1006a03","name":"Transferring Pension ","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"685962a47015454fb581d068e1006a03","target_node_id":"467e4265884d45abbe7df52b489385c0","id":"172d7b84f95947cf8e71188524df06eb"},{"type":"Edge","source_node_id":"832fab4f3a194a96a747da83821c8d1e","target_node_id":"685962a47015454fb581d068e1006a03","id":"1f757255d07641d6a3f9a1ecbb4793bf"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"3b05a2511b71a410ef5b635ee54bcb97","name":"Pension Fund Transferral","key_phrases":["Pension Fund Transferral","Dependent","Depandant"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[{"name":null,"visible":false,"sysId":"d801a2591b31a410ef5b635ee54bcb52"}],"triggerable_by_notification":false,"library":false,"csTopicId":"912562911b71a410ef5b635ee54bcbfc","readOnly":false,"nluMapping":"[]"}</design_definition>
         <design_topic_id>3b05a2511b71a410ef5b635ee54bcb97</design_topic_id>
-        <graph/>
+        <graph>{
+  "graph_api_version": "1.0.42",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "832fab4f3a194a96a747da83821c8d1e": {
+          "id": "832fab4f3a194a96a747da83821c8d1e",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "467e4265884d45abbe7df52b489385c0": {
+          "id": "467e4265884d45abbe7df52b489385c0",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "685962a47015454fb581d068e1006a03": {
+          "id": "685962a47015454fb581d068e1006a03",
+          "stepType": "TextOutput",
+          "name": "Transferring Pension ",
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "When you resign from our employ, you must complete an Absa Pension Fund Withdrawal Benefit Claim Form indicating whether you wish to:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "1. Make a non-taxable transfer of your share of the fund to your new employer’s pension and/or provident fund."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "2. Make a non-taxable transfer of your share of the fund to a retirement annuity fund."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "3. Make a non-taxable transfer of your money to a pension preservation fund."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "4. Leave your fund credit in the fund until a later date ('Defer' your withdrawal date). This is not taxable."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "5. Take your share of the Fund in cash (taxable)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "6. Please contact the Pension fund on 0860 100 380."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "If you leave our employ without completing the form, the pension fund will employ tracing agents to obtain your withdrawal option."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "To find out how your pension fund savings are growing in our fund, please register at: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://connect2af.alexforbes.com/INpJus02/loginAlexanderForbes",
+                      "children": [
+                        {
+                          "text": "https://connect2af.alexforbes.com/INpJus02/loginAlexanderForbes"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ". "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "secure": false
+        }
+      },
+      "edges": [
+        {
+          "id": "172d7b84f95947cf8e71188524df06eb",
+          "edgeType": "Edge",
+          "source": "685962a47015454fb581d068e1006a03",
+          "target": "467e4265884d45abbe7df52b489385c0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1f757255d07641d6a3f9a1ecbb4793bf",
+          "edgeType": "Edge",
+          "source": "832fab4f3a194a96a747da83821c8d1e",
+          "target": "685962a47015454fb581d068e1006a03",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
         <name>Pension Fund Transferral</name>
         <sys_class_name>sys_cb_design_topic</sys_class_name>
         <sys_created_by>michaela.govender</sys_created_by>
         <sys_created_on>2021-01-18 12:24:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>d52562911b71a410ef5b635ee54bcbff</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>FlowTopic</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_design_topic_d52562911b71a410ef5b635ee54bcbff</sys_update_name>
         <sys_updated_by>thabiso.diphare</sys_updated_by>
-        <sys_updated_on>2022-02-24 09:32:34</sys_updated_on>
+        <sys_updated_on>2023-05-22 13:04:05</sys_updated_on>
         <type>FlowTopic</type>
     </sys_cb_design_topic>
 </record_update>

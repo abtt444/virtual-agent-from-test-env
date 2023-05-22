@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>false</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.36",
+  "graph_api_version": "1.0.42",
   "goals": {
     "primary": {
       "id": "primary",
@@ -43,103 +43,105 @@
           "id": "685962a47015454fb581d068e1006a03",
           "stepType": "TextOutput",
           "name": "Transferring Pension ",
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "When you resign from our employ, you must complete an Absa Pension Fund Withdrawal Benefit Claim Form indicating whether you wish to:"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "1. Make a non-taxable transfer of your share of the fund to your new employer’s pension and/or provident fund."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "2. Make a non-taxable transfer of your share of the fund to a retirement annuity fund."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "3. Make a non-taxable transfer of your money to a pension preservation fund."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "4. Leave your fund credit in the fund until a later date ('Defer' your withdrawal date). This is not taxable."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "5. Take your share of the Fund in cash (taxable)."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "6. Please contact the Pension fund on 0860 100 380."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "If you leave our employ without completing the form, the pension fund will employ tracing agents to obtain your withdrawal option."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "To find out how your pension fund savings are growing in our fund, please register at: "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://acamember.sanlam.co.za",
-                    "children": [
-                      {
-                        "text": "https://acamember.sanlam.co.za"
-                      }
-                    ]
-                  },
-                  {
-                    "text": ". "
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "When you resign from our employ, you must complete an Absa Pension Fund Withdrawal Benefit Claim Form indicating whether you wish to:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "1. Make a non-taxable transfer of your share of the fund to your new employer’s pension and/or provident fund."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "2. Make a non-taxable transfer of your share of the fund to a retirement annuity fund."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "3. Make a non-taxable transfer of your money to a pension preservation fund."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "4. Leave your fund credit in the fund until a later date ('Defer' your withdrawal date). This is not taxable."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "5. Take your share of the Fund in cash (taxable)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "6. Please contact the Pension fund on 0860 100 380."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "If you leave our employ without completing the form, the pension fund will employ tracing agents to obtain your withdrawal option."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "To find out how your pension fund savings are growing in our fund, please register at: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://connect2af.alexforbes.com/INpJus02/loginAlexanderForbes",
+                      "children": [
+                        {
+                          "text": "https://connect2af.alexforbes.com/INpJus02/loginAlexanderForbes"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ". "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple"
+            }
+          ],
           "applicability": {
             "value": "",
             "mode": "query"
@@ -197,14 +199,14 @@
         <sys_created_on>2021-01-18 12:24:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>3b05a2511b71a410ef5b635ee54bcb97</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Pension Fund Transferral</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_3b05a2511b71a410ef5b635ee54bcb97</sys_update_name>
         <sys_updated_by>thabiso.diphare</sys_updated_by>
-        <sys_updated_on>2022-02-24 09:31:16</sys_updated_on>
+        <sys_updated_on>2023-05-22 13:01:53</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
     <sys_cb_design_topic action="INSERT_OR_UPDATE">
         <compiled_topic display_value="My Pension Fund">bd7d32d81b75e494ef5b635ee54bcb76</compiled_topic>
-        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"a4ff2c8834d24a40b11b206d78a32dc1","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"a4ff2c8834d24a40b11b206d78a32dc1"}],"goals":[{"name":"primary","trigger_id":"a4ff2c8834d24a40b11b206d78a32dc1","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"161e6e7bee1d4dd2aebf4f5161e6573e","name":"Start"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"34cb230d23bd4aadac96f1d08df07297","name":"End"},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:24141ed41b3da494ef5b635ee54bcb0f:node:d741abb0d0e34709857d46b45ae89787:field:0\", vaContext.getRequesterLang())"}],"id":"d741abb0d0e34709857d46b45ae89787","name":"View/Withdraw Pension","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"d741abb0d0e34709857d46b45ae89787","target_node_id":"34cb230d23bd4aadac96f1d08df07297","id":"d1fe72b563ec42d980ac8133bbcb8de0"},{"type":"Edge","source_node_id":"161e6e7bee1d4dd2aebf4f5161e6573e","target_node_id":"d741abb0d0e34709857d46b45ae89787","id":"86890a6e630c4fb6a96061d83a1e30db"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"24141ed41b3da494ef5b635ee54bcb0f","name":"My Pension Fund","key_phrases":["My Pension Fund","Dependent","Depandant","Withdraw Pension","View Pension"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[{"name":null,"visible":false,"sysId":"d801a2591b31a410ef5b635ee54bcb52"}],"triggerable_by_notification":false,"library":false,"csTopicId":"bd7d32d81b75e494ef5b635ee54bcb76","readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"a3ea00f2869c4690a98dea0ec9d60574","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"a3ea00f2869c4690a98dea0ec9d60574"}],"goals":[{"name":"primary","trigger_id":"a3ea00f2869c4690a98dea0ec9d60574","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"161e6e7bee1d4dd2aebf4f5161e6573e","name":"Start"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"34cb230d23bd4aadac96f1d08df07297","name":"End"},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:24141ed41b3da494ef5b635ee54bcb0f:node:d741abb0d0e34709857d46b45ae89787:field:0\", vaContext.getRequesterLang())"}],"id":"d741abb0d0e34709857d46b45ae89787","name":"View/Withdraw Pension","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"d741abb0d0e34709857d46b45ae89787","target_node_id":"34cb230d23bd4aadac96f1d08df07297","id":"d1fe72b563ec42d980ac8133bbcb8de0"},{"type":"Edge","source_node_id":"161e6e7bee1d4dd2aebf4f5161e6573e","target_node_id":"d741abb0d0e34709857d46b45ae89787","id":"86890a6e630c4fb6a96061d83a1e30db"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"24141ed41b3da494ef5b635ee54bcb0f","name":"My Pension Fund","key_phrases":["My Pension Fund","Dependent","Depandant","Withdraw Pension","View Pension"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[{"name":null,"visible":false,"sysId":"d801a2591b31a410ef5b635ee54bcb52"}],"triggerable_by_notification":false,"library":false,"csTopicId":"bd7d32d81b75e494ef5b635ee54bcb76","readOnly":false,"nluMapping":"[]"}</design_definition>
         <design_topic_id>24141ed41b3da494ef5b635ee54bcb0f</design_topic_id>
         <graph>{
   "graph_api_version": "1.0.42",
@@ -64,7 +64,7 @@
                     },
                     {
                       "type": "link",
-                      "url": "https://www.alexforbes.com/za/en/global/home-global.html",
+                      "url": "https://connect2af.alexforbes.com/INpJus02/loginAlexanderForbes",
                       "children": [
                         {
                           "text": "register/login"
@@ -160,14 +160,14 @@
         <sys_created_on>2021-01-15 11:36:55</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>fd7d32d81b75e494ef5b635ee54bcb88</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>FlowTopic</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_design_topic_fd7d32d81b75e494ef5b635ee54bcb88</sys_update_name>
         <sys_updated_by>thabiso.diphare</sys_updated_by>
-        <sys_updated_on>2023-05-16 12:07:49</sys_updated_on>
+        <sys_updated_on>2023-05-22 13:06:21</sys_updated_on>
         <type>FlowTopic</type>
     </sys_cb_design_topic>
 </record_update>
