@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_entity">
+    <sys_nlu_entity action="INSERT_OR_UPDATE">
+        <base_entity/>
+        <confidence_threshold>0.6</confidence_threshold>
+        <field_name/>
+        <lookup/>
+        <model/>
+        <name>13th Cheque</name>
+        <override_confidence_threshold>false</override_confidence_threshold>
+        <parent/>
+        <primary_entity/>
+        <sys_class_name>sys_nlu_entity</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2023-05-30 11:45:30</sys_created_on>
+        <sys_id>21a62d3697cbad10fac1f386f053af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>13th Cheque</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_nlu_entity_21a62d3697cbad10fac1f386f053af94</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-05-30 11:45:30</sys_updated_on>
+        <table/>
+        <type>simple</type>
+        <values_list/>
+    </sys_nlu_entity>
+</record_update>

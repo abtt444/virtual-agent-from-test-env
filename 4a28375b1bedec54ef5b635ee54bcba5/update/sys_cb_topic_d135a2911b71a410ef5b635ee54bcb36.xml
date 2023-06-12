@@ -10,7 +10,7 @@
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>true</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.36",
+  "graph_api_version": "1.0.42",
   "goals": {
     "primary": {
       "id": "primary",
@@ -43,51 +43,53 @@
           "id": "e84552f6900f4c96a898795c32c59c50",
           "stepType": "TextOutput",
           "name": "Relocation Leave",
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "A maximum of 5 days of relocation leave is granted to a colleague who has to transfer at Absa's request and that transfer results in relocation. "
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Only one day of relocation leave is provided to colleagues who transfer and relocate at their own request. "
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Please note that you cannot use relocation leave to move house as this will be annual leave. "
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "You are required to speak to your line manager before requesting relocation leave. "
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "A maximum of 5 days of relocation leave is granted to a colleague who has to transfer at Absa's request and that transfer results in relocation. "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Only one day of relocation leave is provided to colleagues who transfer and relocate at their own request. "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Please note that you cannot use relocation leave to move house as this will be annual leave. "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "You are required to speak to your line manager before requesting relocation leave. "
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple"
+            }
+          ],
           "applicability": {
             "value": "",
             "mode": "query"
@@ -153,179 +155,181 @@
           "stepType": "TextOutput",
           "name": "howtobook",
           "secure": false,
-          "value": {
-            "value": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "You can log your Relocation Leave request as follows:"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "1. Access "
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://wd3.myworkday.com/absa/d/home.htmld",
-                    "children": [
-                      {
-                        "text": "Workday"
-                      }
-                    ]
-                  },
-                  {
-                    "text": ". "
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "2. "
-                  },
-                  {
-                    "text": "View All Apps",
-                    "bold": true
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "3. Under "
-                  },
-                  {
-                    "text": "Applications",
-                    "bold": true
-                  },
-                  {
-                    "text": ","
-                  },
-                  {
-                    "text": " ",
-                    "bold": true
-                  },
-                  {
-                    "text": "click on "
-                  },
-                  {
-                    "text": "Absence",
-                    "bold": true
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "4. Select "
-                  },
-                  {
-                    "text": "Request Absence",
-                    "bold": true
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "5. Select "
-                  },
-                  {
-                    "text": "Date Range",
-                    "bold": true
-                  },
-                  {
-                    "text": " and enter the dates of your leave."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "6. Under "
-                  },
-                  {
-                    "text": "Type ",
-                    "bold": true
-                  },
-                  {
-                    "text": "of select "
-                  },
-                  {
-                    "text": "Time Off: Relocation Leave",
-                    "bold": true
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "7. Review leave captured and "
-                  },
-                  {
-                    "text": "Submit",
-                    "bold": true
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "mode": "simple"
-          },
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "You can log your Relocation Leave request as follows:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "1. Access "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://wd3.myworkday.com/absa/d/home.htmld",
+                      "children": [
+                        {
+                          "text": "Workday"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ". "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "2. "
+                    },
+                    {
+                      "text": "View All Apps",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "3. Under "
+                    },
+                    {
+                      "text": "Applications",
+                      "bold": true
+                    },
+                    {
+                      "text": ","
+                    },
+                    {
+                      "text": " ",
+                      "bold": true
+                    },
+                    {
+                      "text": "click on "
+                    },
+                    {
+                      "text": "Absence",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "4. Select "
+                    },
+                    {
+                      "text": "Request Absence",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "5. Select "
+                    },
+                    {
+                      "text": "Date Range",
+                      "bold": true
+                    },
+                    {
+                      "text": " and enter the dates of your leave."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "6. Under "
+                    },
+                    {
+                      "text": "Type ",
+                      "bold": true
+                    },
+                    {
+                      "text": "of select "
+                    },
+                    {
+                      "text": "Time Off: Relocation Leave",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "7. Review leave captured and "
+                    },
+                    {
+                      "text": "Submit",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple"
+            }
+          ],
           "applicability": {
             "value": "",
             "mode": "query"
@@ -419,7 +423,9 @@
           "checked": true
         }
       ],
-      "category": "vaInputs"
+      "category": "vaInputs",
+      "nodeId": "6d52b9ac7b484c66aec731141a2b000a",
+      "isHidden": false
     }
   }
 }</graph>
@@ -442,14 +448,14 @@
         <sys_created_on>2021-01-18 12:24:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>d135a2911b71a410ef5b635ee54bcb36</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Relocation Leave</sys_name>
         <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
         <sys_update_name>sys_cb_topic_d135a2911b71a410ef5b635ee54bcb36</sys_update_name>
         <sys_updated_by>thabiso.diphare</sys_updated_by>
-        <sys_updated_on>2022-02-15 14:43:53</sys_updated_on>
+        <sys_updated_on>2023-06-12 11:55:18</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

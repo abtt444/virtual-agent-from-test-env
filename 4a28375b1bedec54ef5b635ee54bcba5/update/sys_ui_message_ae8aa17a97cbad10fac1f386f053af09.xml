@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:eed4a5b297cbad10fac1f386f053af6d:node:e0273fcfe31647b89fee6447621df946:field:0</key>
+        <language>en</language>
+        <message>1. Go to the [Workday](https://wd3.myworkday.com/absa/d/home.htmld)  and search Change Benefits. 
+2.  Select **13th Cheque% Election Change (ZA)** as the **Change reason**. Enter the **Benefit Event Dat**e**(1st if the following month)** and click **Submit**
+3. Up next click **Open**.
+4. Under Change Benefit Elections. Click **Let's Get Started**
+5. Click **Enroll**. 
+6.  **Select** the 13th cheque tax deduction frequency **(e.g Monthly or Annually).**
+7. Enter a **Percentage** that you will contribute to this plan in the contribution (%) text block. Click **Save**.
+8. Click **Review and Sign**. Review your Benefit Elections and ensure that all elections are correct prior to submitting
+9. Click **Submit then Done.**</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2023-05-30 12:02:31</sys_created_on>
+        <sys_id>ae8aa17a97cbad10fac1f386f053af09</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>va:topic:eed4a5b297cbad10fac1f386f053af6d:node:e0273fcfe31647b89fee6447621df946:field:0</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_ae8aa17a97cbad10fac1f386f053af09</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-06-12 10:59:58</sys_updated_on>
+    </sys_ui_message>
+</record_update>

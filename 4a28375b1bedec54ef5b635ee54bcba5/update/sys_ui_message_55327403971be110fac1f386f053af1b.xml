@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:085f280f97d7e110fac1f386f053afe6:node:5b35db61aa0244598362d3ea7d07c65e:field:0</key>
+        <language>en</language>
+        <message>1. Access [Workday](https://wd3.myworkday.com/absa/d/home.htmld).
+2. Click on the top far right corner on your Profile (head icon).
+3. Click on “View Profile”.
+4. On your left, there’s list written in white on burgundy background.
+5. Scroll down to and click on “Absence”, it should be 3rd from bottom.
+6. Defaulted page will land you on “Absence requests” then click on “Absence balance”
+7. Scroll down to “Annual leave Flex” and click on the number under “carryover balance”
+8. You will get a pop up with an Expiration date, Associated balance period and units (number of hours)</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2023-06-12 12:50:33</sys_created_on>
+        <sys_id>55327403971be110fac1f386f053af1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:085f280f97d7e110fac1f386f053afe6:node:5b35db61aa0244598362d3ea7d07c65e:field:0</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_55327403971be110fac1f386f053af1b</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-06-12 12:50:33</sys_updated_on>
+    </sys_ui_message>
+</record_update>

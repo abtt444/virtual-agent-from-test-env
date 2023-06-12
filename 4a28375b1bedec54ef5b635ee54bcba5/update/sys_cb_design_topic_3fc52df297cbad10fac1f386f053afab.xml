@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="13th Cheque">afc52df297cbad10fac1f386f053afa3</compiled_topic>
+        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"354267c445024d0f95e520ad1ae6f3f6","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"354267c445024d0f95e520ad1ae6f3f6"}],"goals":[{"name":"primary","trigger_id":"354267c445024d0f95e520ad1ae6f3f6","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"55b51093b65a4ea49f2fb0f1edfde710","name":"Start"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"7fb98b7c6d5e4af7854e1c126eadba00","name":"End"},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:eed4a5b297cbad10fac1f386f053af6d:node:e0273fcfe31647b89fee6447621df946:field:0\", vaContext.getRequesterLang())"}],"id":"e0273fcfe31647b89fee6447621df946","name":"13th Cheque Response","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"55b51093b65a4ea49f2fb0f1edfde710","target_node_id":"e0273fcfe31647b89fee6447621df946","id":"9d409869d068421ea1732237cb86d345"},{"type":"Edge","source_node_id":"e0273fcfe31647b89fee6447621df946","target_node_id":"7fb98b7c6d5e4af7854e1c126eadba00","id":"72562c73fcee476b8ba8a17aa594cd67"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"4a28375b1bedec54ef5b635ee54bcba5","domain":"global","topic_type":"STANDARD","channels":[],"id":"eed4a5b297cbad10fac1f386f053af6d","name":"13th Cheque","key_phrases":["13th Cheque"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"csTopicId":"afc52df297cbad10fac1f386f053afa3","readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>eed4a5b297cbad10fac1f386f053af6d</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.42",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "55b51093b65a4ea49f2fb0f1edfde710": {
+          "id": "55b51093b65a4ea49f2fb0f1edfde710",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "7fb98b7c6d5e4af7854e1c126eadba00": {
+          "id": "7fb98b7c6d5e4af7854e1c126eadba00",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e0273fcfe31647b89fee6447621df946": {
+          "id": "e0273fcfe31647b89fee6447621df946",
+          "stepType": "TextOutput",
+          "name": "13th Cheque Response",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "numbered-list",
+                  "children": [
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Go to the "
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://wd3.myworkday.com/absa/d/home.htmld",
+                          "children": [
+                            {
+                              "text": "Workday"
+                            }
+                          ]
+                        },
+                        {
+                          "text": "  and search Change Benefits. "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": " Select "
+                        },
+                        {
+                          "text": "13th Cheque% Election Change (ZA)",
+                          "bold": true
+                        },
+                        {
+                          "text": " as the"
+                        },
+                        {
+                          "text": " Change reason",
+                          "bold": true
+                        },
+                        {
+                          "text": ". Enter the "
+                        },
+                        {
+                          "text": "Benefit Event Dat",
+                          "bold": true
+                        },
+                        {
+                          "text": "e"
+                        },
+                        {
+                          "text": "(1st if the following month)",
+                          "bold": true
+                        },
+                        {
+                          "text": " and click "
+                        },
+                        {
+                          "text": "Submit",
+                          "bold": true
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Up next click "
+                        },
+                        {
+                          "text": "Open",
+                          "bold": true
+                        },
+                        {
+                          "text": "."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Under Change Benefit Elections. Click "
+                        },
+                        {
+                          "text": "Let's Get Started",
+                          "bold": true
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Click "
+                        },
+                        {
+                          "text": "Enroll",
+                          "bold": true
+                        },
+                        {
+                          "text": ". "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": " "
+                        },
+                        {
+                          "text": "Select",
+                          "bold": true
+                        },
+                        {
+                          "text": " the 13th cheque tax deduction frequency "
+                        },
+                        {
+                          "text": "(e.g Monthly or Annually).",
+                          "bold": true
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Enter a "
+                        },
+                        {
+                          "text": "Percentage ",
+                          "bold": true
+                        },
+                        {
+                          "text": "that you will contribute to this plan in the contribution (%) text block. Click "
+                        },
+                        {
+                          "text": "Save",
+                          "bold": true
+                        },
+                        {
+                          "text": "."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Click "
+                        },
+                        {
+                          "text": "Review and Sign",
+                          "bold": true
+                        },
+                        {
+                          "text": ". Review your Benefit Elections and ensure that all elections are correct prior to submitting"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Click "
+                        },
+                        {
+                          "text": "Submit then Done.",
+                          "bold": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "554d065c23574e55a303b8a125cc46ff"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "9d409869d068421ea1732237cb86d345",
+          "edgeType": "Edge",
+          "source": "55b51093b65a4ea49f2fb0f1edfde710",
+          "target": "e0273fcfe31647b89fee6447621df946",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "72562c73fcee476b8ba8a17aa594cd67",
+          "edgeType": "Edge",
+          "source": "e0273fcfe31647b89fee6447621df946",
+          "target": "7fb98b7c6d5e4af7854e1c126eadba00",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <name>13th Cheque</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2023-05-30 11:41:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3fc52df297cbad10fac1f386f053afab</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_design_topic_3fc52df297cbad10fac1f386f053afab</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-06-12 11:23:04</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

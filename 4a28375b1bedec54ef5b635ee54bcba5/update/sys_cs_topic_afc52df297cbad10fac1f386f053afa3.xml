@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>false</autopilot_topic>
+        <cb_topic_id display_value="13th Cheque">eed4a5b297cbad10fac1f386f053af6d</cb_topic_id>
+        <channels/>
+        <definition>{"id":"eed4a5b297cbad10fac1f386f053af6d","name":"13th Cheque","system_topic":false,"autopilot_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"13th Cheque","applicability":"true","categories":[],"key_phrases":["13th Cheque"],"variables":[{"name":"__segment_trigger_354267c445024d0f95e520ad1ae6f3f6_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_6b2edc8b5197e1108dd36273d16d1e31","unique":false,"default_value":"true","key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_2b2edc8b9e97e11040de3ca6ad7ea331","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_StartGoal_55b51093b65a4ea49f2fb0f1edfde710","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_Decision_RootDecision_e72edc8bae97e1105a66d132b2924e31","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_TextOutputPrompt_e0273fcfe31647b89fee6447621df946","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_TerminateGoal_7fb98b7c6d5e4af7854e1c126eadba00","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_354267c445024d0f95e520ad1ae6f3f6_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_6b2edc8b5197e1108dd36273d16d1e31\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_2b2edc8b9e97e11040de3ca6ad7ea331\");vaInputs.initialize(\"__silent_TerminateGoal_7fb98b7c6d5e4af7854e1c126eadba00\");vaInputs.initialize(\"__silent_StartGoal_55b51093b65a4ea49f2fb0f1edfde710\");vaInputs.initialize(\"__silent_TextOutputPrompt_e0273fcfe31647b89fee6447621df946\");vaInputs.initialize(\"__silent_Decision_RootDecision_e72edc8bae97e1105a66d132b2924e31\");null;","fields":[{"name":"__silent_Decision_RootDecision_e72edc8bae97e1105a66d132b2924e31","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_e72edc8bae97e1105a66d132b2924e31\";vaInputs.__silent_Decision_RootDecision_e72edc8bae97e1105a66d132b2924e31=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_e72edc8bae97e1105a66d132b2924e31\";var ackMsg=null;ackMsg=null;vaInputs.RootDecisionBranch_6b2edc8b5197e1108dd36273d16d1e31=true;ackMsg;"},{"name":"__silent_Branch_RootDecisionBranch_2b2edc8b9e97e11040de3ca6ad7ea331","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_e72edc8bae97e1105a66d132b2924e31\" &amp;&amp; ((vaInputs.RootDecisionBranch_6b2edc8b5197e1108dd36273d16d1e31.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_2b2edc8b9e97e11040de3ca6ad7ea331___RootDecisionBranch_2b2edc8b9e97e11040de3ca6ad7ea331\";vaInputs.__silent_Branch_RootDecisionBranch_2b2edc8b9e97e11040de3ca6ad7ea331=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_2b2edc8b9e97e11040de3ca6ad7ea331___RootDecisionBranch_2b2edc8b9e97e11040de3ca6ad7ea331\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_StartGoal_55b51093b65a4ea49f2fb0f1edfde710","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_2b2edc8b9e97e11040de3ca6ad7ea331___RootDecisionBranch_2b2edc8b9e97e11040de3ca6ad7ea331\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___55b51093b65a4ea49f2fb0f1edfde710\";vaInputs.__silent_StartGoal_55b51093b65a4ea49f2fb0f1edfde710=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___55b51093b65a4ea49f2fb0f1edfde710\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_TextOutputPrompt_e0273fcfe31647b89fee6447621df946","applicable":"vaVars.previous_graph_node==\"Start___55b51093b65a4ea49f2fb0f1edfde710\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"13th Cheque Response___e0273fcfe31647b89fee6447621df946\";vaInputs.__silent_TextOutputPrompt_e0273fcfe31647b89fee6447621df946=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"13th Cheque Response___e0273fcfe31647b89fee6447621df946\";var ackMsg=null;ackMsg=(function execute() {var textVariations = [function() { return gs.getMessageLang(\"va:topic:eed4a5b297cbad10fac1f386f053af6d:node:e0273fcfe31647b89fee6447621df946:field:0\", vaContext.getRequesterLang()) }];if (vaContext.global_record_in_progress) return textVariations[0]();var index = Math.floor(Math.random() * textVariations.length);return textVariations[index]();})();ackMsg;","acknowledge_msg_mask_type":"NONE"},{"name":"__silent_TerminateGoal_7fb98b7c6d5e4af7854e1c126eadba00","applicable":"vaVars.previous_graph_node==\"13th Cheque Response___e0273fcfe31647b89fee6447621df946\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___7fb98b7c6d5e4af7854e1c126eadba00\";vaInputs.__silent_TerminateGoal_7fb98b7c6d5e4af7854e1c126eadba00=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___7fb98b7c6d5e4af7854e1c126eadba00\";var ackMsg=null;ackMsg=null;vaVars.__segment_trigger_354267c445024d0f95e520ad1ae6f3f6_done=true;ackMsg;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"expose_on_palette":false,"palette_label":"","flexible_conversation_switching":false,"design_categories":[],"nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"triggerable_by_notification":false,"secure_custom_input_control":false,"score":0.0,"visible":true,"discoverable":true,"sys_scope":"4a28375b1bedec54ef5b635ee54bcba5","sys_domain":"global","title":"13th Cheque","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category/>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>13th Cheque</key_phrases>
+        <last_published_on>2023-06-12 11:23:03</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone/>
+        <name>13th Cheque</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2023-05-30 11:41:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>afc52df297cbad10fac1f386f053afa3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>13th Cheque</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cs_topic_afc52df297cbad10fac1f386f053afa3</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-06-12 11:23:03</sys_updated_on>
+        <title>13th Cheque</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=afc52df297cbad10fac1f386f053afa3"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=afc52df297cbad10fac1f386f053afa3"/>
+</record_update>

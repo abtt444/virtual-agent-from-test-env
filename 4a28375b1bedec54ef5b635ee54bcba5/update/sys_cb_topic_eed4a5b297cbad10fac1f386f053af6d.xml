@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.42",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "55b51093b65a4ea49f2fb0f1edfde710": {
+          "id": "55b51093b65a4ea49f2fb0f1edfde710",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "7fb98b7c6d5e4af7854e1c126eadba00": {
+          "id": "7fb98b7c6d5e4af7854e1c126eadba00",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e0273fcfe31647b89fee6447621df946": {
+          "id": "e0273fcfe31647b89fee6447621df946",
+          "stepType": "TextOutput",
+          "name": "13th Cheque Response",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "numbered-list",
+                  "children": [
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Go to the "
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://wd3.myworkday.com/absa/d/home.htmld",
+                          "children": [
+                            {
+                              "text": "Workday"
+                            }
+                          ]
+                        },
+                        {
+                          "text": "  and search Change Benefits. "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": " Select "
+                        },
+                        {
+                          "text": "13th Cheque% Election Change (ZA)",
+                          "bold": true
+                        },
+                        {
+                          "text": " as the"
+                        },
+                        {
+                          "text": " Change reason",
+                          "bold": true
+                        },
+                        {
+                          "text": ". Enter the "
+                        },
+                        {
+                          "text": "Benefit Event Dat",
+                          "bold": true
+                        },
+                        {
+                          "text": "e"
+                        },
+                        {
+                          "text": "(1st if the following month)",
+                          "bold": true
+                        },
+                        {
+                          "text": " and click "
+                        },
+                        {
+                          "text": "Submit",
+                          "bold": true
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Up next click "
+                        },
+                        {
+                          "text": "Open",
+                          "bold": true
+                        },
+                        {
+                          "text": "."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Under Change Benefit Elections. Click "
+                        },
+                        {
+                          "text": "Let's Get Started",
+                          "bold": true
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Click "
+                        },
+                        {
+                          "text": "Enroll",
+                          "bold": true
+                        },
+                        {
+                          "text": ". "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": " "
+                        },
+                        {
+                          "text": "Select",
+                          "bold": true
+                        },
+                        {
+                          "text": " the 13th cheque tax deduction frequency "
+                        },
+                        {
+                          "text": "(e.g Monthly or Annually).",
+                          "bold": true
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Enter a "
+                        },
+                        {
+                          "text": "Percentage ",
+                          "bold": true
+                        },
+                        {
+                          "text": "that you will contribute to this plan in the contribution (%) text block. Click "
+                        },
+                        {
+                          "text": "Save",
+                          "bold": true
+                        },
+                        {
+                          "text": "."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Click "
+                        },
+                        {
+                          "text": "Review and Sign",
+                          "bold": true
+                        },
+                        {
+                          "text": ". Review your Benefit Elections and ensure that all elections are correct prior to submitting"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Click "
+                        },
+                        {
+                          "text": "Submit then Done.",
+                          "bold": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "554d065c23574e55a303b8a125cc46ff"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "9d409869d068421ea1732237cb86d345",
+          "edgeType": "Edge",
+          "source": "55b51093b65a4ea49f2fb0f1edfde710",
+          "target": "e0273fcfe31647b89fee6447621df946",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "72562c73fcee476b8ba8a17aa594cd67",
+          "edgeType": "Edge",
+          "source": "e0273fcfe31647b89fee6447621df946",
+          "target": "7fb98b7c6d5e4af7854e1c126eadba00",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>13th Cheque</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>13th Cheque</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2023-05-30 11:37:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>eed4a5b297cbad10fac1f386f053af6d</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>13th Cheque</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_eed4a5b297cbad10fac1f386f053af6d</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-06-12 10:59:36</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=eed4a5b297cbad10fac1f386f053af6d"/>
+</record_update>

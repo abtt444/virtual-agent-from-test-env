@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.42",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "686dbced12694de68a15d3b8773a5c95": {
+          "id": "686dbced12694de68a15d3b8773a5c95",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "23a4f14090a04789be880639f8b20ab0": {
+          "id": "23a4f14090a04789be880639f8b20ab0",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "5e95508e8264460b901b8a7075aedb7b": {
+          "id": "5e95508e8264460b901b8a7075aedb7b",
+          "stepType": "TextOutput",
+          "name": "Tax",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "numbered-list",
+                  "children": [
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Access "
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://wd3.myworkday.com/absa/d/home.htmld",
+                          "children": [
+                            {
+                              "text": "Workday"
+                            }
+                          ]
+                        },
+                        {
+                          "text": "."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Click on View All Apps link"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Click on Personal Information in Apps menu"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Click on Government IDs"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Click the Add (+) icon to add new Tax Reference Number and the Minus (-) to remove the existing Tax Reference Number. Input the required information and click Submit."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Attach Proof of Tax Number from SARS"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "ab05d8f8249b4daa82823d69658f1a23"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "edf63b2947e344dd83d60f7418371011",
+          "edgeType": "Edge",
+          "source": "686dbced12694de68a15d3b8773a5c95",
+          "target": "5e95508e8264460b901b8a7075aedb7b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "516354f7787549d284c45191f572642d",
+          "edgeType": "Edge",
+          "source": "5e95508e8264460b901b8a7075aedb7b",
+          "target": "23a4f14090a04789be880639f8b20ab0",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Tax Number</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Tax Number</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2023-06-12 12:03:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>be772cc397d7e110fac1f386f053afb3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Tax Number</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_be772cc397d7e110fac1f386f053afb3</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-06-12 12:33:55</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=be772cc397d7e110fac1f386f053afb3"/>
+</record_update>

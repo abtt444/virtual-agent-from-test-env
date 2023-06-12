@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.42",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "74589147f8434144b89a70bc334c8f9d": {
+          "id": "74589147f8434144b89a70bc334c8f9d",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "40f325dffc564614a047ce67dcc4a7c9": {
+          "id": "40f325dffc564614a047ce67dcc4a7c9",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "5b35db61aa0244598362d3ea7d07c65e": {
+          "id": "5b35db61aa0244598362d3ea7d07c65e",
+          "stepType": "TextOutput",
+          "name": "Forfeiting Leave  Response",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "numbered-list",
+                  "children": [
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Access "
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://wd3.myworkday.com/absa/d/home.htmld",
+                          "children": [
+                            {
+                              "text": "Workday"
+                            }
+                          ]
+                        },
+                        {
+                          "text": "."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Click on the top far right corner on your Profile (head icon)."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Click on “View Profile”."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "On your left, there’s list written in white on burgundy background."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Scroll down to and click on “Absence”, it should be 3rd from bottom."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Defaulted page will land you on “Absence requests” then click on “Absence balance”"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "Scroll down to “Annual leave Flex” and click on the number under “carryover balance”"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list-item",
+                      "children": [
+                        {
+                          "text": "You will get a pop up with an Expiration date, Associated balance period and units (number of hours)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "acca1ecaf4c64408ba06d28d71e926b7"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "493803cc0cbe4ac798a20ae968acebb6",
+          "edgeType": "Edge",
+          "source": "74589147f8434144b89a70bc334c8f9d",
+          "target": "5b35db61aa0244598362d3ea7d07c65e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0d5652103fbf4b22a417b0400e65a50d",
+          "edgeType": "Edge",
+          "source": "5b35db61aa0244598362d3ea7d07c65e",
+          "target": "40f325dffc564614a047ce67dcc4a7c9",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Leave Forfeiture</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Leave Forfeiture</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2023-06-12 12:37:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>085f280f97d7e110fac1f386f053afe6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Leave Forfeiture</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_cb_topic_085f280f97d7e110fac1f386f053afe6</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-06-12 12:45:53</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=085f280f97d7e110fac1f386f053afe6"/>
+</record_update>

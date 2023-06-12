@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":0,"end":5,"annotatedString":"{{phrase=\"cheque\"}}","cat":null}]</annotation>
+        <entity display_value="13th Cheque">21a62d3697cbad10fac1f386f053af94</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2023-06-12 11:16:08</sys_created_on>
+        <sys_id>ca9c144b9797e110fac1f386f053afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>13th Cheque.cheque</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_ca9c144b9797e110fac1f386f053afec</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-06-12 11:16:08</sys_updated_on>
+        <utterance display_value="cheque">458c904b9797e110fac1f386f053afde</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>
