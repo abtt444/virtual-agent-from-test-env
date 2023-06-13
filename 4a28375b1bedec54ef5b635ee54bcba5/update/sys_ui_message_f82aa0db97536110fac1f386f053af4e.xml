@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:be772cc397d7e110fac1f386f053afb3:node:5e95508e8264460b901b8a7075aedb7b:field:0</key>
+        <language>en</language>
+        <message>1. Access [Workday](https://wd3.myworkday.com/absa/d/home.htmld).
+2. Click on View All Apps link
+3. Click on Personal Information in Apps menu
+4. Click on Government IDs
+5. Click the Add (+) icon to add new Tax Reference Number and the Minus (-) to remove the existing Tax Reference Number. Input the required information and click Submit.
+6. Attach Proof of Tax Number from SARS</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2023-06-13 06:53:47</sys_created_on>
+        <sys_id>f82aa0db97536110fac1f386f053af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:be772cc397d7e110fac1f386f053afb3:node:5e95508e8264460b901b8a7075aedb7b:field:0</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>sys_ui_message_f82aa0db97536110fac1f386f053af4e</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-06-13 06:53:47</sys_updated_on>
+    </sys_ui_message>
+</record_update>

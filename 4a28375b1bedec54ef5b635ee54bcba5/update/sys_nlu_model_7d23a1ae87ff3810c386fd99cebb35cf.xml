@@ -11,7 +11,7 @@
         <name>ml_x_absa2_x_absa2_absa_hr_nl_global_7d23a1ae87ff3810c386fd99cebb35cf</name>
         <oob>false</oob>
         <primary_model/>
-        <state>Published</state>
+        <state>Trained</state>
         <sys_class_name>sys_nlu_model</sys_class_name>
         <sys_created_by>AB019AM</sys_created_by>
         <sys_created_on>2021-11-16 11:05:22</sys_created_on>

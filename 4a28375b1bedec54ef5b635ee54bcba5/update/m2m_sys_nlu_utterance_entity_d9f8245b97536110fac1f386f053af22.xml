@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"start":20,"end":29,"annotatedString":"How do I update the {{phrase=\"tax number\"}}","cat":null}]</annotation>
+        <entity display_value="Tax number">11d8ec1b97536110fac1f386f053afbb</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>thabiso.diphare</sys_created_by>
+        <sys_created_on>2023-06-13 06:48:37</sys_created_on>
+        <sys_id>d9f8245b97536110fac1f386f053af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tax number.How do I update the tax number</sys_name>
+        <sys_package display_value="Absa HR NLU Models" source="x_absa2_absa_hr_nl">4a28375b1bedec54ef5b635ee54bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absa HR NLU Models">4a28375b1bedec54ef5b635ee54bcba5</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_d9f8245b97536110fac1f386f053af22</sys_update_name>
+        <sys_updated_by>thabiso.diphare</sys_updated_by>
+        <sys_updated_on>2023-06-13 06:48:37</sys_updated_on>
+        <utterance display_value="How do I update the tax number">c6eb604b97d7e110fac1f386f053aff3</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>
